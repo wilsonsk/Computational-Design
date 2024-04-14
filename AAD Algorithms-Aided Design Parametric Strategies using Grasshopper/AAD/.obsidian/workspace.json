@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d96dc9f9409e1cd2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Surfaces/Surface Decomposition.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -111,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Surfaces/SubD Surface Patterns.md",
+                "file": "Surfaces/Surface Decomposition.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -128,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Surfaces/SubD Surface Patterns.md",
+                "file": "Surfaces/Surface Decomposition.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -151,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Surfaces/SubD Surface Patterns.md"
+                "file": "Surfaces/Surface Decomposition.md"
               }
             }
           },
@@ -185,12 +197,15 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "4b0fecbe8832befb",
+  "active": "d96dc9f9409e1cd2",
   "lastOpenFiles": [
     "Data/Grids.md",
     "Data/Data Management.md",
+    "Surfaces/Surface Creation.md",
+    "Surfaces/Surface Decomposition.md",
     "Surfaces/SubD Surface Patterns.md",
-    "Data/Surface Strategies.md",
+    "Surfaces/Surface Analysis.md",
+    "Surfaces/Surface Strategies.md",
     "Data/Voronoi Diagrams.md",
     "Surfaces/Meshes.md",
     "Data/Data Trees.md",
@@ -199,7 +214,6 @@
     "Data/Parameters.md",
     "^86b1a0.md",
     "Data/Elemental Building Blocks.md",
-    "Surfaces/Surface Creation.md",
     "images/Pasted image 20240413002551.png",
     "Data/Points.md",
     "Abstract/Computational Methodology.md",
@@ -210,8 +224,6 @@
     "Surfaces/SubD Surface Modeling.md",
     "images/Pasted image 20240413002930.png",
     "Abstract/Abstract Concept.md",
-    "Surfaces/Surface Analysis.md",
-    "Surfaces/Surface Decomposition.md",
     "Data/Data.md",
     "Data/Data Control.md",
     "images/Pasted image 20240412231329.png",

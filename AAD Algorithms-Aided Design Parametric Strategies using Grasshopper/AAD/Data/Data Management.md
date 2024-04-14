@@ -132,7 +132,7 @@ Data trees allow for conditional transformations where certain conditions (like 
 			- Curve set 3: The **exploded, offset polylines** of Curve set 2. 
 			- Curve set 4: The **transformed (scaled and translated) polylines** of Curve set 3.
 ##### Surfaces A 
-The **frame** of the *pyramidal frustums*.
+The [[Grids#1. Grid Definition/Formation on NURBS Surface (i.e. the initial set of edges)]] aka **frame** of the *pyramidal frustums*.
 1. Set reference to a surface from Rhino, and then reparametrize the **Surface** "container" component
 2. Feed the surface into an **[[Surface Analysis#^isotrim-subsrf-operation|Isotrim-SubSrf operation]]** (i.e. a **Divide Domain$^2$** component fed into a **SubSrf** component).
 3. Feed the Isotrim-SubSrf operation output into a **Deconstruct Brep** component.
