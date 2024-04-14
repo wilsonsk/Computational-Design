@@ -1,0 +1,99 @@
+---
+up:
+  - "[[Curves]]"
+related:
+  - "[[Notion of Surface Curvature]]"
+  - "[[Gaussian Curvature]]"
+  - "[[Mean Curvature]]"
+  - "[[Surface Strategies]]"
+  - "[[Surface Analysis]]"
+  - "[[Surface Decomposition]]"
+  - "[[Surface Creation]]"
+  - "[[Nurbs Curves]]"
+date created: 2024-03-20
+---
+# Surfaces
+## Parametric Representation of a surface
+^parametric-representation-of-a-surface
+### Local Coordinate System:
+Just like curves, surfaces can also be represented by the LCS.
+- Defines geometry and manipulation, relative to itself. 
+	- For example, moving a points along a surface without referencing the global coordinate system.
+- Where in curves represented in the LCS require just one parameter *t*, surfaces require **two parameters** *u* and *v*, their values ranging from 0 and 1.
+	- *u* and *v* are **scalars of vectors**, whose **linear combinations** can reach any point on a plane or surface. 
+		- *u* Axis: Runs "horizontally" across a surface.
+		- *v* Axis Runs "vertically" across a surface.
+		![[Pasted image 20240323100355.png|600]]
+- For each **value** *u* in the **set** {u}, the points *P(u1,v)* compose the **sectional curve** *C1*. (i.e. scaling u while **holding v constant**).
+	- *By scaling on parameter and holding the other constant, a curve (specifically, an Isocurve) is generated.* 
+- And, for each **value** v in the **set** {v}, the points *P(u,v1)* compose the **sectional curve** *C2*. (i.e. scaling v while **holding u constant**).
+	- *By scaling on parameter and holding the other constant, a curve (specifically, an Isocurve) is generated.* 
+- Curves *C1* and *C2* are **defined** as **Isocurves** or **Isoparametric Curves**. 
+	- Specifically, *C1* and *C2* are the **isocurves** of a surface *S* at *P(u1,v1)*. 
+	- *C1* isocurves are the curves that are **parallel** to **U**.
+	- *C2* isocurves are the curves that are parallel to **V**.
+	![[Pasted image 20240323102514.png|600]]
+
+### Isocurves/Isoparametric Curves:
+#### *Equal Parameters*:
+Refers to **isoparametric curve**.
+	- Referring to the equality in parameters across the dimensions of an entity or process.
+		- Enabling precise control, analysis and representation. 
+- Is a curve of **constant value** in the **parameter space** of a **surface**.
+	- I.e. Where one parameter remains constant while the other varies.
+		- *For example*:
+			- An isoparametric curve along a surface could be one where the *u* is held constant and the *v* varies (or vice versa).
+				- This generates a curve that flows across the surface following the surface's inherent geometric properties.
+- In the context of NURBS surfaces:
+	- Isocurves are used to indicate the **underlying parametric nature** of the surfaces.
+- They can run in the direction of the *u* or *v* parameters of the surface.
+	- Representing constant values along one parameter while varying along the other.
+Purpose:
+- Help in understanding the shape, form and flow of a surface.
+	- Allow designers to assess curvature, continuity and other geometric properties of the surface.
+- They do not necessarily correspond to the geometric features on the surface.
+	- But are indicative of the surface's parametric definition.
+
+- They are curves with **constant** *u* or *v* values on a surface.
+- Isocurves create a rectangular "grid" generalizing the notion of the Cartesian Grid on a curved surface. 
+	- This concept is **valid** for **every** freeform surface because a **NURBS-surface** can always be thought of as the **deformation** of a **flat-rectangular surface**. 
+	- Surfaces have **bidimensional domains** also called **domain^2** with defined *u* and *v* axes. 
+		![[Pasted image 20240323102612.png|600]]
+	- **Non-rectangular surfaces** are based on **rectangular grids**.
+		- Can be visualized by drawing a surface from a circle or from an ellipse and activating the rectangular grid of **control points**.
+		- Even though the grid **appears** circular, the grid remains rectangular - with the **trimmed** area **hidden**. 
+			- Therefore, the **domain** is **always** **rectangular**. 
+			![[Pasted image 20240323102917.png]]
+
+## Trimmed/Untrimmed Surfaces
+Two different states of surface geometry.
+![[Pasted image 20240323103132.png|600]]
+#### Untrimmed Surface: 
+A surface that **does** **contain** its **full domain**.
+	- Untrimmed surfaces **extend** across the **full domain** of its defining parameter space.
+		- Typically represented as a *rectangle* in *uv* space (i.e. the 2D parametric space)
+			- I.e. Often four sided surfaces, that can take the form of planes, cylinders, cones, spheres, etc. in their entirety. 
+	- Are *mathematically pure*:
+		- The untrimmed surface's edges align exactly with the [[Surfaces#Isocurves/Isoparametric Curves|isoparametric curves]] that define the surface's bounding extents. 
+		- Are defined mathematically by **control points** and **not** have **internal boundaries**.
+		- Easy to manipulate, control and edit within modeling software. ^df13a3
+#### Trimmed Surface: 
+A surface that does **not** **contain** its **domain**.
+- Are surfaces that have had parts of their domain removed or excluded from the final geometry.
+- They can have irregular and complex boundaries that do not [[#^df13a3|conform to isoparametric curves]] that define the surface's bounding extents.
+- The underlying *untrimmed surface* of a trimmed surface **still exists** in its full, original form within the software.
+	- Even though it is not visible in the rendered or displayed model.
+	- These hidden, additional edges can cause complications.
+		- The underlying untrimmed surface extends beyond the visible trimmed boundary.
+			- Complicating offsets, fillets, or some exports, etc.
+		- Additionally:
+			- When performing certain analyses, trimmed edges can sometimes display anomalies due to the mismatch between the mathematical definition of the surface and the visible trimmed boundaries. 
+Why Trimmed Surfaces Exist:
+- Design Flexibility:
+	- Enables designers to create complex, freeform, non rectangular shapes.
+- Intersections and Boolean Operations:
+	- These "cutting" and "combining" operations result in inherently new edges and boundaries that trim the original surface.
+- Efficiency:
+	- Computationally more efficient to trim a larger surface.
+- 
+

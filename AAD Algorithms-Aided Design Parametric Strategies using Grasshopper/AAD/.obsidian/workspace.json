@@ -1,0 +1,236 @@
+{
+  "main": {
+    "id": "c51cc7c634a6f490",
+    "type": "split",
+    "children": [
+      {
+        "id": "5fbc7e636d9ec872",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "962e821fbe4beb91",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Abstract/Computational Design Thinking.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4b0fecbe8832befb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Surfaces/SubD Surface Patterns.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "45d3c9a0ca08745c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data/Grids.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b9a421a4632c1a88",
+    "type": "split",
+    "children": [
+      {
+        "id": "8bdc507a882e5a74",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "70a890f8a800eb39",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9d4f872ae585f47d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "\"Pattern",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f761df1214e34aec",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "a3457d95b32e7cc2",
+    "type": "split",
+    "children": [
+      {
+        "id": "0d3535b6ac463681",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1da50f864e6cdf7a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Surfaces/SubD Surface Patterns.md",
+                "collapseAll": false,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5bfc166816cd1d08",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Surfaces/SubD Surface Patterns.md",
+                "linksCollapsed": true,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "27514826b48a1f22",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "670148f8424107df",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Surfaces/SubD Surface Patterns.md"
+              }
+            }
+          },
+          {
+            "id": "6dc01ebe5a8333ba",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false
+    }
+  },
+  "active": "4b0fecbe8832befb",
+  "lastOpenFiles": [
+    "Data/Grids.md",
+    "Data/Data Management.md",
+    "Surfaces/SubD Surface Patterns.md",
+    "Data/Surface Strategies.md",
+    "Data/Voronoi Diagrams.md",
+    "Surfaces/Meshes.md",
+    "Data/Data Trees.md",
+    "^Transformation Operations.md",
+    "Surfaces/Surfaces.md",
+    "Data/Parameters.md",
+    "^86b1a0.md",
+    "Data/Elemental Building Blocks.md",
+    "Surfaces/Surface Creation.md",
+    "images/Pasted image 20240413002551.png",
+    "Data/Points.md",
+    "Abstract/Computational Methodology.md",
+    "Abstract/Computational Design Thinking.md",
+    "Untitled.md",
+    "Curves/Nurbs Curves.md",
+    "images/Pasted image 20240413134145.png",
+    "Surfaces/SubD Surface Modeling.md",
+    "images/Pasted image 20240413002930.png",
+    "Abstract/Abstract Concept.md",
+    "Surfaces/Surface Analysis.md",
+    "Surfaces/Surface Decomposition.md",
+    "Data/Data.md",
+    "Data/Data Control.md",
+    "images/Pasted image 20240412231329.png",
+    "images/Pasted image 20240413001025.png",
+    "images/Pasted image 20240413000020.png",
+    "Data/Data Operations.md",
+    "Data/Data Relationships.md",
+    "images/Pasted image 20240412233643.png",
+    "images/Pasted image 20240412233615.png",
+    "images/Pasted image 20240412233548.png",
+    "images/Pasted image 20240412221045.png",
+    "Solids",
+    "Transformations",
+    "New Text Document.txt",
+    "Surfaces",
+    "Abstract",
+    "Data",
+    "Curves",
+    "images",
+    "data"
+  ]
+}
