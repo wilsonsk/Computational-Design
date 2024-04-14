@@ -23,13 +23,15 @@ date created: 2024-03-25
  3. Four **Vertices** (V<sub>0</sub>, V<sub>1</sub>, V<sub>2</sub>, V<sub>3</sub>): are **points** that lie at the corners.
  ![[Pasted image 20240324104805.png|500]]
 ### Deconstruct Brep component:
-Is used to **extract** faces, edges, or vertices from a surface. Extracts the maintained **trimmed** surfaces. 
-	**Outputs**:
-		**Faces (F)**: A list of the set of faces contained in the Brep.
-		**Edges (E)**: A list of the set of edges contained in the Brep.
-		**Vertices (V)**: A list of the set of vertices contained in the Brep.
-		![[Pasted image 20240324104820.png|500]]
-
+Deconstructs a Brep into its constituent parts.
+- Is used to **extract** faces, edges, or vertices from a surface. Extracts the maintained **trimmed** surfaces. 
+- Inputs:
+	- (B): Base Brep.
+- **Outputs**:
+	- **Faces (F)**: A list of the **set** of **faces** contained in the Brep.
+	- **Edges (E)**: A list of the **set** of **edges** contained in the Brep.
+	- **Vertices (V)**: A list of the **set** of **vertices** contained in the Brep.
+![[Pasted image 20240324104820.png|500]]
 ### Brep: Boundary Representation (*see* [[Data#Composition/Construction|composition]])
 Describes a way of defining geometric forms using boundaries. 
 - Primitives like boxes, cylinders, cones, etc. are defined by boundary representations.
@@ -82,7 +84,7 @@ Applied to a single subsurface:
 		- (C): The curve (line in this case) to project onto the surface.
 		- (B): The surface on which the curve will be projected.
 
-#### A Space Frame: a 3D truss or structure
+#### A Space Frame: a [[Grids#3D UVW Volumetric Grids|3D]] truss or structure
 - The diagrid algorithm can be extended to a create a **space frame**.
 	- Feed the (F) output from the Deconstruct Brep component into the (S) input of the Evaluate Surface component.
 	- Use a MD Slider (a bi-dimensional number generator) and set the value to (0.5,0.5) to approximate the center point of the input surface (S).
@@ -96,7 +98,7 @@ Applied to a single subsurface:
 	- This generates a line to a point (in the approximate center of each sub-surface) that is normal to each sub-surface (with a distance or length from that sub-surface as controlled by the mono-dimensional number generator).
 		- Then lines from each vertex of the sub-surface is produced to that point
 
-#### Grid of Equidistant points on a generic surface:
+#### Grid of Equidistant Points on a Generic Surface:
 **Parametric Space** can be visualized as a **deformed** **Cartesian Grid** which **perfectly fits** an arbitrary **freeform surface**. 
 - The **dimensions** of the grid are **dependent** on the **initial domain** as well as its **subdivision**.
 	- As a consequence, the **edges do not have the same length** unless the surface curvature is equal to zero.
@@ -107,7 +109,7 @@ Applied to a single subsurface:
 	- It solves the requirement that: to generate a grid with equal-length edges, a grid of equidistant points on a surface must be instantiated. 
 - A unique Chebyshev-net can be found from:
 	- Given two arbitrary transverse curves *u* and *v* starting from an arbitrary point *P* of a surface.
-**To find a grid of equidistant points in a bi-dimensional space**:
+**To find a grid of equidistant points in a [[Grids#Bi-dimensional Pattern|bi-dimensional]] space**:
 1. A generic point *P<sub>0</sub>* is used to draw **two orthogonal** curves *u* and *v*. 
 2. The desired edge length (L) is defined by drawing a **circle** *circle<sub>0</sb>*	with a radius (L) (i.e. equal to the desired edge length) originating from *P<sub>0</sub>*. 
 3. Then intersecting the circle with the **isocurves** *u* and *v* to define *P<sub>1</sub>* and *P<sub>2</sub>*.
@@ -120,7 +122,7 @@ This method can be **extended** to **non-orthogonal curves** *u* and *v*. Result
 - Curves *u* and *v* are **not required** to be straight.
 	- Example of a grid of equidistant points calculated from two isocurves on a **flat surface**:
 		![[Pasted image 20240324141947.png|400]]
-- **Tridimensional Extension** of the bi-dimensional method:
+- **[[Grids#Tri-dimensional Pattern|Tridimensional Extension]]** of the bi-dimensional method:
 	- Implies a tridimensional geometric construction, meaning a set of spheres are used replacing the set of circles.
 	- **Construction** of a Tridimensional net:
 		- Define two generic curves *G1* and *G2* on a surface S, and find their intersection, *P<sub>0</sub>*.

@@ -35,7 +35,9 @@ Is a formula that:
 - **Inputs** degree, control points, and knots.
 - **Outputs** a point location.
 ## Parametric Representation of a NURBS Curve:
-In Rhino 3D, the environment is based on a **World Coordinate System (WCS)** and points on a NURBS curve are defined b (x, y, z).
+### World Coordinate System (WCS):
+In Rhino 3D, the environment is based on a WCS.
+- Points on a NURBS curve are defined b (x, y, z).
 
 If *z=0* then the curve is a **planar** curve and is defined by the coordinates (x, y).
 ![[world coordinate system.png|400]]
