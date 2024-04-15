@@ -13,6 +13,8 @@ related:
 date created: 2024-04-07
 ---
 # Computational Design Thinking
+Achim Menges
+
 Nature itself (the evolutionary force) is a computational thinking entity in that it optimizes in response to environment through iteration - seemingly intentionally as it organizes.
 
 In this abstract mindset, the designer acts similarly to the process of natural selection, iteratively testing and refining geometric components and their assemblies to achieve optimal forms. This process is guided by the principles of efficiency, adaptability, and sustainability, with the final form emerging as a response to environmental constraints and functional requirements. 
@@ -93,7 +95,6 @@ Developed by Ivan Sutherland at MIT.
 				Parametrics, associativity, and rule-based systems generation. 
 
 **Sketchpad extracted the logic** of **identifying interrelated geometries**, and the **objective causality between these interdependent geometries** that **controls** and thus **determines** the **development of form**.  
-
 ###### The Synthesis of Process as a as a Model
 Most importantly, it produced a new perspective of relationship between human thinking and computational processing, and the generation of process itself all obtained as a result of the system. 
 	Abstractly, **the process itself** of the **construction of a drawing within Sketchpad** was a **model** of **the design process**. 

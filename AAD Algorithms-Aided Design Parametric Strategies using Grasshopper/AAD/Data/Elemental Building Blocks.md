@@ -16,6 +16,7 @@ date created: 2024-03-18
 ##### (Numbers constrained by Domains) -> (Range of Points i.e Vertices within the Domain)-> (Lines/Curves i.e. Edges) ->(Planes/Surfaces) -> (Grids subset of Planes/Surfaces) -> (Solids)
 
 ## [[Points|Point]] as the Fundamental Building Block of Form
+I.e. The [[Computational Design Thinking#The Synthesis of Process as a as a Model|fundamental parameter]] of design.
 *For in depth mathematical context, see [[Points#Mathematical Context|mathematical context]]*.
 
 A point is a single entity, or a set with only one element.
@@ -35,6 +36,7 @@ A solid or closed surface is a set of a set of planes/surfaces, each being a set
 	I.e. The series of planes/surfaces bound within a domain.
 	I.e. The transformation of a plane/surface.
 ## [[Transformations#Measures the change between two Points points *P(x,y)* and *P'(x',y')*|Transformations]] of Points as the Fundamental Operation of Generation of Form
+I.e. The [[Computational Design Thinking#The Synthesis of Process as a as a Model|fundamental relationships]] of design.
 
 A transformation of a single point/vertex.
 	Which generates a ordered set of points/vertices.
