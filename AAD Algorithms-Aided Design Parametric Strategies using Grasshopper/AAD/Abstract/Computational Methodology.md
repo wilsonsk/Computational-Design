@@ -1,4 +1,8 @@
 # Computational Methodology
+
+[[Elemental Building Blocks#Points Point as the Fundamental Building Block of Form|Point as the Fundamental Building Block of Form]]
+
+[[Elemental Building Blocks#Transformations Measures the change between two Points points *P(x,y)* and *P'(x',y')* Transformations of Points as the Fundamental Operation of Generation of Form|Transformations of Points as the Fundamental Operation of Generation of Form]]
 ## Involves the following four steps:
 1. Decomposition:
 	1. Breaking something into smaller parts.
@@ -9,10 +13,9 @@
 4. Algorithmic Thinking:
 	1. Create step-by-step instructions to solve the problem.
 
-
 ## Base Principles:
 1. [[Elemental Building Blocks]]
-2. [[Data Trees#Data Structures|Data Structures]]]
+2. [[Data Trees#Data Structures|Data Structures]]
 3. [[building-complexity]]
 4. [[unitization]]
 ## Decomposition

@@ -16,7 +16,7 @@ A **derivative** of a **function** at a point **provides the slope of the tangen
 	- I.e. The **derivative** ***is*** the **slope of the tangent line**.
 		![[Pasted image 20240410150406.png]]
  - The **Tangent line (or vector)** at a single point, represents the **"instantaneous" rate of change** of the curve (i.e. function) at that point. ^f2b939
-	- The slope of this tangent line/vector is given by the **derivative** of the curve/function at this point.
+	- The slope of this tangent line/vector is given by the **derivative** of the curve/function at this point. ^1f0a97
 	- The derivative at any point, gives the direction of the tangent vector at that point.
 		- For surfaces, taking partial derivatives provides the tangent planes.
 ## Derivative as a name:

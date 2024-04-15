@@ -9,6 +9,12 @@ related:
 date created: 2024-03-20
 ---
 # Data Relationships
+## Ratios
+A relationship can be defined as a ratio of two quantities. 
+	Quantifies how a change in one quantity affects the other quantity, or how quantities compare.
+		- I.e. How two quantities relate to each other in scale, intensity or magnitude. 
+			- This relationship can help in analyzing patterns.
+But more broadly a ratio conveys a relationship, that is how things are connected or behave in respect to each other. 
 
 ## "In principle any conceivable network of relations between a given set of element attributes can be constructed".
 -P. Schumacher, The Autopoiesis of Architecture, A New Framework fo r Architecture, Cohn Wiley & Sons, 2010), vol. I, p. 353.
@@ -45,21 +51,27 @@ The primary purpose of establishing data relationships is to capture the inheren
 
 This allows for a coherent and integrated approach to design where changes propagate through the system in a predictable and controlled manner.
 
+## Graphical Representation of Relationships:
+Each point, line, curve, surface, or volume in computational is a representation of relationships between parameters. 
+
+A [[Curves#Lines and "Graphs"|line]] being a representation of a relationship between two variables. 
+	In a broader sense, every geometric transformation in a parametric model symbolizes a set of underlying equations or constraints that describe how the design behaves or changes with varying parameters.
 ## Connections, Dependencies: (i.e. Correlations): 
 Data Relationships represent the **structures** that **define** the **associations** between [[numbers]] (i.e. numerical values). 
 ## **Functions**: (i.e. **mappings**)
 Data Relationships are usually represented or defined by functions.
 ##### Functions: **Map input parameters** **to outputs**
-- Can range from:
-	- Linear mappings
-	- Complex non linear functions
-	- Conditional logic
-- Each defining different outcomes based on specific constraints or conditions.
-	- Numerical constraints can include:
-		- Bounding possible values parameters can be (domain and codomains)
-			- For Example: A function of **one** variable has a **domain** of values in the **x axis** and a **codomain** of values in the **y axis**, meaning for each input value (x) the function provides an output value (y).
-		- Logical criteria
-- These functional mappings are essential for translating design intentions into computational models that can be explored and optimized. 
+###### Can range from:
+- Linear mappings
+- Complex non linear functions
+- Conditional logic
+###### Each defining different outcomes based on specific constraints or conditions.
+- Numerical constraints can include:
+	- Bounding possible values parameters can be (domain and codomains)
+		- For Example: A function of **one** variable has a **domain** of values in the **x axis** and a **codomain** of values in the **y axis**, meaning for each input value (x) the function provides an output value (y).
+	- Logical criteria
+
+These functional mappings are essential for translating design intentions into computational models that can be explored and optimized. 
 ##### Evaluate F(x) component:
 - **(F) input**: A function (relationship) between some other inputs (data).
 - **(x) input**: Single or list of values for the x variable of the function.

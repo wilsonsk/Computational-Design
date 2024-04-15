@@ -28,7 +28,7 @@ Involves checking the distance from each point in the space to all generating po
 #### Fortune's Algorithm:
 A more efficient sweep-line algorithm that constructs the Voronoi diagram in *$O (nlogn)$* time.
 - Which is much faster for computational purposes.
-#### [[Meshes#Delaunay Algorithm aka Delaunay Triangulation|Delaunay Triangulation]]:
+#### [[Meshes#Delaunay Algorithm aka Delaunay Triangulation|Delaunay Triangulation]] (i.e. Delaunay Mesh):
 There is a dual relationship between Voronoi diagrams and Delaunay triangulations. 
 - Given one, you can construct the other. 
 	- The Delaunay triangulation for a set of points produces triangles such that no point is inside the circumcircle of any triangle. 
@@ -124,9 +124,32 @@ Creates/outputs quadrangular (i.e. diamond) and triangular panels on a surface.
 	![[Pasted image 20240413002551.png|400]]
 4. The centroid of each sub-surface is translated according to a scalar factor multiplied by the sub-surface normal unit vector. 
 5. The four bounding vertices and translated centroid for each sub-surface are merged into a single Data Tree branch. 
-6. The **Delaunay Mesh** component is then used to create a mesh pyramid from each branch.
+6. The **[[Meshes#Delaunay Algorithm aka Delaunay Triangulation|Delaunay Mesh]]** component is then used to create a mesh pyramid from each branch.
 	![[Pasted image 20240413002930.png|400]]
 7. The **Image Sample** component is used to generate a list of **non-constant** scalars for the translation of the centroids of the sub-surface.
 	- This non-constant scaling of centroids, is what creates the tri-dimensional pattern. 
 	![[Pasted image 20240413134145.png]]
-	- *The output pyramids at this point throw an error *
+	- *The output pyramids at this point, throw an **error** that is a result of the orientation of each pyramid*.
+The Orientation Error:
+Arising primarily due to the inherent characteristics of how geometries are defined:
+- In a complex model with multiple surfaces (i.e. a patterned mesh in this case), the normals of each sub-surface vary- sometimes significantly. 
+	- This variation depends on the curvature and changes in the geometry of the underlying surface.
+- Specifically, **when the pyramids are generated on these sub-surfaces, each pyramids orientation aligns with the normal at its base point on the sub-surface**.
+	- If the surface and thus (sub-surfaces) are not uniform, and is instead "twisted or undulated", the normals at close points can diverge, leading to pyramids that tilt in different directions even if they are close to each other. 
+		- So the **Delaunay Mesh** component was trying to create meshes in erroneous planes. 
+The solution to the Orientation Error:
+Define individual planes for each pyramid of the pattern, each plane taking into consideration more than just the corresponding normal, but also the normals of nearby points or an averaged direction.
+**Using Plane Normal Component**:
+- **Standardizing Plane Creation**: Generates a z plane based on the normal of the centroid of each sub-surface.
+- **Correction of Orientation**: By creating planes based on the normals but managing these planes as separate entities, the solution standardizes how each pyramid is oriented, regardless of the local variability of the surface normals.
+**Delaunay Triangulation for Unified Structuring**:
+- **Mesh Creation**: Delaunay Triangulation is used to connect these planes into a coherent mesh. It considers points (or in this case, the centroids or reference points of the planes) to create a mesh that maximizes the minimum angle of all the angles of the triangles in the mesh, avoiding "skinny" triangles and ensuring more uniform, aesthetically pleasing tessellations.
+- **Grafting Planes**: By [[Data Trees#Graft Tree component/operation|grafting]] the plane inputs to the Delaunay Triangulation component, each plane is treated as an independent unit. 
+	- This is required to **match** the format of the **Merge** components output. 
+		- I.e. Properly structuring the pyramid input data to be triangulated. 
+**Resulting Uniformity**:
+- **Consistent Orientation**: With each pyramid based on a standardized plane, all pyramids now follow a uniform orientation that aligns more closely with the overall design intent.
+![[Pasted image 20240414151552.png|400]]
+![[Pasted image 20240414151607.png|400]]
+8. The output of the **Delaunay Mesh** component is flipped, then **merged** with the Triangles output of the **Diamond Panels** component that itself has been converted into a mesh via the **[[Meshes#Mesh Surface / Mesh **UV** component|Mesh UV]]** component.
+9. Join and weld the two meshes

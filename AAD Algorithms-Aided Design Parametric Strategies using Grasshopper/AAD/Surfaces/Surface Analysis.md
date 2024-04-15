@@ -9,6 +9,8 @@ related:
   - "[[Curves]]"
   - "[[Surface Decomposition]]"
   - "[[Surface Creation]]"
+  - "[[SubD Surface Patterns]]"
+  - "[[Grids]]"
 date created: 2024-03-25
 ---
 # Surface Analysis:
@@ -74,7 +76,7 @@ Any irregularities or deformations in the surface can often be detected through 
 In digital modeling and rendering, isocurves help in applying materials or textures. By aligning textures with isocurves, one can achieve more natural-looking results where the texture follows the logical structure of the surface. This alignment is crucial for realistic rendering in visualizations and animations.
 ##### 6. Tool Path Generation
 For manufacturing processes, especially in CNC machining or 3D printing, isocurves can guide the creation of tool paths. Ensuring that tool paths align with isocurves can lead to more efficient material removal and better surface finish, particularly on complex geometrical shapes.
-## Dividing a surface:
+## Dividing a Surface into Points:
 ### Divide Surface component:
 Generates a grid or **set of *uv* points** on a given surface with given **number of *uv* segments**. 
 - The Points (P) are the **intersection vertices** of a grid of **isocurves** calculated by dividing the *u* and *v* axes **evenly** by a positive integer.
@@ -87,8 +89,8 @@ Generates a grid or **set of *uv* points** on a given surface with given **numbe
 	- **(N):** Normal vectors at points (P).
 	- **uv**: The local coordinates of those output points.
 ![[Pasted image 20240414091434.png]]
-## Splitting a surface:
-Is  an operation consisting of a **Divide Domain$^2$** components (S) output, fed into a **Subsrf** component's (D) input. ^isotrim-subsrf-operation
+## Splitting a surface into Sub-Surfaces:
+Is an operation consisting of a **Divide Domain$^2$** components (S) output, fed into a **Subsrf** component's (D) input. ^isotrim-subsrf-operation
 
 The **SubSrf** component is used in **conjunction** with the **Divide Domain^2** component. 
 ![[Pasted image 20240324003930.png|500]]

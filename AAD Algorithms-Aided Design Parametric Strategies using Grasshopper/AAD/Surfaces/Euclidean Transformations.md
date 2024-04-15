@@ -14,6 +14,11 @@ date created: 2024-03-27
 # Euclidean Transformations
 Include translations, rotation, orientation, and mirror components.
 
+## Generative Point Transformations:
+These involve taking a point and applying a series of transformations based on some geometric rule or algebraic function, effectively **generating a curve**. 
+
+This could be as simple as rotating a point around a fixed point at varying distances or moving a point along one line (the directrix) while controlling its motion via another rule or line (the generator).
+
 ## Translations: 
 
 ^a338b9
@@ -24,8 +29,6 @@ Translates a geometric entity (G) according to a vector (T).
 - If (F) of the **Unit Z component** is connected with **multiple** numeric **values**, it will return multiple vectors. 
 	- These vectors can be used to perform **multiple translations**.
 		![[Pasted image 20240328001949.png|400]]
-
-
 ## Rotations:
 The **motion** of a rigid body around:
 -  a **fixed** point (i.e. rotation center).

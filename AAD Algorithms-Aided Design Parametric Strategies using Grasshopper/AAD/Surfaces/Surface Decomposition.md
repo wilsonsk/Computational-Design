@@ -1,14 +1,16 @@
 ---
 up:
-  - "[[Surfaces]]"
-related:
   - "[[Surface Analysis]]"
+related:
   - "[[Surface Strategies]]"
   - "[[Notion of Surface Curvature]]"
   - "[[Gaussian Curvature]]"
   - "[[Mean Curvature]]"
   - "[[Curves]]"
   - "[[Surface Creation]]"
+  - "[[Surfaces]]"
+  - "[[SubD Surface Patterns]]"
+  - "[[Grids]]"
 date created: 2024-03-25
 ---
 # Surface Decomposition:
