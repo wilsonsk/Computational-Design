@@ -33,7 +33,13 @@ date created: 2024-03-18
 - **Outputs**: A list
 ## Selecting Data: 
 ### List Item component:
-###### Selects one item
+Retrieve a (one) specific item from a list.
+- Inputs:
+	- (L): Base List.
+	- (i): Item index to be selected.
+	- (W): Wrap index to list bounds.
+- Outputs:
+	- (i): Item at (i) input.
 
 ### Merge component:
 Mergers multiple data streams (lists and Data Trees).
@@ -50,6 +56,12 @@ Mergers multiple data streams (lists and Data Trees).
 - It deletes the specified index items from a list.
 ### Cull Pattern:
 ###### Filters *lists* according to a repeating pattern of Boolean values.
+Removes elements in a list using a repeating bit mask.
+- Inputs:
+	- (L):  List to cull.
+	- (P): Culling pattern.
+- Outputs:
+	- (L): Culled list.
 
 ### Shift List component:
 ###### Shifting items in a list.

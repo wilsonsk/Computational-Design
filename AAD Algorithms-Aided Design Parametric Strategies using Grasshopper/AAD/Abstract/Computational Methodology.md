@@ -46,6 +46,22 @@ Computational Methodology:
 Refers to the process of simplifying complex geometric forms into a series of manageable, quantifiable, and often repeatable elements that can be more easily analyzed, constructed, or fabricated.
 - The abstract mindset or perspective in this context involves viewing architectural forms not as monolithic wholes but as assemblages of discrete, parametrically defined components.
 
+## Identifying the Most Fundamental Parameters of a Geometry
+To intuitively decompose an object down to its fundamental parameters just from observation, it's  effective to start with generator curves and directrices, and then distill further down to the points translated to form these curves. 
+
+This method aligns well with parametric design principles, where the simplest geometric and transformative operations serve as the building blocks for more complex forms. Here’s a more structured approach to help visualize and implement this concept:
+
+1. **Identify the Simplest Geometric Features**: Begin by observing the simplest visible forms and shapes of the object. This could be basic geometries like lines, curves, or circles. In architectural terms, these might be the structural or design outlines.
+    
+2. **Identify Transformations**: Once you've identified these basic forms, consider how they are transformed or manipulated to achieve the final design. Transformations could involve translations, rotations, or scaling of points and lines. For example, a curve might be defined by a series of points (control points in parametric terms) that are manipulated to form a spline or bezier curve.
+    
+3. **Decompose to Points and Relationships**: Break these curves or shapes further down into their constituent points. Consider how these points are related or how they influence the overall geometry through their positioning and movement. This is crucial because it defines how the object can be manipulated or parameterized.
+    
+4. **Parametrize the Relationships**: Convert these observations into parametric terms. For example, if a curve is defined by points that are equidistant or follow a mathematical rule (like a sine wave), these relationships can be parametrized. The parameters might be the distances, angles, or mathematical functions governing their layout.
+    
+5. **Reconstructing from Parameters**: Using the identified parameters and their relationships, reconstruct the object parametrically. This involves setting up parametric equations or functions that describe each component's placement and transformation based on the underlying parameters.
+    
+6. **Iterative Refinement**: Finally, refine your parametric model by adjusting the parameters and observing how changes affect the overall design. This iterative process is key in fine-tuning the design to meet specific aesthetic or functional requirements.
 ## Identifying Key Parameters of the Geometry
 ### 1. **Core Functionality and Purpose Identification**
 

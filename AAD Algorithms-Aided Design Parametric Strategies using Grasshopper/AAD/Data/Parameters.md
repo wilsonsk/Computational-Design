@@ -1,9 +1,8 @@
 ---
 up:
-  - "[[Numbers]]"
+  - "[[Data Control]]"
 related:
   - "[[Data Relationships]]"
-  - "[[Data Control]]"
   - "[[Data Operations]]"
   - "[[2D Parametric Equations]]"
   - "[[3D Parametric Equations]]"
@@ -11,12 +10,14 @@ related:
   - "[[Curves]]"
   - "[[Parametric Space]]"
   - "[[Geometric Space]]"
+  - "[[Numbers]]"
+  - "[[Abstract Mathematical Objects]]"
 date created: 2024-03-20
 ---
 # Parameters
+The **measurable** or **quantifiable** aspects of an [[Abstract Mathematical Objects|abstract mathematical object]] or physical object.
 ###### Attributes of Geometric Objects:
 - Representing properties such as length of an edge, radius of a circle, the angle between two lines, a position or point in a given space, etc.
-
 ###### Control Variables:
 - Represent variables that can be manipulated to change the outcome of a relationship between data. 
 	- **Mathematical Representation**:

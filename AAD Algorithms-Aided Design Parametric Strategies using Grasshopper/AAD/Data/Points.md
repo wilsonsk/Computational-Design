@@ -70,6 +70,11 @@ Represent specific positions in space, and subsequently **compose edges**, which
 	A set of points compose a vertex.
 	A set of vertices compose an edge.
 	A set of edges compose a face.  ^96eec9
+
+### Valence:
+The of **degree** of a vertex (from **graph theory**).
+	I.e. The number of edges that a vertex connects to.
+		Including **loops** which are counted twice.
 	
 
 

@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "962e821fbe4beb91",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data/Elemental Building Blocks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "0a32536255199a40",
             "type": "leaf",
             "state": {
@@ -30,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "91aab5809d209c69",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data/Data Operations.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -60,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "\"List Item",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +78,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -98,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data/Elemental Building Blocks.md",
+                "file": "Data/Data Operations.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -115,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data/Elemental Building Blocks.md",
+                "file": "Data/Data Operations.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -138,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data/Elemental Building Blocks.md"
+                "file": "Data/Data Operations.md"
               }
             }
           },
@@ -172,44 +174,44 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "962e821fbe4beb91",
+  "active": "91aab5809d209c69",
   "lastOpenFiles": [
+    "Data/Loops.md",
+    "Data/Data Operations.md",
     "Abstract/Computational Design Thinking.md",
-    "Data/Elemental Building Blocks.md",
     "Abstract/Computational Methodology.md",
+    "Data/Elemental Building Blocks.md",
+    "Data/Data Trees.md",
+    "Pasted image 20240416134420.png",
+    "Pasted image 20240416134014.png",
+    "Untitled.md",
+    "Pasted image 20240416130925.png",
+    "Data/Data Control.md",
+    "Pasted image 20240416130737.png",
+    "Pasted image 20240416130012.png",
+    "Pasted image 20240416125947.png",
+    "Pasted image 20240416125316.png",
+    "Abstract/Cybernetics.md",
+    "Abstract/Language.md",
+    "Data/Data Management.md",
+    "Abstract/Systems Theory.md",
+    "Abstract/Digital Informing Creativity.md",
+    "Data/Parameters.md",
+    "Abstract/Abstract Mathematical Objects.md",
+    "images/Pasted image 20240415130143.png",
+    "Surfaces/SubD Surface Patterns.md",
+    "Data/Points.md",
+    "images/Pasted image 20240415133016.png",
+    "images/Pasted image 20240415133001.png",
+    "Surfaces/Meshes.md",
     "Data/Data.md",
     "Data/Data Relationships.md",
-    "Data/Parameters.md",
     "Curves/Curves.md",
-    "Data/Points.md",
-    "images/Pasted image 20240414205435.png",
     "Data/Lines.md",
     "[.md",
-    "images/Pasted image 20240414205341.png",
     "Surfaces/Euclidean Transformations.md",
     "Data/Derivatives.md",
     "Data/Limits.md",
-    "Transformations/Transformations.md",
-    "Abstract/Parametric Equations.md",
-    "images/Pasted image 20240414151552.png",
-    "Surfaces/SubD Surface Patterns.md",
-    "Surfaces/Meshes.md",
-    "images/Pasted image 20240414151607.png",
-    "Data/Data Trees.md",
-    "Surfaces/Surface Strategies.md",
-    "Surfaces/Grids.md",
-    "Data/Data Management.md",
-    "Abstract/Abstract Concept.md",
-    "Abstract/Parametric Space.md",
-    "Surfaces/SubD Surface Modeling.md",
-    "Surfaces/Surface Creation.md",
-    "Surfaces/Surface Decomposition.md",
-    "images/Pasted image 20240414091434.png",
-    "images/Pasted image 20240413002551.png",
-    "images/Pasted image 20240413134145.png",
-    "images/Pasted image 20240413002930.png",
-    "images/Pasted image 20240412231329.png",
-    "images/Pasted image 20240413001025.png",
     "Solids",
     "Transformations",
     "New Text Document.txt",

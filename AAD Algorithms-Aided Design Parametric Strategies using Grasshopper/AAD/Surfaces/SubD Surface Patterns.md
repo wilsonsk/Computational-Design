@@ -151,5 +151,36 @@ Define individual planes for each pyramid of the pattern, each plane taking into
 - **Consistent Orientation**: With each pyramid based on a standardized plane, all pyramids now follow a uniform orientation that aligns more closely with the overall design intent.
 ![[Pasted image 20240414151552.png|400]]
 ![[Pasted image 20240414151607.png|400]]
-8. The output of the **Delaunay Mesh** component is flipped, then **merged** with the Triangles output of the **Diamond Panels** component that itself has been converted into a mesh via the **[[Meshes#Mesh Surface / Mesh **UV** component|Mesh UV]]** component.
-9. Join and weld the two meshes
+8. The output of the **Delaunay Mesh** component is [[SubD Surface Modeling#^c3a045|flipped]], then **[[Meshes#^cedf8a|merged]]** with the Triangles output of the **Diamond Panels** component that itself has been converted into a mesh via the **[[Meshes#Mesh Surface / Mesh **UV** component|Mesh UV]]** component.
+9. [[Meshes#^db8799|Join and weld]] the flattened list of the two meshes.
+	![[Pasted image 20240415130143.png|400]]
+10. Finally, use the [[SubD Surface Modeling#Catmull-Clark Subdivision component e2c017|Catmull-Clark]] subD algorithm to subdivide the joined/welded mesh. 
+	![[Pasted image 20240415130204.png|500]]
+	![[Pasted image 20240415130219.png|400]]
+
+## Cull Adjacent Faces
+Removes the internal overlapping faces of join mesh-boxes.
+	Complex shapes are often composed of mesh-boxes.
+![[Pasted image 20240415133001.png|400]]
+![[Pasted image 20240415133016.png|500]]
+### Cull Duplicates component
+Cull points that are **coincident** within tolerance.
+- Inputs:
+	- (P): Points to operate on.
+	- (T): Proximity tolerance distance.
+- Outputs:
+	- (P): Culled points.
+	- (I): Index map of culled points.
+	- (V): [[Points#Valence|Valence]] (i.e. the degree of a vertex).
+		- Number of input points represented by this output point. 
+### Procedure
+1. The joined mesh-box aggregate is exploded.
+2. The centroid is extracted from each individual face.
+3. The list of centroids are used as input (P) points of the **Cull Duplicates** component, with a specified tolerance.
+4. The list of indices of culled points are extracted.
+5. These indices are filtered by an **Evaluate** component with a conditional (F) input of $x>=0$.
+	- Extracts any element with index $x>=0$ which indicates an overlapping centroid point, and thus the corresponding overlapping faces.
+6. The output is a list of Booleans which are then passed to a **Cull Pattern** which compares the original list of indices of coincident centroid points and the filtered list of indices as a culling pattern.
+7. This generates a new list of non culled - that is non-overlapping vertices and thus faces.
+8. This new non-overlapping list of faces is joined into a new mesh.
+	- Which now, does not contain any internal, overlapping faces. 

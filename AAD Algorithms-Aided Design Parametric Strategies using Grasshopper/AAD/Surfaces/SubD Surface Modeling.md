@@ -188,7 +188,7 @@ Repeat the entire process to the newly produced geometry.
 			 - By **[[Meshes#^34a214|flipping]]** the Surfaces set (3) (i.e. lower faces), enables the faces will be [[Meshes#^cc83c8|compatible]].
 				 - I.e. Changing the orientation of the lower faces (normal directions) to match that of the other faces in the unit sub-surface.
 					 - And therefore, can be joined, welded and smoothed.
-			![[Pasted image 20240409124232.png|400]]
+			![[Pasted image 20240409124232.png|400]] ^c3a045
 ### Catmull-Clark Subdivision component: ^e2c017
 Performs **Catmull-Clark subdivision algorithm** to produce a **smooth mesh**.
 - Inputs:

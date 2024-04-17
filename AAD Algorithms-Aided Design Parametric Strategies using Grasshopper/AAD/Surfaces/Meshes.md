@@ -429,7 +429,7 @@ Remember that while triangular meshes are **always** planar...
 - ###### Joining Meshes Vs. Merging Meshes: ^b644d9
 	- ###### Joining Meshes:
 		- Refers to the process of combining multiple mesh entities into a single mesh without necessarily altering the individual vertices or faces of those individual meshes.
-	- ###### Merging Meshes:
+	- ###### Merging Meshes: ^cedf8a
 		- Goes a step further by not only combining multiple mesh objects into one, but also unifying the vertices at the edges with the meshes meet.
 			- This can involve [[#^b0951e|welding]] vertices that are within a certain distance of each other.
 				- Effectively removing the boundary between the original mesh objects.
