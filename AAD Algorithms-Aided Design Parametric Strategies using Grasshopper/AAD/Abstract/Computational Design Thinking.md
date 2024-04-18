@@ -103,7 +103,7 @@ Most importantly, it produced a new perspective of relationship between human th
 				And thus define the structure which is composed of these relating elementary objects. 
 
 Its Expression in Architectural Theory:
-As a **shift**:
+As a **[[Digital Informing Creativity#The Computational Design Paradigm|paradigm shift]]**:
 	From the **view of architecture** as a **material object**.
 		Symbolic representation of physical elements adjacently to each other.
 	To the **view of architecture** as an **[[Data Management#Abstractions (i.e. a set)|abstractions]]**, a **system composed of and working with series of interdependent component systems** (i.e. structures, objects).

@@ -60,7 +60,7 @@ Simplifies a Data Tree by **removing all branching information** and storing all
 ("1 to many") ^graft-data
 Creates a branch for every item within an arbitrary list.  ^615489
 - So a flat list with *N* items that is **grafted** returns a **new list** with *N* branches, that is one branch for each list item.
-- The **Graft Tree** component can be used to match disconnected sets of corresponding objects. 
+- The **Graft Tree** component can be used to [[Data Operations#Data/Input Matching data-matching|match]] disconnected sets of corresponding objects. 
 	- For example: Lofting surfaces from 
 		- Two surfaces (referenced from Rhino) are connected to two **Deconstruct Brep** components to access each surfaces' edges. 
 			- The two outputted lists of edges are then individually **grafted** to produce two new Data Trees with branches for each edge of the original lists. 

@@ -1,4 +1,5 @@
 # Computational Methodology
+## [[Digital Informing Creativity#The Computational Design Paradigm|Is Derived from a Paradigm Shift]]
 
 [[Elemental Building Blocks#Points Point as the Fundamental Building Block of Form|Point as the Fundamental Building Block of Form]]
 

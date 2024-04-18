@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "5fbc7e636d9ec872",
+        "id": "301ce3d225da8c56",
         "type": "tabs",
         "children": [
           {
-            "id": "0a32536255199a40",
+            "id": "d02fad1da1c41501",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Abstract/Computational Design Thinking.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "91aab5809d209c69",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data/Data Operations.md",
+                "file": "Applications/Digital Fabrication.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"List Item",
+                "query": "\"null ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -100,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data/Data Operations.md",
+                "file": "Applications/Digital Fabrication.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -117,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data/Data Operations.md",
+                "file": "Applications/Digital Fabrication.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -140,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data/Data Operations.md"
+                "file": "Applications/Digital Fabrication.md"
               }
             }
           },
@@ -174,44 +160,44 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "91aab5809d209c69",
+  "active": "d02fad1da1c41501",
   "lastOpenFiles": [
-    "Data/Loops.md",
-    "Data/Data Operations.md",
+    "images/Pasted image 20240418132216.png",
+    "Surfaces/Gaussian Curvature.md",
+    "Applications/Digital Fabrication.md",
+    "Data/Parameters.md",
+    "images/Pasted image 20240418132332.png",
+    "images/Pasted image 20240418132246.png",
+    "Curves/The Digital Informing Creativity.md",
+    "Curves/Nurbs Curves.md",
+    "Surfaces/Mean Curvature.md",
     "Abstract/Computational Design Thinking.md",
     "Abstract/Computational Methodology.md",
     "Data/Elemental Building Blocks.md",
-    "Data/Data Trees.md",
-    "Pasted image 20240416134420.png",
-    "Pasted image 20240416134014.png",
-    "Untitled.md",
-    "Pasted image 20240416130925.png",
-    "Data/Data Control.md",
-    "Pasted image 20240416130737.png",
-    "Pasted image 20240416130012.png",
-    "Pasted image 20240416125947.png",
-    "Pasted image 20240416125316.png",
-    "Abstract/Cybernetics.md",
-    "Abstract/Language.md",
-    "Data/Data Management.md",
-    "Abstract/Systems Theory.md",
     "Abstract/Digital Informing Creativity.md",
-    "Data/Parameters.md",
-    "Abstract/Abstract Mathematical Objects.md",
-    "images/Pasted image 20240415130143.png",
-    "Surfaces/SubD Surface Patterns.md",
-    "Data/Points.md",
-    "images/Pasted image 20240415133016.png",
-    "images/Pasted image 20240415133001.png",
+    "Abstract/Tradition vs. Algorithmic Modeling.md",
+    "Surfaces/Notion of Surface Curvature.md",
+    "images/Pasted image 20240417235655.png",
+    "Applications",
+    "Data/Loops.md",
     "Surfaces/Meshes.md",
-    "Data/Data.md",
-    "Data/Data Relationships.md",
-    "Curves/Curves.md",
-    "Data/Lines.md",
-    "[.md",
-    "Surfaces/Euclidean Transformations.md",
+    "Data/Data Operations.md",
+    "images/Pasted image 20240417124531.png",
+    "Surfaces/SubD Surface Patterns.md",
+    "images/Pasted image 20240417234937.png",
+    "images/Pasted image 20240417193837.png",
+    "images/Pasted image 20240417193334.png",
+    "images/Pasted image 20240417193320.png",
+    "Data/Data Trees.md",
+    "images/Pasted image 20240417192053.png",
     "Data/Derivatives.md",
-    "Data/Limits.md",
+    "Data/Number Systems.md",
+    "Surfaces/Surface Decomposition.md",
+    "Data/Data Structures.md",
+    "Abstract/Abstract Mathematical Objects.md",
+    "Data/Data Relationships.md",
+    "Data/Data Control.md",
+    "Abstract/Cybernetics.md",
     "Solids",
     "Transformations",
     "New Text Document.txt",

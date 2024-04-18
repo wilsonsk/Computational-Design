@@ -54,6 +54,7 @@ In contrast, there are many designs not relevant to the complexities of our comp
 ### The Mental Process of Design
 #### The Computational Design Paradigm
 Design is fundamentally relational even before form. 
+	I.e. [[Tradition vs. Algorithmic Modeling#Associative Logic of Computational and Parametric Design|Associative logic]]
 
 This paradigm implies a separation between designer and technical operator. 
 	Both being valid but distinct.

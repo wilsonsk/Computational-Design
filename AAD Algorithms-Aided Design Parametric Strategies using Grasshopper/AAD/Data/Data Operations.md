@@ -40,14 +40,13 @@ Retrieve a (one) specific item from a list.
 	- (W): Wrap index to list bounds.
 - Outputs:
 	- (i): Item at (i) input.
-
 ### Merge component:
 Mergers multiple data streams (lists and Data Trees).
 	**Inputs**:
-	- (D1): Data Stream 1.
-	- (D2): Data Stream 2.
+		- (D1): Data Stream 1.
+		- (D2): Data Stream 2.
 	**Outputs**:
-		(R): Result of merge.
+		- (R): Result of merge.
 ###### Selects two or more items
 ## Filters: 
 
@@ -123,5 +122,12 @@ Removes elements in a list using a repeating bit mask.
 	- Then the last item of the shorter list will be matched repeatedly with each remaining item of the longer list.
 - ##### Cross Reference: 
 	- Matches each item of the 1st list with each and every item of the 2nd list. 
+		- I.e. Cross references data from multiple lists.
+	- Inputs:
+		- (A): List (A) to operate on.
+		- (B): List (B) to operate on.
+	- Outputs:
+		- (A): Adjusted list (A).
+		- (B): Adjusted list (B). 
 	![[Pasted image 20240326133239.png|500]]
 

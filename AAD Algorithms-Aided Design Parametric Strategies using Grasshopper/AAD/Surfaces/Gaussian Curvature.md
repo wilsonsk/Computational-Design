@@ -18,7 +18,7 @@ date created: 2024-03-25
 It is obtained by multiplying the surface's two principal curvatures (k<sub>1</sub> and k<sub>2</sub>) at that point. 
 
 The result describes the intrinsic curvature of the surface, independent of how the surfaces is oriented in space. 
-## **Developable Surfaces**: 
+## Developable Surfaces: 
 ### Zero Principal Curvature:
 - Are **Surfaces** with **null** Gaussian Curvature **at all points of that surface** are **Developable Surfaces**:
 	- Specific type of surfaces that have a Gaussian curvature of **zero** at **every point** on that surface. 
@@ -48,13 +48,16 @@ The result describes the intrinsic curvature of the surface, independent of how 
 ### Sign of Gaussian Curvature
 ![[Pasted image 20240325132939.png|400]]
 ##### Undevelopable Surfaces can have a **positive** or **negative** Gaussian Curvature value.
-- Using basic Operational Properties:
-	- It is **positive** when principal curvature values, *K<sub>1</sub>* and *K<sub>2</sub>,* have the **same** *signs*: are both *negative* or both *positive*.
-		- Implying that the curves *C<sub>1</sub>* and *C<sub>2</sub>* (of the *K<sub>1</sub>* and *K<sub>2</sub>* values for a given point *P*) have their associated **osculating circles** lying on the **same** side of the **generatrix/surface**. 
-		- A **positive** value means the **surface shape** is **convex**, locally dome-shaped (like a sphere) at point *P*.
-	- It is **negative** when principal curvature values, *K<sub>1</sub>* and *K<sub>2</sub>,* have **opposite** *signs*: one is  *negative* and the other is *positive* (or vice versa).
-		- Implying that the curves *C<sub>1</sub>* and *C<sub>2</sub>* (of the *K<sub>1</sub>* and *K<sub>2</sub>* values for a given point *P*) have their associated **osculating circles** lying on the **opposite** sides of the **generatrix/surface** (i.e. one oscualting circle is "under" or "outside" the surface while the other is not). 
-		- A **negative** value means the **surface shape** is **concave**, locally saddle-shaped at point *P*.
-	- If Gaussian Curvature value is **null**, then (in this example case) **C<sub>2</sub>*** is a **straight line**.
-		 ![[Pasted image 20240325133640.png]]
+Using basic Operational Properties:
+###### Positive Gaussian Curvature
+It is positive when principal curvature values, *K<sub>1</sub>* and *K<sub>2</sub>,* have the **same** *signs*: are both *negative* or both *positive*.
+	- Implying that the curves *C<sub>1</sub>* and *C<sub>2</sub>* (of the *K<sub>1</sub>* and *K<sub>2</sub>* values for a given point *P*) have their associated **osculating circles** lying on the **same** side of the **generatrix/surface**. 
+	- A **positive** value means the **surface shape** is **convex**, locally dome-shaped (like a sphere) at point *P*.
+###### Negative Gaussian Curvature
+It is **negative** when principal curvature values, *K<sub>1</sub>* and *K<sub>2</sub>,* have **opposite** *signs*: one is  *negative* and the other is *positive* (or vice versa).
+	- Implying that the curves *C<sub>1</sub>* and *C<sub>2</sub>* (of the *K<sub>1</sub>* and *K<sub>2</sub>* values for a given point *P*) have their associated **osculating circles** lying on the **opposite** sides of the **generatrix/surface** (i.e. one oscualting circle is "under" or "outside" the surface while the other is not). 
+	- A **negative** value means the **surface shape** is **concave**, locally saddle-shaped at point *P*.
+###### Null Gaussian Curvature
+If Gaussian Curvature value is **null**, then (in this example case) **C<sub>2</sub>*** is a **straight line**.
+ ![[Pasted image 20240325133640.png]]
 		
