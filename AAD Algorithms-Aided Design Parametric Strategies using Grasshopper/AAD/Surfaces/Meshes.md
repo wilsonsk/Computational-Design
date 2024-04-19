@@ -79,16 +79,17 @@ date created: 2024-04-03
 							- Four vertices.
 							- Four angles.
 ### Orientation
-- The **connection-order** of the **vertices**:
-	- **Determines** the **orientation** of the **face**.
-	- **Distinguishing** the "front face" from the "back face".
-	- **Front Facing**:
-		- The **edges** that connect **vertices** are in the **counterclockwise** direction.
-	- **Back Facing**:
-		- The **edges** that connect **vertices** are in the **clockwise** direction.
-- **Adjacent Faces**:
-	- Are defined as **compatible** if they have the **same orientation**. ^cc83c8
-		- A mesh is called **orientable** if it is composed of **compatible** faces.
+The **connection-order** of the **vertices**:
+- **Determines** the **orientation** of the **face**.
+- **Distinguishing** the "front face" from the "back face".
+#### Front Facing:
+The **edges** that connect **vertices** are in the **counterclockwise** direction.
+#### Back Facing:
+The **edges** that connect **vertices** are in the **clockwise** direction.
+#### Adjacent Faces:
+Are defined as **compatible** if they have the **same orientation**. ^cc83c8
+##### Orientable Meshes:
+A mesh is called **orientable** if it is composed of **compatible** faces.
 		![[Pasted image 20240403133123.png|400]]
 
 - For each **face** a **normal vector** can be defined:

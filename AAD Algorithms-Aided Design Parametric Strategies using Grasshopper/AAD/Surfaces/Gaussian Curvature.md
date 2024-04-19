@@ -59,5 +59,5 @@ It is **negative** when principal curvature values, *K<sub>1</sub>* and *K<sub>2
 	- A **negative** value means the **surface shape** is **concave**, locally saddle-shaped at point *P*.
 ###### Null Gaussian Curvature
 If Gaussian Curvature value is **null**, then (in this example case) **C<sub>2</sub>*** is a **straight line**.
- ![[Pasted image 20240325133640.png]]
-		
+![[Pasted image 20240325133640.png]]
+A linear extrusion.

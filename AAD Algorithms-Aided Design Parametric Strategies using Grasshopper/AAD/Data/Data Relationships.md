@@ -57,7 +57,7 @@ Each point, line, curve, surface, or volume in computational is a representation
 A [[Curves#Lines and "Graphs"|line]] being a representation of a relationship between two variables. 
 	In a broader sense, every geometric transformation in a parametric model symbolizes a set of underlying equations or constraints that describe how the design behaves or changes with varying parameters.
 ## Connections, Dependencies: (i.e. Correlations): 
-Data Relationships represent the **structures** that **define** the **associations** between [[numbers]] (i.e. numerical values). 
+Data Relationships represent the **structures** that **define** the **associations** between [[Numbers]] (i.e. numerical values). 
 ## **Functions**: (i.e. **mappings**)
 Data Relationships are usually represented or defined by functions.
 ##### Functions: **Map input parameters** **to outputs**

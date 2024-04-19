@@ -158,7 +158,7 @@ Define individual planes for each pyramid of the pattern, each plane taking into
 	![[Pasted image 20240415130204.png|500]]
 	![[Pasted image 20240415130219.png|400]]
 
-## Cull Adjacent Faces
+## Cull Adjacent (i.e. overlapping) Faces
 Removes the internal overlapping faces of join mesh-boxes.
 	Complex shapes are often composed of mesh-boxes.
 ![[Pasted image 20240415133001.png|400]]
