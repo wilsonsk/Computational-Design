@@ -7,6 +7,9 @@ related:
   - "[[Data Relationships]]"
   - "[[Elemental Building Blocks]]"
   - "[[Surface Creation]]"
+  - "[[Secant Line]]"
+  - "[[Limits]]"
+  - "[[Derivatives]]"
 date created: 2024-03-25
 ---
 # Points
@@ -21,6 +24,10 @@ The positions themselves, can compose next higher level structures like lines an
 
 Positions of a curve could be the **start** and **end** **points** of that curve. 
 That is, the **vertices**. 
+
+## Has No Orientation or Size
+
+
 
 ## A Geometry is Just Points
 ### A point just represents a position.

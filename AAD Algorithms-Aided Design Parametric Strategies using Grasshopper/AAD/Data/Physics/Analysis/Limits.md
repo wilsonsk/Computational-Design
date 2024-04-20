@@ -1,6 +1,6 @@
 ---
 up:
-  - "[[Data Relationships]]"
+  - "[[Analysis]]"
 related:
   - "[[Curves]]"
   - "[[Data Operations]]"
@@ -8,6 +8,7 @@ related:
   - "[[Numbers]]"
   - "[[Points]]"
   - "[[SubD Surface Patterns]]"
+  - "[[Data Relationships]]"
 date created: 2024-04-10
 ---
 # Limits

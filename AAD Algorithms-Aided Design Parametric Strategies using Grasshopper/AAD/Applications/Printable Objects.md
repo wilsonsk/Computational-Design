@@ -56,8 +56,6 @@ Therefore, details smaller than the horizontal or vertical resolutions cannot be
 #### 4. Gravity
 The 3D printed object, being a physical object, must obey natural physical laws when printing.
 Basic gravity-point tests and simulations can be performed using external software to check models for successful printability. 
-
-
 ## *Example*: Printable 3D Model/Object
 ### Parametric Modeling of a Vase
 Using a common desktop printer with a **build volume** of 200 x 200 x 200 mm, this example will demonstrate a technique to create printable geometries.

@@ -1,6 +1,6 @@
 ---
 up:
-  - "[[Data Relationships]]"
+  - "[[Analysis]]"
 related:
   - "[[Points]]"
   - "[[Grids]]"
@@ -8,6 +8,7 @@ related:
   - "[[Surfaces]]"
   - "[[Vectors]]"
   - "[[Voronoi Diagrams]]"
+  - "[[Data Relationships]]"
 date created: 2024-04-11
 ---
 # Scalar Fields

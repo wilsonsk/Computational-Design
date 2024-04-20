@@ -1,6 +1,6 @@
 ---
 up:
-  - "[[Data Relationships]]"
+  - "[[Analysis]]"
 related:
   - "[[Data Operations]]"
   - "[[SubD Surface Patterns]]"
@@ -8,6 +8,7 @@ related:
   - "[[Notion of Surface Curvature]]"
   - "[[Numbers]]"
   - "[[Points]]"
+  - "[[Data Relationships]]"
 date created: 2024-04-10
 ---
 # Derivatives
