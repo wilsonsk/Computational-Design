@@ -15,11 +15,16 @@ Developed primarily by Sir Isaac Newton (_Philosophiæ Naturalis Principia Mathe
 Is a system of physics that describes the motion and dynamics of macroscopic objects based on three foundational laws of motion and the universal law of gravitation.
 	 It applies to objects moving at speeds much slower than the speed of light and at scales larger than those of atoms and molecules. 
 
-Operates within a specific [[#Scale|scale]] often referred to as the **Newtonian scale** or **classical scale**. 
+Operates within a specific [[Analysis#Scale|scale]] often referred to as the **Newtonian scale** or **classical scale**. 
 
 Like all physics relies on:
-	[[Analysis#1. Kinematics Identifying the "Present" (i.e. initial) State (of condition, Parameters parameters ).|Kinematics]]
-	[[Analysis#2. Dynamics "Explains" the Causality of a State Change|Dynamics]]
+	[[Analysis#1. Kinematics Identifying the "Present" (i.e. initial) State (of condition, Parameters parameters ).|Kinematics]] specific to its Newtonian [[#Scale (i.e. Newtonian or Classical Scale)|Scale]]
+		Involves the description of the initial state of objects without regard to the causes of motion. 
+		It focuses on parameters such as position, velocity, and acceleration. 
+		By identifying these parameters, kinematics provides a snapshot of where objects are and how they are moving at a specific moment in time, serving as the starting point for predicting future motion.
+	[[Analysis#2. Dynamics "Explains" the Causality of a State Change|Dynamics]] specific to its Newtonian [[#Scale (i.e. Newtonian or Classical Scale)|Scale]]
+		Explores the forces that cause or affect the motion of objects, thus explaining the causality of state changes from the initial conditions. 
+		Dynamics uses the principles of Newton’s laws to relate the motion of objects to the forces acting upon them, allowing the prediction of future states based on how these forces alter an object's motion.
 ## The Key Components of Newtonian (i.e. Classical) Mechanics
 #### Newton’s Three Laws of Motion:
 ###### First Law (Law of Inertia): 
@@ -40,7 +45,23 @@ Newtonian mechanics provides a deterministic framework where the behavior of a p
 Newtonian mechanics provides a deterministic framework where, given initial conditions of a system (positions, velocities, etc.), its future behavior can be precisely predicted using mathematical equations.
 #### Analytical Techniques:
 The framework uses calculus and vector algebra to solve physical problems, enabling the calculation of quantities such as displacement, velocity, acceleration, and various forms of energy in dynamic systems.
-## Scale (i.e. Newtonian or Classical Scale)
+
+## The [[Analysis#The Abstract, Non-Physical Abstract Mathematical Objects Abstract, Non-Physical Environments Environment|Mathematical, Abstract, Non-Physical Environment]] of Newtonian (i.e. Classical) Mechanics 
+
+### Components of the Mathematical Abstract Non-Physical Environment in Newtonian Mechanics
+1. **Euclidean Geometry**:
+    - This is the traditional framework of geometry based on Euclid's postulates, which includes flat, three-dimensional space with infinite divisibility. It provides the spatial structure for Newtonian physics, where points, lines, planes, and volumes are defined in a straightforward, intuitive manner.
+2. **Classical Algebra**:
+    - Newtonian mechanics relies on algebraic operations that obey the standard rules of arithmetic and algebra. This includes solving equations, manipulating expressions, and using algebraic formulas to describe relationships between physical quantities.
+3. **Calculus**:
+    - Developed in part by Newton himself, calculus is fundamental to classical mechanics. It allows the description and analysis of dynamic systems through differential and integral calculus. Calculus provides the tools to deal with continuously changing systems, such as calculating velocities, accelerations, and other rates of change.
+4. **Vector Spaces**:
+    - Vector algebra and vector calculus are essential in classical mechanics to deal with quantities that have both magnitude and direction, such as velocity, acceleration, force, and momentum. Vectors are used to describe linear motion, rotational dynamics, and the forces acting in systems.
+5. **Analytical Mechanics**:
+    - Forms like Lagrangian and Hamiltonian mechanics offer powerful alternative formulations of Newtonian mechanics based on principles of energy conservation and variational calculus. These are abstract formulations that extend the basic Newtonian framework to more complex or constrained systems and provide deeper insights into the principles of dynamics.
+6. **Physical Laws as Mathematical Equations**:
+    - The environment encapsulates physical laws in the form of mathematical equations, such as Newton’s laws of motion (`F = ma` for the second law) and the universal law of gravitation. These equations govern how physical quantities are related and how they evolve over time.
+### Scale (i.e. Newtonian or Classical Scale)
 This scale is characterized by conditions under which the assumptions of classical mechanics hold true.
 	Enabling the use of Newton's laws of motion and universal gravitation to predict the behavior of physical systems accurately. 
 	

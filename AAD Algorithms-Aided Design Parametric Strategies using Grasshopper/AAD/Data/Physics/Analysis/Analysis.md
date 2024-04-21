@@ -9,30 +9,87 @@ date created: 2024-04-19
 ---
 # Analysis
 ## The Study of how to Learn and Make Predictions based on Physics Related Parameters (i.e. make predictions)
-
+As a means to **predict the future** from the present.
+	I.e. Physics utilizes the measurement of changes in the current state of a system to accurately predict future state changes.
 ## All Physics is a Consideration of Two Aspects
 Each aspect has an associated "way" of describing itself. 
 1. [[#Present|Present]]/Initial state.
 	- [[#1. Kinematics Identifying the "Present" (i.e. initial) State (of condition, Parameters parameters ).|Kinematics]].
 2. [[#Future|Future]]/changed state.
 	- [[#2. Dynamics "Explains" the Causality of a State Change|Dynamics]]. 
+## Defining the Context
+What does:
+###### "[[#Scale|Scale]]" mean?
+The Scale defines the possible measurable properties that define a state.
+###### "[[#State|State]]" mean?
+The State defines the initial properties from which change can be defined. 
+###### "[[#Change|Change]]" mean?
+The Change defines the "present" and "future" states. 
+###### "[[#Measurement|Measurement]]" mean?
+###### "[[#Present|Present]]" mean?  
+###### "[[#Future|Future]]" mean?
 
-As a means to **predict the future** from the present.
-	I.e. Physics utilizes the measurement of changes in the current state of a system to accurately predict future state changes.
+### The Abstract, Non-Physical [[Abstract Mathematical Objects#Abstract, Non-Physical Environments|Environment]]
+**Fundamentally** a **scale** is **defined** by the **Mathematical, Abstract, Non-Physical Environment** that **defines** and **constrains** the Mathematical Abstract Non-Physical **Objects** and their behaviors and interactions that are **analyzed** at that scale.
+	It employed because it facilitates clear, objectively causal relationships between these abstract objects.
+		Thereby, defining and enabling these Abstract Mathematical Objects and their behaviors (possible [[#State|states]], properties, conditions, parameters) and the interactions between them.
 
-What does that mean? 
-	Specifically, what does
-		"State" mean?
-		"Change" mean?
-		"Measurement" mean?
-		"Present" mean?  
-		"Future" mean? ^ccec21
+Defines the scales, quantum to macro of the object and their interactions and behaviors.
+#### Reduction of Complexity: 
+A non-physical abstract environment reduces complexity by isolating mathematical concepts from physical attributes. This allows mathematicians to focus on logical relationships without interference from external factors like measurement errors or material properties​​.
+#### Facilitation of Clear, Objective Causality: 
+Abstract environments provide a setting where relationships between mathematical objects are governed by pure logic, enabling clear, objective causality between them. This clarity helps mathematicians to deduce properties and explore mathematical truths through proofs and axioms​​.
+#### Elimination of Ambiguity (i.e. clear, agreed upon, unambiguous definitions): 
+In abstract mathematics, concepts are defined rigorously through axioms and definitions, avoiding the ambiguity that can occur in the physical world​​. This allows mathematicians to draw clear conclusions and develop theories with internal consistency.
+### The Objects that Model the Subject Under Study
+Are [[Abstract Mathematical Objects|Abstract Mathematical Objects]], and therefore, exist within an abstract, non-physical environment.
+
+Abstract Mathematical Objects are used at all scales.
+	But the objects vary at a given. 
+#### The Fundamental Abstract Mathematical Object in Newtonian/Classical Mechanics
+##### A [[Points|Point]]
+The point is the fundamental abstract object of Newtonian/Classical Mechanics.
+###### Primary Properties of a Point
+The fundamental property of a point is its **position**.
+	It is defined by its **coordinates** within a given **space**.
+###### Position
+A measurable, numerical description of a point's location in space.
+	Typically defined **relative** to a reference point or within a coordinate system.
+It specifies the existence of something in relation to other objects or things in space.
+It is a fundamental descriptor.
+
+The **function** of a point can be:
+	To reference a location.
+	To define connectedness of spaces.
+		A space is connected if any two points in the space can be joined by a path, entirely contained within the space. 
+	To define a set of points (as a line).
+	To define geometrical features such as a vertex.
+###### A Point Has No Spatial Extent.
+A point has no **orientation** because it **lacks physical features** and **dimensions**.
+	Points are defined as **Zero-Dimensional**:
+		Points contain no - that is - occupies no length, area or volume. 
+			I.e. A point has no **size**, that is, size (extending into space).
+				An object with orientation (and thus physical characteristics from which to reference orientation) is called a [[Rigid Body|rigid body]].
+##### The Simplest Scenario
+A point in one dimension (1D) (i.e. along the $x-axis$) is the simplest scenario.
+	The dimensions can't be reduced further, and the object is the most fundamental. 
+#### The Fundamental Abstract Mathematical Objects in Quantum Mechanics:
+##### Wavefunction:
+The wavefunction (usually denoted as ψ) is one of the most central concepts in quantum mechanics. It provides a complete description of the quantum state of a particle or a system of particles. The wavefunction is a complex-valued function of space and time, and its absolute square (|ψ|^2) represents the probability density of finding particles at a particular location when a measurement is made.
+##### Operators:
+In quantum mechanics, physical observables such as momentum, position, and energy are represented by operators. These operators act on wavefunctions and are fundamental in the formulation of quantum theories. For instance, the Hamiltonian operator corresponds to the total energy of the system and is crucial in determining how the state of a system evolves over time according to the Schrödinger equation.
+##### Spinors:
+For particles with spin, spinors are used as mathematical objects to describe their quantum states. Spinors are elements of a complex vector space, which encapsulate information about the orientation of a particle's spin and its intrinsic angular momentum.
+##### Qubits:
+In the context of quantum information theory, the qubit is a fundamental unit of quantum information, analogous to the bit in classical information theory. A qubit is a two-state (or two-level) quantum-mechanical system, where the states are represented by vectors in a two-dimensional Hilbert space.
 ### Scale
-Scale refers to the relative size, extent, or magnitude of physical quantities or phenomena as measured or observed in different contexts or frameworks. 
+Scale refers to the relative size, extent, or magnitude of physical quantities or phenomena as measured or observed in different contexts or frameworks (i.e. Newtonian or Quantum scales, etc.). 
+	The Scale determines the measurable [[#State|state]] of the objects defined within it. 
 
-It is a conceptual tool that allows physicists to categorize and compare different physical systems based on their sizes, energies, times, or any other dimensional attributes. 
+A **mathematical scale** is **defined** by or **within** its [[#The Abstract, Non-Physical Abstract Mathematical Objects Abstract, Non-Physical Environments Environment|abstract mathematical environment]]. 
+	Scale is a **conceptual tool** that allows physicists to categorize and compare different physical systems based on their sizes, energies, times, or any other dimensional attributes. 
 
-Each of These [[#^ccec21|Terms]] Has a Different Meaning Depending on the Context of 
+Each of These [[#Defining the Context|Terms]] Has a Different Meaning Depending on the Context of 
 
 **Micro Scale = Quantum Scale**
 **Macro Scale = [[Newtonian Mechanics|Newtonian]] [[Newtonian Mechanics#Scale|Scale]]**
@@ -169,47 +226,7 @@ Where every future state exists within a probability distribution, and thus, is 
 The fundamental interactions are described by quantum field theories like Quantum Electrodynamics (QED) and Quantum Chromodynamics (QCD), where fields rather than forces are the primary focus, and particle interactions are described by exchange particles like photons and gluons.
 ###### Quantum (i.e. micro) Forces
 At the quantum level, forces are understood as interactions mediated by gauge bosons (e.g., photons for electromagnetic force).
-### The Abstract, Non-Physical [[Abstract Mathematical Objects#Abstract, Non-Physical Environments|Environment]]
-It employed because it facilitates clear, objectively causal relationships between these abstract objects.
-Thereby, enabling these Abstract Mathematical Objects.
 
-Used at all scales, quantum to macro.
-#### Reduction of Complexity: 
-A non-physical abstract environment reduces complexity by isolating mathematical concepts from physical attributes. This allows mathematicians to focus on logical relationships without interference from external factors like measurement errors or material properties​​.
-#### Facilitation of Clear, Objective Causality: 
-Abstract environments provide a setting where relationships between mathematical objects are governed by pure logic, enabling clear, objective causality between them. This clarity helps mathematicians to deduce properties and explore mathematical truths through proofs and axioms​​.
-#### Elimination of Ambiguity (i.e. clear, agreed upon, unambiguous definitions): 
-In abstract mathematics, concepts are defined rigorously through axioms and definitions, avoiding the ambiguity that can occur in the physical world​​. This allows mathematicians to draw clear conclusions and develop theories with internal consistency.
-### The Objects that Model the Subject Under Study
-Are [[Abstract Mathematical Objects|Abstract Mathematical Objects]], and therefore, exist within an abstract, non-physical environment.
-
-Used at all scales.
-#### A [[Points|Point]]
-The point is the fundamental abstract object.
-##### Primary Properties of a Point
-The fundamental property of a point is its **position**.
-	It is defined by its **coordinates** within a given **space**.
-###### Position
-A measurable, numerical description of a point's location in space.
-	Typically defined **relative** to a reference point or within a coordinate system.
-It specifies the existence of something in relation to other objects or things in space.
-It is a fundamental descriptor.
-
-The function of a point can be:
-	To reference a location.
-	To define connectedness of spaces.
-		A space is connected if any two points in the space can be joined by a path, entirely contained within the space. 
-	To define a set of points (as a line).
-	To define geometrical features such as a vertex.
-##### A Point Has No Spatial Extent.
-A point has no **orientation** because it **lacks physical features** and **dimensions**.
-	Points are defined as **Zero-Dimensional**:
-		Points contain no - that is - occupies no length, area or volume. 
-			I.e. A point has no **size**, that is, size (extending into space).
-				An object with orientation (and thus physical characteristics from which to reference orientation) is called a [[Rigid Body|rigid body]].
-#### The Simplest Scenario
-A point in one dimension (1D) (i.e. along the $x-axis$) is the simplest scenario.
-	The dimensions can't be reduced further, and the object is the most fundamental. 
 ## The Strategy of Analysis
 ### From one or two fundamental laws/principles, learn to deduce everything
 Protects from becoming dependent on memorizing equations. 

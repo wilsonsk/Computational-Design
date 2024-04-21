@@ -25,13 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data/Physics/Analysis/Newtonian Physics/Newtonian Mechanics.md",
+                "file": "Data/Physics/Analysis/Analysis.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -172,10 +173,11 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "8aa386da754a294b",
+  "active": "91b9036b3666ecda",
   "lastOpenFiles": [
     "Data/Physics/Analysis/Newtonian Physics/Newtonian Mechanics.md",
     "Data/Physics/Analysis/Analysis.md",
+    "state.md",
     "Data/Points.md",
     "Abstract/Abstract Mathematical Objects.md",
     "Probable Reality.md",
@@ -213,7 +215,6 @@
     "Curves/The Digital Informing Creativity.md",
     "Surfaces/Mean Curvature.md",
     "Abstract/Computational Design Thinking.md",
-    "Abstract/Computational Methodology.md",
     "Applications",
     "Solids",
     "Transformations",
