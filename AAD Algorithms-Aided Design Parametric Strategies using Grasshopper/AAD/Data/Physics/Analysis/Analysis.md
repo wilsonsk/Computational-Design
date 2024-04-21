@@ -35,7 +35,7 @@ It is a conceptual tool that allows physicists to categorize and compare differe
 Each of These [[#^ccec21|Terms]] Has a Different Meaning Depending on the Context of 
 
 **Micro Scale = Quantum Scale**
-**Macro Scale = Newtonian Scale**
+**Macro Scale = [[Newtonian Mechanics|Newtonian]] [[Newtonian Mechanics#Scale|Scale]]**
 ### State
 Refers to a comprehensive description of the condition of a system at a given moment.
 	This description includes all the necessary information to determine the system's past or future behavior under specific conditions. 
@@ -216,9 +216,10 @@ Protects from becoming dependent on memorizing equations.
 	Therefore, follow the logic and reasoning to make it derivable. 
 ### Application: Decomposing an Analysis Problem
 #### *Example*: A point on the $x-axis$
-##### Identify the Object/Model
+##### 1. Identify the Object/Model
 ###### Define the Initial State of this Object
 Identify what constitutes the [[#Present|present]] - that is - that [[#State|state]] of the object.
 	I.e. Identify what constitutes the most maximal [[#State|information]] about this present state.
 		1. Place an **origin** on the $x-axis$.
-		2. Place **[[|distance]]** markers on the $x-axis$
+		2. Place **[[|distance]]** **markers** on the $x-axis$.
+			- This enables the measurement of distance.
