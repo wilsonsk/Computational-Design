@@ -8,7 +8,7 @@ date created: 2024-04-20
 ---
 # Quantum Mechanics
 
-## The [[Analysis#The Abstract, Non-Physical Abstract Mathematical Objects Abstract, Non-Physical Environments Environment|Abstract Mathematical Environment]] of Quantum Mechanics
+## The [[Analysis#The Abstract, Non-Physical Abstract Mathematical Objects Abstract, Non-Physical Environments Environment|Abstract Mathematical Space]] of Quantum Mechanics
 The abstract mathematical environment of quantum mechanics is designed to address the unique challenges and phenomena observed at microscopic scales, such as superposition, entanglement, and uncertainty. 
 
 These concepts are fundamentally different from those in classical physics, requiring a distinct and sophisticated mathematical framework for their description and analysis. 

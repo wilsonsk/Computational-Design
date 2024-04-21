@@ -46,7 +46,7 @@ Newtonian mechanics provides a deterministic framework where, given initial cond
 #### Analytical Techniques:
 The framework uses calculus and vector algebra to solve physical problems, enabling the calculation of quantities such as displacement, velocity, acceleration, and various forms of energy in dynamic systems.
 
-## The [[Analysis#The Abstract, Non-Physical Abstract Mathematical Objects Abstract, Non-Physical Environments Environment|Mathematical, Abstract, Non-Physical Environment]] of Newtonian (i.e. Classical) Mechanics 
+## The [[Analysis#The Abstract, Non-Physical Abstract Mathematical Objects Abstract, Non-Physical Environments Environment|Mathematical, Abstract Mathematical Space]] of Newtonian (i.e. Classical) Mechanics 
 
 ### Components of the Mathematical Abstract Non-Physical Environment in Newtonian Mechanics
 ###### Euclidean Geometry:
