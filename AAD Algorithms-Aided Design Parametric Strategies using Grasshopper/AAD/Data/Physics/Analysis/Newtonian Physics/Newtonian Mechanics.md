@@ -49,19 +49,46 @@ The framework uses calculus and vector algebra to solve physical problems, enabl
 ## The [[Analysis#The Abstract, Non-Physical Abstract Mathematical Objects Abstract, Non-Physical Environments Environment|Mathematical, Abstract, Non-Physical Environment]] of Newtonian (i.e. Classical) Mechanics 
 
 ### Components of the Mathematical Abstract Non-Physical Environment in Newtonian Mechanics
-1. **Euclidean Geometry**:
-    - This is the traditional framework of geometry based on Euclid's postulates, which includes flat, three-dimensional space with infinite divisibility. It provides the spatial structure for Newtonian physics, where points, lines, planes, and volumes are defined in a straightforward, intuitive manner.
-2. **Classical Algebra**:
-    - Newtonian mechanics relies on algebraic operations that obey the standard rules of arithmetic and algebra. This includes solving equations, manipulating expressions, and using algebraic formulas to describe relationships between physical quantities.
-3. **Calculus**:
-    - Developed in part by Newton himself, calculus is fundamental to classical mechanics. It allows the description and analysis of dynamic systems through differential and integral calculus. Calculus provides the tools to deal with continuously changing systems, such as calculating velocities, accelerations, and other rates of change.
-4. **Vector Spaces**:
-    - Vector algebra and vector calculus are essential in classical mechanics to deal with quantities that have both magnitude and direction, such as velocity, acceleration, force, and momentum. Vectors are used to describe linear motion, rotational dynamics, and the forces acting in systems.
-5. **Analytical Mechanics**:
-    - Forms like Lagrangian and Hamiltonian mechanics offer powerful alternative formulations of Newtonian mechanics based on principles of energy conservation and variational calculus. These are abstract formulations that extend the basic Newtonian framework to more complex or constrained systems and provide deeper insights into the principles of dynamics.
-6. **Physical Laws as Mathematical Equations**:
-    - The environment encapsulates physical laws in the form of mathematical equations, such as Newton’s laws of motion (`F = ma` for the second law) and the universal law of gravitation. These equations govern how physical quantities are related and how they evolve over time.
-### Scale (i.e. Newtonian or Classical Scale)
+###### Euclidean Geometry:
+This is the traditional framework of geometry based on Euclid's postulates, which includes flat, three-dimensional space with infinite divisibility. It provides the spatial structure for Newtonian physics, where points, lines, planes, and volumes are defined in a straightforward, intuitive manner.
+###### Classical Algebra:
+Newtonian mechanics relies on algebraic operations that obey the standard rules of arithmetic and algebra. This includes solving equations, manipulating expressions, and using algebraic formulas to describe relationships between physical quantities.
+###### **Calculus**:
+Developed in part by Newton himself, calculus is fundamental to classical mechanics. It allows the description and analysis of dynamic systems through differential and integral calculus. Calculus provides the tools to deal with continuously changing systems, such as calculating velocities, accelerations, and other rates of change.
+###### Vector Spaces:
+Vector algebra and vector calculus are essential in classical mechanics to deal with quantities that have both magnitude and direction, such as velocity, acceleration, force, and momentum. Vectors are used to describe linear motion, rotational dynamics, and the forces acting in systems.
+###### Analytical Mechanics:
+Forms like Lagrangian and Hamiltonian mechanics offer powerful alternative formulations of Newtonian mechanics based on principles of energy conservation and variational calculus. These are abstract formulations that extend the basic Newtonian framework to more complex or constrained systems and provide deeper insights into the principles of dynamics.
+###### Physical Laws as Mathematical Equations:
+The environment encapsulates physical laws in the form of mathematical equations, such as Newton’s laws of motion (`F = ma` for the second law) and the universal law of gravitation. These equations govern how physical quantities are related and how they evolve over time.
+## The Fundamental [[Analysis#The Objects that Model the Subject Under Study|Abstract Mathematical Object]] in Newtonian/Classical Mechanics
+### A [[Points|Point]]
+The point is the fundamental abstract object of Newtonian/Classical Mechanics.
+The most fundamental relationship - "this" (i.e. the point) relative to "that" (i.e. all that is **not** the point).
+#### Primary Properties of a Point
+The fundamental property of a point is its **position**.
+	It is defined by its **coordinates** within a given **space**.
+##### Position
+A measurable, numerical description of a point's location in space.
+	Typically defined **relative** to a reference point or within a coordinate system.
+It specifies the existence of something in relation to other objects or things in space.
+It is a fundamental descriptor.
+##### The **function** of a point can be:
+To reference a location.
+To define connectedness of spaces.
+	A space is connected if any two points in the space can be joined by a path, entirely contained within the space. 
+To define a set of points (as a line).
+To define geometrical features such as a vertex.
+##### A Point Has No Spatial Extent.
+A point has no **orientation** because it **lacks physical features** and **dimensions**.
+	Points are defined as **Zero-Dimensional**:
+		Points contain no - that is - occupies no length, area or volume. 
+			I.e. A point has no **size**, that is, size (extending into space).
+				An object with orientation (and thus physical characteristics from which to reference orientation) is called a [[Rigid Body|rigid body]].
+##### The Simplest Scenario
+A point in one dimension (1D) (i.e. along the $x-axis$) is the simplest scenario.
+	The dimensions can't be reduced further, and the object is the most fundamental. 
+### [[Analysis#Scale|Scale]] (i.e. Newtonian or Classical Scale)
 This scale is characterized by conditions under which the assumptions of classical mechanics hold true.
 	Enabling the use of Newton's laws of motion and universal gravitation to predict the behavior of physical systems accurately. 
 	
@@ -78,4 +105,55 @@ The forces involved do not reach the extremes where quantum effects become non-n
 Classical mechanics typically assumes a Euclidean space, where space is three-dimensional and homogeneous, and time is a separate, independent dimension that progresses at a constant rate for all observers.
 ###### Observe Non-Quantum Behavior: 
 The physical phenomena can be described without needing to consider quantum mechanics. The actions and interactions of macroscopic objects do not exhibit observable quantum effects like superposition or entanglement under normal conditions.
+## [[Analysis#State|States]]
+#### Configuration: 
+The arrangement or structure of the system's components, such as the geometric or spatial arrangement of particles in a solid or the phase space configuration in statistical mechanics.
+#### Physical Properties:
+Such as position (i.e. relative distance), momentum, energy, velocity, and other observable quantities that define the physical characteristics of the system.
+#### Quantum Properties:
+For quantum systems, the state includes the wavefunction or quantum fields that describe the probabilities of finding the system in various configurations of position, momentum, spin, and other quantum numbers.
+#### Thermodynamic Properties:
+For systems analyzed under thermodynamics, the state might include temperature, pressure, volume, and internal energy, which describe the system's macroscopic properties.
 
+## [[Analysis#Change|Change]]
+In classical physics, motion is typically described as the displacement of an object in a space over time. 
+
+It is quantified by changes in the position of an object relative to a reference frame. The key elements involved in the description of motion include:
+###### Velocity:
+Change in position over time.
+###### Acceleration:
+Change in velocity over time. These changes can be measured and predicted precisely using Newtonian mechanics under normal conditions, meaning when relativistic effects (those close to the speed of light) or quantum effects (at the atomic and subatomic levels) are negligible.
+## [[Analysis#Kinematics Identifying the "Present" (i.e. initial) State State (of condition, Parameters parameters ).|Kinematics]]
+In Newtonian/Classical kinematics, motion is described using straightforward and intuitive parameters that stem from everyday observations:
+
+**Position**:
+The location of an object in space, typically defined in terms of coordinates in a reference frame (e.g., Cartesian coordinates 𝑥,𝑦,𝑧x,y,z).
+###### Velocity:
+The rate of change of position with respect to time, indicating both the speed and direction of motion. It is a vector quantity, often represented as 𝑣⃗v.
+###### Acceleration:
+The rate of change of velocity with respect to time. This also is a vector quantity, represented as 𝑎⃗a, and it describes how the velocity of an object is changing at any given point.
+###### Time: 
+A continuous variable that represents the progression of events from the past through the present into the future.
+###### Trajectories:
+The paths that objects follow through space as a function of time. These can often be represented by mathematical equations or functions.
+
+## [[Analysis#Dynamics "Explains" the Causality of a State Change|Dynamics]]
+Classical dynamics often provides deterministic results.
+	Where initial conditions clearly, objectively cause (i.e. determine) future states.
+###### Dynamics at the Macro scale is fundamentally based on **Newton’s three laws of motion**:
+###### 1. First Law (Law of Inertia): 
+An object in motion stays in motion with the same speed and in the same direction unless acted upon by an unbalanced force.
+###### 2. Second Law (Law of Acceleration):
+The acceleration of an object is dependent upon two variables - the net force acting upon the object and the mass of the object.
+###### 3. Third Law (Action and Reaction): 
+For every action, there is an equal and opposite reaction.
+###### Equations of Motion:
+Dynamics uses the **equations of motion** that **integrate the effects of forces** to **predict how an object’s velocity and position will change over time**. 
+
+These equations are essential for solving problems involving the motion of objects subject to various macro **forces**.
+###### Classical (i.e. macro) Forces:
+Classical force as a push or pull concept.
+###### Classical (i.e. macro) Energy Methods:
+Dynamics also involves the study of energy in systems, focusing on kinetic energy (energy of motion) and potential energy (energy stored due to an object's position). 
+
+The principles of work and energy, as well as conservation of energy, are crucial for analyzing systems dynamically.

@@ -25,14 +25,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data/Physics/Analysis/Analysis.md",
+                "file": "Data/Physics/Analysis/Newtonian Physics/Newtonian Mechanics.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f3e3c5690bfe8f0d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Quantum Mechanics.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -173,14 +184,15 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "91b9036b3666ecda",
+  "active": "8aa386da754a294b",
   "lastOpenFiles": [
+    "Quantum Mechanics.md",
     "Data/Physics/Analysis/Newtonian Physics/Newtonian Mechanics.md",
     "Data/Physics/Analysis/Analysis.md",
     "state.md",
-    "Data/Points.md",
     "Abstract/Abstract Mathematical Objects.md",
-    "Probable Reality.md",
+    "Data/Points.md",
+    "Data/Physics/Analysis/Probable Reality.md",
     "Data/Physics/Analysis/Derivatives.md",
     "Data/Physics/Analysis/Limits.md",
     "Data/Physics/Analysis/Voronoi Diagrams.md",
@@ -214,7 +226,6 @@
     "Data/Parameters.md",
     "Curves/The Digital Informing Creativity.md",
     "Surfaces/Mean Curvature.md",
-    "Abstract/Computational Design Thinking.md",
     "Applications",
     "Solids",
     "Transformations",

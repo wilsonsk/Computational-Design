@@ -8,7 +8,7 @@ related:
 date created: 2024-04-19
 ---
 # Analysis
-## The Study of how to Learn and Make Predictions based on Physics Related Parameters (i.e. make predictions)
+## The Study of how to Learn and Make Predictions Based on Physics Related [[Parameters|Parameters]] (i.e. make predictions)
 As a means to **predict the future** from the present.
 	I.e. Physics utilizes the measurement of changes in the current state of a system to accurately predict future state changes.
 ## All Physics is a Consideration of Two Aspects
@@ -26,13 +26,13 @@ The State defines the initial properties from which change can be defined.
 ###### "[[#Change|Change]]" mean?
 The Change defines the "present" and "future" states. 
 ###### "[[#Measurement|Measurement]]" mean?
-###### "[[#Present|Present]]" mean?  
-###### "[[#Future|Future]]" mean?
+###### "[[#1. Present|Present]]" mean?  
+###### "[[#2. Future|Future]]" mean?
 
 ### The Abstract, Non-Physical [[Abstract Mathematical Objects#Abstract, Non-Physical Environments|Environment]]
 **Fundamentally** a **scale** is **defined** by the **Mathematical, Abstract, Non-Physical Environment** that **defines** and **constrains** the Mathematical Abstract Non-Physical **Objects** and their behaviors and interactions that are **analyzed** at that scale.
 	It employed because it facilitates clear, objectively causal relationships between these abstract objects.
-		Thereby, defining and enabling these Abstract Mathematical Objects and their behaviors (possible [[#State|states]], properties, conditions, parameters) and the interactions between them.
+		Thereby, defining and enabling these Abstract Mathematical Objects and their behaviors (possible [[#State|states]], properties, conditions, parameters) and the interactions (i.e. rules of interactions and relations) defined between them (called "additional structure).
 
 Defines the scales, quantum to macro of the object and their interactions and behaviors.
 #### Reduction of Complexity: 
@@ -41,47 +41,47 @@ A non-physical abstract environment reduces complexity by isolating mathematical
 Abstract environments provide a setting where relationships between mathematical objects are governed by pure logic, enabling clear, objective causality between them. This clarity helps mathematicians to deduce properties and explore mathematical truths through proofs and axioms​​.
 #### Elimination of Ambiguity (i.e. clear, agreed upon, unambiguous definitions): 
 In abstract mathematics, concepts are defined rigorously through axioms and definitions, avoiding the ambiguity that can occur in the physical world​​. This allows mathematicians to draw clear conclusions and develop theories with internal consistency.
-### The Objects that Model the Subject Under Study
+#### Defining Abstract Environments
+##### Nature of Abstract Environments:
+###### Structural Frameworks:
+**Abstract environments** often **consist** of **sets equipped with additional structure**, which defines operations, relations, or other **properties** that **define** **how** **elements** of the **set** **interact** and **relate** to **each** **other**.
+###### Additional Structure
+Refers to the rules of interactions and relations between the Abstract Mathematical Objects of a given Abstract Environment.
+###### Operational Rules:
+They include rules for how operations are performed, which can involve algebraic operations, transformations, or mappings between elements of the set or between different sets.
+###### Examples of Abstract Environments:
+- **Vector Spaces**: An environment where vectors exist and operations such as vector addition and scalar multiplication are defined.
+- **Fields**: Abstract systems in which addition, subtraction, multiplication, and division operations are defined, except division by zero.
+- **Topological Spaces**: These are sets equipped with a topology, a collection of "open" subsets that satisfy certain properties related to nearness and continuity.
+- **Metric Spaces**: Defined by a set with a metric (distance function) that describes the distance between any two points in the set.
+- **Hilbert Spaces**: Complete metric spaces with an inner product, facilitating the study of geometric and topological ideas in a more abstract setting.
+##### The Framework for Describing and Comparing Abstract Mathematical Environments
+###### Category Theory
+Category theory provides a high-level framework for describing and comparing Abstract Mathematical Environments as well as mathematical structures through the use of categories.
+	And by **abstracting the essence of mathematical objects and focusing on how they interact.**
+		This makes it a cornerstone of modern mathematical theory, enabling a deeper understanding of structures and their interrelations across various branches of mathematics and beyond.
+
+A category is defined by a **set of objects** and **morphisms** (arrows) between those objects that satisfy certain compositional properties. 
+	**Morphisms as Primary Focus**: In category theory, the primary focus is on the relationships (morphisms) between objects. This perspective is particularly useful for comparing how different structures behave and interact, rather than just comparing the structures (objects) themselves.
+	**Functors and Natural Transformations**: These tools in category theory allow for the mapping of objects and morphisms in one category to objects and morphisms in another, preserving their structural relationships. Functors can compare and relate different abstract environments, while natural transformations provide a way to compare functors.
+	**Versatility in Application**: Category theory is not restricted to any specific type of mathematical structure. It can describe sets, spaces, groups, rings, vector spaces, and more, as long as these can be conceptualized as objects with morphisms between them. This versatility makes it a powerful tool for describing a wide range of abstract environments.
+
+The abstract environment in category theory is the entire category itself, which abstractly encapsulates the objects and their interactions.
+### The Abstract Mathematical Objects that Model the Subject Under Study
 Are [[Abstract Mathematical Objects|Abstract Mathematical Objects]], and therefore, exist within an abstract, non-physical environment.
+#### Abstract Mathematical Objects are Defined by Properties and Relations
+These objects are often characterized more by the relationships they have with other objects and the properties they possess rather than any physical attributes.
+
+They are conceptual entities defined within the framework of mathematical logic and theory, independent of any physical realization.
+	These objects are used to model, represent, or describe properties, quantities, or relationships in both pure mathematics and applied sciences.
+	
+Abstract Mathematical Objects are theoretical constructs that exist in the realm of ideas and mathematical theories. 
+	They are not tangible but can be defined by sets of rules or properties in a mathematical system. 
+	These objects serve as the fundamental entities with which mathematicians and scientists work to formulate theories, prove theorems, and model various types of physical and abstract systems.
+	Their abstract nature means they can be universally applied across different areas of study, making them indispensable tools in the scientific exploration of the universe.
 
 Abstract Mathematical Objects are used at all scales.
 	But the objects vary at a given. 
-#### The Fundamental Abstract Mathematical Object in Newtonian/Classical Mechanics
-##### A [[Points|Point]]
-The point is the fundamental abstract object of Newtonian/Classical Mechanics.
-###### Primary Properties of a Point
-The fundamental property of a point is its **position**.
-	It is defined by its **coordinates** within a given **space**.
-###### Position
-A measurable, numerical description of a point's location in space.
-	Typically defined **relative** to a reference point or within a coordinate system.
-It specifies the existence of something in relation to other objects or things in space.
-It is a fundamental descriptor.
-
-The **function** of a point can be:
-	To reference a location.
-	To define connectedness of spaces.
-		A space is connected if any two points in the space can be joined by a path, entirely contained within the space. 
-	To define a set of points (as a line).
-	To define geometrical features such as a vertex.
-###### A Point Has No Spatial Extent.
-A point has no **orientation** because it **lacks physical features** and **dimensions**.
-	Points are defined as **Zero-Dimensional**:
-		Points contain no - that is - occupies no length, area or volume. 
-			I.e. A point has no **size**, that is, size (extending into space).
-				An object with orientation (and thus physical characteristics from which to reference orientation) is called a [[Rigid Body|rigid body]].
-##### The Simplest Scenario
-A point in one dimension (1D) (i.e. along the $x-axis$) is the simplest scenario.
-	The dimensions can't be reduced further, and the object is the most fundamental. 
-#### The Fundamental Abstract Mathematical Objects in Quantum Mechanics:
-##### Wavefunction:
-The wavefunction (usually denoted as ψ) is one of the most central concepts in quantum mechanics. It provides a complete description of the quantum state of a particle or a system of particles. The wavefunction is a complex-valued function of space and time, and its absolute square (|ψ|^2) represents the probability density of finding particles at a particular location when a measurement is made.
-##### Operators:
-In quantum mechanics, physical observables such as momentum, position, and energy are represented by operators. These operators act on wavefunctions and are fundamental in the formulation of quantum theories. For instance, the Hamiltonian operator corresponds to the total energy of the system and is crucial in determining how the state of a system evolves over time according to the Schrödinger equation.
-##### Spinors:
-For particles with spin, spinors are used as mathematical objects to describe their quantum states. Spinors are elements of a complex vector space, which encapsulate information about the orientation of a particle's spin and its intrinsic angular momentum.
-##### Qubits:
-In the context of quantum information theory, the qubit is a fundamental unit of quantum information, analogous to the bit in classical information theory. A qubit is a two-state (or two-level) quantum-mechanical system, where the states are represented by vectors in a two-dimensional Hilbert space.
 ### Scale
 Scale refers to the relative size, extent, or magnitude of physical quantities or phenomena as measured or observed in different contexts or frameworks (i.e. Newtonian or Quantum scales, etc.). 
 	The Scale determines the measurable [[#State|state]] of the objects defined within it. 
@@ -91,7 +91,7 @@ A **mathematical scale** is **defined** by or **within** its [[#The Abstract, No
 
 Each of These [[#Defining the Context|Terms]] Has a Different Meaning Depending on the Context of 
 
-**Micro Scale = Quantum Scale**
+**Micro Scale = [[Quantum Mechanics|Quantum]] [[Quantum Mechanics|Scale]]**
 **Macro Scale = [[Newtonian Mechanics|Newtonian]] [[Newtonian Mechanics#Scale|Scale]]**
 ### State
 Refers to a comprehensive description of the condition of a system at a given moment.
@@ -99,14 +99,6 @@ Refers to a comprehensive description of the condition of a system at a given mo
 
 Is a set of **values** or **properties** or **[[Parameters|parameters]]** that encapsulates all the relevant physical attributes necessary to describe the system fully at any specific point in time. 
 	These attributes can vary depending on the nature of the system and the scale at which it is being observed.
-#### Configuration: 
-The arrangement or structure of the system's components, such as the geometric or spatial arrangement of particles in a solid or the phase space configuration in statistical mechanics.
-#### Physical Properties:
-Such as position (i.e. relative distance), momentum, energy, velocity, and other observable quantities that define the physical characteristics of the system.
-#### Quantum Properties:
-For quantum systems, the state includes the wavefunction or quantum fields that describe the probabilities of finding the system in various configurations of position, momentum, spin, and other quantum numbers.
-#### Thermodynamic Properties:
-For systems analyzed under thermodynamics, the state might include temperature, pressure, volume, and internal energy, which describe the system's macroscopic properties.
 ### Change
 #### Motion as Change
 In the broadest sense, change is considered the motion that measure between different states of a system.
@@ -121,24 +113,6 @@ Is a fundamental dimension in physics that enables us to sequence events, measur
 It is a scalar quantity that is continuous and unidirectional, often considered as flowing from past through present to future. 
 
 Time provides the framework within which change occurs—it acts as the independent variable in most dynamical equations that describe how a system evolves.
-#### Change in Classical (i.e. Newtonian) Mechanics
-##### Classical Change
-In classical physics, motion is typically described as the displacement of an object in a space over time. 
-
-It is quantified by changes in the position of an object relative to a reference frame. The key elements involved in the description of motion include:
-###### Velocity:
-Change in position over time.
-###### Acceleration:
-Change in velocity over time. These changes can be measured and predicted precisely using Newtonian mechanics under normal conditions, meaning when relativistic effects (those close to the speed of light) or quantum effects (at the atomic and subatomic levels) are negligible.
-#### Change in Quantum Mechanics
-In quantum mechanics, the notion of motion differs significantly due to the fundamental principles of the theory, which includes the dual wave-particle nature of matter, uncertainty principle, and superposition. 
-
-Here, motion does not necessarily refer to a particle moving along a well-defined path.
-	Instead, it involves changes in the quantum state of a system, which can be described by:
-###### Wavefunction Evolution:
-The change of the wavefunction over time, according to the Schrödinger equation, dictates the behavior of quantum systems. This evolution governs how the probabilities of finding particles in various positions or states change.
-###### Probability Currents: 
-Rather than describing motion as a path from point A to point B, quantum mechanics often talks about the flow of probability, which can be analogous to motion.
 ### Measurement
 Refers to the process of quantitatively determining the properties or state of an object or phenomenon.
 
@@ -146,9 +120,9 @@ The property or characteristic being measured, such as length, time, mass, tempe
 	Each quantity is defined according to standard definitions and units that provide consistency across measurements.
 
 It involves the collection of data through observation and interaction with the system using instruments and methodologies that provide quantifiable results. 
-### Present
+### 1. Present
 A **state** (static set) of **initial** **conditions** or **parameters** (before a change in any of their values).
-#### 1. Kinematics: Identifying the "Present" (i.e. initial) [[#State|State]] (of condition, [[Parameters|parameters]]).
+#### Kinematics: Identifying the "Present" (i.e. initial) [[#State|State]] (of condition, [[Parameters|parameters]]).
 It is a complete **description** of an initial **state**. 
 	A **list** of only the most **pertinent**, relevant and causal **initial conditions**.
 
@@ -157,75 +131,15 @@ A list of the most **fundamental information** about the **system** at the **ini
 Identify only the most meaningful information - that is - limit the amount of information to only the necessary.
 
 **Does not consider causality**.
-##### Kinematics Have Different Contexts at Different [[#Scale|Scales]]
+##### Kinematics are Different in [[Newtonian Mechanics#Analysis Kinematics Identifying the "Present" (i.e. initial) State State (of condition, Parameters parameters ). Kinematics|Newtonian/Classical Kinematics]] and [[Quantum Mechanics#Analysis Kinematics Identifying the "Present" (i.e. initial) State State (of condition, Parameters parameters ). Kinematics|Quantum Kinematics]]
 
-###### Newtonian (i.e. Classical) Scale
-In classical kinematics, motion is described using straightforward and intuitive parameters that stem from everyday observations:
-
-**Position**:
-The location of an object in space, typically defined in terms of coordinates in a reference frame (e.g., Cartesian coordinates 𝑥,𝑦,𝑧x,y,z).
-###### Velocity:
-The rate of change of position with respect to time, indicating both the speed and direction of motion. It is a vector quantity, often represented as 𝑣⃗v.
-###### Acceleration:
-The rate of change of velocity with respect to time. This also is a vector quantity, represented as 𝑎⃗a, and it describes how the velocity of an object is changing at any given point.
-###### Time: 
-A continuous variable that represents the progression of events from the past through the present into the future.
-###### Trajectories:
-The paths that objects follow through space as a function of time. These can often be represented by mathematical equations or functions.
-###### Quantum Scale
-At the quantum scale, particles do not adhere to classical intuitive paths or trajectories. 
-	Instead, their behavior is described by a set of different parameters that reflect the probabilistic nature of quantum mechanics:	
-###### Wavefunction (𝜓ψ): 
-The fundamental descriptor of a quantum state, representing the amplitude of the probability density function of finding particles like electrons in a particular space and time. The square of the absolute value of the wavefunction, ∣𝜓∣2∣ψ∣2, gives the probability density of the particle’s position.
-###### Probability Density:
-Used instead of definite positions, it provides the likelihood of finding a particle within a particular region of space at a given time.
-###### Operators:
-Mathematical operations that are applied to wavefunctions to obtain observable quantities (like position, momentum). These are integral in defining measurements in quantum mechanics.    
-###### Commutation Relations:
-These define how certain pairs of observables, such as position and momentum, interact and impose fundamental limits on their simultaneous measurability (illustrated by the Heisenberg Uncertainty Principle).
-###### Quantum Numbers: 
-Sets of discrete values that describe properties like the energy levels of electrons in atoms, angular momentum, spin, etc. These numbers are derived from the solutions to the Schrödinger equation for quantum systems.
-###### Entanglement and Superposition:
-Conditions that describe relationships between particles where they share correlated quantum states
-### Future
+### 2. Future
 The **state** of those **initial** **conditions**/**parameters** **"after"** an **interval** (i.e. change) in variable **time**, $t$.
 - The values of such conditions/parameters have to potential to change (i.e. have different values) or remain the same, with a given change/interval in time.
-#### 2. Dynamics: "Explains" the Causality of a State Change
+#### Dynamics: "Explains" the Causality of a State Change
 **Describes** the **state change**.
 And also seeks to **explain the causality** related to **forces** and **torques**.
-##### Dynamics Have Different Contexts (and Predictive/Deterministic Capabilities) at Different Scales
-
-###### Macro Scale (i.e. Classical Dynamics/[[Newtonian Mechanics|Newtonian Mechanics]])
-Classical dynamics often provides deterministic results.
-	Where initial conditions clearly, objectively cause (i.e. determine) future states.
-###### Dynamics at the Macro scale is fundamentally based on **Newton’s three laws of motion**:
-###### 1. First Law (Law of Inertia): 
-An object in motion stays in motion with the same speed and in the same direction unless acted upon by an unbalanced force.
-###### 2. Second Law (Law of Acceleration):
-The acceleration of an object is dependent upon two variables - the net force acting upon the object and the mass of the object.
-###### 3. Third Law (Action and Reaction): 
-For every action, there is an equal and opposite reaction.
-###### Equations of Motion:
-Dynamics uses the **equations of motion** that **integrate the effects of forces** to **predict how an object’s velocity and position will change over time**. 
-
-These equations are essential for solving problems involving the motion of objects subject to various macro **forces**.
-###### Classical (i.e. macro) Forces:
-Classical force as a push or pull concept.
-###### Classical (i.e. macro) Energy Methods:
-Dynamics also involves the study of energy in systems, focusing on kinetic energy (energy of motion) and potential energy (energy stored due to an object's position). 
-
-The principles of work and energy, as well as conservation of energy, are crucial for analyzing systems dynamically.
-###### Micro Scale (i.e. Quantum Dynamics/Quantum Mechanics)
-###### Probabilistic over Deterministic
-Fundamentally [[Probable Reality|probabilistic]], dealing with likelihoods and uncertainties.
-	Where initial conditions **do not** clearly, objectively cause (i.e. do not determine) future states.
-		I.e. No objective causality at this scale.
-
-Where every future state exists within a probability distribution, and thus, is a random draw/sampling a noisy signal, where initial conditions influence probability but do not determine a future state.
-###### A Model of Interactions over "Forces"
-The fundamental interactions are described by quantum field theories like Quantum Electrodynamics (QED) and Quantum Chromodynamics (QCD), where fields rather than forces are the primary focus, and particle interactions are described by exchange particles like photons and gluons.
-###### Quantum (i.e. micro) Forces
-At the quantum level, forces are understood as interactions mediated by gauge bosons (e.g., photons for electromagnetic force).
+##### Dynamics are Different in  [[Newtonian Mechanics#Analysis 1. Kinematics Identifying the "Present" (i.e. initial) State State (of condition, Parameters parameters ). Kinematics|Newtonian/Classical Kinematics]] and [[Quantum Mechanics#Analysis Dynamics "Explains" the Causality of a State Change Dynamics|Quantum Dynamics]]
 
 ## The Strategy of Analysis
 ### From one or two fundamental laws/principles, learn to deduce everything
