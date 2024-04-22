@@ -136,7 +136,6 @@ The rate of change of velocity with respect to time. This also is a vector quant
 A continuous variable that represents the progression of events from the past through the present into the future.
 ###### Trajectories:
 The paths that objects follow through space as a function of time. These can often be represented by mathematical equations or functions.
-
 ## [[Analysis#Dynamics "Explains" the Causality of a State Change|Dynamics]]
 Classical dynamics often provides deterministic results.
 	Where initial conditions clearly, objectively cause (i.e. determine) future states.

@@ -9,21 +9,33 @@ related:
   - "[[Points]]"
   - "[[SubD Surface Patterns]]"
   - "[[Data Relationships]]"
+  - "[[Derivatives]]"
 date created: 2024-04-10
 ---
 # Limits
 ## Limit i.e. *limes*
+### The Limit of a function, $f(x)$ is  $lim_{x→a​}f(x)$
+A limit describes the behavior of a function as its input value (i.e. argument) approaches a particular point, or as it goes to infinity. 
 Meaning the boundary or threshold.
 - The mathematical concept that describes the behavior of a function (i.e. a curve) as its independent variable approaches some boundary value.
 	- I.e. as one value (or point) gets closer to another point. 
 
 A Limit refers to the **value** of a **function's output** as that **function's input** (i.e. a point on the function curve) approaches or gets infinitely close to some point.
+	By looking at the position "now", the position slightly "later" and taking the ratio and bringing "later" as close as possible to right" now", we define a quantity that we can say is the velocity at this "instant".
 	![[Pasted image 20240410151035.png]]
-	- *$f(x)$ is a function that maps every $x$ (i.e. point) to an $F(x)$ on a 2D graph.*
-	- *$f'(a)$ is the **derivative** at a point where $x=a$.*
-	- *$h$ (i.e. the independent variable) represents the **increment or distance** from the point $a$ along the $x-axis$.*
-		- *It is used to measure how far away a point on the curve is from point $a$ when calculating the slope of the secant line.*
-			- *As $h$ approaches zero (i.e. zero distance between a point and point $a$), the secant line approaches the tangent line $T_a$ for point $a$*.
+#### *$f(x)$ is a function that maps every $x$ (i.e. point) to an $F(x)$ on a 2D graph.*
+##### *$f'(a)$ is the **[[Derivatives|derivative]]** at a point where $x=a$.*
+#### *$h$ (i.e. the independent variable) represents the increment or distance or interval from the point $a$ along the $x-axis$.*
+- *It is used to measure how far away a point on the curve is from point $a$ when calculating the slope of the secant line.*
+##### Local Behavior at a Single Point
+$$\lim_{h\to 0}$$
+- *As $h$ approaches zero (i.e. zero distance between a point and point $a$), the secant line approaches the tangent line $T_a$ for point $a$*.
+	- This is considered **local behavior at a point**.
+##### Global Behavior of a Function
+ $$\lim_{h\to \infty}$$
+	- *Can also approach infinity, but the secant line does not to converge to a single point like when h approaches zero.*
+		- *Instead as h grows, the secant line continues to connect increasingly distant points, spanning a large interval.*
+		- This is considered **global behavior of a function**.
 ## The limit as a means of [[Derivatives^limits-as-a-transitions|transition]]:
 Between the **average rate of change** to the **instantaneous rate of change**. 
 - Mathematically, the [[Derivatives^limits-as-a-transitions|derivative]] at a point is defined as the **limit** of the **difference quotient** (the slope of the secant line) as the interval (distance between two values/points) **approaches zero**.
@@ -108,3 +120,28 @@ But they do so in **different ways**.
 - **Behavior of Limits**: 
 	- For discontinuities, the issue is with the function's limit(s) not matching the function's value or not existing. 
 		- For non-differentiability, the limit defining the derivative does not exist due to the slope changing abruptly, even though the function itself smoothly passes through the point.
+
+## Limit of the Average Rate of Change
+### Average Velocity
+#### Average Velocity = $\bar V = dx/dt$
+$dx$ is $\Delta x$ Delta $x$ - i.e. the change in the $x$ value.
+
+$\Delta x$ is also $\Delta f(t)$ which is the change of the output of the function $f(t)$ as $t$ value changes. 
+
+In the most general, $\Delta x = \Delta f(t) = \Delta f(x) = y$  
+	So $\bar V = dx/dt = \Delta x / \Delta t = \Delta f(x) / \Delta t = \Delta y / \Delta x$
+
+$dt$ is $\Delta t$ Delta $t$ - i.e. the change in the $t$ (**time**) value.
+	$dx$, $dt$ imply velocity, which is a function $v(t)$.
+
+![[Pasted image 20240422144312.png|400]]
+
+$\Delta x / \Delta t$ is the **slope** a straight line that connects the two points.
+	As these two points get "closer", the straight line connecting them, would become **[[Tangent|tangent]]** to the curve. 
+	Therefore, the **velocity** at **[[Derivatives|any point]]** in the curve, is **[[Tangent|tangent]]** to the curve at that point. 
+	The Tangent of this angle (the angle formed by the line from the "initial" point to the "changed point" and the line parallel to the $x-axis$, is $\Delta y / \Delta x$ i.e. $dx/dt$.
+	
+The **Limit** of the **average rate (i.e. average velocity)** is
+$v(t) = \Delta x / \Delta t = dx/dt=$ $$\lim_{\Delta t\to 0}\Delta x / \Delta t$$
+	"As $t$ approaches 0" means:
+		 The [[#*$h$ (i.e. the independent variable) represents the **increment or distance** from the point $a$ along the $x-axis$.*|increment]] between two $t$ values on the $x-axis$ gets infinitely smaller, i.e. approaches zero distance between them. 

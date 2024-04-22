@@ -12,7 +12,9 @@ related:
 date created: 2024-04-10
 ---
 # Derivatives
-A **derivative** of a **function** at a point **provides the slope of the tangent vector to the function at that specific point**.^calculus-derivatives
+## The Instantaneous Rate of Change of a Function
+A derivative (of a function) at a single point, is the **value** of the **limit** of the **average rate of change** (i.e. limit of $\Delta y / \Delta x$).
+A **derivative** of a **function** at a point **provides the slope of the [[Tangent|tangent]] vector to the function at that specific point**.^calculus-derivatives
 - The **derivative** (which only exists for a given point) is itself is a **value** that represents the **exact slope** of the **tangent vector** at that **point** it is associated with (on the curve).
 	- I.e. The **derivative** ***is*** the **slope of the tangent line**.
 		![[Pasted image 20240410150406.png]]
