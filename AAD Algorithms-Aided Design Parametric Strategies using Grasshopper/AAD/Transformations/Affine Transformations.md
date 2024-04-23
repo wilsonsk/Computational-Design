@@ -49,7 +49,7 @@ Is a geometric transformation that **enlarges** or **reduces** objects **uniform
 
 ### Image Sampler component
 Converts the chromatic information of an image into numerical values.
-- Every rectangular picture can be visualized as a bi-dimensional domain ranging by default between 0 and 1. 
+- Every rectangular picture can be visualized as a bi-dimensional [[Domain|domain]] ranging by default between 0 and 1. 
 	- If a rectangular grid is superimposed onto the image, then each grid point *P* - defined by its *uv* coordinates in the LCS - provides and **intensity** value as an output.
 		- **Intensity**: 
 			- Measures the **color** values of the image at *P* dependent upon the specific *color model*: RBG, grayscale, etc.  and outputs a value.

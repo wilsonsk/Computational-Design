@@ -23,8 +23,8 @@ date created: 2024-03-18
 	- if the seed values is changed while holding all other inputs the same, a new list of values will be generated.
 ### Construct Domain component: 
 ###### Used to define a numeric set (a [[number-system]]) existing within two numeric extremes (a min and a max value).
-- (A): min value of domain
-- (B): max value of domain
+- (A): min value of [[Domain|domain]]
+- (B): max value of [[Domain|domain]]
 - to change domain space from integer, or real number: edit the component values via right click
 ### Range component: 
 ###### Defines a range of numbers within:

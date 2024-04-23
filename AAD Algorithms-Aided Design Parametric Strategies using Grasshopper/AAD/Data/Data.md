@@ -24,7 +24,7 @@ Through the lens of parametric design, every aspect of an object or space can be
 ## Composition/Construction:
 ^composition
 **Complexity increases** within a **direction** of **composition**, where a set of **compositional elements compose** a **new**, higher level abstraction or **structure**, and this sets of this subsequent structure, itself, composes a relative, new and higher level abstraction. 
-	*Sets of numbers* composing *sets of domains* composing *sets of points* composing *sets of vectors* composing *sets of planes* composing *sets of curves* composing *sets of surfaces* composing *sets of solids*, etc... ^1cd6a4
+	*Sets of numbers* composing *sets of [[Domain|domains]]* composing *sets of points* composing *sets of vectors* composing *sets of planes* composing *sets of curves* composing *sets of surfaces* composing *sets of solids*, etc... ^1cd6a4
 
 **SETS** of these [[Elemental Building Blocks]] are constructed in Grasshopper via [[Data Trees#Lists|lists]] and [[Data Trees#Data Structures|Data Structures]]. And as follows, the composition of sets of these data structures represent or compose design elements, aspects or components of an object. 
 

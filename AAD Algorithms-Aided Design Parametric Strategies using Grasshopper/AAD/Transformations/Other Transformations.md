@@ -62,7 +62,7 @@ Multiple geometries can also be simultaneously morphed to primitive or non-primi
 	![[Pasted image 20240409131448.png]]
 - Consists of two steps:
 	1. Creating a set of (twisted boxes) target boxes (T) on an arbitrary freeform surface.
-		- The **Surface Box** component generates twisted boxes on a surface with a defined bi-dimensional domain (D) and a (H) height. 
+		- The **Surface Box** component generates twisted boxes on a surface with a defined bi-dimensional [[Domain|domain]] (D) and a (H) height. 
 			- ###### Surface Box component:
 				- Create a twisted box on a surface patch.
 					- Inputs:

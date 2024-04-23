@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "92c70b0ab00b52d9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Limits.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "a4a0532c8c7ffc9f",
             "type": "leaf",
             "state": {
@@ -44,31 +32,19 @@
             }
           },
           {
-            "id": "ac2a329572b769f1",
+            "id": "829bae93012cd9c6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8e4dd71aaa4e4eee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Second Derivatives.md",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Limits.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -97,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"abstract environment",
+                "query": "domain",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -135,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Limits.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -152,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Limits.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -175,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md"
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Limits.md"
               }
             }
           },
@@ -209,20 +185,28 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "ac2a329572b769f1",
+  "active": "829bae93012cd9c6",
   "lastOpenFiles": [
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Second Derivatives.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Limits.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Secant Line.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Limits.md",
+    "Transformations/Other Transformations.md",
+    "Data/Numbers.md",
+    "Surfaces/Grids.md",
+    "Data/Elemental Building Blocks.md",
+    "Data/Data Operations.md",
+    "Data/Data.md",
+    "Transformations/Affine Transformations.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
+    "Data/Abstract Mathematical Spaces/Domain.md",
+    "images/Pasted image 20240422233019.png",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Second Derivatives.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Tangent Line.md",
-    "Pasted image 20240422233019.png",
-    "Pasted image 20240422232921.png",
-    "Pasted image 20240422232413.png",
-    "Pasted image 20240422232356.png",
-    "Pasted image 20240422232354.png",
-    "Pasted image 20240422232308.png",
-    "Pasted image 20240422232255.png",
+    "images/Pasted image 20240422232921.png",
+    "images/Pasted image 20240422232413.png",
+    "images/Pasted image 20240422232356.png",
+    "images/Pasted image 20240422232354.png",
+    "images/Pasted image 20240422232308.png",
+    "images/Pasted image 20240422232255.png",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Probable Reality.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Spaces.md",
@@ -240,13 +224,6 @@
     "derivative.md",
     "Derivatives^limits-as-a-transitions.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Newtonian Mechanics.md",
-    "Applications/Digital Fabrication.md",
-    "Abstract/Computational Design Thinking.md",
-    "Abstract/Computational Methodology.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Quantum Mechanics.md",
-    "state.md",
-    "Data/Abstract Mathematical Spaces/Points.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Voronoi Diagrams.md",
     "Data/Abstract Mathematical Spaces/Physics",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics",
     "Data/Abstract Mathematical Spaces/Physics/Analysis",

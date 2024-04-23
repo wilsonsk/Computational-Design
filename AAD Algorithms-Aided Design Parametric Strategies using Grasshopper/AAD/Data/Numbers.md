@@ -13,7 +13,7 @@ related:
 date created: 2024-03-18
 ---
 # Numbers
-## Numbers are **abstract mathematical objects**.
+## Numbers are **[[Abstract Mathematical Objects|Abstract mathematical Objects]]**.
 
 Numbers are **fundamental data elements** as they **serve** as the primary means through which **[[Data]]** **is** **quantified** ([[Parameters]]), **[[Data Operations]] are performed** and **[[Data Relationships]] are defined**.
 
@@ -21,18 +21,12 @@ Numbers represent a **language** (via **MAPPING**) through which aspects (of a d
 
 We **apply** numbers to aspects of experience that we want to interact with at some level. That is, measure, control or manipulate.
 
-## **Domain**:
-^domain
-#### The area or **bounds** of a range of data.
-
-Is simply, the **set**, or **defined min and max values** between which other values of that domain are contained. 
-
 ##### **Quantification of Properties:** **Mapping** via units
 1. Numbers **facilitate** the **measuring** of physical **properties** and design parameters such as dimensions, angles, distances and material properties via a **mapping of units to the geometrical aspects of an object**
 2. **Understanding how [[Number Systems]] MAP to Geometrical Systems**
 	1. **Unified Scaling** ([[unitization]]):
 		1. **Normalization**: reparameterization of scale
-			1. This is where we map a domain ([[number-system]]) of numbers to 0-1, which unifies its scale with any other element that is also mapped to 0-1
+			1. This is where we map a [[Domain|domain]] ([[number-system]]) of numbers to 0-1, which unifies its scale with any other element that is also mapped to 0-1
 				1. this means that 50% of one element still means 50% when applied to another element. 
 					1. before mapping to 0-1 a **curve** of say length *588* has a half way point represented by *294*, not represented by *0.5*
 					2. *see* [[Curves#^linear-interpolation]] *for a more in depth understanding (why this effects curves and not lines, etc.)*

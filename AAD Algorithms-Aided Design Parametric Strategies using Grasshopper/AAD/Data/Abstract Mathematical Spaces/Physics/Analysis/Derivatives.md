@@ -17,7 +17,7 @@ date created: 2024-04-10
 Proportion is fundamental to the concept of the derivative.
 It [[Measurement|measures]] the output ($\Delta y$) of a function $f(x)$ is proportioned to the input ($\Delta x$) at an infinitesimally small scale.
 ### Is the Instantaneous Rate (i.e. Proportion) of Change of a Function
-A derivative (of a function $f(x)$) at a single point $f'(x)$, is the **value** of the **limit** of the **average rate of change** (i.e. limit of $\Delta y / \Delta x$).
+A derivative (of a function $f(x)$) at a single point $f'(x)$, is itself a function that maps that single point (as an input) to the **value** of the **limit** of the **average rate of change** (i.e. limit of $\Delta y / \Delta x$) of that input.
 #### Is the [[Tangent Line#The Slope of a Tangent Line|Slope]] (i.e. a proportion/rate/ratio between $\Delta y / \Delta x$) of the [[Tangent Line|Tangent Line]]
 A **derivative** of a **function** at a point **provides the slope of the [[Tangent Line|tangent]] line to the function at that specific point**.^calculus-derivatives
 - The **derivative** (which only exists for a given point) is itself is a **value** that represents the **exact slope** of the **tangent vector** at that **point** it is associated with (on the curve).
@@ -27,7 +27,7 @@ A **derivative** of a **function** at a point **provides the slope of the [[Tang
 	- The slope of this tangent line/vector is given by the **derivative** of the curve/function at this point. ^1f0a97
 	- The derivative at any point, gives the direction of the tangent vector at that point.
 		- For surfaces, taking partial derivatives provides the tangent planes.
-## Derivative as a name:
+## Derivative as a Name:
 - First used by mathematician Lagrange in the late 18th century.
 	- Derived from the Latin word "derivare", which means:
 		- "To draw off" or "to take from".

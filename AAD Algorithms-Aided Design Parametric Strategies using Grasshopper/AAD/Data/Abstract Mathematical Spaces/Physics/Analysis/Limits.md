@@ -23,11 +23,20 @@ Meaning the boundary or threshold.
 A Limit refers to the **value** of a **function's output** as that **function's input** (i.e. a point on the function curve) approaches or gets infinitely close to some point.
 	By looking at the position "now", the position slightly "later" and taking the ratio and bringing "later" as close as possible to right" now", we define a quantity that we can say is the velocity at this "instant".
 	![[Pasted image 20240410151035.png]]
-#### *$f(x)$ is a function that maps every $x$ (i.e. point) to an $F(x)$ on a 2D graph.*
+#### *$f(a)$ is a function that maps every $x$ (i.e. point) to an $f(a)$ on a 2D graph.*
+More generally a function called $f(x)$
 ##### *$f'(a)$ is the **[[Derivatives|derivative]]** (i.e. the [[Tangent Line#The Derivatives Is the Tangent Line The Slope of a Tangent Line Slope (i.e. a proportion/rate/ratio between $ Delta y / Delta x$) of the Tangent Line Tangent Line Slope of a Tangent Line|slope]] of the [[Tangent Line|tangent line]]) at a point where $x=a$.*
 #### *$h$ (i.e. the independent variable) represents the increment or distance or interval from the point $a$ along the $x-axis$.*
 - *It is used to measure how far away a point on the curve is from point $a$ when calculating the slope of the secant line.*
 #### *$f(a + h) == f(\Delta a)$*
+##### $f(a+h) - f(a)$ is the "rise" i.e. the Sine or the "opposite side" of the [[Secant Line#As the Proportion Visually it is the Hypotenuse of a Right Triangle Hypotenuse of the Triangle Representing the Derivatives Formally, the derivative at a point $a$, is **defined** as the Limits limit of the slope of the Secant Line secant line (i.e. **average rate of change**) Average Rate of Change|Right Triangle]] that Represents the [[Secant Line#The Average Rate of Change|Slope of the Average Rate of Change]] (i.e. the Secant Line)
+Is equivalent to $\Delta f(a) == \Delta y$
+$[f(a), f(a+h)]$ are the **[[Domain|bounds]]** **of** an **interval**. 
+	Where $h$ is the value between the bounds.
+##### $(a + h) - a$ is the "run" i.e. the Cosine or the "adjacent side" of the [[Secant Line#As the Proportion Visually it is the Hypotenuse of a Right Triangle Hypotenuse of the Triangle Representing the Derivatives Formally, the derivative at a point $a$, is **defined** as the Limits limit of the slope of the Secant Line secant line (i.e. **average rate of change**) Average Rate of Change|Right Triangle]] that Represents the [[Secant Line#The Average Rate of Change|Slope of the Average Rate of Change]] (i.e. the Secant Line) 
+Is equivalent to $\Delta a == \Delta x$
+$[a, a+h]$ are the **[[Domain|bounds]]** **of** an **interval**. 
+	Where $h$ is the value between the bounds.
 
 ![[Pasted image 20240422232413.png]]
 ##### Local Behavior at a Single Point
@@ -39,7 +48,7 @@ $$\lim_{h\to 0}$$
 	- *Can also approach infinity, but the secant line does not to converge to a single point like when h approaches zero.*
 		- *Instead as h grows, the secant line continues to connect increasingly distant points, spanning a large interval.*
 		- This is considered **global behavior of a function**.
-## The limit as a means of [[Derivatives^limits-as-a-transitions|transition]]:
+## The Limit as a Means of [[Derivatives^limits-as-a-transitions|Transition]]:
 Between the **average rate of change** to the **instantaneous rate of change**. 
 - Mathematically, the [[Derivatives^limits-as-a-transitions|derivative]] at a point is defined as the **limit** of the **difference quotient** (the slope of the secant line) as the interval (distance between two values/points) **approaches zero**.
 	- Therefore, if this limit exists at this point, then the function is **differentiable** at that point.
@@ -57,7 +66,6 @@ Continuity at a point means that there is **no** interruption in the curve (i.e.
 				- This means that as you get closer to $a$ from either side, the function's output values approach the same number.
 	1. **The function's output value at $a$ equals the limit at $a$**.
 		- I.e. The **value** $f(a)$ is **equal** to the **limit** of $f(x)$ as **$x$ approaches $a$**.
-
 #### Non-Differentiability Without Discontinuity
 A function can be continuous but not [[Derivatives#Differentiability|differentiable]] at a point. 
 - This happens when the function's graph has a sharp turn or cusp at that point. 
@@ -77,7 +85,6 @@ Discontinuity at a point means there is a **sudden change in direction**, an **i
 		- So there is no single value that $f(x)$ is approaching. 
 			- As a result, the overall limit at $a$ does not exist.
 				- And **for a derivative to exist at point $a$, this limit must exist** for that point (and be the **same value** **irrespective of the direction** from which **$h$ approaches zero)**.
-
 #### Why [[Discontinuities|Discontinuities]] (i.e. disruptions in smoothness) Prevent the Existence of a Limits
 Discontinuities create a break in the function that disrupts the foundational requirement for limits, and since derivatives are defined in terms of limits, a discontinuity at a point means you cannot have a derivative at that point. 
 - The prevention of derivatives due to discontinuities is a direct consequence of the definition of a derivative requiring a well-defined limit.
@@ -90,17 +97,15 @@ Discontinuities create a break in the function that disrupts the foundational re
 - A discontinuity at a point means that there is a break in this consistency.
 	- There could be a jump in the function values ([[Discontinuities#Jump Discontinuity|jump discontinuity]]), or the function could go off to infinity ([[Discontinuities#Infinite Discontinuity|infinite discontinuity]]), or the function could simply not be defined at the point ([[Discontinuities#Removable Discontinuity|removable discontinuity]]).
 
-**Derivatives Rely on Limits**: 
+**[[Derivatives|Derivatives]] Rely on Limits**: 
 - The derivative at a point is defined as the limit of the slope of the secant lines as the interval between the points on the lines approaches zero. 
 	- [[Derivatives#^discontinuities-prevent-limits-which-prevent-deriviatives|If the limit doesn't exist because the function isn't approaching the same value from both sides, then the derivative cannot be defined.]]
 
 **Impact on Derivatives**: 
 - Without a limit, there is no way to talk about the slope of the function at the point of discontinuity. 
 	- You cannot have an instantaneous rate of change (derivative) where there is no consistent value for the function at that point.
-
 #### Both Non-Differentiability and Discontinuities "Break Consistency of a Limit at a Point"
 But they do so in **different ways**.
-
 ##### Discontinuity:
 - **Definition**: 
 	- A discontinuity at a point $x=a$ occurs when a function does not have a well-defined limit at that point, or the limit exists but does not equal the function's value at $a$ (if it's defined at all).
@@ -123,7 +128,6 @@ But they do so in **different ways**.
 - **Behavior of Limits**: 
 	- For discontinuities, the issue is with the function's limit(s) not matching the function's value or not existing. 
 		- For non-differentiability, the limit defining the derivative does not exist due to the slope changing abruptly, even though the function itself smoothly passes through the point.
-
 ## Limit of the Average Rate of Change
 ### Average Velocity
 #### Average Velocity = $\bar V = dx/dt$
