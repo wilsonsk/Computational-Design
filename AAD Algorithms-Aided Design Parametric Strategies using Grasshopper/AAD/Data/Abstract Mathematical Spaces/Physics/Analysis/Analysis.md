@@ -95,12 +95,12 @@ And also seeks to **explain the causality** related to **forces** and **torques*
 ### From one or two fundamental laws/principles, learn to deduce everything
 Protects from becoming dependent on memorizing equations. 
 	Therefore, follow the logic and reasoning to make it derivable. 
-### Newtonian/Classical Mechanics Application: Decomposing an Analysis Problem
+###  Application: Decomposing an Newtonian/Classical Mechanics Problem
 #### *Example*: A point on the $x-axis$
 ##### Goal I: [[#Kinematics Identifying the "Present" (i.e. initial) State State (of condition, Parameters parameters ).|Kinematics]]: Identify the Initial State of Object Within its System
 
 ###### 1. Identify the Object/Model
-###### Define the Initial State of this Object
+###### 2. Define the Initial State of this Object
 Identify what constitutes the [[#1. Present]] - that is - that [[#State|state]] of the object.
 	I.e. Identify what constitutes the most maximal [[#State|information]] about this present state.
 		1. Place an **origin** on the $x-axis$.
@@ -108,9 +108,10 @@ Identify what constitutes the [[#1. Present]] - that is - that [[#State|state]] 
 			- This enables the [[Measurement|measurement]] of distance.
 				- And therefore, enables a **[[Position|position]]** (i.e. location).
 	- Don't forget to translate units. 
-###### The Result
+##### The Result
 Is an **object** at a given **initial / instant** with an **location**.
-
 ##### Goal II: [[#Dynamics "Explains" the Causality of a State Change|Dynamics]]: Identify the Change Between Two States
-###### The Application of [[Limits#Limit of the Average Rate of Change|Calculus]] 
+###### The Application of [[Limits|Calculus]]: The [[Limits#Average Velocity|Limit of the Average Velocity]] (i.e. Average Rate of Change)
+The [[Derivatives#|derivative]] *is* the **[[Limits#Limit of the Average Rate of Change|limit]]** of the **average velocity**.
+
 

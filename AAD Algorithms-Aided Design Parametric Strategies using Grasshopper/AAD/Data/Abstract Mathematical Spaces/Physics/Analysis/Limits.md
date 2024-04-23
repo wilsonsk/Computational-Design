@@ -137,8 +137,8 @@ $dt$ is $\Delta t$ Delta $t$ - i.e. the change in the $t$ (**time**) value.
 ![[Pasted image 20240422144312.png|400]]
 
 $\Delta x / \Delta t$ is the **slope** a straight line that connects the two points.
-	As these two points get "closer", the straight line connecting them, would become **[[Tangent|tangent]]** to the curve. 
-	Therefore, the **velocity** at **[[Derivatives|any point]]** in the curve, is **[[Tangent|tangent]]** to the curve at that point. 
+	As these two points get "closer", the straight line connecting them, would become **[[Tangent Line|tangent]]** to the curve. 
+	Therefore, the **direction** of the **velocity vector** at **[[Derivatives|any point]]** in the curve, is **[[Tangent Line|tangent]]** to the curve at that point. 
 	The Tangent of this angle (the angle formed by the line from the "initial" point to the "changed point" and the line parallel to the $x-axis$, is $\Delta y / \Delta x$ i.e. $dx/dt$.
 	
 The **Limit** of the **average rate (i.e. average velocity)** is

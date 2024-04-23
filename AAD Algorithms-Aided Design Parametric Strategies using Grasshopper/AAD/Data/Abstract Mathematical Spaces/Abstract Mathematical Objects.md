@@ -1,6 +1,6 @@
 ---
 up:
-  - "[[Abstract Concept]]"
+  - "[[Abstract Mathematical Spaces]]"
 related:
   - "[[Numbers]]"
   - "[[Elemental Building Blocks]]"

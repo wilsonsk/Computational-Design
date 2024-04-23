@@ -12,9 +12,14 @@ related:
 date created: 2024-04-10
 ---
 # Derivatives
-## The Instantaneous Rate of Change of a Function
-A derivative (of a function) at a single point, is the **value** of the **limit** of the **average rate of change** (i.e. limit of $\Delta y / \Delta x$).
-A **derivative** of a **function** at a point **provides the slope of the [[Tangent|tangent]] vector to the function at that specific point**.^calculus-derivatives
+## $f'(x)$
+## Is a [[Proportion|Proportion]]
+Proportion is fundamental to the concept of the derivative.
+It [[Measurement|measures]] the output ($\Delta y$) of a function $f(x)$ is proportioned to the input ($\Delta x$) at an infinitesimally small scale.
+### Is the Instantaneous Rate (i.e. Proportion) of Change of a Function
+A derivative (of a function $f(x)$) at a single point $f'(x)$, is the **value** of the **limit** of the **average rate of change** (i.e. limit of $\Delta y / \Delta x$).
+#### Is the [[Tangent Line#The Slope of a Tangent Line|Slope]] (i.e. a proportion/rate/ratio between $\Delta y / \Delta x$) of the [[Tangent Line|Tangent Line]]
+A **derivative** of a **function** at a point **provides the slope of the [[Tangent Line|tangent]] line to the function at that specific point**.^calculus-derivatives
 - The **derivative** (which only exists for a given point) is itself is a **value** that represents the **exact slope** of the **tangent vector** at that **point** it is associated with (on the curve).
 	- I.e. The **derivative** ***is*** the **slope of the tangent line**.
 		![[Pasted image 20240410150406.png]]
@@ -33,9 +38,9 @@ A **derivative** of a **function** at a point **provides the slope of the [[Tang
 - It is a conceptual representation of the slope over an interval that is infinitesimally small.
 	- So small that it's effectively a point. 
 - Refers to a seemingly "instantaneous" rate of change. 
-## Formally, the derivative at a point $a$, is **defined** as the [[Limits|limit]] of the slope of the [[Secant Line|secant line]] (i.e.**average rate of change**)
+## Formally, the derivative at a point $a$, is **defined** as the [[Limits|limit]] of the slope of the [[Secant Line|secant line]] (i.e. **average rate of change**)
 - As the **interval or distance** over which the change is measured (between point $a$ and another determined point), **approaches zero**. ^c2858f
-	-  If this limit exists, then the function is **differentiable** at that point, and the slope of the tangent line at this point is precisely the value of this limit itself - which is the derivative of that point.
+	-  If this limit exists, then the function is **[[#Differentiability|differentiable]]** at that point, and the slope of the tangent line at this point is precisely the value of this limit itself - which is the derivative of that point.
 - **I.e. The equation to determine the derivative is:**
 	- The limit of the average rate of change as the interval (between two points) approaches zero.
 		- Where the **average rate of change** over an interval of distance between two points is:
@@ -63,7 +68,6 @@ A **derivative** of a **function** at a point **provides the slope of the [[Tang
 	- If $P_1$ and $P_2$ are very "close" together distance wise:
 		- $T_1$ and $T_2$ will be almost equal.
 			- Therefore, $V$ will be almost **perpendicular** (i.e. normal, orthogonal) to both $T_1$ and $T_2$.
-
 ## Differentiability:
 **In calculus**, it refers a **curve** that has, at a **point** in a **function**, a **derivative** **existing**. 
 - **As Differentiability relates to [[Limits#Limits Define Continuity or Discontinuities Discontinuity|Continuity]]:**
@@ -77,7 +81,6 @@ A **derivative** of a **function** at a point **provides the slope of the [[Tang
 	- **I.e. A curve is differentiable if it has a derivative at every point along the curve.**
 		- In which case it would be smooth enough that a tangent vector could be defined at every point along the curve.
 	- A curve that is not differentiable at a point might have a discontinuity (like a cusp) there instead.
-
 ## Why [[Discontinuities|Discontinuities]] (i.e. disruptions in smoothness) Prevent the Existence of a Derivative
 Discontinuities prevent the existence of derivatives because the derivative is defined as the limit of the slope of secant lines as the points used to create them get infinitely close. 
 - This definition **presupposes** that the **function is continuous** at the point where the derivative is being calculated.
@@ -116,3 +119,10 @@ When a function is discontinuous at a point, there's a break in the curve at tha
 		- Imagine drawing secant lines (lines connecting two nearby points on the curve) and then moving these points closer together towards the point of interest. 
 			- For smooth parts of the curve, as the points get infinitely close, the secant line approaches a unique position — the tangent line. 
 				- However, at a sharp corner or discontinuity, the limit of the secant line's position oscillates or becomes undefined as the points get closer, indicating the absence of a well-defined tangent line and thus a tangent vector.
+## Second Derivative
+The second derivative of a function $f(x)$ is denoted as $f^"(x)$ or $d^2y/dx^2$.
+It is obtained by **differentiating** the **first derivative** $f'(x)$
+### Calculating the Second Derivative
+###### 1. Compute the First Derivative:
+Find $f'(x)$ of the function $f(x)$.
+	The first derivative represents the **rate of change** of the function i.e. the **slope of the tangent line** at any point $x$.

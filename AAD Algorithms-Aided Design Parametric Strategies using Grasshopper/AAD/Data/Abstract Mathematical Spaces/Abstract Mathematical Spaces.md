@@ -1,3 +1,12 @@
+---
+up:
+  - "[[Data]]"
+related:
+  - "[[Abstract Mathematical Objects]]"
+  - "[[Abstract Concept]]"
+  - "[[Probable Reality]]"
+date created: 2024-04-22
+---
 # Abstract Mathematical Spaces
 ## The Abstract, Non-Physical Environment
 In mathematics, a **space** is a [[#Set Theory|set]] (sometimes known as a [universe](https://en.wikipedia.org/wiki/Universe_(mathematics) "Universe (mathematics)")) with a definition (i.e. [[#Mathematical Structure|structure]]) of relationships among the [[#The Abstract Mathematical Objects that Model the Subject Under Study|Mathematical Objects]] of the set.

@@ -1,7 +1,10 @@
 ---
 up:
   - "[[Analysis]]"
-related: 
+related:
+  - "[[Measurement]]"
+  - "[[Proportion]]"
+  - "[[Position]]"
 date created: 2024-04-20
 ---
 # Probable Reality

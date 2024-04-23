@@ -1,3 +1,11 @@
+---
+up:
+  - "[[Abstract Mathematical Spaces]]"
+related:
+  - "[[Measurement]]"
+  - "[[Proportion]]"
+date created: 2024-04-22
+---
 # Position
 
 ## A Relative Existence 

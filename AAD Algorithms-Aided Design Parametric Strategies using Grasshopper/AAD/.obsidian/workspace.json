@@ -32,18 +32,19 @@
             }
           },
           {
-            "id": "836744b31342bf4b",
+            "id": "a4a0532c8c7ffc9f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Tangent Line.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Analysis.md",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Tangent Line.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -127,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Analysis.md",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Tangent Line.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -150,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Analysis.md"
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Tangent Line.md"
               }
             }
           },
@@ -184,15 +185,28 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "8aa386da754a294b",
+  "active": "a4a0532c8c7ffc9f",
   "lastOpenFiles": [
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Probable Reality.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Second Derivatives.md",
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects.md",
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Spaces.md",
+    "Data/Abstract Mathematical Spaces/Position.md",
+    "Data/Abstract Mathematical Spaces/Measurement.md",
+    "Data/Abstract Mathematical Spaces/Proportion.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Tangent Line.md",
+    "images/Pasted image 20240422200740.png",
+    "images/Pasted image 20240422213732.png",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Limits.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Analysis.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Spaces.md",
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Secant Line.md",
+    "images/Pasted image 20240422200942.png",
+    "images/Pasted image 20240422200902.png",
+    "images/Pasted image 20240422200856.png",
+    "images/Pasted image 20240422200835.png",
+    "images/Pasted image 20240422200754.png",
     "Abstract/Geometric Space.md",
-    "Data/Abstract Mathematical Spaces/Tangent.md",
     "Data/Abstract Mathematical Spaces/Lines.md",
     "images/Pasted image 20240422144312.png",
     "Data/Abstract Mathematical Spaces",
@@ -200,33 +214,19 @@
     "images/Pasted image 20240422150825.png",
     "Data/Data Trees.md",
     "derivative.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Measurement.md",
     "Derivatives^limits-as-a-transitions.md",
-    "Data/Abstract Mathematical Spaces/Position.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Newtonian Mechanics.md",
     "Applications/Digital Fabrication.md",
     "Abstract/Computational Design Thinking.md",
     "Abstract/Computational Methodology.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Quantum Mechanics.md",
-    "images/Pasted image 20240421082147.png",
     "state.md",
     "Data/Abstract Mathematical Spaces/Points.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Probable Reality.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Voronoi Diagrams.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Second Derivatives.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Secant Line.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Scalar Fields.md",
     "Data/Abstract Mathematical Spaces/Physics",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics",
-    "images/Pasted image 20240418235508.png",
-    "Applications/Printable Objects.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis",
-    "images/Pasted image 20240419001133.png",
-    "images/Pasted image 20240418235112.png",
-    "images/Pasted image 20240418233212.png",
     "Topology",
-    "images/Pasted image 20240418233209.png",
-    "images/Pasted image 20240418233204.png",
     "Applications",
     "Solids",
     "Transformations",
