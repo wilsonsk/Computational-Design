@@ -16,3 +16,6 @@ Is the derivative of the first derivative.
 
 Understanding the second derivative is crucial for analyzing the behavior or dynamics of a function beyond just their increasing or decreasing nature. 
 
+## Acceleration
+Acceleration is indeed the second derivative of position with respect to time
+described as the first derivative of velocity with respect to time.

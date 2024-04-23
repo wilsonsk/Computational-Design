@@ -16,7 +16,7 @@ The [[Secant Line|Secant Line]] touches a curve of a function at least twice.
 	The tangent touches just one of those points (of secant line) at exactly on point on the tangent line.
 ## Represents a [[Proportion#Visually Represented by the Hypotenuse of a Right Triangle|Proportion]]
 ### As the [[Proportion#Visually it is the Hypotenuse of a Right Triangle|Hypotenuse]] of the Triangle Representing the [[Derivatives#Is a Proportion Proportion|Derivative]] 
-It represents $\Delta y / \Delta x$ where $\Delta y$ and  $\Delta x$ are the **adjacent** and **opposite** sides of that connect to the tangent line and to each other.
+It represents $\Delta y / \Delta x$ where $\Delta y$ and $\Delta x$ are the **adjacent** and **opposite** sides of that connect to the tangent line and to each other.
 Therefore, creating a triangle where the tangent is the **hypotenuse**. 
 	And again, this "hypotenuse" i.e. tangent line **only touches the curve of a function exactly once**.
 		I.e. Only a **single point** on the **tangent line** **touches a curve of a function in exactly one point**.

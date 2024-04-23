@@ -25,7 +25,11 @@ Is a **straight line** that **intersects (i.e. cuts) a curve at two points**.
 As another point gets closer and closer to a point $a$ on either side:
 - The slopes of the **secant lines** (i.e. lines connection the two points) will approach the **slope of the tangent line at point $a$**.
 	![[Pasted image 20240422200902.png]]
-## The Average Rate of Change
+### ### As the [[Proportion#Visually it is the Hypotenuse of a Right Triangle|Hypotenuse]] of the Triangle Representing the [[Derivatives#Formally, the derivative at a point $a$, is **defined** as the Limits limit of the slope of the Secant Line secant line (i.e. **average rate of change**)|Average Rate of Change]] 
+It represents the change in the chosen points along the curve of the function.
+![[Pasted image 20240422232255.png]]
+![[Pasted image 20240422232921.png]]
+### The Average Rate of Change
 - The **slope of a secant line** is the the **average rate of change** over an **interval of distance** between the chosen **points on the curve of the function**.
 	![[Pasted image 20240410225437.png]] = ![[Pasted image 20240410225456.png]] = ![[Pasted image 20240411000804.png]]
 	- Also called the **difference quotient**.

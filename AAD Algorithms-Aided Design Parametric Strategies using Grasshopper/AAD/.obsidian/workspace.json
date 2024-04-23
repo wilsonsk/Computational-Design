@@ -37,14 +37,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Tangent Line.md",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Secant Line.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ac2a329572b769f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8e4dd71aaa4e4eee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Second Derivatives.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -111,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Tangent Line.md",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -128,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Tangent Line.md",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -151,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Tangent Line.md"
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md"
               }
             }
           },
@@ -185,33 +209,33 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "a4a0532c8c7ffc9f",
+  "active": "ac2a329572b769f1",
   "lastOpenFiles": [
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Probable Reality.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Second Derivatives.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Limits.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Secant Line.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Tangent Line.md",
+    "Pasted image 20240422233019.png",
+    "Pasted image 20240422232921.png",
+    "Pasted image 20240422232413.png",
+    "Pasted image 20240422232356.png",
+    "Pasted image 20240422232354.png",
+    "Pasted image 20240422232308.png",
+    "Pasted image 20240422232255.png",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Probable Reality.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Spaces.md",
     "Data/Abstract Mathematical Spaces/Position.md",
     "Data/Abstract Mathematical Spaces/Measurement.md",
     "Data/Abstract Mathematical Spaces/Proportion.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Tangent Line.md",
     "images/Pasted image 20240422200740.png",
     "images/Pasted image 20240422213732.png",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Limits.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Analysis.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Secant Line.md",
     "images/Pasted image 20240422200942.png",
-    "images/Pasted image 20240422200902.png",
-    "images/Pasted image 20240422200856.png",
-    "images/Pasted image 20240422200835.png",
-    "images/Pasted image 20240422200754.png",
     "Abstract/Geometric Space.md",
     "Data/Abstract Mathematical Spaces/Lines.md",
-    "images/Pasted image 20240422144312.png",
     "Data/Abstract Mathematical Spaces",
-    "images/Pasted image 20240422150856.png",
-    "images/Pasted image 20240422150825.png",
     "Data/Data Trees.md",
     "derivative.md",
     "Derivatives^limits-as-a-transitions.md",

@@ -39,14 +39,16 @@ A **derivative** of a **function** at a point **provides the slope of the [[Tang
 	- So small that it's effectively a point. 
 - Refers to a seemingly "instantaneous" rate of change. 
 ## Formally, the derivative at a point $a$, is **defined** as the [[Limits|limit]] of the slope of the [[Secant Line|secant line]] (i.e. **average rate of change**)
-- As the **interval or distance** over which the change is measured (between point $a$ and another determined point), **approaches zero**. ^c2858f
-	-  If this limit exists, then the function is **[[#Differentiability|differentiable]]** at that point, and the slope of the tangent line at this point is precisely the value of this limit itself - which is the derivative of that point.
-- **I.e. The equation to determine the derivative is:**
-	- The limit of the average rate of change as the interval (between two points) approaches zero.
-		- Where the **average rate of change** over an interval of distance between two points is:
-			- The **slope** of the **secant line** that connects those two points. 
-- The **[[Limits|limit]]** is the **means** of **transitioning** between the **average rate of change** to the **instantaneous rate of change**. ^limit-as-a-transition
-	![[Pasted image 20240410153825.png|400]] ^d8b06d
+![[Pasted image 20240422232308.png]]
+![[Pasted image 20240422233019.png]]
+As the **interval or distance** over which the change is measured (between point $a$ and another determined point), **approaches zero**. ^c2858f
+-  If this limit exists, then the function is **[[#Differentiability|differentiable]]** at that point, and the slope of the tangent line at this point is precisely the value of this limit itself - which is the derivative of that point.
+**The equation to determine the derivative is:**
+- The limit of the average rate of change as the interval (between two points) approaches zero.
+	- Where the **average rate of change** over an interval of distance between two points is:
+		- The **slope** of the **secant line** that connects those two points. 
+The **[[Limits|limit]]** is the **means** of **transitioning** between the **average rate of change** to the **instantaneous rate of change**. ^limit-as-a-transition
+![[Pasted image 20240410153825.png|400]] ^d8b06d
 ###### Inflection Points:
 - Indicate the **change** from **concave** to **convex** or vice versa.
 	- If you imagine this triangle "traveling" the length of the curve:

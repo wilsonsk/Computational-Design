@@ -19,14 +19,17 @@ A limit describes the behavior of a function as its input value (i.e. argument) 
 Meaning the boundary or threshold.
 - The mathematical concept that describes the behavior of a function (i.e. a curve) as its independent variable approaches some boundary value.
 	- I.e. as one value (or point) gets closer to another point. 
-
+![[Pasted image 20240422232308.png]]
 A Limit refers to the **value** of a **function's output** as that **function's input** (i.e. a point on the function curve) approaches or gets infinitely close to some point.
 	By looking at the position "now", the position slightly "later" and taking the ratio and bringing "later" as close as possible to right" now", we define a quantity that we can say is the velocity at this "instant".
 	![[Pasted image 20240410151035.png]]
 #### *$f(x)$ is a function that maps every $x$ (i.e. point) to an $F(x)$ on a 2D graph.*
-##### *$f'(a)$ is the **[[Derivatives|derivative]]** at a point where $x=a$.*
+##### *$f'(a)$ is the **[[Derivatives|derivative]]** (i.e. the [[Tangent Line#The Derivatives Is the Tangent Line The Slope of a Tangent Line Slope (i.e. a proportion/rate/ratio between $ Delta y / Delta x$) of the Tangent Line Tangent Line Slope of a Tangent Line|slope]] of the [[Tangent Line|tangent line]]) at a point where $x=a$.*
 #### *$h$ (i.e. the independent variable) represents the increment or distance or interval from the point $a$ along the $x-axis$.*
 - *It is used to measure how far away a point on the curve is from point $a$ when calculating the slope of the secant line.*
+#### *$f(a + h) == f(\Delta a)$*
+
+![[Pasted image 20240422232413.png]]
 ##### Local Behavior at a Single Point
 $$\lim_{h\to 0}$$
 - *As $h$ approaches zero (i.e. zero distance between a point and point $a$), the secant line approaches the tangent line $T_a$ for point $a$*.
