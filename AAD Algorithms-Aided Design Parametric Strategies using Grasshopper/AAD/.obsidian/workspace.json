@@ -4,47 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "301ce3d225da8c56",
+        "id": "d34e52d640d40a2d",
         "type": "tabs",
         "children": [
           {
-            "id": "8aa386da754a294b",
+            "id": "a83dad9dcf2a8b6d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Analysis.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a4a0532c8c7ffc9f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Secant Line.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "829bae93012cd9c6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Limits.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -73,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "domain",
+                "query": "concav",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +61,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -111,7 +83,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Limits.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -128,7 +99,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Limits.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -150,9 +120,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Limits.md"
-              }
+              "state": {}
             }
           },
           {
@@ -185,21 +153,31 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "829bae93012cd9c6",
+  "active": "a83dad9dcf2a8b6d",
   "lastOpenFiles": [
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Secant Line.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Limits.md",
-    "Transformations/Other Transformations.md",
-    "Data/Numbers.md",
-    "Surfaces/Grids.md",
-    "Data/Elemental Building Blocks.md",
-    "Data/Data Operations.md",
-    "Data/Data.md",
-    "Transformations/Affine Transformations.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
-    "Data/Abstract Mathematical Spaces/Domain.md",
-    "images/Pasted image 20240422233019.png",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Second Derivatives.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Limits.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Secant Line.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Analysis.md",
+    "Pasted image 20240423115048.png",
+    "Pasted image 20240423115037.png",
+    "Curves/Curves.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
+    "Abstract/Digital Informing Creativity.md",
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Numbers.md",
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Points.md",
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Abstract Mathematical Objects.md",
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Elemental Building Blocks.md",
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Lines.md",
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Parameters.md",
+    "Data/Abstract Mathematical Spaces/Domain.md",
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects",
+    "Data/Data.md",
+    "Transformations/Other Transformations.md",
+    "Surfaces/Grids.md",
+    "Data/Data Operations.md",
+    "Transformations/Affine Transformations.md",
+    "images/Pasted image 20240422233019.png",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Tangent Line.md",
     "images/Pasted image 20240422232921.png",
     "images/Pasted image 20240422232413.png",
@@ -208,22 +186,12 @@
     "images/Pasted image 20240422232308.png",
     "images/Pasted image 20240422232255.png",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Probable Reality.md",
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Spaces.md",
     "Data/Abstract Mathematical Spaces/Position.md",
     "Data/Abstract Mathematical Spaces/Measurement.md",
     "Data/Abstract Mathematical Spaces/Proportion.md",
     "images/Pasted image 20240422200740.png",
-    "images/Pasted image 20240422213732.png",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Analysis.md",
-    "images/Pasted image 20240422200942.png",
-    "Abstract/Geometric Space.md",
-    "Data/Abstract Mathematical Spaces/Lines.md",
     "Data/Abstract Mathematical Spaces",
-    "Data/Data Trees.md",
-    "derivative.md",
-    "Derivatives^limits-as-a-transitions.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Newtonian Mechanics.md",
     "Data/Abstract Mathematical Spaces/Physics",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics",
     "Data/Abstract Mathematical Spaces/Physics/Analysis",
@@ -231,7 +199,6 @@
     "Applications",
     "Solids",
     "Transformations",
-    "New Text Document.txt",
-    "Surfaces"
+    "New Text Document.txt"
   ]
 }

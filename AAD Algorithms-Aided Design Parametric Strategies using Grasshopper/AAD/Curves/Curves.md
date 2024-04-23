@@ -140,9 +140,9 @@ In design, curves form relationships with other objects, and complex relationshi
 		- **normal vector** = y axis
 		- **binormal vector** = z axis
 - Is an **orthonormal frame** defined at (almost) every point on a 3D curve.
-- **Inflection Point**:
-	- The point of inflection or **flex**, is the point on a smooth curve where the curvature changes **sign**.
-		- I.e. it's a point where the function changes from **concave** to **convex** or vice versa.
+###### Inflection Point:
+- The point of inflection or **flex**, is the point on a smooth curve where the curvature changes **sign**.
+	- I.e. it's a point where the function changes from **concave** to **convex** or vice versa.
 - The **problem** with frenet frames lies in their inflection points.
 	- at a singular inflection points, Frenet frames are not defined. 
 	- Inflection points rarely occur in 3D curves, instead **High Torsion** becomes something to deal with.

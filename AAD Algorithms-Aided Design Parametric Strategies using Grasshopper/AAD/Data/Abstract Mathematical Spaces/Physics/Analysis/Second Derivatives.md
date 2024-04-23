@@ -13,47 +13,32 @@ The second derivative of a function $f(x)$, denoted as $f′′(x)$ or $d^2y/d^2
 Is the derivative of the first derivative. 
 	I.e. It is the rate at which the slope of the curve $f(x)$ changes with $𝑥$. 
 		This tells us how the rate of change itself is changing.
+		
+What $f′′(x)$ tells you is how the slope of the original function $f(x)$ is changing. 
+	For instance, is the slope becoming steeper? Is it leveling off? Is it curving upwards or downwards?
 
 Understanding the second derivative is crucial for analyzing the behavior or dynamics of a function beyond just their increasing or decreasing nature. 
 
-## Acceleration
-Acceleration is indeed the second derivative of position with respect to time
-described as the first derivative of velocity with respect to time.
-
-### Definitions and Relationships:
-
-1. **Position (𝑥x)**: This is a function of time (𝑡t). It describes where an object is located at any time 𝑡t.
-    
-2. **Velocity (𝑣v)**: This is the first derivative of position with respect to time. It represents how fast the position is changing at any given moment, and it is given by:
-    
-    𝑣=𝑑𝑥𝑑𝑡v=dtdx​
-    
-    Velocity tells you the rate at which an object moves away from its starting position.
-    
-3. **Acceleration (𝑎a)**: This is the second derivative of position with respect to time, which makes it the first derivative of velocity with respect to time. It represents how fast the velocity is changing at any given moment, and it is given by:
-    
-    𝑎=𝑑2𝑥𝑑𝑡2a=dt2d2x​
-    
-    Alternatively, since velocity is the first derivative of position:
-    
-    𝑎=𝑑𝑣𝑑𝑡a=dtdv​
-    
-    Acceleration tells you the rate at which the velocity of an object is increasing or decreasing.
-    
-
+## Concavity
+If $f′′(x)>0$ (the second derivative is positive), 
+	Then the original function $f(x)$ is concave up (like a cup), meaning its slope is increasing. 
+	
+If $f′′(x)<0$ (the second derivative is negative), 
+	Then function is concave down (like a cap), meaning its slope is decreasing.
+## [[Curves#Inflection Point|Inflection]] Points
+Points where 𝑓′′(𝑥)=0f′′(x)=0 might be inflection points, where the function changes the direction of its curvature—from concave up to concave down, or vice versa.
+## Application in [[Analysis#Acceleration|Analysis]]: Acceleration
+###### Position $= v(t)$ 
+This is a function of time $(t)$. 
+It describes where an object is located at any time $t$.
+###### Velocity $= v'(t)$ is the derivative of $v(t)$ i.e. the [[Limits|limit]] of the [[Secant Line#The Average Rate of Change|average rate of change]] of a position.
+Represents how fast the position is changing at any given moment.
+	Velocity tells you the rate at which an object moves away from its starting position.
+![[Pasted image 20240423115037.png]]
+###### Acceleration $= v''(t)$ is the derivative of $v'(t)$ i.e. the [[Limits|limit]] of the [[Secant Line#The Average Rate of Change|average rate of change]] of the limit of the average rate of change.
+Represents how fast the velocity is changing at any given moment.
+	Acceleration tells you the rate at which the velocity of an object is increasing or decreasing.
+![[Pasted image 20240423115048.png]]
 ### Graphical Representation:
-
-- If you graph position (𝑥x) versus time (𝑡t), the slope of the tangent to the curve at any point gives the velocity at that time.
-- If you graph velocity (𝑣v) versus time (𝑡t), the slope of the tangent to the curve at any point gives the acceleration at that time.
-
-### Practical Example:
-
-Imagine a car starting from rest and moving in a straight line, gradually increasing its speed. Here's how you would relate position, velocity, and acceleration:
-
-- **Position (𝑥x)**: Starts from a specific point and changes over time as the car moves.
-- **Velocity (𝑣v)**: Initially zero (since the car starts from rest), but increases as the car speeds up. If the car maintains a constant acceleration (say, 2 m/s22m/s2), the velocity function might look like 𝑣(𝑡)=2𝑡v(t)=2t.
-- **Acceleration (𝑎a)**: If the acceleration is constant (the car is speeding up steadily), the acceleration function is simply 𝑎=2 m/s2a=2m/s2, a constant value.
-
-In this setup, the acceleration being constant means the change in velocity is steady, and the position of the car changes more rapidly over time due to increasing velocity. This example illustrates the basic principles of motion under uniform acceleration, often explored in introductory physics courses.
-
-Thus, understanding acceleration as the second derivative of position or the first derivative of velocity provides crucial insights into the dynamics of moving objects in physics and engineering.
+If you graph position (x) versus time (t), the slope of the tangent to the curve at any point gives the velocity at that time.
+If you graph velocity (v) versus time (t), the slope of the tangent to the curve at any point gives the acceleration at that time.

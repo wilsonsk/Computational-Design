@@ -1,6 +1,6 @@
 ---
 up:
-  - "[[Data]]"
+  - "[[Abstract Mathematical Objects]]"
 related:
   - "[[Data Control]]"
   - "[[Data Operations]]"
@@ -9,6 +9,7 @@ related:
   - "[[Numbers]]"
   - "[[Parameters]]"
   - "[[Points]]"
+  - "[[Data]]"
 date created: 2024-03-18
 ---
 # Elemental Building Blocks

@@ -53,7 +53,7 @@ The **[[Limits|limit]]** is the **means** of **transitioning** between the **ave
 - Indicate the **change** from **concave** to **convex** or vice versa.
 	- If you imagine this triangle "traveling" the length of the curve:
 		- The way the **orientation** of $T_2$ changes relative to $T_1$ can indicate the **concavity** of the curve.
-	- An inflection point is suggested if $T_2$ **rotates** from one side of $T_1$ to the other as $P_1$ and $P_2$ "travel" along the curve.
+	- An [[Curves#Inflection Point|Inflection]] point is suggested if $T_2$ **rotates** from one side of $T_1$ to the other as $P_1$ and $P_2$ "travel" along the curve.
 - An inflection point is typically a smooth, continuous transition or change in the curvature of a function.
 	![[Pasted image 20240410143446.png|500]]
 	- Take some $P_1 =C(s_1)$ on a curve $C$.

@@ -11,6 +11,7 @@ date created: 2024-04-19
 ## The Study of how to Learn and Make Predictions Based on Physics Related [[Parameters|Parameters]] (i.e. make predictions)
 As a means to **predict the future** from the present.
 	I.e. Physics utilizes the measurement of changes in the current state of a system to accurately predict future state changes.
+[Quick Reference of Calculus](https://www.youtube.com/watch?v=WsQQvHm4lSw&t=651s&ab_channel=TheOrganicChemistryTutor)
 ## All Physics is a Consideration of Two Aspects
 Each aspect has an associated "way" of describing itself. 
 1. [[#Present|Present]]/Initial state.
@@ -113,5 +114,7 @@ Is an **object** at a given **initial / instant** with an **location**.
 ##### Goal II: [[#Dynamics "Explains" the Causality of a State Change|Dynamics]]: Identify the Change Between Two States
 ###### The Application of [[Limits|Calculus]]: The [[Limits#Average Velocity|Limit of the Average Velocity]] (i.e. Average Rate of Change)
 The [[Derivatives#|derivative]] *is* the **[[Limits#Limit of the Average Rate of Change|limit]]** of the **average velocity**.
+
+###### Acceleration 
 
 

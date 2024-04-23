@@ -1,6 +1,6 @@
 ---
 up:
-  - "[[Data]]"
+  - "[[Abstract Mathematical Objects]]"
 related:
   - "[[Data Control]]"
   - "[[Data Operations]]"
@@ -10,6 +10,7 @@ related:
   - "[[Parameters]]"
   - "[[Data Trees]]"
   - "[[Number Systems]]"
+  - "[[Data]]"
 date created: 2024-03-18
 ---
 # Numbers
