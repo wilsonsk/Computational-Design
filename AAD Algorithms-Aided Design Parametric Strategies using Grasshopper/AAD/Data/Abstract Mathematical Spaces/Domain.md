@@ -17,3 +17,5 @@ date created: 2024-04-23
 ## The Bounds of an Area or Range of Data.
 
 Is simply, the **set**, or **defined min and max values** between which other values of that domain are contained. 
+
+$[minValue, maxValue]$

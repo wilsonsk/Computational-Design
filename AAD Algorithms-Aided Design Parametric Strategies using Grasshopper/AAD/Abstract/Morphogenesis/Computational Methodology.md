@@ -4,7 +4,7 @@
 [[Elemental Building Blocks#Points Point as the Fundamental Building Block of Form|Point as the Fundamental Building Block of Form]]
 
 [[Elemental Building Blocks#Transformations Measures the change between two Points points *P(x,y)* and *P'(x',y')* Transformations of Points as the Fundamental Operation of Generation of Form|Transformations of Points as the Fundamental Operation of Generation of Form]]
-## Involves the following four steps:
+## Analysis of Form:
 1. Decomposition:
 	1. Breaking something into smaller parts.
 2. Pattern Recognition:

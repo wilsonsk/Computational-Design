@@ -14,6 +14,7 @@ related:
   - "[[SubD Surface Patterns]]"
   - "[[Meshes]]"
   - "[[Surface Strategies]]"
+  - "[[Transformations]]"
 date created: 2024-03-26
 ---
 # Grids

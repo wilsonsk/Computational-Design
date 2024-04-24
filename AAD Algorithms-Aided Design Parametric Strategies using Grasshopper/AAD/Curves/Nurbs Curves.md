@@ -34,6 +34,17 @@ A list of (degree+N-1) numbers, that control the **smoothness** of a curve.
 Is a formula that:
 - **Inputs** degree, control points, and knots.
 - **Outputs** a point location.
+## NURBS Curve component
+Constructs a NURBS curve from control points
+Inputs:
+- (V): Curve control points - i.e. vertices.
+- (D): Curve Degree.
+- (P): Periodic Curve (Boolean).
+Outputs:
+- (C): Resulting NURBS Curve.
+- (L): NURBS Curve Length
+- (D): NURBS Curve Domain.
+
 ## Parametric Representation of a NURBS Curve:
 ### World Coordinate System (WCS):
 In Rhino 3D, the environment is based on a WCS.
@@ -118,6 +129,14 @@ Swapping start and end points.
 ## Notion of Curvature for planar curves:
 The curvature of a planar curve *c* measured at point *P* calculates the **deviation** from *c* from its tangent line near *P*. 
 
+###### Planar Curve
+Essentially a 2D (i.e. bi-dimensional) curve.
+It lies completely within a single plane.
+	This means that no matter how the curve twists or turns, every point of the curve is contained within a single plane.
+###### Non-Planar Curve
+A curve that does not lie entirely within a single plane.
+This type of curve has a 3D (i.e. tri-dimensional) form and cannot be fully represented on a 2D surface without distortion. 
+
 The curvature of a *generic* curve varies from point to point. In order to mathematically define the curvature there are two basic **assumptions**:
 	1. The curvature of a straight line is zero at every point.
 	2. The curvature of a circle is **constant**. I.e. the curvature is equal to zero when the **radius** approaches **infinity**- that is a straight line is a circle with an infinite radius. 
@@ -139,3 +158,9 @@ Curvature can also be **defined** as the **vector** *k* with direction *PO* and 
 		- As the magnitude of the **vector** *k* which can be calculated via the **Vector Length** component. 
 
 **Curves on a surface**: [[Surfaces#^parametric-representation-of-a-surface|Parametric Representation of Curves on a Surface]]
+## Closed NURBS Curves
+A NURBS curve that **connects back to its starting point**.
+	Forms a continuous loop.
+	
+When a NURBS curve is 'closed,' it means that its start and end points are coincident, and the segments between control points around these ends smoothly transition into each other, creating a seamless boundary. 
+

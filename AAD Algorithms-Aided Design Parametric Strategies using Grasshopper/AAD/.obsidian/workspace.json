@@ -11,8 +11,24 @@
             "id": "a83dad9dcf2a8b6d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Applications/Printable Objects.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6edab1b39022fd5b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Surfaces/Surface Creation.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "concav",
+                "query": "Isotrim \"",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -83,6 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Applications/Printable Objects.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -99,6 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Applications/Printable Objects.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -120,7 +138,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Applications/Printable Objects.md"
+              }
             }
           },
           {
@@ -155,42 +175,43 @@
   },
   "active": "a83dad9dcf2a8b6d",
   "lastOpenFiles": [
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Second Derivatives.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Limits.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Secant Line.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Analysis.md",
-    "Pasted image 20240423115048.png",
-    "Pasted image 20240423115037.png",
-    "Curves/Curves.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
-    "Abstract/Digital Informing Creativity.md",
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Numbers.md",
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Points.md",
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Abstract Mathematical Objects.md",
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Elemental Building Blocks.md",
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Lines.md",
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Parameters.md",
-    "Data/Abstract Mathematical Spaces/Domain.md",
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects",
-    "Data/Data.md",
+    "Surfaces/Surface Analysis.md",
+    "Applications/Printable Objects.md",
+    "Pasted image 20240424133330.png",
+    "Surfaces/SubD Surface Modeling.md",
+    "Surfaces/SubD Surface Patterns.md",
+    "Surfaces/Surface Creation.md",
+    "Surfaces/Surface Strategies.md",
+    "Abstract/Morphogenesis/Elemental Building Blocks.md",
+    "Transformations/Transformations.md",
+    "Surfaces/Surfaces.md",
+    "images/Pasted image 20240423115037.png",
+    "Transformations/Vectors.md",
     "Transformations/Other Transformations.md",
-    "Surfaces/Grids.md",
-    "Data/Data Operations.md",
     "Transformations/Affine Transformations.md",
-    "images/Pasted image 20240422233019.png",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Tangent Line.md",
-    "images/Pasted image 20240422232921.png",
-    "images/Pasted image 20240422232413.png",
-    "images/Pasted image 20240422232356.png",
-    "images/Pasted image 20240422232354.png",
-    "images/Pasted image 20240422232308.png",
-    "images/Pasted image 20240422232255.png",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Probable Reality.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Spaces.md",
-    "Data/Abstract Mathematical Spaces/Position.md",
-    "Data/Abstract Mathematical Spaces/Measurement.md",
-    "Data/Abstract Mathematical Spaces/Proportion.md",
-    "images/Pasted image 20240422200740.png",
+    "Surfaces/Grids.md",
+    "Curves/Curves.md",
+    "Data/Data Management.md",
+    "Transformations/Euclidean Transformations.md",
+    "Surfaces/Meshes.md",
+    "Abstract/Morphogenesis/Computational Methodology.md",
+    "Abstract/Morphogenesis/Rationalizing a Geometry.md",
+    "Data/Data Trees.md",
+    "Abstract/Language.md",
+    "Abstract/How to Improve Computational and Parametric Intuition.md",
+    "Abstract/Morphogenesis",
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Points.md",
+    "Abstract/Computational Design Thinking.md",
+    "images/Pasted image 20240423120518.png",
+    "images/Pasted image 20240424130208.png",
+    "images/Pasted image 20240424124805.png",
+    "images/Pasted image 20240424123725.png",
+    "images/Pasted image 20240424123327.png",
+    "images/Pasted image 20240423193215.png",
+    "images/Pasted image 20240423122231.png",
+    "images/Pasted image 20240423115048.png",
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects",
     "Data/Abstract Mathematical Spaces",
     "Data/Abstract Mathematical Spaces/Physics",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics",
@@ -198,7 +219,6 @@
     "Topology",
     "Applications",
     "Solids",
-    "Transformations",
-    "New Text Document.txt"
+    "Transformations"
   ]
 }

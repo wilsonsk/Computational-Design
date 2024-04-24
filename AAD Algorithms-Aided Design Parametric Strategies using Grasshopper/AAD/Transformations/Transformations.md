@@ -11,9 +11,9 @@ date created: 2024-03-27
 ---
 # Transformations
 ## I.e. Change
-## Measures the change between two [[Points|points]] *P(x,y)* and *P'(x',y')*:
+## [[Secant Line|Measures the change]] between two [[Points|points]] *P(x,y)* and *P'(x',y')*:
  - For example:
-	 - To [[Euclidean Transformations#Generative Point Transformations|**translate** a **point**]] to a different **position**, a specific **quantity** is required to be added or subtracted from its original coordinates.
+	 - To [[Euclidean Transformations#Generative Point Transformations|translate a point]] to a different **position**, a specific **quantity** is required to be added or subtracted from its original coordinates.
 		 - That quantity being: the **change** in the **x coordinate** and the **y coordinate**. 
 ### Point to Curve: 
 A point in a parametric setting could be seen as the simplest form of a parameter—essentially, a position in space defined by coordinates.

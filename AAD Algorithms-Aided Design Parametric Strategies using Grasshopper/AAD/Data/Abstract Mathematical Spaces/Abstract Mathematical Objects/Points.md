@@ -29,7 +29,7 @@ That is, the **vertices**.
 
 
 
-## A Geometry is Just Points
+## A Geometry is Just a Set of Points
 ### A point just represents a position.
 And a geometry is composed of defined - "occupied" positions.
 
@@ -44,7 +44,7 @@ A **sphere** (surface) is the **set** of **all points** in 3D space that at dist
 Therefore, lines, planes, surfaces, etc. are just **sets of points**.
 
 ## Mathematical Context
-### Continuity within Bounds
+### Continuity within [[Domain|Bounds]]
 In calculus, particularly when discussing the concept of continuity and the behavior of functions within specific bounds, you encounter the term **"interval"** to describe the range within which the function behaves or is analyzed. 
 
 Points within these intervals where specific properties of the function are assumed or investigated are typically called **"points of continuity"** if the function does not break, jump, or have an undefined value.
