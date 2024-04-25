@@ -1,6 +1,8 @@
 ---
-up: 
-related: 
+up:
+  - "[[Algorithms Aided Design MOC]]"
+related:
+  - "[[Printable Objects]]"
 date created: 2024-04-18
 ---
 # Digital Fabrication
@@ -81,7 +83,7 @@ Use a focused jet of water combined with an abrasive substance.
 
 ### Subtractive Techniques
 Create objects by **removing** material.
-Subtractive methods can achieve the same output of cutting machines with the **added ability** to specify the Z depth of a cut.
+Subtractive methods can achieve the same output of cutting machines with the **added ability** to **specify the Z depth of a cut**.
 
 Solid blocks of materials from wood to polystyrene can be milled to cave described geometry.
 	Not all geometry can achieved using 3 axis milling.

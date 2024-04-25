@@ -49,7 +49,7 @@ Can be used to **convert** a point *P* on a surface expressed in the WCS to a po
 ### Iso
 Refers to isoparametric curves on a surface, indicating that the trimming or segmentation is based on constant parameter values of either *u* or *v* on the surface.
 ### Isocurve component:
-**Extracts** (i.e. outputs) the **isocurves** of a surface at a specific point (P), given its local coordinates (*u, v*).
+**Extracts** (i.e. outputs) the **isocurves** of a surface at a specific point ($uv$), given its local coordinates (*u, v*).
 - Isocurves U (parallel to the *u* direction) and isocurves V (parallel to the *v* direction) are extracted separately.
 - The U or V isocurves can be visualized independently by connecting a curve component to the U or V output and hiding the Isocurve component. 
 - **Inputs**:

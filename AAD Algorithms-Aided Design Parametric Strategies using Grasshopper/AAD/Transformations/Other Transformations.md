@@ -14,7 +14,8 @@ date created: 2024-03-29
 ---
 # Other Transformations
 
-## Box Morph component:
+## Box Morph Transformation
+### Box Morph component
 Uses a reference "pliable" box to deform geometry to a target box.
 **Inputs**:
 - (G): Geometry to morph.
@@ -32,29 +33,31 @@ Works by **mapping** the geometric relationship between the reference box and th
 - I.e.:
 	- It transforms the reference box (R) into the target box (T), modifying the contained geometry (G). 
 		![[Pasted image 20240330015557.png|500]]
-- ###### Bounding Box component:
-	- Used to create a box that tightly encloses a given geometry or set of geometries.
-		- Represents the smallest volume capable of containing the entire input geometry.
-			- Aligned with the WCS or specific coordinate system.
-				- Its primary purpose is to provide a simple, rectilinear volume that summarizes the spatial extent of the complex shapes.
-					- Making it easier to perform various spatial, organization or analytical operations.
-	- Solves oriented geometry bounding boxes.
-	- Inputs:
-		- (C): Geometry to contain.
-		- (P): Orientation plane of bounding box.
-	- Outputs:
-		- (B): Aligned bounding box in WCS.
-		- (B): Bounding box in orientation plane coordinates.
+#### Bounding Box component:
+Used to create a box that tightly encloses a given geometry or set of geometries.
+- Represents the smallest volume capable of containing the entire input geometry.
+	- Aligned with the WCS or specific coordinate system.
+		- Its primary purpose is to provide a simple, rectilinear volume that summarizes the spatial extent of the complex shapes.
+			- Making it easier to perform various spatial, organization or analytical operations.
+Solves oriented geometry bounding boxes.
+- Inputs:
+	- (C): Geometry to contain.
+	- (P): Orientation plane of bounding box.
+- Outputs:
+	- (B): Aligned bounding box in WCS.
+	- (B): Bounding box in orientation plane coordinates.
 		
 Multiple geometries can also be simultaneously morphed to primitive or non-primitive boxes.
 - To morph multiple objects, the **Bounding Box** component must be set to *Union Box mode* via contextual menu.
-- *Example*: Target geometry is a **Twisted Box** component.
-	- The bounding points can be defined in Grasshopper or set in Rhino. 
-		- In this example geometries are referenced from Rhino.
-			- **Bounding Box** component is set to *[[#^953bd4|Union Box mode]]* in order to enclose all the geometries. 
-				- The Target geometry was creating by setting eight points (drawn in Rhino) using the local setting.
-					- If these points are adjusted, the geometry will deform accordingly.
-		![[Pasted image 20240409132732.png|500]]
+##### *Example*: Target geometry is a Twisted Box:
+###### **Twisted Box** component
+
+- The bounding points can be defined in Grasshopper or set in Rhino. 
+	- In this example geometries are referenced from Rhino.
+		- **Bounding Box** component is set to *[[#^953bd4|Union Box mode]]* in order to enclose all the geometries. 
+			- The Target geometry was creating by setting eight points (drawn in Rhino) using the local setting.
+				- If these points are adjusted, the geometry will deform accordingly.
+	![[Pasted image 20240409132732.png|500]]
 
 ### Paneling
 **Extends** the **Box Morph** logic to **multiple target boxes**.

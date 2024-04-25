@@ -68,7 +68,7 @@ A component used in the **creation** of a complex surface or shape.
 - Can have **multiple** directrices for a generatrix.
 ### How to identify the Generatrix and Directrix (intuitively)
 Understand the Surface Type:
-- Developable Surfaces
+- [[Gaussian Curvature#Developable Surfaces|Developable]] Surfaces
 - Ruled Surfaces
 Use Geometric and Visual Cues:
 - Parallelism and Convergence:

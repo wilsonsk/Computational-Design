@@ -94,3 +94,12 @@ Swaps **rows** and **columns** in the **matrix-like** Data Tree.
 			- A Data Tree containing 10 branches.
 				- Each branch contains three points. 
 					![[Pasted image 20240331000234.png|500]]
+## Explode Tree (BANG!) component
+Splits a Data Tree into its individual branches.
+![[Pasted image 20240424215916.png|500]]
+- Inputs:
+	- (D): Data Tree to be split.
+- Outputs:
+	- (1): List containing the first branch of the data tree.
+	- ...
+	- (N): List containing the last branch of the data tree. 

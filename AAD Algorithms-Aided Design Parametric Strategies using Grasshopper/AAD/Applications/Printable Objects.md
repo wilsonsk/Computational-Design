@@ -66,8 +66,11 @@ Using a common desktop printer with a **build volume** of 200 x 200 x 200 mm, th
 Overview:
 	1. [[#Part I Generate Initial Closed Curve and the Set of Translated Closed Curves, Then Scale Each Translated Curve|Generate Initial Closed Curve and the Set of Translated Closed Curves, Then Scale Each Translated Curve]]
 	2. [[#Part II Rotate Each Translated Curve, Then Generate Surface Between Them|Rotate Each Translated Curve, Then Generate Surface Between Them]]
-	3. Transform into Watertight Object
-
+	3. [[#Part III Transform into a Watertight Object with Smooth Edges|Transform into Watertight Object With Smooth Edges]]
+	4. [[#Part IV Apply a Other Transformations Box Morph component Box Morph Transformation|Apply a Box Morph Transformation]]
+	5. [[#Part V Convert to a Mesh, Then Apply a SubD Algorithm to Smooth the Mesh|Convert to a Mesh, Then Apply a SubD Algorithm to Smooth the Mesh]]
+	6. [[#Part VI Convert the SubD Mesh into a Watertight Printable Object|Convert the SubD Mesh into a Watertight Printable Object]]
+	7. [[#Part VII Bake into Rhino, Check for Geometry Errors, Export, Convert to STL File to be 3D Printed|Bake into Rhino, Check for Geometry Errors, Export, Convert to STL File to be 3D printed]]
 #### Part I: Generate Initial Closed Curve and the Set of Translated Closed Curves, Then Scale Each Translated Curve
 ![[Pasted image 20240423120518.png|600]]
 ##### 1. Generate Initial Closed Curve
@@ -93,21 +96,45 @@ The angle of rotation in radians (A) input for each curve is defined using the *
 ##### 2. [[Surface Creation#Lofted (NURBS) Surface Generation|Lofted Surface Generation]] Between the Rotated, Translated Curves
 Produces an [[Surfaces#Untrimmed Surface|untrimmed surface]], which is not a [[#2. Minimum Wall-Thickness|printable object]].
 ![[Pasted image 20240424123327.png]]
-#### Part III: Transform into a Watertight Object
+#### Part III: Transform into a Watertight Object with Smooth Edges
 ![[Pasted image 20240424123725.png|]]
 ##### 1. Generate a Lower Cap, Then Join Cap to the Surface with a Smooth Edge
 *If the cap via **Boundary Surfaces** component and then the wall thickness is assigned via **Mesh Thicken** component, the result would be a printable object but one with undesirable sharp edges.*
 
 To avoid sharp edges:
-###### 1. Extract a vertical isocurve from the lofted surface, at a point defined on the curve (curve/item at index 0, of rotated geometry list- i.e. the initial planar profile curve) via the **Evaluate Curve** component with parameter ($t) =1$ (which extends the defined point to the "top" of the curve)
-The **Evaluate Curve** component outputs the points associated with the curve at $t=1$, which are then input into a **Surface Closest Point** component which finds that input point on the given surface.
-	This then outputs the $uv$ point on the surface which are then input into an **[[Surface Analysis#Isotrim aka SubSrf Component|Isotrim]]** component along with the surface. 
+###### Extract a vertical isocurve from the lofted surface, at a point defined on the curve (curve/item at index 0, of rotated geometry list- i.e. the initial planar profile curve) via the **Evaluate Curve** component with parameter ($t) =1$ (Some "end" position on this initial profile curve)
+The **Evaluate Curve** component outputs the points associated with the curve at $t=1$, which are then input into a **[[Surface Analysis#Surface CP|Surface Closest Point]]** component which is used to "convert" the point at parameter, *t* = 1, to *uv* coordinates.
+	This then outputs the *uv* point on the surface which are then input into an **[[Surface Analysis#Isocurve component|IsoCurve]]** component along with the surface. 
+		The **IsoCurve** component is then used to extract the *u* Isocurves at the given *uv* coordinates.
 Then the extracted isocurve is joined with a curve defined from the centroid of curve (at index 0) and the starting point of the isocurve. 
 ![[Pasted image 20240424124805.png]] ^72bc65
-###### 2. Generate a Smooth, Freeform [[Nurbs Curves#Non-Planar Curve|Non-Planar Curve]] 
+##### 2. Generate a Smooth, Freeform [[Nurbs Curves#Non-Planar Curve|Non-Planar Curve]] 
 Divide the [[#^72bc65|defined curve]] via **Divide Curve** component.
-	This outputs points which when input into the (V) input of a [[Nurbs Curves#NURBS Curve component|**NURBS Curve** component]]
+	This outputs 28 points (which were specified) which when input into the (V) input of a [[Nurbs Curves#NURBS Curve component|**NURBS Curve** component]]
 ![[Pasted image 20240424130208.png|400]]
-###### 3. [[Surface Creation#Translational (NURBS) Surface Generation|Translate the NURBS Surface]] (along a directrix)
+##### 3. [[Surface Creation#Rotational (NURBS) Surface Generation|Rotational (NURBS) Surface Generation]] (around an axis, around a directrix)
 ![[Pasted image 20240424133330.png|600]]
-The generated NURBS curve is translated (revolved in this case) 
+The generated NURBS curve is translated (revolved in this case) around the directrix in this case, initial profile curve (i.e. item/curve at index 0 of list of rotated axis geometry) via **Rail Revolution** component.
+	The axis of rotation is the line generated via **SDL Line** component for the axis of the original **Rotate Axis** component. 
+The generated output of the **Rail Revolution** component is a NURBS surface with smooth edges. 
+![[Pasted image 20240424213132.png|600]]
+#### Part IV: Apply a [[Other Transformations#Box Morph component|Box Morph Transformation]]
+![[Pasted image 20240424214030.png]]
+The revolved, smooth geometry produced from the previous step is input into a **[[Other Transformations#Bounding Box component|Bounding Box]]** component which is then used as the (R) reference box input to a **[[Other Transformations#Box Morph component|Box Morph]]** component.
+
+The Target Box (T) input, is a deformed (i.e. manipulated) version of the output of the same **Bounding Box** component.
+	The [[Points#Vertices|vertices]] are extracted, then resulting list of vertices are [[Data Trees#Graft Tree component/operation|grafted]] (converting each vertex of the list into a branch of a newly produced Data Tree).
+		The branches of this Data Tree are extracted (as individual lists) via a **[[Data Trees#Explode Tree (BANG!) component|Explode Data Tree]]** component.
+			Two vertices are translated according to the same factor. 
+				These two vertices and the other non-translated vertices are input into a **[[Other Transformations#twi|Twisted Box]]** component.
+![[Pasted image 20240424220910.png|600]]
+#### Part V: Convert to a Mesh, Then Apply a SubD Algorithm to Smooth the Mesh 
+The resulting twisted geometry is converted into a mesh via a **[[Meshes#Mesh Surface / Mesh **UV** component|Mesh Surface]]** component.
+Then the subsequent mesh is then smooth via a **[[SubD Surface Modeling#Catmull-Clark Subdivision component e2c017|Wb Catmull-Clark]]** component
+![[Pasted image 20240424221230.png]]
+#### Part VI: Convert into a Watertight Printable Object
+![[Pasted image 20240424220923.png]]
+The resulting SubD mesh is converted into a watertight printable object by defining the wall thickness to be 2.0 mm via the **Mesh Thicken** component. 
+![[Pasted image 20240424221251.png]]![[Pasted image 20240424221302.png]]
+#### Part VII: Bake into Rhino, Check for Geometry Errors, Export, Convert to STL File to be 3D Printed
+The final mesh can be baked into Rhino, checked through the command check which is a tool for diagnosing potential geometry errors. If no errors occur, the mesh can be exported and converted into a STL file (File > Save As or Export > STL) to be transferred to a 3D printer or other software.

@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d34e52d640d40a2d",
+        "id": "064e2008c157eb9b",
         "type": "tabs",
         "children": [
           {
-            "id": "a83dad9dcf2a8b6d",
+            "id": "a495504f091ecb5a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Printable Objects.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6edab1b39022fd5b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Surfaces/Surface Creation.md",
+                "file": "Applications/Modeling Object for Cutting Operations.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Isotrim \"",
+                "query": "\"Developable",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -99,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Printable Objects.md",
+                "file": "Applications/Modeling Object for Cutting Operations.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -116,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Printable Objects.md",
+                "file": "Applications/Modeling Object for Cutting Operations.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -139,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Printable Objects.md"
+                "file": "Applications/Modeling Object for Cutting Operations.md"
               }
             }
           },
@@ -173,21 +161,36 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "a83dad9dcf2a8b6d",
+  "active": "a495504f091ecb5a",
   "lastOpenFiles": [
-    "Surfaces/Surface Analysis.md",
+    "Applications/Digital Fabrication.md",
+    "Applications/Modeling Object for Cutting Operations.md",
+    "Surfaces/Notion of Surface Curvature.md",
+    "Surfaces/Gaussian Curvature.md",
+    "Data/Data.md",
     "Applications/Printable Objects.md",
-    "Pasted image 20240424133330.png",
+    "images/Pasted image 20240424221302.png",
+    "Untitled",
+    "Surfaces/Surface Analysis.md",
+    "images/Pasted image 20240424221251.png",
+    "images/Pasted image 20240424221230.png",
+    "images/Pasted image 20240424220923.png",
+    "images/Pasted image 20240424220910.png",
+    "Transformations/Other Transformations.md",
+    "Data/Data Trees.md",
+    "images/Pasted image 20240424215916.png",
+    "images/Pasted image 20240424214030.png",
+    "images/Pasted image 20240424213520.png",
+    "Surfaces/Surface Creation.md",
+    "images/Pasted image 20240424213132.png",
+    "images/Pasted image 20240424133330.png",
     "Surfaces/SubD Surface Modeling.md",
     "Surfaces/SubD Surface Patterns.md",
-    "Surfaces/Surface Creation.md",
     "Surfaces/Surface Strategies.md",
     "Abstract/Morphogenesis/Elemental Building Blocks.md",
     "Transformations/Transformations.md",
     "Surfaces/Surfaces.md",
-    "images/Pasted image 20240423115037.png",
     "Transformations/Vectors.md",
-    "Transformations/Other Transformations.md",
     "Transformations/Affine Transformations.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Spaces.md",
     "Surfaces/Grids.md",
@@ -197,20 +200,7 @@
     "Surfaces/Meshes.md",
     "Abstract/Morphogenesis/Computational Methodology.md",
     "Abstract/Morphogenesis/Rationalizing a Geometry.md",
-    "Data/Data Trees.md",
-    "Abstract/Language.md",
-    "Abstract/How to Improve Computational and Parametric Intuition.md",
     "Abstract/Morphogenesis",
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Points.md",
-    "Abstract/Computational Design Thinking.md",
-    "images/Pasted image 20240423120518.png",
-    "images/Pasted image 20240424130208.png",
-    "images/Pasted image 20240424124805.png",
-    "images/Pasted image 20240424123725.png",
-    "images/Pasted image 20240424123327.png",
-    "images/Pasted image 20240423193215.png",
-    "images/Pasted image 20240423122231.png",
-    "images/Pasted image 20240423115048.png",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects",
     "Data/Abstract Mathematical Spaces",
     "Data/Abstract Mathematical Spaces/Physics",
@@ -218,7 +208,6 @@
     "Data/Abstract Mathematical Spaces/Physics/Analysis",
     "Topology",
     "Applications",
-    "Solids",
-    "Transformations"
+    "Solids"
   ]
 }
