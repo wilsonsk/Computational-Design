@@ -167,8 +167,16 @@ Continuity has different behavior with respect to:
 	- if the *nth* derivation is continuous: the original curve has *Cn* continuity.
 - *C* continuity does **not** mean that a curve is geometrically smooth.
 ###### [[Geometric Space]]: *G* 
-- If a curve has *C0* continuity: it is *G0* continuous- it is connected and this means the same thing in both parametric and geometric space.
-- If a curve is *G0* continuous and its tangent direction varies continuously: the curve is *G1* continuous.
+If a curve has *C0* continuity: it is *G0* continuous- it is connected and this means the same thing in both parametric and geometric space.
+
+###### G0 Continuity
+If a curve is *G0* continuous and its tangent direction varies continuously: the curve is *G1* continuous.
+The simplest form of continuity, G0, signifies that the sections meet but may not be smooth or aligned. 
+There is no gap between them, but there might be a visible or palpable "step" or angle change at the joints.
+###### G1 Continuity
+This involves not only touching (G0) but also aligning tangents at the joints to ensure that the curve or surface does not have a sharp kink. G1 continuity means that the direction of the surface or curve is continuous across the boundary.
+###### G2 Continuity (or Curvature Continuity)
+G2 continuity takes smoothness further by aligning the curvature of the sections at the joins. This ensures the sections not only align in direction but also in curvature, making the transitions appear seamless and smooth.
 ##### [[Bezier Curves]] 
 ##### Splines:
 - is a **composite curves** composed of relating parts.

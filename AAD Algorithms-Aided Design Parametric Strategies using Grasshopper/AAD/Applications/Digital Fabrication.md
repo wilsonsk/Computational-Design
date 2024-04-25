@@ -87,7 +87,11 @@ Subtractive methods can achieve the same output of cutting machines with the **a
 
 Solid blocks of materials from wood to polystyrene can be milled to cave described geometry.
 	Not all geometry can achieved using 3 axis milling.
-		And in many cases objects must be decomposed into several parts to prevent undercutting. 
+		And in many cases objects must be decomposed into several parts to prevent **undercutting**. 
+###### Undercutting
+Refers to a scenario where part of a material or object is cut from underneath or inside, creating an overhand or a recess that is difficult to reach with traditional machining tools like drills or mills. 
+	I.e. Creating features that are not accessible or cannot be machined directly from the tools' approach angle. 
+		*Examples*: Internal cavities, deep recesses, or complex geometries that recede under other surfaces. 
 
 ![[Pasted image 20240418220410.png|400]]
 #### CNC Milling machines
