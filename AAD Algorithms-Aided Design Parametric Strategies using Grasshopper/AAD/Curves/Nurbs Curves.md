@@ -6,12 +6,20 @@ related:
 date created: 2024-03-19
 ---
 # NURBS Curves
+Are [[Continuities|continuous]].
+
+NURBS curves can exhibit different levels of continuity:
+###### C0 Continuity: 
+This is the basic level of continuity where the curve is continuous, but there might be a visible corner where segments meet.
+###### C1 Continuity:
+At this level, not only the curve but also the first derivative (the tangent) is continuous across segments. This means there are no visible corners, and the curve appears smooth.
+###### C2 Continuity:
+Here, the curve, its first derivative, and its second derivative (curvature) are continuous. This level of smoothness is especially important in automotive and aerospace applications where the flow of a surface needs to be extremely smooth.
 ## **N**on-**U**niform **R**ational **B**-**S**plines:
 Are mathematical representations of 3D geometry that can accurately describe any shape from a simple 2D line, circle, arc or [[Curves]] to the most complex 3D organic free-form surface or solid.
 
 They exist to enable curves control polygons can be **taken through perspective projection** and the **curve computed afterwards**.
 - **To do this**: NURBS introduce and define **weights**.
-
 ## A **NURBS curve** is a mathematical expression represented by a curve:
 **Defined** by its **degree** (a set of a weighted control points, a knots vector and an evaluation rule):
 ## Degree:
@@ -22,7 +30,6 @@ A positive integer number
 	- NURBS **circles** (and circles, parabolas, hyperbolas and ellipses) are **degree 2**
 	- Most **free form** curves are **degree 3 or 5**
 - The value equal to degree+1 is called the **order**.
-
 ## Control Points:
 A NURBS curve is constrained by the **position** and **weight** of control points.
 - **Weights**: regulates the attraction between the control points and the curve.
@@ -44,7 +51,6 @@ Outputs:
 - (C): Resulting NURBS Curve.
 - (L): NURBS Curve Length
 - (D): NURBS Curve Domain.
-
 ## Parametric Representation of a NURBS Curve:
 ### World Coordinate System (WCS):
 In Rhino 3D, the environment is based on a WCS.
@@ -64,14 +70,13 @@ The **advantages** as it requires just **one parameter** to **identify** a point
 	- *t* is a **scalar**.
 	- When a curve's end points are represented by 0 and 1 respectively, this is unitization or reparameterization as detailed in [[Numbers]].
 	- I.e. the curve is said to be "parametrized" between 0 and 1 or alternatively, that is **domain** is *[0,1]*.
-- ![[lcs.png]]
+	![[lcs.png]]
 - **Important:** *t* does **NOT measure distances**.
 	- *t* represents **time** that a particle takes to move from t=0 to the position marked by *p(t)*. 
 	- This **time** is affected by the **position** of **control-points**, and specifically the **motion** of the the *particle* **slows** down when it passes though a **concentration** of control points.
 		- For this reason *t=0.5* is not the parameter that specifies the curve's **midpoint**. 
-		- ![[Pasted image 20240323002953.png]]
+			![[Pasted image 20240323002953.png]]
 			- Even if the curve is **rebuilt** with uniform redistribution of control points, the mid point is not coincident with the point corresponding to *t=0.5*. ^65f47a
-
 ## Analysis of Curves in Grasshopper:
 Components, logics, and strategies to control NURBS curves using Parametric Representation. 
 #### Finding points on a curve: 
@@ -93,7 +98,6 @@ Swapping start and end points.
 	- **Inputs**:
 		- **(C):** curve to be flipped.
 		- **(G):** a reference curve used to unify the direction of the set of curves.
-
 #### World to Local Conversion:
 - In Rhino set points are expressed in the **WCS**.
 - **Curve CP** component: 
@@ -125,10 +129,8 @@ Swapping start and end points.
 	- **Contour** component:
 		- Creates a set of curve contours given a curve (**C**), a start point (**P**), and a distance (**D**). 
 		- The resulting intersections are output as a point coordinates in the WCS (P) as well as in the LCS (t).
-
 ## Notion of Curvature for planar curves:
 The curvature of a planar curve *c* measured at point *P* calculates the **deviation** from *c* from its tangent line near *P*. 
-
 ###### Planar Curve
 Essentially a 2D (i.e. bi-dimensional) curve.
 It lies completely within a single plane.

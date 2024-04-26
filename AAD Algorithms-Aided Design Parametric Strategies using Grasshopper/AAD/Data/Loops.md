@@ -152,7 +152,7 @@ Shatters a curve into segments.
 		- (t): Parameters to split at. 
 	- Outputs:
 		- (S): List of shattered segments.
-##### Offset Curve component;
+##### Offset Curve component:
 Offsets a curve with a specified distance.
 - Inputs:
 	- (C): Curve to Offset.
