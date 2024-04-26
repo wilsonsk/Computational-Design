@@ -113,6 +113,16 @@ Calculates the Principal curvature for surfaces.
 	- G: Gaussian Curvature value.
 	- M: Mean Curvature value.
 ![[Pasted image 20240325095531.png|500]]
+### Surface [[Continuities|Continuity]]
+![[Pasted image 20240425135925.png]]
+###### G0: Two surfaces are connected, but only their positions match at the connection point.
+###### G1: Two surfaces are connected, and their positions and tangents match at the connection point.
+###### G2: Two surfaces are connected, and their positions, tangents, and curvatures match at the connection point.
+
+#### Mathematical Perspective
+###### G0: The functions representing the curves are not equal at any particular point.
+###### G1: The first derivatives of the functions are equal, meaning they have the same slope.
+###### G2: The second derivatives are equal, indicating the same rate of curvature.
 
 ##### Strategies:
 [[Surface Strategies]]

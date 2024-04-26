@@ -11,6 +11,21 @@ related:
 date created: 2024-04-10
 ---
 # Discontinuities
+## [[Discontinuities|Discontinuity]] (i.e. Disjoint)
+### Continuity Type
+Disjoint
+![[Pasted image 20240425163949.png]]
+### Adjacency Analysis
+Nothing
+![[Pasted image 20240425164152.png]]
+### Inheritance
+N/A
+### Math Analysis
+$f(x) != g(x)$
+Domains are not adjacent.
+### Graphical Representation
+End Points not coincident, would need to be moved to join.
+## Definition
 Refers to **points or regions** on the **curve** where there is a **sudden change in direction**, an **interruption in the smoothness**, or a **break** in the curve itself. 
 - Ways discontinuities manifest:
 	- **Cusps**: Points where the curve suddenly **changes direction**, creating a sharp point.  ^2b891a

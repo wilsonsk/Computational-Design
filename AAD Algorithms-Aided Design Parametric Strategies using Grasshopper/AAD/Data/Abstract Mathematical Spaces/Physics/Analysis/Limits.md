@@ -54,7 +54,7 @@ Between the **average rate of change** to the **instantaneous rate of change**.
 	- Therefore, if this limit exists at this point, then the function is **differentiable** at that point.
 		- And the slope of the tangent line at this point is precisely the value of this limit itself - which is the derivative of that point.
 ## Limits Define Continuity or [[Discontinuities|Discontinuity]]
-### [[Curves#Continuity (i.e. when curves join)|Continuity]]
+### [[Continuities|Continuity]]
 Continuity at a point means that there is **no** interruption in the curve (i.e. function) at that point. 
 - For a function to be continuous at a point $a$, three conditions must be met:
 	1. **The function $f(x)$ is defined at point $a$.**

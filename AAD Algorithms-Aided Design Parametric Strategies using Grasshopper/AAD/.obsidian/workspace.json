@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a495504f091ecb5a",
+            "id": "304a9c96937f78f1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"Continuity",
+                "query": "\"Curves#Continuity",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -161,30 +160,33 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "a495504f091ecb5a",
+  "active": "304a9c96937f78f1",
   "lastOpenFiles": [
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Limits.md",
-    "Curves/Curves.md",
-    "Applications/Modeling Object for Cutting Operations.md",
-    "Applications/Digital Fabrication.md",
-    "Pasted image 20240424230133.png",
-    "Pasted image 20240424230003.png",
     "Surfaces/Notion of Surface Curvature.md",
+    "Applications/Modeling Object for Cutting Operations.md",
+    "Curves/Continuities.md",
+    "Curves/Curves.md",
+    "Curves/Discontinuities.md",
+    "images/Pasted image 20240424230003.png",
+    "images/Pasted image 20240425170318.png",
+    "images/Pasted image 20240425165737.png",
+    "images/Pasted image 20240425165446.png",
+    "images/Pasted image 20240425165440.png",
+    "images/Pasted image 20240425165145.png",
+    "images/Pasted image 20240425165135.png",
+    "images/Pasted image 20240425164741.png",
+    "images/Pasted image 20240425164702.png",
+    "images/Pasted image 20240425164152.png",
+    "Transformations/Euclidean Transformations.md",
+    "Applications/Digital Fabrication.md",
     "Surfaces/Gaussian Curvature.md",
     "Data/Data.md",
     "Applications/Printable Objects.md",
-    "images/Pasted image 20240424221302.png",
     "Untitled",
     "Surfaces/Surface Analysis.md",
-    "images/Pasted image 20240424221251.png",
-    "images/Pasted image 20240424221230.png",
-    "images/Pasted image 20240424220923.png",
-    "images/Pasted image 20240424220910.png",
     "Transformations/Other Transformations.md",
     "Data/Data Trees.md",
-    "images/Pasted image 20240424215916.png",
-    "images/Pasted image 20240424214030.png",
-    "images/Pasted image 20240424213520.png",
     "Surfaces/Surface Creation.md",
     "Surfaces/SubD Surface Modeling.md",
     "Surfaces/SubD Surface Patterns.md",
@@ -196,10 +198,6 @@
     "Transformations/Affine Transformations.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Spaces.md",
     "Surfaces/Grids.md",
-    "Data/Data Management.md",
-    "Transformations/Euclidean Transformations.md",
-    "Surfaces/Meshes.md",
-    "Abstract/Morphogenesis/Computational Methodology.md",
     "Abstract/Morphogenesis",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects",
     "Data/Abstract Mathematical Spaces",
