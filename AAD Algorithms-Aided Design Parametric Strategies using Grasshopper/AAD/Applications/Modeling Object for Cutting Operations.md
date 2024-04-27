@@ -43,9 +43,11 @@ A common fabrication technique is to leave a space between each section to creat
 ![[Pasted image 20240424232407.png|600]]
 ## Uni-Directional Sectioning Algorithm
 ### General Outline
-###### 1. Define Slicing Direction
-###### 2. Generate Series of Section Planes
-###### 3. Defining the Sections (i.e. Intersect the Planes with the Model)
+###### [[#1. Defining the Slicing Direction|1. Define Slicing Direction]]
+###### [[#2. Generate Series of Section Planes|2. Generate Series of Section Planes]]
+###### [[#3. Defining the Sections (i.e. Intersect the Planes with the Model)|3. Defining the Sections (i.e. Intersect the Planes with the Model)]]
+###### [[#4. Convert NURBS curves into Arcs and Segments|4. Convert NURBS curves into **Arcs** and **Segments**]]
+
 ![[Pasted image 20240425225209.png]]
 #### 1. Defining the Slicing Direction
 ![[Pasted image 20240425225353.png]]
@@ -68,7 +70,7 @@ Solves intersection events for a Brep and a plane (i.e. a section).
 	- (P): Section points. 
 #### 3. Defining the Sections (i.e. Intersect the Planes with the Model)
 ![[Pasted image 20240425232555.png]]
-Each resulting section curve is offset relative to the defined plane normal (the "first" plane normal corresponding with the "first" point of origin of a section plane) via **[[Loops#Offset Curve component;|Offset Curve]]** component. 
+Each resulting section curve is offset relative to the defined plane normal ("$z$ axis") (the "first" plane normal corresponding with the "first" point of origin of a section plane) via **[[Loops#Offset Curve component;|Offset Curve]]** component. 
 	Where the (D) input is a "preset distance" [[#^interval-between-sections|equal to the thickness of the material to mill]].
 	And each
 ##### *A potential issue:* Offsetting may produce [[Discontinuities|discontinuities]].
@@ -100,5 +102,32 @@ Then the merged branches are then joined, returning a list of closed planar curv
 *Below image is the output of the joined curves i.e. the closed planar curves.*
 ![[Pasted image 20240425235045.png]]
 
-Below image is the joined curves/closed planar curves oriented on the *xy* plane via the **Orient** component. 
+Below image is the joined curves/closed planar curves oriented on the *xy* plane (i.e. such that all parts of every curve are **coincident** with the *Ixy* plane) via the **[[Euclidean Transformations#Orient component|Orient]]** component. 
 ![[Pasted image 20240425235851.png]]
+Once the joined curves are oriented according to the *xy* plane, they can be transferred to a cutting or milling machine. 
+#### 4. Convert NURBS curves into Arcs and Segments
+Most [[Digital Fabrication#CNC Milling machines|CNC machines]] cannot read NURBS curves.
+	As a result the **NURBS curves must be converted** into **arcs and segments**.  
+		The conversion is based on two main strategies:
+			1. Divide the curves into a large number of points and then define a polyline through the resulting points.
+			2. Use Rhino's **Convert** command to convert curves into arcs or polylines with set tolerances. 
+
+After the conversion, the resulting geometries are **nested** in order to minimize the material waste either manually, by third party software or by plug-in.
+## Waffling
+A **bi-directional planar section strategy**.
+Waffling performs the section contouring procedure in two orthogonal directions. 
+	An alternate way to build freeform objects by section planes.
+![[Pasted image 20240426162922.png]]
+*Below are examples of various waffling techniques, which are based on the initial shape and the direction of sectioning, to achieve a desired output.*
+![[Pasted image 20240427082731.png]]
+### Waffling Intersections
+Waffling requires intersections on which to perform a standard set of operations.
+
+Every possible intersection between every **rib** (or planar surface) is calculated and a list of intersection-segments are returned. 
+![[Pasted image 20240427083154.png|400]]
+
+At each intersection-segment two domain boxes(*A'* and *B'*) are created.
+These boxes are subsequently subtracted using the **Solid Difference** operation: *A-A'* and *B-B'*.
+![[Pasted image 20240427083325.png|400]]
+A solid difference allows to create node-intersections between ribs.
+![[Pasted image 20240427083453.png|500]] ![[Pasted image 20240427083509.png|400]]

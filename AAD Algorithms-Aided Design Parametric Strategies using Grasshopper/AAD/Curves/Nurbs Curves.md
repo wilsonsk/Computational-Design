@@ -8,12 +8,12 @@ date created: 2024-03-19
 # NURBS Curves
 Are [[Continuities|continuous]].
 
-NURBS curves can exhibit different levels of continuity:
-###### C0 Continuity: 
+NURBS curves can exhibit different levels of [[Continuities|continuity]]:
+###### C0 Continuity (i.e. Position Continuity): 
 This is the basic level of continuity where the curve is continuous, but there might be a visible corner where segments meet.
-###### C1 Continuity:
+###### C1 Continuity(i.e. Tangent Continuity):
 At this level, not only the curve but also the first derivative (the tangent) is continuous across segments. This means there are no visible corners, and the curve appears smooth.
-###### C2 Continuity:
+###### C2 Continuity (i.e. Curvature Position Continuity):
 Here, the curve, its first derivative, and its second derivative (curvature) are continuous. This level of smoothness is especially important in automotive and aerospace applications where the flow of a surface needs to be extremely smooth.
 ## **N**on-**U**niform **R**ational **B**-**S**plines:
 Are mathematical representations of 3D geometry that can accurately describe any shape from a simple 2D line, circle, arc or [[Curves]] to the most complex 3D organic free-form surface or solid.
@@ -158,6 +158,14 @@ Curvature can also be **defined** as the **vector** *k* with direction *PO* and 
 	- The curve's curvature value can be calculated in one of two ways:
 		- As the reciprocal of the radius of osculating circle (C) - which is obtained via the (R) output of the **Deconstruct Arc-DArc** component. 
 		- As the magnitude of the **vector** *k* which can be calculated via the **Vector Length** component. 
+###### Deconstruct Arc-DArc component
+Retrieve the base plane, radius and angle domain of an arc. 
+- Inputs
+	- (A): Arc or Circle to deconstruct.
+- Outputs
+	- (B): Base plane of arc or circle.
+	- (R): Radius of arc or circle.
+	- (A): Angle domain (in radians) of an arc. 
 
 **Curves on a surface**: [[Surfaces#^parametric-representation-of-a-surface|Parametric Representation of Curves on a Surface]]
 ## Closed NURBS Curves

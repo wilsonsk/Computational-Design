@@ -157,7 +157,7 @@ Offsets a curve with a specified distance.
 - Inputs:
 	- (C): Curve to Offset.
 	- (D): Offset distance.
-	- (P): Plane for offset operation.
+	- (P): Plane for offset operation ie offset plane/"direction".
 	- (C): Corner type flag. 
 		- 0: None.
 		- 1: Sharp.
