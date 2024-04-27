@@ -4,18 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "064e2008c157eb9b",
+        "id": "90e37736401b41b7",
         "type": "tabs",
         "children": [
           {
-            "id": "304a9c96937f78f1",
+            "id": "dc8ba5b4a99c5aef",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Applications/Modeling Object for Cutting Operations.md",
-                "mode": "source",
-                "source": false
+                "file": "images/Pasted image 20240427083509.png"
               }
             }
           }
@@ -48,7 +46,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"Arc",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,13 +63,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a3457d95b32e7cc2",
@@ -87,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Modeling Object for Cutting Operations.md",
+                "file": "images/Pasted image 20240427083509.png",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -104,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Modeling Object for Cutting Operations.md",
+                "file": "images/Pasted image 20240427083509.png",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -127,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Modeling Object for Cutting Operations.md"
+                "file": "images/Pasted image 20240427083509.png"
               }
             }
           },
@@ -161,25 +157,24 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "304a9c96937f78f1",
+  "active": "70a890f8a800eb39",
   "lastOpenFiles": [
-    "Pasted image 20240427083509.png",
-    "Pasted image 20240427083453.png",
-    "Pasted image 20240427083325.png",
-    "Pasted image 20240427083154.png",
-    "Pasted image 20240427082731.png",
-    "Pasted image 20240426162922.png",
-    "Pasted image 20240426162903.png",
+    "Applications/Modeling Object for Cutting Operations.md",
+    "images/Pasted image 20240427083509.png",
+    "images/Pasted image 20240427083453.png",
+    "images/Pasted image 20240427083325.png",
+    "images/Pasted image 20240427083154.png",
+    "images/Pasted image 20240427082731.png",
+    "images/Pasted image 20240426162922.png",
+    "images/Pasted image 20240426162903.png",
     "Curves/Nurbs Curves.md",
     "Curves/Continuities.md",
-    "Applications/Modeling Object for Cutting Operations.md",
     "Transformations/Euclidean Transformations.md",
     "Data/Loops.md",
-    "Pasted image 20240425235851.png",
+    "images/Pasted image 20240425235851.png",
     "Applications/Digital Fabrication.md",
-    "Pasted image 20240425235045.png",
-    "Pasted image 20240425235006.png",
-    "Pasted image 20240425234907.png",
+    "images/Pasted image 20240425235045.png",
+    "images/Pasted image 20240425235006.png",
     "Untitled.md",
     "^interval-between-sections-planes-equal-to-thickness-of-material.md",
     "Applications/Printable Objects.md",
