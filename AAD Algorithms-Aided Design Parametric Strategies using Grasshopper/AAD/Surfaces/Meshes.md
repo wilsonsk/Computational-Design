@@ -71,13 +71,14 @@ date created: 2024-04-03
 			- Only **triangular** meshes can be guaranteed to have **planar faces**.
 				- Because to be a triangle, the 3 vertices of that triangle **must be coplanar**.
 			- Quadrangular meshes are not guaranteed to be planar. 
-				- But, quadrangular meshes with planar faces are called **PQ Meshes** (Planar Quadrilateral Meshes).
-					- PQ Meshes are fundamental to panelization techniques of freeform architecture.  ^16549d
-						- **Quadrilateral**: 
-							- A 2D shape with:
-							- Four sides. 
-							- Four vertices.
-							- Four angles.
+###### Planar Quadrangular Panels (i.e. PQ Meshes)
+But, quadrangular meshes with planar faces are called **PQ Meshes** (Planar Quadrilateral Meshes).
+- PQ Meshes are fundamental to panelization techniques of freeform architecture.  ^16549d
+	- **Quadrilateral**: 
+		- A 2D shape with:
+		- Four sides. 
+		- Four vertices.
+		- Four angles.
 ### Orientation
 The **connection-order** of the **vertices**:
 - **Determines** the **orientation** of the **face**.

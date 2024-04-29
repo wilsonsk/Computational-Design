@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "dc8ba5b4a99c5aef",
+            "id": "feaf8c3ea4089d46",
             "type": "leaf",
             "state": {
               "type": "image",
               "state": {
-                "file": "images/Pasted image 20240427083509.png"
+                "file": "images/Pasted image 20240428173829.png"
               }
             }
           }
@@ -46,7 +46,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "\"Ruled ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "images/Pasted image 20240427083509.png",
+                "file": "images/Pasted image 20240428173829.png",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "images/Pasted image 20240427083509.png",
+                "file": "images/Pasted image 20240428173829.png",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "images/Pasted image 20240427083509.png"
+                "file": "images/Pasted image 20240428173829.png"
               }
             }
           },
@@ -159,8 +159,15 @@
   },
   "active": "70a890f8a800eb39",
   "lastOpenFiles": [
-    "Applications/Modeling Object for Cutting Operations.md",
+    "Applications/Large Scale Projects.md",
+    "Surfaces/Surface Strategies.md",
+    "images/Pasted image 20240428173829.png",
+    "Data/Data Management.md",
+    "Surfaces/Meshes.md",
+    "Applications/Printable Objects.md",
+    "Algorithms Aided Design MOC.md",
     "images/Pasted image 20240427083509.png",
+    "Applications/Modeling Object for Cutting Operations.md",
     "images/Pasted image 20240427083453.png",
     "images/Pasted image 20240427083325.png",
     "images/Pasted image 20240427083154.png",
@@ -174,10 +181,7 @@
     "images/Pasted image 20240425235851.png",
     "Applications/Digital Fabrication.md",
     "images/Pasted image 20240425235045.png",
-    "images/Pasted image 20240425235006.png",
-    "Untitled.md",
     "^interval-between-sections-planes-equal-to-thickness-of-material.md",
-    "Applications/Printable Objects.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Limits.md",
     "Surfaces/Notion of Surface Curvature.md",
     "Curves/Curves.md",
@@ -191,10 +195,6 @@
     "Surfaces/Surface Creation.md",
     "Surfaces/SubD Surface Modeling.md",
     "Surfaces/SubD Surface Patterns.md",
-    "Surfaces/Surface Strategies.md",
-    "Abstract/Morphogenesis/Elemental Building Blocks.md",
-    "Transformations/Transformations.md",
-    "Surfaces/Surfaces.md",
     "Abstract/Morphogenesis",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects",
     "Data/Abstract Mathematical Spaces",
