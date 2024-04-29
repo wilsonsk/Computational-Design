@@ -11,14 +11,13 @@ date created: 2024-04-19
 # Second Derivatives
 The second derivative of a function $f(x)$, denoted as $f′′(x)$ or $d^2y/d^2x$​.
 Is the derivative of the first derivative. 
-	I.e. It is the rate at which the slope of the curve $f(x)$ changes with $𝑥$. 
-		This tells us how the rate of change itself is changing.
+	I.e. It is the rate at which the slope of the tangent line of a point of the curve $f(x)$ changes with $𝑥$. 
+		This tells us how the rate of change itself (of the slope of the tangent line) is changing.
 		
 What $f′′(x)$ tells you is how the slope of the original function $f(x)$ is changing. 
 	For instance, is the slope becoming steeper? Is it leveling off? Is it curving upwards or downwards?
 
 Understanding the second derivative is crucial for analyzing the behavior or dynamics of a function beyond just their increasing or decreasing nature. 
-
 ## Concavity
 If $f′′(x)>0$ (the second derivative is positive), 
 	Then the original function $f(x)$ is concave up (like a cup), meaning its slope is increasing. 

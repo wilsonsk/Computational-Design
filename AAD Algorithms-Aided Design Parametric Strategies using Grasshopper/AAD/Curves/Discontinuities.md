@@ -23,6 +23,7 @@ N/A
 ### Math Analysis
 $f(x) != g(x)$
 Domains are not adjacent.
+Where $x$ is the point
 ### Graphical Representation
 End Points not coincident, would need to be moved to join.
 ## Definition

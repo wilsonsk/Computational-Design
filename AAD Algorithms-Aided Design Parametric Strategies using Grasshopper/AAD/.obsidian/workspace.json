@@ -4,16 +4,42 @@
     "type": "split",
     "children": [
       {
-        "id": "90e37736401b41b7",
+        "id": "c91f03e1e3d45288",
         "type": "tabs",
         "children": [
           {
-            "id": "feaf8c3ea4089d46",
+            "id": "2962f9154aad4c07",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "images/Pasted image 20240428173829.png"
+                "file": "Applications/Over the Material, Past the Digital, Back to the Cities.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1bf22dbea27327a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Curves/Continuities.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f7f208a013cc8a2c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -46,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"Ruled ",
+                "query": "\"Osculating",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -67,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a3457d95b32e7cc2",
@@ -83,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "images/Pasted image 20240428173829.png",
+                "file": "Applications/Over the Material, Past the Digital, Back to the Cities.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -100,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "images/Pasted image 20240428173829.png",
+                "file": "Applications/Over the Material, Past the Digital, Back to the Cities.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -123,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "images/Pasted image 20240428173829.png"
+                "file": "Applications/Over the Material, Past the Digital, Back to the Cities.md"
               }
             }
           },
@@ -157,11 +184,21 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "70a890f8a800eb39",
+  "active": "2962f9154aad4c07",
   "lastOpenFiles": [
+    "Curves/Continuities.md",
+    "Pasted image 20240429141001.png",
+    "Applications/Over the Material, Past the Digital, Back to the Cities.md",
+    "Surfaces/Notion of Surface Curvature.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Second Derivatives.md",
+    "Curves/Nurbs Curves.md",
+    "Curves/Curves.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Secant Line.md",
+    "Curves/Discontinuities.md",
+    "images/Pasted image 20240428173829.png",
     "Applications/Large Scale Projects.md",
     "Surfaces/Surface Strategies.md",
-    "images/Pasted image 20240428173829.png",
     "Data/Data Management.md",
     "Surfaces/Meshes.md",
     "Applications/Printable Objects.md",
@@ -174,27 +211,17 @@
     "images/Pasted image 20240427082731.png",
     "images/Pasted image 20240426162922.png",
     "images/Pasted image 20240426162903.png",
-    "Curves/Nurbs Curves.md",
-    "Curves/Continuities.md",
     "Transformations/Euclidean Transformations.md",
     "Data/Loops.md",
     "images/Pasted image 20240425235851.png",
     "Applications/Digital Fabrication.md",
-    "images/Pasted image 20240425235045.png",
     "^interval-between-sections-planes-equal-to-thickness-of-material.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Limits.md",
-    "Surfaces/Notion of Surface Curvature.md",
-    "Curves/Curves.md",
-    "Curves/Discontinuities.md",
     "Surfaces/Gaussian Curvature.md",
     "Data/Data.md",
     "Untitled",
     "Surfaces/Surface Analysis.md",
     "Transformations/Other Transformations.md",
-    "Data/Data Trees.md",
-    "Surfaces/Surface Creation.md",
-    "Surfaces/SubD Surface Modeling.md",
-    "Surfaces/SubD Surface Patterns.md",
     "Abstract/Morphogenesis",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects",
     "Data/Abstract Mathematical Spaces",
