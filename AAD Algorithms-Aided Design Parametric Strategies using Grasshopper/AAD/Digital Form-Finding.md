@@ -1,5 +1,7 @@
 # Digital Form Finding
 In architecture and engineering it refers to the **process of designing optimal structural shapes by using experimental tools and strategies (i.e. physical modes) to simulate a specific mechanical behavior**.
+	
+Experimental methods of finding structural form through physical models.
 ## The Reverse Hanging Method
 Refers to physical model, made with elastic cables or membranes with no rotational stiffness. 
 	It is first subject to gravitational forces to **obtain a structural state of pure tension**.
@@ -103,8 +105,88 @@ The span/rise ratio significantly affects the structural and aesthetic character
 The curvature of the arch must be precisely calculated to handle compression under its specific span and rise conditions.
 	A flatter arch will have different stresses and require a different curvature than a steeper arch to ensure that all forces are adequately transferred in compression. 
 		This ratio is critical in determining the arch’s stability, load capacity, and overall appearance.
-### Tri-Dimensional Application of Pure Compression
+### Tri-Dimensional Application of the Reverse Hanging Method
 This same principle can be extended to the three dimensions in order to find structural form of the a structure (ex. reinforced concrete, masonry vaults and shells, steel or timber gridshells).
 ###### Three Models of Constructing Methods 
 For construction of reinforced concrete, masonry vaults and shells, steel or timber gridshells.
-###### 
+###### String Model
+Uses strings to discretize structural forms as barrel vaults and domes.
+	Strings are arranged either in parallel (for vaults) or radially (for domes).
+		Bags of sand are then added to control the distribution of weight. 
+*Example:* Antoni Gaudi - Church of Colonia Guell
+	Two hierarchical orders of strings were used - the first defined the geometry of columns, main arches and supported the second order of strings, which defined the form of the walls and vaults. 
+###### Non-Rigid Net Technique
+![[Pasted image 20240430232738.png]]
+Involves using flexible, chain like material to model non-rigid or flexible structures such as gridshells.
+	These nets help in finding the optimal structural form by naturally forming into a shape under the influence of gravity, which mimics the final desired form of the gridshell. 
+*Example*:  Frei Otto - The Multihalle in Mannheim
+	The initial model was created with a wire-mesh at a small scale to establish basic geometry, followed by a larger scale model to refine the structure and determine support positions.
+		This technique often involves sophisticated design phases, including the use of photogrammetry to capture precise geometrical data for construction drawings and further analytical calculations.
+###### Fabric Form-Finding Technique
+![[Pasted image 20240430232721.png]]
+Specific to the form-finding of RC shells which are a continuous type of structures.
+	Involved using wet fabric or membrane that was suspended and then allowed to naturally sag under its own weight and the force of gravity. 
+		The process typically began with a piece of fabric soaked in a hardening solution. The fabric was then draped over a supportive frame or suspended from points, and as it dried, it adopted a stable form. 
+			This form was a direct result of the fabric responding to gravity – mimicking a natural catenary curve. The hardened shape was then used as a mold or as a direct form for constructing reinforced concrete (RC) shells.
+				This method took advantage of the fabric's flexibility and the gravitational force to find the most efficient structural form. 
+
+Very different results can be obtained by varying the type of fabric used, i.e. the properties of the model material play an important role in the process.
+
+The resulting shapes are highly efficient in compression, often requiring minimal material thickness to achieve considerable spans and structural capabilities. 
+	This method is particularly noted for producing forms that are not only aesthetically unique but also structurally optimized.
+## Soap Film Method
+![[Pasted image 20240501002303.png]]
+Pioneered by Frei Otto at the Institute for Lightweight Structures in Stuttgart.
+This method utilizes the **natural tendency of soap films** to **form minimal surfaces** when **stretched across wire frames**.
+	Specifically, stretching cables or elastic membranes across different [[#Edge Frames|edge frames]], simulating the pre-stress state typical of cable nets or tensile structures.
+		Which, consequently, generates their geometry.  
+	The shape of small scale tensile structures can also be found dipping [[#Closed Frames|closed frames]].
+###### Edge Frames
+Typically refers to the boundary or perimeter structure that supports or confines a material such as a cable net or membrane in architectural models. 
+	It is the framework upon which the material is stretched or attached.
+
+Edge frames define the outer limit of the structure and provides the points of anchorage for the tensile elements (cables or fabric).
+	The shape and stiffness of this edge frame significantly influences the final form of the tensile structure, as the tensioned material adopts a shape that balances the forces applied by the frame. 
+###### Closed Frames
+Refers to a loop or complete circuit frame that does not have any openings.
+	It forms a continuous boundary that can fully contain or support the material stretched within or across it. 
+- **Closed Frames as Support Structures**:
+	In the experiments conducted by Frei Otto and his team, closed frames serve as the boundaries or constraints within which minimal surfaces (like soap films) are generated. These frames could be simple (a single loop) or complex (multiple interconnected loops).
+		The soap films spans across the frame, creating a surface that exhibits the properties of a minimal surface. 
+- **Number of Closed Frames**: The "number of closed frames" likely refers to how many discrete or interconnected loops are needed to support the formation of a specific minimal surface. This classification indicates the complexity and the type of minimal surface that can be formed. For instance:
+	- **A single closed** frame might form a simple minimal surface like a flat plane or a basic saddle shape.
+	- **Multiple closed frames** interconnected in specific ways could generate more complex minimal surfaces with intricate curvatures and topologies, like [[#Catenoids|catenoids]].
+- **Classification Based on Frame Configuration**:
+	- **Simple Configurations**: These might involve minimal surfaces spanning a single loop, suitable for straightforward applications like single domes or basic architectural elements.
+	- **Complex Configurations**: These involve surfaces spanning several interconnected loops, capable of forming more elaborate structures like multi-domed roofs or complex sculptural forms.
+###### Catenoids
+A type of surface geometry that represents one of the classic examples of a minimal surface, aside from a plane.
+	Characterized by its unique shape, resembling a saddle or the surface formed by rotating a [[#Catenary Curve|catenary curve]] about a horizontal axis (that does not intersect the curve).
+###### Surface Tension in Soap Films
+For a soap film, surface tension acts uniformly across the film's surface, pulling it into the smallest possible area. 
+	This tension causes the film to adopt a shape where every tiny section of the film is locally minimizing its area.
+### Minimal Surfaces 
+Surfaces that [[#Local Minimization of Surface Area|locally minimize surface area]], and they naturally occur when soap films span a boundary. 
+	I.e. A surface that has [[Mean Curvature#Zero Mean Curvature|zero mean curvature ]]at every point, and seeks to minimize its area under given constraints, typically boundary conditions.
+		Curvature in this context refers to the way a surface curves around a point. 
+			I.e. A surface that is neither concave nor convex at any point - it is perfectly balanced between dipping and arching.
+#### Minimizing Surface Area
+To minimize surface area means to find the shape or configuration of a surface that has the smallest possible area among all surfaces that could extend across a given boundary. 
+	This is the area of the surface itself, not the area it encloses. 
+##### Local Minimization of Surface Area
+Means area is minimized within any small region of the surface.
+	I.e. Within any small, defined segment of the surface, there is no possible small deformation that will decrease its area, provided the boundary of that segment remains fixed.
+		It involves comparing the surface area to that of "nearby" surfaces that share the same boundary conditions. 
+###### Concept of Local Area:
+Imagine zooming in on a very small part of a surface, like a soap film stretched across a frame. 
+	Focus on just a tiny patch of this film. 
+		The shape and position of this small patch are such that, among all possible configurations it could take (while still attaching to the surrounding parts of the film), it has the lowest possible area.
+###### Implication of Zero Mean Curvature
+The surface is neither bulging out nor dipping in at any point more than necessary. 
+	In practical terms, for every tiny patch on the surface, the curvatures in orthogonal directions balance each other out, leading to no net effect that would increase area.
+###### Why Local Minimization Matters
+- **Structural Efficiency**: Local minimization of surface area ensures that the structure or form is using material in the most efficient way possible, reducing unnecessary stress or material usage.
+- **Stability and Integrity**: Structures designed around principles of minimal surfaces tend to distribute loads more evenly. Since there are no local deviations in the curvature that would cause concentrations of stress, the structure is inherently stable.
+- **Aesthetic Qualities**: Many minimal surfaces present unique and visually appealing forms that are smooth and continuous. These characteristics are often sought after in modern architectural design for both their beauty and structural qualities.
+## Pneumatic Hill Method (i.e. Inflated Hill Method)
+The concept of structural form being obtained through inflation of membranes. 
