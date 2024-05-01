@@ -160,12 +160,14 @@ Refers to a loop or complete circuit frame that does not have any openings.
 	- **Simple Configurations**: These might involve minimal surfaces spanning a single loop, suitable for straightforward applications like single domes or basic architectural elements.
 	- **Complex Configurations**: These involve surfaces spanning several interconnected loops, capable of forming more elaborate structures like multi-domed roofs or complex sculptural forms.
 ###### Catenoids
+![[Pasted image 20240501003115.png|300]]
 A type of surface geometry that represents one of the classic examples of a minimal surface, aside from a plane.
 	Characterized by its unique shape, resembling a saddle or the surface formed by rotating a [[#Catenary Curve|catenary curve]] about a horizontal axis (that does not intersect the curve).
 ###### Surface Tension in Soap Films
 For a soap film, surface tension acts uniformly across the film's surface, pulling it into the smallest possible area. 
 	This tension causes the film to adopt a shape where every tiny section of the film is locally minimizing its area.
 ### Minimal Surfaces 
+![[Pasted image 20240501003243.png|400]]
 Surfaces that [[#Local Minimization of Surface Area|locally minimize surface area]], and they naturally occur when soap films span a boundary. 
 	I.e. A surface that has [[Mean Curvature#Zero Mean Curvature|zero mean curvature ]]at every point, and seeks to minimize its area under given constraints, typically boundary conditions.
 		Curvature in this context refers to the way a surface curves around a point. 
@@ -188,5 +190,5 @@ The surface is neither bulging out nor dipping in at any point more than necessa
 - **Structural Efficiency**: Local minimization of surface area ensures that the structure or form is using material in the most efficient way possible, reducing unnecessary stress or material usage.
 - **Stability and Integrity**: Structures designed around principles of minimal surfaces tend to distribute loads more evenly. Since there are no local deviations in the curvature that would cause concentrations of stress, the structure is inherently stable.
 - **Aesthetic Qualities**: Many minimal surfaces present unique and visually appealing forms that are smooth and continuous. These characteristics are often sought after in modern architectural design for both their beauty and structural qualities.
-## Pneumatic Hill Method (i.e. Inflated Hill Method)
+## Pneumatic Method (i.e. Inflated Hill Method)
 The concept of structural form being obtained through inflation of membranes. 
