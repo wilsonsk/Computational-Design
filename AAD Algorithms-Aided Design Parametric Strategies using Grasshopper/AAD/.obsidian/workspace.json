@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "642a2c5754ded98f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Curvature's Role in Stress Distribution.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Digital Form-Finding.md",
+                "file": "Curvature's Role in Stress Distribution.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Digital Form-Finding.md",
+                "file": "Curvature's Role in Stress Distribution.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Digital Form-Finding.md"
+                "file": "Curvature's Role in Stress Distribution.md"
               }
             }
           },
@@ -160,14 +173,15 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "0654d88cf24f87b2",
+  "active": "70a890f8a800eb39",
   "lastOpenFiles": [
+    "Digital Form-Finding.md",
+    "Curvature's Role in Stress Distribution.md",
+    "Surfaces/Notion of Surface Curvature.md",
     "Pasted image 20240501003243.png",
     "Pasted image 20240501003115.png",
     "Surfaces/Mean Curvature.md",
-    "Digital Form-Finding.md",
     "Pasted image 20240501002303.png",
-    "Surfaces/Notion of Surface Curvature.md",
     "Pasted image 20240430232738.png",
     "Pasted image 20240430232721.png",
     "Pasted image 20240430142137.png",
@@ -190,7 +204,6 @@
     "Algorithms Aided Design MOC.md",
     "images/Pasted image 20240427083509.png",
     "Applications/Modeling Object for Cutting Operations.md",
-    "images/Pasted image 20240427083453.png",
     "Transformations/Euclidean Transformations.md",
     "Data/Loops.md",
     "Applications/Digital Fabrication.md",
