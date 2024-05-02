@@ -5,7 +5,26 @@ Experimental methods of finding structural form through physical models.
 
 Form-finding is a design process used to discover the optimal shape of a structure by allowing the geometry to evolve under a set of forces and constraints until it reaches a state of natural equilibrium. 
 	This method is highly effective in finding forms that naturally handle applied loads by distributing stresses uniformly.
+## Optimization
+*Through form-finding, design is always directed towards structural optimum.* - Alberto Pugnale
+	From the conceptual point of view, this cannot result in free-forms, which are 'freely' generated apart from any structural and construction principle. 
+		In other words, the representative component of architecture cannot be separated from its conformative core.
+			**Digital technologies are radically modifying this aspect.**
+Numerical calculation techniques are replacing entirely experimental structural design and analysis methods.
+	The way now is to use mathematical optimization which, on the basis of one or more chosen criteria, takes advantage of the computation power of the computer to interactively search for optimal solutions to a problem from among a series of possible candidates.
+		Unlike in classical form-finding, **the [[Topology|topology]] of a structural system no longer needs to be fixed**. 
+			It can therefore become the object itself of the optimization process.
 
+Optimization changes the original concept of form-finding into a new definition: 
+###### Form-Improvement/Exploration
+A new process aimed at improving the performances of an already existing spatial configuration, which does not necessarily mean reaching the structural optimum. 
+###### Optimization is Not Limited to Addressing Static Issues
+*Form-finding based on physical models is limited to issues of static nature.*
+
+Optimization techniques like GAs can be used in all those cases in which an architectural performance can be formulated through a mathematical function.
+
+From being a simple resolution instrument, optimization is becoming an efficient "form-exploration" tool to support conceptual design. 
+	It is forcing the limits of classical form-finding and defining several new research directions that redefine entirely the relationship between architecture and engineering.
 ##### Structural Design Benefits
 ###### Natural [[Curvature's Role in Stress Distribution#Load Paths|Load Path]] Optimization
 The forms derived from form-finding provide natural load paths that have evolved specifically to manage and distribute the applied forces effectively.

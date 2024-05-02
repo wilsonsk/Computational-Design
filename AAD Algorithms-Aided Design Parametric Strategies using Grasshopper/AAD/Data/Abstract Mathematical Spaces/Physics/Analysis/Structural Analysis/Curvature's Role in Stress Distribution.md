@@ -127,7 +127,7 @@ In curved structures, the continuous curvature provides a direct path for force 
 ###### Archetype Example - Arches
 Consider a traditional arch; when a load is applied at the top (the keystone area), the shape of the arch directs these forces down along its curved sides toward the foundations. 
 	This action effectively transforms the vertical load into compressive stresses along the curve.
-#### Compression-Dominant Structures
+#### Curves as Compression-Dominant Structures
 ###### Efficiency in Compression
 Curved structures are particularly effective under compression.
 	Materials like stone and concrete, which are strong in compression but weak in tension, benefit enormously from being used in curved forms.
@@ -165,6 +165,15 @@ Changes in shape such as holes, notches, sharp corners, or abrupt changes in cro
 Variations in material properties (like stiffness or elasticity) within a structure can lead to uneven stress distribution.
 ###### Boundary Condition Changes
 Changes in how a structure is supported or constrained can also lead to stress concentrations
+
+##### How Curves Can Be Sources of Stress Concentration
+###### High Curvature Areas
+While curves generally help distribute stress, areas of high curvature can act as stress concentrators. 
+	This is because, at points of sharp curvature, the bending stresses increase significantly.
+		 The sharper the curve, the higher the gradient of stress change across it, which can lead to localized areas of high stress.
+###### Complex Load Conditions
+In situations where load conditions are complex or dynamic, such as in irregularly curved structures subjected to variable wind or seismic loads, ensuring uniform stress distribution becomes challenging. 
+	The curvature may inadvertently focus stress in certain areas, especially if the load is not aligned with the natural load path envisioned in the design.
 ##### Solutions
 ###### Geometric Modifications:
 - **Radius Corners**: Replacing sharp corners with rounded ones allows stress to distribute more smoothly around the discontinuity, reducing the stress concentration factor.
@@ -204,3 +213,9 @@ For instance, brittle materials are poor in tension but good in compression, inf
 - **Biological Structures**
 	- In nature, curvature is used to optimize strength and flexibility. For example, the curved shape of bones helps distribute mechanical loads evenly, reducing the risk of fractures.
 ## [[Digital Form-Finding|Form-Finding]], [[Digital Form-Finding#Minimal Surfaces|Minimal Surfaces]] and Optimizing Stress Distribution
+### Form-Finding as means to Optimal Load Paths
+Form-finding helps discover shapes and forms that naturally channel applied forces through the most efficient paths within a structure. 
+###### Reducing Bending Moments
+By finding forms where loads are primarily transferred in compression or tension, depending on the structure's material and design, form-finding minimizes bending moments, which are significant sources of material stress.
+###### Load Compatibility
+The resulting forms are inherently compatible with the types of loads they will carry (e.g., gravitational, wind, seismic), reducing localized stresses and potential failure points.

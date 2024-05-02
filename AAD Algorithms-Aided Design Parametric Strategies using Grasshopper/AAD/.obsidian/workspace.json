@@ -4,28 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "d2dda52874c7647e",
+        "id": "73ee43300fbbc737",
         "type": "tabs",
         "children": [
           {
-            "id": "0654d88cf24f87b2",
+            "id": "5af42aff82749120",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Digital Form-Finding.md",
+                "file": "Abstract/Morphogenesis/Digital Simulation.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "642a2c5754ded98f",
+            "id": "cb2d94a06051d37c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Curvature's Role in Stress Distribution.md",
+                "file": "Abstract/Morphogenesis/Digital Simulation.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a3457d95b32e7cc2",
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Curvature's Role in Stress Distribution.md",
+                "file": "Abstract/Morphogenesis/Digital Simulation.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Curvature's Role in Stress Distribution.md",
+                "file": "Abstract/Morphogenesis/Digital Simulation.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Curvature's Role in Stress Distribution.md"
+                "file": "Abstract/Morphogenesis/Digital Simulation.md"
               }
             }
           },
@@ -175,21 +174,24 @@
   },
   "active": "70a890f8a800eb39",
   "lastOpenFiles": [
-    "Digital Form-Finding.md",
-    "Curvature's Role in Stress Distribution.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Structural Analysis/Structural Analysis.md",
+    "Abstract/Morphogenesis/Digital Simulation.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Structural Analysis/Curvature's Role in Stress Distribution.md",
+    "Abstract/Morphogenesis/Digital Form-Finding.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Structural Analysis",
+    "images/Pasted image 20240429141001.png",
+    "images/Pasted image 20240430232738.png",
     "Surfaces/Notion of Surface Curvature.md",
-    "Pasted image 20240501003243.png",
-    "Pasted image 20240501003115.png",
+    "images/Pasted image 20240501003243.png",
+    "images/Pasted image 20240501003115.png",
     "Surfaces/Mean Curvature.md",
-    "Pasted image 20240501002303.png",
-    "Pasted image 20240430232738.png",
-    "Pasted image 20240430232721.png",
-    "Pasted image 20240430142137.png",
-    "Pasted image 20240430134246.png",
+    "images/Pasted image 20240501002303.png",
+    "images/Pasted image 20240430232721.png",
+    "images/Pasted image 20240430142137.png",
+    "images/Pasted image 20240430134246.png",
     "Curves/Continuities.md",
     "Applications/Over the Material, Past the Digital, Back to the Cities.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
-    "Pasted image 20240429141001.png",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Second Derivatives.md",
     "Curves/Nurbs Curves.md",
     "Curves/Curves.md",
@@ -209,8 +211,6 @@
     "Applications/Digital Fabrication.md",
     "^interval-between-sections-planes-equal-to-thickness-of-material.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Limits.md",
-    "Surfaces/Gaussian Curvature.md",
-    "Data/Data.md",
     "Untitled",
     "Abstract/Morphogenesis",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects",
@@ -219,7 +219,6 @@
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics",
     "Data/Abstract Mathematical Spaces/Physics/Analysis",
     "Topology",
-    "Applications",
-    "Solids"
+    "Applications"
   ]
 }
