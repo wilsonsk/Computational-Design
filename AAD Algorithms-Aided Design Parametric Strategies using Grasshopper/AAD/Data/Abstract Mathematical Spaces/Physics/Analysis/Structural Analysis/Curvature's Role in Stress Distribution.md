@@ -83,6 +83,34 @@ A type of normal stress, that tries to shorten a material.
 		Interior fibers (on the concave side) are compressed. 
 
 This distribution of tension and compression across the cross-section of a beam is crucial for understanding how materials will behave under different load conditions.
+##### Axial Compression and Axial Tension
+Structures that transmit forces through axial compression or tension have an increased capacity to withstand loads with smaller cross sectional areas.
+###### Axial Compression 
+This occurs when a force is applied along the axis of a structural element, pushing it inwards and causing it to shorten. 
+	Axial compression is common in elements like columns, piles, or struts, which bear loads from the structure above them, pushing downward along their length.
+###### Axial Tension:
+Conversely, axial tension occurs when a force pulls on a structural element along its length, causing it to stretch. 
+	This type of stress is typical in elements like cables, tie rods, or any member in tension structures, which sustain loads that pull them outward.
+###### Directionality
+Both axial compression and tension stresses act along the longitudinal axis of a structure, distinguishing them from bending stresses, which might also include off-axis forces causing bending moments.
+###### Load Path
+The stresses directly align with the structural element’s longitudinal axis, creating a straightforward load path that minimizes complex stress behaviors like bending or twisting.
+##### Importance of Axial Compression and Tension in Design
+###### Structural Efficiency:
+- **Direct Load Transfer**: Axial stresses are efficient at transferring loads along the length of a structural element. This efficiency is crucial for elements designed to carry loads in a straight line, such as in trusses, columns, and certain types of arches.
+- **Material Utilization**: Structures designed to primarily handle axial stresses can often be made lighter and more material-efficient because the stress is predictably distributed along the element’s length.
+###### Stability Considerations:
+- **Buckling in Compression**: Axial compression introduces the risk of buckling, particularly in slender columns or elements. Buckling is a failure mode where the element bends and loses its capacity to carry load, which is influenced by the element's length, material properties, and cross-sectional geometry.
+- **Failure in Tension**: In axial tension, the primary concern is the material reaching its tensile strength limit and failing by rupture or tearing.
+###### Design Strategies:
+- **Preventing Buckling**: Engineers use various methods to prevent buckling, including increasing the cross-sectional area, adding bracing, or using materials with higher modulus of elasticity.
+- **Enhancing Tensile Strength**: In tension members, selecting materials with high tensile strength and ductility is critical to ensure that they can stretch without breaking.
+###### Non-Axial Compression and Tension
+These stresses can occur in any direction depending on the force application and are not necessarily aligned with a structural element’s axis. 
+	*For example*, lateral compression can occur on the side of a beam due to wind load, and tension can occur in a plate or skin under external loads pulling in multiple directions.
+###### Bending and Shear Stresses
+Often, general compression and tension are part of complex stress states, including bending and shear. 
+	*For instance*, a beam under load will typically experience bending stresses (creating compression on one side and tension on the other) and may also be subjected to shear stresses across its cross-section.
 ##### Shear Stresses
 Curvature can also influence the shear stress distribution within a structure. 
 

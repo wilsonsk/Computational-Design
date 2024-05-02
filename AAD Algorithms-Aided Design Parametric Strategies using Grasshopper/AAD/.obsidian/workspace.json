@@ -25,14 +25,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Abstract/Morphogenesis/Digital Simulation.md",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Structural Analysis/Structural Analysis.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3a70701ab9e8a849",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Structural Analysis/Curvature's Role in Stress Distribution.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a3457d95b32e7cc2",
@@ -172,12 +184,14 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "70a890f8a800eb39",
+  "active": "5af42aff82749120",
   "lastOpenFiles": [
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Structural Analysis/Structural Analysis.md",
-    "Abstract/Morphogenesis/Digital Simulation.md",
+    "Pasted image 20240502012955.png",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Structural Analysis/Curvature's Role in Stress Distribution.md",
     "Abstract/Morphogenesis/Digital Form-Finding.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Structural Analysis/Structural Analysis.md",
+    "Abstract/Morphogenesis/Digital Simulation.md",
+    "Abstract/Morphogenesis/Digital Informing Creativity.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Structural Analysis",
     "images/Pasted image 20240429141001.png",
     "images/Pasted image 20240430232738.png",
@@ -209,8 +223,6 @@
     "Transformations/Euclidean Transformations.md",
     "Data/Loops.md",
     "Applications/Digital Fabrication.md",
-    "^interval-between-sections-planes-equal-to-thickness-of-material.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Limits.md",
     "Untitled",
     "Abstract/Morphogenesis",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects",
