@@ -50,9 +50,29 @@ Stress is quantified as force per unit area within a material.
 	
 Stress in a material is defined as the internal force (expressed as force per unit area) exerted by the material particles against each other due to external loads or environmental conditions. 
 	It is typically measured in pascals ($Pa$) or newtons per square meter ($N/m²$).
-##### Bending and Normal Stresses
+		- **Formula**: Stress (σ) is typically expressed as σ = F/A, where:
+		    - **F** is the force applied,
+		    - **A** is the area over which the force is distributed.
+		- **Units**: In the International System of Units (SI), stress is measured in pascals (Pa).
+			- Where 1 Pascal = 1 Newton per square meter (N/m²).
+##### How Stress Comes About
+###### External Loads
+- **Direct Load**: Direct application of forces, such as weight, pressure, or impact, can introduce stress. For example, the weight of the roof induces stress in the supporting beams and columns of a building.
+- **Indirect Load**: Changes in temperature, moisture, or other environmental factors can cause materials to expand or contract, generating stress even without a mechanical load.
+###### Structural Configuration and Constraints
+- **Fixed and Free Constraints**: The way a structure is supported or restrained affects how stress is distributed. Fixed supports can cause higher stress at the support points, while freely moving supports might distribute stress more evenly.
+- **Geometry and Design**: The shape and design of a structural element significantly affect stress concentration. Sharp corners, sudden changes in cross-sectional area, and points of discontinuity often lead to high stress concentrations.
+##### Normal Stresses
 Normal Stresses act perpendicular to the material cross-section. It includes tensile stress (pulling forces) and compressive stress (pushing forces).
-	Curvature inherently introduces bending stresses.
+###### Bending Stresses
+Bending stress is a form of normal stress because it acts perpendicular to the cross-sectional area of the material. 
+	Bending stress occurs in a material when an external force is applied that causes the material to bend about an axis. 
+		This stress results from internal moments (or bending moments) that resist the applied load.
+
+Curvature inherently introduces bending stresses.
+	**Distribution**: Bending stress typically varies across the cross-sectional area of a beam or other structural element. It is:    
+		- **[[#Tension (i.e. stretching stress)|Tensile]]** on one side (the side being stretched).
+		- **[[#Compression (i.e. squeezing stress)|Compressive]]** on the opposite side (the side being compressed).
 ###### Tension (i.e. stretching stress)
 A type of normal stress, that tries to elongate a material.
 	In curved beams or surfaces:
@@ -65,6 +85,8 @@ A type of normal stress, that tries to shorten a material.
 This distribution of tension and compression across the cross-section of a beam is crucial for understanding how materials will behave under different load conditions.
 ##### Shear Stresses
 Curvature can also influence the shear stress distribution within a structure. 
+
+Occurs parallel to the surface. It results from forces that cause the layers of the material to slide past each other.
 	Act parallel to the material cross-section, causing material layers to slide against each other.
 		Shear stresses arise from forces acting parallel to the material's cross-section and are particularly significant near supports and where the curvature changes.
 ### Load Paths
@@ -126,13 +148,32 @@ Curves naturally reduce or eliminate bending moments (the internal forces causin
 Curved structures, such as arches and domes, utilize their shape to direct loads more efficiently through compression.
 	In these structures, curvature helps to channel forces down towards the supports in a smooth, continuous path, minimizing bending moments and therefore reducing the material stresses and potential for failure.
 ### Stress Concentration
-Occur when there is a sudden change in geometry (like holes, sharp corners, or sudden changes in cross-sectional area), material properties, or boundary conditions. 
-	These are potential weak points where failure can initiate.
+Stress concentration refers to locations in a material or structure where stress is significantly higher than the average stress. 
+	These concentrations often occur near discontinuities in the geometry or material properties of the structure.
+		Occur when there is a sudden change in geometry (like holes, sharp corners, or sudden changes in cross-sectional area), material properties, or boundary conditions. 
+			These are potential weak points where failure can initiate.
+#### Causes
+The primary reason stress concentrations occur is due to the interruption in the flow of stress across a material. 
+	Stress, much like a fluid, flows through a structure and prefers a uniform path. 
+		Any obstacle or sudden change in this path disrupts the flow, causing stress to "pile up" in these regions, much like water in front of a dam.
+
 Areas of high curvature can lead to stress concentrations, where stresses are significantly higher than in other regions.
 	Stress concentrations are critical in design considerations because they are potential failure points.
+###### Geometric Discontinuities
+Changes in shape such as holes, notches, sharp corners, or abrupt changes in cross-sectional area create points where stress cannot distribute evenly, causing localized increases.
+###### Material Discontinuities
+Variations in material properties (like stiffness or elasticity) within a structure can lead to uneven stress distribution.
+###### Boundary Condition Changes
+Changes in how a structure is supported or constrained can also lead to stress concentrations
 ##### Solutions
-Radius corners, holes, or using fillets can reduce stress concentrations.
-	- Material grading or changing the path of stress flow are advanced solutions.
+###### Geometric Modifications:
+- **Radius Corners**: Replacing sharp corners with rounded ones allows stress to distribute more smoothly around the discontinuity, reducing the stress concentration factor.
+- **Fillet Use**: Fillets are rounded transitions added between two surfaces at right angles, commonly used to reduce stress concentration around notches or other geometric changes.
+- **Hole Drilling**: Oddly enough, in some cases, drilling a hole near a crack tip can reduce stress concentration by providing a smooth path for stress flow, thereby stopping crack propagation.
+
+**Material Considerations**:
+- **Material Grading**: Gradually changing material properties across a structure can help in smoothing the transition of stress, thereby reducing stress concentrations. Techniques like material tapering or using functionally graded materials are examples.
+- **Reinforcement**: Applying additional material or using stiffer materials in areas of high stress concentration can redistribute stress more evenly.
 ##### Examples in Structural Applications
 ###### Beams and Columns
 - **Beams:** Experience bending stress. The stress distribution across a beam's cross-section is not uniform; it varies from compression at one surface to tension at the opposite.
