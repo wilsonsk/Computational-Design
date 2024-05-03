@@ -4,6 +4,8 @@ up:
 related:
   - "[[Analysis]]"
   - "[[Structural Analysis]]"
+  - "[[Newton's Second Law]]"
+  - "[[Newton's Third Law]]"
 date created: 2024-05-03
 ---
 # Newton's First Law (i.e. the Law of Inertia)

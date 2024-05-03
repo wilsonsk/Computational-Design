@@ -46,9 +46,12 @@ For [[#Particle|particles]] there is only a **single point** for the forces to a
 For [[#Rigid Body|rigid bodies]] there are an infinite number of possible points of application.
 
 Some points of application will lead to the body undergoing simple linear acceleration and others will exert a moment on the body which will cause the body to undergo rotational acceleration as well as linear. 
+##### Line of Action
+The line of action of a force is the line along which the force acts. 
+	Given the direction and point of application, one can find the line of action, but this term will be important in discussing concurrent forces and in the principle of transmissibility.
 ##### Three General Types of Forces
 The type of resulting force depends on the nature of the [[#Point of Application|point of application]].
-###### Point Forces
+###### [[Static Equilibrium|Point Forces]]
 ![[Pasted image 20240503131754.png]]
 Point forces are represented by a single vector. 
 ###### Surface Forces
