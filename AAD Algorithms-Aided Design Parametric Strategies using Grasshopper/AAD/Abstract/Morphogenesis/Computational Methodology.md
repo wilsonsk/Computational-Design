@@ -1,3 +1,8 @@
+---
+up: 
+related: 
+date created:
+---
 # Computational Methodology
 ## [[Digital Informing Creativity#The Computational Design Paradigm|Is Derived from a Paradigm Shift]]
 

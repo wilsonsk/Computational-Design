@@ -1,3 +1,9 @@
+---
+up:
+  - "[[Abstract Concept]]"
+related: 
+date created:
+---
 # Digital Informing Creativity
 An Essay by Ludovico Lombardi
 (Lead Architect at Zaha Hadid Architects)

@@ -1,3 +1,9 @@
+---
+up:
+  - "[[Abstract Concept]]"
+related: 
+date created:
+---
 # Digital Form Finding
 In architecture and engineering it refers to the **process of designing optimal structural shapes by using experimental tools and strategies (i.e. physical modes) to simulate a specific mechanical behavior**.
 	

@@ -1,3 +1,9 @@
+---
+up:
+  - "[[Analysis]]"
+related: 
+date created: 2024-05-03
+---
 # Structural Analysis (i.e. Static Analysis)
 ## Vector
 [[#Forces|Forces]] are vectors, which means they have both magnitude and direction. 
@@ -20,7 +26,7 @@ In a two-dimensional setting:
 Refers to any influence that causes a body to accelerate. 
 Forces on a body can also cause stress in that body, which can result in the body [[Grids#Deformation Operations|deforming]] or breaking.
 	Though forces come from a variety of sources, there are three distinguishing features to **every force**.
-A force can be linear or [[#Moments (i.e. Torque)|angular]].
+A force can be linear or [[#Moments (i.e. Torque)|angular]], "forces" typically refers to linear forces, while [[#Moments (i.e. Torque)|moments]] refer to angular or twisting forces.
 #### Force Features
 ##### Magnitude 
 The degree to which the force will accelerate the body it is acting on.

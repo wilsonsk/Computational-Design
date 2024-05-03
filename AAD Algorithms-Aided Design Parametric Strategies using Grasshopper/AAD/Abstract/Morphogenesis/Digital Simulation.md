@@ -1,3 +1,9 @@
+---
+up:
+  - "[[Abstract Concept]]"
+related: 
+date created: 2024-05-01
+---
 # Digital Simulation (and Particle Spring Systems)
 *"Science is a tool for ideas [...] and it is not only a means to verify structural strength. Science must lead us to discover the optimized geometry for that particular static (or dynamic) condition".* - Sergio Musmeci
 
