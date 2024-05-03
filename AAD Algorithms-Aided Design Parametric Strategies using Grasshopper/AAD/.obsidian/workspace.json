@@ -20,7 +20,7 @@
             }
           },
           {
-            "id": "cb2d94a06051d37c",
+            "id": "d5f30cee8cad74e2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,18 +32,19 @@
             }
           },
           {
-            "id": "3a70701ab9e8a849",
+            "id": "51a818d6f7f3b8ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Structural Analysis/Curvature's Role in Stress Distribution.md",
+                "file": "Free Body Diagram.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -72,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"Osculating",
+                "query": "\"Field",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Abstract/Morphogenesis/Digital Simulation.md",
+                "file": "Free Body Diagram.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -127,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Abstract/Morphogenesis/Digital Simulation.md",
+                "file": "Free Body Diagram.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -150,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Abstract/Morphogenesis/Digital Simulation.md"
+                "file": "Free Body Diagram.md"
               }
             }
           },
@@ -184,25 +185,29 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "5af42aff82749120",
+  "active": "51a818d6f7f3b8ff",
   "lastOpenFiles": [
-    "Pasted image 20240502012955.png",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Structural Analysis/Curvature's Role in Stress Distribution.md",
-    "Abstract/Morphogenesis/Digital Form-Finding.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Structural Analysis/Structural Analysis.md",
+    "Free Body Diagram.md",
+    "Pasted image 20240503140615.png",
     "Abstract/Morphogenesis/Digital Simulation.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Structural Analysis/Curvature's Role in Stress Distribution.md",
+    "Pasted image 20240503133748.png",
+    "Pasted image 20240503132914.png",
+    "Pasted image 20240503132426.png",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Scalar Fields.md",
+    "Pasted image 20240503131813.png",
+    "Pasted image 20240503131804.png",
+    "Pasted image 20240503131754.png",
+    "Pasted image 20240503130700.png",
+    "Pasted image 20240503130658.png",
+    "Surfaces/Grids.md",
+    "images/Pasted image 20240502012955.png",
+    "Abstract/Morphogenesis/Digital Form-Finding.md",
     "Abstract/Morphogenesis/Digital Informing Creativity.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Structural Analysis",
-    "images/Pasted image 20240429141001.png",
-    "images/Pasted image 20240430232738.png",
     "Surfaces/Notion of Surface Curvature.md",
-    "images/Pasted image 20240501003243.png",
-    "images/Pasted image 20240501003115.png",
     "Surfaces/Mean Curvature.md",
-    "images/Pasted image 20240501002303.png",
-    "images/Pasted image 20240430232721.png",
-    "images/Pasted image 20240430142137.png",
-    "images/Pasted image 20240430134246.png",
     "Curves/Continuities.md",
     "Applications/Over the Material, Past the Digital, Back to the Cities.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
@@ -211,18 +216,14 @@
     "Curves/Curves.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Secant Line.md",
     "Curves/Discontinuities.md",
-    "images/Pasted image 20240428173829.png",
     "Applications/Large Scale Projects.md",
     "Surfaces/Surface Strategies.md",
     "Data/Data Management.md",
     "Surfaces/Meshes.md",
     "Applications/Printable Objects.md",
     "Algorithms Aided Design MOC.md",
-    "images/Pasted image 20240427083509.png",
     "Applications/Modeling Object for Cutting Operations.md",
     "Transformations/Euclidean Transformations.md",
-    "Data/Loops.md",
-    "Applications/Digital Fabrication.md",
     "Untitled",
     "Abstract/Morphogenesis",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects",
