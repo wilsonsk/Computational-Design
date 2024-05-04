@@ -26,9 +26,16 @@ Positions of a curve could be the **start** and **end** **points** of that curve
 That is, the **vertices**. 
 
 ## Has No Orientation or Size
-
-
-
+Considered to have mass, but no spatial extent.
+##### Idealization in Physics
+- **Point Particle**: In theoretical physics and many practical calculations, a particle is considered as a point particle or point mass. This simplifies the mathematics, as it means you only need to consider the mass concentrated at a single point, and you can ignore dimensions like length, width, and height.
+- **Simplifies Calculations**: By treating a particle as a point, you can more easily apply Newton's laws of motion, calculate gravitational forces, and analyze dynamics without accounting for rotational effects or distribution of mass within an object.
+##### Practical Applications
+- **Mechanics**: In mechanics, especially when dealing with laws of motion and forces, treating objects as point particles allows for focusing purely on the dynamics (movement and forces) without the complications of real-world shapes and sizes.
+- **Astrophysics**: In celestial mechanics, planets and stars can be treated as point particles when calculating gravitational interactions in a system, unless precise calculations of tidal forces or similar effects are necessary.
+##### Limitations
+- **Not Always Accurate**: For problems where the size, shape, or internal structure of an object affects its behavior, treating it as a point particle would not provide accurate results. Examples include studying aerodynamics, where shape influences air resistance, or understanding how objects flex or twist under stress.
+- **Extended Bodies**: When rotational dynamics or the distribution of mass within an object is important, such as in rigid body mechanics, treating the object as a simple point particle is insufficient.
 ## A Geometry is Just a Set of Points
 ### A point just represents a position.
 And a geometry is composed of defined - "occupied" positions.

@@ -47,12 +47,15 @@ For [[#Rigid Body|rigid bodies]] there are an infinite number of possible points
 
 Some points of application will lead to the body undergoing simple linear acceleration and others will exert a moment on the body which will cause the body to undergo rotational acceleration as well as linear. 
 ##### Line of Action
+![[Pasted image 20240503190901.png]]
 The line of action of a force is the line along which the force acts. 
+	It is the geometric representation of how the force is applied. 
 	Given the direction and point of application, one can find the line of action, but this term will be important in discussing concurrent forces and in the principle of transmissibility.
 ##### Three General Types of Forces
 The type of resulting force depends on the nature of the [[#Point of Application|point of application]].
 ###### [[Static Equilibrium|Point Forces]]
 ![[Pasted image 20240503131754.png]]
+A point force is any force where the **[[Structural Analysis#Point of Application|point of application]]** is considered to be a **single point**.
 Point forces are represented by a single vector. 
 ###### Surface Forces
 ![[Pasted image 20240503131804.png]]
@@ -64,17 +67,47 @@ Body forces are sometimes shown as a [[Scalar Fields|field]] of vectors.
 	Is a type of distributed force.
 ###### Principle of Transmissibility
 ![[Pasted image 20240503132426.png]]
-The point of application of a force on a rigid body can be moved along its line of action without changing the external reaction forces on the body.
+The point of application of a force can be moved anywhere along its line of action without changing the external reaction forces on a rigid body.
 	Only valid for rigid bodies.
 
+Any force that has the same magnitude and direction, and which has a point of application somewhere along the same line of action will cause the same acceleration and will result in the same moment.
+	 Therefore, the points of application of forces may be moved along the line of action to simplify the analysis of rigid bodies.
+
 Therefore, the exact point or surface that the force is acting on can be drawn as either the head or the tail of the force vector in the free body diagram.
+![[Pasted image 20240504001503.png|400]]
+
+However, **when analyzing the internal forces** (stress) in a rigid body, the exact point of application does matter. 
+	This difference in stresses may also result in changes in geometry which will in turn affect reaction forces. 
+		For this reason, the principle of transmissibility should only be used when examining **external forces** on bodies that are assumed to be rigid.
+		![[Pasted image 20240504001606.png]]
+###### Concurrent Forces
+![[Pasted image 20240504001917.png]]
+A set of [[#Static Equilibrium Point Forces|point forces]] is considered concurrent if all the [[#Line of Action|lines of action]] of those forces all come together at a single point.
+
+Because the forces all act through a single point, **there are no moments about this point**.
+	Because no moments exist, we can treat this body as a **particle**. 
+		In fact, because real particles only exist in theory, most particle analysis is actually applied to extended bodies with concurrent forces acting on them.
 ## Moments (i.e. Torque)
 ![[Pasted image 20240503132914.png]]
-Refers to the tendency of a force to rotate a body.
+Refers to a quantity related to the rotational effects produced by a force.
+
+Refers to the tendency of a force to rotate (i.e. produce or change rotational motion)a body.
 Moments cause **angular accelerations**.
 	In this way, moments can be thought of as **"twisting forces"**.
 Are represented by [[#Vector|vectors]] = - i.e. have a magnitude, direction and point of application.
-###### Axis of Rotation	
+##### Etymology and Historical Use
+###### Origins
+The term "moment" in physics comes from the Latin word _momentum_, which means "movement" or a very brief portion of time.
+	Historically, this term was used in various mechanical contexts to describe something of importance in determining motion or an outcome, such as the effect of a lever.
+		The word was likely chosen because, like a brief moment in time can be pivotal, a mechanical moment describes the pivotal effect that a force can have in generating rotational motion.
+##### Other Types of Moments
+###### Moment of Inertia
+This is another crucial concept in dynamics, describing how the mass of a body is distributed relative to an axis of rotation. The moment of inertia affects the rotational motion of an object but is not a force. It plays a role in the rotational version of Newton's second law, which relates torque, moment of inertia, and angular acceleration.
+###### Bending Moment
+In structural engineering, a bending moment is the internal reaction induced in a structural element when external forces cause the element to bend. It’s expressed in terms of the force multiplied by the distance to the point of interest along the element, influencing how beams and other structural components are designed to withstand loads.
+###### Magnetic Moment
+In physics, particularly in electromagnetism, the magnetic moment refers to the magnetic strength and orientation of a magnet or other object that produces a magnetic field. It is a vector quantity determining how a magnetic object will react in a magnetic field.
+##### Axis of Rotation	
 However, the [[#Point of Application|point of application]] in the context of moments, is referred to as the **axis of rotation**.
 	This is the point or axis about which we will determine all the moments.
 ![[Pasted image 20240503133748.png]]
@@ -91,7 +124,7 @@ When adding together moments from multiple forces, all the moments must be taken
 
 When working in **dynamics** (i.e. moving bodies) all moments will need to relate to angular accelerations. 
 	Therefore, the shared/common axis of rotation will need to be a stationary one. 
-###### Magnitude of a Moment
+##### Magnitude of a Moment
 Is the degree to which the moment will cause angular acceleration in the body it is acting on. 
 	It is represented by a scalar (i.e. a single number).
 Can be thought of as the "strength" of the twisting force exerted on the body.
@@ -143,18 +176,6 @@ For a system to be in equilibrium, the net force in both the x and y directions 
 	Mathematically, this is written as: $ΣF_x​=0$ and $ΣF_y​=0$
 		It's the principle of superposition that allows this vector addition to work: the effect of the individual forces can be added together to get the total effect. 
 			In equilibrium problems, this principle is used to ensure that all forces balance out, resulting in no net motion of the object in question.
-
-Trigonometry is essential for breaking down the forces into their x and y components when they're acting at an angle. 
-	For a force vector at an angle β from the vertical, the trigonometric functions ($sin$) and ($cos$) are used to find the magnitudes of the components:
-		- The x-component (horizontal) of the force is found by multiplying the force's magnitude by the sine of the angle: $F⋅sin(β)$.
-		- The y-component (vertical) of the force is found by multiplying the force's magnitude by the cosine of the angle: $F⋅cos(β)$.
-
-This breakdown allows you to add up all the horizontal components separately from all the vertical components, which is exactly what you do when you're solving for equilibrium.
-	When the sum of the x-components and the sum of the y-components both equal zero, the object is in a state of equilibrium—it won't accelerate in any direction because the net force acting on it is zero.
-
-### Particle Equilibrium 
-###### Particle
-###### Static Equilibrium
 
 
 ### Rigid Body Rotational Equilibrium 

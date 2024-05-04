@@ -12,10 +12,13 @@ date created: 2024-05-03
 
 $\begin{equation*} \LARGE \vec{F} = m \times \vec{a} \end{equation*}$ 
 
+Based on the equation, it can be inferred that the magnitude of the net force acting on the body will be equal to the mass of the body times the magnitude of the acceleration, and that the direction of the net force on the body will be equal to the direction of the acceleration of the body.
+
 Force, $\vec{F}$ and acceleration, $\vec{a}$ are vector quantities, having both a magnitude and a direction. 
 	Mass, $m$, on the other hand, is a scalar quantity having only a magnitude. 
-		Based on the above equation, you can infer that the magnitude of the net force acting on the body will be equal to the mass of the body times the magnitude of the acceleration, and that the direction of the net force on the body will be equal to the direction of the acceleration of the body.
 
+The mass is scaled by the acceleration - i.e. for each unit within the total mass, there is one "level" of acceleration. 
+	Then the sum total of these "levels" of acceleration equal to the force.
 ## Acceleration  
 Acceleration is the rate of change of an object's speed in a straight line.
 ## Angular Acceleration
