@@ -9,6 +9,8 @@ A tool used to solve engineering mechanics problems.
 The purpose of the diagram is to "free" the body from all other objects and surfaces around it so that it can be studied in isolation.
 	The diagram includes any forces or moments acting on the body, including those forces and moments exerted by the surrounding bodies and surfaces that are removed. 
 
+When vectors are drawn to form free body diagrams, the magnitude and direction are usually given in one of two formats (i.e. [[Static Equilibrium#Vector Form Analysis (i.e. Cartesian Vectors)|vector form]] or [[Static Equilibrium#Scalar Form Analysis|scalar form]]).
+
 This diagram makes it easier to write out equilibrium equations for statics or strengths of materials problems, or the equations of motion for dynamics. 
 
 ![[Pasted image 20240503152008.png]]

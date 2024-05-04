@@ -1,0 +1,103 @@
+# Non-Concurrent Systems
+## Static Equilibrium Analysis for Non-Concurrent Force Systems
+Is called Rotational Equilibrium.
+
+###### Rigid Body
+Particles of a rigid body cannot move independent of the rigid body.
+	Specifically, the particle of a rigid body can only move if its **distance** from some other point on the rigid body remains the same. 
+## Moments (i.e. Torque)
+![[Pasted image 20240503132914.png]]
+Refers to a quantity related to the rotational effects produced by a force.
+
+Refers to the tendency of a force to rotate (i.e. produce or change rotational motion)a body.
+Moments cause **angular accelerations**.
+	In this way, moments can be thought of as **"twisting forces"**.
+Are represented by [[#Vector|vectors]] = - i.e. have a magnitude, direction and point of application.
+
+Moments occur when forces are applied such that they do not all act through a single point (i.e., in [[Static Equilibrium#Static Equilibrium Analysis for Concurrent Force Systems|non-concurrent force systems]]).
+	In these cases, **the forces have the potential to create rotational effects about a point or axis**, and these effects are described by moments.
+##### Non-Concurrent Force Systems
+- **Moment Creation**: In non-concurrent systems, since forces do not all pass through one common point, each force can be associated with a moment arm relative to any chosen point of rotation. The moment arm is the perpendicular distance from the point or axis of rotation to the line of action of the force.
+- **Calculating the Moment**: The moment caused by a force in such systems is calculated as the cross product of the position vector r (from the point of rotation to the point where the force is applied) and the force vector F, expressed as M=r×F. This moment (or torque) measures the tendency of the force to cause rotational motion about the point or axis.
+##### [[Static Equilibrium#Static Equilibrium Analysis for Concurrent Force Systems|Concurrent Force Systems]]
+- **No Moment Creation**: In concurrent systems, where all forces meet at a single point, the perpendicular distance from the point of concurrency to the line of action of each force is zero. Since the moment arm is zero, the moment (torque) produced by each force about that point is also zero.
+- **Static Equilibrium**: For concurrent force systems, ensuring static equilibrium involves only checking that the vector sum of all forces equals zero (∑F=0), as there are no moments to consider about the point of concurrency.
+##### Etymology and Historical Use
+###### Origins
+The term "moment" in physics comes from the Latin word _momentum_, which means "movement" or a very brief portion of time.
+	Historically, this term was used in various mechanical contexts to describe something of importance in determining motion or an outcome, such as the effect of a lever.
+		The word was likely chosen because, like a brief moment in time can be pivotal, a mechanical moment describes the pivotal effect that a force can have in generating rotational motion.
+##### Other Types of Moments
+###### Moment of Inertia
+This is another crucial concept in dynamics, describing how the mass of a body is distributed relative to an axis of rotation. The moment of inertia affects the rotational motion of an object but is not a force. It plays a role in the rotational version of Newton's second law, which relates torque, moment of inertia, and angular acceleration.
+###### Bending Moment
+In structural engineering, a bending moment is the internal reaction induced in a structural element when external forces cause the element to bend. It’s expressed in terms of the force multiplied by the distance to the point of interest along the element, influencing how beams and other structural components are designed to withstand loads.
+###### Magnetic Moment
+In physics, particularly in electromagnetism, the magnetic moment refers to the magnetic strength and orientation of a magnet or other object that produces a magnetic field. It is a vector quantity determining how a magnetic object will react in a magnetic field.
+##### Axis of Rotation	
+However, the [[#Point of Application|point of application]] in the context of moments, is referred to as the **axis of rotation**.
+	This is the point or axis about which we will determine all the moments.
+![[Pasted image 20240503133748.png]]
+*In the above image, the single force (vector) would cause different moments depending on if it is "about" (i.e. in relation to) point $A$ or point $B$, and thus different rotations.*
+
+The axis of rotation is therefore the **point we chose to fix in place**, which the body being exerted up will then rotate about. 
+
+The axis of rotation is a "chosen point".
+	The chosen point will affect the magnitude and direction of the resulting moment.
+		And the moment is only valid about that point. 
+
+When adding together moments from multiple forces, all the moments must be taken "about" (i.e. in relation to) a **shared/common axis of rotation**.
+	Moments taken about different points cannot be added together to find a "net moment".
+
+When working in **dynamics** (i.e. moving bodies) all moments will need to relate to angular accelerations. 
+	Therefore, the shared/common axis of rotation will need to be a stationary one. 
+##### Magnitude of a Moment
+Is the degree to which the moment will cause angular acceleration in the body it is acting on. 
+	It is represented by a scalar (i.e. a single number).
+Can be thought of as the "strength" of the twisting force exerted on the body.
+
+The magnitude of a moment, $M$, is measured in:
+	$\begin{equation*} \LARGE M = F \times d \end{equation*}$
+Where $F$ is the force, and $d$ is the distance.
+
+##### Why Scale Force by Distance?
+###### Amplification by Distance
+The further away the force is applied from the point or axis of rotation, the greater its ability to cause rotation. 
+	This is because a longer lever arm (greater distance $d$) means that the same amount of force can produce a larger turning effect. 
+		This principle is observable in everyday tools like wrenches or door handles — longer handles require less force to operate because they have a longer lever arm.
+
+The standard unit of measurement for for the magnitude of moments are Newton-meters ($\begin{equation*} \LARGE N \times m \end{equation*}$), and the standard English unit of measurement is foot-pounds ($\begin{equation*} \LARGE lb \times ft \end{equation*}$).
+###### Direction of a Moment
+In a 2D space, the direction can be thought of a scalar quantity corresponding to the direction of rotation the moment would cause.
+	A moment that would cause a **counterclockwise rotation** is a **positive moment**.
+	A moment that would cause a **clockwise rotation** is a **negative moment**.
+
+In a 3D space, a body can rotate about an axis in any direction.
+	Therefore, a vector is needed to represent the direction of a moment.
+		The direction of a moment vector will line up with the axis of rotation that moment would cause, but to determine which of the two directions to use along that axis, the "right hand rule" is employed.
+###### Right Hand Rule:
+![[Pasted image 20240503140615.png]]
+To use the right hand rule, align your right hand so that your thumb lines up with the axis of rotation for the moment and your curled fingers point in the direction of rotation for your moment. 
+	If you do this, your thumb will be pointing in the direction of the moment vector.
+### Calculating Moments
+To calculate the moment that a force exerts on a body, two methods can be used.
+##### Scalar Methods
+Scalar methods often require the resolution of forces into perpendicular components, especially in 2D equilibrium problems. 
+
+Here, the Law of Cosines and Law of Sines can be used to find these components when the geometry of the system forms a triangle. 
+	*For example*, if a force acts at an angle to a beam, these laws help determine the horizontal and vertical components of this force, which are crucial for checking whether the sum of the forces in any direction (horizontal and vertical) equals zero, as required for static equilibrium.
+##### Vector Methods
+When calculating moments using vector methods, forces are often decomposed into components along orthogonal axes. 
+
+If the force's line of action and the moment arm form a triangle with the axis of rotation, trigonometric laws can help determine the angle between the force and lever arm.
+	Which is crucial for calculating the perpendicular component (lever arm) necessary for $M=r×F$.
+###### Non-Concurrent Force Systems
+In non-concurrent systems, forces do not meet at a single point, and therefore, moments generated by these forces must be considered.
+
+- **Application of Vector Methods**: For non-concurrent forces, vector methods are crucial in both checking the translational equilibrium (as with concurrent forces) and calculating moments about any point to ensure rotational equilibrium. Here, you would use:
+    
+    ∑𝐹=0 (for translational equilibrium)∑F=0 (for translational equilibrium)
+    
+    ∑𝑀=0 (for rotational equilibrium)∑M=0 (for rotational equilibrium)
+    
+    The moments are calculated using the cross product of the position vector (from the point of moment calculation to the line of action of the force) and the force vector, which inherently uses vector methodology.

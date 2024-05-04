@@ -5,6 +5,26 @@ related:
 date created: 2024-05-03
 ---
 # Structural Analysis (i.e. Static Analysis)
+  Structural analysis is a branch of civil engineering that involves the assessment and evaluation of the structural integrity and stability of buildings, bridges, and other structures. 
+  
+  The primary goal of structural analysis is to ensure that a structure can withstand various loads and forces it is expected to encounter over its service life without failing. 
+	  This involves calculating the effects of loads, such as those from weight, wind, seismic activity, and other environmental and human-induced factors.
+
+Structural analysis is not only about ensuring a structure does not fail but also about optimizing structures for cost, efficiency, and material use.
+#### Key Aspects of Structural Analysis
+###### Load Analysis
+Structures must be analyzed for various types of loads they will experience. These include dead loads (the weight of the structure itself), live loads (weight of the users and movable objects), environmental loads (such as wind and snow), and dynamic loads (including impacts and vibrations).
+###### Stress and Strain Calculations
+The analysis involves determining the stresses (forces per unit area) and strains (deformations in a body) that occur in different components of a structure under load. The aim is to ensure that these stresses and strains do not exceed the material strengths.
+###### Factor of Safety
+Structures are designed with a factor of safety, which is a margin of error that accounts for uncertainties in the load assumptions, material properties, and structural behavior.
+###### Behavior Under Loads
+Understanding how a structure behaves under expected loads is crucial. This includes analyzing deflections (how much a structure bends or displaces), rotations, and potential buckling (sudden failure due to compressive forces).
+###### Methods and Tools
+Modern structural analysis often utilizes software and computational tools that employ methods like the Finite Element Method (FEM), which allows detailed simulations of how structures respond to loads.
+Traditional methods such as the Method of Joints, Method of Sections, and Matrix methods are still fundamental and are used to calculate internal forces and moments manually or semi-automatically.
+###### Design Compliance and Safety Codes
+Structural analysis ensures that designs comply with local and international building codes and safety standards, which dictate minimum requirements for safety, stability, and durability.
 ## Vector
 [[#Forces|Forces]] are vectors, which means they have both magnitude and direction. 
 	When multiple forces act on a single point or body, they must be combined according to vector addition to find the net force.
@@ -15,19 +35,37 @@ A vector is a "resultant vector" that is **composed** of **component scalars**.
 			$\begin{equation*} \vec{v} = \begin{bmatrix} a \\ b \end{bmatrix}  = (a\vec{e_1} + b\vec{e_2})\end{equation*}$  
 *See the physical Linear Algebra notes for a much more in depth study of vectors and linear systems of equations.*
 ### Vector Addition
-In vector addition, each vector is broken down into its **component scalars** (i.e. component "vectors" - that is the result of scaled unit vectors) along the x and y axes.
+In vector addition, each vector is [[Static Equilibrium#Forms of Forces - Methods of Analyzing Physical Quantities|broken down]] into its **component scalars** (i.e. component "vectors" - that is the result of scaled unit vectors) along the x and y axes.
 	The components along the same axis are added together to get the net force components in each direction.
 
 In a two-dimensional setting:
 - The x-components of all forces are added together to get the net force in the x-direction ($F_{net,x}$​).
 - The y-components of all forces are added together to get the net force in the y-direction ($F_{net,y}$​).
+### [[Structural Analysis#Static Equilibrium Point Forces|Point Forces]] as Vectors
+A point force is any [[#Forces|force]] where the **[[Structural Analysis#Point of Application|point of application]]** is considered to be a **single point**.
+	In reality, most forces are technically surface forces, where the force is applied over an area, but when the area is small enough (in comparison to the bodies being analyzed) it can often be approximated as a point force.
+
+Because point forces can be represented as a single vector (rather than a field of vectors for distributed forces), they are much easier to work with in engineering analysis.
+	For this reason, point forces are used in place of distributed forces in engineering analysis whenever possible. 
+
+The tensions in the cables supporting this container can be treated as point forces pulling in the direction of the cables.
+![[Pasted image 20240503162219.png]]
+
+The friction force between the bow and string on this cello can be treated as a point force
+![[Pasted image 20240503162235.png]]
+### Force Vector Representation
+When vectors are drawn to form [[Free Body Diagram|free body diagrams]], the magnitude and direction are usually given in one of two formats (i.e. [[Static Equilibrium#Vector Form Analysis (i.e. Cartesian Vectors)|vector form]] or [[Static Equilibrium#Scalar Form Analysis|scalar form]]).
+
+In either format we will need two values to fully define a force vector in a 2D system (either a magnitude and a single angle or a magnitude in each of the two coordinate axes).
+
+And three values to fully define a force vector in a 3D system (either a magnitude and two angles or a magnitude in each of the three coordinate axes). 
 ## Forces
 ![[Pasted image 20240503130700.png]]
 Refers to any influence that causes a body to accelerate. 
 Forces on a body can also cause stress in that body, which can result in the body [[Grids#Deformation Operations|deforming]] or breaking.
 	Though forces come from a variety of sources, there are three distinguishing features to **every force**.
 A force can be linear or [[#Moments (i.e. Torque)|angular]], "forces" typically refers to linear forces, while [[#Moments (i.e. Torque)|moments]] refer to angular or twisting forces.
-#### Force Features
+### Force Features
 ##### Magnitude 
 The degree to which the force will accelerate the body it is acting on.
 	It is represented by a single number - i.e. a scalar. 
@@ -46,12 +84,16 @@ For [[#Particle|particles]] there is only a **single point** for the forces to a
 For [[#Rigid Body|rigid bodies]] there are an infinite number of possible points of application.
 
 Some points of application will lead to the body undergoing simple linear acceleration and others will exert a moment on the body which will cause the body to undergo rotational acceleration as well as linear. 
+##### Point of Concurrency
+Refers to the location where multiple force lines of action intersect. 
+- In a concurrent force system, all the forces meet or are assumed to meet at this single point. This point is crucial for the analysis of the system because it simplifies calculations related to moments—since the moment arm length is zero at this point, the moments created by these forces about this point are zero.
+- In non-concurrent systems, each force has its distinct point of application and does not necessarily meet at a single point of concurrency. Here, the point of application becomes critical in determining the moment arms when calculating moments about any point of interest for ensuring rotational equilibrium.
 ##### Line of Action
 ![[Pasted image 20240503190901.png]]
 The line of action of a force is the line along which the force acts. 
 	It is the geometric representation of how the force is applied. 
 	Given the direction and point of application, one can find the line of action, but this term will be important in discussing concurrent forces and in the principle of transmissibility.
-##### Three General Types of Forces
+### Three General Types of Forces
 The type of resulting force depends on the nature of the [[#Point of Application|point of application]].
 ###### [[Static Equilibrium|Point Forces]]
 ![[Pasted image 20240503131754.png]]
@@ -80,78 +122,20 @@ However, **when analyzing the internal forces** (stress) in a rigid body, the ex
 	This difference in stresses may also result in changes in geometry which will in turn affect reaction forces. 
 		For this reason, the principle of transmissibility should only be used when examining **external forces** on bodies that are assumed to be rigid.
 		![[Pasted image 20240504001606.png]]
-###### Concurrent Forces
+###### [[Concurrent Systems|Concurrent Forces]]
 ![[Pasted image 20240504001917.png]]
 A set of [[#Static Equilibrium Point Forces|point forces]] is considered concurrent if all the [[#Line of Action|lines of action]] of those forces all come together at a single point.
 
 Because the forces all act through a single point, **there are no moments about this point**.
 	Because no moments exist, we can treat this body as a **particle**. 
 		In fact, because real particles only exist in theory, most particle analysis is actually applied to extended bodies with concurrent forces acting on them.
-## Moments (i.e. Torque)
-![[Pasted image 20240503132914.png]]
-Refers to a quantity related to the rotational effects produced by a force.
+###### [[Non-Concurrent Systems|Non-Concurrent Forces]]
+![[Pasted image 20240504111352.png|200]]
+For an **rigid body** in static equilibrium—that is, a non-deformable body where **forces are not concurrent**—the sum of both the **forces** and the **moments** acting on the body must be equal to zero.
 
-Refers to the tendency of a force to rotate (i.e. produce or change rotational motion)a body.
-Moments cause **angular accelerations**.
-	In this way, moments can be thought of as **"twisting forces"**.
-Are represented by [[#Vector|vectors]] = - i.e. have a magnitude, direction and point of application.
-##### Etymology and Historical Use
-###### Origins
-The term "moment" in physics comes from the Latin word _momentum_, which means "movement" or a very brief portion of time.
-	Historically, this term was used in various mechanical contexts to describe something of importance in determining motion or an outcome, such as the effect of a lever.
-		The word was likely chosen because, like a brief moment in time can be pivotal, a mechanical moment describes the pivotal effect that a force can have in generating rotational motion.
-##### Other Types of Moments
-###### Moment of Inertia
-This is another crucial concept in dynamics, describing how the mass of a body is distributed relative to an axis of rotation. The moment of inertia affects the rotational motion of an object but is not a force. It plays a role in the rotational version of Newton's second law, which relates torque, moment of inertia, and angular acceleration.
-###### Bending Moment
-In structural engineering, a bending moment is the internal reaction induced in a structural element when external forces cause the element to bend. It’s expressed in terms of the force multiplied by the distance to the point of interest along the element, influencing how beams and other structural components are designed to withstand loads.
-###### Magnetic Moment
-In physics, particularly in electromagnetism, the magnetic moment refers to the magnetic strength and orientation of a magnet or other object that produces a magnetic field. It is a vector quantity determining how a magnetic object will react in a magnetic field.
-##### Axis of Rotation	
-However, the [[#Point of Application|point of application]] in the context of moments, is referred to as the **axis of rotation**.
-	This is the point or axis about which we will determine all the moments.
-![[Pasted image 20240503133748.png]]
-*In the above image, the single force (vector) would cause different moments depending on if it is "about" (i.e. in relation to) point $A$ or point $B$, and thus different rotations.*
+The addition of moments (as opposed to particles, where we only looked at the forces) adds another set of possible equilibrium equations, allowing us to solve for more unknowns as compared to particle problems.
 
-The axis of rotation is therefore the **point we chose to fix in place**, which the body being exerted up will then rotate about. 
-
-The axis of rotation is a "chosen point".
-	The chosen point will affect the magnitude and direction of the resulting moment.
-		And the moment is only valid about that point. 
-
-When adding together moments from multiple forces, all the moments must be taken "about" (i.e. in relation to) a **shared/common axis of rotation**.
-	Moments taken about different points cannot be added together to find a "net moment".
-
-When working in **dynamics** (i.e. moving bodies) all moments will need to relate to angular accelerations. 
-	Therefore, the shared/common axis of rotation will need to be a stationary one. 
-##### Magnitude of a Moment
-Is the degree to which the moment will cause angular acceleration in the body it is acting on. 
-	It is represented by a scalar (i.e. a single number).
-Can be thought of as the "strength" of the twisting force exerted on the body.
-
-The magnitude of a moment, $M$, is measured in:
-	$\begin{equation*} \LARGE M = F \times d \end{equation*}$
-Where $F$ is the force, and $d$ is the distance.
-
-The standard unit of measurement for for the magnitude of moments are Newton-meters ($\begin{equation*} \LARGE N \times m \end{equation*}$), and the standard English unit of measurement is foot-pounds ($\begin{equation*} \LARGE lb \times ft \end{equation*}$).
-###### Direction of a Moment
-In a 2D space, the direction can be thought of a scalar quantity corresponding to the direction of rotation the moment would cause.
-	A moment that would cause a **counterclockwise rotation** is a **positive moment**.
-	A moment that would cause a **clockwise rotation** is a **negative moment**.
-
-In a 3D space, a body can rotate about an axis in any direction.
-	Therefore, a vector is needed to represent the direction of a moment.
-		The direction of a moment vector will line up with the axis of rotation that moment would cause, but to determine which of the two directions to use along that axis, the "right hand rule" is employed.
-###### Right Hand Rule:
-![[Pasted image 20240503140615.png]]
-To use the right hand rule, align your right hand so that your thumb lines up with the axis of rotation for the moment and your curled fingers point in the direction of rotation for your moment. 
-	If you do this, your thumb will be pointing in the direction of the moment vector.
-
-### Calculating Moments
-To calculate the moment that a force exerts on a body, two methods can be used.
-##### Scalar Methods
-
-##### Vector Methods
+Moments, like forces, are vectors. This means that our vector equation needs to be broken down into scalar components before we can solve the equilibrium equations.
 
 
 
@@ -165,41 +149,6 @@ To calculate the moment that a force exerts on a body, two methods can be used.
 
 
 
-
-
-
-
-
-
-## Equilibrium
-For a system to be in equilibrium, the net force in both the x and y directions must be zero. 
-	Mathematically, this is written as: $ΣF_x​=0$ and $ΣF_y​=0$
-		It's the principle of superposition that allows this vector addition to work: the effect of the individual forces can be added together to get the total effect. 
-			In equilibrium problems, this principle is used to ensure that all forces balance out, resulting in no net motion of the object in question.
-
-
-### Rigid Body Rotational Equilibrium 
-##### Two Ways to Use These Equations
-1. Do the given set of forces place the rigid body in a state of equilibrium?
-2. Determine the magnitude or direction of one or more unknown forces, needed to maintain equilibrium?
-###### Rigid Body
-Particles of a rigid body cannot move independent of the rigid body.
-	Specifically, the particle of a rigid body can only move if its **distance** from some other point on the rigid body remains the same. 
-
-##### Concept of Lever Arm
-###### Lever Arm (Distance $d$)
-The distance 𝑑d in the formula represents the lever arm. 
-	The lever arm is the perpendicular distance from the axis or point of rotation to the line of action of the force. 
-		This distance determines how effectively a force can cause an object to rotate around that point or axis.
-###### The Force ($P$)
-The force magnitude $P$ is the amount of push or pull applied.
-	The direction and point at which this force is applied relative to the point of rotation determine the effectiveness of the force in causing rotational movement.
-###### A Force Acts Directly on a Particle in a Rigid Body
-
-###### And a Force Acts at a Distance from the Other Particles in a Rigid Body
-
-
-###### Line of Action of a Force
 
 
 ###### A straight line that connects the line of action of a force to some point in the rigid body.
@@ -225,11 +174,7 @@ In this case, it is the degree of rotation the moment would cause.
 The magnitude is calculated as $∣M∣=∣r∣∣F∣sin(θ)$, where $θ$ is the angle between the position vector and the force vector. 
 	**If the distance $d$ is the perpendicular distance from the line of action of the force to the axis or point of rotation**, then the magnitude can also be simply expressed as **$M=F \times d$.**
 
-##### Why Multiply Force by Distance?
-###### Amplification by Distance
-The further away the force is applied from the point or axis of rotation, the greater its ability to cause rotation. 
-	This is because a longer lever arm (greater distance $d$) means that the same amount of force can produce a larger turning effect. 
-		This principle is observable in everyday tools like wrenches or door handles — longer handles require less force to operate because they have a longer lever arm.
+
 
 ###### Rational Tendency
 

@@ -19,7 +19,7 @@ These techniques are difficult and time consuming.
 
 Are a discretization of a continuous model into a finite number of masses, called particles, connected by elastic springs. 
 #### Main Components
-###### Particles
+###### [[Points#Idealization in Physics]]
 Each particle in the system is a lumped mass, that changes position and velocity as the simulation evolves.
 ###### Springs
 An elastic linear connection between two particles that behaves according to the **Hooke's Law**.
@@ -36,6 +36,8 @@ Once the simulation has started, the particles move from their initial positions
 	Following Hooke's Law, the lower the "stiffness" or $k$ value, the greater the spring elongation. 
 		Since particles in this system behave like spherical hinges without the capacity to resist moment forces, equilibrium solutions carry defined loads exclusively through [[Curvature's Role in Stress Distribution#Axial Compression and Axial Tension|axial forces]].
 			This is the ideal condition for form-finding strategies.
-
 ## Kangaroo (plugin)
-PSS iterative calculations approach an equilibrium state where the sum of all the forces is zero. 
+PSS iterative calculations approach an [[Static Equilibrium|equilibrium state]] where the sum of all the forces is zero. 
+	The iterative calculations are performed by mathematical solvers. 
+###### Mathematical Solvers
+Operate iteratively within a main *engine*, meaning every subsequent iteration narrows the position and velocity (magnitude and direction) of particles from the previous step towards an equilibrium solution. 
