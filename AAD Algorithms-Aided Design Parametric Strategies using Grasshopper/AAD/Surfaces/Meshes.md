@@ -16,8 +16,35 @@ related:
 date created: 2024-04-03
 ---
 # Meshes (i.e. polygon meshes)
-
-## vs. [[Nurbs Curves|NURBS]] modeling:
+Can be considered a type of nodal model. In computational and parametric design, meshes are comprised of nodes (vertices), edges, and faces that together create a framework or structure. 
+	This framework effectively allows for the modeling of shapes and surfaces in a discrete manner, where each node acts as a critical control point within the model.
+###### Nodal
+Refers to points or nodes within a model that serve as critical interaction points where parameters or structural elements meet or connect.
+	Nodes are essentially the junctures or vertices in a geometric, structural or network model where various parameters can be adjusted or where connections are made.
+###### Nodal Model
+A mathematical or graphical representation where these nodes are the defining elements. 
+- **Nodes** represent specific points where parameters such as structural constraints, force applications, or design variables are concentrated. 
+	- These can be points in a structure where members converge, locations where forces are applied, or points that control the curvature or flexure in a design.
+- **Edges or Connections** between nodes define the relationships, such as structural beams in architecture, edges of a polygon in geometry, or links in a network model.
+	- These connections determine how the changes in parameters at one node affect others.
+##### Types of Nodal Models
+###### Low Nodal Models (e.g., Single Digital Chains)
+- Few nodes and simple connections.
+- Easier to analyze and manipulate due to their simplicity.
+- Example: A chain where each link connects linearly to the next, representing a straightforward path or sequence with limited interaction points.
+###### High Nodal Models (e.g., Multi-Supported Membranes)
+- Many nodes interconnected in a complex network.
+- Capable of supporting detailed and intricate designs.
+- Example: A tensile structure like a tent or a complex architectural facade, where multiple nodes support a membrane, distributing forces dynamically across
+### Key Aspects of Meshes as Nodal Models
+1. **Nodes (Vertices)**: These are the points in a mesh where edges meet. They serve as the primary elements where calculations are performed in simulations and analyses, such as finite element analysis (FEA). Each node in a mesh can represent a discrete point in space where parameters like displacement, temperature, or stress are calculated.
+2. **Edges**: Edges connect the nodes and define the structure of the mesh. In computational terms, edges help in defining the relationships and interactions between nodes, which are crucial for determining how the overall structure behaves under various conditions.
+3. **Faces**: In 3D meshes, the faces are the two-dimensional surfaces bounded by edges. They play a significant role in defining the geometry of the object and are critical for aspects like surface area calculations, fluid dynamics studies, and more.
+### How Meshes Function as Nodal Models
+- **Computational Fluid Dynamics (CFD)** and **Structural Analysis**: In these applications, the mesh acts as a nodal model where the flow of fluids or structural forces are calculated at each node, with the effects propagating through the edges to adjacent nodes.
+- **Dynamic Manipulation in Design**: In parametric design, manipulating the nodes of a mesh allows designers to alter the shape and features of a design dynamically. This is particularly useful in architectural and product design, where flexibility and adaptability of form are essential.
+- **Visualization and Rendering**: In graphic design and animation, meshes are used to create complex 3D models where each node's position affects the model's appearance and how it interacts with virtual environments and lighting.
+## Meshes vs. [[Nurbs Curves|NURBS]] modeling:
 - Are mathematical representations expressed as curves and surfaces, providing a precise definition these complex shapes (geometric and freeform).
 	- Are **single geometric entities**.
 		- Because it can be defined by a singular set of mathematical equations, which defines its form.

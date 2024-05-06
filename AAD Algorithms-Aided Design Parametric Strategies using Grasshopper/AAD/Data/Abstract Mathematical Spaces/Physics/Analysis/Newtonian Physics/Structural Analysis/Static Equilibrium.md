@@ -36,6 +36,7 @@ Equilibrium follows a similar pattern for angular accelerations.
 ## Forms of Forces - Methods of Analyzing Physical Quantities
 ### Scalar Form Analysis
 I.e. Magnitude and Direction Form.
+	Where the vector is scaled according to its magnitude, in a given direction.
 Overall magnitude and angle(s) to indicate direction.
 ##### 2Dimensional
 ![[Pasted image 20240503162507.png]]
@@ -82,12 +83,37 @@ Vector addition is used to sum components:
 - Essential for complex problems involving three-dimensional force interactions and when calculating moments using cross products.
 ###### Advantages
 - Provides a comprehensive approach by incorporating the directional nature of forces and enabling moment calculations directly through vector operations.
-### Trigonometric Tools
+### Converting Between Vector and Scalar Forms
+Because the two different forms of the vector are equivalent, we can switch between 
+representations without changing the problem. 
+	Often in engineering problems, it will initially be easier to write the force in magnitude and angle form, but later, analysis will be easier if forces are written in component form.
+ 
+To switch from magnitude and direction form to component form you will use right triangles and trigonometry to determine the component of the overall magnitude in each direction. 
+	This is a simple vector decomposition.
+	To switch back from component form into magnitude and direction form you simply use the reverse of this initial process.
+## Evaluating Magnitudes and Orientations of Force Vectors
+### General Steps
+![[Pasted image 20240506124701.png]]
+1. **Decompose** each force into $x, y, z$ components (i.e. [[#Vector Form Analysis (i.e. Cartesian Vectors)|vector form]]).
+2. **Sum $x$ components** to identify resultant $\LARGE F_x$.
+3. **Sum $y$ components** to identify resultant $\LARGE F_y$.
+4. **Sum $z$ components** to identify resultant $\LARGE F_z$.
+5. The Resultant Force vector is then: $\LARGE F_R = \sum \vec{F} = \sum \vec{F_x} + \sum \vec{F_y} + \sum \vec{F_z}$ 
+### Trigonometric Tools for Decomposition of Force Vectors 
 Trigonometry is essential for breaking down the forces into their x and y components when they're acting at an angle. 
-	For a force vector at an angle β from the vertical, the trigonometric functions ($sin$) and ($cos$) are used to find the magnitudes of the components:
-		- The x-component (horizontal) of the force is found by multiplying the force's magnitude by the sine of the angle: $F⋅sin(β)$.
-		- The y-component (vertical) of the force is found by multiplying the force's magnitude by the cosine of the angle: $F⋅cos(β)$.
+#### Creating Right Triangles
+![[Pasted image 20240506130756.png]] ![[Pasted image 20240506130747.png]]
+Create a $90 \degree$ triangle using the two component vectors ($\LARGE \vec{F_x}, \vec{F_y}$) and the Force Vector.
+	And if needed for a 3D force, another $90 \degree$ triangle using two the $\LARGE \vec{F_z}$ component vector, the $\LARGE \vec{F'}$ component vector and the Force Vector.  
+
+These Right Triangles enable the ability to utilize $\cos(\theta)$ and $sin(\theta)$ functions to find the magnitude of the Force Vector and its component vectors, as well as the orientation of the Force Vector.
+	Just consider whether the component ($x, y, z$) is opposite or adjacent from the angle of the force (within the right triangle).
+
+Remember that the component (i.e. standard unit vectors) are the "sliding" in that they are some scaled, linear combination that produces the resultant/force vector. 
+	Therefore, to obtain the component "side opposite" of the triangle (i.e. the 3rd "side") of the right triangle, "slide" (where the slide expresses a scaling of the component vectors) to position the component vector between and opposite the angle under study.
+#### Tools for Non-Right Triangles
 ###### Law of Cosines
+Used when the component $90 \degree$ triangle is not constructed.
 Relates magnitudes to cosines of their corresponding angles.
 Used to find magnitudes and angles of non-right triangles.
 
@@ -107,10 +133,43 @@ It is useful when the problem involves two sides (i.e. magnitudes) and an angle 
 
 This breakdown allows you to add up all the horizontal components separately from all the vertical components, which is exactly what you do when you're solving for equilibrium.
 	When the sum of the x-components and the sum of the y-components both equal zero, the object is in a state of equilibrium—it won't accelerate in any direction because the net force acting on it is zero.
-### Converting Between Vector and Scalar Forms
-Because the two different forms of the vector are equivalent, we can switch between representations without changing the problem. 
-	Often in engineering problems, it will initially be easier to write the force in magnitude and angle form, but later, analysis will be easier if forces are written in component form.
- 
-To switch from magnitude and direction form to component form you will use right triangles and trigonometry to determine the component of the overall magnitude in each direction. 
-	This is a simple vector decomposition.
-	To switch back from component form into magnitude and direction form you simply use the reverse of this initial process.
+#### 2D Decomposition
+###### Magnitude of Resultant Force
+![[Pasted image 20240506124550.png]]
+###### Orientation of Resultant Force
+![[Pasted image 20240506124756.png]]
+###### Magnitudes of Component Vectors 
+For a force vector at an angle $\LARGE \theta$ from the vertical, the trigonometric functions ($sin$) and ($cos$) are used to find the magnitudes of the components:
+	Remember: Just consider whether the component ($x, y, z$) is **opposite** or **adjacent** from the angle of the force (within the right triangle).
+###### $\LARGE x$ Component ("horizontal") Vector of the Force Vector
+Is found by multiplying the force's magnitude by the sine of the angle: 
+- When the $x$ component is **opposite** $\theta$: 
+	$\LARGE F⋅sin(\theta)$
+###### $\LARGE y$ Component ("vertical") Vector of the Force Vector
+Is found by multiplying the force's magnitude by the cosine of the angle:
+- When the $y$ component is **adjacent** $\theta$.
+	$\LARGE F⋅cos(\theta)$
+##### 3D Decomposition 
+Utilizes $\LARGE A'$ to find force components in the $x$ and $y$ plane. 
+![[Pasted image 20240506124911.png]]
+###### Normalizing Vectors (i.e. unit vectors)
+![[Pasted image 20240506125205.png]]
+Creates a "unit vector" (not the same as a "standard unit vector"/"standard basis vector") in the same direction, with a **norm** = 1.
+###### Unit Vector 
+Not the same as a "standard unit vector"/"standard basis vector".
+Refers to a vector with a norm = 1. 
+###### Norm of a Vector
+The **magnitude** or "length" of a vector from head to tail of vector.
+###### To Find the Angles between the $x, y, z$ Axes Relative to the Force Vector
+Measured from the **positive** $x, y, z$ axes:
+![[Pasted image 20240506125710.png]]
+![[Pasted image 20240506133202.png]]
+###### Transverse Angle $\Theta$
+The angle between the $\LARGE x, y$ plane and the Force Vector.
+###### Azimuth Angle $\Phi$ 
+The angle between the $\LARGE z$ axis and the Force Vector.
+![[Pasted image 20240506125924.png]]
+###### Magnitudes of Component Vectors 
+For a force vector at an angle $\LARGE \theta$ from the vertical, the trigonometric functions ($sin$) and ($cos$) are used to find the magnitudes of the components:
+![[Pasted image 20240506133208.png]]
+

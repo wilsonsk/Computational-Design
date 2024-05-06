@@ -1,7 +1,8 @@
 ---
 up:
   - "[[Analysis]]"
-related: 
+related:
+  - "[["
 date created: 2024-05-03
 ---
 # Structural Analysis (i.e. Static Analysis)

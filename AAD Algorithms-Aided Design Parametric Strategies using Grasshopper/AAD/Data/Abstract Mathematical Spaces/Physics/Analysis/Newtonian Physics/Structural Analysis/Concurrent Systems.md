@@ -1,3 +1,12 @@
+---
+up:
+  - "[[Structural Analysis]]"
+related:
+  - "[[Non-Concurrent Systems]]"
+  - "[[Analysis]]"
+  - "[[Static Equilibrium]]"
+date created: 2024-05-04
+---
 ## Concurrent Force Systems
 If a body is in static equilibrium, then by definition that body is not accelerating. 
 	If we know that the body is not accelerating then we know that **the sum of the forces acting on that body must be equal to zero**. 
@@ -27,7 +36,7 @@ Draw a [[Free Body Diagram|free body diagram]] of the body being analyzed to det
 ###### 2. Chose the $x, y, z$ Axes
 These axes must be perpendicular to one another, but do not need to necessarily have to be horizontal or vertical. 
 ###### 3. Decomposition
-Break down all of the force vectors into component scaled unit vectors along the $x, y, x$ directions. 
+Break down all of the force vectors into [[Static Equilibrium#Vector Form Analysis (i.e. Cartesian Vectors)|component scaled unit vectors]] along the $x, y, x$ directions. 
 	If forces are given in vector form or applied at angles to a coordinate system, resolve each force into its orthogonal components (typically along x, y, and possibly z axes in three-dimensional space).
 - The first equation will be the sum of the magnitudes of the components in the $𝑥$ direction being equal to zero.
 - The second equation will be the sum of the magnitudes of the components in the $y$ direction being equal to zero.
