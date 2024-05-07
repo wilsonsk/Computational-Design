@@ -47,8 +47,8 @@ Forces are represented by their magnitudes and the angles they make with referen
 	The direction is considered using angles, and forces are typically discussed in terms of horizontal and vertical components.
 ###### Decomposing Forces
 Forces are broken down into horizontal and vertical components using trigonometry:
-- Horizontal Component $\LARGE Fx​=Fcos(θ)$
-- Vertical Component $\LARGE Fy​=Fsin(θ)$
+- Horizontal Component $\LARGE \vec{F_x​}=\vec{F}cos(θ)$
+- Vertical Component $\LARGE \vec{Fy}​=\vec{F}sin(θ)$
 ###### Summing Components
 Components are summed algebraically:
 - $\LARGE ∑Fx$​ for all horizontal components
@@ -140,15 +140,15 @@ This breakdown allows you to add up all the horizontal components separately fro
 ![[Pasted image 20240506124756.png]]
 ###### Magnitudes of Component Vectors 
 For a force vector at an angle $\LARGE \theta$ from the vertical, the trigonometric functions ($sin$) and ($cos$) are used to find the magnitudes of the components:
-	Remember: Just consider whether the component ($x, y, z$) is **opposite** or **adjacent** from the angle of the force (within the right triangle).
-###### $\LARGE x$ Component ("horizontal") Vector of the Force Vector
+	Remember: Just consider whether the component ($\LARGE \vec{F_x}, \vec{F_y}, \vec{F_z}$) is **opposite** or **adjacent** from the angle of the force (within the right triangle).
+###### $\LARGE |\vec{F_x}|$ Component ("horizontal") Vector of the Force Vector
 Is found by multiplying the force's magnitude by the sine of the angle: 
 - When the $x$ component is **opposite** $\theta$: 
-	$\LARGE F⋅sin(\theta)$
-###### $\LARGE y$ Component ("vertical") Vector of the Force Vector
+	$\LARGE sin(\theta) = {|\vec{F_x \space component}| \over |\vec{F}|} == |\vec{F}|⋅sin(\theta) = |\vec{F_x \space component}|$
+###### $\LARGE |\vec{F_y}|$ Component ("vertical") Vector of the Force Vector
 Is found by multiplying the force's magnitude by the cosine of the angle:
 - When the $y$ component is **adjacent** $\theta$.
-	$\LARGE F⋅cos(\theta)$
+	$\LARGE cos(\theta) = {|\vec{F_y \space component}| \over |\vec{F}|} == |\vec{F}|⋅sin(\theta) = |\vec{F_y \space component}|$
 ##### 3D Decomposition 
 Utilizes $\LARGE A'$ to find force components in the $x$ and $y$ plane. 
 ![[Pasted image 20240506124911.png]]
@@ -159,6 +159,7 @@ Creates a "unit vector" (not the same as a "standard unit vector"/"standard basi
 Not the same as a "standard unit vector"/"standard basis vector".
 Refers to a vector with a norm = 1. 
 ###### Norm of a Vector
+$\LARGE |\vec{someVector}|$
 The **magnitude** or "length" of a vector from head to tail of vector.
 ###### To Find the Angles between the $x, y, z$ Axes Relative to the Force Vector
 Measured from the **positive** $x, y, z$ axes:

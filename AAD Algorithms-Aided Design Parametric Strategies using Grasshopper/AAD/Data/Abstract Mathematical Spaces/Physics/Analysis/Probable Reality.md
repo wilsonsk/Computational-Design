@@ -41,3 +41,8 @@ improved.
 
 states of the new OS by running a delta-t sub-
 loop.
+## Probability and Newtonian Mechanics
+Newtonian Mechanics are just calculations that accurately predict the state changes. 
+	But they explain macro state changes, and do not consider nuclear or micro causality. 
+
+"Continuity" is an appearance of such.

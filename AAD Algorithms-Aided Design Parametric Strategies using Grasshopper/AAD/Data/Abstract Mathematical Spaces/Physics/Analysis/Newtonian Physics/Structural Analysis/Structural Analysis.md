@@ -67,7 +67,7 @@ Forces on a body can also cause stress in that body, which can result in the bod
 	Though forces come from a variety of sources, there are three distinguishing features to **every force**.
 A force can be linear or [[#Moments (i.e. Torque)|angular]], "forces" typically refers to linear forces, while [[#Moments (i.e. Torque)|moments]] refer to angular or twisting forces.
 ### Force Features
-##### Magnitude 
+##### [[Static Equilibrium#Norm of a Vector|Magnitude]] 
 The degree to which the force will accelerate the body it is acting on.
 	It is represented by a single number - i.e. a scalar. 
 Can be thought of as the "strength" of a force.
