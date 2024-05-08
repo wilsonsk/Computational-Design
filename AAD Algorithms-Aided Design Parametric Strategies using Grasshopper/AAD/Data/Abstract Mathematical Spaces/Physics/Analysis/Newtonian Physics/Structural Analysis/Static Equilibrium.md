@@ -91,6 +91,31 @@ representations without changing the problem.
 To switch from magnitude and direction form to component form you will use [[#Creating Right Triangles|right triangles]] and [[#Trigonometric Tools for Decomposition of Force Vectors|trigonometry]]to determine the component of the overall magnitude in each direction. 
 	This is a simple vector decomposition.
 	To switch back from component form into magnitude and direction form you simply use the reverse of this initial process.
+#### 2D Converting Magnitude and Direction to Component Form
+![[Pasted image 20240508145141.png]]
+To go from a magnitude and direction (i.e. scalar form) to component form (i.e. vector form), we will first draw a right triangle with the hypotenuse being the original vector. 
+	The horizontal arm of the triangle will then be the 𝑥-component of the vector while the vertical arm is the 𝑦 component of the vector. 
+		If we know the angle of the vector with respect to either the horizontal or the vertical, we can use the sine and cosine relationship to find the 𝑥 and 𝑦 components.
+####  2D Converting Component Form to Magnitude and Direction
+![[Pasted image 20240508145321.png]]
+To find the magnitude and the direction of a vector using components, we will use the same process in reverse.
+	We will draw the components as the legs of a right triangle, where the hypotenuse of the triangle shows the magnitude and direction of the vector.
+
+To find the magnitude of the vector we will use the Pythagorean Theorem, taking the square root of the sum of the squares of each component. 
+	To find the angle, we can easily use the inverse tangent function, relating the opposite and adjacent legs of our right triangle.
+#### Converting Between Vector Representations in 3D
+![[Pasted image 20240508145439.png|400]]
+In three dimensions, we will have either three components (𝑥, 𝑦, and 𝑧) for component form or a magnitude and two angles for the direction in magnitude and direction form. 
+
+To convert between forms we will need to draw in two sets of right triangles. 
+The hypotenuse of the first triangle will be the original vector and one of the legs will be one of the three components. 
+	The other leg will then be the hypotenuse of the second triangle. 
+		The legs of this second triangle will then be the remaining two components. 
+			Use sine and cosine relationships to find the magnitude of each component along the way. 
+
+This general process of two consecutive right triangles will always hold true, but depending on angles that are given or chosen which components end up being which leg can vary. 
+
+Carefully plotting everything out in a diagram is important for this reason.
 ## Evaluating Magnitudes and Orientations of Force Vectors
 ### General Steps
 ![[Pasted image 20240506124701.png]]
@@ -216,3 +241,38 @@ Specify the **magnitude** and the **coordinate direction angles** $\alpha_1$, $\
 	![[Pasted image 20240508141408.png]]
 4. Calculate the **Coordinate Direction Angles** $\alpha_1$, $\beta_1$, and $\gamma_1$ of **$\large F_1$**
 	![[Pasted image 20240508141512.png]]
+#### Position Vectors
+Refers to a fundamental concept used to describe the location of a point or an object in space relative to a chosen reference point- this chosen reference point is typically chosen to be the "origin of a coordinate system".
+
+A position vector, denoted as $\large r$, is a **vector** that **originates from a fixed reference point** (usually the origin of a coordinate system) and points to the position of an object.
+	It describes the displacement of the object from the origin.
+		This position vector, itself, has component vectors (i.e. scaled standard unit vectors).
+
+$\large \vec{r} = x\textbf{i} + y\textbf{j} + z\textbf{k}$ 
+
+Where $x, y$ and $z$ are the coordinates of the point (i.e. location) being described/measured in the Cartesian plane.
+Where $\textbf{i, j, k}$ are the unit vectors along the $x,y,z$ axes, respectively. 
+
+*Example of a Position Vector from the Origin*
+![[Pasted image 20240508143840.png]]
+*Example of a Position Vector NOT from the Origin*
+![[Pasted image 20240508144123.png|400]]
+The position vector that lies "**between**" a point and a reference point that is NOT the origin.
+Use head to tail, [[Structural Analysis#Vector Addition|vector addition]].
+
+$\large \vec{r} = x\textbf{i} + y\textbf{j} + z\textbf{k}$ 
+
+$\large \vec{r_A} =\vec{r} + \vec{r_B}$ 
+	$\large \vec{r} =\vec{r_B} - \vec{r_A}$ 
+		Where $\vec{r_B}$ is the "point r is going to".
+		And $\vec{r_A}$ is the "point r is leaving from".
+Therefore:
+$\large \vec{r_B} = x_{B}\textbf{i} + y_{B}\textbf{j} + z_{B}\textbf{k}$ 
+$\large \vec{r_A} = x_{A}\textbf{i} + y_{A}\textbf{j} + z_{A}\textbf{k}$ 
+
+Position Vector $\large \vec{r}$
+	$\large \vec{r} = (x_{B}-x_{A})\textbf{i} + (y_{B}-y_{A})\textbf{j} + (z_{B}-z_{A})\textbf{k}$ 
+###### Usage in Mechanics:
+- **[[Newtonian Mechanics#Analysis Kinematics Identifying the "Present" (i.e. initial) State State (of condition, Parameters parameters ). Kinematics|Kinematics]]**: Position vectors are used to track the location of objects as they move. Changes in the position vector over time describe the path or trajectory of the object.
+- **[[Newtonian Mechanics#Analysis Dynamics "Explains" the Causality of a State Change Dynamics|Dynamics]]**: The derivative of the position vector with respect to time gives the velocity vector, and the second derivative gives the acceleration vector, both of which are crucial for analyzing forces and motion according to Newton’s laws.
+##### Finding the Magnitude of a Position Vector

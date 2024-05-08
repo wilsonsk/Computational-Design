@@ -38,7 +38,8 @@ A vector is a "resultant vector" that is **composed** of **component scalars**.
 ### Vector Addition
 In vector addition, each vector is [[Static Equilibrium#Forms of Forces - Methods of Analyzing Physical Quantities|broken down]] into its **component scalars** (i.e. component "vectors" - that is the result of scaled unit vectors) along the x and y axes.
 	The components along the same axis are added together to get the net force components in each direction.
-
+![[Pasted image 20240508144941.png]]
+![[Pasted image 20240508145006.png]]
 In a two-dimensional setting:
 - The x-components of all forces are added together to get the net force in the x-direction ($F_{net,x}$​).
 - The y-components of all forces are added together to get the net force in the y-direction ($F_{net,y}$​).

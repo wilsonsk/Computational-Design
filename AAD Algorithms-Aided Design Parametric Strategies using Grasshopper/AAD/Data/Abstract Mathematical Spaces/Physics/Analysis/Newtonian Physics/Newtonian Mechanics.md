@@ -140,11 +140,11 @@ The paths that objects follow through space as a function of time. These can oft
 Classical dynamics often provides deterministic results.
 	Where initial conditions clearly, objectively cause (i.e. determine) future states.
 ###### Dynamics at the Macro scale is fundamentally based on **Newton’s three laws of motion**:
-###### 1. First Law (Law of Inertia): 
+###### 1. [[Newton's First Law|First Law]] (Law of Inertia): 
 An object in motion stays in motion with the same speed and in the same direction unless acted upon by an unbalanced force.
-###### 2. Second Law (Law of Acceleration):
+###### 2. [[Newton's Second Law|Second Law]] (Law of Acceleration):
 The acceleration of an object is dependent upon two variables - the net force acting upon the object and the mass of the object.
-###### 3. Third Law (Action and Reaction): 
+###### 3. [[Newton's Third Law|Third Law]] (Action and Reaction): 
 For every action, there is an equal and opposite reaction.
 ###### Equations of Motion:
 Dynamics uses the **equations of motion** that **integrate the effects of forces** to **predict how an object’s velocity and position will change over time**. 
