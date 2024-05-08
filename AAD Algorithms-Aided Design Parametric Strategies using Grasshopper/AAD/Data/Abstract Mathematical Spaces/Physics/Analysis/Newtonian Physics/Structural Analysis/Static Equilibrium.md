@@ -88,17 +88,19 @@ Because the two different forms of the vector are equivalent, we can switch betw
 representations without changing the problem. 
 	Often in engineering problems, it will initially be easier to write the force in magnitude and angle form, but later, analysis will be easier if forces are written in component form.
  
-To switch from magnitude and direction form to component form you will use right triangles and trigonometry to determine the component of the overall magnitude in each direction. 
+To switch from magnitude and direction form to component form you will use [[#Creating Right Triangles|right triangles]] and [[#Trigonometric Tools for Decomposition of Force Vectors|trigonometry]]to determine the component of the overall magnitude in each direction. 
 	This is a simple vector decomposition.
 	To switch back from component form into magnitude and direction form you simply use the reverse of this initial process.
 ## Evaluating Magnitudes and Orientations of Force Vectors
 ### General Steps
 ![[Pasted image 20240506124701.png]]
 1. **Decompose** each force into $x, y, z$ components (i.e. [[#Vector Form Analysis (i.e. Cartesian Vectors)|vector form]]).
+	- If [[#[3D Decomposition](https //www.udemy.com/course/engineering-mechanics-statics/learn/lecture/41715220 overview)|3D Decomposition]], then can use the 
 2. **Sum $x$ components** to identify resultant $\LARGE F_x$.
 3. **Sum $y$ components** to identify resultant $\LARGE F_y$.
 4. **Sum $z$ components** to identify resultant $\LARGE F_z$.
 5. The Resultant Force vector is then: $\LARGE F_R = \sum \vec{F} = \sum \vec{F_x} + \sum \vec{F_y} + \sum \vec{F_z}$ 
+6. The Force Angle and Magnitude is found using the Resultant Force Vector.
 ### Trigonometric Tools for Decomposition of Force Vectors 
 Trigonometry is essential for breaking down the forces into their x and y components when they're acting at an angle. 
 #### Creating Right Triangles
@@ -111,6 +113,14 @@ These Right Triangles enable the ability to utilize $\cos(\theta)$ and $sin(\the
 
 Remember that the component (i.e. standard unit vectors) are the "sliding" in that they are some scaled, linear combination that produces the resultant/force vector. 
 	Therefore, to obtain the component "side opposite" of the triangle (i.e. the 3rd "side") of the right triangle, "slide" (where the slide expresses a scaling of the component vectors) to position the component vector between and opposite the angle under study.
+##### 2D Pythagorean Theorem
+Can be used for Right Triangles.
+![[Pasted image 20240508141253.png]]
+$\large c^2 = a^2 + b^2$
+##### 3D Pythagorean Theorem
+Can be used for Right Triangles.
+![[Pasted image 20240508141235.png]]
+$\large d^2 = a^2 + b^2 + c^2$
 #### Tools for Non-Right Triangles
 ###### Law of Cosines
 Used when the component $90 \degree$ triangle is not constructed.
@@ -134,43 +144,75 @@ It is useful when the problem involves two sides (i.e. magnitudes) and an angle 
 This breakdown allows you to add up all the horizontal components separately from all the vertical components, which is exactly what you do when you're solving for equilibrium.
 	When the sum of the x-components and the sum of the y-components both equal zero, the object is in a state of equilibrium—it won't accelerate in any direction because the net force acting on it is zero.
 #### 2D Decomposition
-###### Magnitude of Resultant Force
+###### Magnitude of 2D Resultant Force
 ![[Pasted image 20240506124550.png]]
-###### Orientation of Resultant Force
+###### Orientation of 2D Resultant Force
 ![[Pasted image 20240506124756.png]]
-###### Magnitudes of Component Vectors 
+###### Magnitudes of 2D Component Vectors 
 For a force vector at an angle $\LARGE \theta$ from the vertical, the trigonometric functions ($sin$) and ($cos$) are used to find the magnitudes of the components:
 	Remember: Just consider whether the component ($\LARGE \vec{F_x}, \vec{F_y}, \vec{F_z}$) is **opposite** or **adjacent** from the angle of the force (within the right triangle).
-###### $\LARGE |\vec{F_x}|$ Component ("horizontal") Vector of the Force Vector
+###### $\LARGE |\vec{F_x}|$ Component ("horizontal") Vector of the 2D Force Vector
 Is found by multiplying the force's magnitude by the sine of the angle: 
 - When the $x$ component is **opposite** $\theta$: 
 	$\LARGE sin(\theta) = {|\vec{F_x \space component}| \over |\vec{F}|} == |\vec{F}|⋅sin(\theta) = |\vec{F_x \space component}|$
-###### $\LARGE |\vec{F_y}|$ Component ("vertical") Vector of the Force Vector
+###### $\LARGE |\vec{F_y}|$ Component ("vertical") Vector of the 2D Force Vector
 Is found by multiplying the force's magnitude by the cosine of the angle:
 - When the $y$ component is **adjacent** $\theta$.
 	$\LARGE cos(\theta) = {|\vec{F_y \space component}| \over |\vec{F}|} == |\vec{F}|⋅sin(\theta) = |\vec{F_y \space component}|$
-##### 3D Decomposition 
-Utilizes $\LARGE A'$ to find force components in the $x$ and $y$ plane. 
-![[Pasted image 20240506124911.png]]
-###### Normalizing Vectors (i.e. unit vectors)
+###### Magnitude of 2D Resultant Vector
+Is the just the summing of like component vectors once discerned via trigonometry using angles and resultant prime vector.
+#### [3D Decomposition](https://www.udemy.com/course/engineering-mechanics-statics/learn/lecture/41715220#overview) 
+
+##### Normalizing Vectors (i.e. unit vectors)
 ![[Pasted image 20240506125205.png]]
 Creates a "unit vector" (not the same as a "standard unit vector"/"standard basis vector") in the same direction, with a **norm** = 1.
 ###### Unit Vector 
 Not the same as a "standard unit vector"/"standard basis vector".
 Refers to a vector with a norm = 1. 
+$\LARGE \vec{\hat{U}_F} = {\vec{F} \over |\vec{F}|} = {\vec{F_{x}\hat{i}}+\vec{F_{y}\hat{j}}+\vec{F_{z}\hat{k}}\over \sqrt{\vec{F_{x}}\hat{i}^2+\vec{F_{y}}\hat{j}^2+\vec{F_{z}}\hat{k}^2}} == \vec{F}= |\vec{F}|\vec{\hat{U}_F}$
 ###### Norm of a Vector
 $\LARGE |\vec{someVector}|$
 The **magnitude** or "length" of a vector from head to tail of vector.
-###### To Find the Angles between the $x, y, z$ Axes Relative to the Force Vector
-Measured from the **positive** $x, y, z$ axes:
+##### To Find the Angles between the $x, y, z$ Axes Relative to the 3D Force Vector
+###### Utilizes $\LARGE A'$ 
+To find force component vectors using the [[#Transverse Angle $ Theta$|Transverse Angle]] (in the $x$ and $y$ plane) method or the [[#Coordinate Direction Angles|Coordinate Direction Angles]]. 
+![[Pasted image 20240506124911.png]]
+
+These angles can then be used to find the magnitudes of the 3D component vectors.
+###### Magnitudes of 3D Component Vectors 
+Utilizing the angles produced via [[#Azimuth Angle $ Phi$|Azimuth]], [[#Transverse Angle $ Theta$|Transverse]] or [[#Coordinate Direction Angles|Coordinate Direction Angles]], the trigonometric functions ($sin$) and ($cos$) can then be used to find the magnitudes of the component vectors, and thus the vector form also.
+![[Pasted image 20240506133208.png]]
+###### Coordinate Direction Angles:
+Measured from the **positive** $x, y, z$ axes.
+The 3D Force Vector will always be **adjacent** to the Coordinate Direction Angle and therefore, obtained via the $cos$ function.
+Are used to find the **orientation** of the Resultant Vector.
+- $\LARGE \alpha$ = **Positive** angle between the Force Vector and the $\LARGE x$ axis
+		$\LARGE |\vec{F_x}| = |\vec{F}| \cos \alpha == \cos \alpha = {|\vec{F_x}| \over |\vec{F}|}$
+- $\LARGE \beta$ = **Positive** angle between the Force Vector and the $\LARGE y$ axis.
+		$\LARGE |\vec{F_y}| = |\vec{F}| \cos \beta == \cos \beta = {|\vec{F_y}| \over |\vec{F}|}$
+- $\LARGE \gamma$ = **Positive** angle between the Force Vector and the $\LARGE z$ axis.
+		$\LARGE |\vec{F_z}| = |\vec{F}| \cos \gamma == \cos \gamma = {|\vec{F_z}| \over |\vec{F}|}$
 ![[Pasted image 20240506125710.png]]
 ![[Pasted image 20240506133202.png]]
 ###### Transverse Angle $\Theta$
 The angle between the $\LARGE x, y$ plane and the Force Vector.
+Are used to find the **orientation** of the Resultant Vector.
 ###### Azimuth Angle $\Phi$ 
 The angle between the $\LARGE z$ axis and the Force Vector.
-![[Pasted image 20240506125924.png]]
-###### Magnitudes of Component Vectors 
-For a force vector at an angle $\LARGE \theta$ from the vertical, the trigonometric functions ($sin$) and ($cos$) are used to find the magnitudes of the components:
-![[Pasted image 20240506133208.png]]
+Are used to find the **orientation** of the Resultant Vector.
 
+![[Pasted image 20240506125924.png]]
+###### Magnitude of 3D Resultant Vector
+Is the just the summing of like component vectors once discerned via trigonometry using angles and resultant prime vector.
+##### [Example of a 3D Force Vector "Problem"](https://www.udemy.com/course/engineering-mechanics-statics/learn/lecture/41715228#overview)
+![[Pasted image 20240508140307.png|400]]
+Specify the **magnitude** and the **coordinate direction angles** $\alpha_1$, $\beta_1$, and $\gamma_1$ of **$\large F_1$**, so that the Resultant Force Vector of the the three forces action on the bracket is $|\vec{F_R}| = -350k$ lbs.  Note that $\vec{F_3}$ lies in the $x y$ plane.
+1. Decompose the force vectors ($\vec{F_1}$, $\vec{F_2}$, $\vec{F_3}$) into vector form. 
+	![[Pasted image 20240508140449.png]]
+2. Calculate $\large \vec{F_1}$ in vector form using algebra to solve for unknown variables.
+	1. Set the sum of the force vectors equal to the magnitude of the Resultant Force Vector, $|\vec{F_R}| = -350k$. 
+		![[Pasted image 20240508140719.png]]
+3. Calculate the magnitude of $\large |\vec{F_1}|$ using [[#3D Pythagorean Theorem|3D Pythagorean Theorem]].
+	![[Pasted image 20240508141408.png]]
+4. Calculate the **Coordinate Direction Angles** $\alpha_1$, $\beta_1$, and $\gamma_1$ of **$\large F_1$**
+	![[Pasted image 20240508141512.png]]
