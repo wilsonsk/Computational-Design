@@ -35,6 +35,9 @@ A vector is a "resultant vector" that is **composed** of **component scalars**.
 		Therefore, the vector is a linear combination of some scaled unit vectors.
 			$\begin{equation*} \vec{v} = \begin{bmatrix} a \\ b \end{bmatrix}  = (a\vec{e_1} + b\vec{e_2})\end{equation*}$  
 *See the physical Linear Algebra notes for a much more in depth study of vectors and linear systems of equations.*
+###### Sense of a Vector
+Refers to **the direction in which the vector is pointing**.
+	I.e. It indicates the path of the vector from its initial point (tail) to its terminal point (head).
 ### Vector Addition
 In vector addition, each vector is [[Static Equilibrium#Forms of Forces - Methods of Analyzing Physical Quantities|broken down]] into its **component scalars** (i.e. component "vectors" - that is the result of scaled unit vectors) along the x and y axes.
 	The components along the same axis are added together to get the net force components in each direction.

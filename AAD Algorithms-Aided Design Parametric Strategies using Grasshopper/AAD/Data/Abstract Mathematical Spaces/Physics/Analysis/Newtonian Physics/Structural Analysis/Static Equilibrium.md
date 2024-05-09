@@ -6,7 +6,7 @@ Static Equilibrium implies that a body is in both Translational Equilibrium and 
 		It's the principle of superposition that allows this vector addition to work: the effect of the individual forces can be added together to get the total effect. 
 ### [[Newton's Second Law|Newton's Second Law]]
 States that the force exerted on an object is equal to the mass of the object times the [[Newton's Second Law#Acceleration|acceleration]] it experiences. 
-	Therefore, if we know that the acceleration of an object is equal to zero, then we can assume that the sum of all forces acting on the object is zero. 
+#### Therefore, if we know that the acceleration of an object is equal to zero, then we can assume that the sum of all forces acting on the object is zero. 
 	
 Individual forces acting on the object, represented by [[Structural Analysis#Vector|force vectors]], may not have zero magnitude but the sum of all the force vectors will always be equal to zero for objects in equilibrium. 
 ## [[Concurrent Systems|Translational Equilibrium]]
@@ -199,15 +199,16 @@ $\LARGE \vec{\hat{U}_F} = {\vec{F} \over |\vec{F}|} = {\vec{F_{x}\hat{i}}+\vec{F
 $\LARGE |\vec{someVector}|$
 The **magnitude** or "length" of a vector from head to tail of vector.
 ##### To Find the Angles between the $x, y, z$ Axes Relative to the 3D Force Vector
+And therefore, find the Resultant Force Vector (i.e. its component vectors, its magnitude and its orientation).
 ###### Utilizes $\LARGE A'$ 
 To find force component vectors using the [[#Transverse Angle $ Theta$|Transverse Angle]] (in the $x$ and $y$ plane) method or the [[#Coordinate Direction Angles|Coordinate Direction Angles]]. 
 ![[Pasted image 20240506124911.png]]
 
-These angles can then be used to find the magnitudes of the 3D component vectors.
+These angles can then be used to find the magnitudes and orientations of the 3D component vectors.
 ###### Magnitudes of 3D Component Vectors 
 Utilizing the angles produced via [[#Azimuth Angle $ Phi$|Azimuth]], [[#Transverse Angle $ Theta$|Transverse]] or [[#Coordinate Direction Angles|Coordinate Direction Angles]], the trigonometric functions ($sin$) and ($cos$) can then be used to find the magnitudes of the component vectors, and thus the vector form also.
 ![[Pasted image 20240506133208.png]]
-###### Coordinate Direction Angles:
+###### Coordinate Direction Angles
 Measured from the **positive** $x, y, z$ axes.
 The 3D Force Vector will always be **adjacent** to the Coordinate Direction Angle and therefore, obtained via the $cos$ function.
 Are used to find the **orientation** of the Resultant Vector.
@@ -229,7 +230,7 @@ Are used to find the **orientation** of the Resultant Vector.
 ![[Pasted image 20240506125924.png]]
 ###### Magnitude of 3D Resultant Vector
 Is the just the summing of like component vectors once discerned via trigonometry using angles and resultant prime vector.
-##### [Example of a 3D Force Vector "Problem"](https://www.udemy.com/course/engineering-mechanics-statics/learn/lecture/41715228#overview)
+##### [Example of a 3D Force Vector "Problem"](https://www.udemy.com/course/engineering-mechanics-statics/learn/lecture/41715228#overview) (i.e. finding a Resultant Force Vector- its components, magnitude and orientation)
 ![[Pasted image 20240508140307.png|400]]
 Specify the **magnitude** and the **coordinate direction angles** $\alpha_1$, $\beta_1$, and $\gamma_1$ of **$\large F_1$**, so that the Resultant Force Vector of the the three forces action on the bracket is $|\vec{F_R}| = -350k$ lbs.  Note that $\vec{F_3}$ lies in the $x y$ plane.
 1. Decompose the force vectors ($\vec{F_1}$, $\vec{F_2}$, $\vec{F_3}$) into vector form. 
@@ -241,7 +242,7 @@ Specify the **magnitude** and the **coordinate direction angles** $\alpha_1$, $\
 	![[Pasted image 20240508141408.png]]
 4. Calculate the **Coordinate Direction Angles** $\alpha_1$, $\beta_1$, and $\gamma_1$ of **$\large F_1$**
 	![[Pasted image 20240508141512.png]]
-#### Position Vectors
+###### Position Vectors (a fourth method to "find" Resultant Force Vectors)
 Refers to a fundamental concept used to describe the location of a point or an object in space relative to a chosen reference point- this chosen reference point is typically chosen to be the "origin of a coordinate system".
 
 A position vector, denoted as $\large r$, is a **vector** that **originates from a fixed reference point** (usually the origin of a coordinate system) and points to the position of an object.
@@ -266,6 +267,7 @@ $\large \vec{r_A} =\vec{r} + \vec{r_B}$
 	$\large \vec{r} =\vec{r_B} - \vec{r_A}$ 
 		Where $\vec{r_B}$ is the "point r is going to".
 		And $\vec{r_A}$ is the "point r is leaving from".
+		$\vec{r}$ can then be thought of as $\vec{r_{AB}}$
 Therefore:
 $\large \vec{r_B} = x_{B}\textbf{i} + y_{B}\textbf{j} + z_{B}\textbf{k}$ 
 $\large \vec{r_A} = x_{A}\textbf{i} + y_{A}\textbf{j} + z_{A}\textbf{k}$ 
@@ -275,4 +277,53 @@ Position Vector $\large \vec{r}$
 ###### Usage in Mechanics:
 - **[[Newtonian Mechanics#Analysis Kinematics Identifying the "Present" (i.e. initial) State State (of condition, Parameters parameters ). Kinematics|Kinematics]]**: Position vectors are used to track the location of objects as they move. Changes in the position vector over time describe the path or trajectory of the object.
 - **[[Newtonian Mechanics#Analysis Dynamics "Explains" the Causality of a State Change Dynamics|Dynamics]]**: The derivative of the position vector with respect to time gives the velocity vector, and the second derivative gives the acceleration vector, both of which are crucial for analyzing forces and motion according to Newton’s laws.
-##### Finding the Magnitude of a Position Vector
+###### Finding the Magnitude of a Position Vector
+1. Find the **[[#Coordinate Direction Angles|coordinate direction angles]]** of the vectors that the position vector lies between (in this case $\vec{r_A}$ and $\vec{r_B}$)
+	![[Pasted image 20240508150001.png]]
+2. Find the **magnitude** of the position vector 
+	- Using the Pythagorean Theorem
+		![[Pasted image 20240508150103.png]]
+3. Find the Coordinate Direction Angles
+	![[Pasted image 20240508150213.png]]
+###### Force Directed Along a Line (i.e. an example of the position vector method)
+![[Pasted image 20240508150847.png|200]]
+Notice Resultant Force Vector, $\vec{F_{AB}}$ has the same position, and [[Structural Analysis#Sense of a Vector|sense]] as the position vector, $\vec{r}$. 
+	Therefore, $\vec{r}$ can be used to find $\vec{F}$.
+	
+To find the Force Vector, $\vec{F_{AB}}$ of the position vector $\vec{r_{AB}}$:
+- Find the unit vector, $\vec{u_{AB}}$, that goes from point $A$ to point $B$.
+	- This is done by using position vector, $\vec{r_{AB}}$, that exists between point $A$ to point $B$.
+
+1. Find the Coordinates of Points $A$ and $B$.
+2. Find $\vec{F} = F\hat{u}$ (i.e. the component force vectors of the position vectors).
+	1. Find $\vec{r}$.
+	2. Find [[#Unit Vector|unit vector]], $\hat{u} = {\vec{r} \over r}$.
+3. Find the Resultant Force Vectors (component vectors, orientation and magnitude).
+###### Example of Force Directed Along a Line
+![[Pasted image 20240509125239.png|400]]
+1. Find the Coordinates of Points $A$ and $B$
+	![[Pasted image 20240509125334.png]]
+2. Find $\vec{F} = F\hat{u}$: (i.e. the Component Force Vectors- $\vec{F{_AC}}$ and $\vec{F{_AB}}$) using the position vectors
+	1. Find $\vec{r_{AC}}$.
+		![[Pasted image 20240509125752.png]]
+		![[Pasted image 20240509125811.png]]
+	2. Find $\vec{r_{AB}}$.
+		![[Pasted image 20240509125828.png]]
+		![[Pasted image 20240509125835.png]]
+	3. Find [[#Unit Vector|unit vector]], $\large \hat{u_{AC}} = {\vec{r_{AC}} \over r}$
+		![[Pasted image 20240509130421.png]]
+	4. Find [[#Unit Vector|unit vector]], $\large \hat{u_{AB}} = {\vec{r_{AB}} \over r}$
+		![[Pasted image 20240509130432.png]]
+	5. Find $\vec{F_{AC}} = F\hat{u_{AC}}$
+		![[Pasted image 20240509130655.png]]
+	6. Find $\vec{F_{AB}} = F\hat{u_{AB}}$
+		![[Pasted image 20240509130703.png]]
+	7.  Find Resultant Force Vector (component vectors, orientation and magnitude)
+		- Component vectors:
+			![[Pasted image 20240509130809.png]]
+		- Orientation:
+			![[Pasted image 20240509131929.png]]
+		- Magnitude:
+			![[Pasted image 20240509131312.png]]
+			
+		
