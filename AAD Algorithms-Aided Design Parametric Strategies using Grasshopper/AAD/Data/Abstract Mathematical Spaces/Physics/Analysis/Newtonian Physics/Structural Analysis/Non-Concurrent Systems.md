@@ -43,6 +43,14 @@ This is another crucial concept in dynamics, describing how the mass of a body i
 In structural engineering, a bending moment is the internal reaction induced in a structural element when external forces cause the element to bend. It’s expressed in terms of the force multiplied by the distance to the point of interest along the element, influencing how beams and other structural components are designed to withstand loads.
 ###### Magnetic Moment
 In physics, particularly in electromagnetism, the magnetic moment refers to the magnetic strength and orientation of a magnet or other object that produces a magnetic field. It is a vector quantity determining how a magnetic object will react in a magnetic field.
+
+###### Moment Capacity
+The internal property that resists bending caused by an external load
+
+$\large (P) \times (x)$
+	Where $P =$ the load.
+	$x=$  the distance of the load from a cross-section of the beam.
+	
 ### Axis of Rotation
 However, the [[#Point of Application|point of application]] in the context of moments, is referred to as the **axis of rotation**.
 	This is the point or axis about which we will determine all the moments.
