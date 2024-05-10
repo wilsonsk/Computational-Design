@@ -92,4 +92,6 @@ Simulates the behavior of a flexible elastic cable, that is suspended between tw
 	![[Pasted image 20240505084542.png|600]]
 	- The **Shatter** component outputs a series of unique lines that are converted into springs using the **Springs From Line** component, which generates the system's springs.
 	- The **(S) output** of the **Shatter** component stored in the container component **Line**, is connected to the **(Connection) input** and the **(Rest Length) input** of the **Springs From Line** component. 
-	- The **(P) output**
+	- The **(P) output** of **Divide Curve** component is connected to the (P) input of the **Unary Force** component -- which applies a force vector to every input point or particle according to a direction (F) input. which takes a vector with specified magnitude. 
+	- Ancho points are defined as the end points of the initial curve.
+	- The **Kangaroo Engine** component collects the outputs of the **Springs from Line** component and the **Unary Force** component in the "Force Objects" input - ==which must be set to flatten==.

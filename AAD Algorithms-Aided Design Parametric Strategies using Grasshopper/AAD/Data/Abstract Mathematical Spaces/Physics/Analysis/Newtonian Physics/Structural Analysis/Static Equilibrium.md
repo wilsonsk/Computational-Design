@@ -268,26 +268,32 @@ Use head to tail, [[Structural Analysis#Vector Addition|vector addition]].
 $\large \vec{r} = x\textbf{i} + y\textbf{j} + z\textbf{k}$ 
 
 $\large \vec{r_A} =\vec{r} + \vec{r_B}$ 
-	$\large \vec{r} =\vec{r_B} - \vec{r_A}$ 
+	$\large \vec{r_{AB}} =\vec{r_B} - \vec{r_A}$ 
 		Where $\vec{r_B}$ is the "point r is going to".
 		And $\vec{r_A}$ is the "point r is leaving from".
-		$\vec{r}$ can then be thought of as $\vec{r_{AB}}$
+		$\vec{r}$ as the position vector is specifically, $\vec{r_{AB}}$, the position vector between points $A$ and $B$
 Therefore:
 $\large \vec{r_B} = x_{B}\textbf{i} + y_{B}\textbf{j} + z_{B}\textbf{k}$ 
+	Where $\large \vec{r_B}$ is a vector from the origin to point $B$.
 $\large \vec{r_A} = x_{A}\textbf{i} + y_{A}\textbf{j} + z_{A}\textbf{k}$ 
-
-Position Vector $\large \vec{r}$
-	$\large \vec{r} = (x_{B}-x_{A})\textbf{i} + (y_{B}-y_{A})\textbf{j} + (z_{B}-z_{A})\textbf{k}$ 
+	Where $\large \vec{r_A}$ is a vector from the origin to point $A$.
+You can either use this form or simply find the Cartesian coordinates of the points $A$ and $B$.
+###### Vector Form of the Position Vector $\large \vec{r}$
+	$\large \vec{r_{AB}} = (x_{B}-x_{A})\textbf{i} + (y_{B}-y_{A})\textbf{j} + (z_{B}-z_{A})\textbf{k}$ 
+###### The Force Vector of the Position Vector
+Utilizes the [[#Unit Vector|unit vector]].
+$\large \vec{F_{r}} = |\vec{F_{r}}|\hat{u_{r}} = |\vec{F_{r}}|{\vec{r} \over |\vec{r}|}$
 ###### Usage in Mechanics:
 - **[[Newtonian Mechanics#Analysis Kinematics Identifying the "Present" (i.e. initial) State State (of condition, Parameters parameters ). Kinematics|Kinematics]]**: Position vectors are used to track the location of objects as they move. Changes in the position vector over time describe the path or trajectory of the object.
 - **[[Newtonian Mechanics#Analysis Dynamics "Explains" the Causality of a State Change Dynamics|Dynamics]]**: The derivative of the position vector with respect to time gives the velocity vector, and the second derivative gives the acceleration vector, both of which are crucial for analyzing forces and motion according to Newton’s laws.
 ###### Finding the Magnitude of a Position Vector
-1. Find the **[[#Coordinate Direction Angles|coordinate direction angles]]** of the vectors that the position vector lies between (in this case $\vec{r_A}$ and $\vec{r_B}$)
+1. Find the Cartesian coordinates of the actual points.
+2. Find the **[[#Coordinate Direction Angles|coordinate direction angles]]** of the vectors that the position vector lies between (in this case $\vec{r_A}$ and $\vec{r_B}$)
 	![[Pasted image 20240508150001.png]]
-2. Find the **magnitude** of the position vector 
+3. Find the **magnitude** of the position vector 
 	- Using the Pythagorean Theorem
 		![[Pasted image 20240508150103.png]]
-3. Find the Coordinate Direction Angles
+4. Find the Coordinate Direction Angles
 	![[Pasted image 20240508150213.png]]
 ###### Force Directed Along a Line (i.e. an example of the position vector method)
 ![[Pasted image 20240508150847.png|200]]
@@ -297,11 +303,12 @@ Notice Resultant Force Vector, $\vec{F_{AB}}$ has the same position, and [[Struc
 To find the Force Vector, $\vec{F_{AB}}$ of the position vector $\vec{r_{AB}}$:
 - Find the unit vector, $\vec{u_{AB}}$, that goes from point $A$ to point $B$.
 	- This is done by using position vector, $\vec{r_{AB}}$, that exists between point $A$ to point $B$.
+		- Then dividing that vector, $\vec{r_{AB}}$, by its magnitude $|\vec{r_{AB}}|$ 
 
 1. Find the Coordinates of Points $A$ and $B$.
-2. Find $\vec{F} = F\hat{u}$ (i.e. the component force vectors of the position vectors).
+2. Find $\vec{F_{r}} = F_{r}\hat{u_{r}}$ (i.e. the component force vectors of the position vectors).
 	1. Find $\vec{r}$.
-	2. Find [[#Unit Vector|unit vector]], $\hat{u} = {\vec{r} \over r}$.
+	2. Find [[#Unit Vector|unit vector]], $\hat{u_{r}} = {\vec{r} \over r}$.
 3. Find the Resultant Force Vectors (component vectors, orientation and magnitude).
 ###### Example of Force Directed Along a Line
 ![[Pasted image 20240509125239.png|400]]

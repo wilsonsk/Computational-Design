@@ -106,7 +106,7 @@ The dot product can also be interpreted geometrically as:
 		Where $∥\vec{a}∥$ and $∥\vec{b}∥$ are the magnitudes (i.e. [[Static Equilibrium#Norm of a Vector|norms]] or lengths) of the vectors.
 		And θ is the angle between them. 
 This interpretation is particularly useful in understanding the angle between vectors or projecting one vector onto another.
-###### Projections
+###### Parallel Projections
 ![[Pasted image 20240509203552.png]]
 The **parallel projection** - i.e. the **adjacent** line/vector to $\cos\theta$ 
 	$\large \vec{\hat{U_{A}}} \cdot A_{||} = |\vec{\hat{U_{A}}}|A \cos \theta$
@@ -116,7 +116,7 @@ The **parallel projection** - i.e. the **adjacent** line/vector to $\cos\theta$
 					 $\large A_{||} = A \cos \theta$ 
 						Therefore, 
 							Vector or component form $\large = \vec{A_{||}} = (\vec{\hat{U_{A}}} \cdot \vec{A})\vec{\hat{U_{A}}}$
-
+###### Orthogonal Projections
 The **perpendicular/orthogonal projection** - i.e. the **adjacent** line/vector to $\cos\theta$ 
 	 $\large \vec{A} = \vec{A_{||}} + \vec{A_{\perp}}$ 
 		 Therefore,
