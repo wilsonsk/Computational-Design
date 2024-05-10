@@ -58,6 +58,69 @@ The tensions in the cables supporting this container can be treated as point for
 
 The friction force between the bow and string on this cello can be treated as a point force
 ![[Pasted image 20240503162235.png]]
+### Dot Product (i.e. Scalar Product)
+Is used extensively to project one vector onto another and to determine angles between vectors.
+	It is defined mathematically between two vectors and results in a scalar (a single number), unlike the cross product, which results in a vector.
+
+Used to find:
+	- Can be used to determine if two vectors are orthogonal. 
+	- The **angle** between two lines.
+	- The components of a vector parallel and perpendicular to a line.
+		- I.e. a **[[#Projections|projection]]** of the vector onto the line
+###### How to Calculate
+Given two vectors $𝑎$ and $b$ in $R^n$:
+	Consider two [[Static Equilibrium#Unit Vector|unit vectors]] ($\vec{\hat{i}}, \vec{\hat{j}}$)
+		Remember 
+			The norm (i.e. magnitude) of a unit vector  is 1.
+			The $\cos({90}\degree)= 0$ .
+		Therefore, two **orthogonal** vectors have a dot product of zero. 
+		![[Pasted image 20240509192651.png]]
+		If the vectors are **parallel**, thus the angle between them is ${0}\degree$ then:
+			The $\cos({0}\degree)= 1$ .
+		Therefore, two parallel vectors have a dot product of 1. 
+	Now remember the relative orientations of the axes:
+		An $\vec{\hat{i}}$ component is **parallel** to the $x$ axis.
+			$\large \vec{\hat{i}} \cdot \vec{\hat{i}}= 1$
+		$x$ axis is **perpendicular** to the $y$ axis.
+			$\large \vec{\hat{i}} \cdot \vec{\hat{j}}= 0$
+		$x$ axis is **perpendicular** to the $z$ axis.
+			$\large \vec{\hat{i}} \cdot \vec{\hat{k}}= 0$
+		$y$ axis is **perpendicular** to the $z$ axis.
+			$\large \vec{\hat{j}} \cdot \vec{\hat{k}}= 0$
+			
+The Dot product is calculated as:
+	 $\large \vec{𝑎}⋅\vec{𝑏}=𝑎_{1}𝑏_{1}1+𝑎_{2}𝑏_{2}+…+𝑎_{𝑛}𝑏_{𝑛}$ ​ 
+		Where $a1​,a2​,…,an$​ and $b1​,b2​,…,bn$​ are the components of vectors $\vec{a}$ and $\vec{b}$ respectively.
+Derived from Vector (i.e. component) Form:
+	$\large \vec{A} = A_{x}\hat{i} + A_{y}\hat{j} + A_{z}\hat{k}$
+	$\large \vec{B} = B_{x}\hat{i} + B_{y}\hat{j} + B_{z}\hat{k}$
+		$\large \vec{A}⋅\vec{B} = (A_{x}\hat{i} + A_{y}\hat{j} + A_{z}\hat{k}) \cdot (B_{x}\hat{i} + B_{y}\hat{j} + B_{z}\hat{k})$
+			$\large \vec{A}⋅\vec{B} = (A_{x}\hat B_{x}\hat({i}\cdot {i}) + A_{y}\hat B_{y}\hat({j}\cdot{j}) + A_{z}\hat B_{z}\hat({k}\cdot{k}))$
+				Remember the dot product of two parallel lines is 1.
+					Therefore,
+						$\large \vec{A}⋅\vec{B} = (A_{x} B_{x}) + (A_{y} B_{y}) + (A_{z} B_{z})$
+###### Geometric Interpretation
+The dot product can also be interpreted geometrically as: 
+	$\large \vec{a}⋅\vec{b}=∥\vec{a}∥∥\vec{b}∥cosθ$
+	$\large = θ = cos^{-1} ({|\vec{a}|⋅|\vec{b}| \over {a}{b}})$
+		Where $∥\vec{a}∥$ and $∥\vec{b}∥$ are the magnitudes (i.e. [[Static Equilibrium#Norm of a Vector|norms]] or lengths) of the vectors.
+		And θ is the angle between them. 
+This interpretation is particularly useful in understanding the angle between vectors or projecting one vector onto another.
+###### Projections
+![[Pasted image 20240509203552.png]]
+The **parallel projection** - i.e. the **adjacent** line/vector to $\cos\theta$ 
+	$\large \vec{\hat{U_{A}}} \cdot A_{||} = |\vec{\hat{U_{A}}}|A \cos \theta$
+		Remember the norm or magnitude of a unit vector, $\vec{\hat{U}}$, is 1. 
+			Therefore,
+				Projection of A onto line $\vec{\hat{U_{A}}}$ is
+					 $\large A_{||} = A \cos \theta$ 
+						Therefore, 
+							Vector or component form $\large = \vec{A_{||}} = (\vec{\hat{U_{A}}} \cdot \vec{A})\vec{\hat{U_{A}}}$
+
+The **perpendicular/orthogonal projection** - i.e. the **adjacent** line/vector to $\cos\theta$ 
+	 $\large \vec{A} = \vec{A_{||}} + \vec{A_{\perp}}$ 
+		 Therefore,
+			 $\large \vec{A_{\perp}} =  \vec{A} - \vec{A_{||}}$ 
 ### Force Vector Representation
 When vectors are drawn to form [[Free Body Diagram|free body diagrams]], the magnitude and direction are usually given in one of two formats (i.e. [[Static Equilibrium#Vector Form Analysis (i.e. Cartesian Vectors)|vector form]] or [[Static Equilibrium#Scalar Form Analysis|scalar form]]).
 

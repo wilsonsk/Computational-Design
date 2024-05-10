@@ -1,5 +1,5 @@
 # Static Equilibrium
-Engineering statics is the study of objects in static equilibrium, and the simple assumption of all [[Structural Analysis#Forces|forces]] adding up to zero is the basis for the subject area of engineering statics.
+Engineering statics is the study of objects in static equilibrium, and the simple assumption of all [[Structural Analysis#Forces|forces]] [[Structural Analysis#Vector Addition|adding]] up to zero is the basis for the subject area of engineering statics.
 
 Static Equilibrium implies that a body is in both Translational Equilibrium and Rotational Equilibrium.
 	Meaning that the net external force is zero and that the net external moment about any point is also zero.
@@ -191,9 +191,10 @@ Is the just the summing of like component vectors once discerned via trigonometr
 ##### Normalizing Vectors (i.e. unit vectors)
 ![[Pasted image 20240506125205.png]]
 Creates a "unit vector" (not the same as a "standard unit vector"/"standard basis vector") in the same direction, with a **norm** = 1.
+	I.e. magnitude = 1.
 ###### Unit Vector 
 Not the same as a "standard unit vector"/"standard basis vector".
-Refers to a vector with a norm = 1. 
+Refers to a vector with a norm (i.e. magnitude) = 1. 
 $\LARGE \vec{\hat{U}_F} = {\vec{F} \over |\vec{F}|} = {\vec{F_{x}\hat{i}}+\vec{F_{y}\hat{j}}+\vec{F_{z}\hat{k}}\over \sqrt{\vec{F_{x}}\hat{i}^2+\vec{F_{y}}\hat{j}^2+\vec{F_{z}}\hat{k}^2}} == \vec{F}= |\vec{F}|\vec{\hat{U}_F}$
 ###### Norm of a Vector
 $\LARGE |\vec{someVector}|$
@@ -244,6 +245,9 @@ Specify the **magnitude** and the **coordinate direction angles** $\alpha_1$, $\
 	![[Pasted image 20240508141512.png]]
 ###### Position Vectors (a fourth method to "find" Resultant Force Vectors)
 Refers to a fundamental concept used to describe the location of a point or an object in space relative to a chosen reference point- this chosen reference point is typically chosen to be the "origin of a coordinate system".
+
+###### Position vectors are used when no transverse, azimuth or coordinate direction angles are given. 
+![[Pasted image 20240509132253.png]]
 
 A position vector, denoted as $\large r$, is a **vector** that **originates from a fixed reference point** (usually the origin of a coordinate system) and points to the position of an object.
 	It describes the displacement of the object from the origin.
@@ -319,7 +323,7 @@ To find the Force Vector, $\vec{F_{AB}}$ of the position vector $\vec{r_{AB}}$:
 	6. Find $\vec{F_{AB}} = F\hat{u_{AB}}$
 		![[Pasted image 20240509130703.png]]
 	7.  Find Resultant Force Vector (component vectors, orientation and magnitude)
-		- Component vectors:
+		- Component vectors (i.e. sum of like terms):
 			![[Pasted image 20240509130809.png]]
 		- Orientation:
 			![[Pasted image 20240509131929.png]]

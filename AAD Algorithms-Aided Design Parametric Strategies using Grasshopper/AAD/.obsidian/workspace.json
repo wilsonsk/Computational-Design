@@ -32,19 +32,19 @@
             }
           },
           {
-            "id": "51fbbafd27b1ea27",
+            "id": "4893c94ffea29f04",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Structural Analysis/Non-Concurrent Systems.md",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Structural Analysis/Structural Analysis.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Structural Analysis/Static Equilibrium.md",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Structural Analysis/Structural Analysis.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -128,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Structural Analysis/Static Equilibrium.md",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Structural Analysis/Structural Analysis.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -151,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Structural Analysis/Static Equilibrium.md"
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Structural Analysis/Structural Analysis.md"
               }
             }
           },
@@ -185,8 +185,14 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "1126708d6cc7e797",
+  "active": "4893c94ffea29f04",
   "lastOpenFiles": [
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Structural Analysis/Static Equilibrium.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Structural Analysis/Structural Analysis.md",
+    "Pasted image 20240509203552.png",
+    "Pasted image 20240509192651.png",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Structural Analysis/Non-Concurrent Systems.md",
+    "Pasted image 20240509132253.png",
     "Pasted image 20240509131929.png",
     "Pasted image 20240509131312.png",
     "Pasted image 20240509130809.png",
@@ -194,15 +200,8 @@
     "Pasted image 20240509130703.png",
     "Pasted image 20240509130655.png",
     "Pasted image 20240509130544.png",
-    "Pasted image 20240509130432.png",
-    "Pasted image 20240509130421.png",
-    "Pasted image 20240509130417 1.png",
-    "Pasted image 20240509130417.png",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Structural Analysis/Structural Analysis.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Structural Analysis/Static Equilibrium.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Newtonian Mechanics.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Analysis.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Structural Analysis/Non-Concurrent Systems.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Probable Reality.md",
     "Abstract/Morphogenesis/Digital Simulation.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Structural Analysis/Concurrent Systems.md",
