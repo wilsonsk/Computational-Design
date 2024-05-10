@@ -196,6 +196,8 @@ Creates a "unit vector" (not the same as a "standard unit vector"/"standard basi
 Not the same as a "standard unit vector"/"standard basis vector".
 Refers to a vector with a norm (i.e. magnitude) = 1. 
 $\LARGE \vec{\hat{U}_F} = {\vec{F} \over |\vec{F}|} = {\vec{F_{x}\hat{i}}+\vec{F_{y}\hat{j}}+\vec{F_{z}\hat{k}}\over \sqrt{\vec{F_{x}}\hat{i}^2+\vec{F_{y}}\hat{j}^2+\vec{F_{z}}\hat{k}^2}} == \vec{F}= |\vec{F}|\vec{\hat{U}_F}$
+Produces the vector form (i.e. component form) of the Unit Vector.
+	Because the magnitude is already known as 1. 
 ###### Norm of a Vector
 $\LARGE |\vec{someVector}|$
 The **magnitude** or "length" of a vector from head to tail of vector.
@@ -245,7 +247,6 @@ Specify the **magnitude** and the **coordinate direction angles** $\alpha_1$, $\
 	![[Pasted image 20240508141512.png]]
 ###### Position Vectors (a fourth method to "find" Resultant Force Vectors)
 Refers to a fundamental concept used to describe the location of a point or an object in space relative to a chosen reference point- this chosen reference point is typically chosen to be the "origin of a coordinate system".
-
 ###### Position vectors are used when no transverse, azimuth or coordinate direction angles are given. 
 ![[Pasted image 20240509132253.png]]
 
@@ -288,7 +289,7 @@ $\large \vec{F_{r}} = |\vec{F_{r}}|\hat{u_{r}} = |\vec{F_{r}}|{\vec{r} \over |\v
 - **[[Newtonian Mechanics#Analysis Dynamics "Explains" the Causality of a State Change Dynamics|Dynamics]]**: The derivative of the position vector with respect to time gives the velocity vector, and the second derivative gives the acceleration vector, both of which are crucial for analyzing forces and motion according to Newton’s laws.
 ###### Finding the Magnitude of a Position Vector
 1. Find the Cartesian coordinates of the actual points.
-2. Find the **[[#Coordinate Direction Angles|coordinate direction angles]]** of the vectors that the position vector lies between (in this case $\vec{r_A}$ and $\vec{r_B}$)
+2. Find the **Cartesian Coordinates** of the **points** that the Position Vector lies between (in this case points $A$ and $B$)
 	![[Pasted image 20240508150001.png]]
 3. Find the **magnitude** of the position vector 
 	- Using the Pythagorean Theorem
@@ -306,7 +307,7 @@ To find the Force Vector, $\vec{F_{AB}}$ of the position vector $\vec{r_{AB}}$:
 		- Then dividing that vector, $\vec{r_{AB}}$, by its magnitude $|\vec{r_{AB}}|$ 
 
 1. Find the Coordinates of Points $A$ and $B$.
-2. Find $\vec{F_{r}} = F_{r}\hat{u_{r}}$ (i.e. the component force vectors of the position vectors).
+2. Find the [[#The Force Vector of the Position Vector|Force Vector of the Position Vector ]]$\vec{F_{r}} = F_{r}\hat{u_{r}}$ (i.e. the component force vectors of the position vectors).
 	1. Find $\vec{r}$.
 	2. Find [[#Unit Vector|unit vector]], $\hat{u_{r}} = {\vec{r} \over r}$.
 3. Find the Resultant Force Vectors (component vectors, orientation and magnitude).
@@ -315,26 +316,36 @@ To find the Force Vector, $\vec{F_{AB}}$ of the position vector $\vec{r_{AB}}$:
 1. Find the Coordinates of Points $A$ and $B$
 	![[Pasted image 20240509125334.png]]
 2. Find $\vec{F} = F\hat{u}$: (i.e. the Component Force Vectors- $\vec{F{_AC}}$ and $\vec{F{_AB}}$) using the position vectors
-	1. Find $\vec{r_{AC}}$.
+	1. Find vector form of $\vec{r_{AC}}$.
 		![[Pasted image 20240509125752.png]]
+	2. Find magnitude of $\vec{r_{AC}}$ i.e. the "length of the line $AC$"
 		![[Pasted image 20240509125811.png]]
-	2. Find $\vec{r_{AB}}$.
+	3. Find vector form of  $\vec{r_{AB}}$.
 		![[Pasted image 20240509125828.png]]
+	4. Find magnitude of $\vec{r_{AB}}$ i.e. the "length of the line $AB$"
 		![[Pasted image 20240509125835.png]]
-	3. Find [[#Unit Vector|unit vector]], $\large \hat{u_{AC}} = {\vec{r_{AC}} \over r}$
+	5. Find [[#Unit Vector|unit vector]], $\large \hat{u_{AC}} = {\vec{r_{AC}} \over r}$
 		![[Pasted image 20240509130421.png]]
-	4. Find [[#Unit Vector|unit vector]], $\large \hat{u_{AB}} = {\vec{r_{AB}} \over r}$
+	6. Find [[#|unit vector]], $\large \hat{u_{AB}} = {\vec{r_{AB}} \over r}$
 		![[Pasted image 20240509130432.png]]
-	5. Find $\vec{F_{AC}} = F\hat{u_{AC}}$
+	7. Find the [[#The Force Vector of the Position Vector|Force Vector of Position Vector]] $\vec{r_{AC}}$ via $\vec{F_{AC}} = F\hat{u_{AC}}$
 		![[Pasted image 20240509130655.png]]
-	6. Find $\vec{F_{AB}} = F\hat{u_{AB}}$
+	8. Find the [[#The Force Vector of the Position Vector|Force Vector of Position Vector]] $\vec{r_{AB}}$ via $\vec{F_{AB}} = F\hat{u_{AB}}$
 		![[Pasted image 20240509130703.png]]
-	7.  Find Resultant Force Vector (component vectors, orientation and magnitude)
-		- Component vectors (i.e. sum of like terms):
+	9.  Find Resultant Force Vector (component vectors, orientation and magnitude)
+		- Component Form - component vectors (i.e. sum of like terms):
 			![[Pasted image 20240509130809.png]]
 		- Orientation:
 			![[Pasted image 20240509131929.png]]
 		- Magnitude:
 			![[Pasted image 20240509131312.png]]
-			
-		
+	10. The Angle, $\theta$ between the two Resultant Force Vectors $\vec{F_{AC}}$ and $\vec{F_{AB}}$
+		 $\large \theta = \cos^{-1}({\vec{F_{AC}} \cdot \vec{F_{AB}} \over |\vec{F_{AC}}||\vec{F_{AB}}|})$ 
+[[Structural Analysis#Dot Product (i.e. Scalar Product)|Finding]] the [[Structural Analysis#Projections|Projections]] ([[Structural Analysis#Parallel Projections|perpendicular]] and [[Structural Analysis#Orthogonal Projections|orthogonal]])
+1. The **magnitude** of Parallel Project ***of*** $\vec{F_{AC}}$ ***onto*** line $AC$ - that is -  $|\vec{F_{AC_{||_{AC}}}}|$ 
+	- Which is the component of $\vec{F_{AC}}$ that is parallel to line $AC$ *onto* line . 
+		$\large |\vec{F_{AC_{||_{AC}}}}| =  \vec{\hat{U}_{AC}} \cdot \vec{F_{AC}}$
+			$\large = (0.553\hat{i} + - 0.0692\hat{j} + -0.830\hat{k}) \cdot (221.2\hat{i} + -27.68\hat{j} + -332\hat{k})$
+				$\large = (0.553\hat{i})(221.2\hat{i}) + (- 0.0692\hat)({j}-27.68\hat{j}) + (-0.830\hat{k})(-332\hat{k})$
+		$\large |\vec{F_{AC_{||_{AC}}}}| = |\vec{F_{AC}}| \cos \theta$
+				 

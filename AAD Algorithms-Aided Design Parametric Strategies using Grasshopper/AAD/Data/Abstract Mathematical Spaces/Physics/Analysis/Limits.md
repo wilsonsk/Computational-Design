@@ -129,6 +129,8 @@ But they do so in **different ways**.
 	- For discontinuities, the issue is with the function's limit(s) not matching the function's value or not existing. 
 		- For non-differentiability, the limit defining the derivative does not exist due to the slope changing abruptly, even though the function itself smoothly passes through the point.
 ## Limit of the Average Rate of Change
+###### Velocity
+The rate of change of the **position** of some object.
 ### Average Velocity
 #### Average Velocity = $\bar V = dx/dt$
 $dx$ is $\Delta x$ Delta $x$ - i.e. the change in the $x$ value.

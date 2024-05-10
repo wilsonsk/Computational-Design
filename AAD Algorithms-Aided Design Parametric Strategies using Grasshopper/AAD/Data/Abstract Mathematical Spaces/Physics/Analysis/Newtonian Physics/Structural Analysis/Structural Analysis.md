@@ -106,16 +106,21 @@ The dot product can also be interpreted geometrically as:
 		Where $∥\vec{a}∥$ and $∥\vec{b}∥$ are the magnitudes (i.e. [[Static Equilibrium#Norm of a Vector|norms]] or lengths) of the vectors.
 		And θ is the angle between them. 
 This interpretation is particularly useful in understanding the angle between vectors or projecting one vector onto another.
+#### Projections
 ###### Parallel Projections
 ![[Pasted image 20240509203552.png]]
-The **parallel projection** - i.e. the **adjacent** line/vector to $\cos\theta$ 
-	$\large \vec{\hat{U_{A}}} \cdot A_{||} = |\vec{\hat{U_{A}}}|A \cos \theta$
-		Remember the norm or magnitude of a unit vector, $\vec{\hat{U}}$, is 1. 
-			Therefore,
-				Projection of A onto line $\vec{\hat{U_{A}}}$ is
-					 $\large A_{||} = A \cos \theta$ 
-						Therefore, 
-							Vector or component form $\large = \vec{A_{||}} = (\vec{\hat{U_{A}}} \cdot \vec{A})\vec{\hat{U_{A}}}$
+The **parallel projection** or the **parallel component of $\vec{A}$** - i.e. the **adjacent** line/vector to $\cos\theta$ 
+	If $\large |\vec{A_{||}}| = |\vec{A}|\cos\theta$  
+		Then $\large \vec{\hat{u_{A}}} \cdot \vec{A_{||}} = |\vec{\hat{u_{A}}}||\vec{A}| \cos \theta$
+			Remember the norm or magnitude of a unit vector, $\vec{\hat{U}}$, is 1. 
+				Therefore,
+					Projection of A onto line $\vec{\hat{u_{A}}}$ is
+						 $\large \vec{A_{||}} = |\vec{A}|\cos \theta$ which was identified originally.
+							Therefore, because the two "left-hand sides" of the equations are equal:
+The Parallel Projection of **vector $\vec{A}$ *onto* line $\hat{u}$**=
+	 $\large |\vec{A_{||}}| = \vec{\hat{u_{A}}} \cdot \vec{A_{||}}$ 
+Vector or component form of the Parallel Projection of **vector $\vec{A}$ *onto* line $\hat{u}$** = 
+	$\large \vec{A_{||}} = (\vec{\hat{u_{A}}} \cdot \vec{A})\vec{\hat{u_{A}}}$
 ###### Orthogonal Projections
 The **perpendicular/orthogonal projection** - i.e. the **adjacent** line/vector to $\cos\theta$ 
 	 $\large \vec{A} = \vec{A_{||}} + \vec{A_{\perp}}$ 

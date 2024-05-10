@@ -20,7 +20,7 @@ Force, $\vec{F}$ and acceleration, $\vec{a}$ are vector quantities, having both 
 The mass is scaled by the acceleration - i.e. for each unit within the total mass, there is one "level" of acceleration. 
 	Then the sum total of these "levels" of acceleration equal to the force.
 ## Acceleration  
-Acceleration is the rate of change of an object's speed in a straight line.
+Acceleration is the rate of change of an object's velocity in a straight line.
 ## Angular Acceleration
 Angular acceleration is the rate of change of an object's rotational speed in a clockwise or counterclockwise direction.
 ## Rotational Motion:

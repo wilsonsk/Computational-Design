@@ -64,6 +64,10 @@ Is a fundamental dimension in physics that enables us to sequence events, measur
 It is a scalar quantity that is continuous and unidirectional, often considered as flowing from past through present to future. 
 
 Time provides the framework within which change occurs—it acts as the independent variable in most dynamical equations that describe how a system evolves.
+#### [[Derivatives|Acceleration]] Vs [[Limits#Average Velocity|Velocity]]
+Velocity is the rate of change of the **position** of some object.
+
+[[Newton's Second Law#Acceleration|Acceleration]] is the rate of change of that **velocity** of the object.
 ### Measurement
 Refers to the process of quantitatively determining the properties or state of an object or phenomenon.
 
@@ -115,6 +119,6 @@ Is an **object** at a given **initial / instant** with an **location**.
 ###### The Application of [[Limits|Calculus]]: The [[Limits#Average Velocity|Limit of the Average Velocity]] (i.e. Average Rate of Change)
 The [[Derivatives#|derivative]] *is* the **[[Limits#Limit of the Average Rate of Change|limit]]** of the **average velocity**.
 
-###### Acceleration 
+
 
 
