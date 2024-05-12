@@ -170,4 +170,42 @@ Represents the amount of resistance or friction acting on an oscillating systems
 Does not affect the change in length but only the deformation velocity. 
 
 The **time it takes the cable to reach an equilibrium state** depends on the **stiffness $k$** and the **Damping Constant $c$**.
+	The higher the $k$ value, the lower the deformation.
 ![[Pasted image 20240511004427.png]]
+The relative algorithm considers the cable to be a single spring. 
+	Where the calculated results of the spring's deformation match Hooke's Law.
+The **Springs from Line** component embeds the physical characteristics that were discussed in the previous example and the following other important parameters:
+###### Connection
+Springs are linear, elastic connections.
+The connection-input requires lines.
+	Any other geometry will yield null results.
+Every line's initial length is called the "start length".
+###### Stiffness
+According to Hooke's Law, the (Stiffness)-input sets the springs' stiffness (i.e. $k$ value).
+	The higher the $k$ value, the lower the deformation.
+Stiffness is determined by material properties as well as the area of spring's cross-section.
+###### Damping
+The (Damping)-input influences the deformation velocity, with no influence on the change in length.
+	By default the (Damping)-input is set to $10$.
+###### Rest Length
+The length that a spring endeavors to reach once the loads are removed. 
+	The (Rest Length)-input is essential to simulate the behaviors of different materials. 
+
+Three cases can be discerned:
+1. **Rest Length = Start Length**:
+	- This condition mimics perfectly the elastic behavior and is achieved by connecting the springs (i.e. Lines) to the (Rest Length)-input.
+		![[Pasted image 20240512151256.png]]
+2. **Rest Length < Start Length**:
+	- This condition imitates the effect of pre-tensioning the springs, which **shortens** their length.
+	- This simulates the tensile materials that attempt to minimize their length or area.
+	- This condition is accomplished in Kangaroo by using the component **Length** to measure the initial springs' length then scaling it by a **Rest Length Factor** that ranges from 0 to 1. 
+		![[Pasted image 20240512151507.png]]
+3. **Rest Length > Start Length**:
+	- This condition replicates the relaxation or lengthening of springs. 
+	- This condition is accomplished in Kangaroo by using the component **Length** to measure the initial springs' length then scaling it by a **Rest Length Factor** that ranges between 1 and $N$. 
+		![[Pasted image 20240512151631.png]]
+- **Upper/Lower Cutoff**:
+	- Sets limits for the springs to operate, below or above respectfully. 
+		- By default the Upper/Lower cutoffs are set to $0$.
+- **Plasticity**:
+	- The maximum elastic deformation, as compared to rest length.
