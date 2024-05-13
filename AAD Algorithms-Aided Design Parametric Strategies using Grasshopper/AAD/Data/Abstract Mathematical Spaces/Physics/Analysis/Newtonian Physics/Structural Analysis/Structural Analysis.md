@@ -113,7 +113,7 @@ The **parallel projection** or the **parallel component of $\vec{A}$**
 - I.e. The **component of a vector $\vec{A}$** that is **parallel to line $a$** (i.e. is **on** line $a$).
 	-  I.e. The line/vector that would be **adjacent** vector $\vec{A}$.
 		- Which is found by  
-			If $\large |\vec{A_{||_{a}}}| = |\vec{A}|\cos\theta$  
+			If $\large |\vec{A_{||_{a}}}| = |\vec{A}|\cos\theta$  where $\theta$ is the angle between the vector, $\vec{A}$ and its parallel projection, $\vec{A_{||_{a}}}$ 
 				Then $\large \vec{\hat{u_{a}}} \cdot \vec{A_{||_{a}}} = \vec{\hat{u_{a}}}|\vec{A}| \cos \theta$ (*see the above* [[#Geometric Interpretation|Geometric Interpretation of Dot Product]])
 					Remember the norm or magnitude of a unit vector, $\vec{\hat{U}}$, is 1.  
 						$\vec{\hat{u_{a}}}|\vec{A}| == 1 \times |\vec{A}| = |\vec{A}|$
@@ -133,6 +133,8 @@ The **perpendicular/orthogonal projection**.
 		 $\large \vec{A} = \vec{A_{||}} + \vec{A_{\perp}}$ because these are the "components" of vector $\vec{A}$
 			 Therefore,
 				 $\large \vec{A_{\perp}} =  \vec{A} - \vec{A_{||}}$ 
+### Cross Product
+
 ### Force Vector Representation
 When vectors are drawn to form [[Free Body Diagram|free body diagrams]], the magnitude and direction are usually given in one of two formats (i.e. [[Static Equilibrium#Vector Form Analysis (i.e. Cartesian Vectors)|vector form]] or [[Static Equilibrium#Scalar Form Analysis|scalar form]]).
 
