@@ -109,23 +109,30 @@ This interpretation is particularly useful in understanding the angle between ve
 #### Projections
 ###### Parallel Projections
 ![[Pasted image 20240509203552.png]]
-The **parallel projection** or the **parallel component of $\vec{A}$** - i.e. the **adjacent** line/vector to $\cos\theta$ 
-	If $\large |\vec{A_{||}}| = |\vec{A}|\cos\theta$  
-		Then $\large \vec{\hat{u_{A}}} \cdot \vec{A_{||}} = |\vec{\hat{u_{A}}}||\vec{A}| \cos \theta$
-			Remember the norm or magnitude of a unit vector, $\vec{\hat{U}}$, is 1. 
-				Therefore,
-					Projection of A onto line $\vec{\hat{u_{A}}}$ is
-						 $\large \vec{A_{||}} = |\vec{A}|\cos \theta$ which was identified originally.
-							Therefore, because the two "left-hand sides" of the equations are equal:
-The Parallel Projection of **vector $\vec{A}$ *onto* line $\hat{u}$**=
-	 $\large |\vec{A_{||}}| = \vec{\hat{u_{A}}} \cdot \vec{A_{||}}$ 
-Vector or component form of the Parallel Projection of **vector $\vec{A}$ *onto* line $\hat{u}$** = 
-	$\large \vec{A_{||}} = (\vec{\hat{u_{A}}} \cdot \vec{A})\vec{\hat{u_{A}}}$
+The **parallel projection** or the **parallel component of $\vec{A}$** 
+- I.e. The **component of a vector $\vec{A}$** that is **parallel to line $a$** (i.e. is **on** line $a$).
+	-  I.e. The line/vector that would be **adjacent** vector $\vec{A}$.
+		- Which is found by  
+			If $\large |\vec{A_{||_{a}}}| = |\vec{A}|\cos\theta$  
+				Then $\large \vec{\hat{u_{a}}} \cdot \vec{A_{||_{a}}} = \vec{\hat{u_{a}}}|\vec{A}| \cos \theta$ (*see the above* [[#Geometric Interpretation|Geometric Interpretation of Dot Product]])
+					Remember the norm or magnitude of a unit vector, $\vec{\hat{U}}$, is 1.  
+						$\vec{\hat{u_{a}}}|\vec{A}| == 1 \times |\vec{A}| = |\vec{A}|$
+							Therefore,
+								Projection of A onto line $\vec{\hat{u_{A}}}$ is
+								 $\large \vec{A_{||}} = |\vec{A}|\cos \theta$ which was identified originally.
+									Therefore, because the two "left-hand sides" of the equations are equal:
+###### The Parallel Projection (magnitude) of **vector $\vec{A}$ *onto* line $\hat{u}$**=
+	 $\large |\vec{A_{||_{a}}}| = \vec{\hat{u_{a}}} \cdot \vec{A_{||_{a}}}$ 
+###### Vector or component form of the Parallel Projection of **vector $\vec{A}$ *onto* line $a$** =
+$\large \vec{A_{||_{a}}} = |\vec{A}|\cos\theta\times \hat{u_{a}}$  
+$\large == \vec{A_{||_{a}}} = (\vec{\hat{u_{a}}} \cdot \vec{A})\vec{\hat{u_{a}}}$
 ###### Orthogonal Projections
-The **perpendicular/orthogonal projection** - i.e. the **adjacent** line/vector to $\cos\theta$ 
-	 $\large \vec{A} = \vec{A_{||}} + \vec{A_{\perp}}$ 
-		 Therefore,
-			 $\large \vec{A_{\perp}} =  \vec{A} - \vec{A_{||}}$ 
+The **perpendicular/orthogonal projection**.
+- I.e. The **component of a vector $\vec{A}$** that is **perpendicular to line $a$** (i.e. is **on** line $a$).
+	-  I.e. The line/vector that would be **opposite** vector $\vec{A}$.
+		 $\large \vec{A} = \vec{A_{||}} + \vec{A_{\perp}}$ because these are the "components" of vector $\vec{A}$
+			 Therefore,
+				 $\large \vec{A_{\perp}} =  \vec{A} - \vec{A_{||}}$ 
 ### Force Vector Representation
 When vectors are drawn to form [[Free Body Diagram|free body diagrams]], the magnitude and direction are usually given in one of two formats (i.e. [[Static Equilibrium#Vector Form Analysis (i.e. Cartesian Vectors)|vector form]] or [[Static Equilibrium#Scalar Form Analysis|scalar form]]).
 

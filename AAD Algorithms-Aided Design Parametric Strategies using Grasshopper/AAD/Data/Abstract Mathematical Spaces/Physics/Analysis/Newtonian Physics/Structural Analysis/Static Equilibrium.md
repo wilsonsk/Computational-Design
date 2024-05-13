@@ -179,11 +179,11 @@ For a force vector at an angle $\LARGE \theta$ from the vertical, the trigonomet
 ###### $\LARGE |\vec{F_x}|$ Component ("horizontal") Vector of the 2D Force Vector
 Is found by multiplying the force's magnitude by the sine of the angle: 
 - When the $x$ component is **opposite** $\theta$: 
-	$\LARGE sin(\theta) = {|\vec{F_x \space component}| \over |\vec{F}|} == |\vec{F}|⋅sin(\theta) = |\vec{F_x \space component}|$
+	$\LARGE sin(\theta) = {|\vec{F_x \space component|} \over |\vec{F}|} == |\vec{F}|⋅sin(\theta) = |\vec{F_x \space component|}$
 ###### $\LARGE |\vec{F_y}|$ Component ("vertical") Vector of the 2D Force Vector
 Is found by multiplying the force's magnitude by the cosine of the angle:
 - When the $y$ component is **adjacent** $\theta$.
-	$\LARGE cos(\theta) = {|\vec{F_y \space component}| \over |\vec{F}|} == |\vec{F}|⋅sin(\theta) = |\vec{F_y \space component}|$
+	$\LARGE cos(\theta) = {|\vec{F_y \space component|} \over |\vec{F}|} == |\vec{F}|⋅cos(\theta) = |\vec{F_y \space component|}$
 ###### Magnitude of 2D Resultant Vector
 Is the just the summing of like component vectors once discerned via trigonometry using angles and resultant prime vector.
 #### [3D Decomposition](https://www.udemy.com/course/engineering-mechanics-statics/learn/lecture/41715220#overview) 
@@ -195,13 +195,17 @@ Creates a "unit vector" (not the same as a "standard unit vector"/"standard basi
 ###### Unit Vector 
 Not the same as a "standard unit vector"/"standard basis vector".
 Refers to a vector with a norm (i.e. magnitude) = 1. 
-$\LARGE \vec{\hat{U}_F} = {\vec{F} \over |\vec{F}|} = {\vec{F_{x}\hat{i}}+\vec{F_{y}\hat{j}}+\vec{F_{z}\hat{k}}\over \sqrt{\vec{F_{x}}\hat{i}^2+\vec{F_{y}}\hat{j}^2+\vec{F_{z}}\hat{k}^2}} == \vec{F}= |\vec{F}|\vec{\hat{U}_F}$
+$\LARGE \vec{\hat{U}_F} = {\vec{F} \over |\vec{F}|} = {\vec{F_{x}\hat{i}}+\vec{F_{y}\hat{j}}+\vec{F_{z}\hat{k}}\over \sqrt{\vec{F_{x}}\hat{i}^2+\vec{F_{y}}\hat{j}^2+\vec{F_{z}}\hat{k}^2}} == {\vec{F_{x}\hat{i}}+\vec{F_{y}\hat{j}}+\vec{F_{z}\hat{k}}\over |\vec{F_{x}}\hat{i}+\vec{F_{y}}\hat{j}+\vec{F_{z}}\hat{k}|} == \vec{F}= |\vec{F}|\vec{\hat{U}_F}$
 Produces the vector form (i.e. component form) of the Unit Vector.
 	Because the magnitude is already known as 1. 
 ###### Norm of a Vector
 $\LARGE |\vec{someVector}|$
 The **magnitude** or "length" of a vector from head to tail of vector.
-##### To Find the Angles between the $x, y, z$ Axes Relative to the 3D Force Vector
+##### To Find the Angles Between Vectors
+###### Arccosine
+![[Pasted image 20240512154257.png]]
+	$\LARGE (\theta) = cos^{-1} {\vec{F_{AB} \space component \cdot \vec{F_{BC}  component}} \over |\vec{F_{BA}}| |\vec{F_{BC}}|}$
+##### To Find the Angles Between the $x, y, z$ Axes Relative to the 3D Force Vector
 And therefore, find the Resultant Force Vector (i.e. its component vectors, its magnitude and its orientation).
 ###### Utilizes $\LARGE A'$ 
 To find force component vectors using the [[#Transverse Angle $ Theta$|Transverse Angle]] (in the $x$ and $y$ plane) method or the [[#Coordinate Direction Angles|Coordinate Direction Angles]]. 
@@ -281,9 +285,9 @@ $\large \vec{r_A} = x_{A}\textbf{i} + y_{A}\textbf{j} + z_{A}\textbf{k}$
 You can either use this form or simply find the Cartesian coordinates of the points $A$ and $B$.
 ###### Vector Form of the Position Vector $\large \vec{r}$
 	$\large \vec{r_{AB}} = (x_{B}-x_{A})\textbf{i} + (y_{B}-y_{A})\textbf{j} + (z_{B}-z_{A})\textbf{k}$ 
-###### The Force Vector of the Position Vector
-Utilizes the [[#Unit Vector|unit vector]].
-$\large \vec{F_{r}} = |\vec{F_{r}}|\hat{u_{r}} = |\vec{F_{r}}|{\vec{r} \over |\vec{r}|}$
+###### The Force Vector (in vector form) of the Position Vector
+Utilizes the [[#Unit Vector|unit vector]] in order to produce the vector (i.e. component) form of the Force Vector. 
+$\large \vec{F_{r}} = |\vec{F_{r}}|\hat{u_{r}} == |\vec{F_{r}}|{\vec{r} \over |\vec{r}|}$
 ###### Usage in Mechanics:
 - **[[Newtonian Mechanics#Analysis Kinematics Identifying the "Present" (i.e. initial) State State (of condition, Parameters parameters ). Kinematics|Kinematics]]**: Position vectors are used to track the location of objects as they move. Changes in the position vector over time describe the path or trajectory of the object.
 - **[[Newtonian Mechanics#Analysis Dynamics "Explains" the Causality of a State Change Dynamics|Dynamics]]**: The derivative of the position vector with respect to time gives the velocity vector, and the second derivative gives the acceleration vector, both of which are crucial for analyzing forces and motion according to Newton’s laws.
@@ -324,9 +328,9 @@ To find the Force Vector, $\vec{F_{AB}}$ of the position vector $\vec{r_{AB}}$:
 		![[Pasted image 20240509125828.png]]
 	4. Find magnitude of $\vec{r_{AB}}$ i.e. the "length of the line $AB$"
 		![[Pasted image 20240509125835.png]]
-	5. Find [[#Unit Vector|unit vector]], $\large \hat{u_{AC}} = {\vec{r_{AC}} \over r}$
+	5. Find [[#Unit Vector|unit vector]], $\large \hat{u_{AC}} = {\vec{r_{AC}} \over |\vec{r}|}$
 		![[Pasted image 20240509130421.png]]
-	6. Find [[#|unit vector]], $\large \hat{u_{AB}} = {\vec{r_{AB}} \over r}$
+	6. Find [[#|unit vector]], $\large \hat{u_{AB}} = {\vec{r_{AB}} \over |\vec{r}|}$
 		![[Pasted image 20240509130432.png]]
 	7. Find the [[#The Force Vector of the Position Vector|Force Vector of Position Vector]] $\vec{r_{AC}}$ via $\vec{F_{AC}} = F\hat{u_{AC}}$
 		![[Pasted image 20240509130655.png]]
@@ -335,17 +339,24 @@ To find the Force Vector, $\vec{F_{AB}}$ of the position vector $\vec{r_{AB}}$:
 	9.  Find Resultant Force Vector (component vectors, orientation and magnitude)
 		- Component Form - component vectors (i.e. sum of like terms):
 			![[Pasted image 20240509130809.png]]
-		- Orientation:
-			![[Pasted image 20240509131929.png]]
 		- Magnitude:
 			![[Pasted image 20240509131312.png]]
+		- Orientation:
+			![[Pasted image 20240509131929.png]]
 	10. The Angle, $\theta$ between the two Resultant Force Vectors $\vec{F_{AC}}$ and $\vec{F_{AB}}$
 		 $\large \theta = \cos^{-1}({\vec{F_{AC}} \cdot \vec{F_{AB}} \over |\vec{F_{AC}}||\vec{F_{AB}}|})$ 
-[[Structural Analysis#Dot Product (i.e. Scalar Product)|Finding]] the [[Structural Analysis#Projections|Projections]] ([[Structural Analysis#Parallel Projections|perpendicular]] and [[Structural Analysis#Orthogonal Projections|orthogonal]])
+###### [[Structural Analysis#Dot Product (i.e. Scalar Product)|Finding]] the [[Structural Analysis#Projections|Projections]] ([[Structural Analysis#Parallel Projections|perpendicular]] and [[Structural Analysis#Orthogonal Projections|orthogonal]])
 1. The **magnitude** of Parallel Project ***of*** $\vec{F_{AC}}$ ***onto*** line $AC$ - that is -  $|\vec{F_{AC_{||_{AC}}}}|$ 
-	- Which is the component of $\vec{F_{AC}}$ that is parallel to line $AC$ *onto* line . 
-		$\large |\vec{F_{AC_{||_{AC}}}}| =  \vec{\hat{U}_{AC}} \cdot \vec{F_{AC}}$
-			$\large = (0.553\hat{i} + - 0.0692\hat{j} + -0.830\hat{k}) \cdot (221.2\hat{i} + -27.68\hat{j} + -332\hat{k})$
-				$\large = (0.553\hat{i})(221.2\hat{i}) + (- 0.0692\hat)({j}-27.68\hat{j}) + (-0.830\hat{k})(-332\hat{k})$
-		$\large |\vec{F_{AC_{||_{AC}}}}| = |\vec{F_{AC}}| \cos \theta$
+	- Which is the component of $\vec{F_{AC}}$ that is parallel to (i.e. on line) $AC$. 
+		- [[Structural Analysis#The Parallel Projection (magnitude) of **vector $ vec{A}$ *onto* line $ hat{u}$**=|Magnitude]] of the Parallel Projection
+			$\large |\vec{F_{AC_{||_{AC}}}}| =  \vec{\hat{U}_{AC}} \cdot \vec{F_{AC}}$
+				$\large = (0.553\hat{i} + - 0.0692\hat{j} + -0.830\hat{k}) \cdot (221.2\hat{i} + -27.68\hat{j} + -332\hat{k})$
+					*Like terms cancel out.*
+						$\large = (0.553)(221.2) + (- 0.0692)(-27.68) + (-0.830)(-332)$
+							$\large = 399.799056$
+		- [[Structural Analysis#Vector or component form of the Parallel Projection of **vector $ vec{A}$ *onto* line $a$** =|Vector or component form]] of the Parallel Projection
+			$\large \vec{F_{AC_{||_{AC}}}} =  399.799056 \times \vec{\hat{U}_{AC}}$
+				$\large = 399.799056 \times  (0.553\hat{i} + - 0.0692\hat{j} + -0.830\hat{k})$
+If angle $\theta$ is already known:
+	$\large |\vec{F_{AC_{||_{AC}}}}| = |\vec{F_{AC}}| \cos \theta$
 				 
