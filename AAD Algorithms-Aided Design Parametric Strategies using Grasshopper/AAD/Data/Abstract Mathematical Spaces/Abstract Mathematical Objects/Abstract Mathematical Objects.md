@@ -15,7 +15,7 @@ I.e. Model the Subject Under Study
 
 How we [[Language|talk]] about math objects show how we _think_ about them.
 
-The **behaviors** and **interactions** between them are defined by and exist within an abstract, non-physical space as elements of the [[Analysis#Underlying Set (i.e. Base Set)|underlying set]].
+The **behaviors** and **interactions** between them are defined by and exist within an abstract, non-physical space as elements of the [[Dynamics Analysis#Underlying Set (i.e. Base Set)|underlying set]].
 ## Abstract Mathematical Objects are Defined by Properties and Relations
 These objects are often characterized more by the relationships they have with other objects and the properties they possess rather than any physical attributes.
 

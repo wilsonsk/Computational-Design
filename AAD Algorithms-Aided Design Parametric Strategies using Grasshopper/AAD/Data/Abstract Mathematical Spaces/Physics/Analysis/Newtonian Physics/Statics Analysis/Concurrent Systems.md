@@ -1,31 +1,26 @@
 ---
 up:
-  - "[[Structural Analysis]]"
+  - "[[Statics Analysis]]"
 related:
   - "[[Non-Concurrent Systems]]"
-  - "[[Analysis]]"
+  - "[[Dynamics Analysis]]"
   - "[[Static Equilibrium]]"
 date created: 2024-05-04
 ---
 # Concurrent Force Systems
-If a body is in static equilibrium, then by definition that body is not accelerating. 
-	If we know that the body is not accelerating then we know that **the sum of the forces acting on that body must be equal to zero**. 
-		This is the basis of Concurrent Force equilibrium analysis (I.e. Translational Equilibrium) of a body. 
-		
-A set of [[Structural Analysis#Structural Analysis Static Equilibrium Point Forces Point Forces as Vectors|point forces]] is considered concurrent if all the [[Structural Analysis#Line of Action|lines of action]] of those forces all come together at a single point.
+A set of [[Statics Analysis#Structural Analysis Static Equilibrium Point Forces Point Forces as Vectors|point forces]] is considered concurrent if all the [[Statics Analysis#Line of Action|lines of action]] of those forces all come together at a single point.
+	I.e. A concurrent force system is one where all forces acting on a body intersect at a common point, regardless of their directions.
 
 Because the forces all act through a single point, **there are no [[Non-Concurrent Systems#Moments (i.e. Torque)|moments]] about this point**.
 	Because no moments exist, we can treat this body as a **particle**. 
 		In fact, because real particles only exist in theory, most particle analysis is actually applied to extended bodies with concurrent forces acting on them.
-###### Particles
-These are a "body" under analysis within these Concurrent Systems.		
-###### Rigid Body
-These are the "body" under analysis within Non-Concurrent Systems.
-Particles of a rigid body cannot move independent of the rigid body.
-	Specifically, the particle of a rigid body can only move if its **distance** from some other point on the rigid body remains the same. 
 
 ![[Pasted image 20240504001917.png]]
 ## General Static Equilibrium Analysis for Concurrent Force Systems
+If a body is in static equilibrium, then by definition that body is not accelerating. 
+	If we know that the body is not accelerating then we know that **the sum of the forces acting on that body must be equal to zero**. 
+		This is the basis of Concurrent Force equilibrium analysis (I.e. Translational Equilibrium) of a body. 
+		
 In order to solve for any unknowns in the sum of forces equation, turn the one vector equation into a set of scalar equations. 
 	For two dimensional problems, split our one vector equation down into two scalar equations. 
 		We do this by summing up all the $x$ components of the force vectors and setting them equal to zero in our first equation.
@@ -35,6 +30,11 @@ In order to solve for any unknowns in the sum of forces equation, turn the one v
 
  $\LARGE \sum{\vec{F_y}}​=0$
  $\LARGE \sum{F_x}​=0$ ; $\LARGE \sum{F_y}​=0$ ; $\LARGE \sum{F_z}​=0$
+
+###### Translational Equilibrium
+In a concurrent system, translational equilibrium occurs when the vector sum of all forces acting on the body equals zero (∑𝐹=0∑F=0). This ensures that there is no net acceleration and the body will either remain at rest or move with constant velocity.
+###### Rotational Equilibrium
+Rotational equilibrium in a concurrent system typically involves less complexity regarding torque since any forces acting through the same point do not create torque about that point. Thus, if the forces are truly concurrent, the body does not experience rotational effects due to these forces. However, this assumption depends strictly on the perfect concurrency of all force vectors at a single point, which is an idealized scenario.
 ### Calculating the Vector Sum of Forces
 Each force is resolved into its component vectors along established axes (typically, x, y, and z axes in three-dimensional systems). 
 	This involves decomposing each force into its horizontal and vertical components, using trigonometry based on the angle the force makes with the reference axes.

@@ -1,6 +1,6 @@
 ---
 up:
-  - "[[Analysis]]"
+  - "[[Dynamics Analysis]]"
 related:
   - "[[Points]]"
   - "[[Grids]]"

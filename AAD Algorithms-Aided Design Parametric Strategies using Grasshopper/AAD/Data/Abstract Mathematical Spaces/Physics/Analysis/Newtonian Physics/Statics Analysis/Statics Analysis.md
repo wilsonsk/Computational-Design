@@ -1,31 +1,48 @@
 ---
 up:
-  - "[[Analysis]]"
+  - "[[Dynamics Analysis]]"
 related:
   - "[["
 date created: 2024-05-03
 ---
-# Structural Analysis (i.e. Static Analysis)
-  Structural analysis is a branch of civil engineering that involves the assessment and evaluation of the structural integrity and stability of buildings, bridges, and other structures. 
-  
-  The primary goal of structural analysis is to ensure that a structure can withstand various loads and forces it is expected to encounter over its service life without failing. 
-	  This involves calculating the effects of loads, such as those from weight, wind, seismic activity, and other environmental and human-induced factors.
+# Statics Analysis
+Is a branch of mechanics that deals specifically with forces in equilibrium. 
+	Unlike [[#Kinematics and Dynamics|kinematics and dynamics]] , which involve objects in motion, statics focuses on analyzing objects at rest or in a state where all forces and moments are balanced, leading to no motion.
+##### Relationship to Kinematics, Dynamics, and Transformations
+###### Kinematics and Dynamics
+While [[Dynamics Analysis#Kinematics Identifying the "Present" (i.e. initial) State State (of condition, Parameters parameters ).|kinematics]] deals with the description of motion without regard to its causes.
 
-Structural analysis is not only about ensuring a structure does not fail but also about optimizing structures for cost, efficiency, and material use.
-#### Key Aspects of Structural Analysis
-###### Load Analysis
-Structures must be analyzed for various types of loads they will experience. These include dead loads (the weight of the structure itself), live loads (weight of the users and movable objects), environmental loads (such as wind and snow), and dynamic loads (including impacts and vibrations).
-###### Stress and Strain Calculations
-The analysis involves determining the stresses (forces per unit area) and strains (deformations in a body) that occur in different components of a structure under load. The aim is to ensure that these stresses and strains do not exceed the material strengths.
-###### Factor of Safety
-Structures are designed with a factor of safety, which is a margin of error that accounts for uncertainties in the load assumptions, material properties, and structural behavior.
-###### Behavior Under Loads
-Understanding how a structure behaves under expected loads is crucial. This includes analyzing deflections (how much a structure bends or displaces), rotations, and potential buckling (sudden failure due to compressive forces).
-###### Methods and Tools
-Modern structural analysis often utilizes software and computational tools that employ methods like the Finite Element Method (FEM), which allows detailed simulations of how structures respond to loads.
-Traditional methods such as the Method of Joints, Method of Sections, and Matrix methods are still fundamental and are used to calculate internal forces and moments manually or semi-automatically.
-###### Design Compliance and Safety Codes
-Structural analysis ensures that designs comply with local and international building codes and safety standards, which dictate minimum requirements for safety, stability, and durability.
+[[Dynamics Analysis#Dynamics "Explains" the Causality of a State Change|Dynamics]] involves the forces causing those motions, statics strictly deals with systems where the net motion is zero due to balanced forces and moments. 
+
+Thus, kinematics and dynamics may be considered when analyzing systems leading up to a state of equilibrium, but statics analyzes the condition of equilibrium itself.
+###### Vs. Statics
+Whereas Statics focuses on ensuring that all forces and moments are balanced (i.e. in [[Static Equilibrium|equilibrium]]) so that no net motion occurs. This is crucial in designing anything that must not move under load, such as buildings, bridges, or statues.
+	 While these fields consider the effects of motion, statics is essentially the study of structures under conditions where motion should not occur. 
+		 Any potential motion (displacement, rotation) considered in static analysis is only hypothetical, used to check the stability of the structure against such movements.
+###### Core Concept
+Statics involves studying bodies that are in **translational and rotational equilibrium**. This means that the sum of all forces acting on a body (translational equilibrium) and the sum of all torques (moments) acting on a body (rotational equilibrium) are zero.
+###### Applications
+This field is crucial in engineering, particularly in structural engineering, civil engineering, and architecture, where it is essential to ensure that structures can withstand various forces without moving or collapsing.
+###### [[Newton's Second Law#Transformations as Motion (i.e. Representing Motion)|Transformations]]
+In statics, transformations (translational and rotational) can still be relevant but in a conceptual or hypothetical sense. For example, in designing a structure, you might consider potential displacements (translations) and rotations caused by different loading scenarios to ensure that under actual conditions, these movements do not occur — the structure remains static, maintaining equilibrium.
+## [[Bodies|Bodies]] in Statics Analysis
+Refers to physical objects that can be analyzed in terms of their [[Newton's Second Law#Motion|motion]], forces acting upon them, and the resulting responses. 
+#### [[Bodies#Particles|Particles]]
+##### In Static Analysis Systems
+###### [[#Concurrent Systems Concurrent Forces|Concurrent Systems]]
+[[Static Equilibrium#Bodies Particles Particles|Particles in concurrent force systems]] are subjected to multiple forces that all pass through a single common point. Here, only translational equilibrium is considered (i.e., ∑𝐹⃗=0∑F=0).
+###### [[Non-Concurrent Systems|Non-concurrent Systems]]
+Even in [[#Non-Concurrent Systems Non-Concurrent Forces|non-concurrent systems]], where forces do not meet at a single point, particles are analyzed purely for translational equilibrium because they cannot exhibit rotational motion.
+#### [[Bodies#Rigid Bodies|Rigid Bodies]]
+###### [[Concurrent Systems|Concurrent Systems]]
+For [[Static Equilibrium#Bodies Rigid Bodies Rigid Bodies|rigid bodies in concurrent systems]], the main concern is ensuring [[Static Equilibrium#Translational Equilibrium in Concurrent Systems|translational equilibrium]]. 
+	Although all external forces act through one point, rotational equilibrium typically does not need separate analysis unless the point of concurrency is not at the center of mass.
+###### [[Non-Concurrent Systems|Non-concurrent Systems]]
+Rigid bodies in non-concurrent systems require careful analysis for both translational and [[Static Equilibrium#Rotational Equilibrium in Non-Concurrent Systems|rotational equilibrium]]. Forces acting at various points on the body create moments that must be balanced to maintain rotational equilibrium (∑𝜏⃗=0∑τ=0) around any point or, more conveniently, about the center of mass.
+#### [[Bodies#Deformable Bodies|Deformable Bodies]]
+Deformable bodies are analyzed less frequently in basic statics due to their complex behavior under load, but they are crucial in more advanced studies like strength of materials and [[Structural Analysis|structural analysis]].
+
+The study often focuses on how deformations are distributed within the body and ensuring that the net forces and moments remain balanced to maintain overall static equilibrium.
 ## Vector
 [[#Forces|Forces]] are vectors, which means they have both magnitude and direction. 
 	When multiple forces act on a single point or body, they must be combined according to vector addition to find the net force.
@@ -46,8 +63,8 @@ In vector addition, each vector is [[Static Equilibrium#Forms of Forces - Method
 In a two-dimensional setting:
 - The x-components of all forces are added together to get the net force in the x-direction ($F_{net,x}$​).
 - The y-components of all forces are added together to get the net force in the y-direction ($F_{net,y}$​).
-### [[Structural Analysis#Static Equilibrium Point Forces|Point Forces]] as Vectors
-A point force is any [[#Forces|force]] where the **[[Structural Analysis#Point of Application|point of application]]** is considered to be a **single point**.
+### [[Statics Analysis#Static Equilibrium Point Forces|Point Forces]] as Vectors
+A point force is any [[#Forces|force]] where the **[[Statics Analysis#Point of Application|point of application]]** is considered to be a **single point**.
 	In reality, most forces are technically surface forces, where the force is applied over an area, but when the area is small enough (in comparison to the bodies being analyzed) it can often be approximated as a point force.
 
 Because point forces can be represented as a single vector (rather than a field of vectors for distributed forces), they are much easier to work with in engineering analysis.
@@ -179,7 +196,7 @@ The line of action of a force is the line along which the force acts.
 The type of resulting force depends on the nature of the [[#Point of Application|point of application]].
 ###### [[Static Equilibrium|Point Forces]]
 ![[Pasted image 20240503131754.png]]
-A point force is any force where the **[[Structural Analysis#Point of Application|point of application]]** is considered to be a **single point**.
+A point force is any force where the **[[Statics Analysis#Point of Application|point of application]]** is considered to be a **single point**.
 Point forces are represented by a single vector. 
 ###### Surface Forces
 ![[Pasted image 20240503131804.png]]

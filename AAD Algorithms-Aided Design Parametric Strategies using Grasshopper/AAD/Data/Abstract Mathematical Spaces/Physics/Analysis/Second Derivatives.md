@@ -4,7 +4,7 @@ up:
 related:
   - "[[Limits]]"
   - "[[Secant Line]]"
-  - "[[Analysis]]"
+  - "[[Dynamics Analysis]]"
   - "[[Data Relationships]]"
 date created: 2024-04-19
 ---
@@ -26,7 +26,7 @@ If $f′′(x)<0$ (the second derivative is negative),
 	Then function is concave down (like a cap), meaning its slope is decreasing.
 ## [[Curves#Inflection Point|Inflection]] Points
 Points where 𝑓′′(𝑥)=0f′′(x)=0 might be inflection points, where the function changes the direction of its curvature—from concave up to concave down, or vice versa.
-## Application in [[Analysis#Acceleration|Analysis]]: Acceleration
+## Application in [[Dynamics Analysis#Acceleration|Analysis]]: Acceleration
 ###### Position $= v(t)$ 
 This is a function of time $(t)$. 
 It describes where an object is located at any time $t$.

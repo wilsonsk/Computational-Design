@@ -1,6 +1,6 @@
 ---
 up:
-  - "[[Analysis]]"
+  - "[[Dynamics Analysis]]"
 related:
   - "[[Derivatives]]"
   - "[[Secant Line]]"

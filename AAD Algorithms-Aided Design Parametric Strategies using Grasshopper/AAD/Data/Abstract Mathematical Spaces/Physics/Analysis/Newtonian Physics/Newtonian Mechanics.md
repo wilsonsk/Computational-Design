@@ -1,6 +1,6 @@
 ---
 up:
-  - "[[Analysis]]"
+  - "[[Dynamics Analysis]]"
 related:
   - "[[Limits]]"
   - "[[Derivatives]]"
@@ -15,14 +15,14 @@ Developed primarily by Sir Isaac Newton (_Philosophiæ Naturalis Principia Mathe
 Is a system of physics that describes the motion and dynamics of macroscopic objects based on three foundational laws of motion and the universal law of gravitation.
 	 It applies to objects moving at speeds much slower than the speed of light and at scales larger than those of atoms and molecules. 
 
-Operates within a specific [[Analysis#Scale|scale]] often referred to as the **Newtonian scale** or **classical scale**. 
+Operates within a specific [[Dynamics Analysis#Scale|scale]] often referred to as the **Newtonian scale** or **classical scale**. 
 
 Like all physics relies on:
-	[[Analysis#1. Kinematics Identifying the "Present" (i.e. initial) State (of condition, Parameters parameters ).|Kinematics]] specific to its Newtonian [[#Scale (i.e. Newtonian or Classical Scale)|Scale]]
+	[[Dynamics Analysis#1. Kinematics Identifying the "Present" (i.e. initial) State (of condition, Parameters parameters ).|Kinematics]] specific to its Newtonian [[#Scale (i.e. Newtonian or Classical Scale)|Scale]]
 		Involves the description of the initial state of objects without regard to the causes of motion. 
 		It focuses on parameters such as position, velocity, and acceleration. 
 		By identifying these parameters, kinematics provides a snapshot of where objects are and how they are moving at a specific moment in time, serving as the starting point for predicting future motion.
-	[[Analysis#2. Dynamics "Explains" the Causality of a State Change|Dynamics]] specific to its Newtonian [[#Scale (i.e. Newtonian or Classical Scale)|Scale]]
+	[[Dynamics Analysis#2. Dynamics "Explains" the Causality of a State Change|Dynamics]] specific to its Newtonian [[#Scale (i.e. Newtonian or Classical Scale)|Scale]]
 		Explores the forces that cause or affect the motion of objects, thus explaining the causality of state changes from the initial conditions. 
 		Dynamics uses the principles of Newton’s laws to relate the motion of objects to the forces acting upon them, allowing the prediction of future states based on how these forces alter an object's motion.
 ## The Key Components of Newtonian (i.e. Classical) Mechanics
@@ -36,7 +36,7 @@ For every action, there is an equal and opposite reaction. This means that if on
 ###### Mathematical Formulation:
 The laws are typically formulated as differential equations (Newton's second law, 𝐹=𝑚𝑎F=ma), which can be solved given initial conditions to predict future states.
 #### Universal Law of Gravitation:
-Every [[Analysis#A Points Point|point]] mass attracts every other point mass by a force acting along the line intersecting both points. 
+Every [[Dynamics Analysis#A Points Point|point]] mass attracts every other point mass by a force acting along the line intersecting both points. 
 
 The force is proportional to the product of their masses and inversely proportional to the square of the distance between them, 𝐹=𝐺𝑚1𝑚2𝑟2F=Gr2m1​m2​​, where 𝐺G is the gravitational constant, 𝑚1m1​ and 𝑚2m2​ are the masses, and 𝑟r is the distance between the centers of the two masses.
 #### Deterministic Framework:
@@ -46,7 +46,7 @@ Newtonian mechanics provides a deterministic framework where, given initial cond
 #### Analytical Techniques:
 The framework uses calculus and vector algebra to solve physical problems, enabling the calculation of quantities such as displacement, velocity, acceleration, and various forms of energy in dynamic systems.
 
-## The [[Analysis#The Abstract, Non-Physical Abstract Mathematical Objects Abstract, Non-Physical Environments Environment|Mathematical, Abstract Mathematical Space]] of Newtonian (i.e. Classical) Mechanics 
+## The [[Dynamics Analysis#The Abstract, Non-Physical Abstract Mathematical Objects Abstract, Non-Physical Environments Environment|Mathematical, Abstract Mathematical Space]] of Newtonian (i.e. Classical) Mechanics 
 
 ### Components of the Mathematical Abstract Non-Physical Environment in Newtonian Mechanics
 ###### Euclidean Geometry:
@@ -61,7 +61,7 @@ Vector algebra and vector calculus are essential in classical mechanics to deal 
 Forms like Lagrangian and Hamiltonian mechanics offer powerful alternative formulations of Newtonian mechanics based on principles of energy conservation and variational calculus. These are abstract formulations that extend the basic Newtonian framework to more complex or constrained systems and provide deeper insights into the principles of dynamics.
 ###### Physical Laws as Mathematical Equations:
 The environment encapsulates physical laws in the form of mathematical equations, such as Newton’s laws of motion (`F = ma` for the second law) and the universal law of gravitation. These equations govern how physical quantities are related and how they evolve over time.
-## The Fundamental [[Analysis#The Objects that Model the Subject Under Study|Abstract Mathematical Object]] in Newtonian/Classical Mechanics
+## The Fundamental [[Dynamics Analysis#The Objects that Model the Subject Under Study|Abstract Mathematical Object]] in Newtonian/Classical Mechanics
 ### A [[Points|Point]]
 The point is the fundamental abstract object of Newtonian/Classical Mechanics.
 The most fundamental relationship - "this" (i.e. the point) relative to "that" (i.e. all that is **not** the point).
@@ -88,7 +88,7 @@ A point has no **orientation** because it **lacks physical features** and **dime
 ##### The Simplest Scenario
 A point in one dimension (1D) (i.e. along the $x-axis$) is the simplest scenario.
 	The dimensions can't be reduced further, and the object is the most fundamental. 
-### [[Analysis#Scale|Scale]] (i.e. Newtonian or Classical Scale)
+### [[Dynamics Analysis#Scale|Scale]] (i.e. Newtonian or Classical Scale)
 This scale is characterized by conditions under which the assumptions of classical mechanics hold true.
 	Enabling the use of Newton's laws of motion and universal gravitation to predict the behavior of physical systems accurately. 
 	
@@ -105,7 +105,7 @@ The forces involved do not reach the extremes where quantum effects become non-n
 Classical mechanics typically assumes a Euclidean space, where space is three-dimensional and homogeneous, and time is a separate, independent dimension that progresses at a constant rate for all observers.
 ###### Observe Non-Quantum Behavior: 
 The physical phenomena can be described without needing to consider quantum mechanics. The actions and interactions of macroscopic objects do not exhibit observable quantum effects like superposition or entanglement under normal conditions.
-## [[Analysis#State|States]]
+## [[Dynamics Analysis#State|States]]
 #### Configuration: 
 The arrangement or structure of the system's components, such as the geometric or spatial arrangement of particles in a solid or the phase space configuration in statistical mechanics.
 #### Physical Properties:
@@ -115,7 +115,7 @@ For quantum systems, the state includes the wavefunction or quantum fields that 
 #### Thermodynamic Properties:
 For systems analyzed under thermodynamics, the state might include temperature, pressure, volume, and internal energy, which describe the system's macroscopic properties.
 
-## [[Analysis#Change|Change]]
+## [[Dynamics Analysis#Change|Change]]
 In classical physics, motion is typically described as the displacement of an object in a space over time. 
 
 It is quantified by changes in the position of an object relative to a reference frame. The key elements involved in the description of motion include:
@@ -123,7 +123,7 @@ It is quantified by changes in the position of an object relative to a reference
 Change in position over time.
 ###### Acceleration:
 Change in velocity over time. These changes can be measured and predicted precisely using Newtonian mechanics under normal conditions, meaning when relativistic effects (those close to the speed of light) or quantum effects (at the atomic and subatomic levels) are negligible.
-## [[Analysis#Kinematics Identifying the "Present" (i.e. initial) State State (of condition, Parameters parameters ).|Kinematics]]
+## [[Dynamics Analysis#Kinematics Identifying the "Present" (i.e. initial) State State (of condition, Parameters parameters ).|Kinematics]]
 In Newtonian/Classical kinematics, motion is described using straightforward and intuitive parameters that stem from everyday observations:
 
 **Position**:
@@ -136,7 +136,7 @@ The rate of change of velocity with respect to time. This also is a vector quant
 A continuous variable that represents the progression of events from the past through the present into the future.
 ###### Trajectories:
 The paths that objects follow through space as a function of time. These can often be represented by mathematical equations or functions.
-## [[Analysis#Dynamics "Explains" the Causality of a State Change|Dynamics]]
+## [[Dynamics Analysis#Dynamics "Explains" the Causality of a State Change|Dynamics]]
 Classical dynamics often provides deterministic results.
 	Where initial conditions clearly, objectively cause (i.e. determine) future states.
 ###### Dynamics at the Macro scale is fundamentally based on **Newton’s three laws of motion**:

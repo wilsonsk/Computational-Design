@@ -1,6 +1,6 @@
 ---
 up:
-  - "[[Structural Analysis]]"
+  - "[[Statics Analysis]]"
 related: 
 date created: 2024-05-03
 ---

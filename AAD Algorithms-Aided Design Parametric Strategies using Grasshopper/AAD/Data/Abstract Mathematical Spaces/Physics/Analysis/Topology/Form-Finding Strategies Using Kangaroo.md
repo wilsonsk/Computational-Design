@@ -49,8 +49,8 @@ $k$ is a positive constant called, **Stiffness**, usually expressed in $N/cm$.
 
 $X$ is the change in length or deformation of the body (spring in this case).
 	Commonly expressed in $cm$
-###### [[Structural Analysis#Forces|Forces]]
-Weights and external loads are simulated by [[Structural Analysis#Vector Addition|vectors]] that are applied exclusively to particles.
+###### [[Statics Analysis#Forces|Forces]]
+Weights and external loads are simulated by [[Statics Analysis#Vector Addition|vectors]] that are applied exclusively to particles.
 ###### Unary Force
 ###### Anchor Points
 Particles that do not change position during the simulation.
@@ -85,12 +85,12 @@ Kangaroo requires that NURBS-curves are converted to lines and NURBS-surfaces ar
 			We can also find useful components within Grasshopper standard tabs or Kangaroo tab.
 ##### Particle-Spring System
 After a geometry has been discretized, lines are converted into springs and points are converted into particles, using specific components hosted within the Kangaroo toolbar.
-	[[Structural Analysis#Force Vector Representation|Vectors representing forces]] are applied to particles, and the anchor points are assigned. 
+	[[Statics Analysis#Force Vector Representation|Vectors representing forces]] are applied to particles, and the anchor points are assigned. 
 ##### Kangaroo Engine
 [[#Points Idealization in Physics Particles|Particles]], [[#Springs|springs]], [[#Forces|forces]] and [[#Anchor Points|anchor points]] are connected to the Kangaroo Engine in their respective slots. 
 	Toggling between *True* and *False* statements using the component, **Boolean Toggle**, to start and stop the simulation.
 		While the simulation is running, particles move until an [[Static Equilibrium|equilibrium state]] is reached. 
-			For this reason the engine's output can be considered as **[[Analysis#Dynamics "Explains" the Causality of a State Change|dynamic]]**.
+			For this reason the engine's output can be considered as **[[Dynamics Analysis#Dynamics "Explains" the Causality of a State Change|dynamic]]**.
 ## Strategies/Patterns (as [[#Digital Simulation (and Particle Spring Systems)]])
 ### Cable Simulation
 ![[Pasted image 20240505005158.png]]
