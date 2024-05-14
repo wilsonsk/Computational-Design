@@ -78,8 +78,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d23bded5d1a20ab0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Bodies.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -146,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis/Statics Analysis.md",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Bodies.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -163,7 +176,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis/Statics Analysis.md",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Bodies.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -186,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis/Statics Analysis.md"
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Bodies.md"
               }
             }
           },
@@ -220,12 +233,12 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "f5ea0e826a9f2d4c",
+  "active": "d23bded5d1a20ab0",
   "lastOpenFiles": [
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis/Static Equilibrium.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Bodies.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis/Statics Analysis.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis/Non-Concurrent Systems.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Bodies.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Analysis.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis/Concurrent Systems.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Dynamics Analysis/Dynamics Analysis.md",
