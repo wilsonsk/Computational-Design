@@ -209,3 +209,22 @@ Three cases can be discerned:
 		- By default the Upper/Lower cutoffs are set to $0$.
 - **Plasticity**:
 	- The maximum elastic deformation, as compared to rest length.
+### [[Digital Form-Finding#Catenary Curve|Catenary]] Simulation
+![[Pasted image 20240518160622.png|300]]
+	$\large y=a \times cos h({x \over a}$)
+		where:
+			- $cosh$ is the [hyperbolic cosine function](https://en.wikipedia.org/wiki/Hyperbolic_functions).
+			- $a$ is a constant that dictates the curve's steepness and the distance between its lowest point and the horizontal asymptotes.
+			- $x$ and $y$ are the coordinates of points on the curve.
+
+The curve can be calculated by the **Evaluate (Fx)** component.
+![[Pasted image 20240518162045.png]]
+A Catenary curve can also be drawn by the **Catenary** component, which embeds the equation of a Catenary curve.
+	The **Catenary** component requires as inputs:
+		- (A)-input: The start point of Catenary curve.
+		- (B)-input: The end point of Catenary curve.
+		- (L)-input: The length of the Catenary curve.
+		- (G)-input: The gravity direction.
+![[Pasted image 20240518163941.png]]
+##### Catenary Curves and [[#Particle-Spring Systems (i.e. PSS)|Particle Spring Systems]] 
+A Catenary Curve is defined as **a curve formed by a perfect flexible, uniformly dense and inextensible cable, suspended from two ends**. 

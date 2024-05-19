@@ -35,7 +35,7 @@ It's important to note that while transformations can represent motion, they can
 	The context ([[Dynamics Analysis|dynamic]] vs. [[Statics Analysis|static]]) dictates how transformations are interpreted.
 ### Types of Transformations
 [[Transformations|Transformations]], particularly [[Euclidean Transformations#Translations|translations]] and [[Euclidean Transformations#Rotations|rotations]], can be used to mathematically describe or represent the motion of objects in physics. 
-#### [[|Translation Transformation]]
+#### [[Euclidean Transformations#Translations|Translation Transformation]]
 Can describe an object moving in a straight line from one location to another without changing its orientation or speed—akin to translational motion in physics.
 ###### Application to Force Vectors
 A translational transformation of a force vector might involve shifting the point of application of the force along a line of action, without changing the magnitude or direction of the force itself. This is particularly relevant in statics for analyzing how different placements of forces affect the stability of a structure.
@@ -100,7 +100,7 @@ Linear momentum ($p$) of an object is defined as the **product** of its **mass**
 
 Where the object's velocity, $v$, is **scaled** by the object's mass, $m$.
 	I.e. For 1 unit of mass, the object's velocity is applied. 
-##### Angular Momentum:
+## Angular Momentum
 Angular momentum ($L$) of an **object about a point** is defined as the **[[Statics Analysis#Cross Product|cross product]]** of the **[[Static Equilibrium#Position Vectors (a fourth method to "find" Resultant Force Vectors)|position vector]]** ($r$) relative to **the point and the linear momentum of the object**:
 	$\large L=r×p$
 ##### Law of Conservation of Momentum
@@ -112,10 +112,16 @@ The conservation of linear momentum is a fundamental principle that holds in bot
 In the absence of external forces, the total linear momentum of a non-concurrent system remains constant.
 ###### Conservation of [[#Angular Momentum|Angular Momentum]]
 In the absence of external torques, the total angular momentum of the system about any point or axis remains constant.
-
+## Angular Velocity
+Also known as angular frequency vector, is a pseudovector representation of how the angular position or orientation of an object changes with time.
+	I.e. How quickly an object rotates around an axis of rotation and how fast the axis itself changes direction
+	
+$\large \omega = {\triangle \theta \over \triangle t}$
 ## Angular Acceleration
 Angular acceleration is the rate of change of an object's rotational speed in a clockwise or counterclockwise direction.
-## Rotational Motion:
+
+$\large \alpha = {\triangle \omega \over \triangle t} = {\omega_{2} - \omega_{1} \over t_{2} - t_{1}}$
+## Rotational Motion
 Newton's second law also applies to moments and rotational velocities. 
 	The revised version of the second law equation states that the **net [[Non-Concurrent Systems#Moments (i.e. Torque)|moment]]**, $\vec{M}$, acting on the object will be equal to the **mass moment of inertia of the body about the axis of rotation, (𝐼)** times the **angular acceleration of the body, $\vec{a}$**.
 
@@ -124,3 +130,4 @@ $\begin{equation*} \LARGE \vec{M} = I \times \vec{a} \end{equation*}$
 The moment and the angular acceleration of the body have arrows above them, indicating that they are vector quantities with both a magnitude and direction. 
 	The mass moment of inertia, on the other hand, is a scalar quantity having only a magnitude. 
 		The magnitude of the net moment will be equal to the mass moment of inertia times the magnitude of the angular acceleration, and the direction of the net moment will be equal to the direction of the angular acceleration.
+

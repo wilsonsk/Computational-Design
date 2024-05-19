@@ -1,6 +1,6 @@
 ---
 up:
-  - "[[Abstract Concept]]"
+  - "[[Analysis]]"
 related: 
 date created:
 ---
@@ -91,10 +91,47 @@ A **catenary curve** is a type of curve formed by a chain hanging freely from tw
 A curve is catenary when the chain presents a constant distribution of weight. 
 	The catenary curve is under [[#Tension|tension]] —the weight of the chain or cable pulls it downward, stretching it along its length.
 ###### Mathematical Description
-Mathematically, the catenary curve can be described by the hyperbolic cosine function. The standard equation for a catenary curve is: $y=acosh(x/a$) where:
-- $cosh$ is the hyperbolic cosine function.
-- $a$ is a constant that dictates the curve's steepness and the distance between its lowest point and the horizontal asymptotes.
-- $x$ and $y$ are the coordinates of points on the curve.
+![[Pasted image 20240518160622.png|300]]
+A Catenary Curve is defined as **a curve formed by a perfect flexible, uniformly dense and inextensible cable, suspended from two ends**. 
+
+Therefore, the curve must comply with four conditions:
+1. To be suspended by its end points;
+2. To be perfectly flexible;
+3. To be uniformly dense;
+4. To be inextensible.
+
+Mathematically, the catenary curve can be described by the hyperbolic cosine function. The standard equation for a catenary curve is:
+	$\large y=a \times cos h({x \over a}$)
+		where:
+			- $cosh$ is the [hyperbolic cosine function](https://en.wikipedia.org/wiki/Hyperbolic_functions).
+			- $a$ is a constant that dictates the curve's steepness and the distance between its lowest point and the horizontal asymptotes.
+			- $x$ and $y$ are the coordinates of points on the curve.
+
+The **distance from** the $x-axis$ to the **point on the curve with a [[Derivatives#Is the Tangent Line The Slope of a Tangent Line Slope (i.e. a proportion/rate/ratio between $ Delta y / Delta x$) of the Tangent Line Tangent Line|tangent line slope]] equal to $0$** is expressed as $\large a$. 
+	The slope of the tangent line to a curve at any point is given by the [[Derivatives|derivative]] of the curve's equation at that point. 
+		When the slope of the tangent line of a point, is zero, it means that the derivative at that point is zero, indicating a horizontal tangent line.
+		
+For the Catenary curve described by the equation $\large y=a \times cos  h({x \over a}$), the point where the tangent line slope is zero is at the **vertex of the curve**, which is **the lowest point**.
+	This is where the derivative of y with respect to x is zero.
+
+To find this point, we take the derivative of $\large y=a \times cos  h({x \over a}$):
+${dx\over dy}​=a\times sinh({a\over x}​)⋅({a\over 1})​=sinh({a\over x}​)$
+
+Setting the derivative equal to zero to find the critical points:
+
+$sinh({a\over x}​)=0$
+
+Since $sinh(0)=0$, this occurs when:
+
+${a\over x}​=0⟹x=0$
+
+Thus, the tangent line has a slope of zero at $x=0$.
+	Substituting x=0 back into the original equation gives the y-coordinate of the vertex:
+
+$y=acosh(0)=a⋅1=a$
+
+Therefore, the distance from the x-axis to the point on the catenary curve where the tangent line slope is zero is a.
+	This point is the lowest point on the catenary curve, located at (0,a).
 ###### Properties
 - **Geometric Shape**: The catenary curve has a characteristic U-like shape, more specifically resembling an upside-down chain curve.
 - **Optimal Structural Shape**: When inverted, the catenary curve describes the optimal arch shape for supporting loads. This shape effectively distributes gravitational forces along the curve, minimizing bending moments, which is ideal for structures like arches and vaults.

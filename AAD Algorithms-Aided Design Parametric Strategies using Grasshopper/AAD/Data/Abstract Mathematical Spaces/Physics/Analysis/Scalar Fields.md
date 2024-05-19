@@ -34,7 +34,7 @@ In two dimensions, contour lines (lines of constant scalar value) can be drawn, 
 ### Applications: 
 Scalar fields are used in scientific simulations, graphics (like rendering techniques that involve lighting and material properties), and engineering analyses, where scalar quantities vary over space.
 - [[Voronoi Diagrams|Voronoi diagrams]]
-## Distance Fields:
+## Distance Fields
 At any **point** in the plane (or on the surface), the **field's value** is the **distance from that point to  a specific point, object or set of objects**.
 	- This creates a **scalar field** across the plane where **each point's value** is **based on its proximity** to a specified point, object or set of objects.
 		- These specified points, objects or sets of objects can be:

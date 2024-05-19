@@ -20,55 +20,7 @@
             }
           },
           {
-            "id": "5a8f8b3f03b70f33",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis/Non-Concurrent Systems.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7c54de544257bcec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis/Concurrent Systems.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4e6f4330f0c6b239",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Newton's Second Law.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "765064bb1222854d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis/Moment.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "246856b337a64401",
+            "id": "ae524e0116a3525b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -80,19 +32,31 @@
             }
           },
           {
-            "id": "d23bded5d1a20ab0",
+            "id": "7c54de544257bcec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Bodies.md",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Newton's First Law.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d57dba6cb0024fc9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Topology/Digital Form-Finding.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -121,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"momentum",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -159,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Bodies.md",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Newton's First Law.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -176,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Bodies.md",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Newton's First Law.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -199,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Bodies.md"
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Newton's First Law.md"
               }
             }
           },
@@ -233,45 +197,45 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "d23bded5d1a20ab0",
+  "active": "7c54de544257bcec",
   "lastOpenFiles": [
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis/Static Equilibrium.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Bodies.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis/Statics Analysis.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis/Non-Concurrent Systems.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Analysis.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis/Concurrent Systems.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Dynamics Analysis/Dynamics Analysis.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Newton's Second Law.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Newton's First Law.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis/Concurrent Systems.md",
+    "Pasted image 20240519143551.png",
+    "Pasted image 20240519142913.png",
+    "Pasted image 20240519142716.png",
+    "Pasted image 20240519142710.png",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Bodies.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis/Static Equilibrium.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis/Non-Concurrent Systems.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis/Statics Analysis.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis/Free Body Diagram.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis/Curvature's Role in Stress Distribution.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Topology/Digital Form-Finding.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Topology/Form-Finding Strategies Using Kangaroo.md",
+    "Pasted image 20240518163941.png",
+    "Pasted image 20240518162045.png",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
+    "Pasted image 20240518160622.png",
+    "Pasted image 20240518160612.png",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Topology/Topology Optimization.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Topology/Topology.md",
+    "Data/Abstract Mathematical Spaces/Voronoi Diagrams.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Scalar Fields.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Analysis.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Dynamics Analysis/Dynamics Analysis.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis/Moment.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Dynamics Analysis",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis/Structural Analysis.md",
     "Transformations/Transformations.md",
     "Transformations/Affine Transformations.md",
     "Transformations/Euclidean Transformations.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Topology/Form-Finding Strategies Using Kangaroo.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Points.md",
     "images/Pasted image 20240510191348.png",
     "images/Pasted image 20240512154257.png",
-    "images/Pasted image 20240512151631.png",
-    "images/Pasted image 20240512151507.png",
-    "images/Pasted image 20240512151256.png",
-    "images/Pasted image 20240511004427.png",
-    "images/Pasted image 20240511001303.png",
-    "images/Pasted image 20240511000634.png",
-    "images/Pasted image 20240510235746.png",
     "Abstract/Morphogenesis/Digital Simulation.md",
-    "images/Pasted image 20240510164808.png",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Topology/Topology Optimization.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Limits.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Newton's First Law.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Newton's Third Law.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Newtonian Mechanics.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Probable Reality.md",
-    "Surfaces/Meshes.md",
-    "Applications/Large Scale Projects.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis/Free Body Diagram.md",
-    "Abstract/Morphogenesis/Computational Methodology.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis",
     "Untitled",
     "Abstract/Morphogenesis",

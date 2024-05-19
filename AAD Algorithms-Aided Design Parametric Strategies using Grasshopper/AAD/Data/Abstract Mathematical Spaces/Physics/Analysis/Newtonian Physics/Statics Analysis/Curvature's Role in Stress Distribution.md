@@ -36,7 +36,7 @@ Occurs perpendicularly to the surface and can be tensile (stretching stress) or 
 ###### Shear Stress
 Occurs parallel to the surface. It results from forces that cause the layers of the material to slide past each other.
 ## Basics of Curvature and Stress
-###### Curvature Definition
+###### [[Curves|Curvature]] Definition
 In structural terms, curvature refers to the bending of an element. 
 It can be positive (convex curvature), negative (concave curvature), or it can vary along the length of the structure.
 ###### Stress Response

@@ -18,8 +18,10 @@ Here, forces act at different points on the particle trajectory or field.
 This is the most complex scenario as it involves analyzing both translational and rotational equilibria. 
 	Forces do not act through a single point, thus creating moments about different points which must be considered. 
 		Equilibrium is achieved when the vector sum of the forces and the vector sum of the moments about any point (or about the center of mass for simplification) are both zero.
-### [[Concurrent Systems|Translational Equilibrium]]
+### Translational Equilibrium
 Translational equilibrium is focused entirely on the linear aspects of motion, not addressing any rotational dynamics that might be present.
+
+Translational Equilibrium is concerned with forces that result in [[Newton's Second Law#Euclidean Transformations Translations Translation Transformation|Translational Transformations]] of bodies.
 
 Translational equilibrium specifically refers to the condition where the sum of all external forces acting on a body is zero, indicating no net force. 
 	This implies that there is no net linear acceleration, meaning the body is either stationary or moving with a constant velocity (not changing speed or direction). 
@@ -31,21 +33,23 @@ This is [[Newton's Second Law|Newton's Second Law]] Where $a$ is acceleration, $
 
 Objects in static equilibrium are objects that are not accelerating (either linear acceleration or angular acceleration).
 	These objects may be stationary, such as a building or a bridge, or they may have a constant velocity, such as a car or truck moving at a constant speed on a straight patch of road.
-##### Translational Equilibrium in [[Concurrent Systems|Concurrent Systems]]
+##### [[Concurrent Systems#Particle Translational Equilibrium in Concurrent Systems|Translational Equilibrium in Concurrent Systems]]
 Applies to both particles and rigid [[Bodies|bodies]]. All external forces must sum to zero, ensuring no net force acts on the object, thus preventing any translational motion or acceleration.
-###### [[Bodies#Particles|Particles]]
+###### [[Bodies#Particles in Static Equilibrium Translational Equilibrium Translational Equilibrium in Concurrent Systems|Particles]]
 
-###### [[Bodies#Rigid Bodies|Rigid Bodies]]
+###### [[Bodies#Rigid Bodies in Translational Equilibrium in Concurrent Systems|Rigid Bodies]]
 
-##### Translational Equilibrium in [[Non-Concurrent Systems|Non-Concurrent Systems]]
+##### Translational Equilibrium in Non-Concurrent Systems
 Also applies to both particles and rigid bodies. Forces acting at various points are summed vectorially, and equilibrium is achieved when the resultant force equals zero.
-###### Particles
+###### [[Bodies#Particles in Translational Equilibrium in Non-Concurrent Systems|Particles]]
 
-###### Rigid Bodies
+###### [[Bodies#Rigid Bodies in Translational Equilibrium in Non-Concurrent Systems|Rigid Bodies]]
 
-## [[Non-Concurrent Systems|Rotational Equilibrium]]
+## Rotational Equilibrium
 Rotational equilibrium occurs when the net external torque (or moment) acting on a body about any axis is zero. 
 	This condition means that there is no net angular acceleration, and as a result, the object either remains stationary in terms of rotation or rotates with a constant angular velocity.
+
+Rotational Equilibrium is concerned with forces that result in the [[Euclidean Transformations#Rotations|Rotational Transformations]] of bodies
 
 $\begin{equation*} \LARGE \sum{\vec{M}} = I \times \vec{a} \end{equation*}$
 Where $\LARGE a = 0 ; \sum{\vec{M}} = 0$
@@ -53,15 +57,16 @@ Where $\LARGE a = 0 ; \sum{\vec{M}} = 0$
 Equilibrium follows a similar pattern for angular accelerations. 
 	The [[Newton's Second Law#Rotational Motion|rotational equivalent of Newton's Second Law]] states that the moment exerted on an object is equal to the moment of inertia of that object times the angular acceleration of the object.
 		 If we know the angular acceleration of an object is equal to zero, then we know the sum of all moments acting on the object is equal to zero.
-##### [[Bodies|Bodies]] in Rotational Equilibrium in Concurrent Systems:
-###### Particles
+##### Rotational Equilibrium in Concurrent Systems
 
-###### Rigid Bodies
+###### [[Bodies#Particles in Static Equilibrium Rotational Equilibrium Rotational Equilibrium in Concurrent Systems|Particles]]
 
-##### Rotational Equilibrium in Non-Concurrent Systems:
-###### Particles
+###### [[Bodies#Rigid Bodies in Rotational Equilibrium in Concurrent Systems|Rigid Bodies]]
 
-###### Rigid Bodies
+##### Rotational Equilibrium in Non-Concurrent Systems
+###### [[Bodies#Particles in Rotational Equilibrium in Non-Concurrent Systems]]
+
+###### [[Bodies#Rigid Bodies in Rotational Equilibrium in Non-Concurrent Systems|Rigid Bodies]]
 
 ## Forms of Forces - Methods of Analyzing Physical Quantities
 ### Scalar Form Analysis
@@ -103,9 +108,9 @@ Forces are represented as vectors, $\LARGE \vec{F}=\vec{F_{x}​i}+\vec{F_{y}​
 - Each component is associated with a unit vector, emphasizing both magnitude and direction.
 ###### Decomposing Forces
 Forces are decomposed into components based on their direction in three-dimensional space:
-- $\LARGE \vec{F_{x}}​=\vec{F}cos(θ)$
-- $\LARGE \vec{F_{y}}​=\vec{F}sin(θ)$
-- $\LARGE Fz$​ (if applicable, based on additional angular measurements)
+- $\LARGE |\vec{F_{x}}|​=\vec{F}cos(θ)$
+- $\LARGE |\vec{F_{y}}|​=\vec{F}sin(θ)$
+- $\LARGE |\vec{F_{z}}|$​ (if applicable, based on additional angular measurements)
 ###### Summing Components
 Vector addition is used to sum components:
 - $\LARGE \sum\vec{F}=(∑\vec{F_{x}}​)i+(∑\vec{F_{y}}​)j+(∑\vec{F_{z}}​)k$
@@ -171,6 +176,7 @@ These Right Triangles enable the ability to utilize $\cos(\theta)$ and $sin(\the
 Remember that the component (i.e. standard unit vectors) are the "sliding" in that they are some scaled, linear combination that produces the resultant/force vector. 
 	Therefore, to obtain the component "side opposite" of the triangle (i.e. the 3rd "side") of the right triangle, "slide" (where the slide expresses a scaling of the component vectors) to position the component vector between and opposite the angle under study.
 ##### 2D Pythagorean Theorem
+Typically used to find the magnitude of a Resultant Force Vector, given the respective component vectors. 
 Can be used for Right Triangles.
 ![[Pasted image 20240508141253.png]]
 $\large c^2 = a^2 + b^2$
