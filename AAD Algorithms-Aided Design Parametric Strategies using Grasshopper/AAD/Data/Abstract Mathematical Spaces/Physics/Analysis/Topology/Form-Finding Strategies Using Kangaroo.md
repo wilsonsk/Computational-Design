@@ -11,7 +11,7 @@ date created: 2024-05-10
 ## Digital Simulation (and Particle Spring Systems)
 *"Science is a tool for ideas [...] and it is not only a means to verify structural strength. Science must lead us to discover the optimized geometry for that particular static (or dynamic) condition".* - Sergio Musmeci
 
-Structures that transmit forces through axial compression or tension have an increased capacity to withstand loads with smaller cross sectional areas.
+Structures that transmit forces through axial [[Curvature's Role in Stress Distribution#Compression (i.e. squeezing stress)|compression]] or [[Curvature's Role in Stress Distribution#Tension (i.e. stretching stress)|tension]] have an increased capacity to withstand loads with smaller cross sectional areas.
 	Traditional form-finding strategies for axially loaded structures include: complex physical models, hanging chain networks, stretched fabrics, soap films etc..
 These techniques are difficult and time consuming. 
 	As a result, few designers investigated these form-finding potentials. 
@@ -29,15 +29,41 @@ PSS iterative calculations approach an [[Static Equilibrium|equilibrium state]] 
 Operate iteratively within a main *engine*, meaning every subsequent iteration narrows the position and velocity (magnitude and direction) of particles from the previous step towards an equilibrium solution. 
 	This process creates the **illusion** of movement when frames are calculated in a continuous sequence.
 #### Main Components
-###### [[Points#Idealization in Physics|Particles]]
+##### [[Points#Idealization in Physics|Particles]]
 Each particle in the system is a lumped mass, that changes position and velocity as the simulation evolves.
-###### Springs
+##### [[Concurrent Systems#Springs|Springs]]
 An elastic linear connection between two particles that behaves according to the **Hooke's Law**.
-	"A spring has an initial resting length and a stiffness value, $k$".
-###### Hooke's Law
+	"A spring has an initial resting length and a [[#Stiffness|stiffness]] value, $k$".
+##### Oscillating System
+An oscillating system in this context means that the springs, due to their elasticity, can undergo oscillations (back-and-forth movements) when displaced from their equilibrium position. 
+	This is a common behavior in mechanical systems with mass and elasticity, where:
+		- **[[Newton's First Law#Mass|Mass]]**: The particles have mass, which means they have [[Newton's First Law#Inertia|inertia]] and can [[Newton's Second Law#Acceleration|accelerate]] or decelerate.
+		- **Elasticity**: The springs can stretch and compress, generating restoring forces that can cause the particles to move back and forth.
+###### Elasticity
+Refers to the ability of a material to return to its original shape and length after the force causing the deformation is removed.
+	It describes how a material behaves when deformed. 
+		An elastic material can stretch or compress and then return to its original form once the force is removed.
+			 The degree to which a material can stretch and then return to its original shape without permanent deformation is its elasticity.
+###### Extensibility
+Refers to the property of a material or system that allows it to increase in length when a force (tension) is applied.
+- **Extensible Springs in Simulation**: When using particle-spring systems to simulate a catenary curve, the springs connecting the particles are typically extensible. 
+	- This means they can stretch and compress, altering their length in response to forces.
+		- This behavior can lead to oscillations and deviations from the ideal catenary shape.
+###### Implications for [[#Catenary Curves and Particle-Spring Systems (i.e. PSS) Particle Spring Systems|Catenary Curves]]
+When trying to simulate an inextensible catenary curve using a particle-spring system, the springs’ ability to stretch and compress introduces oscillations. 
+###### Inextensibility
+Refers to the behavior of maintaining a constant length; the shape is purely due to gravity and endpoint constraints.
+- **Springs are not perfectly inextensible**: They have some elasticity, which means they can stretch and thus allow the particles to oscillate.
+- **Inextensible Cable**: An inextensible cable is one that cannot be stretched. Its length remains constant regardless of the forces applied to it.
+	- This is a key characteristic of a true catenary curve, where the shape is determined by gravity and the constraints at the endpoints, without any stretching of the material.
+- **Extensible Springs**: Can stretch or compress, meaning the length of the spring changes when forces are applied.
+- **Simulation Deviations**: The ability of the springs to stretch means that the simulated curve might not perfectly match the theoretical catenary curve, especially under dynamic conditions or when high stiffness is not achieved.
+- **Deviations from the ideal catenary shape**: These oscillations can cause the simulated curve to differ slightly from the true shape of an inextensible catenary curve, especially if the springs oscillate before settling into a final shape.
+##### Hooke's Law
 ![[Pasted image 20240502201008.png|500]]
 States that the force needed to stretch or compress a spring by a distance is linearly proportional to that distance. 
 	Displacements or size of the deformation of a body (treated as a spring) is directly proportional to the deforming force or load.
+		*See* [[Concurrent Systems#Springs|springs in concurrent systems]] *for more info on springs in static systems.*
 
 ![[Pasted image 20240511000634.png]]
 $|\vec{F}| = k \times X$ and $X = {|\vec{F}| \over k}$
@@ -48,11 +74,12 @@ $k$ is a positive constant called, **Stiffness**, usually expressed in $N/cm$.
 	The value of $k$ depends on material and cross sectional geometric properties of the elastic body.
 
 $X$ is the change in length or deformation of the body (spring in this case).
+	I.e. $\LARGE x$ is actually $\LARGE \triangle x$ the displacement of the spring relative to [[Curvature's Role in Stress Distribution#Compression (i.e. squeezing stress)|compression]] or [[Curvature's Role in Stress Distribution#Tension (i.e. stretching stress)|tension]].
 	Commonly expressed in $cm$
-###### [[Statics Analysis#Forces|Forces]]
+##### [[Statics Analysis#Forces|Forces]]
 Weights and external loads are simulated by [[Statics Analysis#Vector Addition|vectors]] that are applied exclusively to particles.
-###### Unary Force
-###### Anchor Points
+##### Unary Force
+##### Anchor Points
 Particles that do not change position during the simulation.
 #### Simulation
 Once the simulation has started, the particles move from their initial positions until they reach an equilibrium state which is dependent on the initial geometry, the force vectors, and the springs' defined properties.
@@ -73,8 +100,8 @@ Anchor points, forces, and spring properties can be parametrically linked to oth
 ![[Pasted image 20240504141138.png]]
 Relies on the same set of rules and operations for [[Meshes#Low Nodal Models (e.g., Single Digital Chains)|low nodal models]], such as single digital chains, as [[Meshes#High Nodal Models (e.g., Multi-Supported Membranes)|high nodal models]] such multi-supported membranes.
 ##### [[Large Scale Projects#Surface Discretization|Discretization]]
-A deformable body (i.e. a fabric membrane or flexible cable) is created by discretizing NURBS-geometries and subsequently processing the resulting geometry with a particle-spring system.
-###### Deformable Body
+A deformable [[Bodies|body]] (i.e. a fabric membrane or flexible cable) is created by discretizing NURBS-geometries and subsequently processing the resulting geometry with a particle-spring system.
+###### [[Bodies#Deformable Bodies|Deformable Body]]
 A deformable body is **a physical body that deforms, meaning it changes its shape or volume while being acted upon by an external force**. 
 	The relative position of any points on a deformable body can change. 
 		They are the opposite of rigid bodies and are defined by their elements.
@@ -226,5 +253,48 @@ A Catenary curve can also be drawn by the **Catenary** component, which embeds t
 		- (L)-input: The length of the Catenary curve.
 		- (G)-input: The gravity direction.
 ![[Pasted image 20240518163941.png]]
-##### Catenary Curves and [[#Particle-Spring Systems (i.e. PSS)|Particle Spring Systems]] 
+#### Catenary Curves and [[#Particle-Spring Systems (i.e. PSS)|Particle Spring Systems]] 
 A Catenary Curve is defined as **a curve formed by a perfect flexible, uniformly dense and inextensible cable, suspended from two ends**. 
+
+Therefore, the curve must comply with four conditions:
+1. To be suspended by its end points.
+	The cable is hanging freely from two fixed points.
+2. To be perfectly flexible.
+	The cable can bend without any resistance or stiffness, meaning it can freely assume the shape dictated by the forces acting upon it.
+3. To be uniformly dense.
+	The cable has a consistent mass per unit length, ensuring that its weight distribution is uniform.
+4. To be inextensible.
+	"Inextensible" means that the cable or curve cannot be stretched. 
+		An inextensible cable maintains a constant length regardless of the forces applied to it.
+			Ensuring that its shape is solely determined by its weight and the forces acting on it (like gravity), rather than by any elasticity or stretching.
+
+These [[#Oscillating System|conditions are not entirely met]] by the deformable linear-curve.
+	When simulating catenary curves using particle-spring systems, these conditions need to be approximated. 
+		Particle-spring systems consist of particles connected by springs that can stretch and compress. 
+			While this method can approximate a catenary curve, the springs typically have some elasticity (they can stretch), meaning they are not truly inextensible.
+				 This means that the simulated curve may differ slightly from an ideal catenary curve because it does not perfectly satisfy the inextensibility condition.
+	In fact, even if a high [[#Stiffness|stiffness value]] is set, the springs will not be [[#Implications for Catenary Curves and Particle-Spring Systems (i.e. PSS) Particle Spring Systems Catenary Curves|inextensible]]. 
+		As a result, the simulation will generate a curve that is slightly different from a catenary curve. 
+![[Pasted image 20240519161820.png]]
+
+To more closely approximate a Catenary curve, an arc can be used as a starting geometry, described using the component **Arc 3Pt**, through a set of three points. 
+	Then the measured arc-length is set equal to the length of the desired catenary curve.
+![[Pasted image 20240519170217.png]]
+
+##### Steps
+![[Pasted image 20240519170610.png]]
+1. Initial Geometry
+	Is an arc with a length of 20 units drawn through three points: A, B, C.
+2. Discretization
+	The arc is then divided using the **Divide Curve** component with the (N)-input set to 50.
+		Which yields 51 equidistant points.
+	A polyline is created through the resulting points and exploded into segments by the **Explode** component, in order to return 50 lines. 
+		The lines are then converted into springs, each initially measuring 20/50 = 0.4 units. 
+			![[Pasted image 20240519171114.png]]
+1. Particle-Spring System
+	The output of the **Explode** component is connected to the (Connection)-input of the **Springs From Line** component, after passing through a **Line** container component. 
+		==To achieve [[#Inextensibility|inextensibility]] of the cable, the rest length is set such that the rest length < start length using a multiplier factor of 0.995, and a (Stiffness)-input set to 7000 units.== 
+	Gravity loads are applied to each particle using the component **Unary Force** in the Z-direction with a magnitude of -1.
+		The resulting vectors are connected to the (Force objects)-input of the component **Kangaroo**.
+			Set points A and B, are combined 
+				![[Pasted image 20240519171841.png]]

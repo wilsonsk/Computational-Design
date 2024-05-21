@@ -15,9 +15,10 @@ This diagram makes it easier to write out equilibrium equations for statics or s
 
 ![[Pasted image 20240503152008.png]]
 ## Constructing the Free Body Diagram
-1. First draw the body being analyzed, separated from all other surrounding bodies and surfaces.
-	Pay close attention to the boundary, identifying what is part of the body and what is part of the surroundings. 
-2. Draw all **external** forces and moments acting directly on the body.
+1. System Component Isolation
+	 First draw the body being analyzed, separated from all other surrounding bodies and surfaces.
+		Pay close attention to the boundary, identifying what is part of the body and what is part of the surroundings. 
+1. Draw all **external** forces and moments acting directly on the body.
 	**Do not include** any **forces or moments** that **do not directly act on the body being analyzed**. 
 		**Do not include** any **forces** that are **internal** to the body being analyzed.
 3. Label any key dimensions and angles on the diagram. 

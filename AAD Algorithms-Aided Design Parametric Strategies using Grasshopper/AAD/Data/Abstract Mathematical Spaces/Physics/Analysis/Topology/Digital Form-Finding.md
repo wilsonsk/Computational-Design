@@ -96,8 +96,8 @@ A Catenary Curve is defined as **a curve formed by a perfect flexible, uniformly
 
 Therefore, the curve must comply with four conditions:
 1. To be suspended by its end points;
-2. To be perfectly flexible;
-3. To be uniformly dense;
+2. To be perfectly flexible.
+3. To be uniformly dense.
 4. To be inextensible.
 
 Mathematically, the catenary curve can be described by the hyperbolic cosine function. The standard equation for a catenary curve is:

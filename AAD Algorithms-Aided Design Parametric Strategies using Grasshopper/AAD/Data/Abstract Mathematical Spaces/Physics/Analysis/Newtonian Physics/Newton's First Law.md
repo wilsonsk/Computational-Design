@@ -13,14 +13,18 @@ date created: 2024-05-03
 
 This law, also sometimes called the "law of inertia", means that bodies maintain their current velocity unless a force is applied to change that velocity. 
 	If an object is at rest with zero velocity it will remain at rest until some force begins to change that velocity, and if an object is moving at a set speed and in a set direction it will remain at that same velocity until some force acts on it to change its velocity.
+## Inertia
+Inertia is the tendency of objects in motion to stay in motion and objects at rest to stay at rest, unless a force causes its speed or direction to change. 
+	I.e. The tendency of an object to resist changes in their state of motion. 
 
-$\large I = {L \over \omega}$
+$\LARGE I = {L \over \omega}$
 	Where $I$ is inertia.
 	Where $L$ is [[Newton's Second Law#Angular Momentum|angular momentum]].
 	Where $\omega$ is [[Newton's Second Law#Angular Velocity|angular velocity]].
 ## Mass
 Is the quantitative measure of inertia, a fundamental property of all matter.
-$\large m = {\rho \over V}$
+
+$\LARGE m = {\rho \over V}$
 	Where $m$ is mass.
 	Where $\rho$ is **density**.
 	Where $V$ is **volume**.
@@ -28,10 +32,24 @@ $\large m = {\rho \over V}$
 Refers to the force acting on the object due to acceleration of gravity.
 	Some standard textbooks define weight as a vector quantity, the gravitational force acting on the object. Others define weight as a scalar quantity, the magnitude of the gravitational force. 
 	
-$\large W = mg$
+$\LARGE W = mg$
 	Where $W$ is weight.
 	Where $m$ is mass.
 	Where $g$ is [[Newton's Second Law#Acceleration|acceleration]] due to gravity.
+## Density
+Density is a substance's mass per unit of volume.
+
+$\LARGE \rho = m \times V$
+	Where $m$ is mass.
+	Where $\rho$ is **density**.
+	Where $V$ is **volume**.
+## Volume
+Is the amount of three-dimensional space occupied by matter or enclosed by a surface.
+
+$\LARGE V = {\rho \over m}$
+	Where $m$ is mass.
+	Where $\rho$ is **density**.
+	Where $V$ is **volume**.
 ## Net Forces
 It is important to note that the **net force** is what will cause a change in [[Newton's Second Law#Velocity|velocity]]. 
 	The net force is the sum of all forces acting on the body. 

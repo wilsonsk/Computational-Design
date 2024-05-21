@@ -48,7 +48,7 @@ Rotational transformations can be applied to force vectors by changing the direc
 ###### Application to [[Statics Analysis#Bodies|Bodies]]
 A rotational transformation involves the body rotating around an axis or point. This transformation is fundamental in dynamics, where the orientation of a body changes due to moments or torques applied to it.
 #### Integration in Statics and Dynamics
-##### Statics
+##### [[Statics Analysis|Statics]]
 Even though statics primarily focuses on systems at equilibrium, understanding how translational and rotational transformations affect force vectors and bodies helps in designing systems that maintain equilibrium under various loads. For instance, knowing how to position structural elements to balance forces and moments is key to ensuring stability.
 ##### Dynamics
 Dynamics deals with how bodies respond to forces, often involving motion. Here, translational and rotational transformations describe how objects move under these forces, whether linearly (translational motion) or around an axis (rotational motion).
@@ -75,6 +75,7 @@ A scalar quantity that does not involve direction.
 		An object accelerates if either its speed or direction (or both) changes.
 
 Acceleration is a ratio.
+	I.e. It tells you how much of one thing you have compared to another.
 
 $\large a = {\triangle v \over \triangle t}$
 	Where $v$ is acceleration.
@@ -94,9 +95,11 @@ Momentum describes the **quantity of motion of a moving object**.
 		It is closely linked to the mass of the object and its velocity, and it plays a crucial role in the dynamics of moving systems.
 
 Momentum is a scaling. 
-##### Linear Momentum
-Linear momentum ($p$) of an object is defined as the **product** of its **mass** ($m$) and its **velocity** ($v$). Mathematically, it is expressed as:
-	$\large p=mv$
+### Linear Momentum
+Linear momentum ($p$) of an object is defined as the **product** of its **mass** ($m$) and its **velocity** ($v$). 
+
+Mathematically, it is expressed as:
+	$\LARGE p=mv$
 
 Where the object's velocity, $v$, is **scaled** by the object's mass, $m$.
 	I.e. For 1 unit of mass, the object's velocity is applied. 
