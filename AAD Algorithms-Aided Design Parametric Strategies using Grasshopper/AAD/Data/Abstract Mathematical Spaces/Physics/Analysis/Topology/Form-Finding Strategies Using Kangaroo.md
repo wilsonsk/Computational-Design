@@ -30,8 +30,9 @@ Operate iteratively within a main *engine*, meaning every subsequent iteration n
 	This process creates the **illusion** of movement when frames are calculated in a continuous sequence.
 #### Main Components
 ##### [[Points#Idealization in Physics|Particles]]
-Each particle in the system is a lumped mass, that changes position and velocity as the simulation evolves.
-##### [[Concurrent Systems#Springs|Springs]]
+Each [[Bodies#Particles in Static Equilibrium Translational Equilibrium Translational Equilibrium in Concurrent Systems|particle in the PSS system]] is a lumped mass, that changes position and velocity as the simulation evolves.
+	Where all forces meet at a single point on the particle.
+##### Springs
 An elastic linear connection between two particles that behaves according to the **Hooke's Law**.
 	"A spring has an initial resting length and a [[#Stiffness|stiffness]] value, $k$".
 ##### Oscillating System
@@ -79,6 +80,15 @@ $X$ is the change in length or deformation of the body (spring in this case).
 ##### [[Statics Analysis#Forces|Forces]]
 Weights and external loads are simulated by [[Statics Analysis#Vector Addition|vectors]] that are applied exclusively to particles.
 ##### Unary Force
+A unary force (in the context of Grasshopper's Kangaroo physics engine) is essentially a [[Concurrent Systems|concurrent force]] applied uniformly to all [[Bodies#Particles in Concurrent Systems Concurrent Systems|particles]] in a system.
+	It ensures that each particle experiences the same magnitude and direction of force.
+		 This type of force is useful for simulating effects like gravity, where every particle needs to be influenced equally, regardless of its position or other properties​​​​​​.
+
+A unary force is a type of force in Grasshopper's Kangaroo physics engine that applies a uniform force vector to each particle in a system. 
+	This force acts on individual particles rather than on pairs of particles or elements.
+		 *For example*, when simulating gravity, a unary force can be used to apply a downward force on each particle, ensuring that gravity affects the entire system uniformly.
+  
+  The magnitude of this force can be set according to the specific requirements of the simulation, such as the weight of the particles or other external forces​​​​​​.
 ##### Anchor Points
 Particles that do not change position during the simulation.
 #### Simulation
@@ -118,7 +128,7 @@ After a geometry has been discretized, lines are converted into springs and poin
 	Toggling between *True* and *False* statements using the component, **Boolean Toggle**, to start and stop the simulation.
 		While the simulation is running, particles move until an [[Static Equilibrium|equilibrium state]] is reached. 
 			For this reason the engine's output can be considered as **[[Dynamics Analysis#Dynamics "Explains" the Causality of a State Change|dynamic]]**.
-## Strategies/Patterns (as [[#Digital Simulation (and Particle Spring Systems)]])
+## [[#Digital Simulation (and Particle Spring Systems)|Digital Simulations]] Strategies/Patterns for [[Concurrent Systems#Particle Spring Systems|PSS]]
 ### Cable Simulation
 ![[Pasted image 20240505005158.png]]
 Simulates the behavior of a flexible elastic cable, that is suspended between two end points and subjected to loads imposed by self weights. 
@@ -255,8 +265,8 @@ A Catenary curve can also be drawn by the **Catenary** component, which embeds t
 ![[Pasted image 20240518163941.png]]
 #### Catenary Curves and [[#Particle-Spring Systems (i.e. PSS)|Particle Spring Systems]] 
 A Catenary Curve is defined as **a curve formed by a perfect flexible, uniformly dense and inextensible cable, suspended from two ends**. 
-
-Therefore, the curve must comply with four conditions:
+	Therefore, the curve must comply with four conditions:
+###### Four Conditions of Catenary Curves
 1. To be suspended by its end points.
 	The cable is hanging freely from two fixed points.
 2. To be perfectly flexible.
@@ -280,7 +290,6 @@ These [[#Oscillating System|conditions are not entirely met]] by the deformable 
 To more closely approximate a Catenary curve, an arc can be used as a starting geometry, described using the component **Arc 3Pt**, through a set of three points. 
 	Then the measured arc-length is set equal to the length of the desired catenary curve.
 ![[Pasted image 20240519170217.png]]
-
 ##### Steps
 ![[Pasted image 20240519170610.png]]
 1. Initial Geometry
@@ -289,12 +298,19 @@ To more closely approximate a Catenary curve, an arc can be used as a starting g
 	The arc is then divided using the **Divide Curve** component with the (N)-input set to 50.
 		Which yields 51 equidistant points.
 	A polyline is created through the resulting points and exploded into segments by the **Explode** component, in order to return 50 lines. 
-		The lines are then converted into springs, each initially measuring 20/50 = 0.4 units. 
+		The lines are then converted into springs, each initially measuring 20 (i.e. arc length) /50 (i.e. 50 steps) = 0.4 units. 
 			![[Pasted image 20240519171114.png]]
-1. Particle-Spring System
+3. Particle-Spring System
 	The output of the **Explode** component is connected to the (Connection)-input of the **Springs From Line** component, after passing through a **Line** container component. 
 		==To achieve [[#Inextensibility|inextensibility]] of the cable, the rest length is set such that the rest length < start length using a multiplier factor of 0.995, and a (Stiffness)-input set to 7000 units.== 
 	Gravity loads are applied to each particle using the component **Unary Force** in the Z-direction with a magnitude of -1.
 		The resulting vectors are connected to the (Force objects)-input of the component **Kangaroo**.
-			Set points A and B, are combined 
+			Set points A and B, are combined into a single list via **Merge** component and connected to the (AnchorPoints)-input of the **Kangaroo** component.
 				![[Pasted image 20240519171841.png]]
+	When the simulation is initiated, the segmented arc moves in the negative Z direction, taking the form of a Catenary Cable. 
+		The calculated polyline complies with the [[#Four Conditions of Catenary Curves|four conditions]] of the Catenary definition. 
+			The segments change minimally in length from their start length (0.4 units) after the simulation.
+				![[Pasted image 20240521150914.png]]
+	So far the **Unary Force component (Force)-input value** (which represents self [[Newton's First Law#weight|weight]] ([[Newton's First Law#mass|mass]] * [[Newton's First Law#Gravity|gravity]])), has been set arbitrarily.
+		More accurately, the **[[#Unary Force|Unary Force]] component (Force)-input value**  should be set by:
+			Dividing the cable's total weight by the numbers of particles. 

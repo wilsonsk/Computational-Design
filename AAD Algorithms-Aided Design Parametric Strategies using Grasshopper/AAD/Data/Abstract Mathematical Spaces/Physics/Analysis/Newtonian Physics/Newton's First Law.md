@@ -36,6 +36,10 @@ $\LARGE W = mg$
 	Where $W$ is weight.
 	Where $m$ is mass.
 	Where $g$ is [[Newton's Second Law#Acceleration|acceleration]] due to gravity.
+
+### Gravity
+[[Newton's Second Law#Acceleration|Acceleration]] due to gravity. 
+	On Earth, the value of gravity is $\large 9.8 m/s^{2}$ 
 ## Density
 Density is a substance's mass per unit of volume.
 
