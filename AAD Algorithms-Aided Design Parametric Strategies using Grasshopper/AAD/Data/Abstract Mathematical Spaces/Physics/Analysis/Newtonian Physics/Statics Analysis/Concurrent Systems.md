@@ -91,12 +91,12 @@ Solve the unknowns using algebra.
 	- The number of unknowns that you will be able to solve for will be the number of equilibrium equations that you have.
 	- In instances where you have more unknowns than equations, the problem is known as a **statically indeterminate problem** and you will need additional information to solve for the given unknowns.
 ### [[Bodies#Particles in Static Equilibrium Translational Equilibrium Translational Equilibrium in Concurrent Systems|Particle Translational Equilibrium in Concurrent Systems]]
-A particle is said to be in equilibrium if it is at rest (and has been at rest) or is in motion with a constant velocity (i.e. no acceleration). 
+A [[Bodies#Particles in Static Equilibrium Translational Equilibrium Translational Equilibrium in Concurrent Systems|particle in Translational Equilibrium]] is said to be in equilibrium if it is at rest (and has been at rest) or is in motion with a constant velocity (i.e. no acceleration). 
 
 To analyze equilibrium particles, [[Free Body Diagram|Free Body Diagrams]] are drawn to show all forces acting on the particle. 
 
 Commonly found systems in these Free Body Diagrams of particles are:
-#### Springs
+#### Particle Spring Systems
 The force exerted by a spring is proportional to its displacement from the equilibrium position according to [[Form-Finding Strategies Using Kangaroo#Hooke's Law|Hooke's Law]]: $\LARGE F=kΔx$.
 	With a spring length that changes in proportion to the force acting on it. 
 ###### Variable Magnitude of the Force Along a Spring
@@ -130,7 +130,7 @@ Is a type of contact force that occurs when two surfaces are in contact and movi
 ###### [[Free Body Diagram#Tension Forces|Tension Force]]
 Is a type of contact force that involves the pulling or stretching force transmitted axially along an object such as a string, rope, chain, rod, truss member, or other object, so as to stretch or pull apart the object.
 	In terms of force, it is the opposite of compression.
-### Example: "Particle" Translational Equilibrium in Concurrent [[#Springs|Spring Systems]]
+### Example: Translational Equilibrium in Concurrent Particle Spring Systems
 *Note: this problem is different than that problems from [[Static Equilibrium#Force Directed Along a Line (i.e. an example of the position vector method)|previous problems]] where the coordinates or dimensions were used as the [[Static Equilibrium#Vector Form Analysis (i.e. Cartesian Vectors)|components]] of the [[Statics Analysis#Force Vector Representation|Force Vector]].*
 	*This is a **SPRING** system, compared to a force within or along a line or cable.*
 	*In this new example problem, the dimensions can still be used to find the angle (via tangent function) of the force vectors, but they **can not** be used as **component vectors**.*

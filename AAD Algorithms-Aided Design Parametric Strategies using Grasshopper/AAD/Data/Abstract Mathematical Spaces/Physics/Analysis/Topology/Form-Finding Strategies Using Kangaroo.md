@@ -17,7 +17,7 @@ These techniques are difficult and time consuming.
 	As a result, few designers investigated these form-finding potentials. 
 		 Traditional form-finding techniques can now be digitally found using particle-spring systems that simulated the physical behavior of deformable bodies.
 			 Whereas traditional techniques were difficult to apply, digital simulations allow designers to investigate form, in real time, by updating forces, supports and physical properties.
-### Particle-Spring Systems (i.e. PSS)
+### [[Concurrent Systems#Particle Spring Systems|Particle-Spring Systems]] (i.e. PSS)
 ![[Pasted image 20240502012955.png|400]]
 *Above image is a particle spring system that simulates a square membrane anchored at its corners, force vectors are applied to the particles.*
 
