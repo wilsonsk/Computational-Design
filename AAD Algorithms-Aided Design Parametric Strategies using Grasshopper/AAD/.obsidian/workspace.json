@@ -90,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -185,10 +186,15 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "d57dba6cb0024fc9",
+  "active": "9d4f872ae585f47d",
   "lastOpenFiles": [
-    "images/Pasted image 20240521150914.png",
+    "Pasted image 20240521184625.png",
+    "Surfaces/Notion of Surface Curvature.md",
+    "Transformations/Euclidean Transformations.md",
+    "Data/Abstract Mathematical Spaces/Vectors.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Topology/Form-Finding Strategies Using Kangaroo.md",
+    "Pasted image 20240521182217.png",
+    "images/Pasted image 20240521150914.png",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Newton's First Law.md",
     "images/Pasted image 20240521151305.png",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Newton's Second Law.md",
@@ -202,7 +208,6 @@
     "images/Pasted image 20240521133909.png",
     "images/Pasted image 20240521133900.png",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis/Static Equilibrium.md",
-    "images/Pasted image 20240521133139.png",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis/Free Body Diagram.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis/Statics Analysis.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Topology/Topology Optimization.md",
@@ -220,9 +225,6 @@
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Dynamics Analysis",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis/Structural Analysis.md",
     "Transformations/Transformations.md",
-    "Transformations/Affine Transformations.md",
-    "Transformations/Euclidean Transformations.md",
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Points.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis",
     "Untitled",
     "Abstract/Morphogenesis",

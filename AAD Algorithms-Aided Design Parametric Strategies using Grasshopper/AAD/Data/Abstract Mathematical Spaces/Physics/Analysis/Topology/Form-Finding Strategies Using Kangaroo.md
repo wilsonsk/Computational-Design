@@ -96,6 +96,15 @@ Once the simulation has started, the particles move from their initial positions
 	Following Hooke's Law, the lower the "stiffness" or $k$ value, the greater the spring elongation. 
 		Since particles in this system behave like spherical hinges without the capacity to resist moment forces, equilibrium solutions carry defined loads exclusively through [[Curvature's Role in Stress Distribution#Axial Compression and Axial Tension|axial forces]].
 			This is the ideal condition for form-finding strategies.
+###### Frame
+A "frame" typically refers to an individual iteration or time step in a dynamic simulation.
+	Each frame represents a single step in the calculation of the positions and interactions of particles or other elements in the system. 
+
+The simulation progresses frame by frame, updating the positions and states of all elements based on the forces applied and the constraints set in the model.
+
+For instance, in a particle-spring system simulation using Kangaroo, the positions of particles are updated at each frame based on the forces acting on them, such as springs and unary forces. 
+	This process continues until the system reaches a state of equilibrium or the simulation is stopped. 
+		The "timer" component in Grasshopper can control the rate at which these frames are processed, effectively setting the speed of the simulation​​​​ .
 ## Kangaroo (plugin)
 A physics based [[#Particle-Spring System|particle-spring system]] engine developed by Daniel Piker.
 
@@ -174,7 +183,7 @@ Kangaroo's inputs are defined as points, lines or meshes. Kangaroo's output is s
 An elastic cable can be simulated by connecting the (ParticlesOut) output to the (V) input of the **NURBS Curve** component, defining an interpolated curve through the points. 
 	This strategy can be useful to achieve continuity; 
 		However, it can lead to physically incorrect results since the Nurbs-curve acts rigidly around point B, which is impossible since particles act as spherical hinges, without [[Non-Concurrent Systems#Moment Capacity|moment capacity]].
-### Elastic Behavior: [[#Hooke's Law|Hooke's Law]]
+#### Elastic Behavior: [[#Hooke's Law|Hooke's Law]]
 Kangaroo's **elastic behavior** follows [[#Hooke's Law|Hooke's Law]] in that "displacements or size of the deformation of a body (in this case, each spring) is directly proportional to the deforming force or load."
 ###### Springs from Line component
 Embeds Hooke's Law.
@@ -246,7 +255,7 @@ Three cases can be discerned:
 		- By default the Upper/Lower cutoffs are set to $0$.
 - **Plasticity**:
 	- The maximum elastic deformation, as compared to rest length.
-### [[Digital Form-Finding#Catenary Curve|Catenary]] Simulation
+#### [[Digital Form-Finding#Catenary Curve|Catenary]] Simulation
 ![[Pasted image 20240518160622.png|300]]
 	$\large y=a \times cos h({x \over a}$)
 		where:
@@ -312,5 +321,36 @@ To more closely approximate a Catenary curve, an arc can be used as a starting g
 			The segments change minimally in length from their start length (0.4 units) after the simulation.
 				![[Pasted image 20240521150914.png]]
 	So far the **Unary Force component (Force)-input value** (which represents self [[Newton's First Law#weight|weight]] ([[Newton's First Law#mass|mass]] * [[Newton's First Law#Gravity|gravity]])), has been set arbitrarily.
-		More accurately, the **[[#Unary Force|Unary Force]] component (Force)-input value**  should be set by:
+		More accurately, the **[[#Unary Force|Unary Force]] component (Force)-input value** should be set by:
 			Dividing the cable's total weight by the numbers of particles. 
+				![[Pasted image 20240521182217.png]]
+					The above image is of two Catenary Curves, each with starting points on respective initial freeform [[Notion of Surface Curvature#Frame|frames]].
+### Membrane Simulation
+The behavior of a regular flat membrane anchored at four corner points and subjected to gravity loads can be simulated using [[Concurrent Systems#Particle Spring Systems|particle-spring systems]].
+##### Membrane
+In the context of structural engineering and computational design, refers to a thin and flexible [[Surfaces|surface]] that can carry loads primarily through [[Curvature's Role in Stress Distribution#Tensile Structures|tensile forces]].
+	Membranes are often used in simulations to represent materials like fabric, rubber and any other flexible materials that can undergo large deformations without significant bending stiffness. 
+###### Characteristics of Membranes
+1. **Thin and Flexible**: Membranes are characterized by their minimal thickness compared to their other dimensions, allowing them to bend and flex easily.
+2. **Tensile Structures**: They carry loads primarily through tension, not compression or bending. This makes them ideal for structures like tents, sails, and certain types of roofs.
+3. **Anchoring**: Membranes are typically anchored at their edges or at specific points to define their shape and maintain tension.
+4. **Simulation in Grasshopper**: In Grasshopper's Kangaroo plugin, membranes are often simulated using a mesh representation where vertices are treated as particles and edges as springs. This setup allows the simulation of the flexible behavior of membranes under various forces, such as gravity​​.
+###### Simulation Process
+- **Discretization**: A continuous surface (e.g., a NURBS surface) is converted into a mesh of points and edges to simulate its behavior.
+- **Spring System**: The edges of the mesh act as springs that can stretch and compress, representing the flexible nature of the membrane.
+- **Anchor Points**: Specific points on the membrane are fixed or anchored to simulate how the membrane is held in place in a real-world scenario​​.
+###### Form-Finding Techniques
+- **Hanging Models**: A traditional form-finding technique where a physical membrane model is hung and allowed to settle under gravity, forming a shape purely in tension. This shape can then be used as the basis for designing compression structures like arches and domes by inverting the geometry​​.
+- **Pneumatic Methods**: Inflating a membrane to achieve a specific form, which can then be used to design various structural forms like shells and domes​​.
+
+Membranes are crucial in both practical engineering applications and computational simulations, providing a versatile tool for exploring and realizing complex, flexible structures.
+###### To simulate membranes or other sheet materials such as fabrics, a [[Grids|grid]] of springs is defined. 
+
+Grids can be [[Grids#Grid Generation|established]] using numerous strategies.
+![[Pasted image 20240521184625.png]]
+	The most common technique is:
+		1. To convert a NURBS surface to a mesh.
+		2. [[Computational Methodology#Decomposition|Decompose]]/[[Large Scale Projects#Surface Discretization|Discretization]] 
+			Extract the edges, and vertices.
+				These become the springs and particles of the system.
+###### Discretization 

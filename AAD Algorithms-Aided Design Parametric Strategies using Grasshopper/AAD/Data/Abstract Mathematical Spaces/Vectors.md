@@ -1,6 +1,6 @@
 ---
 up:
-  - "[[Transformations]]"
+  - "[[Analysis]]"
 related:
   - "[[2D Parametric Equations]]"
   - "[[3D Parametric Equations]]"

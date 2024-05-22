@@ -66,6 +66,12 @@ A component used in the **creation** of a complex surface or shape.
 - Is a **predefined path** or **curve** that **guides** the movement or generation of another shape (point, line, etc.) or curve to **generate** a surface or volumetric shape.
 - Most commonly it guides the motion of the **generatrix**.
 - Can have **multiple** directrices for a generatrix.
+##### Frame
+- A frame, as used in Grasshopper and computational design, is a more general term that refers to any reference geometry or structure used to guide the generation of other geometries.
+- Frames can be points, lines, curves, or even complex surfaces that act as constraints or boundaries within which other elements are generated.
+- In the example of the [[Form-Finding Strategies Using Kangaroo#Catenary Curves and Particle-Spring Systems (i.e. PSS) Particle Spring Systems|catenary curves]], the frames are the freeform curves that define the start and end points of the catenaries, guiding their overall shape.
+
+So, while a directrix can be considered a specific type of frame used for guiding the shape of curves or surfaces, the term "frame" in algorithmic modeling encompasses a broader range of guiding geometries beyond just directrices.
 ### How to identify the Generatrix and Directrix (intuitively)
 Understand the Surface Type:
 - [[Gaussian Curvature#Developable Surfaces|Developable]] Surfaces
