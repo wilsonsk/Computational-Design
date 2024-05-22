@@ -7,7 +7,7 @@ related:
   - "[[Surfaces]]"
 date created: 2024-05-10
 ---
-# Form-Finding Strategies Using Kangaroo
+# Form-Finding Strategies Using [[Kangaroo|Kangaroo]]
 ## Digital Simulation (and Particle Spring Systems)
 *"Science is a tool for ideas [...] and it is not only a means to verify structural strength. Science must lead us to discover the optimized geometry for that particular static (or dynamic) condition".* - Sergio Musmeci
 
@@ -354,3 +354,64 @@ Grids can be [[Grids#Grid Generation|established]] using numerous strategies.
 			Extract the edges, and vertices.
 				These become the springs and particles of the system.
 ###### Discretization 
+To construct the discretized model:
+![[Pasted image 20240522085602.png|400]]
+	1. Set a NURBS surface is converted into a mesh using the **Mesh Surface** component.
+	2. The mesh edges and vertices are then extracted via **wbEdges** and **wbVertices** components. 
+###### Particle Spring System
+![[Pasted image 20240522130214.png]]
+After the model has been discretized, the edges are connected to the (Connection)-input of the **Springs** component.
+
+The (Rest Length)-input is defined as a multiple of the start length using a **slider** component, enabling the springs to be conditionally varied.
+
+The (P)-output of the component **wbVertices** is connected to the (point)-input of the **[[#Unary Force|Unary Force]]** component.
+	Which is a force vector with a magnitude of -20 acting in the z-direction and is applied to each particle.
+
+The four corner points are extracted using the **MeshCorners** component and connected to the (AnchorPoints)-input of the **Kangaroo** component. 
+
+The (Springs)-output of the **Springs From Line** component an the (U)-output of the **Unary Force** component are connected to the (Force Objects)-input of the **Kangaroo** component - in flatten mode.
+
+The (L)-output of the **wbEdges** component is fed into the (Geometry)-input of the **Kangaroo** component to define the geometry for the simulation to the output. 
+	
+Double-clicking the Boolean Toggle from *true* to *false* initiates the membrane simulation.
+	The membrane, anchored at its corners, is deformed by the Force Vectors of the **Unary Force** component, and resisted by the springs [[#Stiffness|stiffness]] value.
+![[Pasted image 20240522130638.png]]
+![[Pasted image 20240522130611.png]]
+To visualize the mesh faces instead of edges the Mesh Surface component output (IVl) is connected to the Geometry-input of Kangaroo.
+![[Pasted image 20240522130648.png]]
+
+Similar to cables, membranes anchor points can be set from Rhino then adjusted with respect to their XYZ position after the simulation is started. 
+	***Manual interaction with the model can lead to errors if the points are not returned to their original position before stopping and starting a new simulation.*** 
+		*If the simulation is run without returning the anchor points to their original position the physics engine will not recognize how restrain the model.*
+![[Pasted image 20240522130737.png]]
+
+Of course a membrane can be "multi-anchored" provided that anchor points are positioned on particles.
+	Membranes can also be anchored along their edges, by setting the anchor points as the meshes naked vertices. 
+		The component **Naked Vertices** extracts the naked edge vertices, i.e. vertices not bordered by faces from a given mesh.
+![[Pasted image 20240522130825.png]]
+
+Top: membrane with naked vertices as anchor points. 
+Bottom: membrane with corner and internal anchor points.
+
+![[Pasted image 20240522130836.png]]
+
+The membrane's area can be minimized by setting tlie rest length factor to 0. 
+	With a rest length set to 0 the membrane behaves like a tensioned-film simulating a soap film.
+![[Pasted image 20240522130943.png]]
+#### Rigid Membranes
+The membrane so far studied behaves like a cable net. 
+
+To simulate a more rigid membrane, diagonals can be added which prevent the mesh-faces from deforming into diamond shapes. 
+	To computationally mimic the behavior of sheet materials two **Springs from Line** components are used to separate the mesh-edges and the diagonals.
+![[Pasted image 20240522131103.png]]
+![[Pasted image 20240522131117.png]]![[Pasted image 20240522131153.png]]
+
+Once the simulation is started the more rigid configuration no longer behaves like a cable-net, but instead like a sheet material. 
+	If the Rest Length Factor is reduced the membrane will form origami-like creases.
+
+![[Pasted image 20240522131247.png]]
+
+Additionally, different diagonals configurations can be tested which yield varying results. 
+	*For example*, if one diagonal is set per quad (image A), asymmetrical behavior can be achieved by setting different Rest Length values for the edges. 
+		The component **WarpWeft** can also be used to separate the edges of a mesh according to warp and weft directions (C).
+![[Pasted image 20240522131333.png]]

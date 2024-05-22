@@ -90,13 +90,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a3457d95b32e7cc2",
@@ -186,32 +184,32 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "9d4f872ae585f47d",
+  "active": "d57dba6cb0024fc9",
   "lastOpenFiles": [
-    "Pasted image 20240521184625.png",
+    "images/Pasted image 20240522131333.png",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Topology/Form-Finding Strategies Using Kangaroo.md",
+    "images/Pasted image 20240522131247.png",
+    "images/Pasted image 20240522131209.png",
+    "images/Pasted image 20240522131153.png",
+    "images/Pasted image 20240522131117.png",
+    "images/Pasted image 20240522131103.png",
+    "images/Pasted image 20240522131054.png",
+    "images/Pasted image 20240522130943.png",
+    "images/Pasted image 20240522130836.png",
+    "images/Pasted image 20240522130825.png",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Topology/Kangaroo.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Topology/Digital Form-Finding.md",
     "Surfaces/Notion of Surface Curvature.md",
     "Transformations/Euclidean Transformations.md",
     "Data/Abstract Mathematical Spaces/Vectors.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Topology/Form-Finding Strategies Using Kangaroo.md",
-    "Pasted image 20240521182217.png",
-    "images/Pasted image 20240521150914.png",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Newton's First Law.md",
-    "images/Pasted image 20240521151305.png",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Newton's Second Law.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Bodies.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis/Concurrent Systems.md",
-    "images/Pasted image 20240521130100.png",
-    "images/Pasted image 20240521135543.png",
-    "images/Pasted image 20240521134850.png",
-    "images/Pasted image 20240521134032.png",
-    "images/Pasted image 20240521133914.png",
-    "images/Pasted image 20240521133909.png",
-    "images/Pasted image 20240521133900.png",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis/Static Equilibrium.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis/Free Body Diagram.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis/Statics Analysis.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Topology/Topology Optimization.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Topology/Digital Form-Finding.md",
     "Applications/Large Scale Projects.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis/Non-Concurrent Systems.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis/Curvature's Role in Stress Distribution.md",
@@ -224,7 +222,6 @@
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis/Moment.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Dynamics Analysis",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis/Structural Analysis.md",
-    "Transformations/Transformations.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis",
     "Untitled",
     "Abstract/Morphogenesis",
