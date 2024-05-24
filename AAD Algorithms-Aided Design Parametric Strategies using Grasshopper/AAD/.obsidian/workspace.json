@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis/Statics Analysis.md",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis/Static Equilibrium.md",
                 "mode": "source",
                 "source": false
               }
@@ -26,6 +26,18 @@
               "type": "markdown",
               "state": {
                 "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis/Concurrent Systems.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e9f523721294dd5b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis/Moment.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a3457d95b32e7cc2",
@@ -110,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Topology/Form-Finding Strategies Using Kangaroo.md",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis/Moment.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -127,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Topology/Form-Finding Strategies Using Kangaroo.md",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis/Moment.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -150,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Topology/Form-Finding Strategies Using Kangaroo.md"
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis/Moment.md"
               }
             }
           },
@@ -184,19 +197,24 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "d57dba6cb0024fc9",
+  "active": "e9f523721294dd5b",
   "lastOpenFiles": [
-    "images/Pasted image 20240522131333.png",
+    "Pasted image 20240524154030.png",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis/Concurrent Systems.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis/Moment.md",
+    "Pasted image 20240524152129.png",
+    "Pasted image 20240524152119.png",
+    "Pasted image 20240524152107.png",
+    "Pasted image 20240524152052.png",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis/Static Equilibrium.md",
+    "Pasted image 20240524150024.png",
+    "Pasted image 20240524145952.png",
+    "Pasted image 20240524145433.png",
+    "Pasted image 20240524145352.png",
+    "Pasted image 20240524145219.png",
+    "Pasted image 20240524144719.png",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis/Statics Analysis.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Topology/Form-Finding Strategies Using Kangaroo.md",
-    "images/Pasted image 20240522131247.png",
-    "images/Pasted image 20240522131209.png",
-    "images/Pasted image 20240522131153.png",
-    "images/Pasted image 20240522131117.png",
-    "images/Pasted image 20240522131103.png",
-    "images/Pasted image 20240522131054.png",
-    "images/Pasted image 20240522130943.png",
-    "images/Pasted image 20240522130836.png",
-    "images/Pasted image 20240522130825.png",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Topology/Kangaroo.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Topology/Digital Form-Finding.md",
     "Surfaces/Notion of Surface Curvature.md",
@@ -205,10 +223,7 @@
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Newton's First Law.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Newton's Second Law.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Bodies.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis/Concurrent Systems.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis/Static Equilibrium.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis/Free Body Diagram.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis/Statics Analysis.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Topology/Topology Optimization.md",
     "Applications/Large Scale Projects.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis/Non-Concurrent Systems.md",
@@ -219,7 +234,6 @@
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Scalar Fields.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Analysis.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Dynamics Analysis/Dynamics Analysis.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis/Moment.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Dynamics Analysis",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis/Structural Analysis.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Newtonian Physics/Statics Analysis",

@@ -27,7 +27,8 @@ The term "moment" in physics comes from the Latin word _momentum_, which means "
 - **Moment Creation**: In non-concurrent systems, since forces do not all pass through one common point, each force can be associated with a moment arm relative to any chosen point of rotation. The moment arm is the perpendicular distance from the point or axis of rotation to the line of action of the force.
 - **Calculating the Moment**: The moment caused by a force in such systems is calculated as the cross product of the position vector r (from the point of rotation to the point where the force is applied) and the force vector F, expressed as M=r×F. This moment (or torque) measures the tendency of the force to cause rotational motion about the point or axis.
 ##### [[Static Equilibrium#Static Equilibrium Analysis for Concurrent Force Systems|Concurrent Force Systems]]
-- **No Moment Creation**: In concurrent systems, where all forces meet at a single point, the perpendicular distance from the point of concurrency to the line of action of each force is zero. Since the moment arm is zero, the moment (torque) produced by each force about that point is also zero.
+- **Moment Creation**: In concurrent systems, if the line of action of the force(s) is perpendicular to the to the
+	- Where all forces meet at a single point, the perpendicular distance from the point of concurrency to the line of action of each force is zero. Since the moment arm is zero, the moment (torque) produced by each force about that point is also zero.
 - **Static Equilibrium**: For concurrent force systems, ensuring static equilibrium involves only checking that the vector sum of all forces equals zero (∑F=0), as there are no moments to consider about the point of concurrency.
 ##### Other Types of Moments
 ###### Moment of Inertia
@@ -56,7 +57,7 @@ In a concurrent system, where all forces meet at a common point, linear momentum
 		The total linear momentum of the system is the vector sum of the individual momenta. 
 
 [[#Law of Conservation of Momentum|Conservation of momentum]] is a key principle here, particularly evident in collision and explosion scenarios where, despite the forces being concurrent, the overall momentum of the system remains constant if no external forces are acting.
-### Angular Momentum:
+### [[Newton's Second Law#Angular Momentum|Angular Momentum]]:
 Angular momentum ($L$) of an **object about a point** is defined as the **[[Statics Analysis#Cross Product|cross product]]** of the **[[Static Equilibrium#Position Vectors (a fourth method to "find" Resultant Force Vectors)|position vector]]** ($r$) relative to **the point and the linear momentum of the object**:
 	$\large L=r×p$
 ###### Relevance in Non-Concurrent Systems
@@ -80,6 +81,25 @@ The conservation of linear momentum is a fundamental principle that holds in bot
 In the absence of external forces, the total linear momentum of a non-concurrent system remains constant.
 ###### Conservation of [[#Angular Momentum|Angular Momentum]]
 In the absence of external torques, the total angular momentum of the system about any point or axis remains constant.
+
+## Components of Moments
+##### Perpendicular Distance
+![[Pasted image 20240524152107.png]]
+The moment arm (d) is the perpendicular distance from the point about which the moment is being calculated to the line of action of the force.
+
+![[Pasted image 20240524152119.png]]
+If the force is applied at an angle other than 90 degrees to the moment arm, the effective moment arm is $\LARGE d′=d\sin (θ)$, where θ is the angle between the force and the moment arm.
+	I.e. That if the force F is applied at an angle $\theta$ != 90, then it will be more difficult to turn the bolt since the moment arm $d' = dsin(\theta)$ will be smaller than d.
+
+![[Pasted image 20240524152129.png]]
+lf F is applied along the wrench, its moment arm will be zero since the line of action of F will intersect point 0 (the z axis). 
+	As a result. the moment of F about 0 is also zero and no turning can occur.
+
+![[Pasted image 20240524154030.png]]
+We can generalize the above discussion and consider the force $\vec{F}$ and Point $O$ that lie in the gray plane. The moment $Mo$ about point $O$, or **about an axis passing through $O$** and **perpendicular** to the plane. is a [[#Vector Moment|vector]] quantity since it has a specified [[#Magnitude of a Moment|magnitude]] and [[#Direction of a Moment|direction]].
+##### [[#Magnitude of a Moment|Magnitude]] Dependence 
+The magnitude of the moment is directly proportional to both the force and the perpendicular distance. 
+	A larger force or a longer moment arm results in a greater moment.
 ## Axis of Rotation
 However, the [[#Point of Application|point of application]] in the context of moments, is referred to as the **axis of rotation**.
 	This is the point or axis about which we will determine all the moments.
@@ -102,9 +122,9 @@ Is the degree to which the moment will cause angular acceleration in the body it
 	It is represented by a scalar (i.e. a single number).
 Can be thought of as the "strength" of the twisting force exerted on the body.
 
-The magnitude of a moment, $M$, is measured in:
-	$\begin{equation*} \LARGE M = F \times d \end{equation*}$
-Where $F$ is the force, and $d$ is the distance.
+The magnitude of a moment, $|\vec{M}|$, is measured in:
+	$\begin{equation*} \LARGE |\vec{M}| = F \times d \end{equation*}$
+Where $F$ is the force, and $d$ is the [[#Perpendicular Distance|perpendicular distance]] from the axis at point $O$ to the line of action of the force.
 ##### Why Scale Force by Distance?
 ###### Amplification by Distance
 The further away the force is applied from the point or axis of rotation, the greater its ability to cause rotation. 
@@ -126,12 +146,41 @@ To use the right hand rule, align your right hand so that your thumb lines up w
 	If you do this, your thumb will be pointing in the direction of the moment vector.
 ## Calculating Moments
 To calculate the moment that a force exerts on a body, two methods can be used.
-##### [[Static Equilibrium#Scalar Form Analysis|Scalar Methods]]
+### [[Static Equilibrium#Scalar Form Analysis|Scalar Methods]]
+##### I.e. Scalar Formulation *of* the Scalar Moment 
+###### Scalar Formulation
+Refers to the method used to calculate the moment using scalar quantities. 
+	In this formulation, the moment M is determined by multiplying the magnitude of the force F by the perpendicular distance d from the point of interest to the line of action of the force.
+###### Scalar Moment
+This is the **result** of this scalar formulation is a scalar moment, which is a single numerical value representing the magnitude of the turning effect of the force.
+	This scalar moment does not include directional information about the axis of rotation but simply provides the magnitude of the moment.
+
+The (scalar) moment (M) is calculated as the product of the force (F) and the perpendicular distance (d) from the line of action of the force to the point of rotation.
+	This can be expressed as:
+	    $\large M=F⋅d$
+    Here, M is the scalar moment, F is the magnitude of the force, and d is the perpendicular distance (moment arm).
+
+The term "moment" is referred to as a scalar formulation because it simplifies the concept into a single numerical value that represents the turning effect of a force about a point.
+###### Scalar Moment Contextual Applications
+Used in contexts where only the magnitude of the moment is needed, such as in basic statics problems involving two-dimensional structures (e.g., levers, beams). 
+	This simplifies calculations and is sufficient for many practical applications.
+
+
 Scalar methods often require the resolution of forces into perpendicular components, especially in 2D equilibrium problems. 
 
 Here, the Law of Cosines and Law of Sines can be used to find these components when the geometry of the system forms a triangle. 
 	*For example*, if a force acts at an angle to a beam, these laws help determine the horizontal and vertical components of this force, which are crucial for checking whether the sum of the forces in any direction (horizontal and vertical) equals zero, as required for static equilibrium.
-##### [[Static Equilibrium#Vector Form Analysis (i.e. Cartesian Vectors)|Vector Methods]]
+### [[Static Equilibrium#Vector Form Analysis (i.e. Cartesian Vectors)|Vector Methods]]
+##### I.e. Vector Formulation and Vector Moment
+###### Vector Formulation
+In contrast, the vector formulation involves calculating the moment as a vector quantity using the [[Statics Analysis#Cross Product|cross product]] of the [[Static Equilibrium#Position Vectors (a fourth method to "find" Resultant Force Vectors)|position vector]]r (from the point of rotation to the point where the force is applied) and the force vector F.
+    $\LARGE M=r×F$
+###### Vector Moment
+The result is a vector moment, which includes both the magnitude and direction of the moment. The direction indicates the axis of rotation and follows the right-hand rule, providing a complete description of the rotational effect.
+###### Vector Moment Contextual Applications
+Necessary in contexts where the direction of the moment is important, such as in three-dimensional problems, complex machinery, and dynamics. 
+	The vector moment provides a comprehensive description, including both magnitude and direction.
+
 When calculating moments using vector methods, forces are often decomposed into components along orthogonal axes. 
 
 If the force's line of action and the moment arm form a triangle with the axis of rotation, trigonometric laws can help determine the angle between the force and lever arm.

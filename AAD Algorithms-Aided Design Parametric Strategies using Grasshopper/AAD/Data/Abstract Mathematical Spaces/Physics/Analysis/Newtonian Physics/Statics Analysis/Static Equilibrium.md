@@ -290,6 +290,7 @@ Specify the **magnitude** and the **coordinate direction angles** $\alpha_1$, $\
 ###### Position Vectors (a fourth method to "find" Resultant Force Vectors)
 Refers to a fundamental concept used to describe the location of a point or an object in space relative to a chosen reference point- this chosen reference point is typically chosen to be the "origin of a coordinate system".
 ###### Position vectors are used when no transverse, azimuth or coordinate direction angles are given. 
+I.e. When only dimensions are given.
 ![[Pasted image 20240509132253.png]]
 
 A position vector, denoted as $\large r$, is a **vector** that **originates from a fixed reference point** (usually the origin of a coordinate system) and points to the position of an object.
@@ -326,6 +327,10 @@ You can either use this form or simply find the Cartesian coordinates of the poi
 ###### The Force Vector (in vector form) of the Position Vector
 Utilizes the [[#Unit Vector|unit vector]] in order to produce the vector (i.e. component) form of the Force Vector. 
 $\large \vec{F_{r}} = |\vec{F_{r}}|\hat{u_{r}} == |\vec{F_{r}}|{\vec{r} \over |\vec{r}|}$
+###### Solving Equilibrium Equations using Position Vectors
+Once Equilibrium Equations have been found, they (i.e. the unknowns) can be solved via algebra or via Systems of Linear Equations: matrix elimination:
+	![[Pasted image 20240524145952.png]]
+		*This image is from an [[Concurrent Systems#Another Example Translational Equilibrium in 3D Concurrent Particle Cable Systems|example problem in Concurrent Particle Cable Systems]].*
 ###### Usage in Mechanics:
 - **[[Newtonian Mechanics#Analysis Kinematics Identifying the "Present" (i.e. initial) State State (of condition, Parameters parameters ). Kinematics|Kinematics]]**: Position vectors are used to track the location of objects as they move. Changes in the position vector over time describe the path or trajectory of the object.
 - **[[Newtonian Mechanics#Analysis Dynamics "Explains" the Causality of a State Change Dynamics|Dynamics]]**: The derivative of the position vector with respect to time gives the velocity vector, and the second derivative gives the acceleration vector, both of which are crucial for analyzing forces and motion according to Newton’s laws.
