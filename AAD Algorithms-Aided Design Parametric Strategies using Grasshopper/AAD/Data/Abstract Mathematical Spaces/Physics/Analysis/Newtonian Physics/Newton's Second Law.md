@@ -10,6 +10,7 @@ date created: 2024-05-03
 # Newton's Second Law (i.e. Law of Force/Motion/Momentum)
 **"When a net force acts on any body with mass, it produces an acceleration of that body. The net force will be equal to the mass of the body times the acceleration of the body."**
 
+![[Pasted image 20240525095708.png]]
 ##### Fundamentally describes how the **velocity** of an object **changes** when it is subjected to external forces.
 I.e. Is the analysis of acceleration - i.e. the change of an object's **velocity**. 
 	I.e. Change in momentum - which is a static or constant velocity.

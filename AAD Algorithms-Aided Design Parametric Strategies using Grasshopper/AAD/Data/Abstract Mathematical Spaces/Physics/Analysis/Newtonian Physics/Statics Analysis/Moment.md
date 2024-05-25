@@ -10,6 +10,8 @@ date created: 2024-05-15
 # Moment (i.e. Torque)
 ![[Pasted image 20240503132914.png]]
 Refers to a quantity related to the rotational effects produced by a force.
+	When a force is applied to a [[Bodies|body]] it will produce a tendency for the body to **rotate about a point that is *not* on the [[Statics Analysis#Line of Action|line of action]] of the force**.
+		This tendency to rotate is sometimes called a **torque**, but most often it is called the **moment of a force**, or more simply the moment.
 
 Refers to the tendency of a force to rotate (i.e. produce or change rotational motion)a body.
 Moments cause **angular accelerations**.
@@ -25,7 +27,7 @@ The term "moment" in physics comes from the Latin word _momentum_, which means "
 		The word was likely chosen because, like a brief moment in time can be pivotal, a mechanical moment describes the pivotal effect that a force can have in generating rotational motion.
 ##### [[Non-Concurrent Systems|Non-Concurrent Force Systems]]
 - **Moment Creation**: In non-concurrent systems, since forces do not all pass through one common point, each force can be associated with a moment arm relative to any chosen point of rotation. The moment arm is the perpendicular distance from the point or axis of rotation to the line of action of the force.
-- **Calculating the Moment**: The moment caused by a force in such systems is calculated as the cross product of the position vector r (from the point of rotation to the point where the force is applied) and the force vector F, expressed as M=r×F. This moment (or torque) measures the tendency of the force to cause rotational motion about the point or axis.
+- **Calculating the Moment**: The moment caused by a force in such systems is calculated as the cross product of the position vector r (from the point of rotation to the point where the force is applied) and the force vector F, expressed as $M=r×F$. This moment (or torque) measures the tendency of the force to cause rotational motion about the point or axis.
 ##### [[Static Equilibrium#Static Equilibrium Analysis for Concurrent Force Systems|Concurrent Force Systems]]
 - **Moment Creation**: In concurrent systems, if the line of action of the force(s) is perpendicular to the to the
 	- Where all forces meet at a single point, the perpendicular distance from the point of concurrency to the line of action of each force is zero. Since the moment arm is zero, the moment (torque) produced by each force about that point is also zero.
@@ -57,7 +59,7 @@ In a concurrent system, where all forces meet at a common point, linear momentum
 		The total linear momentum of the system is the vector sum of the individual momenta. 
 
 [[#Law of Conservation of Momentum|Conservation of momentum]] is a key principle here, particularly evident in collision and explosion scenarios where, despite the forces being concurrent, the overall momentum of the system remains constant if no external forces are acting.
-### [[Newton's Second Law#Angular Momentum|Angular Momentum]]:
+### [[Newton's Second Law#Angular Momentum|Angular Momentum]]
 Angular momentum ($L$) of an **object about a point** is defined as the **[[Statics Analysis#Cross Product|cross product]]** of the **[[Static Equilibrium#Position Vectors (a fourth method to "find" Resultant Force Vectors)|position vector]]** ($r$) relative to **the point and the linear momentum of the object**:
 	$\large L=r×p$
 ###### Relevance in Non-Concurrent Systems
@@ -81,9 +83,8 @@ The conservation of linear momentum is a fundamental principle that holds in bot
 In the absence of external forces, the total linear momentum of a non-concurrent system remains constant.
 ###### Conservation of [[#Angular Momentum|Angular Momentum]]
 In the absence of external torques, the total angular momentum of the system about any point or axis remains constant.
-
 ## Components of Moments
-##### Perpendicular Distance
+### Perpendicular Distance
 ![[Pasted image 20240524152107.png]]
 The moment arm (d) is the perpendicular distance from the point about which the moment is being calculated to the line of action of the force.
 
@@ -96,13 +97,15 @@ lf F is applied along the wrench, its moment arm will be zero since the line of 
 	As a result. the moment of F about 0 is also zero and no turning can occur.
 
 ![[Pasted image 20240524154030.png]]
-We can generalize the above discussion and consider the force $\vec{F}$ and Point $O$ that lie in the gray plane. The moment $Mo$ about point $O$, or **about an axis passing through $O$** and **perpendicular** to the plane. is a [[#Vector Moment|vector]] quantity since it has a specified [[#Magnitude of a Moment|magnitude]] and [[#Direction of a Moment|direction]].
-##### [[#Magnitude of a Moment|Magnitude]] Dependence 
+We can generalize the above discussion and consider the force $\vec{F}$ and Point $O$ that lie in the gray plane. 
+	The moment $Mo$ about point $O$, or **about an axis passing through $O$** and **perpendicular** to the plane, is a [[#Vector Moment|vector]] quantity since it has a specified [[#Magnitude of a Moment|magnitude]] and [[#Direction of a Moment|direction]].
+### [[#Magnitude of a Moment|Magnitude]] Dependence 
 The magnitude of the moment is directly proportional to both the force and the perpendicular distance. 
 	A larger force or a longer moment arm results in a greater moment.
-## Axis of Rotation
-However, the [[#Point of Application|point of application]] in the context of moments, is referred to as the **axis of rotation**.
+### Axis of Rotation
+The [[#Point of Application|point of application]] in the context of moments, is referred to as the **axis of rotation**.
 	This is the point or axis about which we will determine all the moments.
+		I.e. The Axis of Rotation is the axis which the moment is directed along. 
 ![[Pasted image 20240503133748.png]]
 *In the above image, the single force (vector) would cause different moments depending on if it is "about" (i.e. in relation to) point $A$ or point $B$, and thus different rotations.*
 
@@ -117,22 +120,28 @@ When adding together moments from multiple forces, all the moments must be taken
 
 When working in **dynamics** (i.e. moving bodies) all moments will need to relate to angular accelerations. 
 	Therefore, the shared/common axis of rotation will need to be a stationary one. 
-## Magnitude of a Moment
+
+###### The moment of a force does not always cause a rotation.
+	![[Pasted image 20240525101634.png]]
+### Magnitude of a Moment
 Is the degree to which the moment will cause angular acceleration in the body it is acting on. 
 	It is represented by a scalar (i.e. a single number).
 Can be thought of as the "strength" of the twisting force exerted on the body.
 
 The magnitude of a moment, $|\vec{M}|$, is measured in:
 	$\begin{equation*} \LARGE |\vec{M}| = F \times d \end{equation*}$
-Where $F$ is the force, and $d$ is the [[#Perpendicular Distance|perpendicular distance]] from the axis at point $O$ to the line of action of the force.
-##### Why Scale Force by Distance?
-###### Amplification by Distance
+Where $F$ is the force, and $d$ is the [[#Perpendicular Distance|perpendicular distance]] from the [[#Axis of Rotation|axis of rotation]] at point $O$ to the [[Statics Analysis#Line of Action|line of action]] of the force.
+##### Why Scale Force by Perpendicular Distance?
+For each unit of perpendicular distance from the axis of rotation to the line of action of the force, there the magnitude of the force is applied. 
+###### Amplification by Perpendicular Distance
 The further away the force is applied from the point or axis of rotation, the greater its ability to cause rotation. 
 	This is because a longer lever arm (greater distance $d$) means that the same amount of force can produce a larger turning effect. 
 		This principle is observable in everyday tools like wrenches or door handles — longer handles require less force to operate because they have a longer lever arm.
 
 The standard unit of measurement for for the magnitude of moments are Newton-meters ($\begin{equation*} \LARGE N \times m \end{equation*}$), and the standard English unit of measurement is foot-pounds ($\begin{equation*} \LARGE lb \times ft \end{equation*}$).
-## Direction of a Moment
+### Direction of a Moment
+The direction of $M_{o}$ is defined by its moment axis, which is perpendicular to the plane that contains the force $F$ and its moment arm $d$. 
+
 In a 2D space, the direction can be thought of a scalar quantity corresponding to the direction of rotation the moment would cause.
 	A moment that would cause a **counterclockwise rotation** is a **positive moment**.
 	A moment that would cause a **clockwise rotation** is a **negative moment**.
@@ -144,6 +153,20 @@ In a 3D space, a body can rotate about an axis in any direction.
 ![[Pasted image 20240503140615.png]]
 To use the right hand rule, align your right hand so that your thumb lines up with the axis of rotation for the moment and your curled fingers point in the direction of rotation for your moment. 
 	If you do this, your thumb will be pointing in the direction of the moment vector.
+
+The right-hand rule is used to establish the sense of direction of $M_{o}$.
+	 According to this rule the natural curl of the fingers of the right hand, as they arc drawn towards the palm, represent the tendency for rotation caused by the moment.
+		  As this action is performed. the thumb of the right hand will give the directional sense of $M_{o}$ Notice that the moment vector is represented three-dimensionally by a curl around an arrow. 
+		  In two dimensions this vector is represented only by the curl.
+			   Since in this case the moment will tend to cause a counterclockwise rotation. the moment vector is actually directed out of the page.
+### Resultant Moment
+![[Pasted image 20240525013735.png]]
+For 2D problems, where all the forces lies within the x-y plane, the resultant moment ($M_{R_{o}}$) about point $O$ can be determined by **finding all algebraic sum of the moments caused by all the forces in the system**.
+
+If we remember that as an *axis*, the **axis of rotation** (along which the moments are directed) has both a positive and negative direction, then:
+	As a convention **counterclockwise** moments are considered to be **positive moments**, "away from the plane".
+		**Clockwise** moments are considered to be **negative moments**, "approaching the plane".
+			Therefore, each moment can be represented by a **plus** or **minus** sign. 
 ## Calculating Moments
 To calculate the moment that a force exerts on a body, two methods can be used.
 ### [[Static Equilibrium#Scalar Form Analysis|Scalar Methods]]

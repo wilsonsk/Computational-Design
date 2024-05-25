@@ -151,7 +151,43 @@ The **perpendicular/orthogonal projection**.
 			 Therefore,
 				 $\large \vec{A_{\perp}} =  \vec{A} - \vec{A_{||}}$ 
 ### Cross Product
+At its core, the cross product of two vectors in three-dimensional space results in a new vector that is perpendicular to both original vectors. 
+	This operation is fundamentally about orientation and magnitude in space.
+		 $\large \vec{W_{\perp}} =  \vec{U} \times \vec{V}$ 
+			Where $\large \vec{w_{\perp}}$ equals  =  $\vec{U}$ cross $\vec{V}$
+##### The Magnitude of $\vec{w}$
+Is defined as the product of the magnitudes of U and V and the sine of the angle $\theta$:
+	$∥W∥=∥U∥∥V∥sin⁡(𝜃)$
+		where 𝜃 is the angle between 𝑢 and 𝑣 . 
+			This magnitude represents the area of the parallelogram spanned by 𝑢 and 𝑣.
+##### The Direction of $\vec{w}$
+![[Pasted image 20240525102935.png]]
+Vector $\vec{W}$ has a direction that is perpendicular to the plane containing $\vec{U}$ and $\vec{V}$.
+	Such that $\vec{w}$ is specified by the right-hand rule.
 
+The magnitude and direction of $\vec{w}$ can be represented by:
+	 $\large \vec{w_{\perp}} =  \vec{U} \times \vec{V} = (|U||V|sin⁡(\theta)) \times {\vec{u}_{c}}$ 
+		Where the [[Static Equilibrium#Unit Vector|unit vector]] $\LARGE \vec{u}_{W}$ is the **direction** of $\vec{W}$.
+			And where the scalar $|U||V|sin⁡(\theta)$ defines the magnitude of $\vec{W}$.
+			 
+###### Orientation and Right-Hand Rule
+The direction of the cross product vector is determined using the right-hand rule.
+	If you point your right hand's index finger in the direction of 𝑢u and your middle finger in the direction of 𝑣, your thumb will point in the direction of 𝑢×𝑣. 
+		This rule helps to resolve the ambiguity since there are two possible perpendicular directions .
+##### Geometric Interpretation
+The cross product can be visualized in terms of the area and orientation of the parallelogram formed by the two vectors.
+	If 𝑢 and 𝑣 are the vectors, the resulting vector 𝑤=𝑢×𝑣 is orthogonal (perpendicular) to the plane containing 𝑢 and 𝑣. 
+##### Algebraic Properties
+The cross product is not just about finding a perpendicular vector but also incorporates several key properties:
+1. **Anticommutativity**: 𝑢×𝑣=−(𝑣×𝑢).
+2. **Distributivity**: 𝑢×(𝑣+𝑤)=(𝑢×𝑣)+(𝑢×𝑤).
+3. **Multiplication by a Scalar**: 𝑐(𝑢×𝑣)=(𝑐𝑢)×𝑣=𝑢×(𝑐𝑣) .
+
+These properties ensure that the cross product behaves consistently with the geometric interpretation of vectors.
+
+##### Significance in Physics and Engineering
+The cross product is crucial in various physical applications, such as determining [[Moment|torque]], [[Newton's Second Law#Angular Momentum|angular momentum]], and the magnetic force on a moving charge. 
+	These applications rely on the cross product's ability to encapsulate both magnitude and directional information about vector quantities in three-dimensional space.
 ### Force Vector Representation
 When vectors are drawn to form [[Free Body Diagram|free body diagrams]], the magnitude and direction are usually given in one of two formats (i.e. [[Static Equilibrium#Vector Form Analysis (i.e. Cartesian Vectors)|vector form]] or [[Static Equilibrium#Scalar Form Analysis|scalar form]]).
 

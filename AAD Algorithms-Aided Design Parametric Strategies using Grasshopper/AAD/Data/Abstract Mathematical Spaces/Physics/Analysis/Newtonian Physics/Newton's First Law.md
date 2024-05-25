@@ -11,6 +11,8 @@ date created: 2024-05-03
 # Newton's First Law (i.e. the Law of Inertia)
 **"A body at rest will remain at rest unless acted on by an unbalanced force. A body in motion continues in motion with the same speed and in the same direction unless acted upon by an unbalanced force."**
 
+![[Pasted image 20240525095654.png]]
+
 This law, also sometimes called the "law of inertia", means that bodies maintain their current velocity unless a force is applied to change that velocity. 
 	If an object is at rest with zero velocity it will remain at rest until some force begins to change that velocity, and if an object is moving at a set speed and in a set direction it will remain at that same velocity until some force acts on it to change its velocity.
 ## Inertia
