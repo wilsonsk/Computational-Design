@@ -179,9 +179,12 @@ The cross product can be visualized in terms of the area and orientation of the 
 	If 𝑢 and 𝑣 are the vectors, the resulting vector 𝑤=𝑢×𝑣 is orthogonal (perpendicular) to the plane containing 𝑢 and 𝑣. 
 ##### Algebraic Properties
 The cross product is not just about finding a perpendicular vector but also incorporates several key properties:
-1. **Anticommutativity**: 𝑢×𝑣=−(𝑣×𝑢).
-2. **Distributivity**: 𝑢×(𝑣+𝑤)=(𝑢×𝑣)+(𝑢×𝑤).
-3. **Multiplication by a Scalar**: 𝑐(𝑢×𝑣)=(𝑐𝑢)×𝑣=𝑢×(𝑐𝑣) .
+###### Anticommutativity: 𝑢×𝑣=−(𝑣×𝑢).
+![[Pasted image 20240525103218.png]]
+The Commutative Law is **not** valid.
+###### Distributivity: 𝑢×(𝑣+𝑤)=(𝑢×𝑣)+(𝑢×𝑤).
+###### Associative Law: 𝑐(𝑢×𝑣)=(𝑐𝑢)×𝑣=𝑢×(𝑐𝑣) .
+The Associative Law **is** value
 
 These properties ensure that the cross product behaves consistently with the geometric interpretation of vectors.
 
@@ -214,13 +217,14 @@ The direction of the force being applied to a body.
 Has no units, but is usually given by reporting angles between the vector representing the force and the coordinate axes.
 	Or given by the $\LARGE x,y,z$ components of the vector.
 ##### Point of Application
-The point at which the force is applied to a body.
+The specific location or point at which the force makes contact with a body.
 For [[#Particle|particles]] there is only a **single point** for the forces to act on.
 For [[#Rigid Body|rigid bodies]] there are an infinite number of possible points of application.
 
 Some points of application will lead to the body undergoing simple linear acceleration and others will exert a moment on the body which will cause the body to undergo rotational acceleration as well as linear. 
 ##### Point of Concurrency
-Refers to the location where multiple force lines of action intersect. 
+![[Pasted image 20240526081655.png]]
+Refers to the location where **multiple force** lines of action intersect. 
 - In a concurrent force system, all the forces meet or are assumed to meet at this single point. This point is crucial for the analysis of the system because it simplifies calculations related to moments—since the moment arm length is zero at this point, the moments created by these forces about this point are zero.
 - In non-concurrent systems, each force has its distinct point of application and does not necessarily meet at a single point of concurrency. Here, the point of application becomes critical in determining the moment arms when calculating moments about any point of interest for ensuring rotational equilibrium.
 ##### Line of Action

@@ -11,6 +11,8 @@ date created: 2024-05-04
 A set of [[Statics Analysis#Structural Analysis Static Equilibrium Point Forces Point Forces as Vectors|point forces]] is considered concurrent if all the [[Statics Analysis#Line of Action|lines of action]] of those forces all come together at a single point.
 	I.e. A concurrent force system is one where all forces acting on a body intersect at a common point, regardless of their directions.
 
+A concurrent force system specifically refers to a system where there are **multiple forces** acting such that their lines of action intersect at a single common point. 
+
 Because the forces all act through a single point, **there are no [[Non-Concurrent Systems#Moments (i.e. Torque)|moments]] about this point**.
 	Because no moments exist, we can treat this body as a **particle**. 
 		In fact, because real particles only exist in theory, most particle analysis is actually applied to extended bodies with concurrent forces acting on them.
@@ -308,12 +310,19 @@ Is a type of contact force that involves the pulling or stretching force transmi
 
 ## [[Static Equilibrium#rotat|Rotational Equilibrium]] in Concurrent Systems
 Rotational equilibrium in a concurrent system typically involves less complexity regarding [[Moment|torque]] since any forces acting through the same point do not create torque about that point. 
-	Thus, if the forces are truly concurrent, the body does not experience rotational effects due to these forces. 
-		However, this assumption depends strictly on the perfect concurrency of all force vectors at a single point, which is an idealized scenario.
-			- **At the Point of Concurrency:**
-			    - If you calculate the moment about the point where all force lines intersect (the concurrency point), the moment arm is zero, and thus the moment is zero.
-			- **At Any Other Point:**
-			    - If you calculate the moment about a different point (not the concurrency point), there will be a non-zero perpendicular distance from that point to the lines of action of the forces. Here, the forces can indeed create a moment because there is a lever arm.
+
+In a concurrent system, if the point of concurrency is chosen as the axis of rotation, the moment arm is zero, resulting in zero torque.
+
+However, if a different point (not the point of concurrency) is chosen as the axis of rotation, there will be a non-zero perpendicular distance (moment arm) from this point to the lines of action of the forces.
+	This non-zero moment arm results in the generation of torque by each force about the chosen axis of rotation.
+		Therefore, in a concurrent system, forces can still generate torque if the axis of rotation is not at the point of concurrency, due to the existence of a non-zero moment arm.
+
+- **At the Point of Concurrency:**
+		- If you calculate the moment about the point where all force lines intersect (the concurrency point), the moment arm is zero, and thus the moment is zero.
+			- I.e. Calculating the moment of a point- that point being the actual point of concurrency.
+				- And thus there would be no perpendicular distance.
+- **At Any Other Point:**
+		- If you calculate the moment about a different point (not the concurrency point), there will be a non-zero perpendicular distance from that point to the lines of action of the forces. Here, the forces can indeed create a moment because there is a lever arm.
 ### [[Moment]] of a Force
 The moment of a force about a point is a measure of its tendency to cause a body to rotate around that point. 
 	It's often referred to as torque, but in [[Statics Analysis|statics]], it is typically called a moment.

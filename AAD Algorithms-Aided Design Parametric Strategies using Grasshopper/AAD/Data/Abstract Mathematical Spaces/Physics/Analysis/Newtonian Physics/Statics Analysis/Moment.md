@@ -17,6 +17,21 @@ Refers to the tendency of a force to rotate (i.e. produce or change rotational m
 Moments cause **angular accelerations**.
 	In this way, moments can be thought of as **"twisting forces"**.
 Are represented by [[#Vector|vectors]] = - i.e. have a magnitude, direction and point of application.
+#### The Moment Value
+A moment value (or torque) does describe the **likelihood or ease of rotation** about a point or axis. 
+	A higher magnitude of the moment indicates a greater tendency for the object to rotate. 
+		The moment (or torque) of a force about a point is a measure of its tendency to cause rotation about that point.
+			It is calculated as:
+					$M=F×d$
+				Where M is the moment, F is the magnitude of the force, and d is the perpendicular distance from the point of interest to the line of action of the force.
+###### High Moment Value
+A high moment value implies that the force, combined with the distance from the point of rotation, creates a significant turning effect.
+		This makes it easier to rotate the object around the point or axis.
+###### Low Moment Value
+A low moment value indicates a weaker turning effect, making it less likely to cause rotation.
+###### [[#Magnitude of a Moment|Magnitude]] of the Moment
+The magnitude of the moment indicates the strength of the rotational effect.
+	A larger moment means a stronger rotational effect and, therefore, a higher likelihood of causing rotation.
 
 Moments occur when forces are applied such that they do not all act through a single point (i.e., in [[Static Equilibrium#Static Equilibrium Analysis for Concurrent Force Systems|non-concurrent force systems]]).
 	In these cases, **the forces have the potential to create rotational effects about a point or axis**, and these effects are described by moments.
@@ -25,15 +40,30 @@ Moments occur when forces are applied such that they do not all act through a si
 The term "moment" in physics comes from the Latin word _momentum_, which means "movement" or a very brief portion of time.
 	Historically, this term was used in various mechanical contexts to describe something of importance in determining motion or an outcome, such as the effect of a lever.
 		The word was likely chosen because, like a brief moment in time can be pivotal, a mechanical moment describes the pivotal effect that a force can have in generating rotational motion.
-##### [[Non-Concurrent Systems|Non-Concurrent Force Systems]]
-- **Moment Creation**: In non-concurrent systems, since forces do not all pass through one common point, each force can be associated with a moment arm relative to any chosen point of rotation. The moment arm is the perpendicular distance from the point or axis of rotation to the line of action of the force.
-- **Calculating the Moment**: The moment caused by a force in such systems is calculated as the cross product of the position vector r (from the point of rotation to the point where the force is applied) and the force vector F, expressed as $M=r×F$. This moment (or torque) measures the tendency of the force to cause rotational motion about the point or axis.
-##### [[Static Equilibrium#Static Equilibrium Analysis for Concurrent Force Systems|Concurrent Force Systems]]
-- **Moment Creation**: In concurrent systems, if the line of action of the force(s) is perpendicular to the to the
-	- Where all forces meet at a single point, the perpendicular distance from the point of concurrency to the line of action of each force is zero. Since the moment arm is zero, the moment (torque) produced by each force about that point is also zero.
-- **Static Equilibrium**: For concurrent force systems, ensuring static equilibrium involves only checking that the vector sum of all forces equals zero (∑F=0), as there are no moments to consider about the point of concurrency.
-##### Other Types of Moments
-###### Moment of Inertia
+#### [[Non-Concurrent Systems|Non-Concurrent Force Systems]]
+###### Moment Creation
+In non-concurrent systems, since forces do not all pass through one common point, each force can be associated with a moment arm relative to any chosen point of rotation. The moment arm is the perpendicular distance from the point or axis of rotation to the line of action of the force.
+###### Calculating the Moment
+The moment caused by a force in such systems is calculated as the cross product of the position vector r (from the point of rotation to the point where the force is applied) and the force vector F, expressed as $M=r×F$. This moment (or torque) measures the tendency of the force to cause rotational motion about the point or axis.
+#### [[Static Equilibrium#Static Equilibrium Analysis for Concurrent Force Systems|Concurrent Force Systems]]
+**Moment Creation**
+In a concurrent system, if the point of concurrency is chosen as the axis of rotation, the moment arm is zero, resulting in zero torque.
+###### Point of Concurrency
+However, if a different point (not the point of concurrency) is chosen as the axis of rotation, there will be a non-zero perpendicular distance (moment arm) from this point to the lines of action of the forces.
+	This non-zero moment arm results in the generation of torque by each force about the chosen axis of rotation.
+	    I.e. Where all forces intersect.
+		    At this point, if it is chosen as the axis of rotation, the moment arm for each force is zero because the force's line of action passes through this point.
+###### Axis of Rotation
+Can be any point.
+	If it is the point of concurrency, the moment arm is zero, resulting in zero torque for the forces acting through this point.
+		If it is not the point of concurrency, the moment arm is non-zero, and forces can create torque.
+###### Forces Acting Through the Point of Concurrency:
+When all forces intersect at a single point (the point of concurrency), and this point is chosen as the axis of rotation, the moment arm (perpendicular distance) from the point to the line of action of each force is zero.
+	Therefore, torque τ at the point of concurrency is zero because τ=F⋅0=0.
+###### Static Equilibrium
+For concurrent force systems, ensuring static equilibrium involves only checking that the vector sum of all forces equals zero (∑F=0), as there are no moments to consider about the point of concurrency.
+#### Other Types of Moments
+###### Moment of [[Newton's First Law|Inertia]]
 This is another crucial concept in dynamics, describing how the mass of a body is distributed relative to an axis of rotation. The moment of inertia affects the rotational motion of an object but is not a force. It plays a role in the rotational version of Newton's second law, which relates torque, moment of inertia, and angular acceleration.
 ###### Bending Moment
 In structural engineering, a bending moment is the internal reaction induced in a structural element when external forces cause the element to bend. It’s expressed in terms of the force multiplied by the distance to the point of interest along the element, influencing how beams and other structural components are designed to withstand loads.
