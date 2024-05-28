@@ -70,7 +70,8 @@ In structural engineering, a bending moment is the internal reaction induced in 
 ###### Magnetic Moment
 In physics, particularly in electromagnetism, the magnetic moment refers to the magnetic strength and orientation of a magnet or other object that produces a magnetic field. It is a vector quantity determining how a magnetic object will react in a magnetic field.
 ###### Moment Capacity
-The internal property that resists bending caused by an external load
+Refers to the maximum bending moment that can be resisted by an element before it fails in bending
+	The internal property that resists bending caused by an external load.
 
 $\large (P) \times (x)$
 	Where $P =$ the load.
@@ -218,15 +219,28 @@ The term "moment" is referred to as a scalar formulation because it simplifies t
 Used in contexts where only the magnitude of the moment is needed, such as in basic statics problems involving two-dimensional structures (e.g., levers, beams). 
 	This simplifies calculations and is sufficient for many practical applications.
 
-
 Scalar methods often require the resolution of forces into perpendicular components, especially in 2D equilibrium problems. 
 
 Here, the Law of Cosines and Law of Sines can be used to find these components when the geometry of the system forms a triangle. 
 	*For example*, if a force acts at an angle to a beam, these laws help determine the horizontal and vertical components of this force, which are crucial for checking whether the sum of the forces in any direction (horizontal and vertical) equals zero, as required for static equilibrium.
+#### Calculating a Scalar Moment
+##### Two Methods
+###### 1. Right Triangle Method (based on the perpendicular moment arm)
+![[Pasted image 20240526145721.png]]
+Steps:
+1. Extend the force if needed.
+2. Produce a perpendicular line to the point about which the moment is calculated.
+3. Find the distance of that perpendicular line via Trig.
+4. Plug values into $m=fd$ 
+###### 2. Component Vector Method
+![[Pasted image 20240526150511.png]]
+Steps:
+1. Find the moment created by both components and then find sum of both moments.
+
 ### [[Static Equilibrium#Vector Form Analysis (i.e. Cartesian Vectors)|Vector Methods]]
 ##### I.e. Vector Formulation and Vector Moment
 ###### Vector Formulation
-In contrast, the vector formulation involves calculating the moment as a vector quantity using the [[Statics Analysis#Cross Product|cross product]] of the [[Static Equilibrium#Position Vectors (a fourth method to "find" Resultant Force Vectors)|position vector]]r (from the point of rotation to the point where the force is applied) and the force vector F.
+In contrast, the vector formulation involves calculating the moment as a vector quantity using the [[Statics Analysis#Cross Product|cross product]] of the [[Static Equilibrium#Position Vectors (a fourth method to "find" Resultant Force Vectors)|position vector]] r (from the point of rotation to the point where the force is applied) and the force vector F.
     $\LARGE M=r×F$
 ###### Vector Moment
 The result is a vector moment, which includes both the magnitude and direction of the moment. The direction indicates the axis of rotation and follows the right-hand rule, providing a complete description of the rotational effect.

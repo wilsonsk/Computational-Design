@@ -16,7 +16,7 @@ date created: 2024-04-10
 
 ![[Pasted image 20240410153825.png|400]]
 ![[Pasted image 20240422200835.png]]
-Is a **straight line** that **intersects (i.e. cuts) a curve at two points**.
+Is a **straight line** (i.e. linear equation) that **intersects (i.e. cuts) a curve at two points**.
 	I.e. Connects two or more points **on** the **curve of a function**.
 		It forms the **hypotenuse** between those two intersected points on the curve of a function.
 ## Represents a [[Proportion|Proportion]]

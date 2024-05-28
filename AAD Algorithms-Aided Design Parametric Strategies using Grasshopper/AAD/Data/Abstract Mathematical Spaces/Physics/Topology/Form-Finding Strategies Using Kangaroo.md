@@ -415,3 +415,28 @@ Additionally, different diagonals configurations can be tested which yield varyi
 	*For example*, if one diagonal is set per quad (image A), asymmetrical behavior can be achieved by setting different Rest Length values for the edges. 
 		The component **WarpWeft** can also be used to separate the edges of a mesh according to warp and weft directions (C).
 ![[Pasted image 20240522131333.png]]
+#### Shell Behavior
+Since particles behave like spherical hinges, without [[Moment#Moment Capacity|moment capacity]], a discretized model cannot act [[Bodies#Rigid Bodies|rigidly]] without additional restraint. 
+
+*For example*, a simulated mesh-sphere moving in the negative z direction under the action of gravity will crumple (even with reinforcing the mesh diagonals and a high stiffness value) when the sphere reaches the XY plane or the simulated floor. 
+![[Pasted image 20240526152435.png]]
+	To prevent such crumpling, the **Shell** component can be utilized.
+###### Shell component
+
+###### Discretization
+![[Pasted image 20240526153427.png]]
+The mesh edges and vertices are extracted from a mesh sphere set from Rhino.
+	The points (i.e. particles) are connected to the **Unary Force** component and the lines (i.e. edges and diagonals) are converted into [[#Springs|springs]].
+
+The diagonals are defined by connecting the opposite vertices of each face using the **Mesh Explode** and **Deconstruct Mesh** components.
+###### Particle Spring System
+![[Pasted image 20240526154235.png]]
+The edges and diagonals are merged into a single list using the **Merge** component.
+	Since the mesh-sphere has triangular faces around the poles, the edges and diagonals overlap.
+		This condition would impact the simulation.
+
+Therefore, the **removeDuplicateLines** component is used to remove coincident lines within a tolerance. 
+	The (Q)-output of the **removeDuplicateLines** component is connected to the (Connection)-input and (Rest Length)-input of the **Springs** component.
+		A stiffness value is set to 5000 units. 
+
+Lastly, the **Shell** component returns a shell force from the input mesh with an input strength set to 500 and an input angle factor set to 1. 

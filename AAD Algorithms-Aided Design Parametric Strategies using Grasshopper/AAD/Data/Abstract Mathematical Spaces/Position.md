@@ -2,7 +2,7 @@
 up:
   - "[[Abstract Mathematical Spaces]]"
 related:
-  - "[[Measurement]]"
+  - "[[Data/Abstract Mathematical Spaces/Measurement]]"
   - "[[Proportion]]"
 date created: 2024-04-22
 ---

@@ -287,7 +287,8 @@ Specify the **magnitude** and the **coordinate direction angles** $\alpha_1$, $\
 	![[Pasted image 20240508141408.png]]
 4. Calculate the **Coordinate Direction Angles** $\alpha_1$, $\beta_1$, and $\gamma_1$ of **$\large F_1$**
 	![[Pasted image 20240508141512.png]]
-###### Position Vectors (a fourth method to "find" Resultant Force Vectors)
+###### Position Vectors
+As a fourth method to "find" Resultant Force Vectors)
 Refers to a fundamental concept used to describe the location of a point or an object in space relative to a chosen reference point- this chosen reference point is typically chosen to be the "origin of a coordinate system".
 ###### Position vectors are used when no transverse, azimuth or coordinate direction angles are given. 
 I.e. When only dimensions are given.
@@ -322,7 +323,7 @@ $\large \vec{r_B} = x_{B}\textbf{i} + y_{B}\textbf{j} + z_{B}\textbf{k}$
 $\large \vec{r_A} = x_{A}\textbf{i} + y_{A}\textbf{j} + z_{A}\textbf{k}$ 
 	Where $\large \vec{r_A}$ is a vector from the origin to point $A$.
 You can either use this form or simply find the Cartesian coordinates of the points $A$ and $B$.
-###### Vector Form of the Position Vector $\large \vec{r}$
+###### Vector Form of the Position Vector $\large \vec{r_{AB}}$
 	$\large \vec{r_{AB}} = (x_{B}-x_{A})\textbf{i} + (y_{B}-y_{A})\textbf{j} + (z_{B}-z_{A})\textbf{k}$ 
 ###### The Force Vector (in vector form) of the Position Vector
 Utilizes the [[#Unit Vector|unit vector]] in order to produce the vector (i.e. component) form of the Force Vector. 

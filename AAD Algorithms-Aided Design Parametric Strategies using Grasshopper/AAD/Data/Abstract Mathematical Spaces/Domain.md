@@ -10,7 +10,7 @@ related:
   - "[[Numbers]]"
   - "[[Position]]"
   - "[[Proportion]]"
-  - "[[Measurement]]"
+  - "[[Data/Abstract Mathematical Spaces/Measurement]]"
 date created: 2024-04-23
 ---
 # Domain

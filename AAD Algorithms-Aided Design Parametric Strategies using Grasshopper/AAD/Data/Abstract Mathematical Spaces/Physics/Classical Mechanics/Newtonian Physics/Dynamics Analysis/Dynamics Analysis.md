@@ -15,7 +15,7 @@ As a means to **predict the future** from the present.
 ## All Physics is a Consideration of Two Aspects
 Each aspect has an associated "way" of describing itself. 
 1. [[#Present|Present]]/Initial state.
-	- [[#Kinematics Identifying the "Present" (i.e. initial) State (of condition, Parameters parameters ).|Kinematics]].
+	- [[#Kinematics Kinematics Identifying the "Present" (i.e. initial) State State (of condition, Parameters parameters ).|Kinematics]].
 2. [[#Future|Future]]/changed state.
 	- [[#Dynamics "Explains" the Causality of a State Change|Dynamics]]. 
 ## Defining the Context
@@ -86,7 +86,7 @@ The property or characteristic being measured, such as length, time, mass, tempe
 It involves the collection of data through observation and interaction with the system using instruments and methodologies that provide quantifiable results. 
 ### 1. Present
 A **state** (static set) of **initial** **conditions** or **parameters** (before a change in any of their values).
-#### Kinematics: Identifying the "Present" (i.e. initial) [[#State|State]] (of condition, [[Parameters|parameters]]).
+#### [[Kinematics Analysis|Kinematics Analysis]]: Identifying the "Present" (i.e. initial) [[#State|State]] (of condition, [[Parameters|parameters]]).
 It is a complete **description** of an initial **state**. 
 	A **list** of only the most **pertinent**, relevant and causal **initial conditions**.
 
@@ -120,7 +120,7 @@ Identify what constitutes the [[#1. Present]] - that is - that [[#State|state]] 
 	I.e. Identify what constitutes the most maximal [[#State|information]] about this present state.
 		1. Place an **origin** on the $x-axis$.
 		2. Place **[[|distance]]** **markers** on the $x-axis$.
-			- This enables the [[Measurement|measurement]] of distance.
+			- This enables the [[Data/Abstract Mathematical Spaces/Measurement|measurement]] of distance.
 				- And therefore, enables a **[[Position|position]]** (i.e. location).
 	- Don't forget to translate units. 
 ##### The Result
