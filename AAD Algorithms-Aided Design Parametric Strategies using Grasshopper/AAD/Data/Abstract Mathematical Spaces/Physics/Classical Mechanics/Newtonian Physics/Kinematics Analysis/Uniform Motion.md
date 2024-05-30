@@ -22,7 +22,7 @@ The motion occurs along a straight path without any deviation.
 In uniform motion, the relationship between displacement (x), velocity (v), and time (t) can be described using simple linear equations.
 ###### Velocity
 The velocity of an object in uniform motion is given by: 
-	$\LARGE v=ΔtΔx​$ 
+	$\LARGE v={Δx \over \triangle t}​ = {x(t_{2}) - x(t_{1}) \over t_{2} - t_{1}}$  
 		Where Δx is the displacement and Δt is the time interval.
 ###### Displacement
 Rearranging the equation for velocity, we can express displacement as: $\LARGE Δ𝑥=𝑣⋅Δ𝑡$. 
@@ -33,13 +33,13 @@ Uniform motion can be visualized through graphs, which help in understanding the
 ###### Displacement-Time Graph (x-t graph)
 In uniform motion, the displacement-time graph is a straight line with a constant slope. 
 
-The [[Slope|slope]] of the line represents the velocity of the object.
-	The steeper the slope, the higher the velocity.
+**The [[Slope|slope]] of the line represents the velocity of the object.**
+	**The steeper the slope, the higher the velocity.**
 ###### Velocity-Time Graph (v-t graph)
 For uniform motion, the velocity-time graph is a horizontal line parallel to the time axis, indicating constant velocity. 
 
 There is no change in velocity over time, so the line remains flat.
-## Uniform [[Newton's Second Law#Motion|Motion]] in 1D (i.e. 1 Dimension)
+## Uniform 1D  (i.e. 1 Dimensional) [[Newton's Second Law#Motion|Motion]]
 Movement along a single axis.
 	Because of the 1D motion, vectors are not needed.
 
@@ -47,8 +47,8 @@ Uniformity refers to constant [[Newton's Second Law#Velocity|velocity]], $v$.
 	Which itself means constant [[#Displacement (Δx,Δy,Δz)|displacement]], $\triangle x$ (i.e. the distance between two input values).
 ![[Pasted image 20240528133219.png]]
 ![[Pasted image 20240528133253.png]]
-*Note*: *The slope of the linear time dependence function is the velocity.*
-	In this case, the slope is 1 / 2 and the velocity is a constant 0.5m/s.
+***Note*: *The slope of the linear time dependence function is the velocity.***
+	**In this case, the slope is 1 / 2 and the velocity is a constant 0.5m/s.**
 #### Linear Time Dependence
 Linear time dependence refers to a relationship where one variable changes linearly with respect to time. 
 	In kinematics, this concept is often used to describe how displacement ($\triangle x$) changes over time ($\triangle t$) in scenarios of uniform motion.

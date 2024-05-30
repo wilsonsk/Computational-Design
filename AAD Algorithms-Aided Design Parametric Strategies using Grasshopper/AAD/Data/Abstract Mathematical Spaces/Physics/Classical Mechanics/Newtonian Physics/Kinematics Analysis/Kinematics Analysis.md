@@ -23,7 +23,7 @@ The change in position of an object.
 		Displacement is calculated as the difference between the final and initial positions of the object.
 ##### [[Newton's Second Law#Velocity|Velocity]] (v)
 The rate at which an object changes its position. It is a vector quantity and can be described as:
-	**Average Velocity (𝑣ˉvˉ)**: Total displacement divided by the total time taken.
+	**[[Linear Motion#Average Velocity|Average Velocity]] (𝑣ˉvˉ)**: Total displacement divided by the total time taken.
 	**Instantaneous Velocity (v(t))**: The velocity of an object at a specific moment in time, found by taking the derivative of the position with respect to time.
 ##### [[Newton's Second Law#Speed|Speed]]
 The magnitude of velocity. Unlike velocity, speed is a scalar quantity and does not have direction.
@@ -61,7 +61,7 @@ Key characteristics of uniform motion:
 Mathematically, if an object is in uniform motion, its displacement (Δ𝑥Δx) over a time interval (Δt) can be described by: 
 	$\LARGE Δx=v⋅Δt$ 
 		Where $v$ is the constant velocity.
-###### Linear Motion
+###### [[Linear Motion|Linear Motion]]
 Linear motion refers to motion along a straight line, but it does not specify whether the speed is constant. 
 	Linear motion can involve varying speed, constant speed, or even accelerated motion along a straight path.
 	
