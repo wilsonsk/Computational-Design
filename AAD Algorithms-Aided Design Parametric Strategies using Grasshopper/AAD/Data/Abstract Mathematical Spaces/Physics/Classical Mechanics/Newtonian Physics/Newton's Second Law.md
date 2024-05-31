@@ -59,6 +59,8 @@ Dynamics deals with how bodies respond to forces, often involving motion. Here, 
 		Velocity tells us not only how fast an object is moving but also in which direction it is moving.
 
 Velocity is a ratio.
+	Where a specific quantity of [[Kinematics Analysis#Displacement (Δx,Δy,Δz)|displacement]] is associated or paired with a specific quantity of time.
+		This is a [[Data/Abstract Mathematical Spaces/Physics/Basic Concepts/Measurement#Derived Dimensions|derived dimension]].
 
 $\large v = {\triangle x \over \triangle t}$
 	Where $v$ is velocity.
