@@ -51,7 +51,6 @@ The integration is performed from t0​ to t.
 Now each $x(t_{i})$ is the area under the graph up to that specific point. 
 
 Therefore, integrating the derivative function up to a point and then producing the output value of the function that produced that initial derivative. 
-
 ### Step-by-Step Solution
 
 1. **Given Data:**
@@ -62,11 +61,41 @@ Therefore, integrating the derivative function up to a point and then producing 
 2. **Position Function:** The position x(t) is found by integrating the velocity function
 #### Example
 Let's consider a specific example where the velocity function is $v(t)=3t^2$.
-
 **Given:**
-
 - Initial position $x_0​=0$ meters
 - Initial time $t_0​=0$ seconds
 - Velocity function $v(t)=3t^2$
 - Time of interest t=2 seconds
 ![[Pasted image 20240602162742.png]]
+## Derivatives Vs. Integrals
+![[Pasted image 20240602190201.png]]
+### Integral Constant
+If you write down an Integral, you will always write down an Integral Constant.
+
+Also known as the Constant of Integration.
+	It is produced as a by product of finding the indefinite integral (i.e. antiderivative) of a function.
+#### Understanding the Constant of Integration
+###### Indefinite Integral
+The indefinite integral of a function f(x) is a family of functions F(x) such that F′(x)=f(x). 
+	It is denoted by:
+	    $f(x)dx=F(x)+C$
+		    Here, C is the constant of integration.
+###### Why the Constant of Integration?
+When you take the derivative of a constant, it becomes zero.
+	Therefore, when integrating, there could be an infinite number of functions that differ only by a constant whose derivative is the same.
+		 To account for all these possibilities, we include the constant C.
+##### Example
+Consider the function f(x)=2x. To find its indefinite integral:
+1. **Set Up the Integral**:
+	$∫2xdx$
+2. **Find the Antiderivative**: We know that the antiderivative of 2x is x^2 (since ${dx\over d​}x^2=2x$).
+	However, any function of the form $x^2+C$ where C is a constant will also have a derivative of 2x.
+3. **Include the Constant of Integration**:
+    $∫2xdx=x^2+C$
+##### Why It Matters
+The integral constant 𝐶C is essential in the context of indefinite integrals because it represents the family of all possible antiderivatives of a function. 
+	It ensures that the integration process accounts for all potential vertical shifts of the antiderivative function, reflecting the fact that differentiation loses this information.
+
+- **General Solution**: The constant of integration allows us to express the general solution to an indefinite integral. Without 𝐶C, we would only have a particular solution.
+    
+- **Initial Conditions**: In many practical problems, an initial condition or boundary condition is provided. The constant of integration is determined using this condition. For example, if you know 𝐹(0)=3F(0)=3, then you can solve for 𝐶C by substituting into 𝐹(𝑥)=𝑥2+𝐶F(x)=x2+C.

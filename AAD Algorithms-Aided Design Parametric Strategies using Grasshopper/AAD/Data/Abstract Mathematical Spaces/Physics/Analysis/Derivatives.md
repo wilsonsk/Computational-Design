@@ -13,12 +13,30 @@ date created: 2024-04-10
 ---
 # Derivatives
 ## $f'(x)$
-## Is a [[Proportion|Proportion]]
-Proportion is fundamental to the concept of the derivative.
+
+#### Differentiation
+Refers to the process of finding the derivative of a function.
+
+The term "differential" comes from the concept of differences.
+	Differentiation refers to the changes or differences in output values of a function as the input changes. 
+		The differentiation of function values is represented/expressed in the fact that the derivative is defined as the **limit of the difference quotient**. 
+##### Difference Quotient
+#### $\LARGE {f(x+h)−f(x)​ \over h}$
+###### Difference
+The numerator $f(x+h)−f(x)$ represents the [[Kinematics Analysis#Displacement (Δx,Δy,Δz)|displacement]] or the change in the function's value as the input changes from $x$ to $x+h$.
+###### Quotient
+Dividing by $h$ scales this change by the size of the increment $h$, giving the average rate of change over the interval from $x$ to $x+h$.
+###### Geometric Interpretation
+Geometrically, the difference quotient $\LARGE {f(x+h)−f(x)​ \over h}$ represents the slope of the secant line that passes through the points $(x,f(x))$ and $(x+h,f(x+h))$ on the graph of the function.
+	As $h$ approaches zero, this secant line approaches the tangent line to the curve at the point $(x,f(x))$.
+		The slope of this tangent line is the derivative $\LARGE f′(x)$.
+
+## Derivative Is a [[Division#Ratio|Ratio]]
+Ratios are a fundamental to the concept of the derivative.
 It [[Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Measurement|measures]] the output ($\Delta y$) of a function $f(x)$ is proportioned to the input ($\Delta x$) at an infinitesimally small scale.
-### Is the Instantaneous Rate (i.e. Proportion) of Change of a Function
+### Is the Instantaneous Rate (i.e. [[Division#Ratio|Ratio]]) of Change of a Function
 A derivative (of a function $f(x)$) at a single point $f'(x)$, is itself a function that maps that single point (as an input) to the **value** of the **limit** of the **average rate of change** (i.e. limit of $\Delta y / \Delta x$) of that input.
-#### Is the [[Tangent Line#The Slope of a Tangent Line|Slope]] (i.e. a proportion/rate/ratio between $\Delta y / \Delta x$) of the [[Tangent Line|Tangent Line]]
+#### Is the [[Tangent Line#The Slope of a Tangent Line|Slope]] (i.e. a rate/ratio between $\Delta y / \Delta x$) of the [[Tangent Line|Tangent Line]]
 A **derivative** of a **function** at a point **provides the slope of the [[Tangent Line|tangent]] line to the function at that specific point**.^calculus-derivatives
 - The **derivative** (which only exists for a given point) is itself is a **value** that represents the **exact slope** of the **tangent vector** at that **point** it is associated with (on the curve).
 	- I.e. The **derivative** ***is*** the **slope of the tangent line**.
@@ -128,3 +146,34 @@ It is obtained by **differentiating** the **first derivative** $f'(x)$
 ###### 1. Compute the First Derivative:
 Find $f'(x)$ of the function $f(x)$.
 	The first derivative represents the **rate of change** of the function i.e. the **slope of the tangent line** at any point $x$.
+
+
+### Example: Finding the Derivative
+
+#### Given Position Function:
+
+![[Pasted image 20240602234115.png]]
+
+#### Find the Derivative:
+
+To find the derivative 𝑥′(𝑡)x′(t), we'll differentiate 𝑥(𝑡)x(t) with respect to 𝑡t.
+
+1. **Write the position function:** 
+	![[Pasted image 20240602234124.png]]
+2. **Differentiate each term:**
+![[Pasted image 20240602234345.png]]
+![[Pasted image 20240602234358.png]]
+![[Pasted image 20240602234407.png]]
+ ![[Pasted image 20240602234152.png]]
+3. **Combine the results:** 
+	![[Pasted image 20240602234201.png]]
+### Interpretation
+![[Pasted image 20240602234215.png]]
+### Why Use Derivatives?
+
+- **Instantaneous Information**: Unlike average velocity, which gives a single value over an interval, the derivative provides detailed information about how the position changes at every instant.
+- **Dynamic Analysis**: It helps analyze motion dynamically. For example, if you want to know the acceleration (how velocity changes over time), you would take the derivative of the velocity function, 𝑥′′(𝑡)x′′(t).
+
+### Summary
+
+Finding the derivative 𝑥′(𝑡)x′(t) of a position function 𝑥(𝑡)x(t) produces a new function that describes the instantaneous velocity at any given time 𝑡t. This new function captures the dynamic nature of the motion and allows for deeper analysis of how the object's position changes over time.

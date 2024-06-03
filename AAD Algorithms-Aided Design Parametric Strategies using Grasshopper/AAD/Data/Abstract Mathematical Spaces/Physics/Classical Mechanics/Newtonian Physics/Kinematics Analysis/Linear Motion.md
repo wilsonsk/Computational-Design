@@ -32,11 +32,10 @@ This slope (average velocity) is calculated by taking the difference in position
 
 As the [[Kinematics Analysis#Displacement (Δx,Δy,Δz)|displacement]] (i.e. interval between x values) of $\triangle x$ approaches 0, this represents the [[Limits|limit]]  of the secant line which is becomes a tangent line associated with "one" point or value of x (when the interval is 0).
 	And the slope of this [[Tangent Line|tangent line]] is the [[Derivatives|derivative]] of the point (i.e. x value in this case). 
-		And this derivative is the velocity at that point. 
+		And this [[Derivatives|derivative]] is the velocity at that point. 
 ![[Pasted image 20240529215642.png|300]]
 This graph is the velocity ($\LARGE v(t)$) - i.e. the derivative (i.e. $\LARGE x'(t)$ or $\LARGE \dot{x}(t)$)for each point of the graph of the function $\LARGE x(t)$.
 	Where each point of this function is the derivative of a t value of function x(t).
-
 #### Example Problem Setup
 
 We have a position function x(t) and we want to find its derivative x′(t), which represents the velocity v(t).
@@ -44,6 +43,10 @@ We have a position function x(t) and we want to find its derivative x′(t), whi
 The derivative x′(t) of x(t) is given by the limit:
 ![[Pasted image 20240602162841.png]]
 #### ![[Pasted image 20240602163652.png]]
+Therefore, if:
+	$\LARGE v(t) = {dx \over dt}$
+		Then, one can actually find the displacement of $x$ via:
+			$\LARGE dx = v(t) dt$
 ## 1D Motion: [[Newton's Second Law#Acceleration|Acceleration]]
 ![[Pasted image 20240531150448.png]]
 ### Average Acceleration Between $t_{1}$ and $t_{2}$
