@@ -14,6 +14,7 @@ date created: 2024-04-10
 ---
 # Limits
 ## Limit i.e. *limes*
+*See [[Linear Motion#Average Velocity|Linear Motion]] for more specific application of Limits.* 
 ### The Limit of a function, $f(x)$ is  $lim_{x→a​}f(x)$
 A limit describes the behavior of a function as its input value (i.e. argument) approaches a particular point, or as it goes to infinity. 
 Meaning the boundary or threshold.

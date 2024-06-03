@@ -37,11 +37,11 @@ It's important to note that while transformations can represent motion, they can
 ### Types of Transformations
 [[Transformations|Transformations]], particularly [[Euclidean Transformations#Translations|translations]] and [[Euclidean Transformations#Rotations|rotations]], can be used to mathematically describe or represent the motion of objects in physics. 
 #### [[Euclidean Transformations#Translations|Translation Transformation]]
-Can describe an object moving in a straight line from one location to another without changing its orientation or speed—akin to translational motion in physics.
+Can describe an object [[Linear Motion|moving in a straight line]] from one location to another without changing its orientation or speed—akin to translational motion in physics.
 ###### Application to Force Vectors
 A translational transformation of a force vector might involve shifting the point of application of the force along a line of action, without changing the magnitude or direction of the force itself. This is particularly relevant in statics for analyzing how different placements of forces affect the stability of a structure.
 ###### Application to Bodies
-When a body undergoes a translational transformation, it moves from one position to another without any rotation. In physics, this corresponds to the entire body moving linearly in space, which can occur under the action of uniform forces.
+When a body undergoes a translational transformation, it moves from one position to another without any rotation. In physics, this corresponds to the entire body [[Linear Motion|moving linearly]] in space, which can occur under the action of uniform forces.
 #### [[Euclidean Transformations#Rotations|Rotational Transformation]]
 Corresponds to an object rotating around a fixed axis, similar to rotational motion in physics.
 ###### Application to [[Statics Analysis#Force Vector Representation|Force Vectors]]

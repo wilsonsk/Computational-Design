@@ -15,7 +15,7 @@ date created: 2024-04-10
 ## $f'(x)$
 ## Is a [[Proportion|Proportion]]
 Proportion is fundamental to the concept of the derivative.
-It [[Data/Abstract Mathematical Spaces/Measurement|measures]] the output ($\Delta y$) of a function $f(x)$ is proportioned to the input ($\Delta x$) at an infinitesimally small scale.
+It [[Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Measurement|measures]] the output ($\Delta y$) of a function $f(x)$ is proportioned to the input ($\Delta x$) at an infinitesimally small scale.
 ### Is the Instantaneous Rate (i.e. Proportion) of Change of a Function
 A derivative (of a function $f(x)$) at a single point $f'(x)$, is itself a function that maps that single point (as an input) to the **value** of the **limit** of the **average rate of change** (i.e. limit of $\Delta y / \Delta x$) of that input.
 #### Is the [[Tangent Line#The Slope of a Tangent Line|Slope]] (i.e. a proportion/rate/ratio between $\Delta y / \Delta x$) of the [[Tangent Line|Tangent Line]]

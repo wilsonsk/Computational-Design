@@ -25,7 +25,6 @@ Creates a vector between two described points:
 	- (V): The produced vector.
 	- (L): *Length* i.e. quantity/magnitude. 
 - **Vector Display** component can be used to display the vector.
-
 ### Unit Vector component:
 Can be used to **unitize** the vector or **change** the **magnitude** to **1** **unit**, without modifying the direction.
 	- Given a vector with a specified **direction** and **magnitude** (L) described by **two points**.

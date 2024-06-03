@@ -2,7 +2,7 @@
 up:
   - "[[Abstract Mathematical Spaces]]"
 related:
-  - "[[Data/Abstract Mathematical Spaces/Measurement]]"
+  - "[[Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Measurement]]"
   - "[[Tangent Line]]"
   - "[[Secant Line]]"
   - "[[Derivatives]]"

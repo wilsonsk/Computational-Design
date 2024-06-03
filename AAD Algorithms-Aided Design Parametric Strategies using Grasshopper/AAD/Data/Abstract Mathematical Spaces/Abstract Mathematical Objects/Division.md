@@ -1,3 +1,9 @@
+---
+up:
+  - "[[Abstract Mathematical Objects]]"
+related: 
+date created: 2024-05-31
+---
 # Division
 Can be thought of as simply the amount of one quantity of a "thing" that is associated with a separate quantity of another "thing".
 	I.e.  A ratio.
@@ -47,3 +53,50 @@ For quantities a and b, the ratio ba​ represents how many times b fits into a.
 In geometry, the ratio of two lengths ba​ describes their proportional relationship, which is fundamental in similarity and scaling transformations.
 ###### Probability
 In probability theory, the ratio of favorable outcomes to possible outcomes defines the likelihood of an event occurring.
+
+## Ratio in [[Dimensional Analysis|Dimensional Analysis]]
+In Grigory Barenblatt's book "Scaling, Self-similarity, and Intermediate Asymptotics," a ratio in terms of dimensional analysis is typically viewed as a dimensionless quantity that characterizes the relative magnitudes of two quantities of the same dimension. Ratios play a critical role in scaling laws and similarity solutions because they allow for the comparison of different systems or phenomena in a normalized way.
+
+### Key Concepts from Barenblatt’s Work:
+
+1. **Dimensionless Numbers**:
+    
+    - A ratio in dimensional analysis often leads to the creation of dimensionless numbers, which are essential in understanding the scaling behavior of physical systems. Examples include Reynolds number, Froude number, and Mach number.
+2. **Scaling Laws**:
+    
+    - Scaling laws involve relationships between dimensionless quantities. These laws reveal how different physical quantities scale with each other when the system's size or another relevant parameter changes.
+3. **Self-Similarity**:
+    
+    - Self-similar solutions often depend on dimensionless ratios. Self-similarity implies that the shape of the solution does not change when rescaled by certain factors, which are expressed as ratios.
+4. **Intermediate Asymptotics**:
+    
+    - In intermediate asymptotics, ratios of lengths, times, or other physical quantities are used to find similarity solutions that are valid in certain intermediate regimes of the physical problem.
+
+### Practical Example from Barenblatt’s Work:
+
+Consider the problem of fluid flow around a sphere. One important dimensionless ratio here is the Reynolds number (𝑅𝑒Re), which is the ratio of inertial forces to viscous forces in the fluid:
+
+𝑅𝑒=𝜌𝑣𝐿𝜇Re=μρvL​
+
+where:
+
+- 𝜌ρ is the fluid density (dimension: [M L−3−3])
+- 𝑣v is the velocity of the fluid (dimension: [L T−1−1])
+- 𝐿L is the characteristic length (dimension: [L])
+- 𝜇μ is the dynamic viscosity of the fluid (dimension: [M L−1−1 T−1−1])
+
+By analyzing this ratio, one can determine the flow regime (laminar or turbulent) and predict the drag force on the sphere.
+
+### Importance of Ratios in Dimensional Analysis:
+
+1. **Normalization**:
+    
+    - Ratios normalize quantities, making it easier to compare systems of different scales.
+2. **Similarity and Scaling**:
+    
+    - Ratios are fundamental in identifying similarity and scaling laws, which are used to generalize the behavior of physical systems.
+3. **Reduction of Variables**:
+    
+    - Using dimensionless ratios reduces the number of variables in a problem, simplifying the analysis and leading to more general solutions.
+
+In summary, according to Barenblatt, ratios in dimensional analysis serve as fundamental tools for creating dimensionless numbers, which are critical for understanding scaling laws, self-similarity, and the behavior of physical systems under various conditions. These concepts are extensively discussed in his work "Scaling, Self-similarity, and Intermediate Asymptotics."

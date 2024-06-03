@@ -14,7 +14,6 @@ You can only add or subtract two quantities if they have the same dimension: [X
 The dimension of the product, [XY][𝑋𝑌], is the product of the dimensions: [XY]=[X]⋅[Y][𝑋𝑌]
 ###### Division
 The dimension of the ratio, [X/Y][𝑋/𝑌], is the ratio of the dimensions: [X/Y]=[X]/[Y]
-
 #### Dimensions and Units
 Every physical quantity can be expressed in terms of basic dimensions such as length (L), mass (M), time (T), electric current (I), temperature (Θ), amount of substance (N), and luminous intensity (J). Units are the standard quantities used to measure these dimensions, such as meters for length, kilograms for mass, and seconds for time.
 #### Dimensional Homogeneity
@@ -52,3 +51,36 @@ and the SI units of force are thus:
 SI[force]=kg⋅m/s2𝑆𝐼[𝑓𝑜𝑟𝑐𝑒]=𝑘𝑔⋅𝑚/𝑠2
 
 Force is such a common dimension that it, like many other derived dimensions, has its own derived SI unit, the Newton [N][𝑁].
+
+## Abstract Interpretation of Dimensions as Ratios
+In dimensional analysis, dimensions are typically expressed in terms of fundamental quantities such as length (L), mass (M), time (T), and others. 
+	When these dimensions are considered as ratios, it means that we are comparing different quantities that have the same or different fundamental units.
+
+#### Abstract Definition
+In the context of dimensional analysis, when dimensions are ratios, they provide a way to compare and understand different physical quantities in relation to one another. This approach uses fundamental units to construct dimensionless quantities or relative measures, revealing the underlying structure and relationships within physical systems.
+
+This abstraction is crucial for both theoretical insights and practical applications, allowing for the development of scaling laws, predictions of system behavior, and a deeper understanding of the fundamental principles governing physical phenomena.
+#### Basic Concept
+- **Dimensionless Quantities**: A dimensionless quantity is a ratio of two quantities with the same dimensions, resulting in a pure number. For example, the ratio of two lengths 𝐿1𝐿2L2​L1​​ or the ratio of two masses 𝑀1𝑀2M2​M1​​.
+- **Relative Dimensions**: When dimensions are expressed as ratios, they often represent relative measures. For example, speed is the ratio of length to time 𝐿𝑇TL​, and density is the ratio of mass to volume 𝑀𝐿3L3M​.
+### Examples of Dimensions as Ratios
+#### Speed
+- **Definition**: Speed is defined as the ratio of distance traveled to the time taken.
+- **Dimensional Form**: [𝑣]=𝐿𝑇[v]=TL​, where 𝑣v is speed, 𝐿L is length, and 𝑇T is time.
+- **Interpretation**: This dimension indicates how much distance is covered per unit of time, making it a ratio that describes motion.
+#### Density
+- **Definition**: Density is the ratio of mass to volume.
+- **Dimensional Form**: [𝜌]=𝑀𝐿3[ρ]=L3M​, where 𝜌ρ is density, 𝑀M is mass, and 𝐿3L3 is volume.
+- **Interpretation**: This dimension provides a measure of how much mass is contained in a given volume, illustrating a ratio that describes material compactness.
+
+#### Frequency
+- **Definition**: Frequency is the number of occurrences of a repeating event per unit time.
+- **Dimensional Form**: [𝑓]=1𝑇[f]=T1​, where 𝑓f is frequency and 𝑇T is time.
+- **Interpretation**: This dimension indicates how often an event occurs within a specified time period, showing a temporal ratio.
+### Practical Applications
+#### Scaling Laws
+- **Example**: The Buckingham π theorem is a key result in dimensional analysis that uses dimensionless ratios to derive scaling laws for physical systems.
+- **Application**: By analyzing the ratios of different dimensions, engineers can predict how changing one aspect of a system will affect others, such as how altering the size of a model affects its behavior under similar conditions.
+#### Fluid Mechanics
+- **Reynolds Number**: A dimensionless ratio that compares inertial forces to viscous forces in fluid flow, given by 𝑅𝑒=𝜌𝑣𝐿𝜇Re=μρvL​, where 𝜌ρ is density, 𝑣v is velocity, 𝐿L is characteristic length, and 𝜇μ is dynamic viscosity.
+- **Interpretation**: The Reynolds number helps predict flow patterns in different fluid flow situations, illustrating how the ratio of these dimensions determines the flow regime.

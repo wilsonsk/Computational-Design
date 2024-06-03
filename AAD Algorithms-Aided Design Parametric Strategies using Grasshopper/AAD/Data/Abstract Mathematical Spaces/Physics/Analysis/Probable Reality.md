@@ -2,7 +2,7 @@
 up:
   - "[[Dynamics Analysis]]"
 related:
-  - "[[Data/Abstract Mathematical Spaces/Measurement]]"
+  - "[[Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Measurement]]"
   - "[[Proportion]]"
   - "[[Position]]"
 date created: 2024-04-20

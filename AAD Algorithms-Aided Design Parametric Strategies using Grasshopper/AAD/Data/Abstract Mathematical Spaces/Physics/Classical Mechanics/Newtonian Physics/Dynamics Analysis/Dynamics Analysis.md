@@ -120,7 +120,7 @@ Identify what constitutes the [[#1. Present]] - that is - that [[#State|state]] 
 	I.e. Identify what constitutes the most maximal [[#State|information]] about this present state.
 		1. Place an **origin** on the $x-axis$.
 		2. Place **[[|distance]]** **markers** on the $x-axis$.
-			- This enables the [[Data/Abstract Mathematical Spaces/Measurement|measurement]] of distance.
+			- This enables the [[Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Measurement|measurement]] of distance.
 				- And therefore, enables a **[[Position|position]]** (i.e. location).
 	- Don't forget to translate units. 
 ##### The Result

@@ -4,7 +4,7 @@ Linear motion refers to motion along a straight line, but it does not specify wh
 ## 1D Motion: [[Newton's Second Law#Velocity|Velocity]]
 #### Assuming Non-Constant Velocity
 ![[Pasted image 20240529123521.png]]
-### Average Velocity
+### Average Velocity (i.e. Average Rate of Change)
 ![[Pasted image 20240529123542.png]]
 Describes the constant Velocity between $t_{1}$ and $t_{2}$ ***if*** the motion was linear. 
 #### $\LARGE \bar{v}={Δx \over \triangle t}​ = {x(t_{2}) - x(t_{1}) \over t_{2} - t_{1}}$  
@@ -15,12 +15,16 @@ Notice that the **Average** Velocity is slope of the [[Secant Line|Secant line]]
 		The Secant Line in this case, is the [[Uniform Motion#Linear Time Dependence|linear time dependence function]], with Average Velocity as its slope. 
 			![[Pasted image 20240529125003.png]]
 
-When we consider two points on the position-time graph, say (t1​,s(t1​)) and (t2​,s(t2​)), the secant line connecting these two points represents the average rate of change of position with respect to time between 𝑡1t1​ and 𝑡2t2​. 
+When we consider two points on the position-time graph, say (t1​,s(t1​)) and (t2​,s(t2​)), the secant line connecting these two points represents the average rate of change of position with respect to time between t1​ and t2​. 
 	The slope of this secant line is the average velocity $\bar{v}$​ over the interval [𝑡1,𝑡2][t1​,t2​]:
 		$\bar{v}​=t2​−t1​s(t2​)−s(t1​)​$
 
 This slope (average velocity) is calculated by taking the difference in position and dividing it by the difference in time between the two points.
-### [[Derivatives|Velocity at Time]] $t$
+
+#### Example Problem
+![[Pasted image 20240602171421.png]]
+![[Pasted image 20240602171453.png]]
+### [[Derivatives|Velocity at Time]] $t$ (i.e. Instantaneous Rate of Change)
 ![[Pasted image 20240529130139.png|300]]
 #### $\LARGE v= \lim\limits_{\triangle t \rightarrow 0} {Δx \over \triangle t}​ = {dx \over dt} = x'(t) = \dot{x}$
 *Note: The "dot" above $x$ denotes a derivative with respect to time.*
@@ -32,6 +36,14 @@ As the [[Kinematics Analysis#Displacement (Δx,Δy,Δz)|displacement]] (i.e. int
 ![[Pasted image 20240529215642.png|300]]
 This graph is the velocity ($\LARGE v(t)$) - i.e. the derivative (i.e. $\LARGE x'(t)$ or $\LARGE \dot{x}(t)$)for each point of the graph of the function $\LARGE x(t)$.
 	Where each point of this function is the derivative of a t value of function x(t).
+
+#### Example Problem Setup
+
+We have a position function x(t) and we want to find its derivative x′(t), which represents the velocity v(t).
+##### Definition of the Derivative
+The derivative x′(t) of x(t) is given by the limit:
+![[Pasted image 20240602162841.png]]
+#### ![[Pasted image 20240602163652.png]]
 ## 1D Motion: [[Newton's Second Law#Acceleration|Acceleration]]
 ![[Pasted image 20240531150448.png]]
 ### Average Acceleration Between $t_{1}$ and $t_{2}$
@@ -40,3 +52,5 @@ This graph is the velocity ($\LARGE v(t)$) - i.e. the derivative (i.e. $\LARGE x
 ### Acceleration at Time $t$
 ![[Pasted image 20240531140529.png|500]]
 #### $\LARGE a(t)= \lim\limits_{\triangle t \rightarrow 0} {Δv \over \triangle t}​ = {dv \over dt} = \dot{v} = {d^{2}x \over dt^{2}} = x''(t) = \ddot{x}$
+
+I.e. The **derivative**, $a(t)$, *is* the **slope of the tangent line** *which is* the **limit**, $\lim\limits_{\triangle v \rightarrow 0}$  of the **linear function that connects two points** (i.e. the secant line), $\triangle v$, as **the displacement between the points, $\triangle t$, decreases to 0**. 
