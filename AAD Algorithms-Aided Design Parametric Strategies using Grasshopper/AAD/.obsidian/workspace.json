@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "7c83fedd861ebb93",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Linear Motion.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "d0d36f5255134731",
             "type": "leaf",
             "state": {
@@ -68,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -211,20 +223,21 @@
   },
   "active": "d0d36f5255134731",
   "lastOpenFiles": [
+    "Pasted image 20240604145006.png",
+    "Pasted image 20240604145001.png",
+    "Pasted image 20240604144953.png",
+    "Pasted image 20240604144946.png",
+    "Pasted image 20240604144939.png",
+    "Pasted image 20240604144556.png",
+    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Linear Motion.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Integrals.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
-    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Linear Motion.md",
     "images/Pasted image 20240603125923.png",
     "Solids/Solids.md",
     "images/Pasted image 20240603130539.png",
     "images/Pasted image 20240603130516.png",
     "images/Pasted image 20240603130014.png",
     "images/Pasted image 20240603125931.png",
-    "images/Pasted image 20240602190201.png",
-    "images/Pasted image 20240602234407.png",
-    "images/Pasted image 20240602234358.png",
-    "images/Pasted image 20240602234345.png",
-    "images/Pasted image 20240602234215.png",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Moment.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Limits.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Newton's Second Law.md",

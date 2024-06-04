@@ -148,48 +148,52 @@ When a function is discontinuous at a point, there's a break in the curve at tha
 ## Calculating the Derivative 
 ### Rules of Differentiation
 
-##### Power Rule
+#### Rate of Change of $t$ with Respect to Itself
+Is always 1.
+![[Pasted image 20240604144939.png]]
+![[Pasted image 20240604144946.png]]
+![[Pasted image 20240604144953.png]]
+![[Pasted image 20240604145001.png]]
+![[Pasted image 20240604145006.png]]
+#### Power Rule
 If $f(x) = x^n$, where $n$ is a constant, then the derivative of $f$ with respect to $x$ is given by:
-
 #### $\LARGE \frac{d}{dx} x^n = n x^{n-1}$ 
 
 ###### Example
 $\LARGE \frac{d}{dx} x^5 = 5x^4$ 
-##### Constant Rule
+#### [[#Derivative of a Constant is Zero]]
 If $f(x) = c$, where $c$ is a constant, then the derivative of $f$ with respect to $x$ is zero:
 #### $\LARGE \frac{d}{dx} c = 0$
-##### Constant Multiple Rule
+#### Constant Multiple Rule
 If $f(x) = c \cdot g(x)$, where $c$ is a constant and $g(x)$ is a differentiable function, then the derivative of $f$ with respect to $x$ is:
 #### $\LARGE \frac{d}{dx} \left( c \cdot g(x) \right) = c \cdot \frac{d}{dx} g(x)$
 ###### Example
 #### $\LARGE \frac{d}{dx} (3x^3) = 3 \cdot \frac{d}{dx} (x^3) = 3 \cdot 3x^2 = 9x^2$
 
-##### Sum Rule
+#### Sum Rule
 If $f(x) = g(x) + h(x)$, where $g(x)$ and $h(x)$ are differentiable functions, then the derivative of $f$ with respect to $x$ is:
 $\LARGE \frac{d}{dx} \left( g(x) + h(x) \right) = \frac{d}{dx} g(x) + \frac{d}{dx} h(x)$
 ###### Example
 #### $\LARGE \frac{d}{dx} (x^2 + x^3) = \frac{d}{dx} (x^2) + \frac{d}{dx} (x^3) = 2x + 3x^2$
 
-##### Difference Rule
+#### Difference Rule
 If $f(x) = g(x) - h(x)$, where $g(x)$ and $h(x)$ are differentiable functions, then the derivative of $f$ with respect to $x$ is:
 #### $\LARGE \frac{d}{dx} \left( g(x) - h(x) \right) = \frac{d}{dx} g(x) - \frac{d}{dx} h(x)$
 
-##### Product Rule
+#### Product Rule
 If $f(x) = g(x) \cdot h(x)$, where $g(x)$ and $h(x)$ are differentiable functions, then the derivative of $f$ with respect to $x$ is:
 #### $\LARGE \frac{d}{dx} \left( g(x) \cdot h(x) \right) = g(x) \cdot \frac{d}{dx} h(x) + h(x) \cdot \frac{d}{dx} g(x)$
 
 ###### Example
 #### $\LARGE \frac{d}{dx} (x^2 \cdot \sin(x)) = x^2 \cdot \cos(x) + \sin(x) \cdot 2x = x^2 \cos(x) + 2x \sin(x)$
-
-##### Quotient Rule
+#### Quotient Rule
 If $f(x) = \frac{g(x)}{h(x)}$, where $g(x)$ and $h(x)$ are differentiable functions and $h(x) \neq 0$, then the derivative of $f$ with respect to $x$ is:
 #### $\LARGE \frac{d}{dx} \left( \frac{g(x)}{h(x)} \right) = \frac{h(x) \cdot \frac{d}{dx} g(x) - g(x) \cdot \frac{d}{dx} h(x)}{(h(x))^2}$
 ###### Example
 #### $\LARGE \frac{d}{dx} \left( \frac{x^2}{\sin(x)} \right) = \frac{\sin(x) \cdot 2x - x^2 \cdot \cos(x)}{(\sin(x))^2}$
 
-##### Chain Rule
+#### Chain Rule
 If $f(x) = g(h(x))$, where $g$ is a differentiable function of $h(x)$ and $h(x)$ is a differentiable function of $x$, then the derivative of $f$ with respect to $x$ is:
-
 #### $\LARGE \frac{d}{dx} g(h(x)) = g'(h(x)) \cdot h'(x)$
 
 ###### Example
@@ -207,8 +211,9 @@ To find the derivative x′(t), we'll differentiate x(t) with respect to t.
 1. **Write the position function:** 
 	![[Pasted image 20240602234124.png]]
 2. **Differentiate each term:**
-![[Pasted image 20240602234345.png]]
-![[Pasted image 20240602234358.png]]
+	Differentiating each term in the function $x(t) = t^2 + 3t +2$ involves applying basic [[#Rules of Differentiation|rules of differentiation]]. 
+![[Pasted image 20240604144556.png]]
+
 ![[Pasted image 20240602234407.png]]
  ![[Pasted image 20240602234152.png]]
 3. **Combine the results:** 
@@ -219,11 +224,9 @@ To find the derivative x′(t), we'll differentiate x(t) with respect to t.
 
 - **Instantaneous Information**: Unlike average velocity, which gives a single value over an interval, the derivative provides detailed information about how the position changes at every instant.
 - **Dynamic Analysis**: It helps analyze motion dynamically. For example, if you want to know the acceleration (how velocity changes over time), you would take the derivative of the velocity function, 𝑥′′(𝑡)x′′(t).
-
 ### Summary
-
-Finding the derivative 𝑥′(𝑡)x′(t) of a position function 𝑥(𝑡)x(t) produces a new function that describes the instantaneous velocity at any given time 𝑡t. This new function captures the dynamic nature of the motion and allows for deeper analysis of how the object's position changes over time.
-
+Finding the derivative x′(t) of a position function x(t) produces a new function that describes the instantaneous velocity at any given time t.
+	This new function captures the dynamic nature of the motion and allows for deeper analysis of how the object's position changes over time.
 ## Derivatives of a Constant
 When you differentiate a function, any constant term disappears because the derivative of a constant is zero. 
 	This is a fundamental rule in calculus. Here's why:

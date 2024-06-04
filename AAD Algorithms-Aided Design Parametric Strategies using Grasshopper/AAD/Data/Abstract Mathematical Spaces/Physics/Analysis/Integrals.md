@@ -11,7 +11,6 @@ Integration is a fundamental concept that can be thought of as the reverse proce
 ![[Pasted image 20240602190201.png]]
 ## Working Backwards from the Derivative.
 Where instead of starting with the knowns being the position and time, we only have the graph of the derivative. 
-
 #### Starting Point:
 ![[Pasted image 20240602153215.png]]
 
@@ -23,7 +22,6 @@ In this case, the sum of velocities for each time, $t_{i}$, scaled by the interv
 
 When we add up the area of each rectangle, then we arrive at the approximate **coordinate**, $x$ at a specific time, $t$. 
 	I.e. We produce, $x(t)$. 
-	
 #### End Point:
 ![[Pasted image 20240602153227.png]]
 
@@ -34,7 +32,6 @@ This alternate form:
 #### $\LARGE \int_{t_{0}}^{t} v(\tilde{t}) d\tilde{t}$
 Where $dt$ means $\triangle t$.
 	Therefore, The equation states that we are integrating the velocity function (i.e. summing the function's output values) according to some displacement interval of the independent variable. 
-
 ## The Integral
 The Integral itself represents the accumulation of quantities.
 	It can be thought of as the reverse process of differentiation
