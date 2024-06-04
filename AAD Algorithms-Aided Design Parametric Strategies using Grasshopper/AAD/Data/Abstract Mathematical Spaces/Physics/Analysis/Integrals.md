@@ -85,7 +85,7 @@ The antiderivative represents a family of functions, all differing by a constant
 If you write down an Integral, you will always write down an Integral Constant.
 
 Also known as the Constant of Integration.
-	It is produced as a by product of finding the indefinite integral (i.e. [[#Antiderivative|antiderivative]]) of a function.
+	It is produced as a by product of finding the indefinite integral (i.e. [[#1. Indefinite Integral aka the Antiderivative]]) of a function.
 ###### [[#1. Indefinite Integral aka the Antiderivative|Antiderivative]]
 Refers to the inverse derivative, primitive function, primitive integral or indefinite integral of a function f.
 	It is a differentiable function F whose derivative is equal to the original function f.
@@ -108,7 +108,7 @@ Suppose the acceleration function is $\LARGE a(t)=6t$ and we know the initial ve
 	
 	$\LARGE v(t) = \int 6t \, dt$
 	
-1. Using the power rule for integration:
+1. Using the [[#Power Rule for Integration|power rule for integration]]:
 	
 	$\LARGE \int 6t \, dt = 6 \cdot \frac{t^{1+1}}{1+1} = 6 \cdot \frac{t^2}{2} = 3t^2$
 	
@@ -154,7 +154,7 @@ Consider the function f(x)=2x. To find its indefinite integral:
 	However, any function of the form $x^2+C$ where C is a constant will also have a derivative of 2x.
 3. **Include the Constant of Integration**:
     $∫2xdx=x^2+C$
-###### The [[#The Constant of Integration|Constant of Integration]]
+###### Antiderivative and the [[#The Constant of Integration|Constant of Integration]]
 When finding an antiderivative, we include an arbitrary constant C because the derivative of a constant is zero. 
 	This means there are infinitely many antiderivatives for a given function, each differing by a constant. 
 ###### Properties of Antiderivatives
@@ -281,8 +281,6 @@ That function F is differentiable on $(a,b)$, and $F′(t)=f(t)$.
 
 - **Interpretation**: This part tells us that if f is continuous on [𝑎,𝑏][a,b], then the function F defined by the integral of f from a to t is differentiable, and its derivative is f.
 - **Implication**: It guarantees that continuous functions have antiderivatives, establishing the foundation for solving differential equations and understanding the accumulation of quantities.
-
-
 ## Power Rule for Integration
 One of the fundamental techniques for finding the antiderivative (or integral) of a power function. 
 	It is essentially the reverse process of the power rule for differentiation.
@@ -299,6 +297,7 @@ The $dt$ part of the integral indicates that $t$ is the variable of integration.
 	It tells us that we are summing up infinitesimally small changes in the function $t^n$ over the variable $t$.
 ### Understanding the Rule
 For a function $t^n$, where 𝑛≠−1
+	We simple "add" 1 to the exponent and we divide the result by that same summed exponent.
 #### $\int t^n dt = \frac{t^{n+1}}{n+1} + C$
 
 #### Why the Rule Works
@@ -313,7 +312,7 @@ Using the power rule for differentiation $\left( \frac{d}{dt}(t^m) = m \cdot t^{
 
 $= \frac{1}{n+1} \cdot (n+1) \cdot t^{(n+1)-1} = t^n$
 
-So, integrating 𝑡𝑛tn results in $\frac{t^{n+1}}{n+1} + C$, where 𝐶C is the constant of integration that accounts for any constant term that would disappear when differentiating.
+So, integrating $t^n$ results in $\frac{t^{n+1}}{n+1} + C$, where C is the constant of integration that accounts for any constant term that would disappear when differentiating.
 
 ### Example
 
@@ -337,24 +336,23 @@ Using the power rule:
 
 $\int t^{-2} , dt = \frac{t^{-2+1}}{-2+1} + C = \frac{t^{-1}}{-1} + C = -\frac{1}{t} + C$
 
-### Special Case: 𝑛=−1n=−1
+#### Example of a Special Case: 𝑛=−1n=−1
 
 For 𝑛=−1n=−1, the power rule does not apply directly because the denominator would be zero. Instead, we use a specific integral result:
 
 $\int t^{-1} , dt = \int \frac{1}{t} , dt = \ln|t| + C$
-
-### Summary
+##### Summary of Power Rule of Integration
 
 The power rule for integration is a straightforward method for finding the antiderivative of functions of the form 𝑡𝑛tn:
 
 $\int t^n , dt = \frac{t^{n+1}}{n+1} + C \quad \text{for} \quad n \neq -1$
 
-- **For 𝑛=−1n=−1**: Use $\int \frac{1}{t} , dt = \ln|t| + C$.
+- **For n=−1**: Use $\int \frac{1}{t} , dt = \ln|t| + C$.
 - **Integration** involves finding a function whose derivative gives the original function.
-- **The constant 𝐶C** represents any constant value that would disappear during differentiation.
+- **The constant C** represents any constant value that would disappear during differentiation.
 
 This rule is fundamental in calculus and helps solve many problems involving finding areas under curves and solving differential equations.
-### Step-by-Step Solution
+### Step-by-Step Solution Using the Power Rule of Integration
 
 1. **Given Data:**
     - Initial position: x0​

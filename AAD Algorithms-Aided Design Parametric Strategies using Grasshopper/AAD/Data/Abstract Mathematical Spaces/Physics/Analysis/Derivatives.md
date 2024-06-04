@@ -145,24 +145,64 @@ When a function is discontinuous at a point, there's a break in the curve at tha
 		- Imagine drawing secant lines (lines connecting two nearby points on the curve) and then moving these points closer together towards the point of interest. 
 			- For smooth parts of the curve, as the points get infinitely close, the secant line approaches a unique position — the tangent line. 
 				- However, at a sharp corner or discontinuity, the limit of the secant line's position oscillates or becomes undefined as the points get closer, indicating the absence of a well-defined tangent line and thus a tangent vector.
-## Second Derivative
-The second derivative of a function $f(x)$ is denoted as $f^"(x)$ or $d^2y/dx^2$.
-It is obtained by **differentiating** the **first derivative** $f'(x)$
-### Calculating the Second Derivative
-###### 1. Compute the First Derivative:
-Find $f'(x)$ of the function $f(x)$.
-	The first derivative represents the **rate of change** of the function i.e. the **slope of the tangent line** at any point $x$.
+## Calculating the Derivative 
+### Rules of Differentiation
 
+##### Power Rule
+If $f(x) = x^n$, where $n$ is a constant, then the derivative of $f$ with respect to $x$ is given by:
+
+#### $\LARGE \frac{d}{dx} x^n = n x^{n-1}$ 
+
+###### Example
+$\LARGE \frac{d}{dx} x^5 = 5x^4$ 
+##### Constant Rule
+If $f(x) = c$, where $c$ is a constant, then the derivative of $f$ with respect to $x$ is zero:
+#### $\LARGE \frac{d}{dx} c = 0$
+##### Constant Multiple Rule
+If $f(x) = c \cdot g(x)$, where $c$ is a constant and $g(x)$ is a differentiable function, then the derivative of $f$ with respect to $x$ is:
+#### $\LARGE \frac{d}{dx} \left( c \cdot g(x) \right) = c \cdot \frac{d}{dx} g(x)$
+###### Example
+#### $\LARGE \frac{d}{dx} (3x^3) = 3 \cdot \frac{d}{dx} (x^3) = 3 \cdot 3x^2 = 9x^2$
+
+##### Sum Rule
+If $f(x) = g(x) + h(x)$, where $g(x)$ and $h(x)$ are differentiable functions, then the derivative of $f$ with respect to $x$ is:
+$\LARGE \frac{d}{dx} \left( g(x) + h(x) \right) = \frac{d}{dx} g(x) + \frac{d}{dx} h(x)$
+###### Example
+#### $\LARGE \frac{d}{dx} (x^2 + x^3) = \frac{d}{dx} (x^2) + \frac{d}{dx} (x^3) = 2x + 3x^2$
+
+##### Difference Rule
+If $f(x) = g(x) - h(x)$, where $g(x)$ and $h(x)$ are differentiable functions, then the derivative of $f$ with respect to $x$ is:
+#### $\LARGE \frac{d}{dx} \left( g(x) - h(x) \right) = \frac{d}{dx} g(x) - \frac{d}{dx} h(x)$
+
+##### Product Rule
+If $f(x) = g(x) \cdot h(x)$, where $g(x)$ and $h(x)$ are differentiable functions, then the derivative of $f$ with respect to $x$ is:
+#### $\LARGE \frac{d}{dx} \left( g(x) \cdot h(x) \right) = g(x) \cdot \frac{d}{dx} h(x) + h(x) \cdot \frac{d}{dx} g(x)$
+
+###### Example
+#### $\LARGE \frac{d}{dx} (x^2 \cdot \sin(x)) = x^2 \cdot \cos(x) + \sin(x) \cdot 2x = x^2 \cos(x) + 2x \sin(x)$
+
+##### Quotient Rule
+If $f(x) = \frac{g(x)}{h(x)}$, where $g(x)$ and $h(x)$ are differentiable functions and $h(x) \neq 0$, then the derivative of $f$ with respect to $x$ is:
+#### $\LARGE \frac{d}{dx} \left( \frac{g(x)}{h(x)} \right) = \frac{h(x) \cdot \frac{d}{dx} g(x) - g(x) \cdot \frac{d}{dx} h(x)}{(h(x))^2}$
+###### Example
+#### $\LARGE \frac{d}{dx} \left( \frac{x^2}{\sin(x)} \right) = \frac{\sin(x) \cdot 2x - x^2 \cdot \cos(x)}{(\sin(x))^2}$
+
+##### Chain Rule
+If $f(x) = g(h(x))$, where $g$ is a differentiable function of $h(x)$ and $h(x)$ is a differentiable function of $x$, then the derivative of $f$ with respect to $x$ is:
+
+#### $\LARGE \frac{d}{dx} g(h(x)) = g'(h(x)) \cdot h'(x)$
+
+###### Example
+#### $\LARGE \frac{d}{dx} \sin(x^2) = \cos(x^2) \cdot 2x = 2x \cos(x^2)$
 
 ### Example: Finding the Derivative
 
 #### Given Position Function:
 
 ![[Pasted image 20240602234115.png]]
-
 #### Find the Derivative:
 
-To find the derivative 𝑥′(𝑡)x′(t), we'll differentiate 𝑥(𝑡)x(t) with respect to 𝑡t.
+To find the derivative x′(t), we'll differentiate x(t) with respect to t.
 
 1. **Write the position function:** 
 	![[Pasted image 20240602234124.png]]
