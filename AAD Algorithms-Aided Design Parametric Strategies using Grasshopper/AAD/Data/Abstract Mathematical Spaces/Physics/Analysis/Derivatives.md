@@ -183,3 +183,26 @@ To find the derivative 𝑥′(𝑡)x′(t), we'll differentiate 𝑥(𝑡)x(t) 
 ### Summary
 
 Finding the derivative 𝑥′(𝑡)x′(t) of a position function 𝑥(𝑡)x(t) produces a new function that describes the instantaneous velocity at any given time 𝑡t. This new function captures the dynamic nature of the motion and allows for deeper analysis of how the object's position changes over time.
+
+## Derivatives of a Constant
+When you differentiate a function, any constant term disappears because the derivative of a constant is zero. 
+	This is a fundamental rule in calculus. Here's why:
+### Derivative of a Constant is Zero
+1. **Definition of the Derivative**:
+    - The derivative of a function measures how the function's value changes as its input changes.
+    - Mathematically, the derivative of a function $f(x)$ at a point $x$ is defined as: 
+	    $\LARGE f′(x)=\lim\limits_{​\triangle x \rightarrow 0} {f(x+\triangle x) - f(x) \over \triangle x}​$
+1. **Constant Function**:
+    - A constant function $\LARGE f(x)=c$ means that the function's value does not change no matter what the input x is.
+    - For example, $f(x)=5$ means the function always outputs 5, regardless of the value of x.
+2. **Rate of Change of a Constant Function**:
+    - Since the value of a constant function does not change, the rate of change (or the slope) is zero.
+    - Using the definition of the derivative: 
+	    $\LARGE f′(x)=\lim\limits_{​\triangle x \rightarrow 0} {f(x+\triangle x) - f(x) \over \triangle x}​$
+    - For a constant function $f(x)=c$: 
+		$\LARGE f'(x) = \lim\limits_{\triangle x \rightarrow 0} {c -c\over \triangle x} = \lim\limits_{\triangle x \rightarrow 0} {0\over \triangle x} = 0$
+#### Visualizing the Derivative of a Constant
+
+Imagine a flat horizontal line on a graph, like 𝑦=5y=5. This line has no slope; it does not rise or fall as you move along the 𝑥x-axis. The rate of change of this line is zero everywhere because it is perfectly flat.
+
+When you differentiate a function that includes a constant, the constant term "disappears" in the sense that its derivative is zero, which is why the constant does not affect the derivative of the rest of the function.
