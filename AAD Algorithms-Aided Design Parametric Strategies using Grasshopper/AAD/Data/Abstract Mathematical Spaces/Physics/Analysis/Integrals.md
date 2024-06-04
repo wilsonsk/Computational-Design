@@ -65,6 +65,61 @@ The integration is performed from t0​ to t.
 The indefinite integral of a function $f(t)$ is a function $F(t)$ whose derivative is $f(t)$.
 	$\LARGE ∫f(t)dt=F(t)+C$
 
+Where:
+- ∫ is the integral sign.
+- 𝑓(𝑡)f(t) is the integrand, the function being integrated.
+- 𝑑𝑡dt indicates that 𝑡t is the variable of integration.
+- 𝐹(𝑡)F(t) is the antiderivative or the integral of 𝑓(𝑡)f(t).
+- 𝐶C is the constant of integration, representing an arbitrary constant since the differentiation of a constant is zero.
+###### 2. Definite Integral
+The definite integral of a function f(t) from a to b is the total accumulation of the function's values over the interval [𝑎,𝑏][a,b].
+	$\LARGE \int_{a}^b​ f(t)dt$
+
+Where:
+- a and b are the [[#Limits of Integration|limits of integration]].
+- The definite integral gives a single numerical value, representing the net area under the curve of f(t) from t=a to t=b.
+### Fundamental Theorem of Calculus
+
+The Fundamental Theorem of Calculus links the concept of differentiation and integration, and it has two parts:
+
+1. **First Part**: If F(t) is an antiderivative of f(t) on an interval [𝑎,𝑏][a,b], then:
+
+	$\LARGE \int_{a}^b ​f(t)dt=F(b)−F(a)$
+
+2. **Second Part**: If 𝑓f is continuous on [𝑎,𝑏][a,b], then the function 𝐹F defined by:
+
+	$\LARGE F(t)=\int_{a}^t ​f(x)dx$
+
+is differentiable on $(a,b)$, and $F′(t)=f(t)$.
+
+### Examples
+
+#### Example 1: Indefinite Integral
+
+Find the indefinite integral of 2t.
+
+$∫2tdt$
+
+Using the power rule for integration:
+
+$∫2tdt=2∫tdt=2⋅1+1t1+1​=2⋅2t2​=t2+C$
+
+So,
+
+∫2tdt=t2+C
+#### Example 2: Definite Integral
+
+Find the definite integral of t^2 from 1 to 3.
+
+$\LARGE \int_{1}^3​ t^2dt$
+
+First, find the antiderivative of t2:
+
+$\int t^2dt={t^3\over 3}​+C$
+
+Then, evaluate it from 1 to 3:
+
+$\LARGE {t^3\over 3}_{​​1}^3​={3^3\over 3}​−{1^3\over 3}​={27\over 3}​−{1\over 3}​=9−{1\over 3}​=8.67$
 #### The Constant of Integration
 ###### Integral Constant
 If you write down an Integral, you will always write down an Integral Constant.
