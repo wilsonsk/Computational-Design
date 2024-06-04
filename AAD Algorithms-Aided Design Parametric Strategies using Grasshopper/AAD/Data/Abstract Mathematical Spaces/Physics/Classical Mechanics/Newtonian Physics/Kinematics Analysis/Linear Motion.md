@@ -47,6 +47,8 @@ Therefore, if:
 	$\LARGE v(t) = {dx \over dt}$
 		Then, one can actually find the displacement of $x$ via:
 			$\LARGE dx = v(t) dt$
+
+#### [[Derivatives#Example Finding the Derivative|Example of Solving a Derivative Function]]
 ## 1D Motion: [[Newton's Second Law#Acceleration|Acceleration]]
 ![[Pasted image 20240531150448.png]]
 ### Average Acceleration Between $t_{1}$ and $t_{2}$
@@ -57,3 +59,19 @@ Therefore, if:
 #### $\LARGE a(t)= \lim\limits_{\triangle t \rightarrow 0} {Δv \over \triangle t}​ = {dv \over dt} = \dot{v} = {d^{2}x \over dt^{2}} = x''(t) = \ddot{x}$
 
 I.e. The **derivative**, $a(t)$, *is* the **slope of the tangent line** *which is* the **limit**, $\lim\limits_{\triangle v \rightarrow 0}$  of the **linear function that connects two points** (i.e. the secant line), $\triangle v$, as **the displacement between the points, $\triangle t$, decreases to 0**. 
+
+## Example of Velocity Over Time
+### Given
+![[Pasted image 20240603125923.png]]
+![[Pasted image 20240603125931.png]]
+### Solve
+![[Pasted image 20240603130014.png]]Where "path" refers to the **position** function (i.e. the function from which the velocity is derived).
+
+##### Solving Position Function
+To find this position function, we must **[[Integrals#What "Integrate" Means|integrate velocity's functional dependence with respect to time]]**.
+	I.e. Integrate or summing the velocity function's output values produced by a range of input values.
+###### Step 1: Use the [[Integrals#Power Rule for Integration|Power Rule for Integration]] on the Polynomial Equation (i.e. the velocity equation)
+Use the Power Rule for Integration on each "time dependent **term**" 
+	![[Pasted image 20240603130516.png]]
+	![[Pasted image 20240603130539.png]]
+###### Step 2: [[Integrals#Integral Constant|Integration Constant]] as the Last Term

@@ -20,7 +20,11 @@ Refers to the process of finding the derivative of a function.
 The term "differential" comes from the concept of differences.
 	Differentiation refers to the changes or differences in output values of a function as the input changes. 
 		The differentiation of function values is represented/expressed in the fact that the derivative is defined as the **limit of the difference quotient**. 
+			This quotient is a [[Division#Ratio|ratio]] - i.e. a rate of change.
+				This ratio is called the **derivative**.
+					The derivative (i.e. the ratio of the change in output values to the change in the input values) represents how a small change in the input (independent variable) results in a change in the output (dependent variable).
 ##### Difference Quotient
+The ratio of the change in output values to the change in the input values) 
 #### $\LARGE {f(x+h)−f(x)​ \over h}$
 ###### Difference
 The numerator $f(x+h)−f(x)$ represents the [[Kinematics Analysis#Displacement (Δx,Δy,Δz)|displacement]] or the change in the function's value as the input changes from $x$ to $x+h$.
@@ -34,6 +38,8 @@ Geometrically, the difference quotient $\LARGE {f(x+h)−f(x)​ \over h}$ repre
 ## Derivative Is a [[Division#Ratio|Ratio]]
 Ratios are a fundamental to the concept of the derivative.
 It [[Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Measurement|measures]] the output ($\Delta y$) of a function $f(x)$ is proportioned to the input ($\Delta x$) at an infinitesimally small scale.
+
+The derivative is the ratio of the change in the output to the change in the input as the change in the input approaches zero.
 ### Is the Instantaneous Rate (i.e. [[Division#Ratio|Ratio]]) of Change of a Function
 A derivative (of a function $f(x)$) at a single point $f'(x)$, is itself a function that maps that single point (as an input) to the **value** of the **limit** of the **average rate of change** (i.e. limit of $\Delta y / \Delta x$) of that input.
 #### Is the [[Tangent Line#The Slope of a Tangent Line|Slope]] (i.e. a rate/ratio between $\Delta y / \Delta x$) of the [[Tangent Line|Tangent Line]]
