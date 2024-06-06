@@ -157,6 +157,7 @@ Is always 1.
 ![[Pasted image 20240604145006.png]]
 #### Power Rule
 If $f(x) = x^n$, where $n$ is a constant, then the derivative of $f$ with respect to $x$ is given by:
+	Basically just decrease the exponent by 1, then place the original value of the exponent as a coefficient in front of the term. 
 #### $\LARGE \frac{d}{dx} x^n = n x^{n-1}$ 
 
 ###### Example

@@ -35,11 +35,9 @@
             "id": "7c83fedd861ebb93",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Linear Motion.md",
-                "mode": "source",
-                "source": false
+                "file": "images/Pasted image 20240606134026.png"
               }
             }
           },
@@ -80,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -147,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
+                "file": "images/Pasted image 20240606134026.png",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -164,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
+                "file": "images/Pasted image 20240606134026.png",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -187,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md"
+                "file": "images/Pasted image 20240606134026.png"
               }
             }
           },
@@ -221,30 +219,29 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "d0d36f5255134731",
+  "active": "70a890f8a800eb39",
   "lastOpenFiles": [
-    "Pasted image 20240604145006.png",
-    "Pasted image 20240604145001.png",
-    "Pasted image 20240604144953.png",
-    "Pasted image 20240604144946.png",
-    "Pasted image 20240604144939.png",
-    "Pasted image 20240604144556.png",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Linear Motion.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Integrals.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
-    "images/Pasted image 20240603125923.png",
-    "Solids/Solids.md",
-    "images/Pasted image 20240603130539.png",
-    "images/Pasted image 20240603130516.png",
-    "images/Pasted image 20240603130014.png",
-    "images/Pasted image 20240603125931.png",
-    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Moment.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Limits.md",
+    "images/Pasted image 20240606134026.png",
+    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Kinematics Analysis.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
+    "images/Pasted image 20240606125001.png",
+    "images/Pasted image 20240606124950.png",
+    "images/Pasted image 20240606124505.png",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Integrals.md",
+    "images/Pasted image 20240604145006.png",
+    "images/Pasted image 20240604145001.png",
+    "images/Pasted image 20240604144953.png",
+    "images/Pasted image 20240604144946.png",
+    "images/Pasted image 20240604144939.png",
+    "images/Pasted image 20240604144556.png",
+    "Solids/Solids.md",
+    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Moment.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Newton's Second Law.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Uniform Motion.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Division.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Vectors.md",
-    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Kinematics Analysis.md",
     "Data/Abstract Mathematical Spaces/Physics/Basic Concepts/Dimensional Analysis.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Tangent Line.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Slope.md",

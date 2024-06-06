@@ -67,7 +67,7 @@ The constant C represents any vertical shift of the function.
 	So, $x^2+5$, $x^2$, and $x^{2}−3$ all have the same slope (rate of change) at any point because they all have the same derivative2x.
 ###### Adjusts to Initial Conditions
 If you know a specific point on the function, like $f(0)=3$, you can use this to find the exact value of C.
-##### Visual Example
+###### Visual Example
 Imagine you have a curve representing the function $x^{2}+C$. 
 	The constant C can shift this curve up or down on the graph, but the shape of the curve remains the same because the rate of change (slope) at any point is still determined by the derivative 2x.
 ##### Why Do We Add the Constant of Integration?
@@ -365,4 +365,39 @@ Let's consider a specific example where the velocity function is $v(t)=3t^2$.
 - Velocity function $v(t)=3t^2$
 - Time of interest t=2 seconds
 ![[Pasted image 20240602162742.png]]
+## Other Rules of Integration
+#### Constant Rule
+If $f(x) = c$, where $c$ is a constant, then the integral of $f$ with respect to $x$ is:
+#### $\LARGE \int c \, dx = c x + C$
+###### Example
+##### $\LARGE \int 5 \, dx = 5x + C$
+#### Constant Multiple Rule
+If $f(x) = c \cdot g(x)$, where $c$ is a constant and $g(x)$ is an integrable function, then the integral of $f$ with respect to $x$ is:
+#### $\LARGE \int c \cdot g(x) \, dx = c \int g(x) \, dx$
+###### Example
+##### $\LARGE \int 3x^2 \, dx = 3 \int x^2 \, dx = 3 \cdot \frac{x^3}{3} + C = x^3 + C$
+#### Sum Rule
+If $f(x) = g(x) + h(x)$, where $g(x)$ and $h(x)$ are integrable functions, then the integral of $f$ with respect to $x$ is:
+#### $\LARGE \int (g(x) + h(x)) \, dx = \int g(x) \, dx + \int h(x) \, dx$
+###### Example
+#### $\LARGE \int (x^2 + x) \, dx = \int x^2 \, dx + \int x \, dx = \frac{x^3}{3} + \frac{x^2}{2} + C$
+#### Difference Rule
+If $f(x) = g(x) - h(x)$, where $g(x)$ and $h(x)$ are integrable functions, then the integral of $f$ with respect to $x$ is:
+#### $\LARGE \int (g(x) - h(x)) \, dx = \int g(x) \, dx - \int h(x) \, dx$
+#### Integration by Parts
+If $f(x) = u(x) \cdot v(x)$, where $u(x)$ and $v(x)$ are differentiable functions, then the integral of $f$ with respect to $x$ is given by the integration by parts formula:
+#### $\LARGE \int u(x) \cdot v'(x) \, dx = u(x) \cdot v(x) - \int u'(x) \cdot v(x) \, dx$
+###### Example
+#### $\LARGE \int x e^x \, dx$
+Let $u = x$ and $dv = e^x , dx$. Then $du = dx$ and $v = e^x$. Applying integration by parts:
+#### $\LARGE \int x e^x \, dx = x e^x - \int e^x \, dx = x e^x - e^x + C = e^x (x - 1) + C$
+#### Substitution Rule (Change of Variables)
+If $f(x) = g(h(x)) \cdot h'(x)$, where $g$ is an integrable function of $h(x)$ and $h(x)$ is a differentiable function of $x$, then the integral of $f$ with respect to $x$ is:
+#### $\LARGE \int g(h(x)) \cdot h'(x) \, dx = \int g(u) \, du$
 
+Where $u = h(x)$.
+###### Example
+#### $\LARGE \int \sin(2x) \, dx$
+
+Let $u = 2x$, then $du = 2 , dx$ or $\frac{1}{2} du = dx$. Substituting:
+#### $\LARGE \int \sin(2x) \, dx = \int \sin(u) \cdot \frac{1}{2} \, du = \frac{1}{2} \int \sin(u) \, du = \frac{1}{2} (-\cos(u)) + C = -\frac{1}{2} \cos(2x) + C$

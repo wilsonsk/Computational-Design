@@ -24,6 +24,7 @@ Meaning the boundary or threshold.
 A Limit refers to the **value** of a **function's output** as that **function's input** (i.e. a point on the function curve) approaches or gets infinitely close to some point.
 	By looking at the position "now", the position slightly "later" and taking the ratio and bringing "later" as close as possible to right" now", we define a quantity that we can say is the velocity at this "instant".
 	![[Pasted image 20240410151035.png]]
+	![[Pasted image 20240606134026.png]]
 #### *$f(a)$ is a function that maps every $x$ (i.e. point) to an $f(a)$ on a 2D graph.*
 More generally a function called $f(x)$
 ##### *$f'(a)$ is the **[[Derivatives|derivative]]** (i.e. the [[Tangent Line#The Derivatives Is the Tangent Line The Slope of a Tangent Line Slope (i.e. a proportion/rate/ratio between $ Delta y / Delta x$) of the Tangent Line Tangent Line Slope of a Tangent Line|slope]] of the [[Tangent Line|tangent line]]) at a point where $x=a$.*
@@ -155,3 +156,36 @@ The **Limit** of the **average rate (i.e. average velocity)** is
 $v(t) = \Delta x / \Delta t = dx/dt=$ $$\lim_{\Delta t\to 0}\Delta x / \Delta t$$
 	"As $t$ approaches 0" means:
 		 The [[#*$h$ (i.e. the independent variable) represents the **increment or distance** from the point $a$ along the $x-axis$.*|increment]] between two $t$ values on the $x-axis$ gets infinitely smaller, i.e. approaches zero distance between them. 
+
+## Calculating Limits
+### Using Limits vs. Differentiation Rules
+- **Using Limits**: When you first learn about derivatives, you start by using the limit definition to understand the fundamental concept. 
+- **Using [[Derivatives#Rules of Differentiation|Differentiation Rules]]**: Once the differentiation rules are understood, you apply them directly without computing limits each time. 
+### Basic Steps to Calculate Limits
+1. **Direct Substitution**:
+    - The simplest method is to substitute the value of the variable directly into the function. If $f(x)$ is continuous at $x = a$, then $\lim_{x \to a} f(x) = f(a)$.
+2. **Factoring**:
+    - If direct substitution results in an indeterminate form (like $\frac{0}{0}$), factor the function and simplify. This can often resolve the indeterminate form.
+    - $\lim_{x \to a} \frac{f(x)}{g(x)} = \lim_{x \to a} \frac{(x-a)h(x)}{(x-a)k(x)} = \lim_{x \to a} \frac{h(x)}{k(x)}$
+    - if $(x-a)$ cancels out.
+3. **Rationalizing**:
+    - For functions involving square roots or other roots, multiply the numerator and denominator by the conjugate to rationalize.
+    - $\lim_{x \to a} \frac{\sqrt{f(x)} - \sqrt{g(x)}}{h(x)} \text{ multiply by } \frac{\sqrt{f(x)} + \sqrt{g(x)}}{\sqrt{f(x)} + \sqrt{g(x)}}$
+4. **L'Hôpital's Rule**:
+    - If a limit results in an indeterminate form like $\frac{0}{0}$ or $\frac{\infty}{\infty}$, use L'Hôpital's Rule, which involves differentiating the numerator and the denominator.
+    - $\lim_{x \to a} \frac{f(x)}{g(x)} = \lim_{x \to a} \frac{f'(x)}{g'(x)}$
+5. **Squeeze Theorem**:
+    - If you can bound $f(x)$ between two other functions $g(x)$ and $h(x)$ that have the same limit at $a$, then $f(x)$ also approaches that limit.
+    - $g(x) \leq f(x) \leq h(x) \text{ and } \lim_{x \to a} g(x) = \lim_{x \to a} h(x) = L \implies \lim_{x \to a} f(x) = L$
+### Examples
+1. **Direct Substitution**:
+    - $\lim_{x \to 2} (3x + 4) = 3(2) + 4 = 10$
+2. **Factoring**:
+    - $\lim_{x \to 1} \frac{x^2 - 1}{x - 1} = \lim_{x \to 1} \frac{(x - 1)(x + 1)}{x - 1} = \lim_{x \to 1} (x + 1) = 2$
+3. **Rationalizing**:
+    - $\lim_{x \to 4} \frac{\sqrt{x} - 2}{x - 4} \text{ multiply by } \frac{\sqrt{x} + 2}{\sqrt{x} + 2} = \lim_{x \to 4} \frac{(\sqrt{x} - 2)(\sqrt{x} + 2)}{(x - 4)(\sqrt{x} + 2)} = \lim_{x \to 4} \frac{x - 4}{(x - 4)(\sqrt{x} + 2)} = \lim_{x \to 4} \frac{1}{\sqrt{x} + 2} = \frac{1}{4}$
+4. **Using L'Hôpital's Rule**:
+    - $\lim_{x \to 0} \frac{\sin x}{x} = \lim_{x \to 0} \frac{\cos x}{1} = 1$
+5. **Squeeze Theorem**:
+    - $\lim_{x \to 0} x^2 \sin \left(\frac{1}{x}\right) = 0$
+    - because $-x^2 \leq x^2 \sin \left(\frac{1}{x}\right) \leq x^2$ and $\lim_{x \to 0} -x^2 = \lim_{x \to 0} x^2 = 0$.
