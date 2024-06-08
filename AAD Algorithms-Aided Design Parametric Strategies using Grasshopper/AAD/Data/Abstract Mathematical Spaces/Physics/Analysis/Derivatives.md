@@ -147,9 +147,10 @@ When a function is discontinuous at a point, there's a break in the curve at tha
 				- However, at a sharp corner or discontinuity, the limit of the secant line's position oscillates or becomes undefined as the points get closer, indicating the absence of a well-defined tangent line and thus a tangent vector.
 ## Calculating the Derivative 
 ### Rules of Differentiation
-
+###### *Important*: You only ever apply the Differentiating Rules to the terms associated with the independent variable.
 #### Rate of Change of $t$ with Respect to Itself
 Is always 1.
+	I.e. The derivative of $t$ is simply 1. 
 ![[Pasted image 20240604144939.png]]
 ![[Pasted image 20240604144946.png]]
 ![[Pasted image 20240604144953.png]]
