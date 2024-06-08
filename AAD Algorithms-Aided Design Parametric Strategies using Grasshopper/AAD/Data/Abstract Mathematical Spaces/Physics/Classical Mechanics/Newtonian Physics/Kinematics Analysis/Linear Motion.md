@@ -1,12 +1,16 @@
 # Linear Motion
 Linear motion refers to motion along a straight line, but it does not specify whether the speed is constant. 
 	Linear motion can involve varying speed, constant speed, or even accelerated motion along a straight path.
+
+This "straight line" implies motion along a **single axis**.
+	Where a [[#Position|position]] changes along a single axis. 
+		This does **not** mean that the velocity or acceleration are necessarily straight graphically.
 ## Position
 Position refers to the specific location of an object in space at a given point in time.
 	It is described relative to a reference point, typically called the origin, in a coordinate system.
-
-Positions are represented by [[Static Equilibrium#Position Vectors|position vectors]].
-
+##### Change of Position as Displacement
+When we derive the kinematic equations from the basic principles of motion, we integrate acceleration to find velocity and then integrate velocity to find displacement.
+#### Positions are Represented by [[Static Equilibrium#Position Vectors|Position Vectors]].
 **Mathematical Representation**:
 In a one-dimensional space, position $x(t)$ is a function of time $t$.
 
@@ -165,11 +169,21 @@ This term gets differentiated when we go from $x(t)$ to $x'(t)$.
 ###### Step 3: Calculate the Acceleration
 Calculate the [[Derivatives|derivative]], because acceleration is given as the time derivative of the velocity.
 	In this case using the [[Derivatives#Power Rule|Power Rule of Differentiation]]
-![[Pasted image 20240606125001.png]]
-*For example: 
-##### $\LARGE {A\over 7}t^{7} = 6At^{5}$*
-##### $\LARGE{B\over 6}t^{6} = 5Bt^{4}$*
+That is, we will use the Power Rule of Differentiation *on* that $v(t)$ *to obtain* the differential of velocity, $a(t)$.
 
-##### $\LARGE{F\over 2}t^{2} = Ft$*
+Remember $v(t)$:
+![[Pasted image 20240606155414.png]]
+Using the Power Rule of Differentiation:
+## $\LARGE \frac{d}{dx} x^n = n x^{n-1}$ 
+
+##### $\LARGE At^{6} = 6At^{5}$
+##### $\LARGE Bt^{5} = 5Bt^{4}$
+##### $\LARGE Ct^{4} = 4Ct^{3}$
+##### $\LARGE Dt^{3} = 3Dt^{2}$
+##### $\LARGE Et^{2} = 2Et$
+##### $\LARGE Ft = F$
+
+Therefore, $a(t)$ is:
+![[Pasted image 20240606125001.png]]
 
 ![[Pasted image 20240606124950.png]]

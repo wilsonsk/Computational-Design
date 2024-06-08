@@ -26,6 +26,8 @@ The velocity of an object in uniform motion is given by:
 		Where Δx is the displacement and Δt is the time interval.
 ###### Displacement
 Rearranging the equation for velocity, we can express displacement as: $\LARGE Δ𝑥=𝑣⋅Δ𝑡$. 
+	Where velocity is scaled by the time interval.
+		That is, for each interval of time, there is the velocity magnitude. 
 
 This equation indicates that the displacement (Δx) is directly proportional to the time interval (Δt) and the constant velocity (v).
 ### Graphical Representation of Uniform Motion

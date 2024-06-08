@@ -27,18 +27,22 @@ When we add up the area of each rectangle, then we arrive at the approximate **c
 
 When we take the **[[Limits|limit]]** of the $\triangle t$ - i.e. $\LARGE \lim\limits_{\triangle t \rightarrow 0}$ we then make the rectangles themselves smaller and smaller, and thus the "graining" of the curve, finer and finer.
 	And therefore, makes the approximation of the area under the function/curve/graph more accurate.
-
-This alternate form:
-#### $\LARGE \int_{t_{0}}^{t} v(\tilde{t}) d\tilde{t}$
-Where $dt$ means $\triangle t$.
-	Therefore, The equation states that we are integrating the velocity function (i.e. summing the function's output values) according to some displacement interval of the independent variable. 
 ## The Integral
 The Integral itself represents the accumulation of quantities.
 	It can be thought of as the reverse process of differentiation
 ![[Pasted image 20240602154331.png|500]]
 *Note: Any area under **above** the curve, is negative and thus subtracted from the sum.*
-
+### An Alternate Form:
+#### $\LARGE \int_{t_{0}}^{t} v(\tilde{t}) d\tilde{t}$
+Where $dt$ means $\triangle t$.
+	Therefore, The equation states that we are integrating the velocity function (i.e. summing the function's output values) according to some displacement interval of the independent variable. 
+Remember 
+### Integral as Accumulated Area
 Now each $x(t_{i})$ is the area under the graph up to that specific point. 
+
+*Remember*: the sum of velocities for each time, $t_{i}$, scaled by the interval of time, $dt$ (i.e. $\triangle t_{i}$), which would produce a rectangle under the each velocity at time, $v(t_{i})$, with an area of such.
+	Where $v(t_{i})$ is the "height" and $dt$ (i.e. $\triangle t$) is the "width".
+		Where the times, $t_{i}$, goes from $t_{0}$ until at specific time t. 
 
 Therefore, integrating the derivative function up to a point and then producing the output value of the function that produced that initial derivative. 
 ### What "Integrate" Means
@@ -57,11 +61,13 @@ The integration is performed from t0​ to t.
 	These are the bounds between which the function $v(\tilde{t})$ is being integrated.
 		 The lower limit is t0​, and the upper limit is t.
 #### The Constant of Integration
+The integration constant in the context of kinematic equations is not necessarily the reference point, but it often represents initial conditions, such as initial velocity or initial position.
 ##### What is the Constant of Integration?
 When you find the antiderivative (or indefinite integral) of a function, you are essentially reversing the process of differentiation. 
 	However, when you differentiate a function, any constant term disappears because the [[Derivatives#Derivative of a Constant is Zero|derivative of a constant is zero]]. 
 		This means that when you find the antiderivative, there could be any constant value added to it, and it would still be valid.
 ##### What Does the Constant of Integration Do?
+The Constant of Integrations sets the initial state of the system at the start of the observation.
 ###### Represents All Possible Shifts
 The constant C represents any vertical shift of the function.
 	So, $x^2+5$, $x^2$, and $x^{2}−3$ all have the same slope (rate of change) at any point because they all have the same derivative2x.
@@ -78,14 +84,10 @@ When you differentiate $x^2+5$ and $x^2−3$, both give you $2x$.
 ###### Family of Functions
 The antiderivative represents a family of functions, all differing by a constant. 
 	Adding the constant C ensures we include all possible functions that could have been differentiated to give the original function.
-###### Integral Constant
-If you write down an Integral, you will always write down an Integral Constant.
-
-Also known as the Constant of Integration.
-	It is produced as a by product of finding the indefinite integral (i.e. [[#1. Indefinite Integral aka the Antiderivative]]) of a function.
 ###### [[#1. Indefinite Integral aka the Antiderivative|Antiderivative]]
 Refers to the inverse derivative, primitive function, primitive integral or indefinite integral of a function f.
 	It is a differentiable function F whose derivative is equal to the original function f.
+The Constant of Integration is produced as a by product of finding the indefinite integral (i.e. [[#1. Indefinite Integral aka the Antiderivative]]) of a function.
 ###### [[#1. Indefinite Integral|Indefinite Integral]]
 The indefinite integral of a function f(x) is a family of functions F(x) such that F′(x)=f(x). 
 	It is denoted by:
@@ -121,7 +123,38 @@ Suppose the acceleration function is $\LARGE a(t)=6t$ and we know the initial ve
 	Therefore, the specific velocity function is:
 
 		$\LARGE v(t) = 3t^2 + 4$
+#### Integration Constant in Kinematic Equations
+When we derive the kinematic equations from the basic principles of motion, we integrate acceleration to find velocity and then integrate velocity to find displacement.
 
+In both cases, the integration constants are determined by the initial conditions of the motion. 
+	They set the initial state of the system at the start of the observation.
+##### From Acceleration to Velocity:
+Given constant acceleration $a$,
+#### $\LARGE a=\frac{dv}{dt}$
+
+Integrating both sides with respect to time $t$,
+#### $\LARGE \int a \, dt=\int \frac{dv}{dt} \, dt$`
+
+#### $\LARGE at+C_1=v(t)$
+
+Here, $C_1$ is the integration constant, which represents the initial velocity $v_0$. 
+	So, the velocity equation becomes:
+#### $\LARGE v(t)=v_0+at$
+
+$C_1$ represents the initial velocity $v_0$, which is the velocity at $t=0$.
+##### From Velocity to Displacement:
+Given the velocity function $v(t)=v_0+at$,
+#### $\LARGE v(t)=\frac{dx}{dt}$
+
+Integrating both sides with respect to time $t$,
+#### $\LARGE \int (v_0+at) \, dt=\int \frac{dx}{dt} \, dt$
+#### $\LARGE v_0 t+\frac{1}{2}at^2+C_2=x(t)$
+
+Here, $C_2$ is the integration constant, which represents the initial position $x_0$. 
+	So, the displacement equation becomes:
+#### $\LARGE x(t)=x_0+v_0 t+\frac{1}{2}at^2$
+
+$C_2$ represents the initial position $x_0$, which is the position at $t=0$.
 ##### Why It Matters
 The integral constant C is essential in the context of indefinite integrals because it represents the family of all possible antiderivatives of a function. 
 	It ensures that the integration process accounts for all potential vertical shifts of the antiderivative function, reflecting the fact that differentiation loses this information.

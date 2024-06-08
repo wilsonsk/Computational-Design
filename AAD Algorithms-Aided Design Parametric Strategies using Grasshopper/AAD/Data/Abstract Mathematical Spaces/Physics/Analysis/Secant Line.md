@@ -16,6 +16,7 @@ date created: 2024-04-10
 
 ![[Pasted image 20240410153825.png|400]]
 ![[Pasted image 20240422200835.png]]
+### Secant Line as a Linear Function
 Is a **straight line** (i.e. linear equation) that **intersects (i.e. cuts) a curve at two points**.
 	I.e. Connects two or more points **on** the **curve of a function**.
 		It forms the **hypotenuse** between those two intersected points on the curve of a function.
@@ -26,7 +27,7 @@ Two points bounding the point of the tangent line - i.e. where the point of the 
 - As another point gets closer and closer to a point $a$ on either side:
 	- The slopes of the **secant lines** (i.e. lines connection the two points) will approach the **slope of the tangent line at point $a$**.
 	![[Pasted image 20240422200902.png]]
-### ### As the [[Proportion#Visually it is the Hypotenuse of a Right Triangle|Hypotenuse]] of the Triangle Representing the [[Derivatives#Formally, the derivative at a point $a$, is **defined** as the Limits limit of the slope of the Secant Line secant line (i.e. **average rate of change**)|Average Rate of Change]] 
+### As the [[Proportion#Visually it is the Hypotenuse of a Right Triangle|Hypotenuse]] of the Triangle Representing the [[Derivatives#Formally, the derivative at a point $a$, is **defined** as the Limits limit of the slope of the Secant Line secant line (i.e. **average rate of change**)|Average Rate of Change]] 
 It represents the change in the chosen points along the curve of the function.
 ![[Pasted image 20240422232255.png]]
 ![[Pasted image 20240422232921.png]]
