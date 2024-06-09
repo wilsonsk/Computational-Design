@@ -14,10 +14,10 @@ When we derive the kinematic equations from the basic principles of motion, we i
 **Mathematical Representation**:
 In a one-dimensional space, position $x(t)$ is a function of time $t$.
 
-In a two-dimensional space, position is represented by a vector
+In a two-dimensional space, position is represented by a vector, $\vec{r}$ 
 $\LARGE \vec{r}(t) = x(t) \hat{i} + y(t) \hat{j}$
 
-In a three-dimensional space, position is represented by a vector
+In a three-dimensional space, position is represented by a vector, $\vec{r}$
 $\LARGE \vec{r}(t) = x(t) \hat{i} + y(t) \hat{j} + z(t) \hat{k}$
 where $\hat{i}$, $\hat{j}$, and $\hat{k}$ are the unit vectors along the $x$, $y$, and $z$ axes respectively.
 ### Position as the Basis for Velocity
