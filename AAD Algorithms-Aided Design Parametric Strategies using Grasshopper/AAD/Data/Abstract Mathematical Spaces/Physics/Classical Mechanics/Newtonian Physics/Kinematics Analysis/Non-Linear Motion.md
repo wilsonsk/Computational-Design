@@ -40,9 +40,9 @@ If the position vector is $\vec{r}(t) = x(t) \hat{i} + y(t) \hat{j}$​, the acc
 	$\LARGE \vec{a}(t) = \frac{d\vec{v}(t)}{dt} = \frac{d}{dt} \left( \frac{dx(t)}{dt} \hat{i} + \frac{dy(t)}{dt} \hat{j} \right) = \frac{d^2x(t)}{dt^2} \hat{i} + \frac{d^2y(t)}{dt^2} \hat{j}$
 ###### 3D Components
 If the position vector is $\vec{r}(t) = x(t) \hat{i} + y(t) \hat{j} + z(t) \hat{k}$, the acceleration vector components are:
-	$\LARGE \vec{a}(t) = \frac{d\vec{v}(t)}{dt} = \frac{d}{dt} \left( \frac{dx(t)}{dt} \hat{i} + \frac{dy(t)}{dt} \hat{j} + \frac{dz(t)}{dt} \hat{k} \right) = \frac{d^2x(t)}{dt^2} \hat{i} + \frac{d^2y(t)}{dt^2} \hat{j} + \frac{d^2z(t)}{dt^2} \hat{k}$
+$\LARGE \vec{a}(t) = \frac{d\vec{v}(t)}{dt} = \frac{d}{dt} \left( \frac{dx(t)}{dt} \hat{i} + \frac{dy(t)}{dt} \hat{j} + \frac{dz(t)}{dt} \hat{k} \right) = \frac{d^2x(t)}{dt^2} \hat{i} + \frac{d^2y(t)}{dt^2} \hat{j} + \frac{d^2z(t)}{dt^2} \hat{k}$
 ### Types of Non-linear Motion
-###### Projectile Motion:
+###### Projectile Motion
 **Dimensions**: Typically in 2D.
 **Acceleration**: Constant acceleration due to gravity acting downward.
 **Position**:
@@ -69,3 +69,20 @@ If the position vector is $\vec{r}(t) = x(t) \hat{i} + y(t) \hat{j} + z(t) \hat{
 	$\LARGE a(t) = -A \omega^2 \cos(\omega t + \phi)$
 ## Non-Linear Motion in 2D
 ![[Pasted image 20240608205940.png]]
+Non-linear motion in 2D involves the movement of an object in a plane where the path is not a straight line. 
+
+This type of motion can be understood and analyzed by breaking it down into components along two perpendicular axes, typically denoted as $x$ and $y$.
+### Superposition Principle
+The principle of superposition states that the net response caused by two or more forces is the sum of the responses that would have been caused by each force individually. 
+
+In the context of motion, this means that the total motion can be considered as the vector sum of the individual motions along the $x$ and $y$ axes.
+#### Application in Motion
+When applied to kinematics, the superposition principle allows us to analyze the motion of an object in multiple dimensions by breaking it down into simpler, independent motions along each coordinate axis. 
+
+The overall motion is then obtained by vectorially adding these independent motions.
+##### Key Concepts
+###### Independence of Components
+Motion along one axis does not affect motion along another axis.
+For example, in 2D motion, the motion along the xxx-axis and yyy-axis can be treated separately.
+###### Additive Nature
+The total motion is the vector sum of the individual motions along each axis.
