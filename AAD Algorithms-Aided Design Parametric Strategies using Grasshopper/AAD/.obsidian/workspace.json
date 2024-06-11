@@ -114,7 +114,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -211,15 +212,16 @@
   },
   "active": "e29673e4e17d0f25",
   "lastOpenFiles": [
-    "Surfaces/Notion of Surface Curvature.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Tangent Line.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Secant Line.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Components of Motion.md",
+    "Surfaces/Notion of Surface Curvature.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Linear Motion.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Kinematics Analysis.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Non-Linear Motion.md",
     "Curves/Curves.md",
     "Surfaces/Gaussian Curvature.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Limits.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Tangent Line.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Static Equilibrium.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Integrals.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Uniform Acceleration.md",
@@ -232,7 +234,6 @@
     "images/Pasted image 20240606155414.png",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
     "images/Pasted image 20240608102634.png",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Secant Line.md",
     "images/Pasted image 20240608095514.png",
     "images/Pasted image 20240606222714.png",
     "images/Pasted image 20240606222705.png",
