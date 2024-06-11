@@ -48,7 +48,7 @@ And again, $v_{0}$ stays as such.
 That is the initial position.
 ##### Displacement Equation
 $\LARGE x(t) = {1 \over 2}at^{2} + v_{0}t + x_{0}$
-	Where $x(t)$ is the displacement at time, $t$, $x_{0}$ is the initial position, $v_{0}$ is the initial velocity, and $a$ is the constant acceleration.
+Where $x(t)$ is the displacement at time, $t$, $x_{0}$ is the initial position, $v_{0}$ is the initial velocity, and $a$ is the constant acceleration.
 
 The displacement equation shows that displacement is a function of both time $t$ and $t^{2}$.
 	The term $\LARGE v_{0}t$ accounts for the initial velocity, and the term ${1 \over 2}at^{2}$ accounts for the change in velocity due to acceleration.

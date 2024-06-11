@@ -15,14 +15,14 @@ Non-linear motion can occur in:
 - **[[#Non-Linear Motion in 2D|Two Dimensions (2D)]]**: Motion occurs in a plane, requiring two coordinates to describe the position of the object.
 - **Three Dimensions (3D)**: Motion occurs in space, requiring three coordinates to describe the position of the object.
 #### Position
-###### [[Static Equilibrium#Position Vectors|Position Vector]]: 
+###### [[Static Equilibrium#Position Vectors|Position Vector]]
 The position of the object is described by a vector that changes with time. 
 	In 2D, it is:
 		$\LARGE \vec{r}(t) = x(t) \hat{i} + y(t) \hat{j}$
 	In 3D, it is:
 		$\LARGE \vec{r}(t) = x(t) \hat{i} + y(t) \hat{j} + z(t) \hat{k}$
 #### Velocity
-###### Velocity Vector:
+###### Velocity Vector
 The velocity vector also changes with time, reflecting changes in both speed and direction. 
 	In 2D, it is:
 		$\LARGE \vec{v}(t) = \frac{d\vec{r}(t)}{dt} = \frac{dx(t)}{dt} \hat{i} + \frac{dy(t)}{dt} \hat{j}$
@@ -75,7 +75,9 @@ This type of motion can be understood and analyzed by breaking it down into comp
 ### Superposition Principle
 The principle of superposition states that the net response caused by two or more forces is the sum of the responses that would have been caused by each force individually. 
 
-In the context of motion, this means that the total motion can be considered as the vector sum of the individual motions along the $x$ and $y$ axes.
+In the context of motion, this means that the total motion can be considered as the vector sum of the individual motions along the $x$ and $y$ and $z$ axes.
+
+I.e. The principle of superposition states that the motion in each dimension can be treated independently and then combined to get the resultant motion.
 #### Application in Motion
 When applied to kinematics, the superposition principle allows us to analyze the motion of an object in multiple dimensions by breaking it down into simpler, independent motions along each coordinate axis. 
 
@@ -83,6 +85,49 @@ The overall motion is then obtained by vectorially adding these independent moti
 ##### Key Concepts
 ###### Independence of Components
 Motion along one axis does not affect motion along another axis.
-For example, in 2D motion, the motion along the xxx-axis and yyy-axis can be treated separately.
+For example, in 2D motion, the motion along the $x$ axis and $y$ axis can be treated separately.
 ###### Additive Nature
 The total motion is the vector sum of the individual motions along each axis.
+### Applying Superposition to 2D Motion
+![[Pasted image 20240609153727.png]]
+#### 2D [[Components of Motion|Components of Motion]]
+In 2D projectile motion, the motion can be decomposed into horizontal (x-axis) and vertical (y-axis) components.
+#### Horizontal Motion (x axis)
+###### Given Acceleration in the Horizontal Direction 
+The horizontal motion is typically uniform motion with constant velocity because there is no acceleration in the horizontal direction (assuming no air resistance).
+#### $\LARGE a_{x} = 0$
+###### Velocity in the Horizontal Direction
+Obtained by Integrating Acceleration.
+#### $\LARGE v_{x}(t) = v_{0x}$
+###### Position in the Horizontal Direction
+Obtained by Integrating Velocity.
+Is a constant velocity.
+#### $\LARGE x(t) = v_{0x}t$
+#### Vertical Motion (y-axis):
+###### Given Acceleration in the Vertical Direction
+The vertical motion is influenced by gravity, leading to [[Uniform Acceleration|uniform accelerated motion]].
+#### $\LARGE a_{y} = -g$
+###### Velocity in the Vertical Direction
+Obtained by Integrating Acceleration.
+	Decreasing linearly.
+#### $\LARGE v_{y}(t) = v_{0y} -gt$
+###### Position in the Vertical Direction
+Obtained by Integrating Velocity.
+	Is a constant acceleration.
+#### $\LARGE y_{t} = v_{0y}t - {1\over2}gt^{2} + h$
+#### Combining the Components
+By treating the horizontal and vertical motions independently, we can use the principle of superposition to combine them and get the overall motion in 2D.
+##### Position Vector
+The position vector is the integral of the velocity vector:
+	Where each component of the vector is a scalar.
+#### $\LARGE \vec{r}(t) = \begin{pmatrix} x(t) \\ y(t) \end{pmatrix} = \int \vec{v}(t)dt = \begin{pmatrix} v_{0x} t \\ -\frac{1}{2}gt^2 + v_{0y}t + h \end{pmatrix}$
+
+This shows that the horizontal position $x(t) = v_{0x}t$ increases linearly with time, while the vertical position $v_{0y} t - \frac{1}{2} g t^2 + h$ follows a parabolic path due to the influence of gravity.
+##### Velocity Vector
+The velocity vector is the combination of the horizontal and vertical components:
+#### $\LARGE \vec{v}(t) = \begin{pmatrix} v_x(t) \\ v_y(t) \end{pmatrix} = \begin{pmatrix} v_{0x} \\ -gt + v_{0y} \end{pmatrix}$
+
+This shows that the horizontal component of velocity $v_{0x}$​ remains constant, while the vertical component $v_{0y} - gt$ decreases linearly due to gravity.
+##### Acceleration Vector
+This represents the constant acceleration due to gravity in the negative $y$ direction.
+#### $\LARGE \vec{a}(t) = \begin{pmatrix} a_x(t) \\ a_y(t) \end{pmatrix} = \begin{pmatrix} 0 \\ -g \end{pmatrix}$

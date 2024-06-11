@@ -5,48 +5,9 @@ Linear motion refers to motion along a straight line, but it does not specify wh
 This "straight line" implies motion along a **single axis**.
 	Where a [[#Position|position]] changes along a single axis. 
 		This does **not** mean that the velocity or acceleration are necessarily straight graphically.
-## Position
-Position refers to the specific location of an object in space at a given point in time.
-	It is described relative to a reference point, typically called the origin, in a coordinate system.
-##### Change of Position as Displacement
-When we derive the kinematic equations from the basic principles of motion, we integrate acceleration to find velocity and then integrate velocity to find displacement.
-#### Positions are Represented by [[Static Equilibrium#Position Vectors|Position Vectors]].
-**Mathematical Representation**:
-In a one-dimensional space, position $x(t)$ is a function of time $t$.
-
-In a two-dimensional space, position is represented by a vector, $\vec{r}$ 
-$\LARGE \vec{r}(t) = x(t) \hat{i} + y(t) \hat{j}$
-
-In a three-dimensional space, position is represented by a vector, $\vec{r}$
-$\LARGE \vec{r}(t) = x(t) \hat{i} + y(t) \hat{j} + z(t) \hat{k}$
-where $\hat{i}$, $\hat{j}$, and $\hat{k}$ are the unit vectors along the $x$, $y$, and $z$ axes respectively.
-### Position as the Basis for Velocity
-###### [[Newton's Second Law#Velocity|Velocity]]:
-Velocity is defined as the rate of change of position with respect to time.
-It describes how fast and in which direction an object's position is changing.
-
-**Mathematical Definition**:
-The [[#Velocity Vector|velocity vector]] $\vec{v}(t)$ is the first derivative of the position vector $\vec{r}(t)$ with respect to time: 
-$\LARGE \vec{v}(t) = {d\vec{r}(t) \over dt}$
-
-**Components**:
-In one-dimensional motion, velocity is the derivative of the position function: 
-$\LARGE v(t) = \frac{dx(t)}{dt}$
-    
-In two-dimensional motion, velocity is the derivative of the position vector: 
-$\LARGE \vec{v}(t) = \frac{d}{dt} (x(t) \hat{i} + y(t) \hat{j}) = \frac{dx(t)}{dt} \hat{i} + \frac{dy(t)}{dt} \hat{j}$
-    
-In three-dimensional motion, velocity is: 
-$\LARGE \vec{v}(t) = \frac{d}{dt} (x(t) \hat{i} + y(t) \hat{j} + z(t) \hat{k}) = \frac{dx(t)}{dt} \hat{i} + \frac{dy(t)}{dt} \hat{j} + \frac{dz(t)}{dt} \hat{k}$
-### Example
-Let's consider an example in two-dimensional motion:
-###### Position Vector: Suppose the position vector of a particle is given by: 
-$\LARGE \vec{r}(t) = t^2 \hat{i} + t^3 \hat{j}$
-###### Velocity Vector: The velocity vector is the derivative of the position vector: 
-$\LARGE \vec{v}(t) = \frac{d\vec{r}(t)}{dt} = \frac{d}{dt} (t^2 \hat{i} + t^3 \hat{j}) = 2t \hat{i} + 3t^2 \hat{j}$
-
-This tells us how the position changes with time, both in magnitude and direction.
 ## 1D Motion: [[Newton's Second Law#Velocity|Velocity]]
+Velocity in 1D is the rate of change of position with respect to time. 
+	It is also a [[Static Equilibrium#Scalar Form Analysis|scalar]] quantity.
 #### Assuming Non-Constant Velocity
 ![[Pasted image 20240529123521.png]]
 ### Average Velocity (i.e. Average Rate of Change)
@@ -93,27 +54,6 @@ Therefore, if:
 		Then, one can actually find the displacement of $x$ via:
 			$\LARGE dx = v(t) dt$
 #### [[Derivatives#Example Finding the Derivative|Example of Solving a Derivative Function]]
-
-### Velocity Vector
-The velocity vector represents the rate of change of the position vector with respect to time.
-	It indicates how fast and in which direction an object's position is changing.
-
-**Mathematical Definition**:
-The velocity vector $\vec{v}(t)$ is the first derivative of the position vector $\vec{r}(t)$ with respect to time: 
-$\LARGE \vec{v}(t) = \frac{d\vec{r}(t)}{dt}$
-
-**Components**:
-In one-dimensional motion: 
-$\LARGE v(t) = \frac{dx(t)}{dt}$
-
-In two-dimensional motion: 
-$\LARGE\vec{v}(t) = \frac{d}{dt}(x(t) \hat{i} + y(t) \hat{j}) = \frac{dx(t)}{dt} \hat{i} + \frac{dy(t)}{dt} \hat{j}$
-
-In three-dimensional motion: $\LARGE\vec{v}(t) = \frac{d}{dt}(x(t) \hat{i} + y(t) \hat{j} + z(t) \hat{k}) = \frac{dx(t)}{dt} \hat{i} + \frac{dy(t)}{dt} \hat{j} + \frac{dz(t)}{dt} \hat{k}$
-###### Example of Acceleration Vector
-Let's consider an example in two-dimensional motion:
-- **Position Vector**: Suppose the position vector of a particle is given by: $\vec{r}(t) = t^2 \hat{i} + t^3 \hat{j}$
-- **Velocity Vector**: The velocity vector is the first derivative of the position vector: $\vec{v}(t) = \frac{d\vec{r}(t)}{dt} = \frac{d}{dt}(t^2 \hat{i} + t^3 \hat{j}) = 2t \hat{i} + 3t^2 \hat{j}$
 ## 1D Motion: [[Newton's Second Law#Acceleration|Acceleration]]
 ![[Pasted image 20240531150448.png]]
 ### Average Acceleration Between $t_{1}$ and $t_{2}$
@@ -124,39 +64,12 @@ Let's consider an example in two-dimensional motion:
 #### $\LARGE a(t)= \lim\limits_{\triangle t \rightarrow 0} {Δv \over \triangle t}​ = {dv \over dt} = \dot{v} = {d^{2}x \over dt^{2}} = x''(t) = \ddot{x}$
 
 I.e. The **derivative**, $a(t)$, *is* the **slope of the tangent line** *which is* the **limit**, $\lim\limits_{\triangle v \rightarrow 0}$  of the **linear function that connects two points** (i.e. the secant line), $\triangle v$, as **the displacement between the points, $\triangle t$, decreases to 0**. 
-### Acceleration Vector
-
-![[Pasted image 20240606124505.png|500]]
-The acceleration vector represents the rate of change of the velocity vector with respect to time. 
-	It indicates how fast and in which direction an object's velocity is changing.
-Acceleration is **orthogonal** to the tangential velocity vector. 
-
-**Mathematical Definition**:
-The acceleration vector $\vec{a}(t)$ is the first derivative of the velocity vector $\vec{v}(t)$ with respect to time, or equivalently, the second derivative of the position vector $\vec{r}(t)$ with respect to time: 
-$\LARGE\vec{a}(t) = \frac{d\vec{v}(t)}{dt} = \frac{d^2\vec{r}(t)}{dt^2}$
-
-**Components**:
-In one-dimensional motion: 
-$\LARGE a(t) = \frac{dv(t)}{dt} = \frac{d^2x(t)}{dt^2}$
-
-In two-dimensional motion: 
-$\LARGE \vec{a}(t) = \frac{d}{dt}(\frac{dx(t)}{dt} \hat{i} + \frac{dy(t)}{dt} \hat{j}) = \frac{d^2x(t)}{dt^2} \hat{i} + \frac{d^2y(t)}{dt^2} \hat{j}$
-
-In three-dimensional motion: 
-$\LARGE \vec{a}(t) = \frac{d}{dt}(\frac{dx(t)}{dt} \hat{i} + \frac{dy(t)}{dt} \hat{j} + \frac{dz(t)}{dt} \hat{k}) = \frac{d^2x(t)}{dt^2} \hat{i} + \frac{d^2y(t)}{dt^2} \hat{j} + \frac{d^2z(t)}{dt^2} \hat{k}$
-
-###### Example of Acceleration Vector
-Let's consider an example in two-dimensional motion:
-- **Position Vector**: Suppose the position vector of a particle is given by: $\vec{r}(t) = t^2 \hat{i} + t^3 \hat{j}$
-- **Velocity Vector**: The velocity vector is the first derivative of the position vector: $\vec{v}(t) = \frac{d\vec{r}(t)}{dt} = \frac{d}{dt}(t^2 \hat{i} + t^3 \hat{j}) = 2t \hat{i} + 3t^2 \hat{j}$
-- **Acceleration Vector**: The acceleration vector is the first derivative of the velocity vector: $\vec{a}(t) = \frac{d\vec{v}(t)}{dt} = \frac{d}{dt}(2t \hat{i} + 3t^2 \hat{j}) = 2 \hat{i} + 6t \hat{j}$
 ## Example of Velocity Over Time
 ### Given
 ![[Pasted image 20240603125923.png]]
 ![[Pasted image 20240603125931.png]]
 ### Solve
 ![[Pasted image 20240603130014.png]]Where "path" refers to the **position** function (i.e. the function from which the velocity is derived).
-
 ##### Solving Position Function
 To find this [[#Position|position]] function, we must **[[Integrals#What "Integrate" Means|integrate velocity's functional dependence with respect to time]]**.
 	I.e. Integrate or summing the velocity function's output values produced by a range of input values.

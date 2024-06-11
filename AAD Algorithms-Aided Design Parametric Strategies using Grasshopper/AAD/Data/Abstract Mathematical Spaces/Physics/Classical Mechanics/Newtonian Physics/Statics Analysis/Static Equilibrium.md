@@ -69,9 +69,17 @@ Equilibrium follows a similar pattern for angular accelerations.
 ###### [[Bodies#Rigid Bodies in Rotational Equilibrium in Non-Concurrent Systems|Rigid Bodies]]
 
 ## Forms of Forces - Methods of Analyzing Physical Quantities
+### Coordinates
+A **coordinate** is a number (or set of numbers) used to determine the position of a point in space. 
+	Coordinates are typically part of a coordinate system, such as Cartesian coordinates, which define positions in one-dimensional, two-dimensional, or three-dimensional space.
+### Scalars
+A **scalar** is a quantity that has only magnitude and no direction.
+	It is a single value, often a real number, that represents size or amount.
+	
+ Scalars can describe many physical quantities such as temperature, mass, time, and energy.
 ### Scalar Form Analysis
-I.e. Magnitude and Direction Form.
-	Where the vector is scaled according to its magnitude, in a given direction.
+I.e. Magnitude Form.
+	Where the vector is scaled according to its magnitude, in a given angle.
 Overall magnitude and angle(s) to indicate direction.
 ##### 2Dimensional
 ![[Pasted image 20240503162507.png]]
