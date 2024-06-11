@@ -261,7 +261,7 @@ The component of acceleration that is perpendicular to the velocity vector.
 
 If the acceleration vector is orthogonal (perpendicular) to the velocity vector, it means that the acceleration is affecting the direction of the velocity vector but not its magnitude.
 	I.e. Normal/Orthogonal components **imply** Normal/Orthogonal Acceleration.
-		This is typical in uniform circular motion, where the centripetal acceleration is always directed towards the center of the circular path and is perpendicular to the tangential velocity.
+		This is typical in uniform circular motion, where the [[#Centripetal Acceleration|centripetal acceleration]] is always directed towards the center of the circular path and is perpendicular to the tangential velocity.
 ###### Normal (i.e. Perpendicular) Acceleration
 Normal acceleration, which is perpendicular to the velocity vector, changes the direction of the velocity vector without changing its magnitude.
 
@@ -270,7 +270,7 @@ Where $\hat{n}$ is the unit vector pointing towards the [[Notion of Surface Curv
 		When an object moves along a curved path, the component of acceleration that is perpendicular to the velocity vector is the centripetal acceleration, which points towards the center of curvature.
 #### $\LARGE \vec{a}_{\perp}(t) = \left( \frac{|\vec{v}|^2}{r} \right) \hat{n}$
 
-***Example***: In uniform circular motion, the velocity vector is tangent to the circular path, and the acceleration vector (centripetal acceleration) is directed towards the center of the circle.
+***Example***: In uniform circular motion, the velocity vector is tangent to the [[#Circular Path|circular path]], and the acceleration vector ([[#Centripetal Acceleration|centripetal acceleration]]) is directed towards the center of the circle.
 ##### Ratio of the Components of the Acceleration Vector
 ###### The 2D ratio of the Acceleration Vector:
 
