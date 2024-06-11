@@ -434,3 +434,42 @@ Where $u = h(x)$.
 
 Let $u = 2x$, then $du = 2 , dx$ or $\frac{1}{2} du = dx$. Substituting:
 #### $\LARGE \int \sin(2x) \, dx = \int \sin(u) \cdot \frac{1}{2} \, du = \frac{1}{2} \int \sin(u) \, du = \frac{1}{2} (-\cos(u)) + C = -\frac{1}{2} \cos(2x) + C$
+#### Integral of Zero
+Remember that Integration is the mathematical process of finding the antiderivative or the area under the curve of a function. 
+	When we integrate a function, we are essentially summing up infinitely small pieces to find the total.
+
+The integral of zero with respect to any variable, such as time $t$, is a constant.
+	This is because there is no change in the quantity we are integrating.
+		I.e. The integral of zero is a constant because there is no change to accumulate over time.
+
+Therefore, being constant means or implies that the **initial velocity** or **initial condition** or input value, remains.
+	Thus, we have 
+#### $\LARGE \int 0 dt = C$
+
+Where $C$ is the Constant of Integration
+##### Application to Velocity
+###### Acceleration as the Derivative of Velocity
+Acceleration $a_{x}$​ is the rate of change of velocity $v_{x}$​ with respect to time $t$.
+	If acceleration is zero, it means that the velocity is not changing over time.
+#### $\LARGE a_{x} = {dv_{x} \over dt} = 0$
+###### Integrating Zero Acceleration
+To find the velocity $v_{x}$​, we integrate the acceleration $a_{x}$:
+#### $\LARGE v_{x}(t) = \int a_{x}dt = \int 0dt = C$
+
+Here, $C$ is the constant of integration.
+	This constant represents the initial velocity of the object, denoted as $v_{0x}$​.
+		 It signifies that the velocity remains constant over time because there is no acceleration to change it.
+			 Thus we write:
+				 $\LARGE v_{x}(t) = v_{0x}$
+##### Application to Position
+###### Velocity as the Derivative of Position
+Velocity $v_{x}$​ is the rate of change of position $x$ with respect to time $t$.
+	Since we found that $v_{x}(t) = v_{0x}$​, we integrate this constant velocity to find the position.
+#### $\LARGE x(t) = \int v_{x}(t)dt = \int v_{0x}dt$
+###### Integrating Constant Velocity
+#### $\LARGE x(t) = v_{0x} t + C'$
+
+Here, $C'$ is another constant of integration, which represents the initial position of the object, denoted as $x_{0}$​.
+	Therefore, we write:
+		$\LARGE x(t) = v_{0x} t + x_{0}$
+		

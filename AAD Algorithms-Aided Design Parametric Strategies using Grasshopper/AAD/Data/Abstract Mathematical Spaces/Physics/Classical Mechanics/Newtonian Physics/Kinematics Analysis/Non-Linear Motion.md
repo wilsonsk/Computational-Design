@@ -98,7 +98,22 @@ The horizontal motion is typically uniform motion with constant velocity because
 #### $\LARGE a_{x} = 0$
 ###### Velocity in the Horizontal Direction
 Obtained by Integrating Acceleration.
+The [[Integrals#Integral of Zero|integral of 0]] with respect to time $t$ is a constant, which represents the initial velocity, $\vec{v_0x}$.
+	This is because there is no change in the quantity we are integrating.
+		And therefore, whatever the initial condition (i.e. velocity) is, that is what remains and stays constant. 
+#### $\LARGE v_{x}(t) = \int a_{x}dt = \int 0dt = C$
+Here, $C$ is the constant of integration.
+	This constant represents the initial velocity of the object, denoted as $v_{0x}$​.
+		 It signifies that the velocity remains constant over time because there is no acceleration to change it.
+			 Thus we write:
+				 $\LARGE v_{x}(t) = v_{0x}$
 #### $\LARGE v_{x}(t) = v_{0x}$
+
+***Note***: If the velocity was in the $y$ direction and there was no acceleration in that direction, the velocity would remain constant over time. 
+
+	$v_{y}(t) = \int a_{y}dt = \int 0dt = C$
+
+	 $v_{y}(t) = v_{0y}$
 ###### Position in the Horizontal Direction
 Obtained by Integrating Velocity.
 Is a constant velocity.
