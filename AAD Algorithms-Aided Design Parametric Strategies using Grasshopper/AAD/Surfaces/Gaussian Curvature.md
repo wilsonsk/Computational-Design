@@ -43,7 +43,7 @@ The result describes the intrinsic curvature of the surface, independent of how 
 	- I.e. they can be **flattened** onto a plane without deformation (stretching, compressing, or tearing). 
 		- They are practical in manufacturing and fabrication because forms can be constructed by bending flat sheets of flexible materials (metal, cardboard, plywood, etc.)
 		- Additionally, these surfaces contain a **set** of **straight line** which also simplify the structure's constructions (linear beams).
-### Examples of **Developable Surfaces**:
+### Examples of Developable Surfaces:
 - Planes, cylinders, cones, and surfaces obtained by bending a flat sheet without stretching it. These surfaces are characterized by **straight lines**, called **generators** or **rulings** that lie entirely on the surface.
 ### Sign of Gaussian Curvature
 ![[Pasted image 20240325132939.png|400]]

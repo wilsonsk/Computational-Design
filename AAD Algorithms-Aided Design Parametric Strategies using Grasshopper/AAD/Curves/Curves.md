@@ -154,10 +154,23 @@ In **2D space** a curve *almost* every **point** always has a **unique** directi
 				- With its **x vector** set to be the x vector of the Frenet frame.
 				- Its **z vector** at **right angles** to the x vector
 				- And its **z vector** **co-planar** with the x vector and the reference vector. 
-###### Hodograph:
+###### Hodograph
+A hodograph is a geometric representation of the [[Components of Motion#Velocity Vector|velocity vector]] of a moving particle.
+	It is the locus of the tips of the velocity vectors plotted in velocity space (not position space). Essentially, it shows how the velocity vector of an object changes with time.
+
+It refers to a curve in velocity space that represents the velocity vector as a function of time.
+	The position of a point on the hodograph at any time $t$ gives the velocity vector of the object at that time.
+		I.e. The curve traced by the velocity vector $\vec{v}(t)$ in velocity space.
+
+For a particle moving in a plane with position vector $\\vec{r}(t)$ and velocity vector v$\vec{v}(t)$, the hodograph would be the curve traced out by $\vec{v}(t)$ in velocity space.
+
+- Represents the velocity vector in velocity space.
+- Shows how the velocity vector changes over time.
+- Is plotted in a different space (velocity space) than the actual trajectory of the particle.
+
 - Is a curve defined by the ends of the tangent vectors
 - It is the **first derivation** of the curve.
-	- The hodograph of the hodograph is the **second derivation**. ^01ae23
+	- The hodograph of the hodograph is the **[[Second Derivatives|second derivation]]**. ^01ae23
 ## [[Bezier Curves]] 
 ### Splines:
 Is a **composite curves** composed of relating parts.

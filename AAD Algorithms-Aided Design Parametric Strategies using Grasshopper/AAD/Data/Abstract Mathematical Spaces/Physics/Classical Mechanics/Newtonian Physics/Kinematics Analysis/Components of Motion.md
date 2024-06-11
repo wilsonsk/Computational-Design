@@ -27,7 +27,6 @@ In a two-dimensional space, position is represented by a vector, $\vec{r}$
 Where each position vector contains 2 or 3 coordinates for each dimension.
 	Therefore, representing its components in those dimensions.
 		The components provide the necessary information to describe both the magnitude and direction of the vector in space.
-		
 ###### The components of the Velocity Vector are themselves, scalars.
 These scalar components scale the basis vectors (i.e. standard  unit vectors) to define the direction and magnitude of the vectors in each dimension.
 ###### Unit Vector Form
@@ -79,44 +78,151 @@ $\LARGE \vec{r}(t) = t^2 \hat{i} + t^3 \hat{j}$
 $\LARGE \vec{v}(t) = \frac{d\vec{r}(t)}{dt} = \frac{d}{dt} (t^2 \hat{i} + t^3 \hat{j}) = 2t \hat{i} + 3t^2 \hat{j}$
 
 This tells us how the position changes with time, both in magnitude and direction.
+### Path of the Object
+This is the actual trajectory that the object follows over time.
+It is a "[[Curves|curve]]".
+	It refers to the actual path that the object follows as it moves. 
+
+This path can be any shape: a straight line, a parabola, a circle, or a more complex curve.
+###### [[#Position Vector|Position Vector]]
+The vector that describes the position of the object at any given time $t$.
+$\vec{r}(t) = (x(t), y(t))$
+###### [[#Velocity Vector|Velocity Vector]]
+The velocity vector is tangent to this path at any given point and represents the instantaneous direction and speed of the object.
+
+The derivative of the position vector with respect to time, representing the object's instantaneous velocity and direction.
+$\vec{v}(t) = \frac{d\vec{r}(t)}{dt} = \left( \frac{dx(t)}{dt}, \frac{dy(t)}{dt} \right)$
+###### [[#Osculating Circle|Osculating Circle]]:
+At any given point on the path, the osculating circle provides the best local approximation of the curve of the path of the object.
+	The radius of curvature ($r$) and the center of curvature define this osculating circle.
+	The normal (centripetal) acceleration points towards the center of the osculating circle and is responsible for changing the direction of the velocity vector, keeping the object on the curved path.
+### Circular Path
+Refers to the osculating circle, which is the circle that best approximates the curvature of a path of the object at a given point. 
+	The osculating circle provides a local representation of the path's curvature and is directly related to the concept of centripetal (normal) acceleration.
+
+When an object moves along a curved path, its velocity vector changes direction continuously. 
+	To maintain this curved motion, there must be an acceleration component that is perpendicular to the velocity vector. 
+		This [[#Normal (i.e. Perpendicular) Acceleration|perpendicular acceleration]] is called the normal or centripetal acceleration.
+			 The osculating circle provides a geometric representation of this curvature at any given point on the path.
+			 
+I.e. The "circular path" in the context of normal (centripetal) acceleration refers to the osculating circle at a given point on the curve. 
+	The normal acceleration vector is perpendicular to the velocity vector and points towards the center of this osculating circle, ensuring the object follows the curved path.
+		 This concept helps in understanding how the curvature of the path and the corresponding acceleration components interact to produce the observed motion.
+#### Osculating Circles
+#### $\LARGE \vec{a}_{\perp}(t) = \left( \frac{|\vec{v}|^2}{r} \right) \hat{n}$
+Where $\hat{n}$ is the unit vector towards the [[Notion of Surface Curvature#Center of Curvature|center of curvature]].
+
+**Pertains to**: **[[#Relationship Between Acceleration and Velocity Vectors|Acceleration]]** and **[[Notion of Surface Curvature#Oscillating Circles|Curvature]]**
+**Purpose**: To describe how the path of an object curves at a specific point.
+**Description**: An osculating circle at a point on a curve is the circle that best approximates the curve at that point. It has the same tangent and curvature as the curve at that point.
+**[[Notion of Surface Curvature#Radius of Curvature|Radius of Curvature]]** ($r$): The radius of the osculating circle, representing the sharpness of the curve at a point.
+#### $\vec{a}_{\perp}(t) = \left( \frac{|\vec{v}|^2}{r} \right) \hat{n}$
+
+**[[Notion of Surface Curvature#Center of Curvature|Center of Curvature]]**: The center of the osculating circle.
+**[[#Normal (i.e. Perpendicular) Acceleration|Normal (Centripetal) Acceleration]]**: The component of acceleration pointing towards the center of curvature, which changes the direction
+#### $\vec{a}_{\perp}(t) = \left( \frac{|\vec{v}|^2}{r} \right) \hat{n}$
+
+**Usage**: Helps understand the curvature of the path and the normal component of acceleration.
+**Visualization**: Imagine a small circle that "kisses" the curve at a point, matching its curvature exactly.
+#### [[Curves#Hodograph|Hodographs]]
+Refers to the curve traced by the [[#Velocity Vector|velocity vector]] $\vec{v}(t)$ in velocity space.
+
+**Pertains to**: **Velocity**
+**Purpose**: To visualize how the velocity vector of a moving object changes over time.
+**Description**: A hodograph is the locus of the tips of the velocity vectors plotted in velocity space. It shows how the velocity vector changes in both magnitude and direction.
+**Velocity Space**: The space in which the hodograph is plotted, with coordinates representing components of the velocity vector.
+**Instantaneous Velocity**: Each point on the hodograph represents the velocity vector of the object at a specific time.
+**Usage**: Helps visualize how the velocity vector changes over time in terms of both magnitude and direction.
+**Visualization**: Imagine plotting the tip of the velocity vector in a separate space (velocity space) as the object moves.
+### Centripetal
+The term **centripetal** comes from Latin words "centrum" meaning center and "petere" meaning to seek. 
+	It refers to a [[Statics Analysis#Forces|force]] or [[#Newton's Second Law Acceleration Acceleration|acceleration]] that acts towards the center of a circular path.
+		 In the context of motion, centripetal forces are responsible for keeping an object moving in a curved or circular path.
+
+**Direction**
+Centripetal force and acceleration always point towards the center of the circular path. 
+	This inward force is what keeps the object moving in a circle rather than in a straight line.
+#### Centripetal Force
+Centripetal force is the force that keeps an object moving in a circular path and is directed towards the center of the circle around which the object is moving.
+
+**Cause of Circular Motion**: Without centripetal force, an object would move off in a straight line due to [[Newton's First Law#Inertia|inertia]] ([[Newton's First Law|Newton's First Law of Motion]]). 
+	The centripetal force changes the direction of the object's velocity, resulting in circular motion.
+#### $\LARGE F_c = \frac{mv^2}{r}$
+Where:
+- $F_{c}$ is the centripetal force.
+- $m$ is the mass of the object.
+- $v$ is the [[#Tangential (i.e. Parallel) Acceleration|tangential velocity]] of the object.
+- $r$ is the radius of the circular path.
+#### Centripetal Acceleration
+Centripetal acceleration is the acceleration that is directed towards the center of a circular path.
+	It is responsible for changing the direction of the velocity vector of an object moving in a circular path.
+#### $\LARGE a_c = \frac{v^2}{r}$
+Where:
+- $a_{c}$​ is the centripetal acceleration.
+- $v$ is the tangential velocity of the object.
+- $r$ is the radius of the circular path.
 ## [[Newton's Second Law#Velocity|Velocity]]
 ### [[Linear Motion#1D Motion Newton's Second Law Velocity Velocity|Velocity in Linear Motion]]
 ### [[Non-Linear Motion#Velocity|Velocity in Non-Linear Motion]]
 
-#### Velocity Vector
+### Velocity Vector
 The velocity vector represents the rate of change of the position vector with respect to time.
 	It indicates how fast and in which direction an object's position is changing.
 
 ***Remember***: The components of the Velocity Vector are themselves, scalars.
 	These scalar components scale the basis vectors (i.e. standard  unit vectors) to define the direction and magnitude of the vectors in each dimension.
-	
-**Mathematical Definition**:
+###### The velocity vector at a point on the curve is tangent to the curve at that point.
+It represents the direction and rate of change of the position vector at that point.
+###### Tangent Line
+The tangent line at a point on the curve is the line that touches the curve at that point and has the same direction as the velocity vector.
+	The velocity vector can be considered as a directed segment of the tangent line, scaled by the speed of the object.
+###### Slope of the Tangent Line
+The [[#1D Components of the Velocity Vector|components of the velocity vector]] represent the slopes of the tangent line in the respective coordinate directions.
+	The components of the velocity vector give the rate of change of the position coordinates with respect to time, which is equivalent to the slope of the tangent line in each coordinate direction.
+###### Example In 2D
+###### Position Vector
+#### $\LARGE \vec{r}(t) = (x(t), y(t))$
+###### Velocity Vector
+#### $\LARGE \vec{v}(t) = \frac{d\vec{r}(t)}{dt} = \left( \frac{dx(t)}{dt}, \frac{dy(t)}{dt} \right)$
+###### Tangent Line
+At a specific point $(x_0, y_0)$ at time $t_0$, the tangent line can be described as:
+#### $\LARGE y - y_0 = m (x - x_0)$
+###### Slope of the Tangent Line
+$m$ is the slope of the tangent line. 
+
+The slope of the tangent line, $m$, is given by the **ratio** of the components of the velocity vector:
+#### $\LARGE m = \frac{\frac{dy(t_0)}{dt}}{\frac{dx(t_0)}{dt}}$
+
+###### Mathematical Definition:
 The velocity vector $\vec{v}(t)$ is the first derivative of the position vector $\vec{r}(t)$ with respect to time: 
 $\LARGE \vec{v}(t) = \frac{d\vec{r}(t)}{dt}$
-
-**Components**:
-In one-dimensional motion: 
+##### 1D Components of the Velocity Vector
+In 1D motion: 
 $\LARGE v(t) = \frac{dx(t)}{dt}$
-
-In two-dimensional motion: 
+This derivative represents the [[Derivatives#Is the Tangent Line The Slope of a Tangent Line Slope (i.e. a rate/ratio between $ Delta y / Delta x$) of the Tangent Line Tangent Line|slope of the tangent line]] to the curve $x(t)$ at any point in time.
+	In other words, it indicates how fast the position $x(t)$ is changing at that particular moment.
+##### 2D Components of the Velocity Vector
+In 2D motion: 
+The **ratio** of the components $\frac{dx(t)}{dt}$ $\frac{dy(t)}{dt}$ are the [[Derivatives#Is the Tangent Line The Slope of a Tangent Line Slope (i.e. a rate/ratio between $ Delta y / Delta x$) of the Tangent Line Tangent Line|slopes of the tangent lines]] to the $x(t)$ and $y(t)$ components, respectively.
 ###### Unit Vector Form
 #### $\LARGE\vec{v}(t) = \frac{d}{dt}(x(t) \hat{i} + y(t) \hat{j}) = \frac{dx(t)}{dt} \hat{i} + \frac{dy(t)}{dt} \hat{j}$
 ###### Column Vector Form
 $\LARGE \vec{v}(t) = \begin{pmatrix} \frac{dx(t)}{dt} \\ \frac{dy(t)}{dt} \end{pmatrix}$
-
-In three-dimensional motion: 
+##### 3D Components of the Velocity Vector
+In 3D motion: 
+The **ratio** of the components $\frac{dx(t)}{dt}$ $\frac{dy(t)}{dt}$ and $\frac{dz(t)}{dt}$ are the [[Derivatives#Is the Tangent Line The Slope of a Tangent Line Slope (i.e. a rate/ratio between $ Delta y / Delta x$) of the Tangent Line Tangent Line|slopes of the tangent lines]] to the $x(t)$, $y(t)$ and $z(t)$ components, respectively.
 ###### Unit Vector Form
 #### $\LARGE\vec{v}(t) = \frac{d}{dt}(x(t) \hat{i} + y(t) \hat{j} + z(t) \hat{k}) = \frac{dx(t)}{dt} \hat{i} + \frac{dy(t)}{dt} \hat{j} + \frac{dz(t)}{dt} \hat{k}$
 ###### Column Vector Form
 #### $\LARGE \vec{v}(t) = \begin{pmatrix} \frac{dx(t)}{dt} \\ \frac{dy(t)}{dt} \\ \frac{dy(t)}{dt} \end{pmatrix}$
-###### Example of Acceleration Vector
+###### Example of Velocity Vector
 Let's consider an example in two-dimensional motion:
 - **Position Vector**: Suppose the position vector of a particle is given by: $\vec{r}(t) = t^2 \hat{i} + t^3 \hat{j}$
 - **Velocity Vector**: The velocity vector is the first derivative of the position vector: $\vec{v}(t) = \frac{d\vec{r}(t)}{dt} = \frac{d}{dt}(t^2 \hat{i} + t^3 \hat{j}) = 2t \hat{i} + 3t^2 \hat{j}$
 ## [[Newton's Second Law#Acceleration|Acceleration]]
 ### [[Linear Motion#1D Motion Newton's Second Law Acceleration |Acceleration in Linear Motion]]
 ### [[Non-Linear Motion#Acceleration|Acceleration in Non-Linear Motion]]
-#### Acceleration Vector
+### Acceleration Vector
 ![[Pasted image 20240606124505.png|500]]
 The acceleration vector represents the rate of change of the velocity vector with respect to time. 
 	It indicates how fast and in which direction an object's velocity is changing.
@@ -124,22 +230,84 @@ Acceleration is **orthogonal** to the tangential velocity vector.
 
 ***Remember***: The components of the Velocity Vector are themselves, scalars.
 	These scalar components scale the basis vectors (i.e. standard  unit vectors) to define the direction and magnitude of the vectors in each dimension.
-
-**Mathematical Definition**:
+###### Mathematical Definition:
 The acceleration vector $\vec{a}(t)$ is the first derivative of the velocity vector $\vec{v}(t)$ with respect to time, or equivalently, the second derivative of the position vector $\vec{r}(t)$ with respect to time: 
 $\LARGE\vec{a}(t) = \frac{d\vec{v}(t)}{dt} = \frac{d^2\vec{r}(t)}{dt^2}$
+#### Relationship Between Acceleration and Velocity Vectors
+The Acceleration components represent the rate of change of the velocity vector with respect to time. 
+	The relationship between the acceleration vector and the velocity vector depends on the type of motion.
 
-**Components**:
-In one-dimensional motion: 
+The acceleration vector $\vec{a}(t)$ at any point can be decomposed into two components:
+	[[#Tangential (i.e. Parallel) Acceleration|Tangential acceleration]] and [[#Normal (i.e. Perpendicular) Acceleration|normal (or centripetal) acceleration]]. 
+		These components help describe how the velocity vector changes both in magnitude and direction.
+I.e. In the general case, the acceleration vector can have both parallel (i.e. tangential) and perpendicular (i.e. normal) components relative to the velocity vector. 
+##### Parallel Components I.e. Tangential Components
+The component of acceleration that is parallel to the velocity vector. 
+	This changes the speed (**magnitude** of the velocity) of the object.
+
+If the acceleration vector is parallel (or anti-parallel) to the velocity vector, it means that the acceleration is affecting the magnitude of the velocity vector.
+	I.e. Parallel/Tangential components **imply** Parallel/Tangential Acceleration.
+		This is typical in cases of linear acceleration or deceleration.
+###### Tangential (i.e. Parallel) Acceleration
+Tangential acceleration, which is parallel to the velocity vector, changes the speed of the object.
+
+Where $\hat{v}$ is the unit vector in the direction of the velocity vector $\vec{v}(t)$.
+#### $\LARGE \vec{a}_{\parallel}(t) = \left( \frac{d|\vec{v}|}{dt} \right) \hat{v}$
+
+***Example***: In 1D motion with constant acceleration, such as free fall under gravity (ignoring air resistance), the acceleration is in the same direction as the velocity.
+##### Orthogonal Components I.e. Normal Components
+The component of acceleration that is perpendicular to the velocity vector. 
+	This changes the **direction** of the velocity vector without changing its magnitude.
+
+If the acceleration vector is orthogonal (perpendicular) to the velocity vector, it means that the acceleration is affecting the direction of the velocity vector but not its magnitude.
+	I.e. Normal/Orthogonal components **imply** Normal/Orthogonal Acceleration.
+		This is typical in uniform circular motion, where the centripetal acceleration is always directed towards the center of the circular path and is perpendicular to the tangential velocity.
+###### Normal (i.e. Perpendicular) Acceleration
+Normal acceleration, which is perpendicular to the velocity vector, changes the direction of the velocity vector without changing its magnitude.
+
+Where $\hat{n}$ is the unit vector pointing towards the [[Notion of Surface Curvature#Center of Curvature|center of the curvature]] of the path (perpendicular to $\hat{v}$ and $r$ is the [[Notion of Surface Curvature#Radius of Curvature|radius of curvature]].
+	The normal (or centripetal) acceleration is directly related to the curvature of the path. 
+		When an object moves along a curved path, the component of acceleration that is perpendicular to the velocity vector is the centripetal acceleration, which points towards the center of curvature.
+#### $\LARGE \vec{a}_{\perp}(t) = \left( \frac{|\vec{v}|^2}{r} \right) \hat{n}$
+
+***Example***: In uniform circular motion, the velocity vector is tangent to the circular path, and the acceleration vector (centripetal acceleration) is directed towards the center of the circle.
+##### Ratio of the Components of the Acceleration Vector
+###### The 2D ratio of the Acceleration Vector:
+
+#### $\LARGE m_a = \frac{\frac{d^2y(t)}{dt^2}}{\frac{d^2x(t)}{dt^2}}$
+###### The 3D ratio of the Acceleration Vector:
+
+- **Ratio of $y$ component to $x$ component**:
+    $\LARGE m_{a_{yx}} = \frac{\frac{d^2y(t)}{dt^2}}{\frac{d^2x(t)}{dt^2}}$
+- **Ratio of $z$ component to $x$ component**: 
+    $\LARGE m_{a_{zx}} = \frac{\frac{d^2z(t)}{dt^2}}{\frac{d^2x(t)}{dt^2}}$
+- **Ratio of $z$ component to $y$ component**: 
+	$\LARGE m_{a_{zy}} = \frac{\frac{d^2(t)}{dt^2}}{\frac{d^2y(t)}{dt^2}}$
+
+This ratio describes:
+###### Slope of the Acceleration Vector:
+This ratio $m_{a}$​ represents the slope of the line formed by the acceleration vector components in the space. 
+	It describes the direction of the acceleration in that space.
+###### Direction of Acceleration
+Just as the ratio of the velocity vector components gives the direction of the velocity (tangent to the path), the ratio of the acceleration vector components gives the direction of the acceleration.
+###### Nature of Motion
+The ratio can provide insights into how the acceleration is acting on the object. For example:
+- If $m_{a}$​ is positive, the acceleration has components in the same direction as the respective coordinate axes.
+- If $m_{a}$​ is negative, the acceleration has components in opposite directions along the coordinate axes.
+- If $m_{a}$​ is zero, the acceleration is entirely in the $x$ direction.
+- If $m_{a}$​ is undefined (i.e., the denominator is zero), the acceleration is entirely in the $y$ direction.
+##### 1D Components of the Acceleration Vector
+In 1D motion.
 $\LARGE a(t) = \frac{dv(t)}{dt} = \frac{d^2x(t)}{dt^2}$
-
-In two-dimensional motion: 
+##### 2D Components of the Acceleration Vector
+In 2D motion.
 ###### Unit Vector Form
 #### $\LARGE \vec{a}(t) = \frac{d}{dt}(\frac{dx(t)}{dt} \hat{i} + \frac{dy(t)}{dt} \hat{j}) = \frac{d^2x(t)}{dt^2} \hat{i} + \frac{d^2y(t)}{dt^2} \hat{j}$
 ###### Column Vector Form
 #### $\LARGE \vec{a}(t) = \begin{pmatrix} \frac{d^2x(t)}{dt^2} \\ \frac{d^2y(t)}{dt^2} \end{pmatrix}$
 
-In three-dimensional motion: 
+##### 3D Components of the Acceleration Vector
+In 3D motion.
 ###### Unit Vector Form
 #### $\LARGE \vec{a}(t) = \frac{d}{dt}(\frac{dx(t)}{dt} \hat{i} + \frac{dy(t)}{dt} \hat{j} + \frac{dz(t)}{dt} \hat{k}) = \frac{d^2x(t)}{dt^2} \hat{i} + \frac{d^2y(t)}{dt^2} \hat{j} + \frac{d^2z(t)}{dt^2} \hat{k}$
 ###### Column Vector Form

@@ -15,14 +15,14 @@ Non-linear motion can occur in:
 - **[[#Non-Linear Motion in 2D|Two Dimensions (2D)]]**: Motion occurs in a plane, requiring two coordinates to describe the position of the object.
 - **Three Dimensions (3D)**: Motion occurs in space, requiring three coordinates to describe the position of the object.
 #### Position
-###### [[Static Equilibrium#Position Vectors|Position Vector]]
+###### [[Components of Motion#Position Vector|Position Vector]]
 The position of the object is described by a vector that changes with time. 
 	In 2D, it is:
 		$\LARGE \vec{r}(t) = x(t) \hat{i} + y(t) \hat{j}$
 	In 3D, it is:
 		$\LARGE \vec{r}(t) = x(t) \hat{i} + y(t) \hat{j} + z(t) \hat{k}$
 #### Velocity
-###### Velocity Vector
+###### [[Components of Motion#Velocity Vector|Velocity Vector]]
 The velocity vector also changes with time, reflecting changes in both speed and direction. 
 	In 2D, it is:
 		$\LARGE \vec{v}(t) = \frac{d\vec{r}(t)}{dt} = \frac{dx(t)}{dt} \hat{i} + \frac{dy(t)}{dt} \hat{j}$
@@ -31,7 +31,7 @@ The velocity vector also changes with time, reflecting changes in both speed and
 #### Acceleration
 - **Variable Acceleration**: Non-linear motion often involves acceleration that changes in both magnitude and direction. This means the object is not only speeding up or slowing down but also changing direction.
 - **Centripetal Acceleration**: In circular motion, the acceleration is directed towards the center of the circle, causing the object to change direction continuously.
-###### Acceleration Vector
+###### [[Components of Motion#Acceleration Vector|Acceleration Vector]]
 The acceleration vector, $\vec{a}(t)$, is the derivative of the velocity vector, $\vec{v}(t)$, with respect to time. 
 	It can be expressed as:
 		$\LARGE \vec{a}(t) = \frac{d\vec{v}(t)}{dt}$
