@@ -80,10 +80,12 @@ $\LARGE \vec{v}(t) = \frac{d\vec{r}(t)}{dt} = \frac{d}{dt} (t^2 \hat{i} + t^3 \h
 This tells us how the position changes with time, both in magnitude and direction.
 ### Path of the Object
 This is the actual trajectory that the object follows over time.
-It is a "[[Curves|curve]]".
 	It refers to the actual path that the object follows as it moves. 
 
-This path can be any shape: a straight line, a parabola, a circle, or a more complex curve.
+Can be [[Uniform Motion|uniform]] and/or [[Linear Motion|linear]], or [[Non-Linear Motion|non-linear]].
+	I.e. This path can be any shape: a straight line, a parabola, a circle, or a more complex curve.
+
+If the path is non-linear then it is a "[[Curves|curve]]".
 ###### [[#Position Vector|Position Vector]]
 The vector that describes the position of the object at any given time $t$.
 $\vec{r}(t) = (x(t), y(t))$
@@ -96,7 +98,7 @@ $\vec{v}(t) = \frac{d\vec{r}(t)}{dt} = \left( \frac{dx(t)}{dt}, \frac{dy(t)}{dt}
 At any given point on the path, the osculating circle provides the best local approximation of the curve of the path of the object.
 	The radius of curvature ($r$) and the center of curvature define this osculating circle.
 	The normal (centripetal) acceleration points towards the center of the osculating circle and is responsible for changing the direction of the velocity vector, keeping the object on the curved path.
-### Circular Path
+### [[Notion of Surface Curvature#Oscillating Circles|Circular Path]]
 Refers to the osculating circle, which is the circle that best approximates the curvature of a path of the object at a given point. 
 	The osculating circle provides a local representation of the path's curvature and is directly related to the concept of centripetal (normal) acceleration.
 
@@ -111,6 +113,8 @@ I.e. The "circular path" in the context of normal (centripetal) acceleration ref
 #### Osculating Circles
 #### $\LARGE \vec{a}_{\perp}(t) = \left( \frac{|\vec{v}|^2}{r} \right) \hat{n}$
 Where $\hat{n}$ is the unit vector towards the [[Notion of Surface Curvature#Center of Curvature|center of curvature]].
+	Therefore, this is the scaling of the normal vector (directed towards the center of curvature). 
+		By a factor of magnitude of velocity, squared, [[Division#Contracting|divided]] by radius of the osculating circle. 
 
 **Pertains to**: **[[#Relationship Between Acceleration and Velocity Vectors|Acceleration]]** and **[[Notion of Surface Curvature#Oscillating Circles|Curvature]]**
 **Purpose**: To describe how the path of an object curves at a specific point.
@@ -151,7 +155,7 @@ Centripetal force is the force that keeps an object moving in a circular path an
 Where:
 - $F_{c}$ is the centripetal force.
 - $m$ is the mass of the object.
-- $v$ is the [[#Tangential (i.e. Parallel) Acceleration|tangential velocity]] of the object.
+- $v$ is the magnitude of the [[#Tangential (i.e. Parallel) Acceleration|tangential velocity]] of the object.
 - $r$ is the radius of the circular path.
 #### Centripetal Acceleration
 Centripetal acceleration is the acceleration that is directed towards the center of a circular path.

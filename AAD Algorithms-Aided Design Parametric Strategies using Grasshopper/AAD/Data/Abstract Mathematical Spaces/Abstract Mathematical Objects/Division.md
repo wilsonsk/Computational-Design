@@ -11,7 +11,7 @@ Can be thought of as simply the amount of one quantity of a "thing" that is asso
 Division can be conceptualized as the operation of **distributing or partitioning one quantity by another**, thereby determining how many times the divisor is contained within the dividend.
 
 Consider two quantities, a and b. 
-	The division of a by b, seeks to determine the factor by which b must be scaled to obtain a. 
+	The division of a by b, $\LARGE {a\over b}$ seeks to determine the factor by which b must be scaled to obtain a. 
 		This operation answers the question: "How many units of b are there in a?"
 #### Abstract Interpretation
 ###### Distribution 
@@ -20,7 +20,24 @@ Division distributes the total quantity a into equal parts of size b.
 ###### Measurement
 Division measures the quantity a using the unit b. 
 	If b is a standard unit, division indicates how many times this unit fits into a.
-
+## Contracting
+A transformation $T$ is called a **contracting transformation** (or simply a **contraction**) if there exists a constant $k$ with $0≤k<10 \leq k < 10≤k<1$ such that for all points $x$ and $y$ in the space, the distance between $T(x)$ and $T(y)$ is strictly less than the distance between $x$ and $y$, scaled by $k$. 
+###### Mathematically, this can be expressed as:
+	$d(T(x),T(y))≤k⋅d(x,y)$
+		Where $d(\cdot, \cdot)$ represents the distance metric in the space.
+###### Transformation $T$
+This is a function that maps points in a space to other points in the same space.
+###### Constant $k$**
+This is the contraction constant, which must satisfy $0≤k<10 \leq k < 10≤k<1$. 
+	The value of $k$ determines the degree of shrinking.
+###### Distance $d(\cdot, \cdot)$
+This is the metric used to measure the distance between two points in the space.
+###### Euclidean Geometry
+If you scale a figure by a factor $k$ where $0≤k<10 \leq k < 10≤k<1$, every point of the figure is moved closer to a fixed point (usually the origin), and the entire figure is reduced in size. This is a contraction.
+###### Linear Algebra
+A matrix representing a linear transformation is a contraction matrix if the norm of the matrix is less than 1.
+###### Functional analysis
+A contraction mapping on a metric space is a function that brings points closer together by a fixed ratio $k$ less than 1.
 #### Practical Examples
 ###### Number Division
 10/2​=5 indicates that 10 can be divided into 5 parts, each of size 2.
