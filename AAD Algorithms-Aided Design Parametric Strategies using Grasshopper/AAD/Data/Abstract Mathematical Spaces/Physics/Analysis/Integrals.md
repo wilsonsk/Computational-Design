@@ -60,6 +60,104 @@ This is the function we are integrating.
 The integration is performed from t0​ to t.
 	These are the bounds between which the function $v(\tilde{t})$ is being integrated.
 		 The lower limit is t0​, and the upper limit is t.
+#### Variable of Integration
+The variable of integration is the variable in the differential coefficient with respect to which integration is evaluated. 
+
+It is the input variable, that is, the independent variable of a function.
+	*For example, $t$ or $x$.*
+
+The variable of integration is the variable in the Integrand, that is, the function $f(x)$, which is called the integrand.
+#### Integrand
+The integrand is the function or expression inside the integral that is being integrated with respect to the variable of integration.
+	The integrand is the function that is being integrated in an integral.
+
+In the expression:
+#### $\LARGE \int f(x)dx$
+
+The function $f(x)$ is the **integrand**.
+The $dx$ indicates the **variable of integration**.
+##### Understanding the Integrand
+- **In a Definite Integral**: For a definite integral, such as
+    
+    $\int_{a}^{b} f(x) , dx$
+    
+    $f(x)$ is the integrand, and it is integrated over the interval from $x = a$ to $x = b$.
+    
+- **In an Indefinite Integral**: For an indefinite integral, such as
+    
+    $\int f(x) , dx$
+    
+    $f(x)$ is the integrand, and the result is a family of functions that differ by a constant of integration.
+##### Integrand Example
+Let's use a specific example to illustrate:
+
+1. **Simple Function**:
+    
+    Consider the integral:
+    
+    $\int 2x , dx$
+    
+	 **Integrand**
+		Here, the integrand is $2x$. 
+			This is the function that you are integrating with respect to $x$.
+	**Integrating**
+		To integrate $2x$ with respect to $x$, we use the power rule for integration.
+			 The [[#Power Rule for Integration|power rule]] states that:
+				$\LARGE \int t^n dt = \frac{t^{n+1}}{n+1} + C for \space n \neq -1$
+		 In this case, $2x$ can be written as $2 \cdot x^1$. 
+			 Applying the power rule:
+				1. Increase the exponent by 1: $1 + 1 = 2$
+				2. Divide by the new exponent: $\frac{x^2}{2}$
+	    So, integrating $2x$:
+		    $\LARGE \int 2xdx = 2 \cdot {x^{2} \over 2} + C$
+		Simplifying:
+		    $\LARGE \int 2xdx = x^{2} + C$
+			where $C$ is the [[#The Constant of Integration|constant of integration]].
+	
+1. **Constant Function**:
+    
+    For the integral:
+    
+    $\int -g , dt$
+    
+    The integrand is $-g$. In this case, $-g$ is a constant, and the variable of integration is $t$.
+3. **Integrand**: 
+
+	In this integral, $-g$ is the integrand.
+		It is a constant function with respect to $t$.
+    
+4. **[[#Factoring Out the Constant|Factoring Constants]]**:
+    
+    When we factor out a constant, the integrand becomes more apparent. 
+	    For example:
+    
+		    $\int -g , dt = -g \int 1 , dt$
+    
+    Here, the integrand is $1$ after factoring out the constant $-g$. 
+	    This shows the linearity property of integration, where constants can be factored out of the integrand.
+
+5. **[[#Integrating 1 with Respect to $t$|Integrating 1]] with Respect to $t$**: 
+
+	The integral of $1$ with respect to $t$ is $t$:
+	
+	    $\int 1dt = t$
+
+1. **Combining the Results**:
+	
+	Now, multiply the result of the integral by the constant $-g$:
+
+		$\int 1 \, dt = -g(t + C) = -gt+ C$
+
+Here, $C$ is the constant of integration.
+#### A Constant
+A constant is a fixed value that does not change with respect to the variable of integration. 
+	For example, $g$ (acceleration due to gravity) is a constant with respect to time $t$.
+
+When we [[#Constant Rule|integrate a constant]], we are essentially integrating a constant value with respect to a variable.
+
+When you integrate a constant, the constant itself is part of the integrand. 
+	Thus, in the context of the integral $\int -g , dt$, $-g$ is both a constant and the integrand.
+		It is the constant value being integrated with respect to $t$.
 #### The Constant of Integration
 The integration constant in the context of kinematic equations is not necessarily the reference point, but it often represents initial conditions, such as initial velocity or initial position.
 ##### What is the Constant of Integration?
@@ -132,7 +230,7 @@ In both cases, the integration constants are determined by the initial condition
 Given constant acceleration $a$,
 #### $\LARGE a=\frac{dv}{dt}$
 
-Integrating both sides with respect to time $t$,
+Integrating **both sides** with respect to time $t$,
 #### $\LARGE \int a \, dt=\int \frac{dv}{dt} \, dt$`
 
 #### $\LARGE at+C_1=v(t)$
@@ -274,6 +372,7 @@ Find the indefinite integral of 2t.
 $∫2tdt$
 
 Using the power rule for integration:
+And [[#Factoring Out the Constant|factoring out the constant]] $2$:
 
 $∫2tdt=2∫tdt=2⋅1+1t1+1​=2⋅2t2​=t2+C$
 
@@ -314,7 +413,7 @@ That function F is differentiable on $(a,b)$, and $F′(t)=f(t)$.
 ## Power Rule for Integration
 One of the fundamental techniques for finding the antiderivative (or integral) of a power function. 
 	It is essentially the reverse process of the power rule for differentiation.
-#### $\int t^n dt = \frac{t^{n+1}}{n+1} + C$
+#### $\LARGE \int t^n dt = \frac{t^{n+1}}{n+1} + C$
 
 Where C is the constant of integration. 
 	This rule helps us find the antiderivative of functions of the form tn.
@@ -399,32 +498,171 @@ Let's consider a specific example where the velocity function is $v(t)=3t^2$.
 - Time of interest t=2 seconds
 ![[Pasted image 20240602162742.png]]
 ## Other Rules of Integration
-#### Constant Rule
+### Linearity Property of Integration
+The **Linearity Property of Integration** is a fundamental property that allows us to break down integrals involving sums and constants.
+	This property is crucial for simplifying and solving complex integrals.
+#### Linearity Property
+The linearity property of integration states that for any constants $a$ and $b$, and functions $f(x)$ and $g(x)$, the integral of a linear combination of functions is equal to the same linear combination of the integrals of those functions.
+##### Rule Statement
+The linearity property can be written as:
+$$\LARGE \int (a f(x) + b g(x)) \, dx = a \int f(x) \, dx + b \int g(x) \, dx $$
+
+This property shows that we can distribute the integral across terms and factor out constants.
+##### Explanation and Derivation
+Let's break down the linearity property step-by-step.
+###### Given Integral
+Consider the integral of a linear combination of functions:
+$$\LARGE \int (a f(x) + b g(x)) \, dx $$
+
+###### Distributing the Integral
+According to the linearity property, we can distribute the integral across the sum:
+$$\LARGE \int (a f(x) + b g(x)) \, dx = \int a f(x) \, dx + \int b g(x) \, dx $$
+###### Factoring Out Constants
+We can factor out the constants $a$ and $b$ from their respective integrals:
+$$\LARGE \int a f(x) \, dx + \int b g(x) \, dx = a \int f(x) \, dx + b \int g(x) \, dx $$
+### Examples
+#### Example 1: Simple Linear Combination
+
+Consider the integral:
+$$\LARGE \int (3x^2 + 4x) \, dx $$
+
+Here, $a=3, f(x) = x^2, b = 4, and g(x)=xg$.
+
+1. **Distribute the Integral**:
+    $$ \int (3x^2 + 4x) \, dx = \int 3x^2 \, dx + \int 4x \, dx $$
+2. **Factor Out the Constants**:
+    $$ \int 3x^2 \, dx + \int 4x \, dx = 3 \int x^2 \, dx + 4 \int x \, dx $$
+3. **Integrate Each Term**: Using the power rule:
+    $$ \int x^2 \, dx = \frac{x^3}{3} + C_1 $$$$ \int x \, dx = \frac{x^2}{2} + C_2 $$
+4. **Combine the Results**:
+    $$ 3 \int x^2 \, dx + 4 \int x \, dx = 3 \left( \frac{x^3}{3} + C_1 \right) + 4 \left( \frac{x^2}{2} + C_2 \right) $$
+    
+    Simplify:
+    $$ 3 \left( \frac{x^3}{3} \right) + 4 \left( \frac{x^2}{2} \right) + 3C_1 + 4C_2 = x^3 + 2x^2 + C $$
+    
+    Here, $C = 3C_1 + 4C_2$ represents a combined constant of integration.
+
+Thus:
+$$ \int (3x^2 + 4x) \, dx = x^3 + 2x^2 + C $$
+#### Example 2: Integral with Constants
+
+Consider the integral:
+$$ \int (5 \sin(x) - 2 \cos(x)) \, dx $$
+
+Here, $a=5, f(x)=sin⁡(x), b=−2, and g(x)=\cos⁡(x)$
+
+1. **Distribute the Integral**:
+    $$ \int (5 \sin(x) - 2 \cos(x)) \, dx = \int 5 \sin(x) \, dx - \int 2 \cos(x) \, dx $$
+    
+2. **Factor Out the Constants**:
+    $$ \int 5 \sin(x) \, dx - \int 2 \cos(x) \, dx = 5 \int \sin(x) \, dx - 2 \int \cos(x) \, dx $$
+3. **Integrate Each Term**:
+    $$ \int \sin(x) \, dx = -\cos(x) + C_1 $$$$ \int \cos(x) \, dx = \sin(x) + C_2 $$
+4. **Combine the Results**:
+    $$ 5 \int \sin(x) \, dx - 2 \int \cos(x) \, dx = 5 \left( -\cos(x) + C_1 \right) - 2 \left( \sin(x) + C_2 \right) $$
+    Simplify:
+    $$ -5 \cos(x) + 5C_1 - 2 \sin(x) - 2C_2 = -5 \cos(x) - 2 \sin(x) + C $$
+    Here, $C = 5C_1 - 2C_2$​ represents a combined constant of integration.
+
+Thus:
+$$ \int (5 \sin(x) - 2 \cos(x)) \, dx = -5 \cos(x) - 2 \sin(x) + C $$
+### Constant Rule
+The rule of integration for constants states that the integral of a [[#A Constant|constant function]] $c$ with respect to a variable $x$ is equal to the constant multiplied by the [[#Variable of Integration|variable of integration]], plus an arbitrary [[#The Constant of Integration|constant of integration]] $C$.
+###### Given the Integral
+#### $\LARGE \int cdx$
+
 If $f(x) = c$, where $c$ is a constant, then the integral of $f$ with respect to $x$ is:
 #### $\LARGE \int c \, dx = c x + C$
+##### Integrand
+Here, the integrand is $c$. 
+	This is a constant function with respect to $x$.
+###### Integrating
+To integrate a constant $c$ with respect to $x$, we use the basic rule of integration for constants. 
+	The rule states that the integral of a constant $c$ with respect to $x$ is:
+#### $\LARGE \int c \, dx = c \cdot x + C$
+Where $C$ is the constant of integration.
+- The constant $c$ is multiplied by the variable of integration $x$.
+- The constant of integration $C$ is added to account for any constant that could have been present before differentiation.
+#### Factoring Out the Constant 
+Factoring out constants in integrals leverages the linearity property of integration, which simplifies the integration process.
+
+When we integrate a constant, we can think of it as factoring out the constant from the integral. Here’s how it works step-by-step:
+1. **Integral with Constant**:
+    $\LARGE \int cdx$
+2. **Factoring Out the Constant**: The constant $−g$ can be factored out of the integral.
+	This is because integration is a linear operation, meaning we can factor out constants just as we do in differentiation. 
+		So, we rewrite the integral as:
+		    $\LARGE \int cdx = c \int 1 \, dx$
+3. **[[#Integrating 1 with Respect to $t$|Integral of 1 with Respect to x]]**:
+	$\LARGE \int 1dx = {x^{0+1} \over 0 + 1} + C = x + C$
+4. Reintroduce the Constant $c$ and Combine Like Terms
+	$\LARGE \int c \, dx  = cx + C$
+##### Where the 1 (in $1dx$) Comes From
+The $1$ inside the integral represents the integrand when we factor out the constant $-g$.
+	In the original integral $\int c \, dx$ $c$ is the integrand. 
+		When we factor $c$ out, we are left with the integral of $1$ with respect to $x$:
+			$\LARGE c \int 1 \, dx$
+This is because multiplying $1$ by any constant still gives the constant. 
+	Therefore, we can think of the integral as integrating $1$ and then multiplying the result by $c$.
+##### Why Do We Factor Out the Constant 
+- **Simplification**: Factoring out constants simplifies the integrand, making the integration process easier. When a constant is factored out, the remaining integrand is often simpler to integrate.
+
+- **Clarity**: Factoring out constants provides a clear separation between the constant multiplier and the function being integrated, which can make the integral easier to understand and solve.
 ###### Example
 ##### $\LARGE \int 5 \, dx = 5x + C$
-#### Constant Multiple Rule
-If $f(x) = c \cdot g(x)$, where $c$ is a constant and $g(x)$ is an integrable function, then the integral of $f$ with respect to $x$ is:
+$=5\int dx = x + C = {x^{0+1}\over 0+1} = x + C = 5x+ C$
+### Constant Multiple Rule
+The **Constant Multiple Rule** applies when a constant multiplies a function. 
+	This rule states that if you have a constant $c$ multiplied by a function $f(x)$ inside an integral, you can factor out the constant and then integrate the function.
+
+The Constant Multiple Rule is a property of integrals that allows you to factor out a constant from an integrand, and then integrate the remaining function.
+
+Given $f(x) = c \cdot g(x)$, where $c$ is a constant and $g(x)$ is an integral function, then the integral of $f$ with respect to $x$ is:
 #### $\LARGE \int c \cdot g(x) \, dx = c \int g(x) \, dx$
-###### Example
-##### $\LARGE \int 3x^2 \, dx = 3 \int x^2 \, dx = 3 \cdot \frac{x^3}{3} + C = x^3 + C$
-#### Sum Rule
-If $f(x) = g(x) + h(x)$, where $g(x)$ and $h(x)$ are integrable functions, then the integral of $f$ with respect to $x$ is:
+#### Factoring Out the Constant
+Since $c$ is a constant, it can be factored out of the integral. This leverages the linearity property of integration:
+
+Then the integral of $g(x)$ is calculated using the power rule.
+##### Example Integral
+Consider the integral:
+$$\LARGE \int 3x^2 \, dx$$
+##### Here, $c = 3$ is a constant and $f(x) = x^2$.
+###### Step-by-Step Solution
+1. **Factor Out the Constant**:
+    $$\LARGE \int 3x^2 \, dx = 3 \int x^2 \, dx$$
+    
+2. **Integrate the Remaining Function**: Now, integrate $x^2$ with respect to $x$ using the power rule for integration. The power rule states:
+    $$\LARGE \int x^n \, dx = \frac{x^{n+1}}{n+1} + C \quad \text{for} \, n \neq -1$$
+    
+    Applying the power rule:
+    $$\LARGE \int x^2 \, dx = \frac{x^{2+1}}{2+1} + C = \frac{x^3}{3} + C$$
+    
+3. **Reintroduce the Constant and Combine the Results**: Multiply the result of the integral by the constant $3$:
+    $$\LARGE 3 \int x^2 \, dx = 3 \left( \frac{x^3}{3} + C \right)$$
+    
+    Simplify:
+    $$\LARGE 3 \left( \frac{x^3}{3} + C \right) = x^3 + 3C$$
+
+    Since $3C$ is just another constant, we can write it as $C'$ or simply $C$ (since it still represents an arbitrary constant):
+    $$\LARGE x^3 + C$$
+$$\LARGE \int 3x^2 \, dx = 3 \int x^2 \, dx = 3 \cdot \frac{x^3}{3} + C = x^3 + C$$
+
+### Sum Rule
+If $f(x) = g(x) + h(x)$, where $g(x)$ and $h(x)$ are integral functions, then the integral of $f$ with respect to $x$ is:
 #### $\LARGE \int (g(x) + h(x)) \, dx = \int g(x) \, dx + \int h(x) \, dx$
 ###### Example
 #### $\LARGE \int (x^2 + x) \, dx = \int x^2 \, dx + \int x \, dx = \frac{x^3}{3} + \frac{x^2}{2} + C$
-#### Difference Rule
+### Difference Rule
 If $f(x) = g(x) - h(x)$, where $g(x)$ and $h(x)$ are integrable functions, then the integral of $f$ with respect to $x$ is:
 #### $\LARGE \int (g(x) - h(x)) \, dx = \int g(x) \, dx - \int h(x) \, dx$
-#### Integration by Parts
+### Integration by Parts
 If $f(x) = u(x) \cdot v(x)$, where $u(x)$ and $v(x)$ are differentiable functions, then the integral of $f$ with respect to $x$ is given by the integration by parts formula:
 #### $\LARGE \int u(x) \cdot v'(x) \, dx = u(x) \cdot v(x) - \int u'(x) \cdot v(x) \, dx$
 ###### Example
 #### $\LARGE \int x e^x \, dx$
 Let $u = x$ and $dv = e^x , dx$. Then $du = dx$ and $v = e^x$. Applying integration by parts:
 #### $\LARGE \int x e^x \, dx = x e^x - \int e^x \, dx = x e^x - e^x + C = e^x (x - 1) + C$
-#### Substitution Rule (Change of Variables)
+### Substitution Rule (Change of Variables)
 If $f(x) = g(h(x)) \cdot h'(x)$, where $g$ is an integrable function of $h(x)$ and $h(x)$ is a differentiable function of $x$, then the integral of $f$ with respect to $x$ is:
 #### $\LARGE \int g(h(x)) \cdot h'(x) \, dx = \int g(u) \, du$
 
@@ -433,8 +671,24 @@ Where $u = h(x)$.
 #### $\LARGE \int \sin(2x) \, dx$
 
 Let $u = 2x$, then $du = 2 , dx$ or $\frac{1}{2} du = dx$. Substituting:
-#### $\LARGE \int \sin(2x) \, dx = \int \sin(u) \cdot \frac{1}{2} \, du = \frac{1}{2} \int \sin(u) \, du = \frac{1}{2} (-\cos(u)) + C = -\frac{1}{2} \cos(2x) + C$
-#### Integral of Zero
+#### $\int \sin(2x) \, dx = \int \sin(u) \cdot \frac{1}{2} \, du = \frac{1}{2} \int \sin(u) \, du = \frac{1}{2} (-\cos(u)) + C = -\frac{1}{2} \cos(2x) + C$
+### Integrating 1 with Respect to $t$
+In essence, integrating 1 with respect to t essentially means finding the function whose derivative is always 1. 
+	Since the [[Derivatives#Derivative of a Constant is Zero|derivative of any constant is zero]], adding a constant C doesn't affect the fact that the derivative remains 1.
+###### Given
+#### $\LARGE \int 1dt$
+###### Power Rule
+Using the power rule of integration states that the integral of $\LARGE x^n$ is $\LARGE x{(n+1)\over (n+1)}$, where $n$ is any real number except for −1.
+###### Steps to Solve:
+1. Apply the power rule of integration: 
+	$\LARGE \int 1dt = {t^{0+1} \over 0 + 1} + C$
+2. Simplify the expression: 
+	$\LARGE {t^{1} \over 1} +C$
+	$\LARGE = t+ C$
+
+Therefore,
+#### $\LARGE \int 1dt = t + C$ 
+### Integral of Zero
 Remember that Integration is the mathematical process of finding the antiderivative or the area under the curve of a function. 
 	When we integrate a function, we are essentially summing up infinitely small pieces to find the total.
 

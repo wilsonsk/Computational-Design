@@ -95,6 +95,8 @@ In 2D projectile motion, the motion can be decomposed into horizontal (x-axis) a
 #### Horizontal Motion (x axis)
 ###### Given Acceleration in the Horizontal Direction 
 The horizontal motion is typically uniform motion with constant velocity because there is no acceleration in the horizontal direction (assuming no air resistance).
+#### $\LARGE \vec{a_{0}} =\begin{pmatrix} 0 \\ -g \\ 0\end{pmatrix}$
+Therefore:
 #### $\LARGE a_{x} = 0$
 ###### Velocity in the Horizontal Direction
 Obtained by Integrating Acceleration.
@@ -109,6 +111,9 @@ Here, $C$ is the constant of integration.
 				 $\LARGE v_{x}(t) = v_{0x}$
 #### $\LARGE v_{x}(t) = v_{0x}$
 
+Therefore:
+#### $\LARGE \vec{v_{0}} =\begin{pmatrix} v_{0x} \\ 0 \\ 0\end{pmatrix}$
+
 ***Note***: If the velocity was in the $y$ direction and there was no acceleration in that direction, the velocity would remain constant over time. 
 
 	$v_{y}(t) = \int a_{y}dt = \int 0dt = C$
@@ -117,19 +122,59 @@ Here, $C$ is the constant of integration.
 ###### Position in the Horizontal Direction
 Obtained by Integrating Velocity.
 Is a constant velocity.
-#### $\LARGE x(t) = v_{0x}t$
+#### $\LARGE r_{0} = x(t) = v_{0x}t = h$
+
+Therefore:
+
+#### $\LARGE \vec{r_{0}} =\begin{pmatrix} 0 \\ h \\ 0\end{pmatrix}$
+
 #### Vertical Motion (y-axis):
 ###### Given Acceleration in the Vertical Direction
 The vertical motion is influenced by gravity, leading to [[Uniform Acceleration|uniform accelerated motion]].
-#### $\LARGE a_{y} = -g$
+#### $\LARGE \vec{a_{0}} =\begin{pmatrix} 0 \\ -g \\ 0\end{pmatrix}$
+
 ###### Velocity in the Vertical Direction
 Obtained by Integrating Acceleration.
 	Decreasing linearly.
+If:
+#### $\LARGE a_{y} = -g$
+
+Recall that acceleration is the rate of change of velocity:
+#### $\LARGE a_{y} = {dv_{y} \over dt}$
+
+Therefore:
+#### $\LARGE = {dv_{y} \over dt} = -g$
+
+[[Integrals#Power Rule for Integration|Integrate]] to find $\LARGE v_{y}(t)$:
+#### $\LARGE v_{y}(t) = \int {dv_{y} \over dt} dt = \int -gdt$
+
+***Important***: Remember that when [[Integrals#Constant Rule|integrating a constant]] with respect to $t$, you simply multiply the constant by $t$.
+	In this case $-g$ is the constant. 
+		Therefore 
+
+The left side integrates to $v_{y}(t)$, and the right side integrates to $-gt$, plus a constant of integration, $C$:
+#### $\LARGE v_{y}(t) = -gt + C$
+
+$\LARGE −gt$ represents the change in velocity due to gravity in the $y$ direction over time $t$.
+
+$C$ is just the initial velocity in the vertical, $y$ direction at $t=0$.
+	Therefore 
+		$\LARGE C = v_{0y}$
+
+Therefore:
 #### $\LARGE v_{y}(t) = v_{0y} -gt$
+
+Therefore:
+#### $\LARGE \vec{v} = \int a(t)dt =\begin{pmatrix} v_{0x} \\ -gt \\ 0\end{pmatrix}$
+
 ###### Position in the Vertical Direction
 Obtained by Integrating Velocity.
 	Is a constant acceleration.
 #### $\LARGE y_{t} = v_{0y}t - {1\over2}gt^{2} + h$
+
+Therefore:
+#### $\LARGE \vec{r} = \int v(t)dt =\begin{pmatrix} v_{0t} \\ {1\over 2}-gt^{2} + h \\ 0\end{pmatrix}$
+
 #### Combining the Components
 By treating the horizontal and vertical motions independently, we can use the principle of superposition to combine them and get the overall motion in 2D.
 ##### Position Vector
