@@ -7,10 +7,25 @@ date created: 2024-05-28
 # Kinematics Analysis
 ![[Pasted image 20240528132613.png]]
   
-Kinematics is a branch of mechanics that describes the motion of objects without considering the causes of that motion.
+**Kinematics** is a branch of mechanics that deals with the description of motion without considering the forces that cause it. 
 	That is, without the considering of [[Statics Analysis#Forces|forces]].
+		It focuses on the geometric aspects of motion, such as displacement, velocity, and acceleration of objects. 
+			Kinematics is concerned with the position of points, bodies, and systems of bodies, and how these positions change over time.
 
 It involves the study of the positions, velocities, and accelerations of objects and how these quantities change over time. 
+
+The term **kinematics** does have a connection to the word **kinetic**. Both words derive from the Greek word "kinesis," which means movement or motion. Here's a breakdown of the meanings:
+
+1. **Kinematics**: As mentioned, it refers to the study of motion without regard to the forces that cause it. It deals with concepts like:
+    
+    - Displacement: The change in position of an object.
+    - Velocity: The rate of change of displacement with time.
+    - Acceleration: The rate of change of velocity with time.
+2. **Kinetic**: The term "kinetic" relates to motion and is often used in physics to describe anything pertaining to or resulting from motion. For example:
+    
+    - **Kinetic Energy**: The energy an object possesses due to its motion. It is given by the formula: 
+	    $$\LARGE KE = \frac{1}{2}mv^2$$
+     where $m$ is the mass of the object and $v$ is its velocity.
 
 Understanding kinematics is essential for analyzing and predicting the motion of objects in various contexts, from everyday activities to complex engineering systems. 
 	It forms the foundation for further studies in [[Dynamics Analysis|dynamics]], where the forces causing the motion are also considered.

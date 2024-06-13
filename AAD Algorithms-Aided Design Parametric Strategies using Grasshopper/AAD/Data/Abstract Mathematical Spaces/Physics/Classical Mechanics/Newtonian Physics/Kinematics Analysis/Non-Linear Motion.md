@@ -166,6 +166,10 @@ Therefore:
 
 Therefore:
 #### $\LARGE \vec{v} = \int a(t)dt =\begin{pmatrix} v_{0x} \\ -gt \\ 0\end{pmatrix}$
+*The function is plotted here.*
+	Where $-g$ is the slope applied to the linear function, $v_{y}(t) = v_{0y} -gt$.
+	The velocity in the x direction is constant.
+![[Pasted image 20240612223120.png]]
 
 ###### Position in the Vertical Direction
 Obtained by Integrating Velocity.

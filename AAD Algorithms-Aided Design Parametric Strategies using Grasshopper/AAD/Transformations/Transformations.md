@@ -17,6 +17,13 @@ date created: 2024-03-27
 		 - That quantity being: the **change** in the **x coordinate** and the **y coordinate**. 
 ### Point to Curve: 
 A point in a parametric setting could be seen as the simplest form of a parameter—essentially, a position in space defined by coordinates.
+
+This is kinematics - that is calculus.
+[[Components of Motion]]
+[[Uniform Motion]]
+[[Linear Motion]]
+[[Non-Linear Motion]]
+[[Kinematics Analysis]]
 #### 2D Transformation of a Point:
 In a 2D space, transforming a single point involves manipulating it across the plane to create a series of new points. 
 
