@@ -32,6 +32,16 @@
             }
           },
           {
+            "id": "024c6451483ad6c4",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "images/Pasted image 20240612223120.png"
+              }
+            }
+          },
+          {
             "id": "02d7ec7180c264bc",
             "type": "leaf",
             "state": {
@@ -68,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -135,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Kinematics Analysis.md",
+                "file": "images/Pasted image 20240612223120.png",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -152,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Kinematics Analysis.md",
+                "file": "images/Pasted image 20240612223120.png",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -175,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Kinematics Analysis.md"
+                "file": "images/Pasted image 20240612223120.png"
               }
             }
           },
@@ -209,15 +219,19 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "313f945cfac95228",
+  "active": "70a890f8a800eb39",
   "lastOpenFiles": [
+    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Non-Linear Motion Exercises.md",
+    "images/Pasted image 20240614220028.png",
+    "images/Pasted image 20240614125005.png",
+    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Non-Linear Motion.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Integrals.md",
-    "Transformations/Transformations.md",
+    "images/Pasted image 20240614122508.png",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Kinematics Analysis.md",
+    "Transformations/Transformations.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Components of Motion.md",
     "Abstract/Morphogenesis/Computational Methodology.md",
-    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Non-Linear Motion.md",
-    "Pasted image 20240612223120.png",
+    "images/Pasted image 20240612223120.png",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Division.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Scaling.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Tangent Line.md",
@@ -240,13 +254,8 @@
     "images/Pasted image 20240608102634.png",
     "images/Pasted image 20240608095514.png",
     "images/Pasted image 20240606222714.png",
-    "images/Pasted image 20240606222705.png",
-    "images/Pasted image 20240606134026.png",
-    "images/Pasted image 20240606125001.png",
     "Solids/Solids.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Vectors.md",
-    "Data/Abstract Mathematical Spaces/Physics/Basic Concepts/Dimensional Analysis.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Slope.md",
     "Data/Abstract Mathematical Spaces/Physics/Basic Concepts/Untitled",
     "Data/Abstract Mathematical Spaces/Physics/Basic Concepts",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics",

@@ -93,12 +93,12 @@ The total motion is the vector sum of the individual motions along each axis.
 #### 2D [[Components of Motion|Components of Motion]]
 In 2D projectile motion, the motion can be decomposed into horizontal (x-axis) and vertical (y-axis) components.
 #### Horizontal Motion (x axis)
-###### Given Acceleration in the Horizontal Direction 
+##### Given Acceleration in the Horizontal Direction 
 The horizontal motion is typically uniform motion with constant velocity because there is no acceleration in the horizontal direction (assuming no air resistance).
 #### $\LARGE \vec{a_{0}} =\begin{pmatrix} 0 \\ -g \\ 0\end{pmatrix}$
 Therefore:
 #### $\LARGE a_{x} = 0$
-###### Velocity in the Horizontal Direction
+##### Velocity in the Horizontal Direction
 Obtained by Integrating Acceleration.
 The [[Integrals#Integral of Zero|integral of 0]] with respect to time $t$ is a constant, which represents the initial velocity, $\vec{v_0x}$.
 	This is because there is no change in the quantity we are integrating.
@@ -119,7 +119,7 @@ Therefore:
 	$v_{y}(t) = \int a_{y}dt = \int 0dt = C$
 
 	 $v_{y}(t) = v_{0y}$
-###### Position in the Horizontal Direction
+##### Position in the Horizontal Direction
 Obtained by Integrating Velocity.
 Is a constant velocity.
 #### $\LARGE r_{0} = x(t) = v_{0x}t = h$
@@ -129,11 +129,11 @@ Therefore:
 #### $\LARGE \vec{r_{0}} =\begin{pmatrix} 0 \\ h \\ 0\end{pmatrix}$
 
 #### Vertical Motion (y-axis):
-###### Given Acceleration in the Vertical Direction
+##### Given Acceleration in the Vertical Direction
 The vertical motion is influenced by gravity, leading to [[Uniform Acceleration|uniform accelerated motion]].
 #### $\LARGE \vec{a_{0}} =\begin{pmatrix} 0 \\ -g \\ 0\end{pmatrix}$
 
-###### Velocity in the Vertical Direction
+##### Velocity in the Vertical Direction
 Obtained by Integrating Acceleration.
 	Decreasing linearly.
 If:
@@ -166,12 +166,8 @@ Therefore:
 
 Therefore:
 #### $\LARGE \vec{v} = \int a(t)dt =\begin{pmatrix} v_{0x} \\ -gt \\ 0\end{pmatrix}$
-*The function is plotted here.*
-	Where $-g$ is the slope applied to the linear function, $v_{y}(t) = v_{0y} -gt$.
-	The velocity in the x direction is constant.
-![[Pasted image 20240612223120.png]]
 
-###### Position in the Vertical Direction
+##### Position in the Vertical Direction
 Obtained by Integrating Velocity.
 	Is a constant acceleration.
 #### $\LARGE y_{t} = v_{0y}t - {1\over2}gt^{2} + h$
@@ -182,16 +178,68 @@ Therefore:
 #### Combining the Components
 By treating the horizontal and vertical motions independently, we can use the principle of superposition to combine them and get the overall motion in 2D.
 ##### Position Vector
+![[Pasted image 20240614122508.png|400]]
 The position vector is the integral of the velocity vector:
 	Where each component of the vector is a scalar.
-#### $\LARGE \vec{r}(t) = \begin{pmatrix} x(t) \\ y(t) \end{pmatrix} = \int \vec{v}(t)dt = \begin{pmatrix} v_{0x} t \\ -\frac{1}{2}gt^2 + v_{0y}t + h \end{pmatrix}$
+#### $\LARGE \vec{r}(t) = \begin{pmatrix} x(t) \\ y(t) \\ z(t) \end{pmatrix} = \int \vec{v}(t)dt = \begin{pmatrix} v_{0x} t \\ -\frac{1}{2}gt^2 + v_{0y}t + h \\ 0 \end{pmatrix}$
 
 This shows that the horizontal position $x(t) = v_{0x}t$ increases linearly with time, while the vertical position $v_{0y} t - \frac{1}{2} g t^2 + h$ follows a parabolic path due to the influence of gravity.
 ##### Velocity Vector
+*The function is plotted here.*
+	Where $-g$ is the slope applied to the linear function, $v_{y}(t) = v_{0y} -gt$.
+	The velocity in the x direction is constant.
+![[Pasted image 20240612223120.png]]
 The velocity vector is the combination of the horizontal and vertical components:
-#### $\LARGE \vec{v}(t) = \begin{pmatrix} v_x(t) \\ v_y(t) \end{pmatrix} = \begin{pmatrix} v_{0x} \\ -gt + v_{0y} \end{pmatrix}$
+#### $\LARGE \vec{v}(t) = \begin{pmatrix} v_x(t) \\ v_y(t) \\  v_z(t) \end{pmatrix} = \begin{pmatrix} v_{0x} \\ -gt + v_{0y} \\ 0 \end{pmatrix}$
 
-This shows that the horizontal component of velocity $v_{0x}$​ remains constant, while the vertical component $v_{0y} - gt$ decreases linearly due to gravity.
+Where $v_{0y}$ and $v_{0x}$ are the constants of integration and thus the initial velocity. 
+	This shows that the horizontal component of velocity $v_{0x}$​ remains constant, while the vertical component $v_{0y} - gt$ decreases linearly due to gravity.
 ##### Acceleration Vector
 This represents the constant acceleration due to gravity in the negative $y$ direction.
-#### $\LARGE \vec{a}(t) = \begin{pmatrix} a_x(t) \\ a_y(t) \end{pmatrix} = \begin{pmatrix} 0 \\ -g \end{pmatrix}$
+#### $\LARGE \vec{a}(t) = \begin{pmatrix} a_x(t) \\ a_y(t) \\  a_z(t) \end{pmatrix} = \begin{pmatrix} 0 \\ -g \\ 0 \end{pmatrix}$
+#### Parabolic Motion
+Parabolic motion, also known as projectile motion, describes the trajectory of an object that is projected into the air and moves under the influence of gravity, neglecting air resistance. 
+	The motion is parabolic in shape due to the constant acceleration acting downwards (gravity).
+##### 2D Parabolic Motion
+In 2D, parabolic motion is described by the motion of an object in a vertical plane.
+	The key components are the horizontal and vertical motions, which can be analyzed separately.
+###### Equations of Motion
+Let $t$ be the time, $v_{0}$ be the initial velocity, $\theta$ be the angle of projection, $g$ be the acceleration due to gravity (approximately $9.8 m/s29.8 \, \text{m/s}^29.8m/s2$).
+1. **Horizontal Motion**:
+    - The horizontal component of the initial velocity is $v_{0x} = v_0 \cos(\theta)$.
+    - The horizontal displacement $x(t)$ is given by:
+        $$\LARGE x(t) = v_{0x} t = v_0 \cos(\theta) t $$
+2. **Vertical Motion**:
+    - The vertical component of the initial velocity is $v_{0y} = v_0 \sin(\theta)$.
+    - The vertical displacement $y(t)$ is given by:
+        $$\LARGE y(t) = v_{0y} t - \frac{1}{2} g t^2 = v_0 \sin(\theta) t - \frac{1}{2} g t^2 $$
+#### Parabolic Trajectory
+The trajectory of the projectile can be described by eliminating $t$ from the equations of motion.
+1. Solve for ttt in the horizontal motion equation:
+    $$\LARGE t = \frac{x}{v_0 \cos(\theta)} $$
+2. Substitute ttt into the vertical motion equation:
+    $$\LARGE y = v_0 \sin(\theta) \left( \frac{x}{v_0 \cos(\theta)} \right) - \frac{1}{2} g \left( \frac{x}{v_0 \cos(\theta)} \right)^2 $$
+3. Simplify to get the trajectory equation:
+    $$\LARGE y = x \tan(\theta) - \frac{g x^2}{2 v_0^2 \cos^2(\theta)} $$
+This equation represents the parabolic path of the projectile.
+#### 3D Parabolic Motion
+In 3D, parabolic motion extends to include a third dimension, typically the $z$ axis, which adds complexity but follows similar principles.
+##### Equations of Motion
+Let $t$ be the time, $v_00$​ be the initial velocity, $\theta$ be the angle of projection in the $xy$ plane, $\phi$ be the [[Static Equilibrium#Azimuth Angle $ Phi$|azimuthal]] angle in the $zx$ plane, $g$$ be the acceleration due to gravity.
+1. **Horizontal Motion (x and z components)**:
+    - The components of the initial velocity are:
+        $$\LARGE v_{0x} = v_0 \cos(\theta) \cos(\phi) $$ $$\LARGE v_{0z} = v_0 \cos(\theta) \sin(\phi) $$
+    - The horizontal displacements x(t)x(t)x(t) and z(t)z(t)z(t) are given by:
+        $$\LARGE x(t) = v_{0x} t = v_0 \cos(\theta) \cos(\phi) t $$ $$\LARGE z(t) = v_{0z} t = v_0 \cos(\theta) \sin(\phi) t $$
+2. **Vertical Motion**:
+    - The vertical component of the initial velocity is $v_{0y} = v_0 \sin(\theta)$
+    - The vertical displacement $y(t)$ is given by:
+        $$\LARGE y(t) = v_{0y} t - \frac{1}{2} g t^2 = v_0 \sin(\theta) t - \frac{1}{2} g t^2 $$
+##### Parabolic Trajectory in 3D
+The trajectory of the projectile in 3D can be described by the parametric equations combining the $x, y, z$ components.
+1. **Parametric Equations**:
+    $$\LARGE x(t) = v_0 \cos(\theta) \cos(\phi) t $$ $$\LARGE y(t) = v_0 \sin(\theta) t - \frac{1}{2} g t^2 $$ $$\LARGE z(t) = v_0 \cos(\theta) \sin(\phi) t $$
+2. **Eliminate $t$**:
+    - Solve for $t$ in the $x$ or $z$ equation, then substitute into the $y$ equation to get the trajectory in terms of $x$ and $z$.
+
+## See [[Non-Linear Motion Exercises]] for Examples of Worked Problems
