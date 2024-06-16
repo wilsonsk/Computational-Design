@@ -247,7 +247,73 @@ When you differentiate a function, any constant term disappears because the deri
     - For a constant function $f(x)=c$: 
 		$\LARGE f'(x) = \lim\limits_{\triangle x \rightarrow 0} {c -c\over \triangle x} = \lim\limits_{\triangle x \rightarrow 0} {0\over \triangle x} = 0$
 #### Visualizing the Derivative of a Constant
-
 Imagine a flat horizontal line on a graph, like 𝑦=5y=5. This line has no slope; it does not rise or fall as you move along the 𝑥x-axis. The rate of change of this line is zero everywhere because it is perfectly flat.
 
 When you differentiate a function that includes a constant, the constant term "disappears" in the sense that its derivative is zero, which is why the constant does not affect the derivative of the rest of the function.
+## Critical Points
+**Critical points** of a function are points in the domain of the function **where the first derivative is either zero or undefined**.
+	These points are significant because they are potential locations where the function has local maxima, local minima, or points of inflection.
+### Formal Definition
+A point $x=c$ is called a **critical point** of a function $f(x)$ if one of the following conditions holds:
+1. $\LARGE f'(c) = 0$
+2. $\LARGE f′(c)$ does not exist
+### Importance of Critical Points
+#### Local Maxima and Minima
+Critical points are candidates for local extrema (maxima and minima).
+	By evaluating the first and second derivatives at these points, we can determine whether they are local maxima, local minima, or neither.
+
+**Local maxima** and **local minima** are points on a function where the function reaches its highest or lowest value, respectively, within a small neighborhood around these points.
+	They are important for understanding the behavior of functions and optimizing real-world problems.
+##### Local Maximum
+A function $f(x)$ has a **local maximum** at $x=c$ if there exists an interval $(a, b)$ containing $c$ such that:
+$$\LARGE f(c) \geq f(x) \quad \text{for all} \quad x \in (a, b)$$
+In other words, $f(c)$ is greater than or equal to the function values at nearby points.
+##### Local Minimum
+A function $f(x)$ has a **local minimum** at $x=c$ if there exists an interval $(a, b)$ containing $c$ such that:
+$$\LARGE f(c) \leq f(x) \quad \text{for all} \quad x \in (a, b)$$
+##### Finding Local Maxima and Minima
+###### Identify Critical Points
+Find the points where the first derivative $f′(x)$ is zero or undefined.
+###### Second Derivative Test
+Use the second derivative $f''(x)$ to determine the nature of the critical points.
+    - If $f''(c) > 0$, the function has a local minimum at $x=c$.
+    - If $f''(c) < 0$,, the function has a local maximum at $x=c$.
+    - If $f''(c) = 0$, the test is inconclusive.
+##### [[#Inflection Points|Inflection Points]] (*also see* [[Curves#Inflection Point|Inflection Points]] in Curves)
+Although not all inflection points are critical points, analyzing the behavior of the function around critical points can sometimes help identify points where the concavity of the function changes.
+### Identifying Critical Points
+#### Steps to Determine the Nature of Critical Points:
+##### First Derivative Test:
+- **Find the first derivative** of the function $f'(x)$.
+- **Set the first derivative to zero** to find the critical points: $f'(x) = 0$.
+- Solve for $x$ to find the critical points.
+##### Second Derivative Test (if applicable):
+- **Find the second derivative** of the function $f''(x)$.
+- **Evaluate the second derivative at the critical points**:
+	- If $f''(x) > 0$ at a critical point, the function has a local minimum at that point.
+	- If $f''(x) < 0$ at a critical point, the function has a local maximum at that point.
+	- If $f''(x) = 0$, the second derivative test is inconclusive; further analysis is needed.
+##### Alternative Analysis (if the second derivative test is inconclusive):
+- **Analyze the sign of the first derivative** on intervals around the critical points to determine whether the function is increasing or decreasing.
+- **Consider higher-order derivatives** or other methods, such as the first derivative test, to determine the behavior of the function.
+### Example:
+Let's illustrate with a simple example:
+Given the function $$\LARGE f(x) = x^3 - 3x^2 + 2$$
+1. **Find the first derivative**:
+    $$\LARGE f'(x) = 3x^2 - 6x$$
+2. **Set the first derivative to zero and solve for $x$**:
+    $$\LARGE 3x^2 - 6x = 0$$
+    
+    $$\LARGE 3x(x - 2) = 0$$
+    
+    $$\LARGE x = 0 \quad \text{or} \quad x = 2$$
+    
+    The critical points are $x = 0$ and $x = 2$.
+    
+3. **Find the second derivative**:
+    $$\LARGE f''(x) = 6x - 6$$
+4. **Evaluate the second derivative at the critical points**:
+    - At $x = 0$:
+        $$\LARGE f''(0) = 6(0) - 6 = -6 \quad (\text{negative, so } x = 0 \text{ is a local maximum})$$
+    - At $x = 2$:
+		$$\LARGE f''(2) = 6(2) - 6 = 6 \quad (\text{positive, so } x = 2 \text{ is a local minimum})$$

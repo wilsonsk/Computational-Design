@@ -49,7 +49,7 @@ Via examining the graph:
 			Therefore, yes.
 ##### Analyzed Answer (i.e. analyzing the parabola)
 Via finding **position** of the local maximum, and then what is the corresponding value of the acceleration. 
-###### Find the Maximum
+###### Find the Maximum (i.e. the [[Derivatives#Critical Points|Critical Point]])
 1. Find the **first derivative** of the acceleration.
 	$$\LARGE a(t) = -{1m \over 5s^{4}} \cdot t^{2} + {16m\over 5s^{3}} \cdot t$$
 	$$\LARGE a'(t) = {da \over dt} = 2 \cdot -{1\over 5s^4} \cdot t+ {16m\over 5s^3}$$

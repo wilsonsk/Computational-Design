@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Non-Linear Motion Exercises.md",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,8 +130,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a3457d95b32e7cc2",
@@ -147,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Non-Linear Motion Exercises.md",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -164,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Non-Linear Motion Exercises.md",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -187,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Non-Linear Motion Exercises.md"
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md"
               }
             }
           },
@@ -223,6 +222,8 @@
   },
   "active": "024c6451483ad6c4",
   "lastOpenFiles": [
+    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Non-Linear Motion Exercises.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Non-Linear Motion.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Kinematics Analysis.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Secant Line.md",
@@ -230,7 +231,6 @@
     "Data/Abstract Mathematical Spaces/Linear Algebra/Linear Algebra.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Division.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra",
-    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Non-Linear Motion Exercises.md",
     "images/Pasted image 20240612223120.png",
     "images/Pasted image 20240614220028.png",
     "images/Pasted image 20240614125005.png",
@@ -255,7 +255,6 @@
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Uniform Motion.md",
     "Algorithms Aided Design MOC.md",
     "images/Pasted image 20240606155414.png",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
     "images/Pasted image 20240608102634.png",
     "images/Pasted image 20240608095514.png",
     "images/Pasted image 20240606222714.png",
