@@ -33,21 +33,39 @@ To see this dominance mathematically, consider the limits:
 ### Calculate the Acceleration
 ###### To calculate the acceleration we have to calculate the time derivative of the velocity.
 Therefore, the quadratic and cubic terms must be differentiated.  
-##### To Calculate the Derivative of a Polynomial
+#### To Calculate the Derivative of a Polynomial
 Use the [[Derivatives#Power Rule|Power Rule]].
-$$\LARGE 3 \cdot -{1m\over 15s^4} \cdot t^2 + 2 \cdot {8\over 5s^3} \cdot t$$
-$$\LARGE = a(t) = {dv\over dt} = v(t) = {1m \over 5s^{4}} \cdot t^{2} + {16m\over 5s^{3}} \cdot t$$
+$$\LARGE v(t) = -{1m \over 15s^{4}} \cdot t^{3} + {8m\over 5s^{3}} \cdot t^{2}$$
+$$\LARGE a(t) = {dv\over dt} = 3 \cdot -{1m\over 15s^4} \cdot t^2 + 2 \cdot {8\over 5s^3} \cdot t$$
+$$\LARGE = - {3m \over 15s^{4}} \cdot t^{2} + {16m\over 5s^{3}} \cdot t$$
+$$\LARGE = a(t) = -{1m \over 5s^{4}} \cdot t^{2} + {16m\over 5s^{3}} \cdot t$$
 ![[Pasted image 20240614220028.png|400]]
 
-##### Answer: Did the acceleration surpass $1g = 9.81{m\over s^{2}}$ at some point of time?
-###### Calculated Answer
+#### Answer: Did the acceleration surpass $1g = 9.81{m\over s^{2}}$ at some point of time?
+##### Calculated Answer
 Via examining the graph:
 	Where velocity is increasing the fastest, we get a local maximum of the acceleration.
 		And the corresponding value of the acceleration is above 10$m\over s^2$.
 			Therefore, yes.
-###### Analyzed Answer (i.e. analyzing the parabola)
+##### Analyzed Answer (i.e. analyzing the parabola)
 Via finding **position** of the local maximum, and then what is the corresponding value of the acceleration. 
 ###### Find the Maximum
 1. Find the **first derivative** of the acceleration.
-2. Set $t = 0$.
-$$\LARGE 0 = a'(t_{m}) = 2 \cdot {1\over 5s^4} \cdot t+ {16m\over 5s^3} = -{2m\over 5s^{4}} \cdot t_{m} + {16m \over 5s^3}$$ 
+	$$\LARGE a(t) = -{1m \over 5s^{4}} \cdot t^{2} + {16m\over 5s^{3}} \cdot t$$
+	$$\LARGE a'(t) = {da \over dt} = 2 \cdot -{1\over 5s^4} \cdot t+ {16m\over 5s^3}$$
+2. Find the Maximum: Set $t = 0$, in order to solve for $t$ which is denoted as $\LARGE t_{maximum}$.
+	$$\LARGE 0 = a'(t_{maximum}) = 2 \cdot -{1\over 5s^4} \cdot t+ {16m\over 5s^3} = -{2m\over 5s^{4}} \cdot t_{maximum} + {16m \over 5s^3}$$
+	$$\LARGE {2m\over 5s^{4}} \cdot t_{maximum} = {16m \over 5s^3}$$
+	$$\LARGE 16s = 2t_{maximum}$$
+	$$\LARGE 8s = t_{maximum}$$
+3. Now use the solved value of $\LARGE t_{maximum}$ as the input for $\LARGE a(t_{maximum})$
+	$$\LARGE a(8s) = -{1m \over 5s^{4}} \cdot 8s^{2} + {16m\over 5s^{3}} \cdot 8s$$
+	First Term:
+	$$\LARGE = -{1m \over 5s^{4}} \cdot 64s^{2} + {16m\over 5s^{3}} \cdot 8s$$
+	$$\LARGE -{64m\over 5s^{4}} \cdot s^{2} = -{64m \cdot 5s^{2} \over 5s^{4}}$$
+	$$\LARGE = {64m \cdot 5s^{2} \over 5s^{4}} = -{64m\over 5s^2}$$
+	Second Term:
+	$$\LARGE = {16 \over 5s^{3}} \cdot 8 = {128s\over 5s^{3}} = {128\over 5s^3}$$
+	Combine Terms:	
+	$$\LARGE a(8s) = -{64m \over 5s^{2}} +{128s\over 5s^3} = {128m\over 5s^2}$$
+	$$\LARGE = a(8s) = {64m \over 5s^{2}} = 12.8{m\over s^2} > 1g$$

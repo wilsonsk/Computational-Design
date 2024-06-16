@@ -16,10 +16,22 @@ date created: 2024-04-10
 
 ![[Pasted image 20240410153825.png|400]]
 ![[Pasted image 20240422200835.png]]
-### Secant Line as a Linear Function
+### Secant Line is a [[Linear Functions|Linear Function]]
 Is a **straight line** (i.e. linear equation) that **intersects (i.e. cuts) a curve at two points**.
 	I.e. Connects two or more points **on** the **curve of a function**.
 		It forms the **hypotenuse** between those two intersected points on the curve of a function.
+$$\LARGE y(x) = mx + B$$
+##### The Role of Scalar, $m$ (Slope):
+$m$ scales the input $x$ value which is then combined with $b$.
+	The result is the associated $y$ output value.
+	
+1. **Scaling and Transformation**:
+    - The slope $m$ acts as a scaling factor for the input (i.e. independent) variable $x$.
+    - Graphically, $m$ determines the angle or steepness of the line, affecting how the variable $x$ is transformed into the corresponding $y$ value.
+2. **New $x$ Value**:
+	- When $x$ is multiplied by $m$, it effectively scales the $x$ value. 
+		- It either [[Division#Contracting|contracts]] or [[Scaling|scales]] the $x$ input value, which means it either results in relatively smaller or larger $y$ value.
+			- For example, if $m=2$, then for any given $x$, the corresponding value on the line will be twice as large in the $y$ direction compared to the $x$ direction.
 ## Represents a [[Proportion|Proportion]]
 ### Secant lines and [[Tangent Line|Tangent lines]]
 ![[Pasted image 20240422200740.png]]

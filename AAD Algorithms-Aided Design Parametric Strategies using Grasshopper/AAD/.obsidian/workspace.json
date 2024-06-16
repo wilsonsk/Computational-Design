@@ -35,9 +35,11 @@
             "id": "024c6451483ad6c4",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "images/Pasted image 20240612223120.png"
+                "file": "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Non-Linear Motion Exercises.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -145,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "images/Pasted image 20240612223120.png",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Non-Linear Motion Exercises.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -162,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "images/Pasted image 20240612223120.png",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Non-Linear Motion Exercises.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -185,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "images/Pasted image 20240612223120.png"
+                "file": "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Non-Linear Motion Exercises.md"
               }
             }
           },
@@ -219,23 +221,26 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "70a890f8a800eb39",
+  "active": "024c6451483ad6c4",
   "lastOpenFiles": [
+    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Non-Linear Motion.md",
+    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Kinematics Analysis.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Secant Line.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Linear Functions.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Linear Algebra.md",
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Division.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Non-Linear Motion Exercises.md",
+    "images/Pasted image 20240612223120.png",
     "images/Pasted image 20240614220028.png",
     "images/Pasted image 20240614125005.png",
-    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Non-Linear Motion.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Integrals.md",
     "images/Pasted image 20240614122508.png",
-    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Kinematics Analysis.md",
     "Transformations/Transformations.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Components of Motion.md",
     "Abstract/Morphogenesis/Computational Methodology.md",
-    "images/Pasted image 20240612223120.png",
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Division.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Scaling.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Tangent Line.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Secant Line.md",
     "Surfaces/Notion of Surface Curvature.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Linear Motion.md",
     "Curves/Curves.md",
@@ -255,7 +260,6 @@
     "images/Pasted image 20240608095514.png",
     "images/Pasted image 20240606222714.png",
     "Solids/Solids.md",
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Vectors.md",
     "Data/Abstract Mathematical Spaces/Physics/Basic Concepts/Untitled",
     "Data/Abstract Mathematical Spaces/Physics/Basic Concepts",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics",
@@ -264,7 +268,6 @@
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis",
     "Untitled",
     "Abstract/Morphogenesis",
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects",
-    "Data/Abstract Mathematical Spaces"
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects"
   ]
 }
