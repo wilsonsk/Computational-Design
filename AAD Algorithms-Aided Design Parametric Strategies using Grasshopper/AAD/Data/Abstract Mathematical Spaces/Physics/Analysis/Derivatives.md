@@ -280,7 +280,20 @@ Use the second derivative $f''(x)$ to determine the nature of the critical point
     - If $f''(c) < 0$,, the function has a local maximum at $x=c$.
     - If $f''(c) = 0$, the test is inconclusive.
 ##### [[#Inflection Points|Inflection Points]] (*also see* [[Curves#Inflection Point|Inflection Points]] in Curves)
-Although not all inflection points are critical points, analyzing the behavior of the function around critical points can sometimes help identify points where the concavity of the function changes.
+**Inflection points** are points on a function where the concavity changes.
+	These points are not necessarily where the first derivative is zero but are significant in understanding the behavior and shape of the function.
+
+***Important***: Although not all inflection points are critical points, analyzing the behavior of the function around critical points can sometimes help identify points where the concavity of the function changes.
+
+A function $f(x)$ has an **inflection point** at $x=c$ if the concavity of the function changes at that point.
+	This means the function changes from being concave up (convex) to concave down (concave) or vice versa.
+###### Identifying Inflection Points
+To find inflection points of a function $f(x)$:
+1. **Find the second derivative** $\LARGE f′′(x)$.
+2. **Set the second derivative equal to $0$ and solve for $x$**:
+    $$\LARGE f''(x) = 0$$
+3. **Determine if the concavity changes around those points**:
+    - If $\LARGE f′′(x)$ changes sign as $x$ passes through $c$, then $x=c$ is an inflection point.
 ### Identifying Critical Points
 #### Steps to Determine the Nature of Critical Points:
 ##### First Derivative Test:
@@ -290,8 +303,8 @@ Although not all inflection points are critical points, analyzing the behavior o
 ##### Second Derivative Test (if applicable):
 - **Find the second derivative** of the function $f''(x)$.
 - **Evaluate the second derivative at the critical points**:
-	- If $f''(x) > 0$ at a critical point, the function has a local minimum at that point.
-	- If $f''(x) < 0$ at a critical point, the function has a local maximum at that point.
+	- If $f''(x) > 0$ at a critical point, the function has a **local minimum** at that point.
+	- If $f''(x) < 0$ at a critical point, the function has a **local maximum** at that point.
 	- If $f''(x) = 0$, the second derivative test is inconclusive; further analysis is needed.
 ##### Alternative Analysis (if the second derivative test is inconclusive):
 - **Analyze the sign of the first derivative** on intervals around the critical points to determine whether the function is increasing or decreasing.
