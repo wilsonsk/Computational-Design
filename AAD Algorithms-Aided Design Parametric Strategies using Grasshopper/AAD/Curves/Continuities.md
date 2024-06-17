@@ -27,13 +27,39 @@ A curve or surface can be described as having $G_n$ continuity.
 	*n* being the increasing measure of smoothness.
 	
 Continuity has different behavior with respect to:
-### [[Parametric Space]]: *C* 
+### [[Parametric Space]]: Differential Continuity, *C* 
 - if a curve is **connected**: it has *C0* continuity.
 	- if its first derivation is continuous: the original curve has *C1* continuity.
 	- if the *nth* derivation is continuous: the original curve has *Cn* continuity.
 - *C* continuity does **not** mean that a curve is geometrically smooth.
-### [[Geometric Space]]: *G* 
+### [[Geometric Space]]: Geometric Continuity, *G* 
 If a curve has *C0* continuity: it is *G0* continuous- it is connected and this means the same thing in both parametric and geometric space.
+#### Derivatives and Continuity
+###### G Continuity Adjacency Analysis in Terms of [[Derivatives|Derivatives]]
+$G$ continuity describes how smoothly two surfaces or curves join together at a boundary. 
+	The levels of $G$ continuity—$G0$, $G1$, and G2$—indicate increasingly stringent conditions on the matching of [[Derivatives|derivatives]] at the connection point.
+##### Matching Derivatives
+Refers to the process of ensuring that the derivatives of two functions are equal at a given point. 
+
+This concept is fundamental in calculus and is used to ensure smooth transitions between functions, surfaces, or curves. 
+	Matching derivatives at a point ensures that the functions share certain properties (such as [[Components of Motion#Position|position]], [[Slope|slope]], and [[Notion of Surface Curvature|curvature]]) at that point.
+###### Levels of Matching Derivatives
+1. **Matching Function Values ([[#$G_0$ Continuity (i.e. Position Continuity)|Positional Continuity]], $G0$)**:
+    - **Definition**: The functions have the same value at a particular point.
+    - **Mathematical Expression**:
+        $$\LARGE f_1(c) = f_2(c)$$
+    - **Meaning**: The two functions intersect at the point $\LARGE x=c$, ensuring that the positions match.
+2. **Matching First Derivatives ([[#$G_1$ Continuity (i.e. Tangency Continuity)|Tangential Continuity]], $G1$)**:
+    - **Definition**: The functions have the same first derivative (slope) at a particular point.
+    - **Mathematical Expression**:
+        $$\LARGE f_1'(c) = f_2'(c)$$
+    - **Meaning**: The slopes of the tangent lines to the curves represented by the functions are equal at $\LARGE x=c$, ensuring that the direction of the curve is continuous.
+3. **Matching Second Derivatives ([[#$G_2$ Continuity (or Curvature Continuity)|Curvature Continuity]], $G2$)**:
+    - **Definition**: The functions have the same second derivative (curvature) at a particular point.
+    - **Mathematical Expression**:
+        $$\LARGE f_1''(c) = f_2''(c)$$
+    - **Meaning**: The curvature of the curves is the same at $\LARGE x=c$, ensuring that not only the direction but also the rate of change of the direction is continuous.
+
 ![[Pasted image 20240425135811.png]]
 ![[Pasted image 20240429141001.png]]
 #### $G_0$ Continuity (i.e. Position Continuity)

@@ -258,6 +258,19 @@ A point $x=c$ is called a **critical point** of a function $f(x)$ if one of the 
 1. $\LARGE f'(c) = 0$
 2. $\LARGE f′(c)$ does not exist
 ### Importance of Critical Points
+#### Derivative and Critical Points
+To find the turning points of a polynomial function, we take its first derivative $f'(x)$ and set it to zero to find the critical points.
+	The critical points are where the slope of the function is zero, i.e., where the function could potentially change direction.
+#### Degree of the Derivative
+The degree of the first derivative $f'(x)$ of a polynomial function $f(x)$ of degree nnn is $n-1$.
+	This means that the first derivative f'(x) is a polynomial of degree $n-1$.
+#### Roots of the Derivative
+A polynomial of degree $n-1$ can have at most $n-1$ real roots.
+	Each real root of the first derivative corresponds to a critical point of the original function, which can be a turning point.
+#### Second Derivative Test
+To confirm whether a critical point is a turning point (and not a saddle point), we can use the second derivative test.
+	If the second derivative $f′′(x)$ at a critical point is positive, the function has a local minimum there.
+		If $f′′(x)$ at a critical point is negative, the function has a local maximum there.
 #### Local Maxima and Minima
 Critical points are candidates for local extrema (maxima and minima).
 	By evaluating the first and second derivatives at these points, we can determine whether they are local maxima, local minima, or neither.
@@ -330,3 +343,45 @@ Given the function $$\LARGE f(x) = x^3 - 3x^2 + 2$$
         $$\LARGE f''(0) = 6(0) - 6 = -6 \quad (\text{negative, so } x = 0 \text{ is a local maximum})$$
     - At $x = 2$:
 		$$\LARGE f''(2) = 6(2) - 6 = 6 \quad (\text{positive, so } x = 2 \text{ is a local minimum})$$
+## [[Continuities|Derivatives and Continuity]]
+Refers to the concept where [[Notion of Surface Curvature|curvature]] and [[Continuities|continuity]] relate to derivatives and matching derivatives ensures 
+	Specifically, it is often discussed under the terms $G$ continuity and $C$ continuity.
+### Geometric Continuity ($G$ Continuity)
+Focuses on the geometric smoothness of curves and surfaces. 
+It is less strict than $C$ Continuity because it allows [[Transformations|transformations]] like scaling and rotation that preserve geometric properties but not necessarily the strict derivative values.
+##### $G0$ Continuity
+Positional continuity.
+	The functions have the same position at the joining point.
+**Meaning**: The curves or surfaces meet at a point, but there may be a sharp corner.
+$$\LARGE f_1(c) = f_2(c)$$
+##### $G1$ Continuity
+Tangential continuity.
+The functions have the same position and first derivative (slope) at the joining point.
+**Meaning**: The curves or surfaces meet smoothly without a sharp corner, and the direction of travel is continuous.
+$$\LARGE f_1(c) = f_2(c) \quad \text{and} \quad f_1'(c) = f_2'(c)\quad \text{and} \quad \mathbf{T}_1(c) = \mathbf{T}_2(c)$$
+Where $T1$​ and $T2$ are the unit tangent vectors.
+##### G2 Continuity
+Curvature continuity.
+The functions have the same position, first derivative, and second derivative (curvature) at the joining point.
+**Meaning**: The curves or surfaces meet very smoothly, with no abrupt changes in the curvature.
+$$ f_1(c) = f_2(c) \quad \text{and} \quad f_1'(c) = f_2'(c) \quad \text{and} \quad f_1''(c) = f_2''(c)\quad \text{and} \quad \mathbf{T}_1(c) = \mathbf{T}_2(c) \quad \text{and} \quad \kappa_1(c) = \kappa_2(c)$$
+Where $κ1$​ and $\kappa_2​$ are the curvatures.
+### Differential Continuity ($C$ Continuity)
+Focuses on the mathematical smoothness of the functions, ensuring that derivatives up to a certain order are continuous.
+	It is commonly used in mathematical and engineering analyses.
+##### C0 Continuity
+Positional continuity. The functions are continuous at the joining point.
+**Meaning**: There is no break or jump in the value of the function at the joining point.
+$$\LARGE f_1(c) = f_2(c)$$
+##### $C1$ Continuity 
+Tangential continuity.
+The functions and their first derivatives are continuous at the joining point.
+**Meaning**: The function is smooth, and there is no break or jump in the slope at the joining point.
+$$\LARGE f_1(c) = f_2(c) \quad \text{and} \quad f_1'(c) = f_2'(c)$$
+##### $C2$ Continuity
+Curvature continuity.
+The functions and their first and second derivatives are continuous at the joining point.
+**Meaning**: The function is very smooth, with no break or jump in the curvature at the joining point.  
+$$\LARGE f_1(c) = f_2(c) \quad \text{and} \quad f_1'(c) = f_2'(c) \quad \text{and} \quad f_1''(c) = f_2''(c)$$
+
+

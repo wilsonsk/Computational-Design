@@ -9,6 +9,8 @@ date created: 2024-06-08
 
 This encompasses a wide range of motion types and can include motion in two or three dimensions.
 	Non-linear motion is characterized by a changing velocity vector, which means both the magnitude and the direction of velocity can change over time.
+
+Non-Linear is described by the way in which the ratios motion between the 2 or 3 directions (axes) is not linear - that is, the objects changes position in unequal rates of the axes.
 ### Key Characteristics of Non-linear Motion
 #### Dimensions
 Non-linear motion can occur in:
