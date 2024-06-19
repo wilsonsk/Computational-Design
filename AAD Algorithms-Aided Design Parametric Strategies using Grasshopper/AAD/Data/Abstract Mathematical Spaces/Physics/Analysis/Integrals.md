@@ -61,7 +61,8 @@ Here, the result is a quadratic expression.
 		Differentiating $\LARGE \frac{x^2}{2}$ gives $x$, thus integrating $x$ gives $\LARGE \frac{x^2}{2}$
 ### Understanding Integral as Scaling
 
-The integral ∫f(x) dt\int f(x) \, dt∫f(x)dt represents the sum of the values of f(x)f(x)f(x) over small intervals dtdtdt. When f(x)=xf(x) = xf(x)=x, summing xxx over dtdtdt leads to a quadratic function because the area under the curve y=xy = xy=x from 0 to xxx forms a triangle with area 12x2\frac{1}{2} x^221​x2, which matches the integral result.
+The integral $dt\int f(x)$ represents the sum of the values of $f(x)$ over small intervals $dt$. 
+	When $f(x)=x$, summing $x$ over $dt$ leads to a quadratic function because the area under the curve $y=x$ from 0 to $x$ forms a triangle with area $\frac{1}{2} x^2$, which matches the integral result.
 ### What "Integrate" Means
 The $\int$ sign means, we are integrating the function $v(t)$ with respect to time.
 	I.e. Means calculating the accumulated value (like displacement) that results from the continuous sum of the function's values over time.
@@ -238,6 +239,46 @@ Suppose the acceleration function is $\LARGE a(t)=6t$ and we know the initial ve
 	Therefore, the specific velocity function is:
 
 		$\LARGE v(t) = 3t^2 + 4$
+### Relationship Between Differentials and Integrals
+###### Differentials
+Represent infinitesimal changes in a function's variable.
+###### Integrals
+Sum up these infinitesimal changes to compute the total change or accumulated quantity.
+##### Differentials in Integration
+In the context of integration, differentials represent infinitesimal changes in the variable of integration. 
+	When we write an integral, the differential indicates the variable with respect to which we are integrating. 
+		For example, in the integral:
+    $$\int f(x) \, dx$$
+The differential $dx$ signifies that we are summing up infinitesimal changes in $x$.
+##### Fundamental Theorem of Calculus
+This theorem bridges the concepts of differentiation and integration.
+	It states that integration and differentiation are inverse processes:
+###### First Fundamental Theorem:
+If $F(x)$ is an antiderivative of $f(x)$, then:
+        $$\int_a^b f(x) \, dx = F(b) - F(a)$$
+###### Second Fundamental Theorem
+If $F(x)$ is an antiderivative of $f(x)$, then:
+        $$\frac{d}{dx} \left( \int_a^x f(t) \, dt \right) = f(x)$$
+This indicates that differentiating an integral returns the original function.
+###### Indefinite Integrals and Differentials
+The indefinite integral (antiderivative) of a function $f(x)$ with respect to $x$ is a function $F(x)$ such that:
+    $$\frac{dF(x)}{dx} = f(x)$$
+In terms of differentials, this can be written as:
+    $$dF = f(x) \, dx$$
+Thus, integrating $f(x)$ with respect to $x$ can be seen as summing up the infinitesimal quantities $f(x) , dx$.
+##### Example
+Consider the function $f(x) = 2x$:
+1. **Find the Indefinite Integral**:
+    $$\int 2x \, dx$$
+To find the antiderivative, we look for a function $F(x)$ such that $\frac{dF(x)}{dx} = 2x$.
+2. **Compute the Antiderivative**:
+    $$F(x) = x^2 + C$$
+    Here, $x^2$ is an antiderivative of $2x$, and $C$ is the constant of integration.
+3. **Differential Form**:
+    $$dF = 2x \, dx$$
+    This shows that the differential of $F(x)$ corresponds to $f(x) , dx$.
+
+
 #### Integration Constant in Kinematic Equations
 When we derive the kinematic equations from the basic principles of motion, we integrate acceleration to find velocity and then integrate velocity to find displacement.
 

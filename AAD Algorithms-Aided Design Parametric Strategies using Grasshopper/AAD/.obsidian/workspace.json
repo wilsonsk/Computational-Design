@@ -47,9 +47,11 @@
             "id": "ed44ee7260f7fcb8",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "images/Pasted image 20240617164131.png"
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -78,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -128,7 +130,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a3457d95b32e7cc2",
@@ -144,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "images/Pasted image 20240617164131.png",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Integrals.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -161,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "images/Pasted image 20240617164131.png",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Integrals.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -184,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "images/Pasted image 20240617164131.png"
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Integrals.md"
               }
             }
           },
@@ -218,9 +221,10 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "70a890f8a800eb39",
+  "active": "02d7ec7180c264bc",
   "lastOpenFiles": [
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
+    "images/Pasted image 20240617164131.png",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Integrals.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Slope.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Secant Line.md",
@@ -238,7 +242,6 @@
     "images/Pasted image 20240617181227.png",
     "images/Pasted image 20240617175350.png",
     "images/Pasted image 20240617174654.png",
-    "images/Pasted image 20240617164131.png",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Functions and Motion.md",
     "Curves/Continuities.md",
     "Surfaces/Notion of Surface Curvature.md",
@@ -256,7 +259,6 @@
     "Transformations/Transformations.md",
     "Abstract/Morphogenesis/Computational Methodology.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Scaling.md",
-    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Linear Motion.md",
     "Data/Abstract Mathematical Spaces/Physics/Basic Concepts/Untitled",
     "Data/Abstract Mathematical Spaces/Physics/Basic Concepts",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics",
