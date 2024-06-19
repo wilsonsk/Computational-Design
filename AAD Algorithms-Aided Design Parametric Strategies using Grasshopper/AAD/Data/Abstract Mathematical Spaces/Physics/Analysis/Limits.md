@@ -50,11 +50,56 @@ $$\lim_{h\to 0}$$
 	- *Can also approach infinity, but the secant line does not to converge to a single point like when h approaches zero.*
 		- *Instead as h grows, the secant line continues to connect increasingly distant points, spanning a large interval.*
 		- This is considered **global behavior of a function**.
-## The Limit as a Means of [[Derivatives^limits-as-a-transitions|Transition]]:
+## The Limit as a Means of [[Derivatives^limits-as-a-transitions|Transition]]
 Between the **average rate of change** to the **instantaneous rate of change**. 
 - Mathematically, the [[Derivatives^limits-as-a-transitions|derivative]] at a point is defined as the **limit** of the **difference quotient** (the slope of the secant line) as the interval (distance between two values/points) **approaches zero**.
 	- Therefore, if this limit exists at this point, then the function is **differentiable** at that point.
 		- And the slope of the tangent line at this point is precisely the value of this limit itself - which is the derivative of that point.
+## Limits and Derivatives
+**Limits** are foundational to the concept of derivatives. 
+##### Limit
+Defines the concept of instantaneous change.
+##### [[Derivatives|Derivative]]
+Uses the limit to define the rate of change of the function.
+##### [[Derivatives#Differentiation|Differential]]
+Applies the derivative to approximate changes in the function values.
+##### [[Integrals|Integral]]
+Summarizes or accumulates the infinitesimal changes, essentially performing the inverse operation of differentiation.
+#### The Concept of the Derivative
+The derivative of a function $f$ at a point $x$ how $f(x)$ changes as $x$ changes. 
+	This is essentially the slope of the tangent line to the function at that point.
+##### Secant Line
+The [[Secant Line|Secant Line]] is a [[Linear Functions|Linear Function]] that connects two points on a curve.
+$$\LARGE y=mx+b$$
+The [[Linear Functions#Slope as a Rate of Change|Slope]] of the Secant Line, $\LARGE m$ gives an average rate of change between those two points.
+	The slope $m$ represents the rate of change of $y$ with respect to $x$.
+		This means that for each unit increase in $x$, the value of $y$ changes by $m$ units.
+###### Average Rate of Change (i.e. Slope of the Secant Line)
+For a small increment $\Delta x$, the average rate of change of $f$ over the interval from $x$ to $x+ \Delta x$ is:
+$$\LARGE \frac{f(x + \Delta x) - f(x)}{\Delta x}​$$
+
+This represents the slope of the secant line connecting the points:
+##### Using the Limit to Define the Derivative
+The derivative of a function at a point is defined as the limit of the average rate of change (slope of the secant line) as the interval approaches zero.
+
+
+As the two points get closer to each other, the secant line approaches the [[Tangent Line|tangent line]] at a single point on the curve.
+###### Instantaneous Rate of Change (i.e. Slope of the Tangent Line)
+The derivative focuses on the instantaneous rate of change. 
+	To find this, we consider what happens as $\Delta x$ becomes infinitesimally small.
+
+The Limit Process converts the Secant Line into a Tangent Line.
+	That is, by taking the Limit of the Slope of the Secant line as $\Delta x$ approaches $0$, it produces the Slope of the Tangent Line, which is the Derivative, $f'(x)$, of the function, $f(x)$.
+		Mathematically, the derivative, $f'(x)$ of a function $f(x)$ at a point $x$ is given by:
+
+$$\LARGE f′(x)= \lim_{\Delta x \to 0} \frac{f(x + \Delta x) - f(x)}{\Delta x}$$
+
+Here, the limit captures the idea of an instantaneous rate of change.
+
+When $x_2$​ approaches $x_1$​, this slope approaches the derivative of $f$ at $x_1$, which is the slope of the tangent line at that point.
+	In the limit as $x_2$ approaches $x_1$​, the secant line becomes the tangent line. 
+		This is represented as:
+			$$\LARGE \lim_{x_2 \to x_1} \frac{f(x_2) - f(x_1)}{x_2 - x_1} = f'(x_1)$$
 ## Limits Define Continuity or [[Discontinuities|Discontinuity]]
 ### [[Continuities|Continuity]]
 Continuity at a point means that there is **no** interruption in the curve (i.e. function) at that point. 
@@ -158,6 +203,8 @@ $v(t) = \Delta x / \Delta t = dx/dt=$ $$\lim_{\Delta t\to 0}\Delta x / \Delta t$
 		 The [[#*$h$ (i.e. the independent variable) represents the **increment or distance** from the point $a$ along the $x-axis$.*|increment]] between two $t$ values on the $x-axis$ gets infinitely smaller, i.e. approaches zero distance between them. 
 
 ## Calculating Limits
+### 2 Approaches
+Limits or [[Derivatives#Rules of Differentiation|Rules of Differentiation]]
 ### Using Limits vs. Differentiation Rules
 - **Using Limits**: When you first learn about derivatives, you start by using the limit definition to understand the fundamental concept. 
 - **Using [[Derivatives#Rules of Differentiation|Differentiation Rules]]**: Once the differentiation rules are understood, you apply them directly without computing limits each time. 

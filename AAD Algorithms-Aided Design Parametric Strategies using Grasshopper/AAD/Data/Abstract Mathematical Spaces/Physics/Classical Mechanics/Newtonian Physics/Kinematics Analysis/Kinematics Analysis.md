@@ -8,7 +8,7 @@ date created: 2024-05-28
 ###### The Description of Motion
 ![[Pasted image 20240528132613.png]]
   
-**Kinematics** is a branch of mechanics that deals with the **description** of motion without considering the forces that cause it. 
+**Kinematics** is a branch of mechanics that deals with the **description** of motion and trajectory without considering the forces that cause it. 
 	That is, without the considering of [[Statics Analysis#Forces|forces]].
 		It focuses on the geometric aspects of motion, such as displacement, velocity, and acceleration of objects. 
 			Kinematics is concerned with the position of points, bodies, and systems of bodies, and how these positions change over time.
@@ -39,12 +39,17 @@ The change in position of an object.
 The rate at which an object changes its position. It is a vector quantity and can be described as:
 	**[[Linear Motion#Average Velocity|Average Velocity]] (𝑣ˉvˉ)**: Total displacement divided by the total time taken.
 	**Instantaneous Velocity (v(t))**: The velocity of an object at a specific moment in time, found by taking the derivative of the position with respect to time.
+
+It is the derivative of position.
 ##### [[Newton's Second Law#Speed|Speed]]
 The magnitude of velocity. Unlike velocity, speed is a scalar quantity and does not have direction.
 ##### [[Newton's Second Law#Acceleration|Acceleration]] (a)
 The rate at which an object changes its velocity. It is a vector quantity and can be described as:
     **Average Acceleration (𝑎ˉaˉ)**: Change in velocity divided by the total time taken.
     **Instantaneous Acceleration (a(t))**: The acceleration of an object at a specific moment in time, found by taking the derivative of velocity with respect to time.
+
+It is the derivative of velocity.
+	And the second derivative of position.
 ##### Reference Frames
 The perspective from which motion is observed and measured. Motion can appear different depending on the chosen reference frame (e.g., stationary vs. moving reference frames).
 ##### Relative Motion
@@ -83,6 +88,9 @@ Key characteristics of uniform motion:
 - **Straight Line Path**: The motion occurs in a straight line.
 - **Variable or Constant Velocity**: The speed of the object can change or remain constant.
 - **Acceleration**: Linear motion can involve acceleration or deceleration (change in velocity over time).
+
+[[Non-Linear Motion]]
 ###### Projectile Motion: Motion in two dimensions under the influence of gravity.
-###### Circular Motion: Motion along a circular path, characterized by angular displacement, angular velocity, and angular acceleration.
+###### [[Circular Motion|Circular Motion]]
+Motion along a circular path, characterized by angular displacement, angular velocity, and angular acceleration.
 

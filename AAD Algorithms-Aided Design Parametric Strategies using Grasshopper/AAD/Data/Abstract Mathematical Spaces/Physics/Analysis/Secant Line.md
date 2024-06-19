@@ -44,6 +44,12 @@ It represents the change in the chosen points along the curve of the function.
 ![[Pasted image 20240422232255.png]]
 ![[Pasted image 20240422232921.png]]
 ### The Average Rate of Change
+##### Difference Quotient
+The ratio of the change in output values to the change in the input values).
+	This ratio is the slope of a linear function.
+		Aka the Slope of the Secant Line.
+#### $\LARGE {f(x+h)−f(x)​ \over h}$
+
 The **slope of a secant line** is the the **average rate of change** over an **interval of distance** between the chosen **points on the curve of the function**.
 ![[Pasted image 20240410225437.png]] = ![[Pasted image 20240410225456.png]] = ![[Pasted image 20240411000804.png]]
 - Also called the **difference quotient**.

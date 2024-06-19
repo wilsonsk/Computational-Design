@@ -52,6 +52,9 @@ Uniformity refers to constant [[Newton's Second Law#Velocity|velocity]], $v$.
 ***Note*: *The slope of the linear time dependence function is the velocity.***
 	**In this case, the slope is 1 / 2 and the velocity is a constant 0.5m/s.**
 #### Linear Time Dependence
+This is the [[Integrals#The Constant of Integration|integral of a constant]] velocity, which is a linear function.
+	Where $\LARGE x_{0}$ is the Integration Constant, that is, it is the initial position of x. 
+	
 Linear time dependence refers to a relationship where one variable changes linearly with respect to time. 
 	In kinematics, this concept is often used to describe how displacement ($\triangle x$) changes over time ($\triangle t$) in scenarios of uniform motion.
 ##### Equation: $x=vt+{x_0}​$ and $\triangle x = v \triangle  t$ 

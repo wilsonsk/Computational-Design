@@ -38,13 +38,30 @@ Where $dt$ means $\triangle t$.
 	Therefore, The equation states that we are integrating the velocity function (i.e. summing the function's output values) according to some displacement interval of the independent variable. 
 Remember 
 ### Integral as Accumulated Area
-Now each $x(t_{i})$ is the area under the graph up to that specific point. 
+**Integrals** can be thought of as the accumulation of quantities. 
+	Now each $x(t_{i})$ is the area under the graph up to that specific point. 
 
 *Remember*: the sum of velocities for each time, $t_{i}$, scaled by the interval of time, $dt$ (i.e. $\triangle t_{i}$), which would produce a rectangle under the each velocity at time, $v(t_{i})$, with an area of such.
 	Where $v(t_{i})$ is the "height" and $dt$ (i.e. $\triangle t$) is the "width".
 		Where the times, $t_{i}$, goes from $t_{0}$ until at specific time t. 
 
 Therefore, integrating the derivative function up to a point and then producing the output value of the function that produced that initial derivative. 
+
+The integral of a function $f(x)$ over an interval sums the values of $f(x)$ over that interval, scaled by the interval length. 
+	This process can be seen as reversing differentiation.
+
+For example, consider the integral:
+$$\LARGE \int f(x) \, dx$$
+
+If $f(x)=x$, the integral is:
+$$\LARGE \int x \, dx = \frac{x^2}{2} + C$$
+
+Here, the result is a quadratic expression. 
+	This arises because integration is the inverse process of differentiation. 
+		Differentiating $\LARGE \frac{x^2}{2}$ gives $x$, thus integrating $x$ gives $\LARGE \frac{x^2}{2}$
+### Understanding Integral as Scaling
+
+The integral ∫f(x) dt\int f(x) \, dt∫f(x)dt represents the sum of the values of f(x)f(x)f(x) over small intervals dtdtdt. When f(x)=xf(x) = xf(x)=x, summing xxx over dtdtdt leads to a quadratic function because the area under the curve y=xy = xy=x from 0 to xxx forms a triangle with area 12x2\frac{1}{2} x^221​x2, which matches the integral result.
 ### What "Integrate" Means
 The $\int$ sign means, we are integrating the function $v(t)$ with respect to time.
 	I.e. Means calculating the accumulated value (like displacement) that results from the continuous sum of the function's values over time.
@@ -726,4 +743,90 @@ Velocity $v_{x}$​ is the rate of change of position $x$ with respect to time $
 Here, $C'$ is another constant of integration, which represents the initial position of the object, denoted as $x_{0}$​.
 	Therefore, we write:
 		$\LARGE x(t) = v_{0x} t + x_{0}$
-		
+## Patterns of Integrals of Function Types
+### Understanding Integration Patterns Through Geometric Representation
+To understand why integrating different types of polynomial functions follows specific patterns, it's useful to think about the geometric interpretation of integration, which is essentially calculating the area under a curve.
+#### Integration of a Linear Function
+Consider a linear function $f(x) = ax + b$. 
+When you integrate this function, you are finding the area under a straight line.
+
+1. **Graph of f(x) = ax + b:
+    - This is a straight line with a slope $a$ and a y-intercept $b$
+2. **Integral of $f(x)=ax+b$**:
+    - The integral is:
+    $$\LARGE \int (ax + b) \, dx = \frac{a}{2}x^2 + bx + C$$
+3. **Geometric Interpretation**:
+    - The area under a linear function between two points can be visualized as a trapezoid or a series of infinitesimally small rectangles.
+    - The integral $\frac{a}{2}x^2$ represents how the area changes as the width ($x$) increases quadratically, while $bx$ represents the linear contribution to the area.
+#### Integration of a Quadratic Function
+Consider a quadratic function $f(x)=ax2+bx+c$. 
+The graph of this [[Functions and Motion#2. Quadratic Functions|function is a parabola]].
+1. **Graph of $f(x)=ax^2+bx+c$**:
+    - This is a parabola opening upwards or downwards depending on the sign of $a$.
+2. **Integral of $f(x)=ax^2+bx+c$**:
+    - The integral is:
+    $$\LARGE \int (ax^2 + bx + c) \, dx = \frac{a}{3}x^3 + \frac{b}{2}x^2 + cx + C$$
+3. **Geometric Interpretation**:
+    - The area under the quadratic curve between two points can be visualized as the sum of areas under an infinite number of small parabolic segments.
+    - The term $\frac{a}{3}x^3$ indicates that the area scales cubically as the width ($x$) increases.
+    - The quadratic term in the integral ($\frac{b}{2}x^2$) represents how the area changes with the square of the width.
+#### Scaling of "Height" and "Width"
+When you integrate polynomial functions, you are scaling the "height" (i.e. the functions output value with respect to $x$) of each infinitesimally small rectangle under the curve with the "width" (i.e. the interval or differential of $x$). 
+	
+As the degree of the polynomial increases, the relationship between height and width changes:
+
+- **Linear Function**:
+    - Height increases linearly with width, so the area scales quadratically.
+    $$\LARGE \int (ax + b) \, dx = \frac{a}{2}x^2 + bx + C$$
+    
+- **Quadratic Function**:
+    - Height increases quadratically with width, so the area scales cubically.
+    $$\LARGE \int (ax^2 + bx + c) \, dx = \frac{a}{3}x^3 + \frac{b}{2}x^2 + cx + C$$
+    
+- **Cubic Function**:
+    - Height increases cubically with width, so the area scales quartically.
+    $$\LARGE \int (ax^3 + bx^2 + cx + d) \, dx = \frac{a}{4}x^4 + \frac{b}{3}x^3 + \frac{c}{2}x^2 + dx + C$$
+### Integral Patterns
+#### 1. Polynomial Functions
+
+When you integrate a polynomial function, you increase the power of each term by one and divide by the new power.
+
+*For Example:*
+	A linear function integrates to a Quadratic Function.
+	A Quadratic function integrates to a Cubic Function.
+	A Cubic function integrates to a Quartic Function.
+	Etc.
+- **Linear function**: $f(x) = ax + b$
+	- Becomes a Quadratic Function.
+    $$\LARGE \int (ax + b) \, dx = \frac{a}{2}x^2 + bx + C$$
+- **General polynomial**: $f(x) = a_n x^n + a_{n-1} x^{n-1} + \cdots + a_1 x + a_0$
+    $$\LARGE \int (a_n x^n + a_{n-1} x^{n-1} + \cdots + a_1 x + a_0) \, dx = \frac{a_n}{n+1} x^{n+1} + \frac{a_{n-1}}{n} x^n + \cdots + \frac{a_1}{2} x^2 + a_0 x + C$$
+#### 2. Exponential Functions
+For exponential functions, the integral of $e^x$ is $e^x$, and the integral of $a^x$ is related to the natural logarithm.
+	I.e. Exponential functions have integrals involving themselves or logarithms.
+
+- **Natural exponential function**: $f(x) = e^x$
+    $$\LARGE \int e^x \, dx = e^x + C$$
+- **General exponential function**: $f(x) = a^x$
+    $$\LARGE \int a^x \, dx = \frac{a^x}{\ln(a)} + C \quad (\text{for } a > 0 \text{ and } a \ne 1)$$
+#### 3. Trigonometric Functions
+The integrals of basic trigonometric functions follow specific patterns.
+- **Sine function**: $f(x) = \sin(x)$
+    $$\LARGE \int \sin(x) \, dx = -\cos(x) + C$$
+- **Cosine function**: $f(x) = \cos(x)$
+    $$\LARGE \int \cos(x) \, dx = \sin(x) + C$$
+- **Tangent function**: $f(x) = \tan(x)$
+    $$\LARGE \int \tan(x) \, dx = -\ln|\cos(x)| + C$$
+- **Secant function**: $f(x) = \sec(x)$
+    $$\LARGE \int \sec(x) \, dx = \ln|\sec(x) + \tan(x)| + C$$
+#### 4. Rational Functions
+Integrating rational functions often involves partial fraction decomposition.
+- **Example**: $f(x) = \frac{1}{x}$
+    $$\LARGE \int \frac{1}{x} \, dx = \ln|x| + C$$
+#### 5. Special Functions
+Some functions have standard integrals that are useful to remember.
+- **Inverse trigonometric functions**:
+    - $f(x) = \frac{1}{\sqrt{1-x^2}}$
+        $$\LARGE \int \frac{1}{\sqrt{1-x^2}} \, dx = \sin^{-1}(x) + C$$
+    - $f(x) = \frac{1}{1+x^2}$
+        $$\LARGE \int \frac{1}{1+x^2} \, dx = \tan^{-1}(x) + C$$
