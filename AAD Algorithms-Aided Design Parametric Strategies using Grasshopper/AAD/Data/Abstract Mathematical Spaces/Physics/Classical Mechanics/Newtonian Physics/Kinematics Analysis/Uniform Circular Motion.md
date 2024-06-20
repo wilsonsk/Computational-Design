@@ -45,7 +45,7 @@ Therefore, sometimes, for position, it is more useful to utilize the Cartesian C
 ![[Pasted image 20240618134241.png]]
 Remember, $\LARGE x = r \space \cos \phi$ , $\LARGE y = r \space \sin \phi$ and  but in the example above, we are using a unit circle.
 	Therefore, the radius, $r=1$
-## Constant Angular Acceleration
+## Constant [[Circular Motion#Newton's Second Law Angular Acceleration Angular Acceleration ($ alpha$)|Angular Acceleration]]
 $$\LARGE \alpha = \alpha_{0}$$
 Meaning that $\LARGE \alpha$ is a constant, $\LARGE \alpha_{0}$
 	Remember that the [[Integrals#Constant Rule|integral of a constant is a linear function]].
@@ -56,6 +56,6 @@ Meaning that $\LARGE \alpha$ is a constant, $\LARGE \alpha_{0}$
 ##### Integrating Angular Acceleration to Get Angular Velocity
 If $\LARGE \alpha=\alpha_{0}$, then the Integral of $\LARGE \alpha_{0}$ is a Linear Function.
 $$\LARGE \omega = \int \alpha dt = \alpha t + \omega_{0}$$
-##### Integrating Angular Velocity to Get Angular Position
+##### Integrating [[Circular Motion#Newton's Second Law Angular Velocity Angular Velocity ($ omega$)|Angular Velocity]] to Get [[Circular Motion#Angular Position $ LARGE phi$|Angular Position]]
 If Angular Velocity, $\LARGE \omega$ is a Linear Function, the Integral of $\LARGE \omega$ is a Quadratic Function.
 $$\LARGE \phi = \int \omega dt = \frac{1}{2}\alpha_{0}t^2 + \omega_{0}t + \phi_{0}$$

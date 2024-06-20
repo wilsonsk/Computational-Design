@@ -234,6 +234,11 @@ $\LARGE \frac{d}{dx} x^5 = 5x^4$
 #### [[#Derivative of a Constant is Zero]]
 If $f(x) = c$, where $c$ is a constant, then the derivative of $f$ with respect to $x$ is zero:
 #### $\LARGE \frac{d}{dx} c = 0$
+
+###### Think about this...
+If say the velocity is constant, then the rate of change of velocity - that is acceleration, is zero.
+	Because velocity is constant and thus does not have a rate of change, because it does not change.
+		And therefore, the derivative of velocity, that is, acceleration, does not exist.
 #### Constant Multiple Rule
 If $f(x) = c \cdot g(x)$, where $c$ is a constant and $g(x)$ is a differentiable function, then the derivative of $f$ with respect to $x$ is:
 #### $\LARGE \frac{d}{dx} \left( c \cdot g(x) \right) = c \cdot \frac{d}{dx} g(x)$
