@@ -47,6 +47,7 @@ Remember, $\LARGE x = r \space \cos \phi$ , $\LARGE y = r \space \sin \phi$ and 
 	Therefore, the radius, $r=1$
 ## Constant [[Circular Motion#Newton's Second Law Angular Acceleration Angular Acceleration ($ alpha$)|Angular Acceleration]]
 $$\LARGE \alpha = \alpha_{0}$$
+![[Pasted image 20240619220532.png|200]]
 Meaning that $\LARGE \alpha$ is a constant, $\LARGE \alpha_{0}$
 	Remember that the [[Integrals#Constant Rule|integral of a constant is a linear function]].
 		Therefore, the Angular Velocity, $\LARGE \omega = \alpha_{0} t + \omega_{0}$.
@@ -54,8 +55,10 @@ Meaning that $\LARGE \alpha$ is a constant, $\LARGE \alpha_{0}$
 		Therefore, the Angular Velocity, $\LARGE \omega = \alpha_{0} t + \omega_{0}$.
 ### Integrating from a Constant Angular Acceleration
 ##### Integrating Angular Acceleration to Get Angular Velocity
+![[Pasted image 20240619220620.png|200]]
 If $\LARGE \alpha=\alpha_{0}$, then the Integral of $\LARGE \alpha_{0}$ is a Linear Function.
 $$\LARGE \omega = \int \alpha dt = \alpha t + \omega_{0}$$
 ##### Integrating [[Circular Motion#Newton's Second Law Angular Velocity Angular Velocity ($ omega$)|Angular Velocity]] to Get [[Circular Motion#Angular Position $ LARGE phi$|Angular Position]]
+![[Pasted image 20240619220632.png|200]]
 If Angular Velocity, $\LARGE \omega$ is a Linear Function, the Integral of $\LARGE \omega$ is a Quadratic Function.
 $$\LARGE \phi = \int \omega dt = \frac{1}{2}\alpha_{0}t^2 + \omega_{0}t + \phi_{0}$$

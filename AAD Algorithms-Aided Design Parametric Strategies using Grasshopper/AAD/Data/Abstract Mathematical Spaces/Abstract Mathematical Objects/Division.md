@@ -21,23 +21,100 @@ Division distributes the total quantity a into equal parts of size b.
 Division measures the quantity a using the unit b. 
 	If b is a standard unit, division indicates how many times this unit fits into a.
 ## Contracting
-A transformation $T$ is called a **contracting transformation** (or simply a **contraction**) if there exists a constant $k$ with $0≤k<10 \leq k < 10≤k<1$ such that for all points $x$ and $y$ in the space, the distance between $T(x)$ and $T(y)$ is strictly less than the distance between $x$ and $y$, scaled by $k$. 
+A transformation $T$ is called a **contracting transformation** (or simply a **contraction**) if there exists a constant $k$ with $\LARGE 0≤k<1$ such that for all points $x$ and $y$ in the space, the distance between $T(x)$ and $T(y)$ is strictly less than the distance between $x$ and $y$, scaled by $k$. 
 ###### Mathematically, this can be expressed as:
-	$d(T(x),T(y))≤k⋅d(x,y)$
+	$$\LARGE d(T(x),T(y))≤k⋅d(x,y)$$
 		Where $d(\cdot, \cdot)$ represents the distance metric in the space.
 ###### Transformation $T$
 This is a function that maps points in a space to other points in the same space.
 ###### Constant $k$**
-This is the contraction constant, which must satisfy $0≤k<10 \leq k < 10≤k<1$. 
+This is the contraction constant, which must satisfy $0 \leq k < 1$. 
 	The value of $k$ determines the degree of shrinking.
 ###### Distance $d(\cdot, \cdot)$
 This is the metric used to measure the distance between two points in the space.
 ###### Euclidean Geometry
-If you scale a figure by a factor $k$ where $0≤k<10 \leq k < 10≤k<1$, every point of the figure is moved closer to a fixed point (usually the origin), and the entire figure is reduced in size. This is a contraction.
+If you scale a figure by a factor $k$ where $0 \leq k < 1$, every point of the figure is moved closer to a fixed point (usually the origin), and the entire figure is reduced in size. This is a contraction.
 ###### Linear Algebra
 A matrix representing a linear transformation is a contraction matrix if the norm of the matrix is less than 1.
 ###### Functional analysis
 A contraction mapping on a metric space is a function that brings points closer together by a fixed ratio $k$ less than 1.
+
+## Contraction by a Scalar
+When we talk about contraction in the context of scaling with a scalar less than 1, we mean that we are effectively reducing the original quantity. 
+	In mathematical terms, scaling a variable $p$ by a factor of $\frac{1}{k}$ (where $k > 1$) results in a smaller quantity.
+#### Understanding $x = p \times \frac{1}{k}$
+Given the equation $x = p \times \frac{1}{k}$, you can visualize or understand this as the total force $p$ being split into $k$ equal groups, where each group contains $x$ amount of the original $p$.
+### Step-by-Step Mental Image
+1. **Total Force $p$:**
+    - Picture the total force $p$ as a large block or total quantity.
+2. **Dividing into $k$ Groups:**
+    - Divide this large block into $k$ smaller, equal groups.
+    - Each group represents a fraction of the total force.
+3. **Deflection Contribution $x$:**
+	- The quantity $x$ represents the size or amount of each of these smaller blocks.
+	- Mathematically, $x = p \times \frac{1}{k}$ shows that $x$ is the portion of $p$ contained in each of the $k$ parts.
+    - Each group contains an amount of deflection $x$.
+    - The total deflection $x$ is the portion of $p$ that each group contributes.
+#### Mathematical Interpretation
+The equation $x = p \times \frac{1}{k}$ can be rewritten as:
+$$\LARGE x = \frac{p}{k}$$
+
+This indicates that each of the $k$ groups contributes an equal amount $x$ from the total force $p$.
+
+But also, if we then scale the $x$ amount contained by each of the $k$ pieces of $p$, then we obtain $p
+	Where we would have $k$ many pieces of $x$ amount.
+$$\LARGE xk = p$$
+#### Example
+Suppose $p = 6$ and $k = 2$:
+
+- **Total Force $p = 6$:**
+    - You have a total force of 6 units.
+- **Dividing into $k = 2$ Groups:**
+    - You divide this force into 2 equal groups.
+    - Each group has $\frac{6}{2} = 3$ units.
+- **Deflection Contribution $x$:**
+    - Each group of 3 units of force contributes to the total deflection.
+    - Thus, the total deflection $x$ is 3 units
+#### Hooke's Law and Contraction Example
+Hooke's Law states that the force $F$ needed to extend or compress a spring by some distance $x$ is proportional to that distance.
+	The law can be written as:
+$$F=kx$$
+where:
+- $F$ is the force applied to the spring,
+- $k$ is the spring constant (a measure of the stiffness of the spring),
+- $x$ is the displacement or deflection of the spring from its equilibrium position.
+##### Understanding $x = \frac{F}{k}$
+Rearranging Hooke's Law to solve for $x$ (the deflection), we get:
+$$x = \frac{F}{k}$$
+In this equation:
+- $F$ represents the total force applied,
+- $k$ represents the spring constant,
+- $x$ represents the resulting deflection of the spring.
+##### Visualizing Contraction
+To understand $x = \frac{F}{k}$ as a form of contraction:
+1. **Total Force $F$:**
+    - Think of $F$ as a single large block representing the total force applied to the spring.
+2. **Spring Constant $k$:**
+    - The spring constant $k$ acts as a divisor, indicating how many parts the force $F$ is split into based on the stiffness of the spring.
+3. **Resulting Deflection $x$:**
+    - The deflection $x$ is the portion of the total force $F$ that results in the displacement of the spring. It is calculated by dividing the total force $F$ by the spring constant $k$.
+##### Detailed Verbal Explanation
+Imagine you have a certain amount of force $F$ (like pushing on a spring) and you want to see how much the spring stretches. 
+	The spring constant $k$ tells you how stiff the spring is, and this stiffness affects how much the spring stretches when you apply the force.
+1. **The Whole Quantity $F$:**
+    - Picture $F$ as the total force you apply to the spring. This is a complete, undivided amount of force.
+2. **Dividing into $k$ Equal Parts:**
+    - The spring constant $k$ divides this total force into $k$ smaller, equal parts. If $k$ is large (a stiff spring), each part is small, meaning the spring doesn't stretch much. If $k$ is small (a less stiff spring), each part is larger, meaning the spring stretches more.
+3. **Each Part’s Contribution to Deflection $x$:**
+    - The deflection $x$ is the amount of stretch that each of these $k$ parts contributes to the total stretch of the spring. Essentially, $x = \frac{F}{k}$ tells you how much each part of the force contributes to the overall deflection.
+#### Abstract Thinking about Division
+To understand division abstractly, think about it in a similar way to multiplication:
+1. **Multiplication:**
+    - When we multiply $a$ by $b$, we are scaling $b$ to have $a$ many instances of $b$. 
+	    - For example, $a \times b$ means we have $a$ groups, each containing $b$ units.
+1. **Division:**
+    - When we divide $a$ by $b$, we are scaling $a$ down by distributing it into $b$ equal parts. 
+	    - For example, $a / b$ means we split $a$ into $b$ groups, each containing $\frac{a}{b}$ units.
 #### Practical Examples
 ###### Number Division
 10/2​=5 indicates that 10 can be divided into 5 parts, each of size 2.

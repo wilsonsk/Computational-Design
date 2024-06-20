@@ -13,6 +13,12 @@ date created: 2024-04-10
 ---
 # Derivatives
 ## $f'(x)$
+The ratio of two [[#Differentiation|differentials]], such as $\frac{dx}{dt}$, is called a **derivative**. 
+	It represents the rate at which one variable changes (i.e. one differential) with respect to another variable (i.e. another differential).
+		In this case, $\frac{dx}{dt}$ is the derivative of $x$ with respect to $t$, which indicates how $x$ changes as $t$ changes.
+
+For example, if $x$ represents position and $t$ represents time, $\frac{dx}{dt}$ would represent the velocity, which is the rate of change of position with respect to time
+
 The **derivative** of a function measures the rate at which the function's value changes as its input changes. \
 	It is a fundamental concept in calculus, representing an instantaneous rate of change.
 
