@@ -17,32 +17,78 @@ Due to the circular trajectory, there then exists a radius that the motion is al
 			If using Cartesian Coordinates, it would still be 2D as we'd still be using $x$ and $y$ axes to describe the position, and motion.
 ###### Arc s
 Radius dependent.
-$$s\LARGE = \phi \cdot r$$
-### Angular Position $\LARGE \phi$
+$$s\LARGE = \varphi \cdot r$$
+### Angular Position $\LARGE \varphi$
 **Angular position** refers to the orientation of a line with another line or plane. 
 
 It is the angle between the reference line (often the x-axis) and the line from the center of the circle to the point in question. 
-	Angular position is usually denoted by ϕ\phiϕ and is measured in radians or degrees.
+	Angular position is usually denoted by ϕ\varphiϕ and is measured in radians or degrees.
 Used in [[#Angular Displacement ($ phi$)|Angular Displacement]]
 Radius independent
 ### Polar Coordinates
 A single coordinate that describes all motion.
 
-### Angular Displacement ($\theta$ or $\Delta \phi$)
-**Angular displacement** is the measure of the angle through which an object has rotated or moved from a reference position over a given period of time. 
+### Angular Displacement ($\theta$ or $\Delta \varphi$)
+**Angular displacement** is the measure of the **angle** through which an object has rotated or moved from a reference position over a given period of time. 
 	It is the change in the angular position. Angular displacement is also measured in radians or degrees and can be positive (counterclockwise rotation) or negative (clockwise rotation).
 		It is the angle between the initial and final positions of the object.
-$$\LARGE \Delta \phi = \phi_f - \phi_0$$
+$$\LARGE \Delta \varphi = \varphi_f - \varphi_0$$
 
 $$\LARGE \theta = \frac{s}{r}$$
-where $s$ is the arc length and $r$ is the radius of the circle.
+Where $s$ is the arc length and $r$ is the radius of the circle.
+### Linear Velocity ($v_{t}$)
+Linear velocity ($v$) refers to the rate at which an **object moves along a path**.
+
+![[Pasted image 20240617181227.png]]
+In the context of circular motion, tangential velocity and linear velocity are synonymous and both describe the speed at which an object moves along the circular path.
+#### Components of Linear Velocity
+Linear velocity in circular motion can be decomposed into two orthogonal components:
+##### Tangential Velocity ($v_t$)
+Linear Velocity is radius dependent.
+The magnitude of the tangential velocity is given by: 
+$$\LARGE v_{t}=\omega \cdot r$$
+- $r$ is the radius of the circular path
+- $\omega$ is the angular velocity (rate of change of the angle with respect to time)
+
+This is the component of the linear velocity that is tangent to the circular path.
+	It represents the rate at which the object moves along the circumference of the circle.
+
+The direction of the tangential velocity is always perpendicular to the radius at any point on the path.
+##### Radial (Centripetal) Velocity
+For uniform circular motion (where the speed is constant), there is no component of linear velocity in the radial direction because the object is not moving towards or away from the center. 
+	The radial component of the velocity is zero.
+	
+For non-uniform circular motion (where the speed changes), there can be a radial component of velocity if the radius of the circular path changes. 
+
+However, in typical circular motion with a fixed radius, the radial velocity component is zero.
+#### Linear Velocity Components in Uniform Circular Motion
+In uniform circular motion:
+- The speed is constant.
+- The tangential velocity is the only component of linear velocity.
+- There is no radial component of linear velocity.
+#### Linear Velocity Components in Non-Uniform Circular Motion
+In non-uniform circular motion:
+- The speed can change, leading to a changing tangential velocity.
+- If the radius of the circular path changes, there can be a radial component of linear velocity.
+
+For an object in circular motion, the linear velocity is always [[Tangent Line|tangent]] to the circle. 
+	The angular velocity is the ratio of the angle traversed to the amount of time it takes to traverse that angle.
+
+It measures the rate of change of the position along the circular path.
+	Its units are meters per second (m/s).
+		It is a vector quantity, tangential to the circular path at any point.
+
+Anything that moves or turns in the circular direction has both linear velocity and angular velocity.
+
 ### [[Newton's Second Law#Angular Velocity|Angular Velocity]] ($\omega$)
+The rate of the change of the **Angular** Position (i.e. the angle) as an object moves along a circular path.
 ![[Pasted image 20240617181332.png]]
 Radius Independent.
 	No matter how large or small the radius is, the angular velocity will be the same.
 	
 Angular velocity is the rate of change of angular displacement with respect to time.
 	It is a vector quantity, which means it has both magnitude and direction.
+		Its direction is normal to the plane of the circular motion.
 
 Angular Velocity is a vector quantity, directed along the axis of rotation (using the right-hand rule).
 	It measures the rate of change of the angle.
@@ -55,31 +101,9 @@ Angular velocity ($\omega$) is a vector that is normal (perpendicular) to the pl
 	This is a fundamental aspect of how angular velocity is represented in three-dimensional space.
 
 It is the derivative of the angular position with respect to time. 
-    $$\LARGE \omega(t) = \lim_{\triangle t \rightarrow 0}{\triangle \phi \over \triangle t} = \frac{d\phi}{dt} = \phi'(t) = \dot{\phi}$$
-### Linear Velocity ($v_{t}$) Aka Tangential Velocity
-$$\LARGE v_{t}=\omega \cdot r$$
-- $r$ is the radius of the circular path
-- $\omega$ is the angular velocity (rate of change of the angle with respect to time)
-![[Pasted image 20240617181227.png]]
-In the context of circular motion, tangential velocity and linear velocity are synonymous and both describe the speed at which an object moves along the circular path.
-
-Linear velocity ($v$) refers to the rate at which an object moves along a path.
-	For an object in circular motion, the linear velocity is always [[Tangent Line|tangent]] to the circle. 
-		The angular velocity is the ratio of the angle traversed to the amount of time it takes to traverse that angle.
-
-Linear Velocity is radius dependent.
-
-It measures the rate of change of the position along the circular path.
-	Its units are meters per second (m/s).
-		It is a vector quantity, tangential to the circular path at any point.
-
-Anything that moves or turns in the circular direction has both linear velocity and angular velocity.
-
-Tangential velocity is the linear speed of an object moving along a circular path. 
-	It is always directed tangent to the path of the motion. 
-			The magnitude of tangential velocity can be calculated using the formula:
-$$\LARGE v = r\omega$$
+    $$\LARGE \omega(t) = \lim_{\triangle t \rightarrow 0}{\triangle \varphi \over \triangle t} = \frac{d\varphi}{dt} = \varphi'(t) = \dot{\varphi}$$
 ### Linear [[Components of Motion#Acceleration Vector|Acceleration]]
+The rate of change of the velocity of an object as it moves along a path.
 Radius dependent.
 $$\LARGE a = \alpha \cdot r$$
 ![[Pasted image 20240619112640.png]]
@@ -90,6 +114,7 @@ $$\LARGE a = \alpha \cdot r$$
 $$\LARGE \vec{a} = \vec{a_t} + \vec{a_c}$$
 Linear acceleration in circular motion can be broken down into two components:
 ##### Tangential Acceleration ($a_t$)
+![[Pasted image 20240621130543.png|200]]
 Tangential acceleration is the rate of change of tangential velocity.
 	It represents how the speed of the object along the circular path is changing with time.
 		 The formula for tangential acceleration is: 
@@ -112,6 +137,7 @@ Tangential acceleration works when an object moves in a circular path.
 	Tangential acceleration is similar to linear acceleration, but it is not the same as straight-line linear acceleration.
 		 If an item moves in a straight line, it is linearly accelerating.
 ##### [[#Components of Motion Centripetal Force Centripetal Force ($F_c$)|Centripetal]] (aka Radial aka Normal) Acceleration ($a_c$)
+![[Pasted image 20240621130609.png|200]]
 The component directed towards the center of the circle, representing changes in the direction of the velocity vector.
 $$\LARGE a_c = \frac{v_t^2}{r}$$​Where $a_c$ is the centripetal acceleration, $v_t$ is the tangential velocity, and $r$ is the radius of the circular path.
 
@@ -121,18 +147,21 @@ Centripetal acceleration is the acceleration that acts towards the center of the
 **Direction**
 Always points radially inward towards the center of the circular path.
 ### [[Newton's Second Law#Angular Acceleration|Angular Acceleration]] ($\alpha$)
-Angular acceleration is the rate of change of angular velocity with respect to time.
+![[Pasted image 20240621130534.png|200]]
+Angular acceleration is the rate of change of Angular Velocity (i.e. the velocity of the change in the angle) with respect to time.
 
 Angular acceleration ($\alpha$) is indeed defined as the rate of change of angular velocity with respect to 
 time:
-$$\LARGE \alpha(t) = \frac{d\omega}{dt} = \frac{d^2\phi}{dt^2} = \dot{\omega} = \ddot{\phi}$$
+$$\LARGE \alpha(t) = \frac{d\omega}{dt} = \frac{d^2\varphi}{dt^2} = \dot{\omega} = \ddot{\varphi}$$
 
-It can also be expressed as the second derivative of the angular position ($\phi$) with respect to time.;
-$$\LARGE \alpha = \ddot{\phi} = -\frac{g}{r} \cos \phi$$
+It can also be expressed as the second derivative of the angular position ($\varphi$) with respect to time:
+$$\LARGE \alpha = \ddot{\varphi} = -\frac{g}{r} \cos \varphi$$
+I.e. This is a Differential Equation.
+ 
 Where:
     - $\omega$ is the angular velocity
-    - $\phi$ is the angular position
-    - $\ddot{\phi}$ is the second derivative of $\phi$ with respect to time (angular acceleration)
+    - $\varphi$ is the angular position
+    - $\ddot{\varphi}$ is the second derivative of $\varphi$ with respect to time (angular acceleration)
 ##### Relationship to the [[#Tangential Acceleration ($a_t$)|Tangential Acceleration]] ($a_t$)
 Tangential acceleration is the linear acceleration tangent to the circular path. 
 	It represents the rate of change of the tangential (or linear) velocity.
@@ -142,6 +171,8 @@ Where:
     - $r$ is the radius of the circular path
     - $\alpha$ is the angular acceleration
 ##### Angular Acceleration Vector Direction
+It is normal to the plane of the circular motion.
+
 **Right-Hand Rule**: To determine the direction of the angular acceleration vector ($\alpha$), you use the right-hand rule:
     Point your right-hand fingers in the direction of the rotation (along the axis of rotation).
     Curl your fingers in the direction of the angular velocity vector ($\omega$).
