@@ -244,7 +244,7 @@ If $f(x) = c$, where $c$ is a constant, then the derivative of $f$ with respect 
 ###### Think about this...
 If say the velocity is constant, then the rate of change of velocity - that is acceleration, is zero.
 	Because velocity is constant and thus does not have a rate of change, because it does not change.
-		And therefore, the derivative of velocity, that is, acceleration, does not exist.
+		And therefore, the derivative of velocity, that is, acceleration (i.e. the rate of change of velocity), does not exist.
 #### Constant Multiple Rule
 If $f(x) = c \cdot g(x)$, where $c$ is a constant and $g(x)$ is a differentiable function, then the derivative of $f$ with respect to $x$ is:
 #### $\LARGE \frac{d}{dx} \left( c \cdot g(x) \right) = c \cdot \frac{d}{dx} g(x)$

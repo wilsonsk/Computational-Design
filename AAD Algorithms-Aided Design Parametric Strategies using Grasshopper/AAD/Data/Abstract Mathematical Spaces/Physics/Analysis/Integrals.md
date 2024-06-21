@@ -626,7 +626,8 @@ The rule of integration for constants states that the integral of a [[#A Constan
 ###### I.e. The integral of a constant is a linear function.
 Think about this...
 	If say velocity is constant, then thus does not have a rate of change, because it does not change.
-		And therefore, the integral of velocity, that is, position, changes linearly.
+		Therefore, the integral of velocity, that is, position, changes linearly, that is to say, without a change in velocity.
+			This is why we arrive at a linear function. 
 ###### Given the Integral
 #### $\LARGE \int cdx$
 

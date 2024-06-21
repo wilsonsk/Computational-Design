@@ -79,17 +79,6 @@ Tangential velocity is the linear speed of an object moving along a circular pat
 	It is always directed tangent to the path of the motion. 
 			The magnitude of tangential velocity can be calculated using the formula:
 $$\LARGE v = r\omega$$
-### [[Newton's Second Law#Angular Acceleration|Angular Acceleration]] ($\alpha$)
-Angular acceleration is the rate of change of angular velocity with respect to time.
-$$\LARGE \alpha(t) = \frac{d\omega}{dt} = \frac{d^2\phi}{dt^2} = \dot{\omega} = \ddot{\phi}$$
-##### Angular Acceleration Vector Direction
-**Right-Hand Rule**: To determine the direction of the angular acceleration vector ($\alpha$), you use the right-hand rule:
-    Point your right-hand fingers in the direction of the rotation (along the axis of rotation).
-    Curl your fingers in the direction of the angular velocity vector ($\omega$).
-    Your thumb will point in the direction of the angular velocity vector.
-    
-If the angular velocity is increasing, the angular acceleration vector points in the same direction as the angular velocity vector.
-	If the angular velocity is decreasing, the angular acceleration vector points in the opposite direction to the angular velocity vector.
 ### Linear [[Components of Motion#Acceleration Vector|Acceleration]]
 Radius dependent.
 $$\LARGE a = \alpha \cdot r$$
@@ -107,7 +96,7 @@ Tangential acceleration is the rate of change of tangential velocity.
 		  $$\LARGE \alpha_{t}​=rα$$ where:
 - $r$ is the radius of the circular path
 - $\alpha$ is the angular acceleration (rate of change of angular velocity with respect to time)
-###### Tangential acceleration is always directed tangent to the circle.
+###### Tangential Acceleration is always directed tangent to the circle.
 Tangential acceleration is the rate at which a tangential velocity varies in the rotational motion of any object.
 	It acts in the direction of a tangent at the point of motion for an object. 
 
@@ -122,7 +111,7 @@ Tangential acceleration is similar to linear acceleration, however, it is only i
 Tangential acceleration works when an object moves in a circular path. 
 	Tangential acceleration is similar to linear acceleration, but it is not the same as straight-line linear acceleration.
 		 If an item moves in a straight line, it is linearly accelerating.
-#### Centripetal (aka Radial aka Normal) Acceleration ($a_c$)
+##### [[#Components of Motion Centripetal Force Centripetal Force ($F_c$)|Centripetal]] (aka Radial aka Normal) Acceleration ($a_c$)
 The component directed towards the center of the circle, representing changes in the direction of the velocity vector.
 $$\LARGE a_c = \frac{v_t^2}{r}$$​Where $a_c$ is the centripetal acceleration, $v_t$ is the tangential velocity, and $r$ is the radius of the circular path.
 
@@ -131,6 +120,35 @@ Centripetal acceleration is the acceleration that acts towards the center of the
 
 **Direction**
 Always points radially inward towards the center of the circular path.
+### [[Newton's Second Law#Angular Acceleration|Angular Acceleration]] ($\alpha$)
+Angular acceleration is the rate of change of angular velocity with respect to time.
+
+Angular acceleration ($\alpha$) is indeed defined as the rate of change of angular velocity with respect to 
+time:
+$$\LARGE \alpha(t) = \frac{d\omega}{dt} = \frac{d^2\phi}{dt^2} = \dot{\omega} = \ddot{\phi}$$
+
+It can also be expressed as the second derivative of the angular position ($\phi$) with respect to time.;
+$$\LARGE \alpha = \ddot{\phi} = -\frac{g}{r} \cos \phi$$
+Where:
+    - $\omega$ is the angular velocity
+    - $\phi$ is the angular position
+    - $\ddot{\phi}$ is the second derivative of $\phi$ with respect to time (angular acceleration)
+##### Relationship to the [[#Tangential Acceleration ($a_t$)|Tangential Acceleration]] ($a_t$)
+Tangential acceleration is the linear acceleration tangent to the circular path. 
+	It represents the rate of change of the tangential (or linear) velocity.
+###### Relationship to Angular Acceleration: 
+Where:
+    - $a_t$ is the tangential acceleration
+    - $r$ is the radius of the circular path
+    - $\alpha$ is the angular acceleration
+##### Angular Acceleration Vector Direction
+**Right-Hand Rule**: To determine the direction of the angular acceleration vector ($\alpha$), you use the right-hand rule:
+    Point your right-hand fingers in the direction of the rotation (along the axis of rotation).
+    Curl your fingers in the direction of the angular velocity vector ($\omega$).
+    Your thumb will point in the direction of the angular velocity vector.
+    
+If the angular velocity is increasing, the angular acceleration vector points in the same direction as the angular velocity vector.
+	If the angular velocity is decreasing, the angular acceleration vector points in the opposite direction to the angular velocity vector.
 ### [[Components of Motion#Centripetal Force|Centripetal Force]] ($F_c$)
 Centripetal force is the net force that acts towards the center of a circular path, causing centripetal acceleration.
 	It is the force that keeps an object moving in a circular trajectory.
@@ -152,12 +170,10 @@ Where $\LARGE v_t$ is the Tangential Velocity, and $\LARGE \frac{v_t^2}{r}$ is t
 
 **Using Angular Velocity ($\omega$):**
 $$\LARGE F_c = mr\omega^2$$
-
 - **Explanation**: This form expresses centripetal force in terms of the mass ($m$) of the object, the radius ($r$) of the circular path, and the angular velocity ($\omega$).
 - **Usefulness**: It shows how centripetal force depends on the rate of rotation (angular velocity) and the distance from the center of the circular path.
 
 This shows that centripetal force depends on the mass of the object, the square of its tangential velocity, and the radius of the circular path.
-
 ### Period ($T$) and Frequency ($f$)
 The period is the time taken for one complete revolution. Frequency is the number of revolutions per unit time.
     $$\LARGE T = \frac{2\pi}{\omega}, \quad f = \frac{1}{T}$$
@@ -170,5 +186,4 @@ The linear quantities (such as velocity and acceleration) in circular motion are
     $$\LARGE v = r\omega$$
 - **Linear Acceleration**: The total linear acceleration $a$ has two components: radial (centripetal) acceleration $\LARGE a_r$​ and tangential acceleration $\LARGE a_t$​.
 	
-
 $$\LARGE a_r = r\omega^2, \quad a_t = r\alpha$$
