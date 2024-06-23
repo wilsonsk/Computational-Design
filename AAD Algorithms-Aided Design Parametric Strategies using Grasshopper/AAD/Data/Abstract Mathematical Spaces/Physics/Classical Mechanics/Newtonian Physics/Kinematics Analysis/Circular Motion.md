@@ -22,13 +22,13 @@ $$s\LARGE = \varphi \cdot r$$
 **Angular position** refers to the orientation of a line with another line or plane. 
 
 It is the angle between the reference line (often the x-axis) and the line from the center of the circle to the point in question. 
-	Angular position is usually denoted by ϕ\varphiϕ and is measured in radians or degrees.
+	Angular position is usually denoted by $\varphi$ and is measured in radians or degrees.
 Used in [[#Angular Displacement ($ phi$)|Angular Displacement]]
 Radius independent
 ### Polar Coordinates
 A single coordinate that describes all motion.
 
-### Angular Displacement ($\theta$ or $\Delta \varphi$)
+### Angular Displacement ($\phi$ or $\Delta \varphi$)
 **Angular displacement** is the measure of the **angle** through which an object has rotated or moved from a reference position over a given period of time. 
 	It is the change in the angular position. Angular displacement is also measured in radians or degrees and can be positive (counterclockwise rotation) or negative (clockwise rotation).
 		It is the angle between the initial and final positions of the object.
@@ -79,13 +79,16 @@ It measures the rate of change of the position along the circular path.
 		It is a vector quantity, tangential to the circular path at any point.
 
 Anything that moves or turns in the circular direction has both linear velocity and angular velocity.
-
 ### [[Newton's Second Law#Angular Velocity|Angular Velocity]] ($\omega$)
 The rate of the change of the **Angular** Position (i.e. the angle) as an object moves along a circular path.
 ![[Pasted image 20240617181332.png]]
 Radius Independent.
 	No matter how large or small the radius is, the angular velocity will be the same.
-	
+
+We know that Tangential Velocity, $\alpha_t$ is:
+$$\LARGE \alpha_t = \omega \cdot r$$
+Therefore:
+$$\LARGE \omega = {\alpha_t \over r}$$
 Angular velocity is the rate of change of angular displacement with respect to time.
 	It is a vector quantity, which means it has both magnitude and direction.
 		Its direction is normal to the plane of the circular motion.

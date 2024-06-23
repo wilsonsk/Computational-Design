@@ -60,3 +60,60 @@ Same as the Pendulum Swing.
 What this Angular Transformation enables, is the $\cos$ can be changed.
 $$\LARGE \alpha = \ddot{\varphi} = -\frac{g}{r} \cos \varphi \rightarrow \ddot \phi = -{g \over r} \sin \phi$$
 
+We can now solve, albeit without differential equations or integration.
+	It is an estimate.
+
+Because the derivative of $\sin$ is $\cos$.
+	And derivative of $\cos$ is $-\sin$.
+## Example Problem
+Consider a starting velocity of $\LARGE v_{0} = 10 \frac{m}{s}$ in a roundabout with a radius $r= 5m$.
+	Upon breaking, the angular acceleration is constant $\LARGE \alpha = -0.1 \frac {1}{s^2}$
+		*Note: Angular Acceleration is decreasing.*
+
+1. How long does it take until the roundabout stops?
+	I.e. At what time, $t$, is the Angular Velocity $0$?
+2. How many rotations did the roundabout complete during that time?
+	I.e. What is the Angular Displacement at that time, $t$?
+#### Unknowns
+##### 1. To Find $t$ where Angular Velocity, $\omega = 0$ 
+###### Find Angular Velocity:
+We know that Tangential Velocity, $\alpha_t$ is:
+$$\LARGE \alpha_t = \omega \cdot r$$
+Therefore:
+$$\LARGE \omega = {\alpha_t \over r}$$
+###### The Initial Angular Velocity, $\omega_0$
+$$\LARGE = \omega_0 = {v_0 \over r} = {10{m\over s}\over 5m} = 2{1 \over s}$$
+$$\LARGE 2{1 \space radian \over s} = 2 \space \text{radians}$$
+###### The Angular Velocity, $\omega$
+Via integrating over the Angular Acceleration, $\alpha = -0.1{1\over s^2}$ which we know is a [[Integrals#Constant Rule|constant]] which means the integral is a linear function. 
+
+$$\LARGE \omega = \int \alpha dt = \alpha t + \omega_0$$
+###### Graph Method:
+Below is the graph of the Angular Velocity obtained via Integration:
+	We can see that at time, $t=2s$, the Angular Velocity is $0$.
+![[Pasted image 20240622075043.png]]
+###### Calculation Method
+We can also set $\omega=0$ and find the [[Derivatives#Critical Points|critical point]], $\LARGE {t_{c}}$
+$$\LARGE 0 = \alpha {t_c} + w_0$$
+$$\LARGE - w_0= \alpha {t_c}$$
+$$\LARGE -{w_0\over \alpha }= {t_c}$$
+Plug in values
+$$\LARGE -{2{1\over s} \over 0.1{1\over s^2} }= {t_c}$$
+$$\LARGE = t_c = 20s$$
+##### 2. Find the Angular Displacement at critical point, $t_c$
+###### Find the Angular Position at time, $t_c$
+Via Integrating Angular Velocity at $\LARGE t_c=20s$.
+$$\LARGE \varphi =  \int\omega dt = \int (\alpha t + \omega_0) dt$$
+We know that [[Integrals#Integration of a Linear Function|Integrating a Linear Function yields a Quadratic Function]].
+$$\LARGE \varphi =  \int\omega dt = \int (\alpha t + \omega_0) dt = {1\over 2}\alpha t^2 + \omega_0 t + \varphi_0$$
+Remember that Angular Displacement is:
+$$\LARGE \Delta \varphi = \varphi_f - \varphi_0$$
+Now set the time, $t$ in this function $=t_c$:
+$$\LARGE \varphi(t_c) =  \int \omega dt = {1\over 2}\alpha t_{c}^2 + \omega_{0_c} t_c + \varphi_0$$
+$$\LARGE \varphi(0) = \varphi_0$$
+$$\LARGE \varphi(t_c) - \varphi(0) = ({1\over 2}\alpha t_{c}^2 + \omega_{0_c} t_c + \varphi_0) - (\varphi_0)$$
+$$\LARGE \varphi - \varphi_0 =  \int \omega dt = ({1\over 2} -(0.1{1\over s}) (20s^2) + 2{1\over s} (20s) + \varphi_0) - \varphi_0$$
+$$\LARGE = \Delta \varphi = 20 \space radians$$ ![[Pasted image 20240622215437.png]]
+
+To Get Number of Rotations:
+$$\LARGE {\varphi - \varphi_0 \over 2\pi} = {20\over 2\pi} = {10\over \pi} 3.18 \space Rotations$$

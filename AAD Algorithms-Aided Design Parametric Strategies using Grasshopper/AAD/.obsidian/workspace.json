@@ -8,60 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "12e2ea203e4f7d63",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Circular Motion.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "02002405b2a99c56",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Circular Motion Examples.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "86a52bea8e73f4ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "313f945cfac95228",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Integrals.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e9f523721294dd5b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Moment.md",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Partial Derivatives.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ef139f12d4a377f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Integrals.md",
                 "mode": "source",
                 "source": false
               }
@@ -135,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Circular Motion Examples.md",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Integrals.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -152,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Circular Motion Examples.md",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Integrals.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -175,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Circular Motion Examples.md"
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Integrals.md"
               }
             }
           },
@@ -209,10 +173,22 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "02002405b2a99c56",
+  "active": "ef139f12d4a377f3",
   "lastOpenFiles": [
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Partial Derivatives.md",
+    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Moment.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Circular Motion.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Integrals.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Circular Motion Examples.md",
+    "Pasted image 20240622215437.png",
+    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Non-Linear Motion Exercises.md",
+    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Non-Linear Motion.md",
+    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Components of Motion.md",
+    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Uniform Acceleration.md",
+    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Uniform Circular Motion.md",
+    "Surfaces/Notion of Surface Curvature.md",
+    "Pasted image 20240622075043.png",
     "Pasted image 20240621143549.png",
     "2024-06-21.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Kinematics Analysis.md",
@@ -220,32 +196,21 @@
     "Pasted image 20240621130609.png",
     "Pasted image 20240621130543.png",
     "Pasted image 20240621130534.png",
-    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Uniform Circular Motion.md",
     "images/Pasted image 20240621070256.png",
     "images/Pasted image 20240620213148.png",
     "Data/Abstract Mathematical Spaces/Physics/Forces are Probability.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Integrals.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/There is Only Addition.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Division.md",
     "images/Pasted image 20240619112640.png",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Proportion.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Scaling.md",
     "images/Pasted image 20240619220632.png",
-    "images/Pasted image 20240619220620.png",
-    "images/Pasted image 20240619220532.png",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Newton's Second Law.md",
-    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Components of Motion.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Limits.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Slope.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Secant Line.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Linear Functions.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Tangent Line.md",
-    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Uniform Motion.md",
-    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Functions and Motion.md",
-    "Curves/Continuities.md",
-    "Surfaces/Notion of Surface Curvature.md",
-    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Non-Linear Motion.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra",
     "Data/Abstract Mathematical Spaces/Physics/Basic Concepts/Untitled",
     "Data/Abstract Mathematical Spaces/Physics/Basic Concepts",

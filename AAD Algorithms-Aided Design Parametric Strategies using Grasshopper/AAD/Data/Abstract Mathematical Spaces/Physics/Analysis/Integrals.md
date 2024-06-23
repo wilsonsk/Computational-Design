@@ -62,6 +62,9 @@ Here, the result is a quadratic expression.
 ### Understanding Integral as Scaling
 The integral $dt\int f(x)$ represents the sum of the values of $f(x)$ over small intervals $dt$. 
 	When $f(x)=x$, summing $x$ over $dt$ leads to a quadratic function because the area under the curve $y=x$ from 0 to $x$ forms a triangle with area $\frac{1}{2} x^2$, which matches the integral result.
+
+The integral $\int f(x) \, dx$ involves replacing $f(x)$ with its actual expression and then applying the rules of integration to find the antiderivative. 
+	The $dx$ indicates the variable with respect to which you are integrating.
 ### What "Integrate" Means
 The $\int$ sign means, we are integrating the function $v(t)$ with respect to time.
 	I.e. Means calculating the accumulated value (like displacement) that results from the continuous sum of the function's values over time.
@@ -420,6 +423,82 @@ Where:
 - a and b are the [[#Limits of Integration|limits of integration]].
 - The definite integral gives a single numerical value, representing the net area under the curve of f(t) from t=a to t=b.
 	- I.e. It represents the accumulated values (sum) of each function output value scaled by a factor of the interval between output values. 
+###### Using Definite Integrals to Understand Integration as Area Under the Curve
+Integration can be thought of as calculating the area under the curve of a function.
+
+Integrating a function over an interval $[a, b]$ gives you the total area under the curve between those two points. 
+	The definite integral provides the accumulated area, considering the height from the function values and the width as the range of integration.
+
+1. **Function and Integral**:
+    - Suppose you have a function $f(x) = 3x^2 + 4x$.
+    - The integral of this function, $\int f(x) , dx$, gives you the antiderivative, which is another function representing the accumulated area under $f(x)$ from a starting point up to $x$.
+2. **Definite Integral**:
+    - If you want to calculate the area under $f(x)$ from $x = a$ to $x = b$, you use the definite integral:
+$$\LARGE \int_a^b f(x) \, dx$$
+
+- This integral gives you the exact area between the curve $y = f(x)$, the x-axis, and the vertical lines $x = a$ and $x = b$.
+
+3. **Calculating the Definite Integral**:
+    - First, find the indefinite integral (antiderivative) of $f(x)$:
+$$\LARGE \int (3x^2 + 4x) \, dx = x^3 + 2x^2 + C$$
+
+- To find the definite integral, evaluate this antiderivative at the upper and lower bounds and subtract:
+$$\LARGE \left[ x^3 + 2x^2 \right]_a^b = \left( b^3 + 2b^2 \right) - \left( a^3 + 2a^2 \right)$$
+###### Example
+Let's say you want to find the area under $f(x) = 3x^2 + 4x$ from $x = 1$ to $x = 3$:
+
+1. **Indefinite Integral**:
+$$\LARGE \int (3x^2 + 4x) \, dx = x^3 + 2x^2 + C$$
+
+2. **Evaluate at the Bounds**:
+$$\LARGE \left[ x^3 + 2x^2 \right]_1^3 = \left( 3^3 + 2 \cdot 3^2 \right) - \left( 1^3 + 2 \cdot 1^2 \right)$$
+$$\LARGE = \left( 27 + 18 \right) - \left( 1 + 2 \right)$$
+$$\LARGE = 45 - 34$$
+$$\LARGE = 42$$
+So, the area under the curve $f(x) = 3x^2 + 4x$ from $x = 1$ to $x = 3$ is 42 square units.
+###### Conceptual Interpretation
+**Height**: When you plug in a value of $x$ into the original function $f(x)$, the output is the "height" of the curve at that point.
+
+**Width**: The "width" corresponds to the infinitesimally small interval $dx$.
+	When integrating, you sum up these infinitesimally small areas (height $\times$ width) over the range from $a$ to $b$.
+###### Solving Definite Integrals
+By following these steps, you can accurately calculate the area under the curve of a function over a specified interval.
+1. **Identify the function and the interval**:
+    - You need the function $f(x)$ you are integrating and the interval $[a, b]$ over which you are integrating.
+2. **Find the indefinite integral (antiderivative)**:
+    - Calculate the indefinite integral (antiderivative) of the function $f(x)$. This gives you a new function $F(x)$ plus a constant $C$.
+	$$\int f(x) \, dx = F(x) + C$$
+1. **Evaluate the antiderivative at the bounds**:
+    - Compute the value of the antiderivative at the upper bound $b$ and the lower bound $a$.
+    $$F(b) \quad \text{and} \quad F(a)$$
+4. **Subtract the values**:
+    
+    - The value of the definite integral is found by subtracting the value of the antiderivative at the lower bound from the value at the upper bound.
+    $$\int_a^b f(x) \, dx = F(b) - F(a)$$
+###### Example
+**Problem**: Find the area under the curve $f(x) = 3x^2 + 4x$ from $x = 1$ to $x = 3$.
+1. **Function and Interval**:
+    - Function: $f(x) = 3x^2 + 4x$
+    - Interval: $[1, 3]$
+2. **Find the Indefinite Integral**:
+$$\LARGE \int (3x^2 + 4x) \, dx$$
+
+- Integrate each term separately:
+$$\LARGE \int 3x^2 \, dx = 3 \left( \frac{x^3}{3} \right) = x^3$$
+$$\LARGE \int 4x \, dx = 4 \left( \frac{x^2}{2} \right) = 2x^2$$
+
+- Combine the results:
+$$\LARGE \int (3x^2 + 4x) \, dx = x^3 + 2x^2 + C$$
+
+3. **Evaluate the Antiderivative at the Bounds**:
+    - Upper bound $x = 3$:
+$$\LARGE F(3) = 3^3 + 2 \cdot 3^2 = 27 + 18 = 45$$
+
+	- Lower bound $x = 1$:
+$$\LARGE F(1) = 1^3 + 2 \cdot 1^2 = 1 + 2 = 3$$
+
+4. **Subtract the Values**:
+$$\LARGE \int_1^3 (3x^2 + 4x) \, dx = F(3) - F(1) = 45 - 3 = 42$$
 ###### Example 1: Indefinite Integral
 
 Find the indefinite integral of 2t.
@@ -465,6 +544,7 @@ That function F is differentiable on $(a,b)$, and $F′(t)=f(t)$.
 
 - **Interpretation**: This part tells us that if f is continuous on [𝑎,𝑏][a,b], then the function F defined by the integral of f from a to t is differentiable, and its derivative is f.
 - **Implication**: It guarantees that continuous functions have antiderivatives, establishing the foundation for solving differential equations and understanding the accumulation of quantities.
+
 ## Power Rule for Integration
 One of the fundamental techniques for finding the antiderivative (or integral) of a power function. 
 	It is essentially the reverse process of the power rule for differentiation.
