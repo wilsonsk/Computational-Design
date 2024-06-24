@@ -15,6 +15,26 @@ date created: 2024-04-10
 # Limits
 ## Limit i.e. *limes*
 *See [[Linear Motion#Average Velocity|Linear Motion]] for more specific application of Limits.* 
+### Limit at a Specific Point
+They represent the rate of change of a function at a specific point. 
+	Average Rate of Change (i.e. Slope of the Secant Line).
+	Instantaneous Rate of Change (i.e. Slope of the Tangent Line).
+
+The derivative of a function $f(x)$ at a specific point $x = a$ is defined using the limit: 
+$\LARGE $f'(a) = \lim_{{h \to 0}} \frac{f(a+h) - f(a)}{h}$$​
+
+This expression represents the instantaneous rate of change of the function at the specific point $x = a$. 
+	It tells us the slope of the tangent line to the function at that point.
+### Vs. [[Derivatives#Derivative as a Function|Derivative as a Function]]
+The derivative function $f'(x)$ represents the rate of change of $f(x)$ at any point $x$ in its domain. 
+	It is defined using the same limit process, but we do not fix $x$ at a specific value. 
+		Instead, we keep $x$ as a variable.
+		
+The derivative function $f'(x)$ represents the rate of change of $f(x)$ at any point $x$ in its domain. 
+	It is defined using the same limit process, but we do not fix $x$ at a specific value. 
+		Instead, we keep $x$ as a variable.
+$$\LARGE f'(x) = \lim_{{h \to 0}} \frac{f(x+h) - f(x)}{h}$$
+This derivative function provides a formula that can be used to find the slope of the tangent line to the function at any point in its domain.
 ### The Limit of a function, $f(x)$ is  $lim_{x→a​}f(x)$
 A limit describes the behavior of a function as its input value (i.e. argument) approaches a particular point, or as it goes to infinity. 
 Meaning the boundary or threshold.

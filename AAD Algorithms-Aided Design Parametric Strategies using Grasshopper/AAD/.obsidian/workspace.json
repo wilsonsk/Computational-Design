@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "ef139f12d4a377f3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Integrals.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Integrals.md",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Partial Derivatives.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -116,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Integrals.md",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Partial Derivatives.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -139,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Integrals.md"
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Partial Derivatives.md"
               }
             }
           },
@@ -173,44 +160,44 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "ef139f12d4a377f3",
+  "active": "e9f523721294dd5b",
   "lastOpenFiles": [
+    "Pasted image 20240624080120.png",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Limits.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Partial Derivatives.md",
-    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Moment.md",
-    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Circular Motion.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Integrals.md",
+    "images/Pasted image 20240623222925.png",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
+    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Moment.md",
+    "images/Pasted image 20240623221622.png",
+    "images/Pasted image 20240623214918.png",
+    "images/Pasted image 20240623214613.png",
+    "images/Pasted image 20240621130534.png",
+    "2024-06-21.md",
+    "Untitled.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Integrals.md",
+    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Circular Motion.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Circular Motion Examples.md",
-    "Pasted image 20240622215437.png",
+    "images/Pasted image 20240622215437.png",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Non-Linear Motion Exercises.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Non-Linear Motion.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Components of Motion.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Uniform Acceleration.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Uniform Circular Motion.md",
     "Surfaces/Notion of Surface Curvature.md",
-    "Pasted image 20240622075043.png",
-    "Pasted image 20240621143549.png",
-    "2024-06-21.md",
+    "images/Pasted image 20240622075043.png",
+    "images/Pasted image 20240621143549.png",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Kinematics Analysis.md",
-    "Untitled.md",
-    "Pasted image 20240621130609.png",
-    "Pasted image 20240621130543.png",
-    "Pasted image 20240621130534.png",
-    "images/Pasted image 20240621070256.png",
-    "images/Pasted image 20240620213148.png",
+    "images/Pasted image 20240621130609.png",
+    "images/Pasted image 20240621130543.png",
     "Data/Abstract Mathematical Spaces/Physics/Forces are Probability.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/There is Only Addition.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Division.md",
-    "images/Pasted image 20240619112640.png",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Proportion.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Scaling.md",
-    "images/Pasted image 20240619220632.png",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Newton's Second Law.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Limits.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Slope.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Secant Line.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Linear Functions.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Tangent Line.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra",
     "Data/Abstract Mathematical Spaces/Physics/Basic Concepts/Untitled",
     "Data/Abstract Mathematical Spaces/Physics/Basic Concepts",
