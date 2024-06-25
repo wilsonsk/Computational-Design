@@ -13,6 +13,8 @@ date created: 2024-04-10
 ---
 # Derivatives
 ### Derivative as a Function
+The primary difference between finding the [[Limits#Limit as a Derivative at a Specific Point|derivative at a specific point]] and finding the general derivative function lies in whether or not you plug in a specific value for the variable.
+
 When represented as functions, describe the rate of change of a function at any point in its domain. 
 	This is known as the derivative function or simply the derivative of the function.
 		This derivative function provides a formula that can be used to find the slope of the tangent line to the function at any point in its domain.
@@ -48,14 +50,27 @@ The derivative can be notated in various ways, including:
 ## Differentiation
 **Differential** refers to an infinitesimally small change in a function's variable and its corresponding change in the function's value.
 	It is used in various contexts, including differentials in calculus and differential equations.
-
-The differential $dy$ is defined in terms of the derivative $f′(x)$ and the differential $dx$:
-
-$$\LARGE dy = f'(x) \, dx$$
-
+### Differential
 The term "differential" comes from the concept of differences.
 	Differentiation refers to the changes or differences in output values of a function as the input changes. 
 
+The differential $dy$ is defined in terms of the derivative $f′(x)$ and the differential $dx$:
+$$\LARGE dy = f'(x) \, dx$$
+##### Differentials in a Limit 
+As $h$ approaches zero, this ratio becomes $\frac{dy}{dx}$, representing the instantaneous rate of change.
+$$\LARGE f'(x) = \lim_{h \to 0} = \frac{f(x+h) - f(x)}{h}$$
+###### Numerator ($f(x+h) - f(x)$):
+This represents the change in the dependent variable (output of the function) over the interval $h$.
+	It shows how much the function's output changes as the input changes by $h$.
+
+The numerator $f(x+h) - f(x)$ is equivalent to/becomes the differential $dy$.
+	In differential terms, as $h$ approaches zero, this change is represented by $dy$ (the differential of the dependent variable).
+###### Denominator ($h$):
+This represents the change in the independent variable over the interval $h$.
+	Which is the interval over which we are measuring the change in the function's value.
+
+The denominator $h$ is equivalent to/becomes the differential $dx$.
+	In differential terms, as $h$ approaches zero, this change is represented by $dx$ (the differential of the independent variable).
 #### Derivative as a Ratio of Differentials
 The derivative $f′(x)$ can be interpreted as the ratio of the differential of the function $dy$ to the differential of the variable $dx$:
     $$\LARGE f'(x) = \frac{dy}{dx} \quad \text{and} \quad dy = f'(x) \, dx$$
@@ -66,8 +81,19 @@ This relationship shows that the derivative is the ratio of the differential cha
 Differentials are used to linearly approximate changes in the function.
 	For a small change $dx$ in the input, the corresponding change in the output $dy$ can be approximated using the derivative:
 	$$dy≈f′(x)dx$$
-### Difference Quotient
+### Difference Quotient I.e. The (Average/Instantaneous) Rate of Change
 ##### Difference Quotient (i.e. Ratio of Differentials) aka the Derivative
+The ratio $\frac{f(x+h) - f(x)}{h}$ represents the average rate of change.
+	The difference quotient or ratio $\frac{f(x+h) - f(x)}{h}$ is indeed interpreted as a "[[Slope|slope]]".
+		Here, $f(x+h) - f(x)$ represents the vertical change (rise), and $h$ represents the horizontal change (run).
+		
+The difference quotient $\frac{f(x+h) - f(x)}{h}$ gives the slope of the secant line between the points $(x, f(x))$ and $(x+h, f(x+h))$ on the curve of the function $f(x)$.
+	This secant line approximates the behavior of the function over the interval $[x, x+h]$.
+
+As $h$ approaches zero, the secant line approaches the tangent line to the curve at the point $x$.
+	The slope of this tangent line is the derivative of the function at that point, $f'(x)$.
+		I.e. As $h$ approaches zero, this average slope becomes the instantaneous slope, which is the derivative $f'(x)$.
+
 The differentiation of function values is represented/expressed in the fact that the derivative is defined as the **limit of the difference quotient**. 
 	This quotient is a [[Division#Ratio|ratio]] - i.e. a rate of change.
 		This ratio is called the **derivative**.
@@ -81,7 +107,7 @@ Aka the [[Slope|Slope]] of the [[Secant Line|Secant Line]]. $$\LARGE {f(x+h)−f
 ##### Difference
 The numerator $f(x+h)−f(x)$ represents the [[Kinematics Analysis#Displacement (Δx,Δy,Δz)|displacement]] or the change in the function's output value as the input changes from $x$ to $x+h$.
 ##### Quotient
-Dividing by $h$ (i.e. the interval between input changes) scales this change by the size of the increment $h$, giving the average rate of change over the interval from $x$ to $x+h$.
+Dividing by $h$ (i.e. the interval between input changes) scales (i.e. [[Division#Contracting|contracts]]) this change by the size of the increment $h$, giving the average rate of change over the interval from $x$ to $x+h$.
 ##### Geometric Interpretation
 Geometrically, the difference quotient $\LARGE {f(x+h)−f(x)​ \over h}$ represents the slope of the secant line that passes through the points $(x,f(x))$ and $(x+h,f(x+h))$ on the graph of the function.
 	As $h$ approaches zero, this secant line approaches the tangent line to the curve at the point $(x,f(x))$.
@@ -99,7 +125,6 @@ The differential $dy$ provides a linear approximation to the change in $y$ for a
 ##### Differential Equations
 **Differential equations** are equations that involve the differentials of functions.
 	They express relationships between functions and their rates of change.
-
 ##### Ordinary Differential Equations (ODEs)
 Involve functions of a single variable and their derivatives. For example:
     $$\frac{dy}{dx} = ky$$
@@ -109,6 +134,46 @@ This is a first-order differential equation.
 Involve partial derivatives of functions of multiple variables. For example:
     $$\frac{\partial u}{\partial t} = \alpha \frac{\partial^2 u}{\partial x^2}$$
 This is the heat equation, a second-order PDE.
+### Differentials and Derivatives
+**Differentials** provide a way to approximate changes in functions.
+
+For a function $y = f(x)$, the differential $dy$ represents the change in $y$ for a small change in $x$, denoted by $dx$, which is also a differential.
+
+The relationship between differentials and the derivative is:
+$$\LARGE dy=f′(x) dx$$
+This shows that the differential $dy$ is the product of the derivative $f′(x)$ and the differential $dx$.
+### Differentiability
+#### Differentiable Function
+A **differentiable function** is a function that has a derivative at every point in its domain.
+	In other words, a function $f(x)$ is differentiable at a point $x = a$ if the derivative $f'(a)$ exists. 
+		More generally, a function is differentiable on an interval if it has a derivative at every point in that interval.
+
+When we say that a function is "differentiable," it means that the function has a derivative.
+	In other words, at each point in its domain, the function has a well-defined rate of change.
+
+**In calculus**, it refers a **curve** that has, at a **point** in a **function**, a **derivative** **existing**. 
+###### Key Characteristics of a Differentiable Function
+1. **Continuity**:
+    - A differentiable function must be continuous. This means that the function does not have any jumps, breaks, or holes. If $f(x)$ is differentiable at $x = a$, then it must be continuous at $x = a$.
+    - Formally: If $f$ is differentiable at $x = a$, then $\lim_{{x \to a}} f(x) = f(a)$.
+2. **Existence of the Derivative**:
+    - A function $f$ is differentiable at $x = a$ if the limit that defines the derivative exists:
+    $$\LARGE f'(a) = \lim_{{h \to 0}} \frac{f(a+h) - f(a)}{h}$$​
+3. **Smoothness**:
+    - Differentiable functions are "smooth" in the sense that they do not have any sharp corners or cusps. The graph of a differentiable function has a well-defined tangent line at every point in its domain.
+###### As Differentiability relates to [[Limits#Limits Define Continuity or Discontinuities Discontinuity|Continuity]]:
+**For a function to be differentiable at a point**, it **must** be **continuous at that point**, and the **derivative** at that point must also exist.
+	Solutions to differential equations are often smooth and continuous (i.e. differentiable).
+		This is because most physical process **behave** as though they are continuous (i.e. smooth) over time and space.
+			Making differentiable functions suitable models for such processes.
+			
+For a curve (i.e. function) to be differentiable **everywhere** it must be smooth without any [[Discontinuities|discontinuities]] for the entirety of its length. 
+	And would therefore, have tangent vectors for every point on its curve.
+	
+**In computational geometry**, it refers to the curve being smooth enough at a point that you can define a tangent line at every point along the curve. 
+	**I.e. A curve is differentiable if it has a derivative at every point along the curve.**
+		In which case it would be smooth enough that a tangent vector could be defined at every point along the curve.
+			A curve that is not differentiable at a point might have a discontinuity (like a cusp) there instead.
 ### Conditions for Differentiability
 ##### [[Continuities|Continuity]]
 A function $f(x)$ must be continuous at the point $x=a$. 
@@ -186,27 +251,8 @@ The **[[Limits|limit]]** is the **means** of **transitioning** between the **ave
 	- If $P_1$ and $P_2$ are very "close" together distance wise:
 		- $T_1$ and $T_2$ will be almost equal.
 			- Therefore, $V$ will be almost **perpendicular** (i.e. normal, orthogonal) to both $T_1$ and $T_2$.
-## Differentiability:
-**In calculus**, it refers a **curve** that has, at a **point** in a **function**, a **derivative** **existing**. 
-- **As Differentiability relates to [[Limits#Limits Define Continuity or Discontinuities Discontinuity|Continuity]]:**
-	- **For a function to be differentiable at a point**, it **must** be **continuous at that point**, and the **derivative** at that point must also exist.
-		- Solutions to differential equations are often smooth and continuous (i.e. differentiable).
-			- This is because most physical process **behave** as though they are continuous (i.e. smooth) over time and space.
-				- Making differentiable functions suitable models for such processes.
-	- For a curve (i.e. function) to be differentiable **everywhere** it must be smooth without any [[Discontinuities|discontinuities]] for the entirety of its length. 
-		- And would therefore, have tangent vectors for every point on its curve.
-- **In computational geometry**, it refers to the curve being smooth enough at a point that you can define a tangent line at every point along the curve. 
-	- **I.e. A curve is differentiable if it has a derivative at every point along the curve.**
-		- In which case it would be smooth enough that a tangent vector could be defined at every point along the curve.
-	- A curve that is not differentiable at a point might have a discontinuity (like a cusp) there instead.
-## Differentials and Derivatives
-**Differentials** provide a way to approximate changes in functions.
 
-For a function $y = f(x)$, the differential $dy$ represents the change in $y$ for a small change in $x$, denoted by $dx$, which is also a differential.
 
-The relationship between differentials and the derivative is:
-$$\LARGE dy=f′(x) dx$$
-This shows that the differential $dy$ is the product of the derivative $f′(x)$ and the differential $dx$.
 ## Why [[Discontinuities|Discontinuities]] (i.e. disruptions in smoothness) Prevent the Existence of a Derivative
 Discontinuities prevent the existence of derivatives because the derivative is defined as the limit of the slope of secant lines as the points used to create them get infinitely close. 
 - This definition **presupposes** that the **function is continuous** at the point where the derivative is being calculated.
@@ -264,13 +310,7 @@ If $f(x) = x^n$, where $n$ is a constant, then the derivative of $f$ with respec
 ###### Example
 $\LARGE \frac{d}{dx} x^5 = 5x^4$ 
 #### [[#Derivative of a Constant is Zero]]
-If $f(x) = c$, where $c$ is a constant, then the derivative of $f$ with respect to $x$ is zero:
-#### $\LARGE \frac{d}{dx} c = 0$
 
-###### Think about this...
-If say the velocity is constant, then the rate of change of velocity - that is acceleration, is zero.
-	Because velocity is constant and thus does not have a rate of change, because it does not change.
-		And therefore, the derivative of velocity, that is, acceleration (i.e. the rate of change of velocity), does not exist.
 #### Constant Multiple Rule
 If $f(x) = c \cdot g(x)$, where $c$ is a constant and $g(x)$ is a differentiable function, then the derivative of $f$ with respect to $x$ is:
 #### $\LARGE \frac{d}{dx} \left( c \cdot g(x) \right) = c \cdot \frac{d}{dx} g(x)$
@@ -300,8 +340,19 @@ If $f(x) = \frac{g(x)}{h(x)}$, where $g(x)$ and $h(x)$ are differentiable functi
 #### $\LARGE \frac{d}{dx} \left( \frac{x^2}{\sin(x)} \right) = \frac{\sin(x) \cdot 2x - x^2 \cdot \cos(x)}{(\sin(x))^2}$
 
 #### Chain Rule
-If $f(x) = g(h(x))$, where $g$ is a differentiable function of $h(x)$ and $h(x)$ is a differentiable function of $x$, then the derivative of $f$ with respect to $x$ is:
-#### $\LARGE \frac{d}{dx} g(h(x)) = g'(h(x)) \cdot h'(x)$
+The chain rule is a formula for computing the derivative of the composition of two or more functions.
+	If you have a function $f(x)$ that is composed of two functions $g$ and $h$, such that:
+	$$\LARGE f(x) = g(h(x))$$
+where:
+###### $g$ is a [[#Differentiable Function|Differentiable Function]] of $h(x)$
+This means that $g$ is a function that can be differentiated with respect to its argument, which is $h(x)$.
+	In other words, if you treat the output value of $h(x)$ as a single variable, the function $g$ has a well-defined derivative at every point where $h(x)$ is defined.
+###### $h(x)$ is a Differentiable Function of $x$
+This means that $h$ is a function of $x$ that can be differentiated with respect to $x$.
+	In other words, $h$ has a well-defined derivative at every point in its domain.
+
+If $f(x) = g(h(x))$, where $g$ is a [[#Differentiable Function|differentiable function]] of $h(x)$ and $h(x)$ is a differentiable function of $x$, then the derivative of $f$ with respect to $x$ is:
+$$\LARGE \frac{d}{dx} g(h(x)) = g'(h(x)) \cdot h'(x)$$
 
 ###### Example
 #### $\LARGE \frac{d}{dx} \sin(x^2) = \cos(x^2) \cdot 2x = 2x \cos(x^2)$
@@ -335,8 +386,19 @@ To find the derivative x′(t), we'll differentiate x(t) with respect to t.
 Finding the derivative x′(t) of a position function x(t) produces a new function that describes the instantaneous velocity at any given time t.
 	This new function captures the dynamic nature of the motion and allows for deeper analysis of how the object's position changes over time.
 ## Derivatives of a Constant
-When you differentiate a function, any constant term disappears because the derivative of a constant is zero. 
-	This is a fundamental rule in calculus. Here's why:
+When you differentiate a function, any constant term disappears because the derivative of a constant (i.e. constant function) is zero. 
+
+A **constant function** is a function that always returns the same value, **regardless of the input**.
+	It does not depend on any variable and is represented mathematically as:
+	$$\LARGE f(x)=C, \text{where C is a constant}$$
+Here, $C$ is a fixed value and does not change with $x$.
+
+If $f(x) = c$, where $c$ is a constant, then the derivative of $f$ with respect to $x$ is zero:
+$$\LARGE \frac{d}{dx} c = 0$$
+###### Think about this...
+If say the velocity is constant, then the rate of change of velocity - that is acceleration, is zero.
+	Because velocity is constant and thus does not have a rate of change, because it does not change.
+		And therefore, the derivative of velocity, that is, acceleration (i.e. the rate of change of velocity), does not exist.
 ### Derivative of a Constant is Zero
 1. **Definition of the Derivative**:
     - The derivative of a function measures how the function's value changes as its input changes.

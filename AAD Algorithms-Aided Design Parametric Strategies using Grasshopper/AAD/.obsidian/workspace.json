@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8142d7e41b12118c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/How Limits Equal Derivatives.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Partial Derivatives.md",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/How Limits Equal Derivatives.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Partial Derivatives.md",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/How Limits Equal Derivatives.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Partial Derivatives.md"
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/How Limits Equal Derivatives.md"
               }
             }
           },
@@ -160,13 +173,15 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "e9f523721294dd5b",
+  "active": "8142d7e41b12118c",
   "lastOpenFiles": [
-    "Pasted image 20240624080120.png",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Limits.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Partial Derivatives.md",
-    "images/Pasted image 20240623222925.png",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/How Limits Equal Derivatives.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Partial Derivatives.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Limits.md",
+    "Pasted image 20240624140108.png",
+    "Pasted image 20240624080120.png",
+    "images/Pasted image 20240623222925.png",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Moment.md",
     "images/Pasted image 20240623221622.png",
     "images/Pasted image 20240623214918.png",
@@ -187,8 +202,6 @@
     "images/Pasted image 20240622075043.png",
     "images/Pasted image 20240621143549.png",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Kinematics Analysis.md",
-    "images/Pasted image 20240621130609.png",
-    "images/Pasted image 20240621130543.png",
     "Data/Abstract Mathematical Spaces/Physics/Forces are Probability.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/There is Only Addition.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Division.md",
