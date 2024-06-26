@@ -1,4 +1,4 @@
-# A Map of Change as Rates to Limits to Differentials to Derivatives
+# A Map of Change as Rates to Limits of those Rates to Differentials to Derivatives
 
 ---
 ## The Concept of Change
@@ -94,9 +94,6 @@ The numerator is a [[Derivatives#Differential|differential]] of the independent 
 
 - - -
 
-
-
-- - -
 ## Slope of the Secant Line, $m$ as a Scalar
 The slope $m$ can be thought of as a scalar that scales the input variable $x$ to produce the output $y$.
 	Depending on the magnitude and sign of $m$, it either scales up (amplifies) or scales down ([[Division#Contracting|contracts]]) the input $x$.
@@ -113,6 +110,16 @@ This means the output $y$ (or $f(x)$) increases more than the input $x$ when $x$
 $$m = \frac{\Delta y}{\Delta x} < 1$$
 This means the output $y$ (or $f(x)$) increases less than the input $x$ when $x$ changes.
 	In this case, the slope $m$ scales down (i.e. contracts) the input $x$.
+#### Think About It...
+If the change in $y$ is more than the change in $x$, then of course f(x) would be larger relative to the input $x$.
+	And this is expressed as the **scaling** effect of $\LARGE \frac{\Delta y}{\Delta x}\cdot x$, where $\Delta y > \Delta x$ and thus $\frac {\Delta y}{\Delta x} > 1$.
+	
+And if the change in $x$ is more than the change in $y$, then of course f(x) would be smaller relative to the input $x$.
+	And this is expressed as the **scaling** effect of $\LARGE \frac{\Delta y}{\Delta x}\cdot x$, where $\Delta y < \Delta x$ and thus $\frac {\Delta y}{\Delta x} < 1$.
+##### The Scaling Relationship with the Rate of Change is an Intuitive Notion
+This "slope" or "ratio" and its relationship as a scalar to the input $x$ and its output product $y$, is just a way of expressing that if...
+	Change in $y$ is more then change in $x$, then output $y$ will always be larger than input $x$...
+		Or that if a change in $y$ is less then change in $x$, then output $y$ will always be smaller than input $x$...
 
 - - - 
 ## Normalizing the Independent Variable, $\LARGE x$ by $\LARGE \Delta x$
@@ -254,18 +261,4 @@ $$\LARGE y = mx$$
 
 ---
 
-#### Section 6: Summary and Intuitive Understanding
-
-- **Objective**: To consolidate understanding and highlight the intuitive connections between the key concepts.
-
-##### 6.1 Summary
-
-- **Difference Quotient**: Measures the average rate of change (slope of the secant line).
-- **Limit**: Process of making the interval $h$ approach zero.
-- **Derivative**: Instantaneous rate of change (slope of the tangent line).
-- **Differentials**: Infinitesimally small changes in the independent and dependent variables.
-
-##### 6.2 Intuitive Understanding
-
-- **Average vs. Instantaneous Rate of Change**: The difference quotient gives the average rate of change, while the derivative gives the instantaneous rate of change as the interval shrinks to zero.
-- **Geometric Connection**: The transition from secant line to tangent line through the limit process.
+## Partial Derivatives
