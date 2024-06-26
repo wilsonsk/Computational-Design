@@ -25,7 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/How Limits Equal Derivatives.md",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/A Map of Change as Rates to Limits to Differentials to Derivatives.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b932ea7dc486190a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Scaling.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/How Limits Equal Derivatives.md",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/A Map of Change as Rates to Limits to Differentials to Derivatives.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -116,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/How Limits Equal Derivatives.md",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/A Map of Change as Rates to Limits to Differentials to Derivatives.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -139,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/How Limits Equal Derivatives.md"
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/A Map of Change as Rates to Limits to Differentials to Derivatives.md"
               }
             }
           },
@@ -175,14 +187,19 @@
   },
   "active": "8142d7e41b12118c",
   "lastOpenFiles": [
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Secant Line.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/How Limits Equal Derivatives.md",
-    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Components of Motion.md",
+    "images/Pasted image 20240624140108.png",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/A Map of Change as Rates to Limits to Differentials to Derivatives.md",
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Scaling.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Partial Derivatives.md",
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Functions.md",
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Division.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Linear Functions.md",
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/There is Only Addition.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Secant Line.md",
+    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Components of Motion.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Limits.md",
-    "Pasted image 20240624140108.png",
-    "Pasted image 20240624080120.png",
+    "images/Pasted image 20240624080120.png",
     "images/Pasted image 20240623222925.png",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Moment.md",
     "images/Pasted image 20240623221622.png",
@@ -204,13 +221,7 @@
     "images/Pasted image 20240621143549.png",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Kinematics Analysis.md",
     "Data/Abstract Mathematical Spaces/Physics/Forces are Probability.md",
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/There is Only Addition.md",
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Division.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Proportion.md",
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Scaling.md",
-    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Newton's Second Law.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Slope.md",
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Linear Functions.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra",
     "Data/Abstract Mathematical Spaces/Physics/Basic Concepts/Untitled",
     "Data/Abstract Mathematical Spaces/Physics/Basic Concepts",

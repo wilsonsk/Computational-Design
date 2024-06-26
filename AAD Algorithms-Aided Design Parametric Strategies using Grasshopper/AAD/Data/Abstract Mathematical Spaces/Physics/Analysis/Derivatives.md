@@ -98,12 +98,13 @@ The differentiation of function values is represented/expressed in the fact that
 	This quotient is a [[Division#Ratio|ratio]] - i.e. a rate of change.
 		This ratio is called the **derivative**.
 			The derivative (i.e. the ratio of the change in output values to the change in the input values) represents how a small change in the input (independent variable) results in a change in the output (dependent variable).
-					
+
 Refers to the process of finding the derivative of a function.
 
 The ratio of the change in output values to the change in the input values).
 	This ratio is the slope of a linear function.
-Aka the [[Slope|Slope]] of the [[Secant Line|Secant Line]]. $$\LARGE {f(x+h)−f(x)​ \over h}$$
+Aka the [[Slope|Slope]] of the [[Secant Line|Secant Line]]. 
+$$\LARGE {f(x+h)−f(x)​ \over h}$$
 ##### Difference
 The numerator $f(x+h)−f(x)$ represents the [[Kinematics Analysis#Displacement (Δx,Δy,Δz)|displacement]] or the change in the function's output value as the input changes from $x$ to $x+h$.
 ##### Quotient

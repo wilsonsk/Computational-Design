@@ -39,10 +39,11 @@ A matrix representing a linear transformation is a contraction matrix if the nor
 ###### Functional analysis
 A contraction mapping on a metric space is a function that brings points closer together by a fixed ratio $k$ less than 1.
 
+- - - 
 ## Contraction by a Scalar
 When we talk about contraction in the context of scaling with a scalar less than 1, we mean that we are effectively reducing the original quantity. 
 	In mathematical terms, scaling a variable $p$ by a factor of $\frac{1}{k}$ (where $k > 1$) results in a smaller quantity.
-#### Understanding $x = p \times \frac{1}{k}$
+### Understanding $x = p \times \frac{1}{k}$
 Given the equation $x = p \times \frac{1}{k}$, you can visualize or understand this as the total force $p$ being split into $k$ equal groups, where each group contains $x$ amount of the original $p$.
 ### Step-by-Step Mental Image
 1. **Total Force $p$:**
@@ -55,6 +56,25 @@ Given the equation $x = p \times \frac{1}{k}$, you can visualize or understand t
 	- Mathematically, $x = p \times \frac{1}{k}$ shows that $x$ is the portion of $p$ contained in each of the $k$ parts.
     - Each group contains an amount of deflection $x$.
     - The total deflection $x$ is the portion of $p$ that each group contributes.
+### Abstract Idea
+You have $\LARGE p$ amount of $\LARGE \frac{1}{k}$.
+	I.e. You have "one" $\LARGE \frac{1}{k}$ for every $\LARGE p$.
+### Contraction as Area
+That is a Scalar as a Dimension.
+$$\LARGE Area = \text{Width} \cdot \text{Height}$$
+This way we can conceptualize a scalar as one of the dimensions.
+	And then we can conceive that the constant being scaled is another dimension.
+
+$$\LARGE \text{scalar,} \space k = \frac{1}{n} = \text{"height"}$$
+Let's make $k$ the $height$.
+$$\LARGE \text{constant}, p = m = \text{"width"}$$
+#### How this Area "Shrinks"
+Prior to being contracted, $p$ had an area of 
+$$\LARGE 1 \space \text{height}\cdot p\space \text{width}$$
+After contraction, the new area is 
+$$\LARGE \frac{1}{n} \space \text{height} \cdot p \space \text{width}$$
+So one dimension (in this case, height) has been reduced and therefore, so has the entire area.
+
 #### Mathematical Interpretation
 The equation $x = p \times \frac{1}{k}$ can be rewritten as:
 $$\LARGE x = \frac{p}{k}$$
