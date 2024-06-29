@@ -94,6 +94,11 @@ The numerator is a [[Derivatives#Differential|differential]] of the independent 
 
 - - -
 
+## [[Division#A Ratio as a Scalar|What it Means to Scale a Constant by a Rate]]
+
+
+- - - 
+
 ## Slope of the Secant Line, $m$ as a Scalar
 The slope $m$ can be thought of as a scalar that scales the input variable $x$ to produce the output $y$.
 	Depending on the magnitude and sign of $m$, it either scales up (amplifies) or scales down ([[Division#Contracting|contracts]]) the input $x$.
@@ -105,21 +110,28 @@ $$\LARGE y = \frac{\Delta y}{\Delta x} \cdot x$$
 $$m = \frac{\Delta y}{\Delta x} > 1$$
 This means the output $y$ (or $f(x)$) increases more than the input $x$ when $x$ changes.
 	In this case, the slope $m$ scales up the input $x$.
+
+The notion is that the change in $x$ is a fraction of the change in $y$.
 ### If $|\Delta y| > |\Delta x|$, Then $f(x) < x$
 ###### When the Change in $y$ is Less than the Change in $x$
 $$m = \frac{\Delta y}{\Delta x} < 1$$
 This means the output $y$ (or $f(x)$) increases less than the input $x$ when $x$ changes.
 	In this case, the slope $m$ scales down (i.e. contracts) the input $x$.
+
+The notion is that the change in $y$ is a fraction of the change in $x$.
+## Why Scale the Rate with the Input Variable, $\LARGE x$?
+What does this scalar relationship express or represent?
+#### An Intuitive Notion: Scaling Relationship the Rate of Change with the Input Value, and its Effect on the Output Value 
+$$y = \frac{\Delta y}{\Delta x} \cdot x$$
+This "slope" or "ratio" and its relationship as a scalar to the input $x$ and its output product $y$, is just a way of expressing that if...
+	Change in $y$ is more then change in $x$, then output $y$ will always be larger than input $x$.
+		Or that if a change in $y$ is less then change in $x$, then output $y$ will always be smaller than input $x$.
 #### Think About It...
 If the change in $y$ is more than the change in $x$, then of course f(x) would be larger relative to the input $x$.
 	And this is expressed as the **scaling** effect of $\LARGE \frac{\Delta y}{\Delta x}\cdot x$, where $\Delta y > \Delta x$ and thus $\frac {\Delta y}{\Delta x} > 1$.
 	
 And if the change in $x$ is more than the change in $y$, then of course f(x) would be smaller relative to the input $x$.
 	And this is expressed as the **scaling** effect of $\LARGE \frac{\Delta y}{\Delta x}\cdot x$, where $\Delta y < \Delta x$ and thus $\frac {\Delta y}{\Delta x} < 1$.
-##### The Scaling Relationship with the Rate of Change is an Intuitive Notion
-This "slope" or "ratio" and its relationship as a scalar to the input $x$ and its output product $y$, is just a way of expressing that if...
-	Change in $y$ is more then change in $x$, then output $y$ will always be larger than input $x$...
-		Or that if a change in $y$ is less then change in $x$, then output $y$ will always be smaller than input $x$...
 
 - - - 
 ## Normalizing the Independent Variable, $\LARGE x$ by $\LARGE \Delta x$
@@ -200,12 +212,12 @@ Where $f′(x)$ is the derivative of $f(x)$ with respect to $x$ (i.e. as $x$ cha
 
 ---
 
-### The *Limit* of the Difference Quotient (i.e. the Derivative)
+## The *Limit* of the Difference Quotient as the Differential Ratio (i.e. the Derivative)
 ### [[Limits|Limits]]
 A limit examines the behavior of a function as the input approaches a certain value.
 
 $$\LARGE \lim_{h \to 0} f(x+h)$$
-### Limit of the Difference Quotient is the [[Derivatives|Derivative]]
+### Limit of the Difference Quotient is the Differential Ratio aka the [[Derivatives|Derivative]]
 $$\LARGE f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$$
 Where $h$ is a small increment in $x$.​
 
@@ -226,38 +238,8 @@ $$\LARGE y = mx$$
 
 ---
 
-#### Section 4: The Derivative
+## [[Derivatives]]
 
-- **Objective**: To understand the derivative as the limit of the difference quotient and its geometric and practical significance.
-
-##### 4.1 Definition and Notation
-
-- **Derivative**: The instantaneous rate of change of a function at a point.
-- **Formula**: f′(x)=lim⁡h→0f(x+h)−f(x)hf'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}f′(x)=h→0lim​hf(x+h)−f(x)​
-
-##### 4.2 Geometric Interpretation
-
-- **Tangent Line**: The line that just touches the curve at a point and has the same slope as the curve at that point.
-- **Slope of the Tangent Line**: The derivative $f'(x)$ represents the slope of the tangent line to the curve at $x$.
-
----
-
-#### Section 5: Differentials
-
-- **Objective**: To introduce differentials and their relationship to derivatives and the difference quotient.
-
-##### 5.1 Understanding Differentials
-
-- **Differential Notation**:
-    - **$dx$**: Infinitesimally small change in the independent variable.
-    - **$dy$**: Infinitesimally small change in the dependent variable.
-
-##### 5.2 Connecting Differentials to the Difference Quotient
-
-- **As $h$ Approaches Zero**:
-    - **Numerator ($f(x+h) - f(x)$)** becomes $dy$, the differential of the dependent variable.
-    - **Denominator ($h$)** becomes $dx$, the differential of the independent variable.
-- **Derivative in Differential Form**: f′(x)=dydxf'(x) = \frac{dy}{dx}f′(x)=dxdy​
 
 ---
 

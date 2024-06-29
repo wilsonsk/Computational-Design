@@ -6,60 +6,142 @@ date created: 2024-05-31
 ---
 # Division
 Can be thought of as simply the amount of one quantity of a "thing" that is associated with a separate quantity of another "thing".
-	I.e.  A ratio.
+	I.e.  A ratio:
+		A ratio is a mathematical expression that compares two quantities, showing the relative size of one quantity in relation to the other.
 
 Division can be conceptualized as the operation of **distributing or partitioning one quantity by another**, thereby determining how many times the divisor is contained within the dividend.
 
 Consider two quantities, a and b. 
 	The division of a by b, $\LARGE {a\over b}$ seeks to determine the factor by which b must be scaled to obtain a. 
 		This operation answers the question: "How many units of b are there in a?"
-#### Abstract Interpretation
-###### Distribution 
+
+- - -
+## Division as Distribution 
 Division distributes the total quantity a into equal parts of size b. 
 	*For example*, if a represents a collection and b the size of each subset, division tells us how many such subsets can be formed.
-###### Measurement
+
+$$ \text{When we divide } a \text{ by } b \text{, we are scaling } a \text{ down by distributing } a \text{ into } b \text{ equal parts.}$$
+ $$\LARGE \frac{a}{b} \text{ means we split } a \text{ into } b \text{ groups, each containing } \frac{a}{b} \text{units.}$$
+#### Intuitive (Geometric) Notion of Division
+Mathematically, $x = \frac{a}{b}$ shows that $x$ is the portion of $a$ contained in each of the $b$ parts.
+
+$$\LARGE  x = \frac{a}{b}$$
+##### $\LARGE a$
+Picture $a$ as a large block or total quantity.
+##### Dividing into $b$ Groups
+Divide this large block into $b$ smaller, equal groups.
+	Each group represents a fraction of the total $a$.
+##### Contribution Amount $x$
+The quantity $x$ represents the size or amount $a$ in each of these smaller blocks, $b$.
+
+Each group contains an amount of $x$.
+	The total $x$ is the portion of $a$ that each group of $b$ contributes.
+### Distributing a Smaller Number into a Larger Number
+### Distributing a Larger Number into a Smaller Number
+### What $b$ Represents
+You can interpret the ratio $a / b = c$ in such a way that $b$ represents the number of "steps" or "groups" that make up the total amount $a$, where each group has an amount $c$.
+
+1. **Given**: $a / b = c$
+2. This means that if you divide $a$ into $b$ equal parts (or groups), each part will be of size $c$.
+
+Now, if we rearrange the equation, we get: 
+$$\LARGE a = b \times c$$
+
+This implies that the total amount $a$ is composed of $b$ groups, each of size $c$. 
+	I.e. An [[#Contracting an Area|Area]]
+	Therefore, $b$ can indeed be thought of as the number of steps or groups in $a$.
+###### A Step
+A "step" refers to one of the equal subdivisions or units into which the total amount $a$ is divided. 
+###### $b$ as a Step
+**Number of Steps ($b$)**: This is the number of equal parts or divisions that the total amount $a$ is broken into. Each step represents one of these equal parts.
+##### Visual Notion of $b$
+- **Total Length of the Line ($a$)**: Let's assume the total length of the line is $a$ units.
+    
+- **Number of Subdivisions ($b$)**: This is the number of equal parts into which the line is divided.
+    
+- **Length of Each Subdivision ($c$)**: This is the length of each individual subdivision, which can be found by dividing the total length of the line by the number of subdivisions. So, $c = \frac{a}{b}$.
+
+- - -
+
+## Division as a Ratio (i.e. as a [[Data/Abstract Mathematical Spaces/Physics/Basic Concepts/Measurement|Measurement]])
 Division measures the quantity a using the unit b. 
 	If b is a standard unit, division indicates how many times this unit fits into a.
+
+- - - 
+
+## Ratio as a Fraction
+### Fraction
+A fraction represents a part of a whole. 
+	It is a way to describe how many parts of a certain size are needed to make up a whole.
+
+Mathematically, if $0 < b < a$, then $b$ is a proper fraction of $a$, meaning $b$ represents a part of $a$.
+	When $b$ is smaller than $a$, we can consider $b$ as a fraction of $a$.
+
+- - -
+## A Ratio as a Scalar
+When we talk about contraction in the context of scaling with a scalar less than 1, we mean that we are effectively reducing the original quantity. 
+$$\LARGE \text{If } \space b = a$$
+$$\LARGE \text{then } \frac{a}{b} = 1$$
+$$\LARGE \text{If } \space b = 1 \space \text{then } \frac{a}{b} = a$$
+### Contracting to Make a Quantity, or Value, Smaller
+Via contracting some constant as a scalar.
+$$\LARGE \text{If }a < b$$
+$$\LARGE \frac{a}{b} = \text{a fraction (of b) that is } < 1$$
+$$\LARGE \text{So, if } a < b \text{ then } a \text{ is a "part" (i.e. a fraction) of } b$$
+$$\LARGE \text{Meaning b is no longer a whole number, } \frac{b}{b}$$
+$$\LARGE \text{But that b is a fraction of itself,} \frac{a}{b}$$
+$$\LARGE \text{The quantity a is a fraction of b.}$$
+$$\LARGE \text{This means a represents a part of the whole b.}$$
+### [[Scaling|Scaling]] to Make a Quantity, or Value, Larger
+$$\LARGE \text{If }a > b$$
+$$\LARGE \frac{a}{b} > 1$$
+$$\LARGE \text{Therefore, } \frac{a}{b} \text{ becomes a Scalar}$$
+$$\LARGE \text{So, if } a > b \text{ then } b \text{ is a "part" (i.e. a fraction) of } a$$
+$$ \text{I.e. a can be divided into parts of size b, but the number of parts may not be a whole number if a is not an exact multiple of b.}$$
+##### Think About It...
+If $b$ is smaller than $1$, it itself becomes a fraction.
+	The ratio becomes, "how many of these small "pieces" can fit evenly into this larger number?"
+$$\LARGE \frac{10}{0.1} = 100$$
+$$\LARGE \text{This Ratio asks, "how many } 0.1 \text{'s (i.e. } \frac{1}{10}'s) \text{ fit evenly into 10?}$$
+$$\LARGE \text{And the Answer is that 100, 0.1's can fit into 10.}$$
+$$\LARGE \frac{0.1}{10} = 0.01$$
+$$\LARGE \text{This Ratio asks, "how many } 10 \text{'s (i.e. } \frac{10}{1}'s) \text{ fit evenly into 0.1?}$$
+$$\LARGE \text{And the Answer is that only a fraction of 10 (i.e. 0.01) can fit into 0.1.}$$
+This is why dividing by a fraction is actually
+$$\LARGE \frac{a}{(\frac{1}{b})} == a \cdot \frac{b}{1}$$
+$$\LARGE \text{Therefore, }\frac{1}{b} \text{ in functioning as } \frac{b}{1} \text{, itself becomes a Scalar}$$
+
+- - - 
 ## Contracting
+### Contraction as a [[Euclidean Transformations|Euclidean Transformation]]
+If you scale a figure by a factor $k$ where $0 \leq k < 1$, every point of the figure is moved closer to a fixed point (usually the origin), and the entire figure is reduced in size.
+	This is a contraction.
+
 A transformation $T$ is called a **contracting transformation** (or simply a **contraction**) if there exists a constant $k$ with $\LARGE 0≤k<1$ such that for all points $x$ and $y$ in the space, the distance between $T(x)$ and $T(y)$ is strictly less than the distance between $x$ and $y$, scaled by $k$. 
 ###### Mathematically, this can be expressed as:
-	$$\LARGE d(T(x),T(y))≤k⋅d(x,y)$$
-		Where $d(\cdot, \cdot)$ represents the distance metric in the space.
+$$\LARGE d(T(x),T(y))≤k⋅d(x,y)$$
+Where $d(\cdot, \cdot)$ represents the distance metric in the space.
 ###### Transformation $T$
 This is a function that maps points in a space to other points in the same space.
-###### Constant $k$**
+###### Constant $k$
 This is the contraction constant, which must satisfy $0 \leq k < 1$. 
 	The value of $k$ determines the degree of shrinking.
 ###### Distance $d(\cdot, \cdot)$
 This is the metric used to measure the distance between two points in the space.
-###### Euclidean Geometry
-If you scale a figure by a factor $k$ where $0 \leq k < 1$, every point of the figure is moved closer to a fixed point (usually the origin), and the entire figure is reduced in size. This is a contraction.
-###### Linear Algebra
-A matrix representing a linear transformation is a contraction matrix if the norm of the matrix is less than 1.
-###### Functional analysis
-A contraction mapping on a metric space is a function that brings points closer together by a fixed ratio $k$ less than 1.
 
 - - - 
-## Contraction by a Scalar
-When we talk about contraction in the context of scaling with a scalar less than 1, we mean that we are effectively reducing the original quantity. 
-	In mathematical terms, scaling a variable $p$ by a factor of $\frac{1}{k}$ (where $k > 1$) results in a smaller quantity.
-### Understanding $x = p \times \frac{1}{k}$
-Given the equation $x = p \times \frac{1}{k}$, you can visualize or understand this as the total force $p$ being split into $k$ equal groups, where each group contains $x$ amount of the original $p$.
-### Step-by-Step Mental Image
-1. **Total Force $p$:**
-    - Picture the total force $p$ as a large block or total quantity.
-2. **Dividing into $k$ Groups:**
-    - Divide this large block into $k$ smaller, equal groups.
-    - Each group represents a fraction of the total force.
-3. **Deflection Contribution $x$:**
-	- The quantity $x$ represents the size or amount of each of these smaller blocks.
-	- Mathematically, $x = p \times \frac{1}{k}$ shows that $x$ is the portion of $p$ contained in each of the $k$ parts.
-    - Each group contains an amount of deflection $x$.
-    - The total deflection $x$ is the portion of $p$ that each group contributes.
-### Abstract Idea
+
+
+
+
+- - -
+### Contracting an Area
+Where a [[Scaling#Scaling as Area|scalar is a dimension]].
+	A fractional scalar
+
 You have $\LARGE p$ amount of $\LARGE \frac{1}{k}$.
 	I.e. You have "one" $\LARGE \frac{1}{k}$ for every $\LARGE p$.
-### Contraction as Area
+	
 That is a Scalar as a Dimension.
 $$\LARGE Area = \text{Width} \cdot \text{Height}$$
 This way we can conceptualize a scalar as one of the dimensions.
@@ -104,12 +186,26 @@ where:
 - $k$ is the spring constant (a measure of the stiffness of the spring),
 - $x$ is the displacement or deflection of the spring from its equilibrium position.
 ##### Understanding $x = \frac{F}{k}$
+In mathematical terms, scaling a variable $p$ by a factor of $\frac{1}{k}$ (where $k > 1$) results in a smaller quantity.
 Rearranging Hooke's Law to solve for $x$ (the deflection), we get:
 $$x = \frac{F}{k}$$
 In this equation:
 - $F$ represents the total force applied,
 - $k$ represents the spring constant,
 - $x$ represents the resulting deflection of the spring.
+#### Understanding $x = p \times \frac{1}{k}$
+Given the equation $x = p \times \frac{1}{k}$, you can visualize or understand this as the total force $p$ being split into $k$ equal groups, where each group contains $x$ amount of the original $p$.
+#### Intuitive (Geometric) Notion of Division
+1. **Total Force $p$:**
+    - Picture the total force $p$ as a large block or total quantity.
+2. **Dividing into $k$ Groups:**
+    - Divide this large block into $k$ smaller, equal groups.
+    - Each group represents a fraction of the total force.
+3. **Deflection Contribution $x$:**
+	- The quantity $x$ represents the size or amount of each of these smaller blocks.
+	- Mathematically, $x = p \times \frac{1}{k}$ shows that $x$ is the portion of $p$ contained in each of the $k$ parts.
+    - Each group contains an amount of deflection $x$.
+    - The total deflection $x$ is the portion of $p$ that each group contributes.
 ##### Visualizing Contraction
 To understand $x = \frac{F}{k}$ as a form of contraction:
 1. **Total Force $F$:**
@@ -127,14 +223,6 @@ Imagine you have a certain amount of force $F$ (like pushing on a spring) and yo
     - The spring constant $k$ divides this total force into $k$ smaller, equal parts. If $k$ is large (a stiff spring), each part is small, meaning the spring doesn't stretch much. If $k$ is small (a less stiff spring), each part is larger, meaning the spring stretches more.
 3. **Each Part’s Contribution to Deflection $x$:**
     - The deflection $x$ is the amount of stretch that each of these $k$ parts contributes to the total stretch of the spring. Essentially, $x = \frac{F}{k}$ tells you how much each part of the force contributes to the overall deflection.
-#### Abstract Thinking about Division
-To understand division abstractly, think about it in a similar way to multiplication:
-1. **Multiplication:**
-    - When we multiply $a$ by $b$, we are scaling $b$ to have $a$ many instances of $b$. 
-	    - For example, $a \times b$ means we have $a$ groups, each containing $b$ units.
-1. **Division:**
-    - When we divide $a$ by $b$, we are scaling $a$ down by distributing it into $b$ equal parts. 
-	    - For example, $a / b$ means we split $a$ into $b$ groups, each containing $\frac{a}{b}$ units.
 #### Practical Examples
 ###### Number Division
 10/2​=5 indicates that 10 can be divided into 5 parts, each of size 2.

@@ -32,19 +32,43 @@
             }
           },
           {
+            "id": "99943bb26bea3272",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Vectors as Linear Functions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "13576ac5f26d69d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Drawing/Computational and Parametric Thinking While Drawing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "b932ea7dc486190a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Scaling.md",
+                "file": "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Division.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -111,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/A Map of Change as Rates to Limits of those Rates to Differentials to Derivatives.md",
+                "file": "Drawing/Computational and Parametric Thinking While Drawing.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -128,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/A Map of Change as Rates to Limits of those Rates to Differentials to Derivatives.md",
+                "file": "Drawing/Computational and Parametric Thinking While Drawing.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -151,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/A Map of Change as Rates to Limits of those Rates to Differentials to Derivatives.md"
+                "file": "Drawing/Computational and Parametric Thinking While Drawing.md"
               }
             }
           },
@@ -185,15 +209,21 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "8142d7e41b12118c",
+  "active": "13576ac5f26d69d0",
   "lastOpenFiles": [
-    "images/Pasted image 20240624140108.png",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Vectors as Linear Functions.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/A Map of Change as Rates to Limits of those Rates to Differentials to Derivatives.md",
+    "Drawing/Computational and Parametric Thinking While Drawing.md",
+    "Drawing",
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Division.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Scaling.md",
+    "Data/Abstract Mathematical Spaces/Physics/Basic Concepts/Measurement.md",
+    "Transformations/Euclidean Transformations.md",
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Ratio.md",
+    "images/Pasted image 20240624140108.png",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Partial Derivatives.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Functions.md",
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Division.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Linear Functions.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/There is Only Addition.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Secant Line.md",
@@ -207,7 +237,6 @@
     "images/Pasted image 20240623214613.png",
     "images/Pasted image 20240621130534.png",
     "2024-06-21.md",
-    "Untitled.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Integrals.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Circular Motion.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Circular Motion Examples.md",
@@ -219,9 +248,6 @@
     "Surfaces/Notion of Surface Curvature.md",
     "images/Pasted image 20240622075043.png",
     "images/Pasted image 20240621143549.png",
-    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Kinematics Analysis.md",
-    "Data/Abstract Mathematical Spaces/Physics/Forces are Probability.md",
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Proportion.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra",
     "Data/Abstract Mathematical Spaces/Physics/Basic Concepts/Untitled",
     "Data/Abstract Mathematical Spaces/Physics/Basic Concepts",
@@ -229,7 +255,6 @@
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis",
-    "Untitled",
     "Abstract/Morphogenesis",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects"
   ]
