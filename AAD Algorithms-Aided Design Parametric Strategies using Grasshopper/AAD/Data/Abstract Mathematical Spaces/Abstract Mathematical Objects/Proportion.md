@@ -11,6 +11,147 @@ date created: 2024-04-22
 ---
 # Proportion
 ## Is a Relationship (i.e. a Ratio or a Rate) Between Quantities
+
+
+### New Section to be edited:
+The idea that "proportional" always means the equality of two ratios comes from the definition of **direct proportionality** in mathematics. Let’s clarify this concept and see how it connects to the broader understanding of proportional relationships.
+
+- - - 
+### Proportionality and Ratios
+
+**Direct Proportionality:**
+
+- Two quantities xxx and yyy are directly proportional if they change at the same rate, and this relationship can be expressed as: y=kxy = kxy=kx where kkk is a constant of proportionality.
+
+**Equality of Ratios:**
+
+- When two quantities are directly proportional, the ratio of yyy to xxx is constant: yx=k\frac{y}{x} = kxy​=k
+- This constant ratio kkk remains the same for any values of xxx and yyy, meaning: y1x1=y2x2=y3x3=…=k\frac{y_1}{x_1} = \frac{y_2}{x_2} = \frac{y_3}{x_3} = \ldots = kx1​y1​​=x2​y2​​=x3​y3​​=…=k
+
+### Why Proportionality is Often Associated with Equality of Ratios
+
+The equality of ratios is a fundamental way to understand and represent proportional relationships, especially in contexts such as geometry, physics, and algebra.
+
+**Example in Geometry:**
+
+- Similar triangles have sides that are proportional. If triangles ABCABCABC and DEFDEFDEF are similar, then: ABDE=BCEF=CAFD\frac{AB}{DE} = \frac{BC}{EF} = \frac{CA}{FD}DEAB​=EFBC​=FDCA​
+    - This shows that the ratios of corresponding sides are equal, which is a classic example of proportionality.
+
+**Example in Physics:**
+
+- Hooke’s Law for springs states that the force FFF is directly proportional to the displacement xxx: F=kxF = kxF=kx
+    - Here, kkk is the spring constant, and the ratio Fx\frac{F}{x}xF​ remains constant for different forces and displacements.
+
+### Applying Proportional Relationships in Design
+
+When designing objects parametrically, understanding that proportional relationships can be represented by equal ratios helps in maintaining consistency and harmony.
+
+**Example: Table Design with Proportional Relationships**
+
+1. **Parameters:**
+    
+    - Table height (HHH)
+    - Leg thickness (ttt)
+2. **Proportional Relationship:**
+    
+    - Let’s assume ttt is always 110\frac{1}{10}101​ of HHH: t=110Ht = \frac{1}{10}Ht=101​H
+    - This can be seen as tH=110\frac{t}{H} = \frac{1}{10}Ht​=101​, which is a constant ratio.
+
+### Why the Misunderstanding?
+
+The confusion may arise from the fact that proportional relationships and the equality of ratios are closely related concepts, but they are often taught separately in different contexts.
+
+1. **Mathematics Education:**
+    
+    - Proportions are often introduced using the concept of equal ratios (e.g., in solving proportion problems).
+    - Example: If aaa is to bbb as ccc is to ddd, we write: ab=cd\frac{a}{b} = \frac{c}{d}ba​=dc​
+2. **Direct Proportionality in Algebra:**
+    
+    - Direct proportionality is typically introduced using linear equations, emphasizing the relationship y=kxy = kxy=kx.
+
+### Bridging the Concepts
+
+Understanding that direct proportionality and equal ratios are two sides of the same coin helps unify these concepts:
+
+- **Direct Proportionality:** y=kxy = kxy=kx
+- **Equal Ratios:** yx=k\frac{y}{x} = kxy​=k
+
+These expressions are equivalent: y=kximpliesyx=ky = kx \quad \text{implies} \quad \frac{y}{x} = ky=kximpliesxy​=k and vice versa.
+- - - 
+### Another new section...
+So linear equations with their “proportional” relationships they represent- where proportional actually means when two quantities are related by a similar factor? So if y= a* x then tho they are different values, they are still connected by a factor of a
+
+![GPT](https://files.oaiusercontent.com/file-ZGfFzOMFsxc0kZJr3WFmZvw2?se=2124-02-23T20%3A31%3A36Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3Dffa7bed3-7e96-4cfb-8738-35a2a5fa7062.png&sig=VxV1c6BrTtGus2DUd4p6spuJPgP2evB6lhIiYSdmkMg%3D)
+
+Yes, exactly! In linear equations, the term "proportional" means that two quantities are related by a constant factor. This constant factor is the coefficient in the equation, which defines how one quantity changes in relation to another. Here’s a detailed explanation:
+
+### Understanding Proportional Relationships in Linear Equations
+
+**Linear Equation:** A linear equation in its simplest form can be written as: y=a⋅xy = a \cdot xy=a⋅x where:
+
+- yyy and xxx are the variables.
+- aaa is the constant factor (also called the slope in the context of a line).
+
+**Proportional Relationship:**
+
+- If yyy and xxx are related by the equation y=a⋅xy = a \cdot xy=a⋅x, they are said to be directly proportional to each other.
+- This means that as xxx increases or decreases, yyy will increase or decrease by the same proportion, determined by the constant aaa.
+
+### Example of Proportional Relationships
+
+Consider a practical example of scaling dimensions in design:
+
+1. **Scaling Dimensions of a Rectangle:**
+    - Let xxx represent the width of a rectangle.
+    - Let yyy represent the length of the rectangle.
+    - Suppose the length is always twice the width. This relationship can be written as: y=2⋅xy = 2 \cdot xy=2⋅x
+    - Here, the factor aaa is 2, indicating that the length is always twice the width.
+
+### Visual Representation
+
+- On a graph, the equation y=a⋅xy = a \cdot xy=a⋅x represents a straight line passing through the origin (0,0) with a slope of aaa.
+- The slope aaa indicates how steep the line is, which corresponds to how rapidly yyy changes with respect to xxx.
+
+### Applying Proportional Relationships in Design
+
+**Example: Designing a Table**
+
+Let’s revisit the table design example to see how proportional relationships might be used:
+
+1. **Define Parameters:**
+    
+    - Let HHH be the height of the table.
+    - Let ttt be the thickness of the legs.
+2. **Proportional Relationship:**
+    
+    - Assume the thickness of the legs is always one-tenth of the height to maintain visual balance and structural stability.
+    - This relationship can be written as: t=0.1⋅Ht = 0.1 \cdot Ht=0.1⋅H
+    - Here, a=0.1a = 0.1a=0.1.
+3. **Adjusting Dimensions:**
+    
+    - If you decide to change the height of the table, the thickness of the legs will adjust proportionally.
+    - For example, if H=100H = 100H=100 cm, then t=0.1⋅100=10t = 0.1 \cdot 100 = 10t=0.1⋅100=10 cm.
+    - If HHH increases to 120 cm, ttt will become 0.1⋅120=120.1 \cdot 120 = 120.1⋅120=12 cm.
+
+### General Characteristics of Proportional Relationships
+
+1. **Consistency:**
+    
+    - The ratio yx=a\frac{y}{x} = axy​=a remains constant, meaning yyy and xxx change at the same rate.
+2. **Direct Proportionality:**
+    
+    - If xxx doubles, yyy also doubles.
+    - If xxx is halved, yyy is also halved.
+3. **Applications:**
+    
+    - Proportional relationships are common in design for scaling dimensions, ensuring aesthetic proportions, and maintaining structural integrity.
+    - In architecture, proportional relationships help maintain harmony and balance in the design of buildings and structures.
+
+### Conclusion
+
+Proportional relationships in linear equations are powerful tools in parametric and computational design. They ensure that changes in one dimension result in predictable and proportional changes in another, maintaining the desired relationships and properties of the design. Understanding and applying these relationships allows for precise control and scalability in design processes.
+- - -
+
 ### Visually Represented by the Hypotenuse of a Right Triangle
 That is the Relationship/Ratio/Rate can be visualized graphically as a **hypotenuse** of a right triangle.
 #### The Proportion Itself (i.e. Proportion as Slope)

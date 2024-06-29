@@ -49,7 +49,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Drawing/Computational and Parametric Thinking While Drawing.md",
+                "file": "Abstract/Morphogenesis/Functions as Geometric Transformations.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "559d80830cbfb12b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Proportion.md",
                 "mode": "source",
                 "source": false
               }
@@ -68,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -135,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Drawing/Computational and Parametric Thinking While Drawing.md",
+                "file": "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Proportion.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -152,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Drawing/Computational and Parametric Thinking While Drawing.md",
+                "file": "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Proportion.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -175,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Drawing/Computational and Parametric Thinking While Drawing.md"
+                "file": "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Proportion.md"
               }
             }
           },
@@ -209,11 +221,13 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "13576ac5f26d69d0",
+  "active": "559d80830cbfb12b",
   "lastOpenFiles": [
+    "Abstract/Morphogenesis/Functions as Geometric Transformations.md",
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Proportion.md",
+    "Drawing/Computational and Parametric Thinking While Drawing.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Vectors as Linear Functions.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/A Map of Change as Rates to Limits of those Rates to Differentials to Derivatives.md",
-    "Drawing/Computational and Parametric Thinking While Drawing.md",
     "Drawing",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Division.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Scaling.md",
@@ -244,8 +258,6 @@
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Non-Linear Motion Exercises.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Non-Linear Motion.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Uniform Acceleration.md",
-    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Uniform Circular Motion.md",
-    "Surfaces/Notion of Surface Curvature.md",
     "images/Pasted image 20240622075043.png",
     "images/Pasted image 20240621143549.png",
     "Data/Abstract Mathematical Spaces/Linear Algebra",
