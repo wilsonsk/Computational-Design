@@ -22,3 +22,4 @@ Using the ratio $\LARGE \frac{5}{10}$​:
 2. **Division Perspective**:
     - You divide 5 liters of water into 10 containers.
     - Each container gets $\frac{5}{10} ​=0.5$ liters of water.
+

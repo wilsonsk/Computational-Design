@@ -27,10 +27,31 @@ The osculating circle is a geometric concept that provides the best local approx
 It refers to the circle that "kisses" the curve at a point, having the same tangent and curvature as the curve at that point. It is used to describe the local curvature of the curve.
 	I.e. Refers to the circle that matches the curve's tangent and curvature at a point.
 	
+## Oscillating Circle a [[Newton's Second Law#Velocity|Velocity]]
+![[Pasted image 20240630084804.png]]
 
-The Oscillating Circle represents the velocity vector in velocity space.
+The Oscillating Circle represents the [[Components of Motion#Velocity Vector|velocity vector]] in velocity space.
 The Oscillating Circle shows how the velocity vector changes over time.
 The Oscillating Circle is plotted in a different space (velocity space) than the actual trajectory of the particle.
+
+![[Pasted image 20240630084728.png|300]]
+##### Diagram Components
+###### Point $P$
+A point on the curve where the osculating circle is being considered.
+####### [[Components of Motion#2D Components of the Velocity Vector|Tangent Vector]] ($\vec{s}$)
+The vector tangent to the curve at point PPP. 
+	This is the direction of the velocity vector if the curve represents the trajectory of a particle.
+		Points in the direction of motion and is tangent to the curve.
+###### Normal Vector ($\vec{n}$)
+The vector perpendicular to the tangent vector at point $P$, pointing towards the center of curvature $C$.
+	It is a component of the [[Components of Motion#2D Components of the Acceleration Vector|Acceleration]].
+###### Osculating Circle
+The circle that best approximates the curve at point $P$. 
+	It has the same tangent and curvature as the curve at this point.
+###### Center of Curvature ($C$)
+The center of the osculating circle.
+###### Osculating Plane
+The plane in which the osculating circle lies.
 
 For each point *P* belonging to an arbitrary freeform surface, a **normal vector** *n* can be calculated. 
 
@@ -49,19 +70,25 @@ A **curve** with a **positive** **curvature value** has its **osculating circle*
 A **curve** with a **negative** **curvature value** has its **osculating circle** on the "negative side" of the generatrix- that is **"outside"** (or "under") the surface.
 
 Within the **set of curvature values** (*ka, kb, ..., ki*) for Point *P* and within the sheaf of planes used to generate the set of curves, a **Minimum Principal Curvature *k<sub>1</sub>*** and a **Maximum Principal Curvature *k<sub>2</sub>*** can be found. 
-### Center of Curvature
+## Center of Curvature
 The center of curvature is a point that lies on the normal line to the curve at a given point, and it is at a distance equal to the radius of curvature. 
 	For a circular path, this point is the center of the circle.
 
 It refers to the point that is the center of the "osculating circle" (the circle that best approximates the curve) at a given point on the path.
-### Radius of Curvature
+## Radius of Curvature
 #### $\LARGE r = \frac{|\vec{v}|^2}{|\vec{a}_{\perp}|}$
 
 The radius of curvature is the radius of the osculating circle at a given point on the path. 
 	It represents how sharply the path is curving at that point.
 
+The radius of the osculating circle provides a measure of the curve's "tightness" at a given point. A smaller radius indicates a tighter curve.
+
 It refers to the distance from the point on the curve to the center of curvature. It quantifies the curvature of the path at that point.
-## Principal Curvatures:
+## Curvature $k$
+Curvature is defined as $k\LARGE = \frac{1}{r}$​.
+	This definition makes intuitive sense because as the radius of the osculating circle decreases (indicating a tighter curve), the curvature increases.
+		I.e. The smaller the radius, the fraction increases, and thus curvature, $k$  increases.
+## Principal Curvatures
 At any given point on a surface, the principal curvatures can be obtained by ***slicing* the surface with planes that contain the normal vector** to the surface at that point.
 ### The curve in which the Minimal Principal **curvature *k<sub>1</sub>*** is calculated: is called ***C<sub>1</sub>***
 The **tangent vector** to curve ***C**<sub>1</sub>* at point *P* is called, the **Minimum Principal Curvature Direction $\vec{k_1}$**

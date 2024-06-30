@@ -11,15 +11,27 @@ date created: 2024-04-22
 ---
 # Proportion
 ## Is a Relationship (i.e. a Ratio or a Rate) Between Quantities
-A "proportion" typically refers to a linear relationship between two variables where one variable is a constant multiple of the other.
-	This is expressed as $y=kx$, where $k$ is the constant of proportionality. 
+A proportion is a statement that two [[Division#Ratio|ratios]] are equal. 
+	It indicates that two pairs of quantities have the same relative size or the same ratio.
+	
+In a general sense, proportion can also refer to the relationship between two quantities where one quantity is a **[[#The Constant of Proportionality|constant multiple]]** of the other.
 
 A proportional relationship exists when two quantities vary directly with each other. 
 	If one quantity is multiplied by a constant, the other quantity is also multiplied by the same constant.
 
+##### Types of Proportion
+###### Linear Proportion (the "Strict" Definition of Proportion)
+A "proportion" typically refers to a linear relationship between two variables where one variable is a constant multiple of the other.
+	This is expressed as the constant of proportionality, $k$. 
+		I.e. $k = \frac{y}{x}$ is **constant ratio** and is also a **constant factor**, $y=kx$.
+###### Non-Linear Relationships (i.e. Lenient Definition of Proportion)
+Relationships can also be Non-Linear, thought not strictly "proportional".
+	These relationships are described by functions that dictate how one variable changes with respect to another. 
+		The ratio $\frac{y}{x}$​ is not constant, but there may still be a consistent relationship defined by the function.
+
 - - -
 ## Components of Proportion
-#### Ratios
+#### [[Ratio|Ratios]]
 A ratio is a relationship between two numbers indicating how many times the first number contains the second. 
 	$$\LARGE \text{The ratio } \frac{a}{b} \text{ compares } a \text{ to } b.$$
 #### Equality of Ratios
@@ -27,6 +39,8 @@ When two ratios are equal, it implies that the relationship between the first pa
 	For instance, 
 	$$\LARGE \text{If } \frac{a}{b} = \frac{c}{d}$$​$$\LARGE \text{Then } a \text{ relates to } b \text{ in the same way that } c \text{ relates to } d$$
 	$$\LARGE = a\cdot d = b \cdot c$$
+	$$\LARGE \text{This can be thought of as } y = ad \text{ and } kx = bc$$
+	$$\LARGE \text{Where } k \text{ is the Constant of Proportionality.}$$
 #### Constant
 A value that does not change. 
 	It remains fixed and unaltered regardless of the variables in the equation or the changes in the context in which it is used.
@@ -42,22 +56,43 @@ The value of a constant does not depend on any variables.
 ### *Aside: Why Quadratic, Cubic, etc. Relationships Are Not Constant*
 Quadratic, cubic, and higher-order polynomial relationships are not constant because they involve variables that change in a non-linear way. 
 	The values of these expressions depend on the variables raised to different powers, which results in varying outputs as the variables change.
+		I.e. This results in non-constant outputs for $y$ as $x$ changes.
+#### Why
+###### Changing Ratio
+The ratio $\frac{y}{x}$​ varies as $x$ changes because the relationship involves variables raised to a power (e.g., $x^2$, $x^3$). 
+	This results in non-constant outputs for $y$ as $x$ changes.
+###### Function-Based Relationship
+While there might be a constant within the function (e.g., $k$ in $y = kx^2$), this does not equate to a constant ratio between $y$ and $x$.
+	The non-linear nature means that the output $y$ does not change proportionally with $x$.
 #### Quadratic Relationships
 A **quadratic relationship** is represented by an equation of the form:
 $$\LARGE y = ax^2 + bx + c$$
 Where $a$, $b$, and $c$ are constants.
-###### But $\LARGE x$ is a *variable*.
-The term $ax^2$ means the output $y$ is proportional to the **square** of $x$, resulting in a parabolic curve when graphed.
 ###### Non-linearity
 The term $ax^2$ means that for different values of $x$, the change in $y$ is not constant but varies with the square of $x$.
+	The relationship is non-linear because $y$ does not change at a constant rate with respect to $x$.
+###### Constant *Relationship*
+The term $ax^2$ means the output $y$ is proportional to the **square** of $x$, resulting in a parabolic curve when graphed.
+$$\LARGE k = \frac{y}{x^2}$$
+	The output $y$ is proportional to the ***square*** of $x$ (the term $x^2$).
+		$k$ can be seen as a constant within the context of $y=kx^2$, but it does not imply a constant ratio $\frac{y}{x}$.
+
+But not in the sense of a constant ration, $\frac{y}{x}$.
+$$\LARGE k \neq \frac{y}{x}$$
 #### Cubic Relationships
 A **cubic relationship** is represented by an equation of the form:
 $$\LARGE y = ax^3 + bx^2 + cx + d$$
 Where $a$, $b$, $c$, and $d$ are constants.
-###### But $\LARGE x$ is a *variable*.
-The term $ax^3$ means the output $y$ is proportional to the **cube** of $x$, resulting in an S-shaped curve when graphed.
 ###### Higher-order Non-linearity
 The term $ax^3$ means that the change in $y$ varies with the **cube** of $x$, making the relationship even more complex and variable than a quadratic relationship.
+###### Constant Relationship
+The term $ax^3$ means the output $y$ is proportional to the **cube** of $x$, resulting in an S-shaped curve when graphed.
+$$\LARGE k = \frac{y}{x^3}$$
+	The output $y$ is proportional to the ***cube*** of $x$ (the term $x^3$).
+		$k$ can be seen as a constant within the context of $y=kx^3$, but it does not imply a constant ratio $\frac{y}{x}$.
+
+But not in the sense of a constant ration, $\frac{y}{x}$.
+$$\LARGE k \neq \frac{y}{x}$$
 #### Characteristics of Non-Constant Relationships
 ###### Variable Output
 The output value $y$ changes in a non-linear manner as the input value $x$ changes.
@@ -72,14 +107,13 @@ Proportionality is a mathematical concept that describes a specific type of rela
 
 Proportionality means that two quantities vary directly with each other.
 	If one quantity is multiplied by a constant factor, the other quantity is also multiplied by the same factor.
-### Proportional Relationships
-$$\LARGE y = kx$$
-Here, $k$ is a constant of proportionality, and $y$ is directly proportional to $x$.
-#### The Constant of Proportionality 
+### The Constant of Proportionality 
 Is a fixed value that relates two variables that are directly proportional to each other.
-	It is the factor by which one variable is multiplied to obtain the other variable. 
+	It is the constant factor by which one variable is multiplied to obtain the other variable. 
 		In a proportional relationship, this constant remains the same, no matter what values the variables take.
-###### The Constant of Proportionality, $k$ *Can* be a Ratio Itself 
+##### The Constant of Proportionality as a Constant Factor
+$$\LARGE y = kx$$
+##### The Constant of Proportionality, $k$ as a Ratio Itself 
 $$\LARGE \frac{y}{x} = \frac{c}{d}$$
 $$\LARGE k = \frac{c}{d}$$
 $$\LARGE \frac{y}{x} = k$$
@@ -92,6 +126,11 @@ $$\LARGE y=kx$$
 - $y$ is the dependent variable.
 - $x$ is the independent variable.
 - $k$ is the constant of proportionality.
+### Linear Proportional Relationships (i.e. Direct Proportion)
+Two quantities $x$ and $y$ are directly proportional if they change at the same rate, and this relationship can be expressed as:
+$$\LARGE y = kx$$
+Here, $k$ is a constant of proportionality, and $y$ is directly proportional to $x$.
+$$\LARGE k = {y}{x} \text{ is a Constant }$$
 ##### Why the Constant of Proportionality Equates to Linearity
 The constant of proportionality ($k$) in the direct variation equation $y=kx$ equates to linearity because:
 ###### Slope Interpretation
@@ -126,7 +165,6 @@ This relationship is represented by a simpler linear equation:
 $$\LARGE k = \frac{\Delta y}{\Delta x}$$
 $k$ signifies how much $y$ changes for a unit change in $x$. 
 	If $x$ doubles, $y$ will also double, assuming $k$ remains constant.
-
 ##### Scalability
 The constant $k$ allows the relationship to be scalable.
 	Multiplying $x$ by any factor will multiply $y$ by the same factor.
@@ -155,108 +193,9 @@ This equation is a linear function where
 - $k$ is the slope of the line, representing the constant rate of change between $\LARGE k = \frac{\Delta y}{\Delta x}$.
 ##### 3. Direct Variation
 Proportional relationships are also known as direct variations, where one variable directly varies as a multiple of another.
-### Linear Proportionality (i.e. Linear Relationship)
-Linear proportionality refers to a linear relationship between two quantities, where one quantity changes by a constant amount as the other quantity changes. 
-	It includes both direct proportionality and relationships with an additional constant term.
 
-- In a linear proportion, the relationship between the two quantities is linear. 
-	- This means that if you graph the relationship, you get a straight line that passes through the origin.
 
-- The equation y=kxy = kxy=kx is the standard form of a linear proportion, where:
-    - yyy is the dependent variable.
-    - xxx is the independent variable.
-    - kkk is the constant of proportionality.
-    - The ratio yx=k\frac{y}{x} = kxy​=k is constant.
-#### Direct Proportionality
-- Two quantities xxx and yyy are directly proportional if they change at the same rate, and this relationship can be expressed as: y=kxy = kxy=kx where kkk is a constant of proportionality.
-
-**Equality of Ratios:**
-
-- When two quantities are directly proportional, the ratio of yyy to xxx is constant: yx=k\frac{y}{x} = kxy​=k
-- This constant ratio kkk remains the same for any values of xxx and yyy, meaning: y1x1=y2x2=y3x3=…=k\frac{y_1}{x_1} = \frac{y_2}{x_2} = \frac{y_3}{x_3} = \ldots = kx1​y1​​=x2​y2​​=x3​y3​​=…=k
-
-### Why Proportionality is Often Associated with Equality of Ratios
-
-The equality of ratios is a fundamental way to understand and represent proportional relationships, especially in contexts such as geometry, physics, and algebra.
-
-**Example in Geometry:**
-
-- Similar triangles have sides that are proportional. If triangles ABCABCABC and DEFDEFDEF are similar, then: ABDE=BCEF=CAFD\frac{AB}{DE} = \frac{BC}{EF} = \frac{CA}{FD}DEAB​=EFBC​=FDCA​
-    - This shows that the ratios of corresponding sides are equal, which is a classic example of proportionality.
-
-**Example in Physics:**
-
-- Hooke’s Law for springs states that the force FFF is directly proportional to the displacement xxx: F=kxF = kxF=kx
-    - Here, kkk is the spring constant, and the ratio Fx\frac{F}{x}xF​ remains constant for different forces and displacements.
-
-### Applying Proportional Relationships in Design
-
-When designing objects parametrically, understanding that proportional relationships can be represented by equal ratios helps in maintaining consistency and harmony.
-
-**Example: Table Design with Proportional Relationships**
-
-1. **Parameters:**
-    
-    - Table height (HHH)
-    - Leg thickness (ttt)
-2. **Proportional Relationship:**
-    
-    - Let’s assume ttt is always 110\frac{1}{10}101​ of HHH: t=110Ht = \frac{1}{10}Ht=101​H
-    - This can be seen as tH=110\frac{t}{H} = \frac{1}{10}Ht​=101​, which is a constant ratio.
-
-### Why the Misunderstanding?
-
-The confusion may arise from the fact that proportional relationships and the equality of ratios are closely related concepts, but they are often taught separately in different contexts.
-
-1. **Mathematics Education:**
-    
-    - Proportions are often introduced using the concept of equal ratios (e.g., in solving proportion problems).
-    - Example: If aaa is to bbb as ccc is to ddd, we write: ab=cd\frac{a}{b} = \frac{c}{d}ba​=dc​
-2. **Direct Proportionality in Algebra:**
-    
-    - Direct proportionality is typically introduced using linear equations, emphasizing the relationship y=kxy = kxy=kx.
-
-### Bridging the Concepts
-
-Understanding that direct proportionality and equal ratios are two sides of the same coin helps unify these concepts:
-
-- **Direct Proportionality:** y=kxy = kxy=kx
-- **Equal Ratios:** yx=k\frac{y}{x} = kxy​=k
-
-These expressions are equivalent: y=kximpliesyx=ky = kx \quad \text{implies} \quad \frac{y}{x} = ky=kximpliesxy​=k and vice versa.
 - - - 
-### Another new section...
-So linear equations with their “proportional” relationships they represent- where proportional actually means when two quantities are related by a similar factor? So if y= a* x then tho they are different values, they are still connected by a factor of a
-
-
-Yes, exactly! In linear equations, the term "proportional" means that two quantities are related by a constant factor. This constant factor is the coefficient in the equation, which defines how one quantity changes in relation to another. Here’s a detailed explanation:
-
-### Understanding Proportional Relationships in Linear Equations
-
-**Linear Equation:** A linear equation in its simplest form can be written as: y=a⋅xy = a \cdot xy=a⋅x where:
-
-- yyy and xxx are the variables.
-- aaa is the constant factor (also called the slope in the context of a line).
-
-**Proportional Relationship:**
-
-- If yyy and xxx are related by the equation y=a⋅xy = a \cdot xy=a⋅x, they are said to be directly proportional to each other.
-- This means that as xxx increases or decreases, yyy will increase or decrease by the same proportion, determined by the constant aaa.
-
-### Example of Proportional Relationships
-
-Consider a practical example of scaling dimensions in design:
-
-1. **Scaling Dimensions of a Rectangle:**
-    - Let xxx represent the width of a rectangle.
-    - Let yyy represent the length of the rectangle.
-    - Suppose the length is always twice the width. This relationship can be written as: y=2⋅xy = 2 \cdot xy=2⋅x
-    - Here, the factor aaa is 2, indicating that the length is always twice the width.
-
-### Visual Representation
-
-- On a graph, the equation y=a⋅xy = a \cdot xy=a⋅x represents a straight line passing through the origin (0,0) with a slope of aaa.
-- The slope aaa indicates how steep the line is, which corresponds to how rapidly yyy changes with respect to xxx.
 
 ### Applying Proportional Relationships in Design
 

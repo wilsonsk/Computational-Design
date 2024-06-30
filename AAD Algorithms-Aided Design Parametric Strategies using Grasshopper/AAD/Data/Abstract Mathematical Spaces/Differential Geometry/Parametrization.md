@@ -1,3 +1,9 @@
+---
+up:
+  - "[[Differential Geometry]]"
+related: 
+date created: 2024-06-29
+---
 # Parametrization
 A a way to describe curves using parameters.
 

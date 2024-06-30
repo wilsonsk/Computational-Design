@@ -25,19 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/A Map of Change as Rates to Limits of those Rates to Differentials to Derivatives.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "99943bb26bea3272",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Vectors as Linear Functions.md",
+                "file": "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Division.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,30 +44,6 @@
             }
           },
           {
-            "id": "59bd9197f3f7af95",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Ratio.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "559d80830cbfb12b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Proportion.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "6253d0adce0cd138",
             "type": "leaf",
             "state": {
@@ -92,19 +56,19 @@
             }
           },
           {
-            "id": "b932ea7dc486190a",
+            "id": "970d540a0f9a9f3e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Division.md",
+                "file": "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Proportion.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -245,20 +209,24 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "559d80830cbfb12b",
+  "active": "970d540a0f9a9f3e",
   "lastOpenFiles": [
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/A Map of Change as Rates to Limits of those Rates to Differentials to Derivatives.md",
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Ratio.md",
-    "Data/Abstract Mathematical Spaces/Differential Geometry/Parametrization.md",
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Proportion.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Partial Derivatives.md",
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Vectors as Linear Functions.md",
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Division.md",
     "Drawing/Computational and Parametric Thinking While Drawing.md",
+    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Components of Motion.md",
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Division.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Vectors as Linear Functions.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Linear Map.md",
+    "Data/Abstract Mathematical Spaces/Differential Geometry/Parametrization.md",
+    "Surfaces/Notion of Surface Curvature.md",
+    "Pasted image 20240630084804.png",
+    "Pasted image 20240630084728.png",
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Ratio.md",
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Proportion.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/A Map of Change as Rates to Limits of those Rates to Differentials to Derivatives.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Partial Derivatives.md",
     "Surfaces/Surface Analysis.md",
     "Data/Abstract Mathematical Spaces/Differential Geometry/Plane Curves.md",
     "Data/Abstract Mathematical Spaces/Differential Geometry/Differential Geometry.md",
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Linear Map.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Tangent Space.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Linear Approximation.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Fields.md",
@@ -275,8 +243,6 @@
     "Transformations/Euclidean Transformations.md",
     "images/Pasted image 20240624140108.png",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Functions.md",
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Linear Functions.md",
     "images/Pasted image 20240624080120.png",
     "images/Pasted image 20240623222925.png",
     "images/Pasted image 20240623221622.png",
@@ -284,8 +250,6 @@
     "images/Pasted image 20240623214613.png",
     "images/Pasted image 20240621130534.png",
     "images/Pasted image 20240622215437.png",
-    "images/Pasted image 20240622075043.png",
-    "images/Pasted image 20240621143549.png",
     "Data/Abstract Mathematical Spaces/Linear Algebra",
     "Data/Abstract Mathematical Spaces/Physics/Basic Concepts/Untitled",
     "Data/Abstract Mathematical Spaces/Physics/Basic Concepts",
