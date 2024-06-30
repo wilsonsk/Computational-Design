@@ -1,12 +1,17 @@
 # Partial Derivatives
+![[Pasted image 20240630153708.png]]
 Derivatives in 2D and 3D (and higher dimensions) are generally referred to as **partial derivatives** when dealing with functions of multiple variables. 
 
 For a function of multiple variables, such as $f(x,y)$ or $f(x,y,z)$:
 	Partial derivatives represent the rate of change of the function with respect to one of its variables, while holding the other variables constant.
 
+The idea to keep in mind when calculating partial derivatives is to treat all independent variables, other than the variable with respect to which we are differentiating, as constants. 
+	Then proceed to differentiate as with a function of a single variable. T
+
 $\LARGE \partial = \text{partial}$
 ## For a (1D) Function $f(x)$
 The Partial Derivative in 1D is the **same** as the conventional Derivative in 1D.
+	That is because there is only one variable to begin with.
 ![[Pasted image 20240623214613.png|300]] ![[Pasted image 20240623214918.png|300]]
 $$\LARGE \partial_x f(x)== {\partial \over \partial x} == {d\over dx} f(x) == f'(x)$$
 $$\LARGE {\partial \over \partial x} f(x) = \lim_{h \rightarrow 0} {f(x+h) - f(x) \over h}$$
@@ -16,6 +21,15 @@ Its a bit different, because we have a function that depends on multiple variabl
 
 Therefore, we need Partial Derivatives, where we only derive in respect to a single given variable. 
 $$\LARGE \frac{\partial f}{\partial x} \quad \text{and} \quad \frac{\partial f}{\partial y}$$
+###### Notation
+$$\LARGE \frac{\partial f}{\partial x}$$
+​This is the standard notation for the partial derivative of $f$ with respect to $x$.
+$$\LARGE \partial_x f(x,y)$$
+This notation emphasizes that the partial derivative is with respect to $x$ and can be seen as a more compact form.
+$$\LARGE \frac{\partial}{\partial x} f(x,y)$$
+This notation explicitly shows the operation of taking the partial derivative with respect to $x$.
+
+- - -
 ### Partial Derivative for Single Point
 The following, is the Partial Derivative of $f(x,y)$ with respect to $x$. 
 	Which means, we only derive with respect to the variable, $x$. 
@@ -24,10 +38,57 @@ The following, is the Partial Derivative of $f(x,y)$ with respect to $x$.
 				I.e. The limit of the rate of change of the output of the function, $f(x,y)$ as the $x$ changes.  
 ![[Pasted image 20240623221622.png|300]]
 *Remember: The [[Limits#Limit at a Specific Point|Limit]] in the following form represents the rate of change at a specific point, $a$.*
-$$\LARGE \partial_x f(x,y) == {\partial \over \partial x}f(x,y) = \lim_{h \rightarrow 0} {f(x+h,y) - f(x,y) \over h}$$
+$$\LARGE \frac{\partial f}{\partial x} == \partial_x f(x,y) == {\partial \over \partial x}f(x,y) = \lim_{h \rightarrow 0} {f(x+h,y) - f(x,y) \over h}$$
 ![[Pasted image 20240623222925.png|300]]
 *Remember: The [[Limits#Limit at a Specific Point|Limit]] in the following form represents the rate of change at a specific point, $a$.*
-$$\LARGE \partial_x f(x,y) == {\partial \over \partial y}f(x,y) = \lim_{h \rightarrow 0} {f(x,y+h) - f(x,y) \over h}$$
+$$\LARGE \frac{\partial f}{\partial y} == \partial_x f(x,y) == {\partial \over \partial y}f(x,y) = \lim_{h \rightarrow 0} {f(x,y+h) - f(x,y) \over h}$$
+#### Example of Partial Derivative as a Limit
+Use the definition of the partial derivative as a limit to calculate $\frac{\partial f}{\partial x}$ and $\frac{\partial f}{\partial y}$ for the function
+$$\LARGE f(x, y) = x^2 - 3xy + 2y^2 - 4x + 5y - 12$$
+##### Solution
+###### 1. Calculate $f(x + h, y)$
+$$\LARGE f(x + h, y) = (x + h)^2 - 3(x + h)y + 2y^2 - 4(x + h) + 5y - 12$$
+$$\LARGE = x^2 + 2xh + h^2 - 3xy - 3hy + 2y^2 - 4x - 4h + 5y - 12$$
+###### 2. Substitute This Into the Initial Equation and Simplify
+$$\LARGE \frac{\partial f}{\partial x} = \lim_{h \to 0} \frac{f(x + h, y) - f(x, y)}{h}$$
+$$ = \lim_{h \to 0} \frac{(x^2 + 2xh + h^2 - 3xy - 3hy + 2y^2 - 4x - 4h + 5y - 12) - (x^2 - 3xy + 2y^2 - 4x + 5y - 12)}{h}$$
+$$ = \lim_{h \to 0} \frac{x^2 + 2xh + h^2 - 3xy - 3hy + 2y^2 - 4x - 4h + 5y - 12 - x^2 + 3xy - 2y^2 + 4x - 5y + 12}{h}$$
+$$\LARGE = \lim_{h \to 0} \frac{2xh + h^2 - 3hy - 4h}{h}$$
+$$\LARGE = \lim_{h \to 0} \frac{h(2x + h - 3y - 4)}{h}$$
+$$\LARGE = \lim_{h \to 0} (2x + h - 3y - 4)$$
+$$\LARGE \frac{\partial f}{\partial x} = 2x - 3y - 4$$
+###### 3. Calculate $\frac{\partial f}{\partial y}$, first calculate $f(x, y + h)$
+$$\LARGE f(x, y + h) = x^2 - 3x(y + h) + 2(y + h)^2 - 4x + 5(y + h) - 12$$
+$$\LARGE = x^2 - 3xy - 3xh + 2y^2 + 4yh + 2h^2 - 4x + 5y + 5h - 12$$
+###### 4. Substitute This Into the Equation and Simplify
+$$\LARGE \frac{\partial f}{\partial y} = \lim_{h \to 0} \frac{f(x, y + h) - f(x, y)}{h}$$
+$$= \lim_{h \to 0} \frac{(x^2 - 3xy - 3xh + 2y^2 + 4yh + 2h^2 - 4x + 5y + 5h - 12) - (x^2 - 3xy + 2y^2 - 4x + 5y - 12)}{h}$$
+$$ = \lim_{h \to 0} \frac{x^2 - 3xy - 3xh + 2y^2 + 4yh + 2h^2 - 4x + 5y + 5h - 12 - x^2 + 3xy - 2y^2 + 4x - 5y + 12}{h}$$
+$$\LARGE = \lim_{h \to 0} \frac{-3xh + 4yh + 2h^2 + 5h}{h}$$
+$$\LARGE = \lim_{h \to 0} \frac{h(-3x + 4y + 2h + 5)}{h}$$
+$$\LARGE \frac{\partial f}{\partial x} = \lim_{h \to 0} (-3x + 4y + 2h + 5)$$
+$$\LARGE = -3x + 4y + 5$$
+- - -
+
+## Interpreting Partial Derivatives
+Recall that the graph of a function of two variables is a surface in R^3.
+
+If we remove the limit from the definition of partial derivative with respect to $x$, $\LARGE \lim\limits_{h \to 0} \frac{f(x+h, y) - f(x,y)}{h}$, then the Difference Quotient remains.
+$$\LARGE \frac{f(x+h, y) - f(x,y)}{h}$$
+This resembles the difference quotient for the derivative of a function of one variable, except for the presence of the variable.
+![[Pasted image 20240630154205.png]]
+If $h$ is positive, and we graph $f(x,y)$ and $f(x+h,y)$ for an arbitrary point $(x,y)$ then the slope of the secant line passing through these two points is given by this Difference Quotient.
+	This line is parallel to the $x$-axis.
+		Therefore, the slope of the secant line represents an average rate of change of the function $f(x,y)$ as we travel parallel to the $x$-axis.
+			 As $h$ approaches zero, the slope of the secant line approaches the slope of the tangent line.
+
+If we choose to change $y$ instead of $x$ by the same incremental value $h$, then the secant line is parallel to the $y$-axis and so is the tangent line.
+	Therefore, $\LARGE \frac{\partial f}{\partial x}$ represents the slope of the tangent line passing through the point $(x,y, f(x,y))$ parallel to the $x$-axis.
+		And $\LARGE \frac{\partial f}{\partial y}$ represents the slope of the tangent line passing through the point $(x,y,f(x,y))$ parallel to the $y$-axis. 
+
+If we wish **to find the slope of a tangent line passing through the same point** in any other direction, then we need what are called **directional derivatives**.
+
+- - - 
 ### General Function for the Partial Derivative at Any Point
 ![[Pasted image 20240624140108.png|500]]
 To obtain a general function of the Derivative such that we are not restricted to a single point.

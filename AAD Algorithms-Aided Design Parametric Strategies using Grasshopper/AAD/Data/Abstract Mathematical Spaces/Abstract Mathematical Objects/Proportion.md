@@ -39,7 +39,8 @@ When two ratios are equal, it implies that the relationship between the first pa
 	For instance, 
 	$$\LARGE \text{If } \frac{a}{b} = \frac{c}{d}$$​$$\LARGE \text{Then } a \text{ relates to } b \text{ in the same way that } c \text{ relates to } d$$
 	$$\LARGE = a\cdot d = b \cdot c$$
-	$$\LARGE \text{This can be thought of as } y = ad \text{ and } kx = bc$$
+	$$\LARGE \text{This can be thought of as } y = ad \text{ and } kx = bc \text{ therefore, } k = \frac{bc}{x}$$
+	$$\LARGE \text{Remember that } ad = bc \text{ therefore, } y = bc \text{ thus } k = \frac{y}{x}$$
 	$$\LARGE \text{Where } k \text{ is the Constant of Proportionality.}$$
 #### Constant
 A value that does not change. 
@@ -197,6 +198,10 @@ Proportional relationships are also known as direct variations, where one variab
 
 - - - 
 
+## Proportion of a Function 
+
+- - -
+- 
 ### Applying Proportional Relationships in Design
 
 **Example: Designing a Table**

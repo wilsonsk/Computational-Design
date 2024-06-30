@@ -224,7 +224,21 @@ $v(t) = \Delta x / \Delta t = dx/dt=$ $$\lim_{\Delta t\to 0}\Delta x / \Delta t$
 		 The [[#*$h$ (i.e. the independent variable) represents the **increment or distance** from the point $a$ along the $x-axis$.*|increment]] between two $t$ values on the $x-axis$ gets infinitely smaller, i.e. approaches zero distance between them. 
 
 ## Calculating Limits
-### 2 Approaches
+Plug in $(f(x + h))$ for every $x$ variable, then simplify $f(x + h) - f(x)$ then solve $\lim\limits_{h \to 0}\frac{f(x + h) - f(x)}{h}$
+##### General Steps
+$$\LARGE \text{1. Substitute } x + h \text{ into the function:}$$
+$$\text{Calculate } f(x + h) \text{ by substituting } x + h \text{ for every } x \text{ in the function } f(x).$$
+$$\LARGE \text{2. Form the difference quotient:}$$
+$$\LARGE \text{3. Calculate the difference (i.e. Simplify) } f(x + h) - f(x)$$
+$$\LARGE \text{4. Divide by } h:$$
+$$\LARGE \text{Form the quotient } \frac{f(x + h) - f(x)}{h}$$
+$$\LARGE \text{5. Take the limit as } h \text{ approaches 0:}$$
+$$\LARGE \text{Evaluate the limit } \lim_{h \to 0} \frac{f(x + h) - f(x)}{h}$$
+$$\text{This limit, if it exists, is the definition of the derivative of } f \text{ at } x, \text{ denoted }$$
+$$\LARGE f'(x) \text{ or } \frac{d}{dx} f(x)$$
+$$\LARGE \text{ Mathematically, it is expressed as:}$$
+$$\LARGE f'(x) = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h}$$
+### Two Approaches
 Limits or [[Derivatives#Rules of Differentiation|Rules of Differentiation]]
 ### Using Limits vs. Differentiation Rules
 - **Using Limits**: When you first learn about derivatives, you start by using the limit definition to understand the fundamental concept. 

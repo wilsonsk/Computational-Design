@@ -67,8 +67,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -135,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Proportion.md",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Partial Derivatives.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -152,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Proportion.md",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Partial Derivatives.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -175,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Proportion.md"
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Partial Derivatives.md"
               }
             }
           },
@@ -209,8 +208,16 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "970d540a0f9a9f3e",
+  "active": "e9f523721294dd5b",
   "lastOpenFiles": [
+    "Pasted image 20240630154205.png",
+    "Pasted image 20240630153708.png",
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Proportion.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Partial Derivatives.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Limits.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Analysis.md",
+    "Pasted image 20240630145638.png",
+    "Pasted image 20240630145605.png",
     "Drawing/Computational and Parametric Thinking While Drawing.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Components of Motion.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Division.md",
@@ -221,9 +228,7 @@
     "Pasted image 20240630084804.png",
     "Pasted image 20240630084728.png",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Ratio.md",
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Proportion.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/A Map of Change as Rates to Limits of those Rates to Differentials to Derivatives.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Partial Derivatives.md",
     "Surfaces/Surface Analysis.md",
     "Data/Abstract Mathematical Spaces/Differential Geometry/Plane Curves.md",
     "Data/Abstract Mathematical Spaces/Differential Geometry/Differential Geometry.md",
@@ -239,17 +244,11 @@
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Functions and Motion.md",
     "Drawing",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Scaling.md",
-    "Data/Abstract Mathematical Spaces/Physics/Basic Concepts/Measurement.md",
-    "Transformations/Euclidean Transformations.md",
     "images/Pasted image 20240624140108.png",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
     "images/Pasted image 20240624080120.png",
     "images/Pasted image 20240623222925.png",
     "images/Pasted image 20240623221622.png",
     "images/Pasted image 20240623214918.png",
-    "images/Pasted image 20240623214613.png",
-    "images/Pasted image 20240621130534.png",
-    "images/Pasted image 20240622215437.png",
     "Data/Abstract Mathematical Spaces/Linear Algebra",
     "Data/Abstract Mathematical Spaces/Physics/Basic Concepts/Untitled",
     "Data/Abstract Mathematical Spaces/Physics/Basic Concepts",
