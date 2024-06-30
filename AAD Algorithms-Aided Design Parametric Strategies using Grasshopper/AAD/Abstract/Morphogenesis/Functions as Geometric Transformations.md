@@ -1,6 +1,6 @@
 # [[Functions|Functions]] as Geometric Transformations
 
-relates to [[Computational and Parametric Thinking While Drawing]]...
+relates to [[Computational and Parametric Thinking While Drawing]]... and [[Functions and Motion]]
 The parametric relationships (equations) in parametric design are not necessarily linear; they can be linear, quadratic, cubic, or even more complex, depending on the design requirements and the nature of the relationships between parameters. The choice of these equations is influenced by the visual and functional transformations they represent, rather than being a mere coincidence. Here’s how different types of equations can come into play:
 
 ### Linear Equations

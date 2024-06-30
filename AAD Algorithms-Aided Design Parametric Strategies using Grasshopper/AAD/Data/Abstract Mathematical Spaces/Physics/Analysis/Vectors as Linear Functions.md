@@ -1,2 +1,0 @@
-# Vectors as Linear Functions
-

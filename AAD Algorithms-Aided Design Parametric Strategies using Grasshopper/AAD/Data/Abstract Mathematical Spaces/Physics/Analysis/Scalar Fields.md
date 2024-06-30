@@ -14,6 +14,9 @@ date created: 2024-04-11
 # Scalar Fields
 A mathematical construct used to describe a region of space where each point in that space is assigned a scalar value.
 	Scalar fields are fundamental in various branches of physics and mathematics, particularly in the study of potential fields, temperature distributions, and more.
+
+In linear algebra, the term "scalar field" is sometimes used to emphasize that the scalars (the elements used to multiply vectors) belong to a [[Fields|field]]. 
+	When we say that a vector space $V$ is defined over a field $F$ we mean that the scalars we use to perform scalar multiplication are elements of $F$.
 ## Properties of Scalar Fields
 ### Scalar Quantity: 
 Unlike vector fields, which assign a vector (magnitude and direction) to every point in space, a scalar field **assigns only a scalar quantity**, which does **not** have a direction, only a magnitude.

@@ -55,7 +55,7 @@ $$\LARGE m = \frac{\Delta y}{\Delta x}$$
 
 The rate at which the dependent variable changes "with respect to" the independent variable (i.e. how $y$ changes **as** x changes).
 	This rate is the average rate of change.
-### The Ratio
+### The [[Ratio|Ratio]]
 ###### If $\Delta y$ is greater than $\Delta x$
 Meaning $y$ changes more rapidly than $x$.
 ###### If $0<m<1$ , $\Delta y$ is less than $\Delta x$

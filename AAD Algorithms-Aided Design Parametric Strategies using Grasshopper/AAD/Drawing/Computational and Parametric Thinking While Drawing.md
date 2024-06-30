@@ -5,3 +5,7 @@ Dont aimlessly draw lines, but think mainly. The marks are the expression of a f
 Utilize the perspective and isometric techniques, but dont think in those terms.
 
 Think in terms of parameters, relationships, transformations, and computations and then any lines or marks made are just simply expressed in the rules of perspective/isometric but not determined by them.
+
+this relates to [[Functions as Geometric Transformations]]
+
+[[Functions and Motion]]

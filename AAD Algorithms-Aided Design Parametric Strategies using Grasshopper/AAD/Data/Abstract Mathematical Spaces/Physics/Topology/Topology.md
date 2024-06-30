@@ -7,7 +7,7 @@ date created: 2024-04-19
 ---
 # Topology (i.e. relational structure)
 The way in which constituent parts are interrelated or arranged. 
-
+Studies surfaces and other global properties from an abstract point of view. It's considered to be one of the most basic forms of geometry and is used in many areas of mathematics.
 
 ## Truss
 An assembly of members such as beams (i.e. edges), connected by **nodes**, that creates a rigid structure.

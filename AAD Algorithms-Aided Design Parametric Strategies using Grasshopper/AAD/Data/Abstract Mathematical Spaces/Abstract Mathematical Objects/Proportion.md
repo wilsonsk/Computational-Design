@@ -11,16 +11,163 @@ date created: 2024-04-22
 ---
 # Proportion
 ## Is a Relationship (i.e. a Ratio or a Rate) Between Quantities
+A "proportion" typically refers to a linear relationship between two variables where one variable is a constant multiple of the other.
+	This is expressed as $y=kx$, where $k$ is the constant of proportionality. 
 
+A proportional relationship exists when two quantities vary directly with each other. 
+	If one quantity is multiplied by a constant, the other quantity is also multiplied by the same constant.
 
-### New Section to be edited:
-The idea that "proportional" always means the equality of two ratios comes from the definition of **direct proportionality** in mathematics. Let’s clarify this concept and see how it connects to the broader understanding of proportional relationships.
+- - -
+## Components of Proportion
+#### Ratios
+A ratio is a relationship between two numbers indicating how many times the first number contains the second. 
+	$$\LARGE \text{The ratio } \frac{a}{b} \text{ compares } a \text{ to } b.$$
+#### Equality of Ratios
+When two ratios are equal, it implies that the relationship between the first pair of numbers is the same as the relationship between the second pair. 
+	For instance, 
+	$$\LARGE \text{If } \frac{a}{b} = \frac{c}{d}$$​$$\LARGE \text{Then } a \text{ relates to } b \text{ in the same way that } c \text{ relates to } d$$
+	$$\LARGE = a\cdot d = b \cdot c$$
+#### Constant
+A value that does not change. 
+	It remains fixed and unaltered regardless of the variables in the equation or the changes in the context in which it is used.
+##### Properties of a Constant
+###### Fixed Value
+A constant has a specific, unchanging value. 
+	For example, in the equation $y=kx$, $k$ is a constant.
+###### Independent of Variables
+The value of a constant does not depend on any variables.
+	It remains the same no matter what the variables are or how they change.
 
 - - - 
-### Proportionality and Ratios
+### *Aside: Why Quadratic, Cubic, etc. Relationships Are Not Constant*
+Quadratic, cubic, and higher-order polynomial relationships are not constant because they involve variables that change in a non-linear way. 
+	The values of these expressions depend on the variables raised to different powers, which results in varying outputs as the variables change.
+#### Quadratic Relationships
+A **quadratic relationship** is represented by an equation of the form:
+$$\LARGE y = ax^2 + bx + c$$
+Where $a$, $b$, and $c$ are constants.
+###### But $\LARGE x$ is a *variable*.
+The term $ax^2$ means the output $y$ is proportional to the **square** of $x$, resulting in a parabolic curve when graphed.
+###### Non-linearity
+The term $ax^2$ means that for different values of $x$, the change in $y$ is not constant but varies with the square of $x$.
+#### Cubic Relationships
+A **cubic relationship** is represented by an equation of the form:
+$$\LARGE y = ax^3 + bx^2 + cx + d$$
+Where $a$, $b$, $c$, and $d$ are constants.
+###### But $\LARGE x$ is a *variable*.
+The term $ax^3$ means the output $y$ is proportional to the **cube** of $x$, resulting in an S-shaped curve when graphed.
+###### Higher-order Non-linearity
+The term $ax^3$ means that the change in $y$ varies with the **cube** of $x$, making the relationship even more complex and variable than a quadratic relationship.
+#### Characteristics of Non-Constant Relationships
+###### Variable Output
+The output value $y$ changes in a non-linear manner as the input value $x$ changes.
+###### Dependence on Higher Powers of Variables
+The presence of terms like $x^2$, $x^3$, etc., means the rate of change of $y$ depends on the higher powers of $x$.
+###### Curved Graphs
+When graphed, quadratic and cubic relationships produce curves rather than straight lines, indicating the varying rate of change.
 
-**Direct Proportionality:**
+- - - 
+## Proportionality and Relationships
+Proportionality is a mathematical concept that describes a specific type of relationship between two quantities, where the ratio of the two quantities remains constant.
 
+Proportionality means that two quantities vary directly with each other.
+	If one quantity is multiplied by a constant factor, the other quantity is also multiplied by the same factor.
+### Proportional Relationships
+$$\LARGE y = kx$$
+Here, $k$ is a constant of proportionality, and $y$ is directly proportional to $x$.
+#### The Constant of Proportionality 
+Is a fixed value that relates two variables that are directly proportional to each other.
+	It is the factor by which one variable is multiplied to obtain the other variable. 
+		In a proportional relationship, this constant remains the same, no matter what values the variables take.
+###### The Constant of Proportionality, $k$ *Can* be a Ratio Itself 
+$$\LARGE \frac{y}{x} = \frac{c}{d}$$
+$$\LARGE k = \frac{c}{d}$$
+$$\LARGE \frac{y}{x} = k$$
+The constant of proportionality $k$ is a crucial concept in understanding linear relationships between variables. 
+	It defines the rate at which one variable changes in relation to another, ensuring that the ratio between the variables remains consistent. 
+		This concept is widely used in various fields, including physics, economics, and everyday scenarios, to describe relationships where quantities vary directly with each other.
+
+If two variables $x$ and $y$ are directly proportional, the relationship can be expressed as: 
+$$\LARGE y=kx$$
+- $y$ is the dependent variable.
+- $x$ is the independent variable.
+- $k$ is the constant of proportionality.
+##### Why the Constant of Proportionality Equates to Linearity
+The constant of proportionality ($k$) in the direct variation equation $y=kx$ equates to linearity because:
+###### Slope Interpretation
+The constant $k$ is the slope of the line.
+	In the equation $y=kx$, $k$ determines how steep the line is.
+		 A higher value of $k$ means the line rises more steeply.
+###### Linearity Requirement
+Any linear relationship involves a constant rate of change, represented by the slope.
+	When $k$ is the slope in direct variation, the relationship is linear by definition, as it describes a straight-line relationship between $y$ and $x$.
+##### Properties of the Constant of Proportionality (and thus of Proportional Relationships)
+###### Fixed Ratio
+The constant of proportionality represents a fixed ratio between the variables $y$ and $x$. 
+	In a proportional relationship, $\frac{y}{x} = k$.
+		 This means that for any values of $x$ and $y$, the ratio remains constant, signifying a direct proportional relationship.
+$$\LARGE k=yx$$
+###### Linearity
+Refers to a relationship between two variables that forms a straight line when graphed. 
+	A proportional relationship is always linear, as depicted by the equation $y=kx$.
+		 When graphed, this relationship forms a straight line passing through the origin (0,0). 
+			 The slope of this line is $k$, indicating the rate of change of $y$ with respect to $x$ (i.e. as $x$ also changes).
+			 
+This relationship can be represented by a linear equation of the form:
+$$\LARGE y = mx + b$$
+In the equation $y=mx+b$, $x$ determines the slope of the line when the relationship is graphed on a coordinate plane.
+###### Direct Variation
+Is a specific type of linear relationship where one variable is a constant multiple of another. 
+	In a proportional relationship, $y$ changes directly with $x$ at a constant rate.
+		 For every unit increase in $x$, $y$ increases by $k$ units. 
+			 This direct variation is a hallmark of proportional relationships.
+			 
+This relationship is represented by a simpler linear equation:
+$$\LARGE k = \frac{\Delta y}{\Delta x}$$
+$k$ signifies how much $y$ changes for a unit change in $x$. 
+	If $x$ doubles, $y$ will also double, assuming $k$ remains constant.
+
+##### Scalability
+The constant $k$ allows the relationship to be scalable.
+	Multiplying $x$ by any factor will multiply $y$ by the same factor.
+
+Proportional relationships are scalable.
+	If $x$ is scaled by a factor, $y$ will also be scaled by the same factor, maintaining the constant ratio $\frac{y}{x} = k$.
+### Key Characteristics of Proportional Relationships
+##### 1. Constant Ratio
+The defining characteristic of a proportional relationship is that the ratio between the two variables, $\LARGE \frac{y}{x} = k$ remains constant.
+	$k$ is the **constant of proportionality**.
+		This means that $y$ increases or decreases in direct proportion to $x$.
+		    $$\LARGE y=kx, \frac{y}{x} = k == \frac{y}{x} = \frac{k}{1}$$
+The concept of proportion is built on the idea of maintaining a constant ratio between two variables. 
+	This inherently leads to a linear relationship. 
+		If $y$ were not directly proportional to $x$, the ratio $\frac{y}{x}$​ would not be constant.
+
+In non-linear relationships, the ratio $\frac{y}{x}$​ changes with $x$, which means the relationship is no longer proportionate.
+##### 2. Linear Relationship
+The equation $y=kx$ represents a straight line that passes through the origin (0,0) on a graph, with $k$ as the slope of the line.
+
+**Rewriting as a Linear Function** (i.e. Linear Function Form)
+$$\LARGE y=kx$$
+This equation is a linear function where
+- $y$ is the dependent variable.
+- $x$ is the independent variable.
+- $k$ is the slope of the line, representing the constant rate of change between $\LARGE k = \frac{\Delta y}{\Delta x}$.
+##### 3. Direct Variation
+Proportional relationships are also known as direct variations, where one variable directly varies as a multiple of another.
+### Linear Proportionality (i.e. Linear Relationship)
+Linear proportionality refers to a linear relationship between two quantities, where one quantity changes by a constant amount as the other quantity changes. 
+	It includes both direct proportionality and relationships with an additional constant term.
+
+- In a linear proportion, the relationship between the two quantities is linear. 
+	- This means that if you graph the relationship, you get a straight line that passes through the origin.
+
+- The equation y=kxy = kxy=kx is the standard form of a linear proportion, where:
+    - yyy is the dependent variable.
+    - xxx is the independent variable.
+    - kkk is the constant of proportionality.
+    - The ratio yx=k\frac{y}{x} = kxy​=k is constant.
+#### Direct Proportionality
 - Two quantities xxx and yyy are directly proportional if they change at the same rate, and this relationship can be expressed as: y=kxy = kxy=kx where kkk is a constant of proportionality.
 
 **Equality of Ratios:**
@@ -81,7 +228,6 @@ These expressions are equivalent: y=kximpliesyx=ky = kx \quad \text{implies} \qu
 ### Another new section...
 So linear equations with their “proportional” relationships they represent- where proportional actually means when two quantities are related by a similar factor? So if y= a* x then tho they are different values, they are still connected by a factor of a
 
-![GPT](https://files.oaiusercontent.com/file-ZGfFzOMFsxc0kZJr3WFmZvw2?se=2124-02-23T20%3A31%3A36Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D1209600%2C%20immutable&rscd=attachment%3B%20filename%3Dffa7bed3-7e96-4cfb-8738-35a2a5fa7062.png&sig=VxV1c6BrTtGus2DUd4p6spuJPgP2evB6lhIiYSdmkMg%3D)
 
 Yes, exactly! In linear equations, the term "proportional" means that two quantities are related by a constant factor. This constant factor is the coefficient in the equation, which defines how one quantity changes in relation to another. Here’s a detailed explanation:
 
