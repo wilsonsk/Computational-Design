@@ -14,7 +14,7 @@ related:
   - "[[SubD Surface Patterns]]"
   - "[[Meshes]]"
   - "[[Surface Strategies]]"
-  - "[[Transformations]]"
+  - "[[Transformations/Transformations]]"
 date created: 2024-03-26
 ---
 # Grids
@@ -163,7 +163,7 @@ This methodology allows designers to explore a broad spectrum of pattern designs
 #### [[Surface Strategies#Example Hexagonal Pattern|Hexagonal Pattern]]
 
 ## Operations on Grids
-### [[Transformations|Transformation]] Operations:
+### [[Transformations/Transformations|Transformation]] Operations:
 
 #### Translation:
 Moving grid points along the UV axes to adjust their positions without altering the surface geometry.

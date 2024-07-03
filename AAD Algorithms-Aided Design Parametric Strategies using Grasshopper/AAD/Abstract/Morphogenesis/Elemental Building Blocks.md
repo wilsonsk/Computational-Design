@@ -36,11 +36,11 @@ A [[Grids|grid]] is a subset of the set of lines/curves of the plane/surface (i.
 
 A solid or closed surface is a set of a set of [[Surfaces|planes/surfaces]], each being a set of a set of lines/curves, each being a set of points.
 	I.e. The series of planes/surfaces bound within a [[Domain|domain]].
-	I.e. The [[Transformations|transformation of a plane/surface]].
-## [[Transformations#Measures the change between two Points points *P(x,y)* and *P'(x',y')*|Transformations]] of Points as the Fundamental Operation of Generation of Form
+	I.e. The [[Transformations/Transformations|transformation of a plane/surface]].
+## [[Transformations/Transformations#Measures the change between two Points points *P(x,y)* and *P'(x',y')*|Transformations]] of Points as the Fundamental Operation of Generation of Form
 I.e. The [[Computational Design Thinking#The Synthesis of Process as a as a Model|fundamental relationships]] of design.
 
-A [[Transformations#Point to Curve|transformation of a single point/vertex]].
+A [[Transformations/Transformations#Point to Curve|transformation of a single point/vertex]].
 	Which generates a ordered set of points/vertices.
 		 This set of points defines (i.e. determine the bounds of) a line/curve.
 			 I.e. [[Curves|Line/curve generation]].

@@ -1,6 +1,6 @@
 ---
 up:
-  - "[[Transformations]]"
+  - "[[Transformations/Transformations]]"
 related:
   - "[[Curves]]"
   - "[[Surfaces]]"

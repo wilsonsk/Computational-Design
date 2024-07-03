@@ -2,7 +2,7 @@
 Differential geometry is a branch of mathematics that uses techniques of calculus and linear algebra to study geometric problems. 
 	It focuses on the properties of curves, surfaces, and more general geometric structures that are smooth (i.e., [[Derivatives#Differentiable Function|differentiable]]).
 
-The term "**[[Derivatives#Differential|differential]]**" refers to a [[Linear Map|linear map]] that approximates how [[Functions|functions]] or maps change in a smooth and consistent manner at an infinitesimal level.
+The term "**[[Derivatives#Differential|differential]]**" refers to a [[Linear Mapping|linear map]] that approximates how [[Mapping|functions]] or maps change in a smooth and consistent manner at an infinitesimal level.
 	This concept is central to understanding how [[Curves|curves]] and [[Surfaces|surfaces]] behave and interact locally.
 
 ## Key Components of Differential Geometry

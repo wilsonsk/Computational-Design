@@ -66,7 +66,7 @@ In kinematics, the motion of objects can often be described using specific equat
 		- Where 𝑥x is the final position, 𝑥0x0​ is the initial position, 𝑣0v0​ is the initial velocity, 𝑎a is the acceleration, and 𝑡t is the time.
 	1. 𝑣2=𝑣02+2𝑎(𝑥−𝑥0)v2=v02​+2a(x−x0​)
 		- Where 𝑣v is the final velocity, 𝑣0v0​ is the initial velocity, 𝑎a is the acceleration, 𝑥x is the final position, and 𝑥0x0​ is the initial position.
-##### Types of [[Newton's Second Law#Transformations as Motion (i.e. Representing Motion)|Motion]] (i.e. [[Transformations|transformations]])
+##### Types of [[Newton's Second Law#Transformations as Motion (i.e. Representing Motion)|Motion]] (i.e. [[Transformations/Transformations|transformations]])
 ###### [[Uniform Motion|Uniform Motion]]
 Uniform motion refers to motion with a constant speed in a straight line. 
 	This means that the object covers equal distances in equal intervals of time, regardless of how small those intervals are.

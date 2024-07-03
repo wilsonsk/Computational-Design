@@ -516,7 +516,7 @@ Refers to the concept where [[Notion of Surface Curvature|curvature]] and [[Cont
 	Specifically, it is often discussed under the terms $G$ continuity and $C$ continuity.
 ### Geometric Continuity ($G$ Continuity)
 Focuses on the geometric smoothness of curves and surfaces. 
-It is less strict than $C$ Continuity because it allows [[Transformations|transformations]] like scaling and rotation that preserve geometric properties but not necessarily the strict derivative values.
+It is less strict than $C$ Continuity because it allows [[Transformations/Transformations|transformations]] like scaling and rotation that preserve geometric properties but not necessarily the strict derivative values.
 ##### $G0$ Continuity
 Positional continuity.
 	The functions have the same position at the joining point.

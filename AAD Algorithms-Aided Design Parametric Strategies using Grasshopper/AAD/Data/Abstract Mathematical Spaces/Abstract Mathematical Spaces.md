@@ -9,8 +9,6 @@ date created: 2024-04-22
 ---
 # Abstract Mathematical Spaces
 ## The Abstract, Non-Physical Environment
-In mathematics, a **space** is a [[#Set Theory|set]] (sometimes known as a [universe](https://en.wikipedia.org/wiki/Universe_(mathematics) "Universe (mathematics)")) with a definition (i.e. [[#Mathematical Structure|structure]]) of relationships among the [[#The Abstract Mathematical Objects that Model the Subject Under Study|Mathematical Objects]] of the set.
-
 **Fundamentally** a **scale** is **defined** by the **Mathematical, Abstract, Non-Physical Environment** that **defines** and **constrains** the Mathematical Abstract Non-Physical **Objects** and their behaviors and interactions that are **analyzed** at that scale.
 	It employed because it facilitates clear, objectively causal relationships between these abstract objects.
 		Thereby, defining and enabling these Abstract Mathematical Objects and their behaviors (possible [[#State|states]], properties, conditions, parameters) and the interactions (i.e. rules of interactions and relations) defined between them (called "additional structure).
@@ -22,51 +20,177 @@ A non-physical abstract environment reduces complexity by isolating mathematical
 Abstract environments provide a setting where relationships between mathematical objects are governed by pure logic, enabling clear, objective causality between them. This clarity helps mathematicians to deduce properties and explore mathematical truths through proofs and axioms​​.
 ###### Elimination of Ambiguity (i.e. clear, agreed upon, unambiguous definitions): 
 In abstract mathematics, concepts are defined rigorously through axioms and definitions, avoiding the ambiguity that can occur in the physical world​​. This allows mathematicians to draw clear conclusions and develop theories with internal consistency.
-## Defining Abstract Spaces
-### Nature of Abstract Spaces:
-#### Mathematical Structure:
-Is a [[#Set Theory as a Foundation for Abstract Environments|set]] or set (i.e. collection) of sets with various associated [mathematical objects](https://abstractmath.org/MM/MMMathObj.htm) such as subsets, sets of subsets, [operations](https://abstractmath.org/MM/MMFuncExamples.htm#binaryoperation) and [relations](https://en.wikipedia.org/wiki/Binary_relation), all of which must satisfy various requirements ([axioms](https://abstractmath.org/MM/MMOtherAspectsUnderstanding.htm#axiomaticmethod)). 
-In recent times it has become common to define a mathematical structure using either [[#Category Theory|Category Theory]] or [type theory](https://en.wikipedia.org/wiki/Type_theory).
-	Math [[#Structured Set (i.e. the Mathematical Structure)|structures]] (the entire set of objects and rules) in practice are most commonly defined in terms of (mathematical) [spaces](https://en.wikipedia.org/wiki/Space_(mathematics)), and category theory and type theory makes it easier to give definitions directly in terms of spaces rather than sets.
-##### Higher-Level Set (i.e. The Abstract Mathematical Space - Category/Class of Structures/Universal)
-Elements/Components:
-- Contains the Structured Set.
-##### Structured Set (i.e. the Mathematical Structure)
-Elements/Components:
-- Contains the Underlying Set.
-- Contains the Additional Structure Set.
-##### Underlying Set (i.e. Base Set)
-Elements/Components:
-- Contains the raw Abstract Mathematical Objects without any additional structure or defined operations.
-##### Additional Structure (not equivalent to Mathematical Structure)
-Elements/Components:
-- Contains the rules of interactions and relations between the Abstract Mathematical Objects of a given Abstract Environment.
 
-This additional structure transforms a plain set into a specific mathematical object with particular properties and capabilities.
+- - - 
+## A Hierarchy
+The hierarchy from the most fundamental mathematical concepts (universal superset) to fields, spaces, categories, etc., is structured by increasing levels of complexity and structure.
+	Each subsequent level derives its elements and properties from the more fundamental levels, creating a layered approach to mathematical concepts.
+## The Universal Superset
+This is the most abstract and comprehensive set, **containing all possible** underlying, structured, and higher-level sets. 
+	Think of it as the "universe" of **all** mathematical objects and structures.
+### Elements of the Universal Superset
+#### The Underlying Set (i.e. Base Set)
+The most comprehensive set, containing all possible mathematical objects and structures.
+	The base set within the universal superset, containing all possible raw abstract mathematical objects.
+#### Elements of the Underlying Set
+Contains the "**all possible**" raw Abstract Mathematical Objects without any additional structure or defined operations.
+	All conceivable mathematical entities, both structured and unstructured.
+##### 1. Numerical Sets
+###### Natural Numbers ($\mathbb{N}$)
+The set of all positive integers (sometimes including zero).
+- **Example**: {0,1,2,3,…}.
+###### Integers ($\mathbb{Z}$)
+The set of all positive and negative whole numbers, including zero.
+	**Example**: {…,−3,−2,−1,0,1,2,3,…}.
+###### Rational Numbers ($\mathbb{Q}$)
+The set of all numbers that can be expressed as a fraction $\frac{p}{q}$​, where $p$ and $q$ are integers and $q \neq 0$.
+    **Example**: ${\frac{1}{2}, -\frac{3}{4}, 2, \frac{22}{7}}$.
+###### Real Numbers ($\mathbb{R}$)
+The set of all rational and irrational numbers.
+    **Example**: {0,1,π,2,−3.14}.
+###### Complex Numbers ($\mathbb{C}$)
+The set of all numbers of the form $a+bi$, where $a$ and $b$ are real numbers, and $i$ is the imaginary unit ($i^2 = -1$).
+    **Example**: {1+2i,−3i,4}.
+##### 2. Non-Numerical Sets
+###### Sets of Functions
+Function Spaces: The set of all continuous functions from a topological space $X$ to another space $Y$.
+	**Example**: The set $C([0,1])$ of all continuous functions on the interval $[0,1]$.
+###### Sets of Polynomials
+Polynomial Rings: The set of all polynomials with coefficients from a given field.
+	**Example**: The set of all polynomials with real coefficients, $\mathbb{R}[x]$.
+###### Sets of Matrices
+Matrix Spaces: The set of all $n \times m$ matrices over a field.
+	**Example**: The set of all $2 \times 2$ matrices with real entries, denoted $\mathbb{R}^{2 \times 2}$.
+###### Sets of Geometric Objects
+Vector Spaces in Geometry: The set of all vectors in a vector space.
+	**Example**: The set of all vectors in a 3-dimensional Euclidean space, $\mathbb{R}^3$.
+###### Sets of Graphs
+Graph Theory: The set of all graphs with a given property.
+	**Example**: The set of all simple graphs with a fixed number of vertices.
+###### Sets of Sequences
+Sequence Spaces: The set of all sequences of elements from a given set.
+	**Example**: The set of all infinite sequences of real numbers, $\ell^2$ (square-summable sequences).
+###### Sets of Symbols or Characters
+Formal Languages: The set of all strings of symbols from a given alphabet.
+	**Example**: The set of all binary strings, $\{0,1\}^*$.
+###### Topological Spaces
+Open Sets: The set of all open sets in a topological space.
+	**Example**: The collection of open intervals in the real line $\mathbb{R}$.
+###### Algebraic Structures
+Groups of Permutations: The set of all permutations of a given set.
+	**Example**: The symmetric group $S_n$, the set of all permutations of $n$ elements.
+##### Purpose of the Underlying Set
+Serves as the theoretical "universe" encompassing all mathematical constructs.
 
-They include rules for how operations are performed, which can involve algebraic operations, transformations, or mappings between elements of the set or between different sets.
+- - - 
+## Structured Set (i.e. Space)
+A subset of the Universal Superset.
 
-This structure transforms a simple collection of elements into a complex mathematical entity capable of supporting a wide range of mathematical operations and analyses.
+When a set is endowed with a structure, it becomes a "structured set" or "space."
+	"Structure" refers to additional operations, relations, and properties that are defined on a set to give it more meaning or to make it useful for certain purposes. 
+		The structure itself is not a set but rather a framework of rules and operations applied to a set.
 
-When we define addition and multiplication operations that adhere to field axioms (like associativity, commutativity, distributivity), we are adding structure.
+Structured sets are formed by taking a subset of the underlying set and adding a structure to it. 
+	The additional structure defines how the elements of the underlying set interact.
+		I.e. The combination of the underlying set and the additional structure. 
+#### Space
+The space refers to the set together with the defined structure (i.e. the operations and properties).
 
-Additional Structure Sets essentially equip a basic set with a defined set of rules and relations that elevate it into a structured mathematical entity capable of supporting complex theoretical investigations and practical applications.
-- **Creation of Mathematical Objects**: 
-	- The addition of structure to a set allows it to support more complex operations and to serve specific mathematical purposes. For example, adding a group structure allows for the study of symmetry and group actions in various mathematical and physical contexts.
-- **Enrichment of Properties**: 
-	- With additional structure, a set can exhibit new properties and behaviors. For instance, a topological structure allows for the discussion of continuity and connectedness, which are not definable in plain sets.
-- **Facilitation of Mathematical Operations and Analysis**: 
-	- Additional structure often defines how elements of the set can be manipulated and combined, which is critical for solving equations, proving theorems, and building further mathematical theory.
-###### Examples of Abstract Environments:
-- $R^2, R^3, R^n$
-- **Vector Spaces**: An environment where vectors exist and operations such as vector addition and scalar multiplication are defined.
-- **Fields**: Abstract systems in which addition, subtraction, multiplication, and division operations are defined, except division by zero.
-- **Topological Spaces**: These are sets equipped with a topology, a collection of "open" subsets that satisfy certain properties related to nearness and continuity.
-- **Metric Spaces**: Defined by a set with a metric (distance function) that describes the distance between any two points in the set.
-- **Hilbert Spaces**: Complete metric spaces with an inner product, facilitating the study of geometric and topological ideas in a more abstract setting.
-### The Frameworks for Describing and Comparing Abstract Mathematical Space
-#### Set Theory as a Foundation for Abstract Environments
-##### Structural Frameworks:
+In mathematics, a **space** is a [[#Set Theory|set]] (sometimes known as a universe (i.e. a collection that contains all the entities one wishes to consider in a given situation) with a definition of relationships among the [[Abstract Mathematical Objects|Mathematical Objects]] of the set.
+	Where "definition of relationships" refers to the "structure" of the space.
+		And the "Mathematical Objects" refer to the elements of the underlying set within the space.
+			Although the operations and functions of the space are also technically Mathematical Objects.
+
+A space consists of selected mathematical objects that are treated as [[Points|points]].
+and selected relationships between these points.
+	The nature of the points can vary widely: for example, the points can represent numbers, functions on another space, or subspaces of another space. 
+		It is the relationships (i.e. Morphisms) that define the nature of the space.
+#### Structure
+Structure on a set is the specification of additional operations, relations, and axioms that the set must satisfy. 
+	The structure defines how the elements of the set interact and behave according to certain rules.
+###### Adding Structure to a Set
+By defining operations ***on*** a set and imposing certain rules or axioms, we can impart structure to the set.
+	"**Defining on a set**", means that the operation, function, or property is specified in such a way that it applies to the elements of the set and governs their interactions.
+		This definition imparts structure to the set, transforming it into a structured set or space with specific mathematical properties.
+##### Components that compose the "Structure" of a Structured Set
+1. **Set**: 
+	The underlying collection of elements.
+		These are the Mathematical Objects of the Space.
+2. **Operations**:
+	Functions defined on the elements of the set (e.g., addition, multiplication).
+		These are specific functions or rules that describe how the elements of the set interact.
+3. **Axioms (Properties)**: 
+	Rules or conditions that the operations must satisfy (e.g., associativity, commutativity, distributivity).
+		These are the conditions or rules that the operations must satisfy to ensure the set behaves in a particular way.
+
+- - -
+## Types of Structured Sets (i.e. Spaces)
+
+### 1. Algebraic Structured Sets
+**Groups, Rings, Fields**: These terms come from the field of abstract algebra, where the focus is on algebraic operations and properties. They have been studied extensively and have well-established definitions and theories.
+
+Groups, rings, and fields **are** technically types of structured sets or spaces, as they all consist of sets with additional operations and axioms. 
+	The distinction often arises from the historical development and the specific contexts in which these terms are used.
+		Using specific terms like "group," "ring," and "field" helps to precisely describe the nature of the structure and the specific operations and axioms involved. 
+			This precision is crucial in mathematical discussions and writings to avoid ambiguity.
+
+Therefore, despite technically being structured sets (spaces), they are not referred to as such. 
+	While these can be viewed as "spaces" in a broad sense, they represent more narrowly defined structures compared to the wide variety of possible "spaces."
+#### Groups
+A set equipped with a single binary operation that satisfies the group axioms (closure, associativity, identity, and inverses).
+#### Rings
+A set equipped with two binary operations (addition and multiplication) that satisfy the ring axioms (additive commutativity, additive associativity, distributivity, etc.).
+
+**Origin of the Term**
+	The term "ring" comes from the German word "Zahlring," introduced by David Hilbert.
+		 It refers to the cyclical nature of addition and multiplication operations within the set, similar to a ring structure where operations bring you back to elements within the set.
+#### Fields
+A set that is a commutative ring with the additional property that every non-zero element has a multiplicative inverse.
+
+**Origin of the Term**
+The term "field" (German: "Körper") was introduced by Richard Dedekind. 
+	In English, "field" was chosen to reflect the idea of a set with both additive and multiplicative operations that can be inverted (except for zero).
+	
+A field can be thought of as a "field" of numbers where every non-zero element has a multiplicative inverse, reflecting a rich, fertile structure allowing for extensive arithmetic operations.
+### 2. "Spaces" (Not Purely Algebraic)
+The term "space" can refer to **any** set with additional structure, whether algebraic, topological, or geometric.
+	Spaces often incorporate geometric or topological structures, such as distances, open sets, norms, and inner products, which are not typically considered in the purely algebraic structures of groups, rings, and fields.
+###### Metric Spaces
+Metric Spaces: A set with a distance function (metric) defined between elements.
+	**Example**: The set $\mathbb{R}$ with the usual distance function $d(x, y) = |x - y|$.
+###### Topological Spaces
+Topological Spaces: A set with a topology, a collection of open sets satisfying certain axioms.
+	**Example**: The real line $\mathbb{R}$ with the standard topology.
+###### Normed Spaces
+Normed Spaces: A vector space on which a norm is defined.
+	**Example**: The set of all continuous functions on $[0,1]$ with the supremum norm, denoted $C([0,1])$.
+###### Banach Spaces
+Banach Spaces: A complete normed vector space.
+	**Example**: The space of all continuous functions on $[0,1]$ with the supremum norm, denoted $C([0,1])$.
+###### Hilbert Spaces
+Hilbert Spaces: A complete inner product space.
+	**Example**: The space of square-integrable functions, denoted $L^2([0,1])$.
+###### Function Spaces
+Function Spaces: A set of functions from one space to another, often equipped with additional structure like pointwise operations or norms.
+	**Example**: The set $C([0,1])$ of all continuous functions on the interval $[0,1]$.
+###### Measure Spaces
+Measure Spaces: A set equipped with a sigma-algebra and a measure.
+	**Example**: The set $\mathbb{R}$ with the Lebesgue measure.
+###### Manifolds
+Manifolds: A topological space that locally resembles Euclidean space.
+**Example**: The surface of a sphere, denoted $S^2$.
+###### Fiber Bundles
+Fiber Bundles: A space that is locally a product space but globally may have a different topological structure.
+	**Example**: The Möbius strip.
+###### Sobolev Spaces
+Sobolev Spaces: Function spaces that can accommodate derivatives up to a certain order.
+	**Example**: The set of functions on $[0,1]$ with square-integrable first derivatives, denoted $W^{1,2}([0,1])$.
+
+- - -
+## The Frameworks for Abstract Mathematical Space
+Describing and Comparing Abstract Mathematical Space
+### Set Theory as a Foundation for Abstract Environments
+##### Structural Frameworks
 **Abstract Mathematical Spaces** are **sets equipped with [[#Additional Structure (not equivalent to Mathematical Structure)|additional structure]]**, which defines operations, relations, or other **properties** that **define** **how** **[[#Underlying Set (i.e. Base Set)|elements]]** of the **set** (which the Abstract Space also contains within it) **interact** and **relate** to **each** **other**.
 #### Set Theory
 Set theory provides the **foundational framework** for **describing and defining abstract mathematical environments/spaces**. 
@@ -87,7 +211,7 @@ Set theory provides the **foundational framework** for **describing and defining
 - **Role in Other Disciplines**: Set theory's concepts are used to define the spaces and structures in other areas of mathematics. For example, in topology, a topological space is defined as a set of points along with a set of "open" subsets that satisfy certain properties. In algebra, structures like groups, rings, and fields are defined using sets equipped with one or more operations.
 **Universality**: 
 The general applicability of set theory makes it a universal language for discussing and defining abstract mathematical environments across all fields of mathematics and related disciplines.
-#### Category Theory
+### Category Theory
 Category theory extends beyond traditional set theory by focusing on the relationships between structures rather than just the structures themselves. 
 
 Category theory provides a [[#Higher-Level Set Set (i.e. Category/Class of Structures/Universal)|high-level framework]] (i.e. the set containing the [[#Structured Set|Structured Set]]) for describing and comparing Abstract Mathematical Environments as well as mathematical structures by emphasizing the relationships between abstract mathematical objects and the structure-preserving transformations (functors) that can exist between different categories.
@@ -100,7 +224,7 @@ A category is defined by a **set of objects** and **morphisms** (arrows) between
 - **Primary Focus**: In category theory, the primary focus is on the relationships (morphisms) between objects. This perspective is particularly useful for comparing how different structures behave and interact, rather than just comparing the structures (objects) themselves.
 - **Composition of Morphisms**: Morphisms can be composed, meaning if there is a morphism from object A to object B, and another from B to C, then there must also be a morphism from A to C. This composition must be associative, and for each object, there must be an identity morphism that acts as a neutral element in morphism composition.
 ##### Functors and Natural Transformations:
-- **Mapping**s:
+- **[[Mapping|Mapping]]**s:
 	- These tools in category theory allow for the mapping of objects and morphisms in one category to objects and morphisms in another, preserving their structural relationships. 
 	- Functors are mappings between categories that preserve the structure defined by objects and morphisms.
 	- A functor maps objects to objects and morphisms to morphisms, respecting the compositional structure (i.e., it preserves identities and compositions). 

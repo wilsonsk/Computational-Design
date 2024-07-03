@@ -35,7 +35,7 @@ Transformations are the mathematical descriptions or representations of motion.
 It's important to note that while transformations can represent motion, they can also represent static changes—like rotating a stationary object in a design without it needing to be in motion over time. 
 	The context ([[Dynamics Analysis|dynamic]] vs. [[Statics Analysis|static]]) dictates how transformations are interpreted.
 ### Types of Transformations
-[[Transformations|Transformations]], particularly [[Euclidean Transformations#Translations|translations]] and [[Euclidean Transformations#Rotations|rotations]], can be used to mathematically describe or represent the motion of objects in physics. 
+[[Transformations/Transformations|Transformations]], particularly [[Euclidean Transformations#Translations|translations]] and [[Euclidean Transformations#Rotations|rotations]], can be used to mathematically describe or represent the motion of objects in physics. 
 #### [[Euclidean Transformations#Translations|Translation Transformation]]
 Can describe an object [[Linear Motion|moving in a straight line]] from one location to another without changing its orientation or speed—akin to translational motion in physics.
 ###### Application to Force Vectors

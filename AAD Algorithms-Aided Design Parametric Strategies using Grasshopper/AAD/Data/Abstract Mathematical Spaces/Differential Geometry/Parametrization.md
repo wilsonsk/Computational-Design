@@ -9,7 +9,7 @@ A a way to describe curves using parameters.
 
 - - -
 ## Parametric Function
-A parametric function is a way of defining a curve by expressing the coordinates of the **[[Points|points]]** on the [[Curves|curve]] as [[Functions|functions]] of one or more parameters. 
+A parametric function is a way of defining a curve by expressing the coordinates of the **[[Points|points]]** on the [[Curves|curve]] as [[Mapping|functions]] of one or more parameters. 
 	Instead of describing $y$ as a function of $x$ (or vice versa) directly, parametric functions define both $x$ and $y$ (and potentially $z$ in three dimensions) in terms of an independent parameter $t$.
 ##### Form
 For a plane curve, the parametric equations are of the form

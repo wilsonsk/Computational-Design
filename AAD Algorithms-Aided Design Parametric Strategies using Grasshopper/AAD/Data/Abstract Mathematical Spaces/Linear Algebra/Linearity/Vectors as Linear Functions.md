@@ -5,7 +5,7 @@ related:
 date created: 2024-06-30
 ---
 # Vectors as Linear Functions
-In the context of functional analysis and [[Linear Map#Vector Space|vector spaces]], a continuous function can be thought of as a vector. 
+In the context of functional analysis and [[Linear Mapping#Vector Space|vector spaces]], a continuous function can be thought of as a vector. 
 	This might seem non-intuitive at first because we usually think of vectors as arrows in space with magnitude and direction. 
 		However, the concept of a vector can be generalized to include functions.
 ### Understanding Functions as Vectors

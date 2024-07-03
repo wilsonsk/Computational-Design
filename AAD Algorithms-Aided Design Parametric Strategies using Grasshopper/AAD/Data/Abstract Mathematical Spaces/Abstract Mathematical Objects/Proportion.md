@@ -18,7 +18,6 @@ In a general sense, proportion can also refer to the relationship between two qu
 
 A proportional relationship exists when two quantities vary directly with each other. 
 	If one quantity is multiplied by a constant, the other quantity is also multiplied by the same constant.
-
 ##### Types of Proportion
 ###### Linear Proportion (the "Strict" Definition of Proportion)
 A "proportion" typically refers to a linear relationship between two variables where one variable is a constant multiple of the other.
@@ -31,13 +30,36 @@ Relationships can also be Non-Linear, thought not strictly "proportional".
 
 - - -
 ## Components of Proportion
+#### The Form of Proportion
+Think of the $y$ and $x$ variables not as values, but as **vectors**.
+	Specifically, **units vectors** (i.e. quantities of $1$) along the $x$ or $y$ axes. 
+
+Now, think of 2 other variables, $a$ and $b$ that are **coefficients** or scalars of a variable quantity.
+##### Standard Form
+$$\LARGE ax + by = c$$
+Where $a$ and $b$ are coefficients (constants) that scale $x$ and $y$ respectfully.
+$c$ is a constant.
+$x$ and $y$ are unit vectors of 1 quantity along the $x$ and $y$ axes.
+	They essentially represent coordinates in a $R^2$ space.
+
+###### [[#The Constant of Proportionality|Constant of Proportionality]], $k$
+The ratio of $\frac{a}{b}$ determines their proportionality relative to the value of $c$. 
+$$\LARGE k = \frac{a}{b}$$
+##### Slope Intercept Form (i.e. $y$ Intercept Form)
+$$\LARGE y = mx + b$$
+This form expresses the dependent and linear relationship of $y$ to $x$.
+	Where the value of $y$ is determined by the Constant of Proportionality, $\LARGE k = \frac{a}{b}$. 
+		This ratio, the Constant of Proportionality scales $x$
+$$\LARGE m = \frac{a}{b}$$
+$$\LARGE ax + by = c \to y = \frac{-a}{b}x  + \frac{c}{b}$$
+$$\LARGE y = \frac{b}{d} \text{ and } x = \frac{c}{d} \text{ and } b = \frac{c}{b}$$
 #### [[Ratio|Ratios]]
 A ratio is a relationship between two numbers indicating how many times the first number contains the second. 
 	$$\LARGE \text{The ratio } \frac{a}{b} \text{ compares } a \text{ to } b.$$
 #### Equality of Ratios
 When two ratios are equal, it implies that the relationship between the first pair of numbers is the same as the relationship between the second pair. 
-	For instance, 
-	$$\LARGE \text{If } \frac{a}{b} = \frac{c}{d}$$​$$\LARGE \text{Then } a \text{ relates to } b \text{ in the same way that } c \text{ relates to } d$$
+	Asserts a relationship between 4 quantities.
+		$$\LARGE \text{If } \frac{a}{b} = \frac{c}{d}$$​$$\LARGE \text{Then } a \text{ relates to } b \text{ in the same way that } c \text{ relates to } d$$
 	$$\LARGE = a\cdot d = b \cdot c$$
 	$$\LARGE \text{This can be thought of as } y = ad \text{ and } kx = bc \text{ therefore, } k = \frac{bc}{x}$$
 	$$\LARGE \text{Remember that } ad = bc \text{ therefore, } y = bc \text{ thus } k = \frac{y}{x}$$

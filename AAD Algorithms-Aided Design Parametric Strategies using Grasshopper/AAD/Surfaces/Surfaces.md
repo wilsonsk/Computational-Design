@@ -13,6 +13,13 @@ related:
 date created: 2024-03-20
 ---
 # Surfaces
+
+## Surfaces as Functions
+![[Pasted image 20240630154205.png]]
+Recall that the graph of a function of two variables is a surface in R^3.
+
+## Surfaces and Linear Algebra (Vectors)
+
 ## Parametric Representation of a surface
 ^parametric-representation-of-a-surface
 ### Local Coordinate System:

@@ -42,7 +42,7 @@ $$\LARGE \frac{\partial f}{\partial x} == \partial_x f(x,y) == {\partial \over \
 ![[Pasted image 20240623222925.png|300]]
 *Remember: The [[Limits#Limit at a Specific Point|Limit]] in the following form represents the rate of change at a specific point, $a$.*
 $$\LARGE \frac{\partial f}{\partial y} == \partial_x f(x,y) == {\partial \over \partial y}f(x,y) = \lim_{h \rightarrow 0} {f(x,y+h) - f(x,y) \over h}$$
-#### Example of Partial Derivative as a Limit
+#### Example Calculating Partial Derivative as a Limit
 Use the definition of the partial derivative as a limit to calculate $\frac{\partial f}{\partial x}$ and $\frac{\partial f}{\partial y}$ for the function
 $$\LARGE f(x, y) = x^2 - 3xy + 2y^2 - 4x + 5y - 12$$
 ##### Solution
@@ -68,6 +68,8 @@ $$\LARGE = \lim_{h \to 0} \frac{-3xh + 4yh + 2h^2 + 5h}{h}$$
 $$\LARGE = \lim_{h \to 0} \frac{h(-3x + 4y + 2h + 5)}{h}$$
 $$\LARGE \frac{\partial f}{\partial x} = \lim_{h \to 0} (-3x + 4y + 2h + 5)$$
 $$\LARGE = -3x + 4y + 5$$
+#### Example Calculating Partial Derivative by Differentiating
+
 - - -
 
 ## Interpreting Partial Derivatives

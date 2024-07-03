@@ -1,6 +1,8 @@
-# Linear Map
+# Linear Mapping
 ## A Linear Map (i.e. a [[Linear Transformations|Linear Transformation]])
-Is a [[Functions|function]] between two vector spaces that preserves the operations of vector addition and scalar multiplication.
+Is a [[Mapping|function]] between two vector spaces that preserves the operations of vector addition and scalar multiplication.
+	I.e. Maps a vector (as input) to another vector (as output).
+		These vectors, are elements of Vectors Spaces.
 
 If $V$ and $W$ are vector spaces over the same field $F$, a function 
 $$T: V \rightarrow W$$ Is called a linear map if for all vectors $$\mathbf{u}, \mathbf{v} \in V$$ And all scalars $c \in F$, the following two conditions hold:
@@ -8,6 +10,8 @@ $$T: V \rightarrow W$$ Is called a linear map if for all vectors $$\mathbf{u}, \
 - **Additivity**: $$\LARGE T(\mathbf{u} + \mathbf{v}) = T(\mathbf{u}) + T(\mathbf{v})$$
 - **Homogeneity (Scalar Multiplication)**: $$\LARGE T(c \mathbf{u}) = c T(\mathbf{u})$$
 ### Vector Space
+A **vector space** is a set, whose elements are called **vectors**, with an operation of addition on the vectors and an operation called **scalar multiplication** allowing a vector to be multiplied by a number (or more generally by an element of a particular [field](https://en.wikipedia.org/wiki/Field_%28mathematics%29)). 
+
 A **vector space** (also known as a linear space) is a fundamental structure in linear algebra and many other areas of mathematics. 
 	It consists of a set of vectors, along with two operations: vector addition and scalar multiplication.
 	

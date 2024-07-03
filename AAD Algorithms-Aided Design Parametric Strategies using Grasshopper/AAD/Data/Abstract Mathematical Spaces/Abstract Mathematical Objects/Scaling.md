@@ -5,7 +5,7 @@ related:
 date created: 2024-06-11
 ---
 # Scaling (i.e. Dilation)
-## Scaling as a [[Transformations|Transformation]] (i.e. [[Newton's Second Law#Motion|motion]])
+## Scaling as a [[Transformations/Transformations|Transformation]] (i.e. [[Newton's Second Law#Motion|motion]])
 A transformation $T$ is called a **scaling transformation** (or simply **scaling**) if there exists a constant $k$ with $k > 1$ such that for any value $x$ in the space, the transformation $T$ maps $x$ to $k \cdot x$. 
 	This operation increases the magnitude of $x$ by the factor $k$.
 

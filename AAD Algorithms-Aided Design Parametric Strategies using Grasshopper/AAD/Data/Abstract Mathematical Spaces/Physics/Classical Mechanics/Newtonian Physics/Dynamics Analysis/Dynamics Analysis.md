@@ -58,7 +58,7 @@ In the broadest sense, change is considered the motion that measure between diff
 It is the expression of non-physical and physical processes and interactions.
 
 This definition holds across the various scales of the systems.
-#### [[Transformations|Transformations]]
+#### [[Transformations/Transformations|Transformations]]
 ###### [[Newton's Second Law#Translation Transformation|Translational Motion]]
 Dynamics studies how and why bodies move from one place to another under the influence of forces. 
 	This includes analyzing linear trajectories, acceleration, deceleration, and other aspects of translational motion. 
