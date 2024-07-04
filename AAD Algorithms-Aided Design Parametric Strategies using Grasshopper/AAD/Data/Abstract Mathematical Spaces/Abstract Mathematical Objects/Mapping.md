@@ -5,7 +5,7 @@ A mapping is a broad concept that refers to **any rule or process that associate
 The broadest concept, encompassing any rule that associates elements of one set with elements of another. This includes functions, relations, and transformations.
 ###### Mappings Are Not Restricted to Be Represented by Ordered Pairs
 They include any of the associations.
-## Sets
+## [[Abstract Mathematical Spaces#Structured Set (i.e. Space)|Sets]]
 A set is a well-defined **collection of distinct objects**, considered as an entity in its own right (and thus an element of some superset).  
 	The items which constitute a particular set are called the elements or members of the set.
 		Sets are one of the fundamental building blocks in mathematics and are used to define domains, codomains, and the relationships between them.

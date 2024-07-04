@@ -20,6 +20,42 @@
             }
           },
           {
+            "id": "dd2844aef2f7e763",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7bf851ae501a8c6a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data/Abstract Mathematical Spaces/Abstract Mathematical Spaces.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "708ef412c573c672",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data/Abstract Mathematical Spaces/Differential Geometry/Differential Geometry.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "4c2a9a71f0220f0f",
             "type": "leaf",
             "state": {
@@ -42,21 +78,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "970d540a0f9a9f3e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Vector Space.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -123,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Vector Space.md",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Partial Derivatives.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -140,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Vector Space.md",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Partial Derivatives.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -163,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Vector Space.md"
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Partial Derivatives.md"
               }
             }
           },
@@ -197,23 +220,25 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "970d540a0f9a9f3e",
+  "active": "e9f523721294dd5b",
   "lastOpenFiles": [
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Partial Derivatives.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Limits.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/A Map of Change as Rates to Limits of those Rates to Differentials to Derivatives.md",
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Spaces.md",
+    "Data/Abstract Mathematical Spaces/Differential Geometry/Differential Geometry.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Linearity/Linear Mapping.md",
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Mapping.md",
+    "Data/Abstract Mathematical Spaces/A Map of Linear Algebra, Calculus and Differential Geometry.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Vector Space.md",
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Division.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Linear Approximation.md",
     "images/Pasted image 20240630084728.png",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Abstract Mathematical Structures.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Proportion.md",
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Spaces.md",
-    "Data/Abstract Mathematical Spaces/A Map of Linear Algebra, Calculus and Differential Geometry.md",
     "Data/Abstract Mathematical Spaces/Abstract MAth.md",
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Mapping.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Structures",
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Division.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/A Map of Change as Rates to Limits of those Rates to Differentials to Derivatives.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Partial Derivatives.md",
     "Drawing/Computational and Parametric Thinking While Drawing.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Linearity/Linear Combinations.md",
     "Abstract/Binary Bits as the Substrate of Consciousness.md",
@@ -222,7 +247,6 @@
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Moment.md",
     "images/Pasted image 20240630154205.png",
     "images/Pasted image 20240630153708.png",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Limits.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Analysis.md",
     "images/Pasted image 20240630145638.png",
     "images/Pasted image 20240630145605.png",
@@ -232,7 +256,6 @@
     "Surfaces/Notion of Surface Curvature.md",
     "images/Pasted image 20240630084804.png",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Ratio.md",
-    "Surfaces/Surface Analysis.md",
     "Untitled",
     "Data/Abstract Mathematical Spaces/Differential Geometry",
     "Drawing",

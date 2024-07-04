@@ -1,8 +1,7 @@
-# Vector Space
+# Vector [[Abstract Mathematical Spaces#Structured Set (i.e. Space)|Space]]
 A vector space is a [[Abstract Mathematical Spaces#Structured Set (i.e. Space)|structured set]] consisting of a collection of vectors, which can be added together and multiplied ("scaled") by numbers, called scalars.
 ##### Scalar
 Scalars are typically elements of a field, such as the real numbers (R\mathbb{R}R) or complex numbers (C\mathbb{C}C). Vector spaces are fundamental in linear algebra and are used extensively in many areas of mathematics and science.
-
 ### Elements, Objects, and Structure of a Vector Space
 
 #### Elements of a Vector Space

@@ -12,6 +12,20 @@ related:
 date created: 2024-04-10
 ---
 # Derivatives
+The Rate of Change of a Function's Output Value, as one Input Variable Changes.
+	This rate of change is the Limit and also the Derivative. 
+		The ratio of the Function Output Value and the Change in the Input Variable Value, is the Differential Ratio, where both are themselves Differentials. 
+			This Differential Ratio is a type of Difference Quotient, the key characteristic is that the Numerator and Denominator are both Differentials.
+### *Note on "With Respect to..."*
+In terms of differentials, this phrasing refers to the variable that is changing or the variable with respect to which we are measuring the rate of change. 
+	When taking the derivative of a function, we are interested in how the function changes as one specific variable changes, while keeping other variables constant.****
+
+Mathematically, the [[#Differential|differential]] of $f(x)$ with respect to $x$ is given by:
+$$\LARGE df = \frac{df}{dx} \, dx$$
+Here:
+- $df$ is the differential of the function $f$.
+- $\frac{df}{dx}$ is the derivative of $f$ with respect to $x$, which tells us the rate of change of $f$ as $x$ changes.
+- $dx$ is the differential of $x$, representing a small change in $x$.
 ### Derivative as a Function
 The primary difference between finding the [[Limits#Limit as a Derivative at a Specific Point|derivative at a specific point]] and finding the general derivative function lies in whether or not you plug in a specific value for the variable.
 
@@ -25,10 +39,6 @@ The derivative function $f'(x)$ represents the rate of change of $f(x)$ at any p
 			If $f(x)$ is a differentiable function, its derivative function, denoted $f′(x)$ or $\frac{d}{dx}$, is defined as:
 $$\LARGE f'(x) = \lim_{{h \to 0}} \frac{f(x+h) - f(x)}{h}$$
 This derivative function $f′(x)$ gives the slope of the tangent line to the curve at any point $x$.
-## $f'(x)$
-The ratio of two [[#Differentiation|differentials]], such as $\frac{dx}{dt}$, is called a difference quotient, i.e. a **derivative**. 
-	It represents the rate at which one variable changes (i.e. one differential) with respect to another variable (i.e. another differential).
-		In this case, $\frac{dx}{dt}$ is the derivative of $x$ with respect to $t$, which indicates how $x$ changes as $t$ changes.
 
 For example, if $x$ represents position and $t$ represents time, $\frac{dx}{dt}$ would represent the velocity, which is the rate of change of position with respect to time
 
@@ -47,14 +57,26 @@ The derivative can be notated in various ways, including:
 - $f'(x)$
 - $\frac{df}{dx}$
 - $D_x f(x)$
+
 ## Differentiation
-**Differential** refers to an infinitesimally small change in a function's variable and its corresponding change in the function's value.
-	It is used in various contexts, including differentials in calculus and differential equations.
+Differentiation is the process of finding the derivative of a function. 
+	The derivative represents the rate at which a function is changing at any given point.
+
+Differentiation is used to determine the slope of a function at any point, find the rate of change, and solve problems involving motion, optimization, and other applications where rates of change are important.
+
+**Differentiation** is a process (finding the derivative).
+
+**Mathematical Representation**
+If you have a function $f(x)$, its derivative is denoted as
+$$\LARGE f'(x) \text{ or }\frac{df(x)}{dx}$$
 ### Differential
 The term "differential" comes from the concept of differences.
-	Differentiation refers to the changes or differences in output values of a function as the input changes. 
+	**Differential** refers to an infinitesimal change in a function's Output Value resulting from a small change in the input value. 
+		It is used in various contexts, including differentials in calculus and differential equations.
 
-The differential $dy$ is defined in terms of the derivative $f′(x)$ and the differential $dx$:
+**Differential** is a quantity (an infinitesimal change).
+
+For a function $y = f(x)$, the differential $dy$ is defined in terms of the derivative $f′(x)$ and the differential $dx$
 $$\LARGE dy = f'(x) \, dx$$
 ##### Differentials in a Limit 
 As $h$ approaches zero, this ratio becomes $\frac{dy}{dx}$, representing the instantaneous rate of change.
@@ -71,6 +93,16 @@ This represents the change in the independent variable over the interval $h$.
 
 The denominator $h$ is equivalent to/becomes the differential $dx$.
 	In differential terms, as $h$ approaches zero, this change is represented by $dx$ (the differential of the independent variable).
+## $f'(x) = f'(x) = \lim_{{h \to 0}} \frac{f(x+h) - f(x)}{h} = dx = \frac{dx}{dh}$
+Differentials imply a variable approaching zero.
+	Differentials are infinitesimally small changes or intervals.
+		Therefore, Differential Ratios imply the Limit of a ratio. 
+	
+The ratio of two [[#Differentiation|differentials]], such as $\frac{dx}{dt}$, is called a differential ratio, is also called, the **derivative**.
+	It represents the rate at which one variable changes (i.e. one differential) with respect to another variable (i.e. another differential).
+		In this case, $\frac{dx}{dt}$ is the derivative of $x$ with respect to $t$, which indicates how $x$ changes as $t$ changes.
+	
+And the Limit of this Differential Ratio as the Input Variable Value approaches $0$, 
 #### Derivative as a Ratio of Differentials
 The derivative $f′(x)$ can be interpreted as the ratio of the differential of the function $dy$ to the differential of the variable $dx$:
     $$\LARGE f'(x) = \frac{dy}{dx} \quad \text{and} \quad dy = f'(x) \, dx$$
@@ -252,8 +284,6 @@ The **[[Limits|limit]]** is the **means** of **transitioning** between the **ave
 	- If $P_1$ and $P_2$ are very "close" together distance wise:
 		- $T_1$ and $T_2$ will be almost equal.
 			- Therefore, $V$ will be almost **perpendicular** (i.e. normal, orthogonal) to both $T_1$ and $T_2$.
-
-
 ## Why [[Discontinuities|Discontinuities]] (i.e. disruptions in smoothness) Prevent the Existence of a Derivative
 Discontinuities prevent the existence of derivatives because the derivative is defined as the limit of the slope of secant lines as the points used to create them get infinitely close. 
 - This definition **presupposes** that the **function is continuous** at the point where the derivative is being calculated.
@@ -293,16 +323,76 @@ When a function is discontinuous at a point, there's a break in the curve at tha
 			- For smooth parts of the curve, as the points get infinitely close, the secant line approaches a unique position — the tangent line. 
 				- However, at a sharp corner or discontinuity, the limit of the secant line's position oscillates or becomes undefined as the points get closer, indicating the absence of a well-defined tangent line and thus a tangent vector.
 ## Calculating the Derivative 
-### Rules of Differentiation
+### 1. Using Limits to Define the Derivative
+The limit definition of the derivative fundamentally captures the idea of **how the output of a function changes with respect to changes in the input variable**. 
+	This approach involves a detailed process that directly examines the rate of change of the function's output as the input changes by a small amount.
+#### For a Specific Point
+The derivative of a function $f(x)$ at a point $x$ is fundamentally defined using limits. 
+	This definition captures the rate of change of $f(x)$ with respect to $x$:
+
+$$\LARGE f'(x) = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h}$$
+This limit definition can be broken down as follows:
+1. **Increment the Input:** Consider a small increment $h$ added to the input $x$, so you evaluate the function at $x + h$.
+2. **Change in Output:** Compute the change in the function's output, $f(x + h) - f(x)$.
+3. **Rate of Change:** Divide the change in output by the change in input $h$.
+4. **Limit:** Take the limit as $h$ approaches zero to find the instantaneous rate of change.
+##### General Steps
+$$\LARGE \text{1. Substitute } x + h \text{ into the function:}$$
+$$\text{Calculate } f(x + h) \text{ by substituting } x + h \text{ for every } x \text{ in the function } f(x).$$
+$$\LARGE \text{2. Form the difference quotient:}$$
+$$\LARGE \text{3. Calculate the difference (i.e. Simplify) } f(x + h) - f(x)$$
+$$\LARGE \text{4. Divide by } h:$$
+$$\LARGE \text{Form the quotient } \frac{f(x + h) - f(x)}{h}$$
+$$\LARGE \text{5. Take the limit as } h \text{ approaches 0:}$$
+$$\LARGE \text{Evaluate the limit } \lim_{h \to 0} \frac{f(x + h) - f(x)}{h}$$
+$$\text{This limit, if it exists, is the definition of the derivative of } f \text{ at } x, \text{ denoted }$$
+$$\LARGE f'(x) \text{ or } \frac{d}{dx} f(x)$$
+$$\LARGE \text{ Mathematically, it is expressed as:}$$
+$$\LARGE f'(x) = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h}$$
+### 2. Using the Rules of Differentiation
 ###### *Important*: You only ever apply the Differentiating Rules to the terms associated with the independent variable.
-#### Rate of Change of $t$ with Respect to Itself
-Is always 1.
-	I.e. The derivative of $t$ is simply 1. 
+#### This is Because...
+Differential rules, such as the power rule, product rule, and chain rule, provide straightforward methods for finding derivatives of functions.
+	These rules are used to differentiate terms with the $x$ variable with respect to $x$.
+
+Differential rules provide a set of formulas and shortcuts to efficiently find derivatives without explicitly computing the limit every time. 
+	These rules **apply directly to differentiating the variable with respect to itself** and are derived from the fundamental limit definition of the derivative.
+#### [[#Derivative of a Constant is Zero|Derivative of a Constant]]
+ A constant function $\LARGE f(x)=c$ means that the function's value does not change no matter what the input x is.
+	 *For Example:* if we know that the velocity is constant, then we know that the derivative which is acceleration, will be zero- as a constant velocity means to no change in velocity and thus no acceleration (i.e. rate of change of velocity).
+#### Derivative of a Linear Term, ($\LARGE ax$) aka Differentiating $x$ with Respect to Itself "*Directly*"
+The "derivative of a linear term" rule refers to the differentiation of a term of the form $ax$, where $a$ is a constant and $x$ is the variable. 
+	The rule states that the derivative of such a term with respect to $x$ is simply the constant coefficient $a$.
+$$\LARGE f(x)=ax == \text{A Linear Term}$$
+
+To find the derivative of $f(x)$ with respect to $x$, denoted as $\frac{d}{dx}(ax)$, we use the [[#Power Rule|Power Rule]]. 
+
+In the case of $\LARGE ax$, we can rewrite it as $\LARGE ax^1$. 
+
+Applying the power rule:
+$$\LARGE \frac{df}{dx}(ax^1) = a \cdot \frac{df}{dx} \cdot x^{1-1} = a \cdot 1x^0 = a \cdot 1 = a$$
+
+Therefore, the derivative of $ax$ with respect to $x$ is $a$.
+###### Rate of Change of $t$ with Respect to Itself "*Directly*"
+When we say "with respect to itself," we mean that we are differentiating a variable with respect to that same variable.
+	In this case, where f(x) = x, the derivative is always 1.
+		Where $f(x) = x^2 ,etc....$ it is still considered differentiating x with respect to x, but it is not a direct differentiation. 
+
+*For Example*:
+The derivative of $t$ is simply 1. 
 ![[Pasted image 20240604144939.png]]
 ![[Pasted image 20240604144946.png]]
 ![[Pasted image 20240604144953.png]]
 ![[Pasted image 20240604145001.png]]
 ![[Pasted image 20240604145006.png]]
+#### Constant Scalar Rule, ($\LARGE af(x)$)
+The constant scalar rule states that when you take the derivative of a constant multiplied by a function, the constant can be factored out of the differentiation process.
+	I.e. Allows factoring out the constant **before** differentiating the function.
+
+If $f(x) = c \cdot g(x)$, where $c$ is a constant scalar, and $g(x)$ is a differentiable **function**, then the derivative of $f$ with respect to $x$ is:
+#### $\LARGE \frac{d}{dx} \left( c \cdot g(x) \right) = c \cdot \frac{d}{dx} g(x)$
+###### Example
+#### $\LARGE \frac{d}{dx} (3x^3) = 3 \cdot \frac{d}{dx} (x^3) = 3 \cdot 3x^2 = 9x^2$
 #### Power Rule
 If $f(x) = x^n$, where $n$ is a constant, then the derivative of $f$ with respect to $x$ is given by:
 	Basically just decrease the exponent by 1, then place the original value of the exponent as a coefficient in front of the term. 
@@ -310,14 +400,18 @@ If $f(x) = x^n$, where $n$ is a constant, then the derivative of $f$ with respec
 
 ###### Example
 $\LARGE \frac{d}{dx} x^5 = 5x^4$ 
-#### [[#Derivative of a Constant is Zero]]
+##### Derivation of the Power Rule
+1. **Start with the Limit Definition:**
+$$\LARGE \frac{d}{dx}(x^n) = \lim_{h \to 0} \frac{(x + h)^n - x^n}{h}$$​
+2. **Expand Using the Binomial Theorem:**
+$$\LARGE (x + h)^n = x^n + nx^{n-1}h + \frac{n(n-1)}{2}x^{n-2}h^2 + \cdots + h^n$$
+3. **Subtract $\LARGE x^n$ and Simplify:**
+$$\LARGE \frac{(x + h)^n - x^n}{h} = \frac{nx^{n-1}h + \frac{n(n-1)}{2}x^{n-2}h^2 + \cdots + h^n}{h}$$
+$$\LARGE nx^{n-1} + \frac{n(n-1)}{2}x^{n-2}h + \cdots + h^{n-1}$$
+4. **Take the Limit as $\LARGE h \to 0$:**
+$$\LARGE \lim_{h \to 0} \left(nx^{n-1} + \frac{n(n-1)}{2}x^{n-2}h + \cdots + h^{n-1}\right) = nx^{n-1}$$
 
-#### Constant Multiple Rule
-If $f(x) = c \cdot g(x)$, where $c$ is a constant and $g(x)$ is a differentiable function, then the derivative of $f$ with respect to $x$ is:
-#### $\LARGE \frac{d}{dx} \left( c \cdot g(x) \right) = c \cdot \frac{d}{dx} g(x)$
-###### Example
-#### $\LARGE \frac{d}{dx} (3x^3) = 3 \cdot \frac{d}{dx} (x^3) = 3 \cdot 3x^2 = 9x^2$
-
+This shows that the derivative of xnx^nxn with respect to xxx is nxn−1nx^{n-1}nxn−1.
 #### Sum Rule
 If $f(x) = g(x) + h(x)$, where $g(x)$ and $h(x)$ are differentiable functions, then the derivative of $f$ with respect to $x$ is:
 $\LARGE \frac{d}{dx} \left( g(x) + h(x) \right) = \frac{d}{dx} g(x) + \frac{d}{dx} h(x)$

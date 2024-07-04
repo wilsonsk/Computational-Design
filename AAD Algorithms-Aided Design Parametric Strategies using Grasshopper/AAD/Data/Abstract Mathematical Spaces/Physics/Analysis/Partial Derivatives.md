@@ -36,13 +36,17 @@ The following, is the Partial Derivative of $f(x,y)$ with respect to $x$.
 		Therefore, the interval value, $h$ is only added to $x$ and not $y$.
 			But the rest is the same as the conventional Limit. 
 				I.e. The limit of the rate of change of the output of the function, $f(x,y)$ as the $x$ changes.  
-![[Pasted image 20240623221622.png|300]]
-*Remember: The [[Limits#Limit at a Specific Point|Limit]] in the following form represents the rate of change at a specific point, $a$.*
+
+#### Partial Derivative of $f$ with Respect to $x$
 $$\LARGE \frac{\partial f}{\partial x} == \partial_x f(x,y) == {\partial \over \partial x}f(x,y) = \lim_{h \rightarrow 0} {f(x+h,y) - f(x,y) \over h}$$
-![[Pasted image 20240623222925.png|300]]
 *Remember: The [[Limits#Limit at a Specific Point|Limit]] in the following form represents the rate of change at a specific point, $a$.*
+![[Pasted image 20240623221622.png|300]]
+#### Partial Derivative of $f$ with Respect to $y$
 $$\LARGE \frac{\partial f}{\partial y} == \partial_x f(x,y) == {\partial \over \partial y}f(x,y) = \lim_{h \rightarrow 0} {f(x,y+h) - f(x,y) \over h}$$
-#### Example Calculating Partial Derivative as a Limit
+*Remember: The [[Limits#Limit at a Specific Point|Limit]] in the following form represents the rate of change at a specific point, $a$.*
+![[Pasted image 20240623222925.png|300]]
+
+#### Calculating Partial Derivative by Using the Limit
 Use the definition of the partial derivative as a limit to calculate $\frac{\partial f}{\partial x}$ and $\frac{\partial f}{\partial y}$ for the function
 $$\LARGE f(x, y) = x^2 - 3xy + 2y^2 - 4x + 5y - 12$$
 ##### Solution
@@ -68,8 +72,32 @@ $$\LARGE = \lim_{h \to 0} \frac{-3xh + 4yh + 2h^2 + 5h}{h}$$
 $$\LARGE = \lim_{h \to 0} \frac{h(-3x + 4y + 2h + 5)}{h}$$
 $$\LARGE \frac{\partial f}{\partial x} = \lim_{h \to 0} (-3x + 4y + 2h + 5)$$
 $$\LARGE = -3x + 4y + 5$$
-#### Example Calculating Partial Derivative by Differentiating
-
+#### Calculating Partial Derivative by Rules Of Differentiation
+$$\LARGE \frac{\partial f}{\partial x} = \frac{\partial}{\partial x} [x^2 - 3xy + 2y^2 - 4x + 5y - 12]$$
+$$\LARGE = \frac{\partial}{\partial x} [x^2] - \frac{\partial}{\partial x} [3xy] + \frac{\partial}{\partial x}[2y^2] - \frac{\partial}{\partial x}[4x] + \frac{\partial}{\partial x}[5y] - 12]$$
+##### 1st Term, $\LARGE x^2$
+[[Derivatives#Power Rule|Power Rule]] is applied.
+$$\LARGE [x^2] = 2x $$
+##### 2nd Term, $\LARGE -3xy$
+Utilizes the [[Derivatives#Constant Scalar Rule, ($ LARGE af(x)$)|Constant Scalar Rule]] to discretize $-3xy$.
+$$\LARGE -3y \text{ is treated as a constant scalar of x.}$$
+Then applies the [[Derivatives#Derivative of a Linear Term, ($ LARGE ax$) aka Differentiating $x$ with Respect to Itself "*Directly*"|Derivative of a Linear Term Rule]] for $\LARGE -3y \cdot x = -3y$
+$$\LARGE = -3y \cdot x = -3y \cdot 1(x^{1-1}) = -3y \cdot 1 = -3y$$
+##### 3rd Term, $\LARGE 2y^2$
+$\LARGE 2y^2$ contains no  x at all, so $\LARGE y$  is treated as a constant.
+	And therefore, the [[Derivatives#Constant Scalar Rule, ($ LARGE af(x)$)|Constant Scalar Rule]] is applied.
+$$\LARGE \text{The derivative of a constant is 0, } [2y^2] = 0 $$
+##### 4th Term, $\LARGE-4x$
+Utilize the [[Derivatives#Derivative of a Linear Term, ($ LARGE ax$)| Derivative of a Linear Term Rule]]
+$$\LARGE [4x] = 4 \cdot (1)x^{1-1}= 4 \cdot 1= 4$$
+##### 5th Term, $\LARGE 5y$
+$\LARGE 5y$ contains no  x at all, so $\LARGE y$  is treated as a constant.
+	And therefore, the [[Derivatives#Constant Scalar Rule, ($ LARGE af(x)$)|Constant Scalar Rule]] is applied.
+$$\LARGE \text{The derivative of a constant is 0, }= [5y] = 0 $$
+##### 6th Term, $\LARGE -12$
+$\LARGE -12$ contains no  x at all, so $\LARGE y$  is treated as a constant.
+	And therefore, the [[Derivatives#Constant Scalar Rule, ($ LARGE af(x)$)|Constant Scalar Rule]] is applied.
+$$\LARGE \text{The derivative of a constant is 0, }= [-12] = 0 $$
 - - -
 
 ## Interpreting Partial Derivatives

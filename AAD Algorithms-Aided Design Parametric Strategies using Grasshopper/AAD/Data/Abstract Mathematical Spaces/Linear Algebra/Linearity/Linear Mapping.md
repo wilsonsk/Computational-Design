@@ -1,4 +1,4 @@
-# Linear Mapping
+# Linear [[Mapping|Mapping]]
 ## A Linear Map (i.e. a [[Linear Transformations|Linear Transformation]])
 Is a [[Mapping|function]] between two vector spaces that preserves the operations of vector addition and scalar multiplication.
 	I.e. Maps a vector (as input) to another vector (as output).

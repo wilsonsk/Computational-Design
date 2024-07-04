@@ -155,38 +155,72 @@ A field can be thought of as a "field" of numbers where every non-zero element h
 ### 2. "Spaces" (Not Purely Algebraic)
 The term "space" can refer to **any** set with additional structure, whether algebraic, topological, or geometric.
 	Spaces often incorporate geometric or topological structures, such as distances, open sets, norms, and inner products, which are not typically considered in the purely algebraic structures of groups, rings, and fields.
-###### Metric Spaces
-Metric Spaces: A set with a distance function (metric) defined between elements.
-	**Example**: The set $\mathbb{R}$ with the usual distance function $d(x, y) = |x - y|$.
-###### Topological Spaces
-Topological Spaces: A set with a topology, a collection of open sets satisfying certain axioms.
-	**Example**: The real line $\mathbb{R}$ with the standard topology.
-###### Normed Spaces
-Normed Spaces: A vector space on which a norm is defined.
-	**Example**: The set of all continuous functions on $[0,1]$ with the supremum norm, denoted $C([0,1])$.
-###### Banach Spaces
-Banach Spaces: A complete normed vector space.
-	**Example**: The space of all continuous functions on $[0,1]$ with the supremum norm, denoted $C([0,1])$.
-###### Hilbert Spaces
-Hilbert Spaces: A complete inner product space.
-	**Example**: The space of square-integrable functions, denoted $L^2([0,1])$.
-###### Function Spaces
-Function Spaces: A set of functions from one space to another, often equipped with additional structure like pointwise operations or norms.
-	**Example**: The set $C([0,1])$ of all continuous functions on the interval $[0,1]$.
-###### Measure Spaces
+> [!NOTE] ###### Metric Spaces
+> Metric Spaces: A set with a distance function (metric) defined between elements.
+	>**Example**: The set $\mathbb{R}$ with the usual distance function $d(x, y) = |x - y|$.
+> ###### Topological Spaces
+> Topological Spaces: A set with a topology, a collection of open sets satisfying certain axioms.
+	> **Example**: The real line $\mathbb{R}$ with the standard topology.
+> ###### Normed Spaces
+> Normed Spaces: A vector space on which a norm is defined.
+> 	**Example**: The set of all continuous functions on $[0,1]$ with the supremum norm, denoted $C([0,1])$.
+> ###### Banach Spaces
+> Banach Spaces: A complete normed vector space.
+	> **Example**: The space of all continuous functions on $[0,1]$ with the supremum norm, denoted $C([0,1])$.
+> ###### Hilbert Spaces
+> Hilbert Spaces: A complete inner product space.
+	> **Example**: The space of square-integrable functions, denoted $L^2([0,1])$.
+> ###### Function Spaces
+> Function Spaces: A set of functions from one space to another, often equipped with additional structure like pointwise operations or norms.
+> 	**Example**: The set $C([0,1])$ of all continuous functions on the interval $[0,1]$.
+> ###### Measure Spaces
 Measure Spaces: A set equipped with a sigma-algebra and a measure.
-	**Example**: The set $\mathbb{R}$ with the Lebesgue measure.
-###### Manifolds
-Manifolds: A topological space that locally resembles Euclidean space.
-**Example**: The surface of a sphere, denoted $S^2$.
-###### Fiber Bundles
-Fiber Bundles: A space that is locally a product space but globally may have a different topological structure.
-	**Example**: The Möbius strip.
-###### Sobolev Spaces
-Sobolev Spaces: Function spaces that can accommodate derivatives up to a certain order.
-	**Example**: The set of functions on $[0,1]$ with square-integrable first derivatives, denoted $W^{1,2}([0,1])$.
+> 	**Example**: The set $\mathbb{R}$ with the Lebesgue measure.
+> ###### Manifolds
+> Manifolds: A topological space that locally resembles Euclidean space.
+> **Example**: The surface of a sphere, denoted $S^2$.
+> ###### Fiber Bundles
+> Fiber Bundles: A space that is locally a product space but globally may have a different topological structure.
+> 	**Example**: The Möbius strip.
+> ###### Sobolev Spaces
+> Sobolev Spaces: Function spaces that can accommodate derivatives up to a certain order.
+> 	**Example**: The set of functions on $[0,1]$ with square-integrable first derivatives, denoted $W^{1,2}([0,1])$.
 
 - - -
+## Structuring/Equipping a Set (i.e. Space)
+This term describes the process of defining operations and properties on an underlying set to form a structured set or space.
+
+This refers to the general process of starting with an underlying set and defining operations, properties, and axioms to create a more complex mathematical object.
+### The Relationship Between a Structured Set and the Underlying Set
+#### Underlying Set is More Fundamental Than the Structured Set
+An underlying set is more fundamental than the structure in the sense that it serves as the basic collection of elements upon which the structure is built.
+	The structure is built on top of this set by defining specific operations and axioms, creating a more complex and rich mathematical object, and ensuring these operations satisfy certain properties and axioms.
+### Sequence of Steps in Structuring a Set
+##### 1. Start with an Underlying Set
+Identify the basic set of elements that will form the foundation of the structured set.
+- **Example**: The set of real numbers $\mathbb{R}$.
+##### 2. Define Operations
+Specify the operations that will be performed on the elements of the underlying set.
+- **Example**:
+    - Vector addition:
+	    $$(x_1, y_1, z_1) + (x_2, y_2, z_2) = (x_1 + x_2, y_1 + y_2, z_1 + z_2)$$
+    - Scalar multiplication: For a scalar $\LARGE a \in \mathbb{R}$
+	    $$\LARGE a \cdot (x, y, z) = (a x, a y, a z)$$
+##### 3. Define Properties and Axioms
+- **Properties**: Specify the properties that the operations must satisfy to ensure the set becomes a well-defined structured set.
+- **Axioms**: These are formal statements that the operations and elements must satisfy.
+> [!note] Examples
+> - Associativity of addition: $(\mathbf{u} + \mathbf{v}) + \mathbf{w} = \mathbf{u} + (\mathbf{v} + \mathbf{w})$
+> - Commutativity of addition: $\mathbf{u} + \mathbf{v} = \mathbf{v} + \mathbf{u}$
+> - Identity element of addition: There exists a zero vector $\mathbf{0}$ such that $\mathbf{u} + \mathbf{0} = \mathbf{u}$
+> - Inverse elements of addition: For each vector $\mathbf{u}$, there exists a vector $-\mathbf{u}$ such that $\mathbf{u} + (-\mathbf{u}) = $\mathbf{0}$
+> - Distributivity: $a(\mathbf{u} + \mathbf{v}) = a\mathbf{u} + a\mathbf{v}$ and $(a + b)\mathbf{u} = a\mathbf{u} + b\mathbf{u}$
+##### 4. Form the Structured Set
+- **Resulting Set**: Combine the underlying set with the defined operations and properties to form the structured set.
+- **Example**: The set $\mathbb{R}^3$ with the defined operations and axioms forms a vector space.
+
+- - -
+
 ## The Frameworks for Abstract Mathematical Space
 Describing and Comparing Abstract Mathematical Space
 ### Set Theory as a Foundation for Abstract Environments

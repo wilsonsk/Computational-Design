@@ -4,6 +4,33 @@ Differential geometry is a branch of mathematics that uses techniques of calculu
 
 The term "**[[Derivatives#Differential|differential]]**" refers to a [[Linear Mapping|linear map]] that approximates how [[Mapping|functions]] or maps change in a smooth and consistent manner at an infinitesimal level.
 	This concept is central to understanding how [[Curves|curves]] and [[Surfaces|surfaces]] behave and interact locally.
+## Curve
+Curve defined as a differentiable map $\LARGE \alpha$ of an open interval $\LARGE I = (a,b)$ of the real line $\LARGE R$ into $\LARGE R^3$.
+$$\LARGE \alpha: I \to \mathbb{R}^3$$
+
+#### Map $\LARGE \alpha : I \to R^3$
+Is a function that assigns to each real number $t \in I$ a point $\alpha(t)$ in three-dimensional space.
+	The notation $\alpha: I \to \mathbb{R}^3$ specifies that $\alpha$ is a map (function) from the set $I$ to the set $\mathbb{R}^3$.
+#### The Domain $R$, Open Interval $\LARGE I = (a,b)$
+$I$ is an open interval on the real line $\mathbb{R}$. 
+	This means it includes all real numbers between $a$ and $b$, but not the endpoints $a$ and $b$ themselves.
+	
+This interval $I$ serves as the domain of the function $\alpha$.
+	This means that $\alpha$ takes values from within this interval.
+	
+The domain of $\alpha$ is an interval on the real line, meaning $\alpha$ takes values from a continuous set of real numbers between $a$ and $b$, not including $a$ and $b$.
+#### Superset of the Domain , $\LARGE\mathbb{R}$ (i.e. Real Line)
+The real line $\mathbb{R}$ is the set of all real numbers.
+	In this context, it emphasizes that $I$ is a subset of the real numbers.
+	
+It extends infinitely in both positive and negative directions.
+	It can be visualized as a continuous, one-dimensional line where every point on the line corresponds to a real number.
+###### Into the Codomain, $\LARGE \mathbb{R}^3$
+This part indicates that the function $\alpha$ maps points from the interval $I$ to points in three-dimensional space $\mathbb{R}^3$.
+
+The codomain is three-dimensional space, meaning $\alpha$ produces points with three coordinates $(x(t), y(t), z(t))$.
+##### "Parametrized" means the curve is described using a parameter (typically $t$).
+##### "Differentiable" means that the function describing the curve is smooth and has derivatives.
 
 ## Key Components of Differential Geometry
 #### Parametrization
