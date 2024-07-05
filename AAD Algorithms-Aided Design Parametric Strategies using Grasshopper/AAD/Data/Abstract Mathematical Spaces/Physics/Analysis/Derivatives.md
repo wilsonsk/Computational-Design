@@ -189,7 +189,7 @@ The denominator $h$ is equivalent to/becomes the differential $dx$.
 	In differential terms, as $h$ approaches zero, this change is represented by $dx$ (the differential of the independent variable).
 
 - - -
-### The Differential (i.e. the Limit) is the Instantaneous Rate of Change
+### The Differential (i.e. a Limit) is the Instantaneous Rate of Change
 #### Think About it...
 When the change becomes infinitesimal, the interval between the two points approaches $0$.
 	Therefore, the rate of change between these two points, begins to represent the smallest interval of change.
@@ -208,46 +208,276 @@ This ratio is the slope of a linear function.
 $$\LARGE f'(x) = \frac{df}{dx} = \lim_{h \to 0} = \frac{f(x+h) - f(x)}{h}$$
 As $h$ approaches zero, this average slope becomes the instantaneous slope, which is the Tangent Line.
 ![[Pasted image 20240422232308.png]]
-### The Differential Ratio *is* the *Limit of the* Slope of the Tangent Line (i.e. the Instantaneous Rate of Change)
+## The Differential Ratio *is* the Limit *of* the Slope of the Tangent Line
 ![[Pasted image 20240422233019.png]]
-
-
-
-
 The Limit of the slope of this tangent line is the derivative of the function at that point, $f'(x)$.
-
-
-
+#### Which is the Derivative
 A derivative (of a function $f(x)$) at a single point $f'(x)$, is itself a function that maps that single point (as an input) to the **value** of the **limit** of the **average rate of change** (i.e. limit of $\Delta y / \Delta x$) of that input.
 
-The differentiation of function values is represented/expressed in the fact that the derivative is defined as the **limit of the difference quotient**. 
-	This quotient is a [[Division#Ratio|ratio]] - i.e. a rate of change.
-		This ratio is called the **derivative**.
-			The derivative (i.e. the ratio of the change in output values to the change in the input values) represents how a small change in the input (independent variable) results in a change in the output (dependent variable).
+The differential of the function is represented/expressed in the fact that the derivative is defined as the **limit of the Differential Ratio**. 
+	This ratio is called the **derivative**.
+		The derivative (i.e. the ratio of the change in output values to the change in the input values) represents how a small change in the input (independent variable) results in a change in the output (dependent variable).
+
+- - -
+## Derivative Is 
+### 1. [[#The Ratio of Differentials *is* the Derivative|A Ratio of Differentials]]
+Ratios are a fundamental to the concept of the derivative.
+It [[Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Measurement|measures]] the output ($\Delta y$) (i.e. the differential $dy$) of a function $f(x)$ is proportioned to the input ($\Delta x$) (i.e. the differential $dx$) at an infinitesimally small scale.
+
+The derivative is the ratio of the change in the output to the change in the input as the change in the input approaches zero.
+### 2. [[#The Differential (i.e. the Limit) is the Instantaneous Rate of Change|The Instantaneous Rate of Change of a Function]]
+A derivative (of a function $f(x)$) at a single point $f'(x)$, is itself a function that maps that single point (as an input) to the **value** of the **limit** of the **average rate of change** (i.e. limit of $\Delta y / \Delta x$) of that input.
+### 3. [[#The Differential Ratio *is* the Limit *of* the Slope of the Tangent Line|The Limit of the Slope of the Tangent Line]]
+A **derivative** of a **function** at a point **provides the slope of the [[Tangent Line|tangent]] line to the function at that specific point**.^calculus-derivatives
+The **derivative** (which only exists for a given point) is itself is a **value** that represents the **exact slope** of the **tangent vector** at that **point** it is associated with (on the curve).
+	I.e. The **derivative** ***is*** the **slope of the tangent line**.
+		![[Pasted image 20240410150406.png]]
+ 
+ The **Tangent line (or vector)** at a single point, represents the **"instantaneous" rate of change** of the curve (i.e. function) at that point. ^f2b939
+	The slope of this tangent line/vector is given by the **derivative** of the curve/function at this point. ^1f0a97
+	The derivative at any point, gives the direction of the tangent vector at that point.
+		For surfaces, taking partial derivatives provides the tangent planes.
+
+Formally, the derivative at a point $a$, is **defined** as the [[Limits|limit]] of the slope of the [[Tangent Line|tangent line]] (i.e. **instantaneous rate of change**)
+![[Pasted image 20240422232308.png]]
+![[Pasted image 20240422233019.png]]
+As the **interval or distance** over which the change is measured (between point $a$ and another determined point), **approaches zero**. ^c2858f
+	If this limit exists, then the function is **[[#Differentiability|differentiable]]** at that point, and the slope of the tangent line at this point is precisely the value of this limit itself - which is the derivative of that point.
+
+**The equation to determine the derivative is:**
+	The limit of the average rate of change as the interval (between two points) approaches zero.
+		Where the **average rate of change** over an interval of distance between two points is:
+			The **slope** of the **secant line** that connects those two points. 
+
+The **[[Limits|limit]]** is the **means** of **transitioning** between the **average rate of change** to the **instantaneous rate of change**. ^limit-as-a-transition
+![[Pasted image 20240410153825.png|400]] ^d8b06d
+
+- - -
+## Calculating the Derivative 
+### Defining the Derivative at a Point vs. as a Function
+##### Defined for a Specific Point
+The primary difference between finding the [[Limits#Limit as a Derivative at a Specific Point|derivative at a specific point]] and finding the general derivative function lies in whether or not you plug in a specific value for the variable.
+##### Defining as a Function (i.e. for a set of points)
+When represented as functions, describe the rate of change of a function at any point in its domain. 
+	This is known as the derivative function or simply the derivative of the function.
+		This derivative function provides a formula that can be used to find the slope of the tangent line to the function at any point in its domain.
+
+The derivative function $f'(x)$ represents the rate of change of $f(x)$ at any point $x$ in its domain. 
+	It is defined using the same [[Limits|limit]] process, but we do not fix $x$ at a specific value. 
+		Instead, we keep $x$ as a variable.
+			If $f(x)$ is a differentiable function, its derivative function, denoted $f′(x)$ or $\frac{d}{dx}$, is defined as:
+$$\LARGE f'(x) = \lim_{{h \to 0}} \frac{f(x+h) - f(x)}{h}$$
+This derivative function $f′(x)$ gives the slope of the tangent line to the curve at any point $x$.
+### 1. Using Limits to Define the Derivative
+The limit definition of the derivative fundamentally captures the idea of **how the output of a function changes with respect to changes in the input variable**. 
+	This approach involves a detailed process that directly examines the rate of change of the function's output as the input changes by a small amount.
+#### For a Specific Point
+The derivative of a function $f(x)$ at a point $x$ is fundamentally defined using limits. 
+	This definition captures the rate of change of $f(x)$ with respect to $x$:
+
+$$\LARGE f'(x) = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h}$$
+This limit definition can be broken down as follows:
+1. **Increment the Input:** Consider a small increment $h$ added to the input $x$, so you evaluate the function at $x + h$.
+2. **Change in Output:** Compute the change in the function's output, $f(x + h) - f(x)$.
+3. **Rate of Change:** Divide the change in output by the change in input $h$.
+4. **Limit:** Take the limit as $h$ approaches zero to find the instantaneous rate of change.
+##### General Steps
+$$\LARGE \text{1. Substitute } x + h \text{ into the function:}$$
+$$\text{Calculate } f(x + h) \text{ by substituting } x + h \text{ for every } x \text{ in the function } f(x).$$
+$$\LARGE \text{2. Form the difference quotient:}$$
+$$\LARGE \text{3. Calculate the difference (i.e. Simplify) } f(x + h) - f(x)$$
+$$\LARGE \text{4. Divide by } h:$$
+$$\LARGE \text{Form the quotient } \frac{f(x + h) - f(x)}{h}$$
+$$\LARGE \text{5. Take the limit as } h \text{ approaches 0:}$$
+$$\LARGE \text{Evaluate the limit } \lim_{h \to 0} \frac{f(x + h) - f(x)}{h}$$
+$$\text{This limit, if it exists, is the definition of the derivative of } f \text{ at } x, \text{ denoted }$$
+$$\LARGE f'(x) \text{ or } \frac{d}{dx} f(x)$$
+$$\LARGE \text{ Mathematically, it is expressed as:}$$
+$$\LARGE f'(x) = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h}$$
+### 2. Using the [[#Rules of Differentiation|Rules of Differentiation]]
+###### *Important*: You only ever apply the Differentiating Rules to the terms associated with the independent variable.
+#### This is Because...
+Differential rules, such as the power rule, product rule, and chain rule, provide straightforward methods for finding derivatives of functions.
+	These rules are used to differentiate terms with the $x$ variable with respect to $x$.
+
+Differential rules provide a set of formulas and shortcuts to efficiently find derivatives without explicitly computing the limit every time. 
+	These rules **apply directly to differentiating the variable with respect to itself** and are derived from the fundamental limit definition of the derivative.
+
+- - -
+## Derivatives of a Constant
+When you differentiate a function, any constant term disappears because the derivative of a constant (i.e. constant function) is zero. 
+
+A **constant function** is a function that always returns the same value, **regardless of the input**.
+	It does not depend on any variable and is represented mathematically as:
+	$$\LARGE f(x)=C, \text{where C is a constant}$$
+Here, $C$ is a fixed value and does not change with $x$.
+
+If $f(x) = c$, where $c$ is a constant, then the derivative of $f$ with respect to $x$ is zero:
+$$\LARGE \frac{d}{dx} c = 0$$
+### Think About it...
+If say the velocity is constant, then the rate of change of velocity - that is acceleration, is zero.
+	Because velocity is constant and thus does not have a rate of change, because it does not change.
+		And therefore, the derivative of velocity, that is, acceleration (i.e. the rate of change of velocity), does not exist.
+### Derivative of a Constant is Zero
+$$\LARGE f′(x)=\lim\limits_{​\triangle x \rightarrow 0} {f(x+\triangle x) - f(x) \over \triangle x}​$$
+##### 1. Constant Function
+A constant function $\LARGE f(x)=c$ means that the function's value does not change no matter what the input x is.
+		 *For Example:* if we know that the velocity is constant, then we know that the derivative which is acceleration, will be zero- as a constant velocity means to no change in velocity and thus no acceleration (i.e. rate of change of velocity).
+    - A constant function $\LARGE f(x)=c$ means that the function's value does not change no matter what the input x is.
+    - For example, $f(x)=5$ means the function always outputs 5, regardless of the value of x.
+##### 2. Rate of Change of a Constant Function
+Since the value of a constant function does not change, the rate of change (or the slope) is zero.
+	Using the definition of the derivative: 
+$$\LARGE f′(x)=\lim\limits_{​\triangle x \rightarrow 0} {f(x+\triangle x) - f(x) \over \triangle x}​$$
+For a constant function $f(x)=c$: 
+$$\LARGE f'(x) = \lim\limits_{\triangle x \rightarrow 0} {c -c\over \triangle x} = \lim\limits_{\triangle x \rightarrow 0} {0\over \triangle x} = 0$$
+#### Visualizing the Derivative of a Constant
+Imagine a flat horizontal line on a graph, like 𝑦=5y=5. This line has no slope; it does not rise or fall as you move along the 𝑥x-axis. The rate of change of this line is zero everywhere because it is perfectly flat.
+
+When you differentiate a function that includes a constant, the constant term "disappears" in the sense that its derivative is zero, which is why the constant does not affect the derivative of the rest of the function.
+
+- - -
+## Rules of Differentiation
+### Derivative of a Linear Term, ($\LARGE ax$)
+Aka Differentiating $x$ with Respect to Itself "*Directly*"
+The "derivative of a linear term" rule refers to the differentiation of a term of the form $ax$, where $a$ is a constant and $x$ is the variable. 
+	The rule states that the derivative of such a term with respect to $x$ is simply the constant coefficient $a$.
+$$\LARGE f(x)=ax == \text{A Linear Term}$$
+
+To find the derivative of $f(x)$ with respect to $x$, denoted as $\frac{d}{dx}(ax)$, we use the [[#Power Rule|Power Rule]]. 
+
+In the case of $\LARGE ax$, we can rewrite it as $\LARGE ax^1$. 
+
+Applying the power rule:
+$$\LARGE \frac{df}{dx}(ax^1) = a \cdot \frac{df}{dx} \cdot x^{1-1} = a \cdot 1x^0 = a \cdot 1 = a$$
+
+Therefore, the derivative of $ax$ with respect to $x$ is $a$.
+###### Rate of Change of $t$ with Respect to Itself "*Directly*"
+When we say "with respect to itself," we mean that we are differentiating a variable with respect to that same variable.
+	In this case, where f(x) = x, the derivative is always 1.
+		Where $f(x) = x^2 ,etc....$ it is still considered differentiating x with respect to x, but it is not a direct differentiation. 
+
+*For Example*:
+The derivative of $t$ is simply 1. 
+![[Pasted image 20240604144939.png]]
+![[Pasted image 20240604144946.png]]
+![[Pasted image 20240604144953.png]]
+![[Pasted image 20240604145001.png]]
+![[Pasted image 20240604145006.png]]
+
+- - -
+### Constant Scalar Rule, ($\LARGE af(x)$)
+The constant scalar rule states that when you take the derivative of a constant multiplied by a function, the constant can be factored out of the differentiation process.
+	I.e. Allows factoring out the constant **before** differentiating the function.
+
+If $f(x) = c \cdot g(x)$, where $c$ is a constant scalar, and $g(x)$ is a differentiable **function**, then the derivative of $f$ with respect to $x$ is:
+#### $\LARGE \frac{d}{dx} \left( c \cdot g(x) \right) = c \cdot \frac{d}{dx} g(x)$
+###### Example
+#### $\LARGE \frac{d}{dx} (3x^3) = 3 \cdot \frac{d}{dx} (x^3) = 3 \cdot 3x^2 = 9x^2$
+
+- - -
+### Power Rule
+If $f(x) = x^n$, where $n$ is a constant, then the derivative of $f$ with respect to $x$ is given by:
+	Basically just decrease the exponent by 1, then place the original value of the exponent as a coefficient in front of the term. 
+#### $\LARGE \frac{d}{dx} x^n = n x^{n-1}$ 
+
+###### Example
+$\LARGE \frac{d}{dx} x^5 = 5x^4$ 
+##### Derivation of the Power Rule
+1. **Start with the Limit Definition:**
+$$\LARGE \frac{d}{dx}(x^n) = \lim_{h \to 0} \frac{(x + h)^n - x^n}{h}$$​
+2. **Expand Using the Binomial Theorem:**
+$$\LARGE (x + h)^n = x^n + nx^{n-1}h + \frac{n(n-1)}{2}x^{n-2}h^2 + \cdots + h^n$$
+3. **Subtract $\LARGE x^n$ and Simplify:**
+$$\LARGE \frac{(x + h)^n - x^n}{h} = \frac{nx^{n-1}h + \frac{n(n-1)}{2}x^{n-2}h^2 + \cdots + h^n}{h}$$
+$$\LARGE nx^{n-1} + \frac{n(n-1)}{2}x^{n-2}h + \cdots + h^{n-1}$$
+4. **Take the Limit as $\LARGE h \to 0$:**
+$$\LARGE \lim_{h \to 0} \left(nx^{n-1} + \frac{n(n-1)}{2}x^{n-2}h + \cdots + h^{n-1}\right) = nx^{n-1}$$
+This shows that the derivative of $x^n$ with respect to $x$ is $nx^{n-1}$.
+
+##### Example of Power Rule via Limit Definition of a Derivative
+###### 1. Apply the Limit Definition:
+$$ \LARGE f'(x) = \frac{df}{dx}(x^2) = \lim_{h \to 0} \frac{(x + h)^2 - x^2}{h}$$
+###### 2. Expand and Simplify:
+$$ \LARGE f'(x) = \lim_{h \to 0} \frac{(x^2 + 2xh + h^2 - x^2)}{h} =  \lim_{h \to 0}\frac{(2xh + h^2)}{h} =  \lim_{h \to 0}(2x+h)$$
+###### 3. Take the Limit
+$$\LARGE \text{Where } h \text{ is } 0.$$
+$$\LARGE f'(x) = \lim_{h \to 0}(2x+h) = 2x$$
+
+- - -
+### Sum Rule
+If $f(x) = g(x) + h(x)$, where $g(x)$ and $h(x)$ are differentiable functions, then the derivative of $f$ with respect to $x$ is:
+$\LARGE \frac{d}{dx} \left( g(x) + h(x) \right) = \frac{d}{dx} g(x) + \frac{d}{dx} h(x)$
+###### Example
+#### $\LARGE \frac{d}{dx} (x^2 + x^3) = \frac{d}{dx} (x^2) + \frac{d}{dx} (x^3) = 2x + 3x^2$
 
 
+- - -
+### Difference Rule
+If $f(x) = g(x) - h(x)$, where $g(x)$ and $h(x)$ are differentiable functions, then the derivative of $f$ with respect to $x$ is:
+#### $\LARGE \frac{d}{dx} \left( g(x) - h(x) \right) = \frac{d}{dx} g(x) - \frac{d}{dx} h(x)$
 
-	
+#### Product Rule
+If $f(x) = g(x) \cdot h(x)$, where $g(x)$ and $h(x)$ are differentiable functions, then the derivative of $f$ with respect to $x$ is:
+#### $\LARGE \frac{d}{dx} \left( g(x) \cdot h(x) \right) = g(x) \cdot \frac{d}{dx} h(x) + h(x) \cdot \frac{d}{dx} g(x)$
 
-### Differential in Calculus
+###### Example
+#### $\LARGE \frac{d}{dx} (x^2 \cdot \sin(x)) = x^2 \cdot \cos(x) + \sin(x) \cdot 2x = x^2 \cos(x) + 2x \sin(x)$
 
-##### Differential Equations
-**Differential equations** are equations that involve the differentials of functions.
-	They express relationships between functions and their rates of change.
+- - -
+### Quotient Rule
+If $f(x) = \frac{g(x)}{h(x)}$, where $g(x)$ and $h(x)$ are differentiable functions and $h(x) \neq 0$, then the derivative of $f$ with respect to $x$ is:
+#### $\LARGE \frac{d}{dx} \left( \frac{g(x)}{h(x)} \right) = \frac{h(x) \cdot \frac{d}{dx} g(x) - g(x) \cdot \frac{d}{dx} h(x)}{(h(x))^2}$
+###### Example
+#### $\LARGE \frac{d}{dx} \left( \frac{x^2}{\sin(x)} \right) = \frac{\sin(x) \cdot 2x - x^2 \cdot \cos(x)}{(\sin(x))^2}$
 
-**Differential Equation**: An equation involving derivatives of a function.
-##### Ordinary Differential Equations (ODEs)
-Involve functions of a single variable and their derivatives. For example:
-    $$\frac{dy}{dx} = ky$$
-This is a first-order differential equation.
-    
-##### Partial Differential Equations (PDEs)
-Involve partial derivatives of functions of multiple variables. For example:
-    $$\frac{\partial u}{\partial t} = \alpha \frac{\partial^2 u}{\partial x^2}$$
-This is the heat equation, a second-order PDE.
 
-### Differentiability
-#### Differentiable Function
+- - -
+### Chain Rule
+The chain rule is a formula for computing the derivative of the composition of two or more functions.
+	If you have a function $f(x)$ that is composed of two functions $g$ and $h$, such that:
+	$$\LARGE f(x) = g(h(x))$$
+where:
+###### $g()$ is a [[#Differentiable Function|Differentiable Function]] of $h(x)$
+This means that $g$ is a function that can be differentiated with respect to its argument, which is $h(x)$.
+	In other words, if you treat the output value of $h(x)$ as a single variable, the function $g$ has a well-defined derivative at every point where $h(x)$ is defined.
+###### $h(x)$ is a Differentiable Function of $x$
+This means that $h$ is a function of $x$ that can be differentiated with respect to $x$.
+	In other words, $h$ has a well-defined derivative at every point in its domain.
+
+If $f(x) = g(h(x))$, where $g$ is a [[#Differentiable Function|differentiable function]] of $h(x)$ and $h(x)$ is a differentiable function of $x$, then the derivative of $f$ with respect to $x$ is:
+$$\LARGE \frac{d}{dx} g(h(x)) = g'(h(x)) \cdot h'(x)$$
+
+###### Example
+#### $\LARGE \frac{d}{dx} \sin(x^2) = \cos(x^2) \cdot 2x = 2x \cos(x^2)$
+
+
+- - -
+## Example: Using the Rules of Differentiation to find the  Derivative
+
+#### Given Position Function:
+
+![[Pasted image 20240602234115.png]]
+#### Find the Derivative:
+
+To find the derivative x′(t), we'll differentiate x(t) with respect to t.
+
+1. **Write the position function:** 
+	![[Pasted image 20240602234124.png]]
+2. **Differentiate each term:**
+	Differentiating each term in the function $x(t) = t^2 + 3t +2$ involves applying basic [[#Rules of Differentiation|rules of differentiation]]. 
+![[Pasted image 20240604144556.png]]
+
+![[Pasted image 20240602234407.png]]
+ ![[Pasted image 20240602234152.png]]
+3. **Combine the results:** 
+	![[Pasted image 20240602234201.png]]
+### Interpretation
+![[Pasted image 20240602234215.png]]
+
+- - -
+## Differentiability
+### Differentiable Function
 A **differentiable function** is a function that has a derivative at every point in its domain.
 	In other words, a function $f(x)$ is differentiable at a point $x = a$ if the derivative $f'(a)$ exists. 
 		More generally, a function is differentiable on an interval if it has a derivative at every point in that interval.
@@ -291,411 +521,8 @@ This limit must exist and be finite for the function to be differentiable at $x=
 Graphically, a function is differentiable at a point if the graph of the function has a well-defined tangent line at that point. 
 	This means the function does not have any sharp corners or cusps at the point, and the tangent line does not become vertical.
 
-## Critical Points
-###### Inflection Points:
-- Indicate the **change** from **concave** to **convex** or vice versa.
-	- If you imagine this triangle "traveling" the length of the curve:
-		- The way the **orientation** of $T_2$ changes relative to $T_1$ can indicate the **concavity** of the curve.
-	- An [[Curves#Inflection Point|Inflection]] point is suggested if $T_2$ **rotates** from one side of $T_1$ to the other as $P_1$ and $P_2$ "travel" along the curve.
-- An inflection point is typically a smooth, continuous transition or change in the curvature of a function.
-	![[Pasted image 20240410143446.png|500]]
-	- Take some $P_1 =C(s_1)$ on a curve $C$.
-		- $T_1$ = the **unit tangent vector** at this point $P_1$.
-	- $P_2$ is a point on $C$ that represents "a small movement" relative to $P_1$.
-		- $T_2$ = the **unit tangent vector** at this point $P_2$.
-	- Vector $V =T_2 - T_1$
-		- Notice that they combine to "make" a **triangle**.
-			- It represents the **rate of change** between the two points on the curve (in the function) $T_1$ and $T_2$.
-				- That is the approximation of the curve between $P_1$ and $P_2$.
-					- As the distances between $P_1$ and $P_2$ decrease, the **secant line** becomes a better approximation of the **tangent** $T_1$ at point $P_1$.
-			- The triangle visually describes the "smoothness" or **continuity** of a function.
-				- If the curve is smooth and function is differentiable at the measured points, then the tangent vectors will change gradually and not "jump".
-	- If $P_1$ and $P_2$ are very "close" together distance wise:
-		- $T_1$ and $T_2$ will be almost equal.
-			- Therefore, $V$ will be almost **perpendicular** (i.e. normal, orthogonal) to both $T_1$ and $T_2$.
-### Integrals in the Sequence
-1. **Limit**: Defines the concept of instantaneous change.
-2. **Derivative**: Uses the limit to define the rate of change of the function.
-3. **Differential**: Applies the derivative to approximate changes in the function values.
-4. **Integral**: Summarizes or accumulates the infinitesimal changes, essentially performing the inverse operation of differentiation.
-## Derivative Is 
-### A [[Division#Ratio|Ratio]] of Differentials
-Ratios are a fundamental to the concept of the derivative.
-It [[Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Measurement|measures]] the output ($\Delta y$) (i.e. the differential $dy$) of a function $f(x)$ is proportioned to the input ($\Delta x$) (i.e. the differential $dx$) at an infinitesimally small scale.
-
-The derivative is the ratio of the change in the output to the change in the input as the change in the input approaches zero.
-### Is the Instantaneous Rate (i.e. [[Division#Ratio|Ratio]]) of Change of a Function
-A derivative (of a function $f(x)$) at a single point $f'(x)$, is itself a function that maps that single point (as an input) to the **value** of the **limit** of the **average rate of change** (i.e. limit of $\Delta y / \Delta x$) of that input.
-#### Which Means it is the [[Tangent Line#The Slope of a Tangent Line|Slope]] (i.e. a rate/ratio between $\Delta y / \Delta x$) of the [[Tangent Line|Tangent Line]]
-A **derivative** of a **function** at a point **provides the slope of the [[Tangent Line|tangent]] line to the function at that specific point**.^calculus-derivatives
-- The **derivative** (which only exists for a given point) is itself is a **value** that represents the **exact slope** of the **tangent vector** at that **point** it is associated with (on the curve).
-	- I.e. The **derivative** ***is*** the **slope of the tangent line**.
-		![[Pasted image 20240410150406.png]]
- - The **Tangent line (or vector)** at a single point, represents the **"instantaneous" rate of change** of the curve (i.e. function) at that point. ^f2b939
-	- The slope of this tangent line/vector is given by the **derivative** of the curve/function at this point. ^1f0a97
-	- The derivative at any point, gives the direction of the tangent vector at that point.
-		- For surfaces, taking partial derivatives provides the tangent planes.
-
-## Formally, the derivative at a point $a$, is **defined** as the [[Limits|limit]] of the slope of the [[Secant Line|secant line]] (i.e. **average rate of change**)
-![[Pasted image 20240422232308.png]]
-![[Pasted image 20240422233019.png]]
-As the **interval or distance** over which the change is measured (between point $a$ and another determined point), **approaches zero**. ^c2858f
--  If this limit exists, then the function is **[[#Differentiability|differentiable]]** at that point, and the slope of the tangent line at this point is precisely the value of this limit itself - which is the derivative of that point.
-**The equation to determine the derivative is:**
-- The limit of the average rate of change as the interval (between two points) approaches zero.
-	- Where the **average rate of change** over an interval of distance between two points is:
-		- The **slope** of the **secant line** that connects those two points. 
-The **[[Limits|limit]]** is the **means** of **transitioning** between the **average rate of change** to the **instantaneous rate of change**. ^limit-as-a-transition
-![[Pasted image 20240410153825.png|400]] ^d8b06d
-
-## Why [[Discontinuities|Discontinuities]] (i.e. disruptions in smoothness) Prevent the Existence of a Derivative
-Discontinuities prevent the existence of derivatives because the derivative is defined as the limit of the slope of secant lines as the points used to create them get infinitely close. 
-- This definition **presupposes** that the **function is continuous** at the point where the derivative is being calculated.
-- **Impact on Derivatives**: ^discontinuities-prevent-limits-which-prevent-deriviatives
-	- Also, in actuality it is that [[Limits#Why Discontinuities Discontinuities (i.e. disruptions in smoothness) Prevent the Existence of a Limits|Discontinuities can prevent the existence of limits, which in turn means that derivatives at those points cannot be defined.]] 
-		- Without a limit, there is no way to talk about the slope of the function at the point of discontinuity. 
-			- You cannot have an instantaneous rate of change (derivative) where there is no consistent value for the function at that point.
-
-When a function is discontinuous at a point, there's a break in the curve at that point. 
-- Since the **derivative is the slope of the tangent line** to the curve **at a point**;
-	- And a **tangent line requires a smooth passage through the point**;
-		- A discontinuity creates a situation where there's no single, well-defined tangent line.
-
-**Cusps**:
-- A sudden change in direction (i.e. a sharp corner) of the curve $f(x)$ at point $a$.
-	- Even though this function might be continuous:
-		- The slopes of the **secant lines** from the **left and right** differ.
-			- Thus the limits from the left and right are not equal.
-				- Thus no unique slope (i.e. derivative) of the tangent at point $a$ exists.
-- Since the [[#^c2858f|derivative is defined in terms of the limit]]:
-			- If the limit does not exist for a given point, then the [[#^277add|derivative also does not exist]] for that same given point.
-- If $f(x)$ is continuous without discontinuities like cusps:
-	- The limits from left and right at any point, are equal.
-		- Thus a derivative exists for that point, having a well defined tangent line with a slope. 
-- **[[#Discontinuities|Discontinuity]]**:
-	- Discontinuities in a curve are positions where the curve "jumps" from one value to another without any connecting points in between.
-		- Without a continuous path:
-			- There is not "approaching" the point from either side in a meaningful way.
-				- Which means there's no slope of the secant to speak of.	
-- **How This Affects Tangent Vector Direction:**
-	- **Indeterminacy at Sharp Points**: 
-		- At points where the curve has a sharp change in direction (non-differentiable points), the concept of a single, well-defined tangent line breaks down. 
-			- If you tried to draw a tangent, you would find an infinite number of lines that could arguably be tangents, depending on the approach angle. 
-				- This indeterminacy means there's no unique tangent vector direction at such points.
-	- **Visualization with Secant Lines**: 
-		- Imagine drawing secant lines (lines connecting two nearby points on the curve) and then moving these points closer together towards the point of interest. 
-			- For smooth parts of the curve, as the points get infinitely close, the secant line approaches a unique position — the tangent line. 
-				- However, at a sharp corner or discontinuity, the limit of the secant line's position oscillates or becomes undefined as the points get closer, indicating the absence of a well-defined tangent line and thus a tangent vector.
-## Calculating the Derivative 
-### Defining the Derivative at a Point vs. as a Function
-The primary difference between finding the [[Limits#Limit as a Derivative at a Specific Point|derivative at a specific point]] and finding the general derivative function lies in whether or not you plug in a specific value for the variable.
-
-When represented as functions, describe the rate of change of a function at any point in its domain. 
-	This is known as the derivative function or simply the derivative of the function.
-		This derivative function provides a formula that can be used to find the slope of the tangent line to the function at any point in its domain.
-
-The derivative function $f'(x)$ represents the rate of change of $f(x)$ at any point $x$ in its domain. 
-	It is defined using the same [[Limits|limit]] process, but we do not fix $x$ at a specific value. 
-		Instead, we keep $x$ as a variable.
-			If $f(x)$ is a differentiable function, its derivative function, denoted $f′(x)$ or $\frac{d}{dx}$, is defined as:
-$$\LARGE f'(x) = \lim_{{h \to 0}} \frac{f(x+h) - f(x)}{h}$$
-This derivative function $f′(x)$ gives the slope of the tangent line to the curve at any point $x$.
-
-
-### 1. Using Limits to Define the Derivative
-The limit definition of the derivative fundamentally captures the idea of **how the output of a function changes with respect to changes in the input variable**. 
-	This approach involves a detailed process that directly examines the rate of change of the function's output as the input changes by a small amount.
-#### For a Specific Point
-The derivative of a function $f(x)$ at a point $x$ is fundamentally defined using limits. 
-	This definition captures the rate of change of $f(x)$ with respect to $x$:
-
-$$\LARGE f'(x) = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h}$$
-This limit definition can be broken down as follows:
-1. **Increment the Input:** Consider a small increment $h$ added to the input $x$, so you evaluate the function at $x + h$.
-2. **Change in Output:** Compute the change in the function's output, $f(x + h) - f(x)$.
-3. **Rate of Change:** Divide the change in output by the change in input $h$.
-4. **Limit:** Take the limit as $h$ approaches zero to find the instantaneous rate of change.
-##### General Steps
-$$\LARGE \text{1. Substitute } x + h \text{ into the function:}$$
-$$\text{Calculate } f(x + h) \text{ by substituting } x + h \text{ for every } x \text{ in the function } f(x).$$
-$$\LARGE \text{2. Form the difference quotient:}$$
-$$\LARGE \text{3. Calculate the difference (i.e. Simplify) } f(x + h) - f(x)$$
-$$\LARGE \text{4. Divide by } h:$$
-$$\LARGE \text{Form the quotient } \frac{f(x + h) - f(x)}{h}$$
-$$\LARGE \text{5. Take the limit as } h \text{ approaches 0:}$$
-$$\LARGE \text{Evaluate the limit } \lim_{h \to 0} \frac{f(x + h) - f(x)}{h}$$
-$$\text{This limit, if it exists, is the definition of the derivative of } f \text{ at } x, \text{ denoted }$$
-$$\LARGE f'(x) \text{ or } \frac{d}{dx} f(x)$$
-$$\LARGE \text{ Mathematically, it is expressed as:}$$
-$$\LARGE f'(x) = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h}$$
-### 2. Using the Rules of Differentiation
-###### *Important*: You only ever apply the Differentiating Rules to the terms associated with the independent variable.
-#### This is Because...
-Differential rules, such as the power rule, product rule, and chain rule, provide straightforward methods for finding derivatives of functions.
-	These rules are used to differentiate terms with the $x$ variable with respect to $x$.
-
-Differential rules provide a set of formulas and shortcuts to efficiently find derivatives without explicitly computing the limit every time. 
-	These rules **apply directly to differentiating the variable with respect to itself** and are derived from the fundamental limit definition of the derivative.
-#### [[#Derivative of a Constant is Zero|Derivative of a Constant]]
- A constant function $\LARGE f(x)=c$ means that the function's value does not change no matter what the input x is.
-	 *For Example:* if we know that the velocity is constant, then we know that the derivative which is acceleration, will be zero- as a constant velocity means to no change in velocity and thus no acceleration (i.e. rate of change of velocity).
-#### Derivative of a Linear Term, ($\LARGE ax$) aka Differentiating $x$ with Respect to Itself "*Directly*"
-The "derivative of a linear term" rule refers to the differentiation of a term of the form $ax$, where $a$ is a constant and $x$ is the variable. 
-	The rule states that the derivative of such a term with respect to $x$ is simply the constant coefficient $a$.
-$$\LARGE f(x)=ax == \text{A Linear Term}$$
-
-To find the derivative of $f(x)$ with respect to $x$, denoted as $\frac{d}{dx}(ax)$, we use the [[#Power Rule|Power Rule]]. 
-
-In the case of $\LARGE ax$, we can rewrite it as $\LARGE ax^1$. 
-
-Applying the power rule:
-$$\LARGE \frac{df}{dx}(ax^1) = a \cdot \frac{df}{dx} \cdot x^{1-1} = a \cdot 1x^0 = a \cdot 1 = a$$
-
-Therefore, the derivative of $ax$ with respect to $x$ is $a$.
-###### Rate of Change of $t$ with Respect to Itself "*Directly*"
-When we say "with respect to itself," we mean that we are differentiating a variable with respect to that same variable.
-	In this case, where f(x) = x, the derivative is always 1.
-		Where $f(x) = x^2 ,etc....$ it is still considered differentiating x with respect to x, but it is not a direct differentiation. 
-
-*For Example*:
-The derivative of $t$ is simply 1. 
-![[Pasted image 20240604144939.png]]
-![[Pasted image 20240604144946.png]]
-![[Pasted image 20240604144953.png]]
-![[Pasted image 20240604145001.png]]
-![[Pasted image 20240604145006.png]]
-#### Constant Scalar Rule, ($\LARGE af(x)$)
-The constant scalar rule states that when you take the derivative of a constant multiplied by a function, the constant can be factored out of the differentiation process.
-	I.e. Allows factoring out the constant **before** differentiating the function.
-
-If $f(x) = c \cdot g(x)$, where $c$ is a constant scalar, and $g(x)$ is a differentiable **function**, then the derivative of $f$ with respect to $x$ is:
-#### $\LARGE \frac{d}{dx} \left( c \cdot g(x) \right) = c \cdot \frac{d}{dx} g(x)$
-###### Example
-#### $\LARGE \frac{d}{dx} (3x^3) = 3 \cdot \frac{d}{dx} (x^3) = 3 \cdot 3x^2 = 9x^2$
-
 - - -
-#### Power Rule
-If $f(x) = x^n$, where $n$ is a constant, then the derivative of $f$ with respect to $x$ is given by:
-	Basically just decrease the exponent by 1, then place the original value of the exponent as a coefficient in front of the term. 
-#### $\LARGE \frac{d}{dx} x^n = n x^{n-1}$ 
-
-###### Example
-$\LARGE \frac{d}{dx} x^5 = 5x^4$ 
-##### Derivation of the Power Rule
-1. **Start with the Limit Definition:**
-$$\LARGE \frac{d}{dx}(x^n) = \lim_{h \to 0} \frac{(x + h)^n - x^n}{h}$$​
-2. **Expand Using the Binomial Theorem:**
-$$\LARGE (x + h)^n = x^n + nx^{n-1}h + \frac{n(n-1)}{2}x^{n-2}h^2 + \cdots + h^n$$
-3. **Subtract $\LARGE x^n$ and Simplify:**
-$$\LARGE \frac{(x + h)^n - x^n}{h} = \frac{nx^{n-1}h + \frac{n(n-1)}{2}x^{n-2}h^2 + \cdots + h^n}{h}$$
-$$\LARGE nx^{n-1} + \frac{n(n-1)}{2}x^{n-2}h + \cdots + h^{n-1}$$
-4. **Take the Limit as $\LARGE h \to 0$:**
-$$\LARGE \lim_{h \to 0} \left(nx^{n-1} + \frac{n(n-1)}{2}x^{n-2}h + \cdots + h^{n-1}\right) = nx^{n-1}$$
-This shows that the derivative of $x^n$ with respect to $x$ is $nx^{n-1}$.
-
-##### Example of Power Rule via Limit Definition of a Derivative
-###### 1. Apply the Limit Definition:
-$$ \LARGE f'(x) = \frac{df}{dx}(x^2) = \lim_{h \to 0} \frac{(x + h)^2 - x^2}{h}$$
-###### 2. Expand and Simplify:
-$$ \LARGE f'(x) = \lim_{h \to 0} \frac{(x^2 + 2xh + h^2 - x^2)}{h} =  \lim_{h \to 0}\frac{(2xh + h^2)}{h} =  \lim_{h \to 0}(2x+h)$$
-###### 3. Take the Limit
-$$\LARGE \text{Where } h \text{ is } 0.$$
-$$\LARGE f'(x) = \lim_{h \to 0}(2x+h) = 2x$$
-- - -
-#### Sum Rule
-If $f(x) = g(x) + h(x)$, where $g(x)$ and $h(x)$ are differentiable functions, then the derivative of $f$ with respect to $x$ is:
-$\LARGE \frac{d}{dx} \left( g(x) + h(x) \right) = \frac{d}{dx} g(x) + \frac{d}{dx} h(x)$
-###### Example
-#### $\LARGE \frac{d}{dx} (x^2 + x^3) = \frac{d}{dx} (x^2) + \frac{d}{dx} (x^3) = 2x + 3x^2$
-
-#### Difference Rule
-If $f(x) = g(x) - h(x)$, where $g(x)$ and $h(x)$ are differentiable functions, then the derivative of $f$ with respect to $x$ is:
-#### $\LARGE \frac{d}{dx} \left( g(x) - h(x) \right) = \frac{d}{dx} g(x) - \frac{d}{dx} h(x)$
-
-#### Product Rule
-If $f(x) = g(x) \cdot h(x)$, where $g(x)$ and $h(x)$ are differentiable functions, then the derivative of $f$ with respect to $x$ is:
-#### $\LARGE \frac{d}{dx} \left( g(x) \cdot h(x) \right) = g(x) \cdot \frac{d}{dx} h(x) + h(x) \cdot \frac{d}{dx} g(x)$
-
-###### Example
-#### $\LARGE \frac{d}{dx} (x^2 \cdot \sin(x)) = x^2 \cdot \cos(x) + \sin(x) \cdot 2x = x^2 \cos(x) + 2x \sin(x)$
-#### Quotient Rule
-If $f(x) = \frac{g(x)}{h(x)}$, where $g(x)$ and $h(x)$ are differentiable functions and $h(x) \neq 0$, then the derivative of $f$ with respect to $x$ is:
-#### $\LARGE \frac{d}{dx} \left( \frac{g(x)}{h(x)} \right) = \frac{h(x) \cdot \frac{d}{dx} g(x) - g(x) \cdot \frac{d}{dx} h(x)}{(h(x))^2}$
-###### Example
-#### $\LARGE \frac{d}{dx} \left( \frac{x^2}{\sin(x)} \right) = \frac{\sin(x) \cdot 2x - x^2 \cdot \cos(x)}{(\sin(x))^2}$
-
-#### Chain Rule
-The chain rule is a formula for computing the derivative of the composition of two or more functions.
-	If you have a function $f(x)$ that is composed of two functions $g$ and $h$, such that:
-	$$\LARGE f(x) = g(h(x))$$
-where:
-###### $g()$ is a [[#Differentiable Function|Differentiable Function]] of $h(x)$
-This means that $g$ is a function that can be differentiated with respect to its argument, which is $h(x)$.
-	In other words, if you treat the output value of $h(x)$ as a single variable, the function $g$ has a well-defined derivative at every point where $h(x)$ is defined.
-###### $h(x)$ is a Differentiable Function of $x$
-This means that $h$ is a function of $x$ that can be differentiated with respect to $x$.
-	In other words, $h$ has a well-defined derivative at every point in its domain.
-
-If $f(x) = g(h(x))$, where $g$ is a [[#Differentiable Function|differentiable function]] of $h(x)$ and $h(x)$ is a differentiable function of $x$, then the derivative of $f$ with respect to $x$ is:
-$$\LARGE \frac{d}{dx} g(h(x)) = g'(h(x)) \cdot h'(x)$$
-
-###### Example
-#### $\LARGE \frac{d}{dx} \sin(x^2) = \cos(x^2) \cdot 2x = 2x \cos(x^2)$
-
-### Example: Finding the Derivative
-
-#### Given Position Function:
-
-![[Pasted image 20240602234115.png]]
-#### Find the Derivative:
-
-To find the derivative x′(t), we'll differentiate x(t) with respect to t.
-
-1. **Write the position function:** 
-	![[Pasted image 20240602234124.png]]
-2. **Differentiate each term:**
-	Differentiating each term in the function $x(t) = t^2 + 3t +2$ involves applying basic [[#Rules of Differentiation|rules of differentiation]]. 
-![[Pasted image 20240604144556.png]]
-
-![[Pasted image 20240602234407.png]]
- ![[Pasted image 20240602234152.png]]
-3. **Combine the results:** 
-	![[Pasted image 20240602234201.png]]
-### Interpretation
-![[Pasted image 20240602234215.png]]
-### Why Use Derivatives?
-
-- **Instantaneous Information**: Unlike average velocity, which gives a single value over an interval, the derivative provides detailed information about how the position changes at every instant.
-- **Dynamic Analysis**: It helps analyze motion dynamically. For example, if you want to know the acceleration (how velocity changes over time), you would take the derivative of the velocity function, 𝑥′′(𝑡)x′′(t).
-### Summary
-Finding the derivative x′(t) of a position function x(t) produces a new function that describes the instantaneous velocity at any given time t.
-	This new function captures the dynamic nature of the motion and allows for deeper analysis of how the object's position changes over time.
-## Derivatives of a Constant
-When you differentiate a function, any constant term disappears because the derivative of a constant (i.e. constant function) is zero. 
-
-A **constant function** is a function that always returns the same value, **regardless of the input**.
-	It does not depend on any variable and is represented mathematically as:
-	$$\LARGE f(x)=C, \text{where C is a constant}$$
-Here, $C$ is a fixed value and does not change with $x$.
-
-If $f(x) = c$, where $c$ is a constant, then the derivative of $f$ with respect to $x$ is zero:
-$$\LARGE \frac{d}{dx} c = 0$$
-###### Think about this...
-If say the velocity is constant, then the rate of change of velocity - that is acceleration, is zero.
-	Because velocity is constant and thus does not have a rate of change, because it does not change.
-		And therefore, the derivative of velocity, that is, acceleration (i.e. the rate of change of velocity), does not exist.
-### Derivative of a Constant is Zero
-1. **Definition of the Derivative**:
-    - The derivative of a function measures how the function's value changes as its input changes.
-    - Mathematically, the derivative of a function $f(x)$ at a point $x$ is defined as: 
-	    $\LARGE f′(x)=\lim\limits_{​\triangle x \rightarrow 0} {f(x+\triangle x) - f(x) \over \triangle x}​$
-1. **Constant Function**:
-    - A constant function $\LARGE f(x)=c$ means that the function's value does not change no matter what the input x is.
-    - For example, $f(x)=5$ means the function always outputs 5, regardless of the value of x.
-2. **Rate of Change of a Constant Function**:
-    - Since the value of a constant function does not change, the rate of change (or the slope) is zero.
-    - Using the definition of the derivative: 
-	    $\LARGE f′(x)=\lim\limits_{​\triangle x \rightarrow 0} {f(x+\triangle x) - f(x) \over \triangle x}​$
-    - For a constant function $f(x)=c$: 
-		$\LARGE f'(x) = \lim\limits_{\triangle x \rightarrow 0} {c -c\over \triangle x} = \lim\limits_{\triangle x \rightarrow 0} {0\over \triangle x} = 0$
-#### Visualizing the Derivative of a Constant
-Imagine a flat horizontal line on a graph, like 𝑦=5y=5. This line has no slope; it does not rise or fall as you move along the 𝑥x-axis. The rate of change of this line is zero everywhere because it is perfectly flat.
-
-When you differentiate a function that includes a constant, the constant term "disappears" in the sense that its derivative is zero, which is why the constant does not affect the derivative of the rest of the function.
-## Critical Points
-**Critical points** of a function are points in the domain of the function **where the first derivative is either zero or undefined**.
-	These points are significant because they are potential locations where the function has local maxima, local minima, or points of inflection.
-### Formal Definition
-A point $x=c$ is called a **critical point** of a function $f(x)$ if one of the following conditions holds:
-1. $\LARGE f'(c) = 0$
-2. $\LARGE f′(c)$ does not exist
-### Importance of Critical Points
-#### Derivative and Critical Points
-To find the turning points of a polynomial function, we take its first derivative $f'(x)$ and set it to zero to find the critical points.
-	The critical points are where the slope of the function is zero, i.e., where the function could potentially change direction.
-#### Degree of the Derivative
-The degree of the first derivative $f'(x)$ of a polynomial function $f(x)$ of degree nnn is $n-1$.
-	This means that the first derivative f'(x) is a polynomial of degree $n-1$.
-#### Roots of the Derivative
-A polynomial of degree $n-1$ can have at most $n-1$ real roots.
-	Each real root of the first derivative corresponds to a critical point of the original function, which can be a turning point.
-#### Second Derivative Test
-To confirm whether a critical point is a turning point (and not a saddle point), we can use the second derivative test.
-	If the second derivative $f′′(x)$ at a critical point is positive, the function has a local minimum there.
-		If $f′′(x)$ at a critical point is negative, the function has a local maximum there.
-#### Local Maxima and Minima
-Critical points are candidates for local extrema (maxima and minima).
-	By evaluating the first and second derivatives at these points, we can determine whether they are local maxima, local minima, or neither.
-
-**Local maxima** and **local minima** are points on a function where the function reaches its highest or lowest value, respectively, within a small neighborhood around these points.
-	They are important for understanding the behavior of functions and optimizing real-world problems.
-##### Local Maximum
-A function $f(x)$ has a **local maximum** at $x=c$ if there exists an interval $(a, b)$ containing $c$ such that:
-$$\LARGE f(c) \geq f(x) \quad \text{for all} \quad x \in (a, b)$$
-In other words, $f(c)$ is greater than or equal to the function values at nearby points.
-##### Local Minimum
-A function $f(x)$ has a **local minimum** at $x=c$ if there exists an interval $(a, b)$ containing $c$ such that:
-$$\LARGE f(c) \leq f(x) \quad \text{for all} \quad x \in (a, b)$$
-##### Finding Local Maxima and Minima
-###### Identify Critical Points
-Find the points where the first derivative $f′(x)$ is zero or undefined.
-###### Second Derivative Test
-Use the second derivative $f''(x)$ to determine the nature of the critical points.
-    - If $f''(c) > 0$, the function has a local minimum at $x=c$.
-    - If $f''(c) < 0$,, the function has a local maximum at $x=c$.
-    - If $f''(c) = 0$, the test is inconclusive.
-##### [[#Inflection Points|Inflection Points]] (*also see* [[Curves#Inflection Point|Inflection Points]] in Curves)
-**Inflection points** are points on a function where the concavity changes.
-	These points are not necessarily where the first derivative is zero but are significant in understanding the behavior and shape of the function.
-
-***Important***: Although not all inflection points are critical points, analyzing the behavior of the function around critical points can sometimes help identify points where the concavity of the function changes.
-
-A function $f(x)$ has an **inflection point** at $x=c$ if the concavity of the function changes at that point.
-	This means the function changes from being concave up (convex) to concave down (concave) or vice versa.
-###### Identifying Inflection Points
-To find inflection points of a function $f(x)$:
-1. **Find the second derivative** $\LARGE f′′(x)$.
-2. **Set the second derivative equal to $0$ and solve for $x$**:
-    $$\LARGE f''(x) = 0$$
-3. **Determine if the concavity changes around those points**:
-    - If $\LARGE f′′(x)$ changes sign as $x$ passes through $c$, then $x=c$ is an inflection point.
-### Identifying Critical Points
-#### Steps to Determine the Nature of Critical Points:
-##### First Derivative Test:
-- **Find the first derivative** of the function $f'(x)$.
-- **Set the first derivative to zero** to find the critical points: $f'(x) = 0$.
-- Solve for $x$ to find the critical points.
-##### Second Derivative Test (if applicable):
-- **Find the second derivative** of the function $f''(x)$.
-- **Evaluate the second derivative at the critical points**:
-	- If $f''(x) > 0$ at a critical point, the function has a **local minimum** at that point.
-	- If $f''(x) < 0$ at a critical point, the function has a **local maximum** at that point.
-	- If $f''(x) = 0$, the second derivative test is inconclusive; further analysis is needed.
-##### Alternative Analysis (if the second derivative test is inconclusive):
-- **Analyze the sign of the first derivative** on intervals around the critical points to determine whether the function is increasing or decreasing.
-- **Consider higher-order derivatives** or other methods, such as the first derivative test, to determine the behavior of the function.
-### Example:
-Let's illustrate with a simple example:
-Given the function $$\LARGE f(x) = x^3 - 3x^2 + 2$$
-1. **Find the first derivative**:
-    $$\LARGE f'(x) = 3x^2 - 6x$$
-2. **Set the first derivative to zero and solve for $x$**:
-    $$\LARGE 3x^2 - 6x = 0$$
-    
-    $$\LARGE 3x(x - 2) = 0$$
-    
-    $$\LARGE x = 0 \quad \text{or} \quad x = 2$$
-    
-    The critical points are $x = 0$ and $x = 2$.
-    
-3. **Find the second derivative**:
-    $$\LARGE f''(x) = 6x - 6$$
-4. **Evaluate the second derivative at the critical points**:
-    - At $x = 0$:
-        $$\LARGE f''(0) = 6(0) - 6 = -6 \quad (\text{negative, so } x = 0 \text{ is a local maximum})$$
-    - At $x = 2$:
-		$$\LARGE f''(2) = 6(2) - 6 = 6 \quad (\text{positive, so } x = 2 \text{ is a local minimum})$$
-## [[Continuities|Derivatives and Continuity]]
+## Derivatives and [[Continuities|Continuity]]
 Refers to the concept where [[Notion of Surface Curvature|curvature]] and [[Continuities|continuity]] relate to derivatives and matching derivatives ensures 
 	Specifically, it is often discussed under the terms $G$ continuity and $C$ continuity.
 ### Geometric Continuity ($G$ Continuity)
@@ -736,4 +563,186 @@ The functions and their first and second derivatives are continuous at the joini
 **Meaning**: The function is very smooth, with no break or jump in the curvature at the joining point.  
 $$\LARGE f_1(c) = f_2(c) \quad \text{and} \quad f_1'(c) = f_2'(c) \quad \text{and} \quad f_1''(c) = f_2''(c)$$
 
+- - -
+## [[Discontinuities|Discontinuities]] Prevents Derivatives
 
+### Why [[Discontinuities|Discontinuities]] (i.e. disruptions in smoothness) Prevent the Existence of a Derivative
+Discontinuities prevent the existence of derivatives because the derivative is defined as the limit of the slope of secant lines as the points used to create them get infinitely close. 
+- This definition **presupposes** that the **function is continuous** at the point where the derivative is being calculated.
+- **Impact on Derivatives**: ^discontinuities-prevent-limits-which-prevent-deriviatives
+	- Also, in actuality it is that [[Limits#Why Discontinuities Discontinuities (i.e. disruptions in smoothness) Prevent the Existence of a Limits|Discontinuities can prevent the existence of limits, which in turn means that derivatives at those points cannot be defined.]] 
+		- Without a limit, there is no way to talk about the slope of the function at the point of discontinuity. 
+			- You cannot have an instantaneous rate of change (derivative) where there is no consistent value for the function at that point.
+
+When a function is discontinuous at a point, there's a break in the curve at that point. 
+- Since the **derivative is the slope of the tangent line** to the curve **at a point**;
+	- And a **tangent line requires a smooth passage through the point**;
+		- A discontinuity creates a situation where there's no single, well-defined tangent line.
+
+**Cusps**:
+- A sudden change in direction (i.e. a sharp corner) of the curve $f(x)$ at point $a$.
+	- Even though this function might be continuous:
+		- The slopes of the **secant lines** from the **left and right** differ.
+			- Thus the limits from the left and right are not equal.
+				- Thus no unique slope (i.e. derivative) of the tangent at point $a$ exists.
+- Since the [[#^c2858f|derivative is defined in terms of the limit]]:
+			- If the limit does not exist for a given point, then the [[#^277add|derivative also does not exist]] for that same given point.
+- If $f(x)$ is continuous without discontinuities like cusps:
+	- The limits from left and right at any point, are equal.
+		- Thus a derivative exists for that point, having a well defined tangent line with a slope. 
+- **[[#Discontinuities|Discontinuity]]**:
+	- Discontinuities in a curve are positions where the curve "jumps" from one value to another without any connecting points in between.
+		- Without a continuous path:
+			- There is not "approaching" the point from either side in a meaningful way.
+				- Which means there's no slope of the secant to speak of.	
+- **How This Affects Tangent Vector Direction:**
+	- **Indeterminacy at Sharp Points**: 
+		- At points where the curve has a sharp change in direction (non-differentiable points), the concept of a single, well-defined tangent line breaks down. 
+			- If you tried to draw a tangent, you would find an infinite number of lines that could arguably be tangents, depending on the approach angle. 
+				- This indeterminacy means there's no unique tangent vector direction at such points.
+	- **Visualization with Secant Lines**: 
+		- Imagine drawing secant lines (lines connecting two nearby points on the curve) and then moving these points closer together towards the point of interest. 
+			- For smooth parts of the curve, as the points get infinitely close, the secant line approaches a unique position — the tangent line. 
+				- However, at a sharp corner or discontinuity, the limit of the secant line's position oscillates or becomes undefined as the points get closer, indicating the absence of a well-defined tangent line and thus a tangent vector.
+
+- - - 
+
+## Critical Points
+**Critical points** of a function are points in the domain of the function **where the first derivative is either zero or undefined**.
+	These points are significant because they are potential locations where the function has local maxima, local minima, or points of inflection.
+### Formal Definition
+A point $x=c$ is called a **critical point** of a function $f(x)$ if one of the following conditions holds:
+1. $\LARGE f'(c) = 0$
+2. $\LARGE f′(c)$ does not exist
+### Importance of Critical Points
+#### Derivative and Critical Points
+To find the turning points of a polynomial function, we take its first derivative $f'(x)$ and set it to zero to find the critical points.
+	The critical points are where the slope of the function is zero, i.e., where the function could potentially change direction.
+#### Degree of the Derivative
+The degree of the first derivative $f'(x)$ of a polynomial function $f(x)$ of degree nnn is $n-1$.
+	This means that the first derivative f'(x) is a polynomial of degree $n-1$.
+#### Roots of the Derivative
+A polynomial of degree $n-1$ can have at most $n-1$ real roots.
+	Each real root of the first derivative corresponds to a critical point of the original function, which can be a turning point.
+#### Second Derivative Test
+To confirm whether a critical point is a turning point (and not a saddle point), we can use the second derivative test.
+	If the second derivative $f′′(x)$ at a critical point is positive, the function has a local minimum there.
+		If $f′′(x)$ at a critical point is negative, the function has a local maximum there.
+
+- - -
+#### Local Maxima and Minima
+Critical points are candidates for local extrema (maxima and minima).
+	By evaluating the first and second derivatives at these points, we can determine whether they are local maxima, local minima, or neither.
+
+**Local maxima** and **local minima** are points on a function where the function reaches its highest or lowest value, respectively, within a small neighborhood around these points.
+	They are important for understanding the behavior of functions and optimizing real-world problems.
+##### Local Maximum
+A function $f(x)$ has a **local maximum** at $x=c$ if there exists an interval $(a, b)$ containing $c$ such that:
+$$\LARGE f(c) \geq f(x) \quad \text{for all} \quad x \in (a, b)$$
+In other words, $f(c)$ is greater than or equal to the function values at nearby points.
+##### Local Minimum
+A function $f(x)$ has a **local minimum** at $x=c$ if there exists an interval $(a, b)$ containing $c$ such that:
+$$\LARGE f(c) \leq f(x) \quad \text{for all} \quad x \in (a, b)$$
+##### Finding Local Maxima and Minima
+###### Identify Critical Points
+Find the points where the first derivative $f′(x)$ is zero or undefined.
+###### Second Derivative Test
+Use the second derivative $f''(x)$ to determine the nature of the critical points.
+    - If $f''(c) > 0$, the function has a local minimum at $x=c$.
+    - If $f''(c) < 0$,, the function has a local maximum at $x=c$.
+    - If $f''(c) = 0$, the test is inconclusive.
+
+- - -
+#### [[#Inflection Points|Inflection Points]] (*also see* [[Curves#Inflection Point|Inflection Points]] in Curves)
+**Inflection points** are points on a function where the concavity changes.
+	These points are not necessarily where the first derivative is zero but are significant in understanding the behavior and shape of the function.
+
+***Important***: Although not all inflection points are critical points, analyzing the behavior of the function around critical points can sometimes help identify points where the concavity of the function changes.
+
+A function $f(x)$ has an **inflection point** at $x=c$ if the concavity of the function changes at that point.
+	This means the function changes from being concave up (convex) to concave down (concave) or vice versa.
+	
+Inflection Points indicate the **change** from **concave** to **convex** or vice versa.
+	If you imagine this triangle "traveling" the length of the curve:
+		The way the **orientation** of $T_2$ changes relative to $T_1$ can indicate the **concavity** of the curve.
+	An [[Curves#Inflection Point|Inflection]] point is suggested if $T_2$ **rotates** from one side of $T_1$ to the other as $P_1$ and $P_2$ "travel" along the curve.
+
+An inflection point is typically a smooth, continuous transition or change in the curvature of a function.
+	![[Pasted image 20240410143446.png|500]]
+	Take some $P_1 =C(s_1)$ on a curve $C$.
+		$T_1$ = the **unit tangent vector** at this point $P_1$.
+	$P_2$ is a point on $C$ that represents "a small movement" relative to $P_1$.
+		$T_2$ = the **unit tangent vector** at this point $P_2$.
+	Vector $V =T_2 - T_1$
+		Notice that they combine to "make" a **triangle**.
+			It represents the **rate of change** between the two points on the curve (in the function) $T_1$ and $T_2$.
+				That is the approximation of the curve between $P_1$ and $P_2$.
+					As the distances between $P_1$ and $P_2$ decrease, the **secant line** becomes a better approximation of the **tangent** $T_1$ at point $P_1$.
+			The triangle visually describes the "smoothness" or **continuity** of a function.
+				If the curve is smooth and function is differentiable at the measured points, then the tangent vectors will change gradually and not "jump".
+	If $P_1$ and $P_2$ are very "close" together distance wise:
+		$T_1$ and $T_2$ will be almost equal.
+			Therefore, $V$ will be almost **perpendicular** (i.e. normal, orthogonal) to both $T_1$ and $T_2$.
+
+- - -
+### Identifying Critical Points
+###### Identifying Inflection Points
+To find inflection points of a function $f(x)$:
+1. **Find the second derivative** $\LARGE f′′(x)$.
+2. **Set the second derivative equal to $0$ and solve for $x$**:
+    $$\LARGE f''(x) = 0$$
+3. **Determine if the concavity changes around those points**:
+    - If $\LARGE f′′(x)$ changes sign as $x$ passes through $c$, then $x=c$ is an inflection point.
+#### Steps to Determine the Nature of Critical Points:
+##### First Derivative Test:
+- **Find the first derivative** of the function $f'(x)$.
+- **Set the first derivative to zero** to find the critical points: $f'(x) = 0$.
+- Solve for $x$ to find the critical points.
+##### Second Derivative Test (if applicable):
+- **Find the second derivative** of the function $f''(x)$.
+- **Evaluate the second derivative at the critical points**:
+	- If $f''(x) > 0$ at a critical point, the function has a **local minimum** at that point.
+	- If $f''(x) < 0$ at a critical point, the function has a **local maximum** at that point.
+	- If $f''(x) = 0$, the second derivative test is inconclusive; further analysis is needed.
+##### Alternative Analysis (if the second derivative test is inconclusive):
+- **Analyze the sign of the first derivative** on intervals around the critical points to determine whether the function is increasing or decreasing.
+- **Consider higher-order derivatives** or other methods, such as the first derivative test, to determine the behavior of the function.
+### Example:
+Let's illustrate with a simple example:
+Given the function $$\LARGE f(x) = x^3 - 3x^2 + 2$$
+1. **Find the first derivative**:
+    $$\LARGE f'(x) = 3x^2 - 6x$$
+2. **Set the first derivative to zero and solve for $x$**:
+    $$\LARGE 3x^2 - 6x = 0$$
+    
+    $$\LARGE 3x(x - 2) = 0$$
+    
+    $$\LARGE x = 0 \quad \text{or} \quad x = 2$$
+    
+    The critical points are $x = 0$ and $x = 2$.
+    
+3. **Find the second derivative**:
+    $$\LARGE f''(x) = 6x - 6$$
+4. **Evaluate the second derivative at the critical points**:
+    - At $x = 0$:
+        $$\LARGE f''(0) = 6(0) - 6 = -6 \quad (\text{negative, so } x = 0 \text{ is a local maximum})$$
+    - At $x = 2$:
+		$$\LARGE f''(2) = 6(2) - 6 = 6 \quad (\text{positive, so } x = 2 \text{ is a local minimum})$$
+
+- - -
+## Differential Equations
+A differential equation is a mathematical equation that relates a function to its derivatives. It describes how a certain quantity changes with respect to one or more variables.
+
+**Differential equations** are equations that involve the differentials of functions.
+	They express relationships between functions and their rates of change.
+
+**Differential Equation**: An equation involving derivatives of a function.
+##### Ordinary Differential Equations (ODEs)
+Involve functions of a single variable and their derivatives. For example:
+    $$\frac{dy}{dx} = ky$$
+This is a first-order differential equation.
+    
+##### Partial Differential Equations (PDEs)
+Involve partial derivatives of functions of multiple variables. For example:
+    $$\frac{\partial u}{\partial t} = \alpha \frac{\partial^2 u}{\partial x^2}$$
+This is the heat equation, a second-order PDE.
