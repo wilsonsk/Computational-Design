@@ -11,6 +11,7 @@ related:
   - "[[Data Relationships]]"
 date created: 2024-04-10
 ---
+*Refer to this Map for a detailed map of the relational structure: * [[A Map of Change as Rates to Limits of those Rates to Differentials to Derivatives]]
 # Derivatives
 The Rate of Change of a Function's Output Value, as one Input Variable Changes.
 
@@ -29,7 +30,25 @@ The derivative can be notated in various ways, including:
 - $\LARGE f'(x)$
 - $\LARGE \frac{df}{dx}$
 - $D_x f(x)$
-### Rate of Change	
+
+- - -
+## Derivative as a Name
+Refers to a seemingly "instantaneous" rate of change. 
+
+First used by mathematician Lagrange in the late 18th century.
+	Derived from the Latin word "derivare", which means:
+		"To draw off" or "to take from".
+			The idea was to take the original function and draw from it a new function.
+				This new function would describe how original function changes.
+				
+The derivative is the result of an operation that takes a function and produces another function.
+	Then new function (the derivative) provides information on the slope or rate of change of the original function at any given point. 
+	
+It is a conceptual representation of the slope over an interval that is infinitesimally small.
+	So small that it's effectively a point. 
+
+- - -
+### Rate of Change
 ##### The [[Ratio#Rate (of change)|Rate]] 
 Refers to the ***comparison*** of two quantities.
 ##### The Change 
@@ -42,23 +61,47 @@ The difference quotient is a formula used to calculate the average rate of chang
 
 The ratio of the Function Output Value and the Change in the Input Variable Value, is the Differential Ratio, where both are themselves Differentials. 
 		And this Differential Ratio is the Derivative.
-##### The Average Rate of Change 
+##### The [[Ratio#Average Rate (of change)|Average Rate of Change]]
+$$\LARGE \text{Given an interval } [x_1, x_2]$$
+$$\LARGE \text{Average Rate of Change } = \frac{(f(x_2) - f(x_1))}{x_2 - x_1}$$
 Is represented by a [[Secant Line#The Average Rate of Change|Secant Line]].
 	The Secant Line connects two points on a curve.
 		The Slope of the Secant Line gives an average rate of change between those two points.
 
 It is the Rate of Change over a defined interval, where one quantity is dependent on the other.
-#### The Instantaneous Rate of Change
+#### The [[Ratio#Instantaneous Rate (of change)|Instantaneous Rate of Change]]
+$$\LARGE f'(x) = \lim_{h \to 0}\frac{f(x + h) - f(x)}{h}$$
 As the two points get closer to each other, the secant line approaches the [[Tangent Line#The Slope of a Secant Line|Tangent Line]] at a single point on the curve.
 	The Slope of the Tangent Line represents the Instantaneous Rate of Change.
 
 This Instantaneous Rate of Change *is* the Derivative. 
 ### *Note on "With Respect to..."*
 In terms of differentials, this phrasing refers to the variable that is changing or the variable with respect to which we are measuring the rate of change. 
-	When taking the derivative of a function, we are interested in how the function changes as one specific variable changes, while keeping other variables constant.****
+	When taking the derivative of a function, we are interested in how the function changes as one specific variable changes, while keeping other variables constant..
 
+- - -
+## The Average Rate of Change is the [[A Map of Change as Rates to Limits of those Rates to Differentials to Derivatives#Difference Quotient|Difference Quotient]]
+$$\LARGE \text{Average Rate of Change } = \frac{\Delta f(x)}{\Delta x}$$
+$$\LARGE \frac{\Delta f(x)}{\Delta x} = \frac{(f(x_2) - f(x_1))}{x_2 - x_1} = \text{Difference Quotient}$$
 
+The difference quotient $\LARGE \frac{f(x+h) - f(x)}{h}$ gives the slope of the secant line between the points $(x, f(x))$ and $(x+h, f(x+h))$ on the curve of the function $f(x)$.
+	This secant line approximates the behavior of the function over the interval $[x, x+h]$.
+		*Note: The interval is **NOT* infinitesimally small.**
+##### Difference
+The numerator $f(x+h)−f(x)$ represents the [[Kinematics Analysis#Displacement (Δx,Δy,Δz)|displacement]] or the change in the function's output value as the input changes from $x$ to $x+h$.
+##### Quotient
+Dividing by $h$ (i.e. the interval between input changes) scales (i.e. [[Division#Contracting|contracts]]) this change by the size of the increment $h$, giving the average rate of change over the interval from $x$ to $x+h$.
+## The Difference Quotient *is* the Slope of the Secant Line
+Geometrically, the difference quotient $\LARGE {f(x+h)−f(x)​ \over h}$ represents the [[Secant Line#The Average Rate of Change|slope of the secant line]] that passes through the points $(x,f(x))$ and $(x+h,f(x+h))$ on the graph of the function.
 
+The ratio $\frac{f(x+h) - f(x)}{h}$ represents the average rate of change.
+	The difference quotient or ratio $\frac{f(x+h) - f(x)}{h}$ is indeed interpreted as a "[[Slope|slope]]".
+		Here, $f(x+h) - f(x)$ represents the vertical change (rise), and $h$ represents the horizontal change (run).
+		
+The difference quotient $\frac{f(x+h) - f(x)}{h}$ gives the slope of the secant line between the points $(x, f(x))$ and $(x+h, f(x+h))$ on the curve of the function $f(x)$.
+	This secant line approximates the behavior of the function over the interval $[x, x+h]$.
+
+- - -
 ## Differentiation
 Differentiation is the process of finding the derivative of a function. 
 	The derivative represents the rate at which a function is changing at any given point.
@@ -70,107 +113,129 @@ Differentiation is used to determine the slope of a function at any point, find 
 **Mathematical Representation**
 If you have a function $f(x)$, its derivative is denoted as
 $$\LARGE f'(x) \text{ or }\frac{df(x)}{dx}$$
-## Differentials and Derivatives
 ### Differential
+$$\LARGE \frac{\text{Infinitesmal } \Delta f}{\text{Infinitesmal } \Delta x} = \frac{df}{dx}$$
+$$\LARGE \text{The Differential of the function } f(x) \text{ is } df.$$
+$$\LARGE \text{The Differential of } x \text{ is } dx.$$
 The term "differential" comes from the concept of differences.
 	**Differential** refers to an infinitesimal change in a function's Output Value resulting from a small change in the input value. 
 		It is used in various contexts, including differentials in calculus and differential equations.
 
 **Differential** is a quantity (an infinitesimal change).
 	**Differentials** provide a way to approximate changes in functions.
+		Differentials imply a variable approaching zero.
+			Differentials are infinitesimally small changes or intervals.
+#### Linear Approximation
+The differential $dy$ provides a linear approximation to the change in $y$ for a small change in $x$.
+	It’s a way to approximate $\Delta y$ when $\Delta x$ is small:
+$$\Delta y \approx dy = f'(x) \, dx$$
 
-### The Relationship Between Differentials and the Derivative
-#### The Differential of a Function
+- - -
+## [[A Map of Change as Rates to Limits of those Rates to Differentials to Derivatives|The Relationship Between the Ave. Rate of Change (i.e. Difference Quotient), the Limit of the Difference Quotient (i.e. Differential Ratio) and the Instantaneous Rate of Change (i.e. Derivative)]]
+### The Differential of a Function (i.e. a Differential Ratio)
+#### When the Difference Quotient Contains Differentials
+
+#### Differential Ratio
+$$\LARGE \frac{\text{Infinitesmal } \Delta f}{\text{Infinitesmal } \Delta x} = \frac{df}{dx}$$
+A differential ratio, often just referred to as a ratio of differentials, is an expression involving differentials. 
+	For instance, $\LARGE \frac{df}{dx}$ is a differential ratio representing the derivative of $y$ with respect to $x$. 
+		This ratio indicates how a small change in $x$ (denoted by $dx$) relates to a small change in $f(x)$ (denoted by $dy$).
+			*Note: A Differential Ratio is **not** equal to the Differential Equation.*
+
 For a function $f(x)$, the differential $df$ is defined in terms of the derivative $f′(x)$ and the differential $dx$.\
 	The differential $df$ represents the change in $f(x)$ for a small change in $x$, denoted by $dx$, which is also a differential.
 		This shows that the differential $df$ is the product of the derivative $f′(x)$ and the differential $dx$.
 $$\LARGE f'(x) = \frac{df}{dx}$$
 $$\LARGE df=f′(x) dx = \frac{df}{dx}dx$$
 Here:
-- $df$ is the differential of the function $f$.
+- $df$ is the differential of the function $f$(x).
 - $\frac{df}{dx}$ is the derivative of $f$ with respect to $x$, which tells us the rate of change of $f$ as $x$ changes.
 - $dx$ is the differential of $x$, representing a small change in $x$.
-
-## Differentials in a Limit 
-As $h$ approaches zero, this ratio becomes $\frac{dy}{dx}$, representing the instantaneous rate of change.
-$$\LARGE f'(x) = \lim_{h \to 0} = \frac{f(x+h) - f(x)}{h}$$
-###### Numerator ($f(x+h) - f(x)$):
-This represents the change in the dependent variable (output of the function) over the interval $h$.
-	It shows how much the function's output changes as the input changes by $h$.
-
-The numerator $f(x+h) - f(x)$ is equivalent to/becomes the differential $dy$.
-	In differential terms, as $h$ approaches zero, this change is represented by $dy$ (the differential of the dependent variable).
-###### Denominator ($h$):
-This represents the change in the independent variable over the interval $h$.
-	Which is the interval over which we are measuring the change in the function's value.
-
-The denominator $h$ is equivalent to/becomes the differential $dx$.
-	In differential terms, as $h$ approaches zero, this change is represented by $dx$ (the differential of the independent variable).
-## $f'(x) = f'(x) = \lim_{{h \to 0}} \frac{f(x+h) - f(x)}{h} = dx = \frac{dx}{dh}$
-Differentials imply a variable approaching zero.
-	Differentials are infinitesimally small changes or intervals.
-		Therefore, Differential Ratios imply the Limit of a ratio. 
-	
-The ratio of two [[#Differentiation|differentials]], such as $\frac{dx}{dt}$, is called a differential ratio, is also called, the **derivative**.
-	It represents the rate at which one variable changes (i.e. one differential) with respect to another variable (i.e. another differential).
-		In this case, $\frac{dx}{dt}$ is the derivative of $x$ with respect to $t$, which indicates how $x$ changes as $t$ changes.
-	
-And the Limit of this Differential Ratio as the Input Variable Value approaches $0$, 
-#### Derivative as a Ratio of Differentials
+### The Ratio of Differentials *is* the Derivative
 The derivative $f′(x)$ can be interpreted as the ratio of the differential of the function $dy$ to the differential of the variable $dx$:
-    $$\LARGE f'(x) = \frac{dy}{dx} \quad \text{and} \quad dy = f'(x) \, dx$$
+$$\LARGE f'(x) = \frac{dy}{dx} \quad \text{and} \quad dy = f'(x) \, dx$$
 This relationship shows that the derivative is the ratio of the differential change in the function to the differential change in the input variable, and differentials provide a linear approximation of the function's change based on its derivative.
     This equation signifies that the derivative is the rate at which $y$ changes with respect to $x$.
 	    I.e. The Derivative is the ratio of the differential $dy$ to the differential $dx$.
 ##### Differentials in Linear Approximation
 Differentials are used to linearly approximate changes in the function.
 	For a small change $dx$ in the input, the corresponding change in the output $dy$ can be approximated using the derivative:
-	$$dy≈f′(x)dx$$
-### Difference Quotient I.e. The (Average/Instantaneous) Rate of Change
-##### Difference Quotient (i.e. Ratio of Differentials) aka the Derivative
-The ratio $\frac{f(x+h) - f(x)}{h}$ represents the average rate of change.
-	The difference quotient or ratio $\frac{f(x+h) - f(x)}{h}$ is indeed interpreted as a "[[Slope|slope]]".
-		Here, $f(x+h) - f(x)$ represents the vertical change (rise), and $h$ represents the horizontal change (run).
-		
-The difference quotient $\frac{f(x+h) - f(x)}{h}$ gives the slope of the secant line between the points $(x, f(x))$ and $(x+h, f(x+h))$ on the curve of the function $f(x)$.
-	This secant line approximates the behavior of the function over the interval $[x, x+h]$.
+$$dy≈f′(x)dx$$
+### Differential Ratio *is* a Limit
+$$\LARGE \frac{\text{Infinitesmal } \Delta f}{\text{Infinitesmal } \Delta x} = \frac{df}{dx} = f'(x) = \lim_{h \to 0} = \frac{f(x+h) - f(x)}{h}$$
+Remember, the Differentials, $df$ and $dx$ represent infinitesimal changes in their values. 
+	That when the change of $x$ is infinitesimal, there is an infinitesimal change in $f(x)$.
 
-As $h$ approaches zero, the secant line approaches the tangent line to the curve at the point $x$.
-	The slope of this tangent line is the derivative of the function at that point, $f'(x)$.
-		I.e. As $h$ approaches zero, this average slope becomes the instantaneous slope, which is the derivative $f'(x)$.
+Differentials imply a variable approaching zero.
+Differentials are infinitesimally small changes or intervals.
+	Therefore, Differential Ratios imply the Limit of a ratio. 
+#### This is the **Equivalent** of the Following
+As $h$ approaches zero, this ratio becomes $\frac{dy}{dx}$, representing the instantaneous rate of change.
+$$\LARGE f'(x) = \frac{df}{dx} = \lim_{h \to 0} = \frac{f(x+h) - f(x)}{h}$$
+$$\LARGE h \text{ is equivalent to } dx \text{ and } f(x + h) - (fx) \text{ is equivalent to } df$$
+##### Numerator ($f(x+h) - f(x)$):
+Is the differential of the function, $f(x)$, that is $\LARGE df$
+	This represents the infinitesimally small change in the dependent variable (output of the function) over the interval $h$.
+		It shows how much the function's output changes as the input changes by $h$.
+
+The numerator $f(x+h) - f(x)$ is equivalent to/becomes the differential $dy$.
+	In differential terms, as $h$ approaches zero, this change is represented by $dy$ (the differential of the dependent variable).
+##### Denominator ($h$):
+Is the Differential of $x$.
+	This represents the infinitesimal small change in the independent variable over the interval $h$.
+		Which is the interval over which we are measuring the change in the function's value.
+
+The denominator $h$ is equivalent to/becomes the differential $dx$.
+	In differential terms, as $h$ approaches zero, this change is represented by $dx$ (the differential of the independent variable).
+
+- - -
+### The Differential (i.e. the Limit) is the Instantaneous Rate of Change
+#### Think About it...
+When the change becomes infinitesimal, the interval between the two points approaches $0$.
+	Therefore, the rate of change between these two points, begins to represent the smallest interval of change.
+		This smallest interval of change between two points, represents the **"Instantaneous" Rate of Change.**
+$$\LARGE \text{If } dx \text{ (i.e. } h \text{)} = 0$$
+$$\LARGE \frac{df}{dx} = \frac{0}{0} = \lim_{h \to 0} = \frac{f(x+0) - f(x)}{0}$$
+### The Instantaneous Rate of Change is the Slope of the Tangent Line
+Remember that the Slope of a Secant Line represents the Average Rate of Change.
+$$\LARGE \text{Ave. Rate of Change} = {f(x-2)−f(x_1)​ \over x_2 - x_1} = \text{Slope of the Secant Line}$$
+This ratio is the slope of a linear function.
+	Aka the [[Slope|Slope]] of the [[Secant Line|Secant Line]]. 
+#### As the Average Rate of Change Approaches the Instant Rate of Change
+##### The Secant Line Approaches the Tangent Line
+![[Pasted image 20240410153825.png|400]]
+**When the *change* becomes infinitesimally small**, that is, as the $\LARGE \Delta x$ (i.e. $\LARGE h$) approaches $0$, the secant line approaches the tangent line to the curve at the point $\LARGE x$.
+$$\LARGE f'(x) = \frac{df}{dx} = \lim_{h \to 0} = \frac{f(x+h) - f(x)}{h}$$
+As $h$ approaches zero, this average slope becomes the instantaneous slope, which is the Tangent Line.
+![[Pasted image 20240422232308.png]]
+### The Differential Ratio *is* the *Limit of the* Slope of the Tangent Line (i.e. the Instantaneous Rate of Change)
+![[Pasted image 20240422233019.png]]
+
+
+
+
+The Limit of the slope of this tangent line is the derivative of the function at that point, $f'(x)$.
+
+
+
+A derivative (of a function $f(x)$) at a single point $f'(x)$, is itself a function that maps that single point (as an input) to the **value** of the **limit** of the **average rate of change** (i.e. limit of $\Delta y / \Delta x$) of that input.
 
 The differentiation of function values is represented/expressed in the fact that the derivative is defined as the **limit of the difference quotient**. 
 	This quotient is a [[Division#Ratio|ratio]] - i.e. a rate of change.
 		This ratio is called the **derivative**.
 			The derivative (i.e. the ratio of the change in output values to the change in the input values) represents how a small change in the input (independent variable) results in a change in the output (dependent variable).
 
-Refers to the process of finding the derivative of a function.
 
-The ratio of the change in output values to the change in the input values).
-	This ratio is the slope of a linear function.
-Aka the [[Slope|Slope]] of the [[Secant Line|Secant Line]]. 
-$$\LARGE {f(x+h)−f(x)​ \over h}$$
-##### Difference
-The numerator $f(x+h)−f(x)$ represents the [[Kinematics Analysis#Displacement (Δx,Δy,Δz)|displacement]] or the change in the function's output value as the input changes from $x$ to $x+h$.
-##### Quotient
-Dividing by $h$ (i.e. the interval between input changes) scales (i.e. [[Division#Contracting|contracts]]) this change by the size of the increment $h$, giving the average rate of change over the interval from $x$ to $x+h$.
-##### Geometric Interpretation
-Geometrically, the difference quotient $\LARGE {f(x+h)−f(x)​ \over h}$ represents the slope of the secant line that passes through the points $(x,f(x))$ and $(x+h,f(x+h))$ on the graph of the function.
-	As $h$ approaches zero, this secant line approaches the tangent line to the curve at the point $(x,f(x))$.
-		The slope of this tangent line is the derivative $\LARGE f′(x)$.
+
+	
+
 ### Differential in Calculus
-##### Differential of a Function
-For a function $y = f(x)$, the differential $dy$ represents the change in $y$ corresponding to a small change in $x$, denoted as $dx$. It is given by:
-    $$dy = f'(x) \, dx$$
-Here, $f'(x)$ is the derivative of $f$ with respect to $x$, and $dx$ is an infinitesimally small change in $x$.
-    - **$dx$**: An infinitesimally small change in the variable $x$.
-    - **$dy$**: The resulting infinitesimally small change in the function $y = f(x)$.
-##### Linear Approximation
-The differential $dy$ provides a linear approximation to the change in $y$ for a small change in $x$. It’s a way to approximate $\Delta y$ when $\Delta x$ is small:
-    $$\Delta y \approx dy = f'(x) \, dx$$
+
 ##### Differential Equations
 **Differential equations** are equations that involve the differentials of functions.
 	They express relationships between functions and their rates of change.
+
+**Differential Equation**: An equation involving derivatives of a function.
 ##### Ordinary Differential Equations (ODEs)
 Involve functions of a single variable and their derivatives. For example:
     $$\frac{dy}{dx} = ky$$
@@ -225,6 +290,29 @@ This limit must exist and be finite for the function to be differentiable at $x=
 ##### Graphical Interpretation
 Graphically, a function is differentiable at a point if the graph of the function has a well-defined tangent line at that point. 
 	This means the function does not have any sharp corners or cusps at the point, and the tangent line does not become vertical.
+
+## Critical Points
+###### Inflection Points:
+- Indicate the **change** from **concave** to **convex** or vice versa.
+	- If you imagine this triangle "traveling" the length of the curve:
+		- The way the **orientation** of $T_2$ changes relative to $T_1$ can indicate the **concavity** of the curve.
+	- An [[Curves#Inflection Point|Inflection]] point is suggested if $T_2$ **rotates** from one side of $T_1$ to the other as $P_1$ and $P_2$ "travel" along the curve.
+- An inflection point is typically a smooth, continuous transition or change in the curvature of a function.
+	![[Pasted image 20240410143446.png|500]]
+	- Take some $P_1 =C(s_1)$ on a curve $C$.
+		- $T_1$ = the **unit tangent vector** at this point $P_1$.
+	- $P_2$ is a point on $C$ that represents "a small movement" relative to $P_1$.
+		- $T_2$ = the **unit tangent vector** at this point $P_2$.
+	- Vector $V =T_2 - T_1$
+		- Notice that they combine to "make" a **triangle**.
+			- It represents the **rate of change** between the two points on the curve (in the function) $T_1$ and $T_2$.
+				- That is the approximation of the curve between $P_1$ and $P_2$.
+					- As the distances between $P_1$ and $P_2$ decrease, the **secant line** becomes a better approximation of the **tangent** $T_1$ at point $P_1$.
+			- The triangle visually describes the "smoothness" or **continuity** of a function.
+				- If the curve is smooth and function is differentiable at the measured points, then the tangent vectors will change gradually and not "jump".
+	- If $P_1$ and $P_2$ are very "close" together distance wise:
+		- $T_1$ and $T_2$ will be almost equal.
+			- Therefore, $V$ will be almost **perpendicular** (i.e. normal, orthogonal) to both $T_1$ and $T_2$.
 ### Integrals in the Sequence
 1. **Limit**: Defines the concept of instantaneous change.
 2. **Derivative**: Uses the limit to define the rate of change of the function.
@@ -247,17 +335,7 @@ A **derivative** of a **function** at a point **provides the slope of the [[Tang
 	- The slope of this tangent line/vector is given by the **derivative** of the curve/function at this point. ^1f0a97
 	- The derivative at any point, gives the direction of the tangent vector at that point.
 		- For surfaces, taking partial derivatives provides the tangent planes.
-## Derivative as a Name:
-- First used by mathematician Lagrange in the late 18th century.
-	- Derived from the Latin word "derivare", which means:
-		- "To draw off" or "to take from".
-			- The idea was to take the original function and draw from it a new function.
-				- This new function would describe how original function changes.
-- The derivative is the result of an operation that takes a function and produces another function.
-	- Then new function (the derivative) provides information on the slope or rate of change of the original function at any given point. 
-- It is a conceptual representation of the slope over an interval that is infinitesimally small.
-	- So small that it's effectively a point. 
-- Refers to a seemingly "instantaneous" rate of change. 
+
 ## Formally, the derivative at a point $a$, is **defined** as the [[Limits|limit]] of the slope of the [[Secant Line|secant line]] (i.e. **average rate of change**)
 ![[Pasted image 20240422232308.png]]
 ![[Pasted image 20240422233019.png]]
@@ -269,27 +347,7 @@ As the **interval or distance** over which the change is measured (between point
 		- The **slope** of the **secant line** that connects those two points. 
 The **[[Limits|limit]]** is the **means** of **transitioning** between the **average rate of change** to the **instantaneous rate of change**. ^limit-as-a-transition
 ![[Pasted image 20240410153825.png|400]] ^d8b06d
-###### Inflection Points:
-- Indicate the **change** from **concave** to **convex** or vice versa.
-	- If you imagine this triangle "traveling" the length of the curve:
-		- The way the **orientation** of $T_2$ changes relative to $T_1$ can indicate the **concavity** of the curve.
-	- An [[Curves#Inflection Point|Inflection]] point is suggested if $T_2$ **rotates** from one side of $T_1$ to the other as $P_1$ and $P_2$ "travel" along the curve.
-- An inflection point is typically a smooth, continuous transition or change in the curvature of a function.
-	![[Pasted image 20240410143446.png|500]]
-	- Take some $P_1 =C(s_1)$ on a curve $C$.
-		- $T_1$ = the **unit tangent vector** at this point $P_1$.
-	- $P_2$ is a point on $C$ that represents "a small movement" relative to $P_1$.
-		- $T_2$ = the **unit tangent vector** at this point $P_2$.
-	- Vector $V =T_2 - T_1$
-		- Notice that they combine to "make" a **triangle**.
-			- It represents the **rate of change** between the two points on the curve (in the function) $T_1$ and $T_2$.
-				- That is the approximation of the curve between $P_1$ and $P_2$.
-					- As the distances between $P_1$ and $P_2$ decrease, the **secant line** becomes a better approximation of the **tangent** $T_1$ at point $P_1$.
-			- The triangle visually describes the "smoothness" or **continuity** of a function.
-				- If the curve is smooth and function is differentiable at the measured points, then the tangent vectors will change gradually and not "jump".
-	- If $P_1$ and $P_2$ are very "close" together distance wise:
-		- $T_1$ and $T_2$ will be almost equal.
-			- Therefore, $V$ will be almost **perpendicular** (i.e. normal, orthogonal) to both $T_1$ and $T_2$.
+
 ## Why [[Discontinuities|Discontinuities]] (i.e. disruptions in smoothness) Prevent the Existence of a Derivative
 Discontinuities prevent the existence of derivatives because the derivative is defined as the limit of the slope of secant lines as the points used to create them get infinitely close. 
 - This definition **presupposes** that the **function is continuous** at the point where the derivative is being calculated.

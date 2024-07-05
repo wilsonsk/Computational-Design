@@ -1,6 +1,8 @@
 # A Map of Change as Rates to Limits of those Rates to Differentials to Derivatives
 
----
+- - -
+### I.e. The Relationship Between the Ave. Rate of Change (i.e. Difference Quotient), the Limit of the Difference Quotient (i.e Differential Ratio) and the Instantaneous Rate of Change (i.e. Derivative)
+- - - 
 ## The Concept of Change
 Change refers to the variation in the value of a quantity over time, space, or any other dimension. 
 	It is a fundamental aspect of understanding dynamic systems.
@@ -172,7 +174,7 @@ The difference quotient is a formula used to calculate the average rate of chang
 	I.e. The difference quotient measures the average rate of change of a function, $f(x)$ over an interval, $h$.
 
 For a function $f(x)$, the difference quotient between two points $(x, f(x))$ and $(x+h,f(x+h))$ is given by the slope of the secant line. 
-		$$\LARGE m = \frac{\Delta y}{\Delta x} = \text{Difference Quotient} = \frac{f(x+h) - f(x)}{h}$$
+		$$\LARGE m = \frac{\Delta f(x)}{\Delta x} = \text{Difference Quotient} = \frac{f(x+h) - f(x)}{h}$$
 		$$\LARGE \Delta y = f(x + h) - f(x)$$
 		$$\LARGE \Delta x = h$$
 - $f(x)$ is the value of the function at point $x$.
