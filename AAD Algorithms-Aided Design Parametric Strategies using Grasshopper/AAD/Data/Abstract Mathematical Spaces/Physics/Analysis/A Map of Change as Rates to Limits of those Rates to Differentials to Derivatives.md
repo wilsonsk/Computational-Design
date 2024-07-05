@@ -17,7 +17,11 @@ In the context of a function $f(x)$, for each input $x$, the function produces a
 **Dependent Variable**: $y$ or $f(x)$
     - The output value of the function, which depends on the input $x$.
     - It is plotted on the vertical axis of a graph.
- 
+### [[Ratio#From Ratio to Rate of Change|From a Ratio to a Rate of Change]]
+##### [[Ratio|A Ratio]]
+##### [[Ratio#Rate|A Rate (of Change)]]
+##### [[Ratio#Average Rate (of change)|An Average Rate (of Change)]]
+##### [[Ratio#Instantaneous Rate (of change)|An Instantaneous Rate (of change)]]
  - - - 
 
 ## The [[Secant Line|Secant Line]] as a Linear Function Describing the Rate of Change
@@ -243,4 +247,4 @@ $$\LARGE y = mx$$
 
 ---
 
-## Partial Derivatives
+## [[Partial Derivatives|Partial Derivatives]]

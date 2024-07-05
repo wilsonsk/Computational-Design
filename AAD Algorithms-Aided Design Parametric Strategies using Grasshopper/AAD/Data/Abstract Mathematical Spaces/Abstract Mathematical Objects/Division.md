@@ -63,7 +63,7 @@ A "step" refers to one of the equal subdivisions or units into which the total a
 
 - - -
 
-## Division as a Ratio (i.e. as a [[Data/Abstract Mathematical Spaces/Physics/Basic Concepts/Measurement|Measurement]])
+## Division as a [[Ratio|Ratio]] (i.e. as a [[Data/Abstract Mathematical Spaces/Physics/Basic Concepts/Measurement|Measurement]])
 Division measures the quantity a using the unit b. 
 	If b is a standard unit, division indicates how many times this unit fits into a.
 

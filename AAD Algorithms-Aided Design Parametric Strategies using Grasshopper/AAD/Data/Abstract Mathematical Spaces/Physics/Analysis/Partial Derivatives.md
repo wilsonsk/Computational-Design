@@ -32,16 +32,16 @@ This notation explicitly shows the operation of taking the partial derivative wi
 - - -
 ### Partial Derivative for Single Point
 The following, is the Partial Derivative of $f(x,y)$ with respect to $x$. 
-	Which means, we only derive with respect to the variable, $x$. 
+	Which means, we only derive with respect to the variable, $x$ (i.e derive $f(x,y)$ as $x$ changes). 
 		Therefore, the interval value, $h$ is only added to $x$ and not $y$.
 			But the rest is the same as the conventional Limit. 
 				I.e. The limit of the rate of change of the output of the function, $f(x,y)$ as the $x$ changes.  
 
-#### Partial Derivative of $f$ with Respect to $x$
+#### 2D Partial Derivative of $f$ with Respect to $x$
 $$\LARGE \frac{\partial f}{\partial x} == \partial_x f(x,y) == {\partial \over \partial x}f(x,y) = \lim_{h \rightarrow 0} {f(x+h,y) - f(x,y) \over h}$$
 *Remember: The [[Limits#Limit at a Specific Point|Limit]] in the following form represents the rate of change at a specific point, $a$.*
 ![[Pasted image 20240623221622.png|300]]
-#### Partial Derivative of $f$ with Respect to $y$
+#### 2D Partial Derivative of $f$ with Respect to $y$
 $$\LARGE \frac{\partial f}{\partial y} == \partial_x f(x,y) == {\partial \over \partial y}f(x,y) = \lim_{h \rightarrow 0} {f(x,y+h) - f(x,y) \over h}$$
 *Remember: The [[Limits#Limit at a Specific Point|Limit]] in the following form represents the rate of change at a specific point, $a$.*
 ![[Pasted image 20240623222925.png|300]]
@@ -75,6 +75,7 @@ $$\LARGE = -3x + 4y + 5$$
 #### Calculating Partial Derivative by Rules Of Differentiation
 $$\LARGE \frac{\partial f}{\partial x} = \frac{\partial}{\partial x} [x^2 - 3xy + 2y^2 - 4x + 5y - 12]$$
 $$\LARGE = \frac{\partial}{\partial x} [x^2] - \frac{\partial}{\partial x} [3xy] + \frac{\partial}{\partial x}[2y^2] - \frac{\partial}{\partial x}[4x] + \frac{\partial}{\partial x}[5y] - 12]$$
+##### Solution
 ##### 1st Term, $\LARGE x^2$
 [[Derivatives#Power Rule|Power Rule]] is applied.
 $$\LARGE [x^2] = 2x $$

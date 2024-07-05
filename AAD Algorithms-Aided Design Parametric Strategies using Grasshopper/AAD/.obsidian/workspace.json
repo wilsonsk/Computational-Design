@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "7e4b8eaf651950db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Secant Line.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "7bf851ae501a8c6a",
             "type": "leaf",
             "state": {
@@ -223,20 +235,24 @@
   "active": "e9f523721294dd5b",
   "lastOpenFiles": [
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Partial Derivatives.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Secant Line.md",
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Ratio.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Tangent Line.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Limits.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Partial Derivatives.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/A Map of Change as Rates to Limits of those Rates to Differentials to Derivatives.md",
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Division.md",
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Proportion.md",
+    "Untitled.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Spaces.md",
     "Data/Abstract Mathematical Spaces/Differential Geometry/Differential Geometry.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Linearity/Linear Mapping.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Mapping.md",
     "Data/Abstract Mathematical Spaces/A Map of Linear Algebra, Calculus and Differential Geometry.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Vector Space.md",
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Division.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Linear Approximation.md",
     "images/Pasted image 20240630084728.png",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Abstract Mathematical Structures.md",
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Proportion.md",
     "Data/Abstract Mathematical Spaces/Abstract MAth.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Structures",
     "Drawing/Computational and Parametric Thinking While Drawing.md",
@@ -251,11 +267,7 @@
     "images/Pasted image 20240630145638.png",
     "images/Pasted image 20240630145605.png",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Components of Motion.md",
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Linearity/Vectors as Linear Functions.md",
-    "Data/Abstract Mathematical Spaces/Differential Geometry/Parametrization.md",
-    "Surfaces/Notion of Surface Curvature.md",
     "images/Pasted image 20240630084804.png",
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Ratio.md",
     "Untitled",
     "Data/Abstract Mathematical Spaces/Differential Geometry",
     "Drawing",

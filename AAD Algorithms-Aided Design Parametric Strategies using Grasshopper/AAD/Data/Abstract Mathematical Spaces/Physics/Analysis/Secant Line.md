@@ -24,6 +24,8 @@ $$\LARGE y(x) = mx + B$$
 ##### The Role of Scalar, $m$ (Slope):
 $m$ scales the input $x$ value which is then combined with $b$.
 	The result is the associated $y$ output value.
+		The Slope of the Secant Line is itself, the Average Rate of Change.
+			$$\LARGE m = \frac{y(x_2) - y(x_1)}{x_2 - x_1}$$
 	
 1. **Scaling and Transformation**:
     - The slope $m$ acts as a scaling factor for the input (i.e. independent) variable $x$.

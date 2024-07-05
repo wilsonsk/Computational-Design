@@ -13,36 +13,8 @@ date created: 2024-04-10
 ---
 # Derivatives
 The Rate of Change of a Function's Output Value, as one Input Variable Changes.
-	This rate of change is the Limit and also the Derivative. 
-		The ratio of the Function Output Value and the Change in the Input Variable Value, is the Differential Ratio, where both are themselves Differentials. 
-			This Differential Ratio is a type of Difference Quotient, the key characteristic is that the Numerator and Denominator are both Differentials.
-### *Note on "With Respect to..."*
-In terms of differentials, this phrasing refers to the variable that is changing or the variable with respect to which we are measuring the rate of change. 
-	When taking the derivative of a function, we are interested in how the function changes as one specific variable changes, while keeping other variables constant.****
 
-Mathematically, the [[#Differential|differential]] of $f(x)$ with respect to $x$ is given by:
-$$\LARGE df = \frac{df}{dx} \, dx$$
-Here:
-- $df$ is the differential of the function $f$.
-- $\frac{df}{dx}$ is the derivative of $f$ with respect to $x$, which tells us the rate of change of $f$ as $x$ changes.
-- $dx$ is the differential of $x$, representing a small change in $x$.
-### Derivative as a Function
-The primary difference between finding the [[Limits#Limit as a Derivative at a Specific Point|derivative at a specific point]] and finding the general derivative function lies in whether or not you plug in a specific value for the variable.
-
-When represented as functions, describe the rate of change of a function at any point in its domain. 
-	This is known as the derivative function or simply the derivative of the function.
-		This derivative function provides a formula that can be used to find the slope of the tangent line to the function at any point in its domain.
-
-The derivative function $f'(x)$ represents the rate of change of $f(x)$ at any point $x$ in its domain. 
-	It is defined using the same [[Limits|limit]] process, but we do not fix $x$ at a specific value. 
-		Instead, we keep $x$ as a variable.
-			If $f(x)$ is a differentiable function, its derivative function, denoted $f′(x)$ or $\frac{d}{dx}$, is defined as:
-$$\LARGE f'(x) = \lim_{{h \to 0}} \frac{f(x+h) - f(x)}{h}$$
-This derivative function $f′(x)$ gives the slope of the tangent line to the curve at any point $x$.
-
-For example, if $x$ represents position and $t$ represents time, $\frac{dx}{dt}$ would represent the velocity, which is the rate of change of position with respect to time
-
-The **derivative** of a function measures the rate at which the function's value changes as its input changes. \
+The **derivative** of a function, $f(x)$, measures the rate at which the function's output value changes as its input changes. 
 	It is a fundamental concept in calculus, representing an instantaneous rate of change.
 
 For a function $f(x)$, the derivative at a point $x$ is defined as the limit of the average rate of change of the function as the interval $\Delta x$ approaches zero.
@@ -54,9 +26,38 @@ $$f'(x) = \lim_{\Delta x \to 0} \frac{f(x + \Delta x) - f(x)}{\Delta x}$$
 - **Slope of the Tangent Line**: Geometrically, $f'(x)$ is the slope of the tangent line to the graph of $f$ at the point $(x, f(x))$.
 #### Notation
 The derivative can be notated in various ways, including:
-- $f'(x)$
-- $\frac{df}{dx}$
+- $\LARGE f'(x)$
+- $\LARGE \frac{df}{dx}$
 - $D_x f(x)$
+### Rate of Change	
+##### The [[Ratio#Rate (of change)|Rate]] 
+Refers to the ***comparison*** of two quantities.
+##### The Change 
+Refers to the ***two quantities***.
+	Specifically the **differences** of the two quantities.
+		In this specific case, one quantity is dependent on the other. 
+	 
+The difference quotient is a formula used to calculate the average rate of change of a function over a specified interval. 
+	This Differential Ratio is a type of Difference Quotient, the key characteristic is that the Numerator and Denominator are both Differentials.
+
+The ratio of the Function Output Value and the Change in the Input Variable Value, is the Differential Ratio, where both are themselves Differentials. 
+		And this Differential Ratio is the Derivative.
+##### The Average Rate of Change 
+Is represented by a [[Secant Line#The Average Rate of Change|Secant Line]].
+	The Secant Line connects two points on a curve.
+		The Slope of the Secant Line gives an average rate of change between those two points.
+
+It is the Rate of Change over a defined interval, where one quantity is dependent on the other.
+#### The Instantaneous Rate of Change
+As the two points get closer to each other, the secant line approaches the [[Tangent Line#The Slope of a Secant Line|Tangent Line]] at a single point on the curve.
+	The Slope of the Tangent Line represents the Instantaneous Rate of Change.
+
+This Instantaneous Rate of Change *is* the Derivative. 
+### *Note on "With Respect to..."*
+In terms of differentials, this phrasing refers to the variable that is changing or the variable with respect to which we are measuring the rate of change. 
+	When taking the derivative of a function, we are interested in how the function changes as one specific variable changes, while keeping other variables constant.****
+
+
 
 ## Differentiation
 Differentiation is the process of finding the derivative of a function. 
@@ -69,16 +70,28 @@ Differentiation is used to determine the slope of a function at any point, find 
 **Mathematical Representation**
 If you have a function $f(x)$, its derivative is denoted as
 $$\LARGE f'(x) \text{ or }\frac{df(x)}{dx}$$
+## Differentials and Derivatives
 ### Differential
 The term "differential" comes from the concept of differences.
 	**Differential** refers to an infinitesimal change in a function's Output Value resulting from a small change in the input value. 
 		It is used in various contexts, including differentials in calculus and differential equations.
 
 **Differential** is a quantity (an infinitesimal change).
+	**Differentials** provide a way to approximate changes in functions.
 
-For a function $y = f(x)$, the differential $dy$ is defined in terms of the derivative $f′(x)$ and the differential $dx$
-$$\LARGE dy = f'(x) \, dx$$
-##### Differentials in a Limit 
+### The Relationship Between Differentials and the Derivative
+#### The Differential of a Function
+For a function $f(x)$, the differential $df$ is defined in terms of the derivative $f′(x)$ and the differential $dx$.\
+	The differential $df$ represents the change in $f(x)$ for a small change in $x$, denoted by $dx$, which is also a differential.
+		This shows that the differential $df$ is the product of the derivative $f′(x)$ and the differential $dx$.
+$$\LARGE f'(x) = \frac{df}{dx}$$
+$$\LARGE df=f′(x) dx = \frac{df}{dx}dx$$
+Here:
+- $df$ is the differential of the function $f$.
+- $\frac{df}{dx}$ is the derivative of $f$ with respect to $x$, which tells us the rate of change of $f$ as $x$ changes.
+- $dx$ is the differential of $x$, representing a small change in $x$.
+
+## Differentials in a Limit 
 As $h$ approaches zero, this ratio becomes $\frac{dy}{dx}$, representing the instantaneous rate of change.
 $$\LARGE f'(x) = \lim_{h \to 0} = \frac{f(x+h) - f(x)}{h}$$
 ###### Numerator ($f(x+h) - f(x)$):
@@ -167,14 +180,7 @@ This is a first-order differential equation.
 Involve partial derivatives of functions of multiple variables. For example:
     $$\frac{\partial u}{\partial t} = \alpha \frac{\partial^2 u}{\partial x^2}$$
 This is the heat equation, a second-order PDE.
-### Differentials and Derivatives
-**Differentials** provide a way to approximate changes in functions.
 
-For a function $y = f(x)$, the differential $dy$ represents the change in $y$ for a small change in $x$, denoted by $dx$, which is also a differential.
-
-The relationship between differentials and the derivative is:
-$$\LARGE dy=f′(x) dx$$
-This shows that the differential $dy$ is the product of the derivative $f′(x)$ and the differential $dx$.
 ### Differentiability
 #### Differentiable Function
 A **differentiable function** is a function that has a derivative at every point in its domain.
@@ -323,6 +329,21 @@ When a function is discontinuous at a point, there's a break in the curve at tha
 			- For smooth parts of the curve, as the points get infinitely close, the secant line approaches a unique position — the tangent line. 
 				- However, at a sharp corner or discontinuity, the limit of the secant line's position oscillates or becomes undefined as the points get closer, indicating the absence of a well-defined tangent line and thus a tangent vector.
 ## Calculating the Derivative 
+### Defining the Derivative at a Point vs. as a Function
+The primary difference between finding the [[Limits#Limit as a Derivative at a Specific Point|derivative at a specific point]] and finding the general derivative function lies in whether or not you plug in a specific value for the variable.
+
+When represented as functions, describe the rate of change of a function at any point in its domain. 
+	This is known as the derivative function or simply the derivative of the function.
+		This derivative function provides a formula that can be used to find the slope of the tangent line to the function at any point in its domain.
+
+The derivative function $f'(x)$ represents the rate of change of $f(x)$ at any point $x$ in its domain. 
+	It is defined using the same [[Limits|limit]] process, but we do not fix $x$ at a specific value. 
+		Instead, we keep $x$ as a variable.
+			If $f(x)$ is a differentiable function, its derivative function, denoted $f′(x)$ or $\frac{d}{dx}$, is defined as:
+$$\LARGE f'(x) = \lim_{{h \to 0}} \frac{f(x+h) - f(x)}{h}$$
+This derivative function $f′(x)$ gives the slope of the tangent line to the curve at any point $x$.
+
+
 ### 1. Using Limits to Define the Derivative
 The limit definition of the derivative fundamentally captures the idea of **how the output of a function changes with respect to changes in the input variable**. 
 	This approach involves a detailed process that directly examines the rate of change of the function's output as the input changes by a small amount.
@@ -393,6 +414,8 @@ If $f(x) = c \cdot g(x)$, where $c$ is a constant scalar, and $g(x)$ is a differ
 #### $\LARGE \frac{d}{dx} \left( c \cdot g(x) \right) = c \cdot \frac{d}{dx} g(x)$
 ###### Example
 #### $\LARGE \frac{d}{dx} (3x^3) = 3 \cdot \frac{d}{dx} (x^3) = 3 \cdot 3x^2 = 9x^2$
+
+- - -
 #### Power Rule
 If $f(x) = x^n$, where $n$ is a constant, then the derivative of $f$ with respect to $x$ is given by:
 	Basically just decrease the exponent by 1, then place the original value of the exponent as a coefficient in front of the term. 
@@ -410,8 +433,17 @@ $$\LARGE \frac{(x + h)^n - x^n}{h} = \frac{nx^{n-1}h + \frac{n(n-1)}{2}x^{n-2}h^
 $$\LARGE nx^{n-1} + \frac{n(n-1)}{2}x^{n-2}h + \cdots + h^{n-1}$$
 4. **Take the Limit as $\LARGE h \to 0$:**
 $$\LARGE \lim_{h \to 0} \left(nx^{n-1} + \frac{n(n-1)}{2}x^{n-2}h + \cdots + h^{n-1}\right) = nx^{n-1}$$
+This shows that the derivative of $x^n$ with respect to $x$ is $nx^{n-1}$.
 
-This shows that the derivative of xnx^nxn with respect to xxx is nxn−1nx^{n-1}nxn−1.
+##### Example of Power Rule via Limit Definition of a Derivative
+###### 1. Apply the Limit Definition:
+$$ \LARGE f'(x) = \frac{df}{dx}(x^2) = \lim_{h \to 0} \frac{(x + h)^2 - x^2}{h}$$
+###### 2. Expand and Simplify:
+$$ \LARGE f'(x) = \lim_{h \to 0} \frac{(x^2 + 2xh + h^2 - x^2)}{h} =  \lim_{h \to 0}\frac{(2xh + h^2)}{h} =  \lim_{h \to 0}(2x+h)$$
+###### 3. Take the Limit
+$$\LARGE \text{Where } h \text{ is } 0.$$
+$$\LARGE f'(x) = \lim_{h \to 0}(2x+h) = 2x$$
+- - -
 #### Sum Rule
 If $f(x) = g(x) + h(x)$, where $g(x)$ and $h(x)$ are differentiable functions, then the derivative of $f$ with respect to $x$ is:
 $\LARGE \frac{d}{dx} \left( g(x) + h(x) \right) = \frac{d}{dx} g(x) + \frac{d}{dx} h(x)$
@@ -439,7 +471,7 @@ The chain rule is a formula for computing the derivative of the composition of t
 	If you have a function $f(x)$ that is composed of two functions $g$ and $h$, such that:
 	$$\LARGE f(x) = g(h(x))$$
 where:
-###### $g$ is a [[#Differentiable Function|Differentiable Function]] of $h(x)$
+###### $g()$ is a [[#Differentiable Function|Differentiable Function]] of $h(x)$
 This means that $g$ is a function that can be differentiated with respect to its argument, which is $h(x)$.
 	In other words, if you treat the output value of $h(x)$ as a single variable, the function $g$ has a well-defined derivative at every point where $h(x)$ is defined.
 ###### $h(x)$ is a Differentiable Function of $x$

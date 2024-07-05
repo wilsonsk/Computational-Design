@@ -223,7 +223,7 @@ $v(t) = \Delta x / \Delta t = dx/dt=$ $$\lim_{\Delta t\to 0}\Delta x / \Delta t$
 	"As $t$ approaches 0" means:
 		 The [[#*$h$ (i.e. the independent variable) represents the **increment or distance** from the point $a$ along the $x-axis$.*|increment]] between two $t$ values on the $x-axis$ gets infinitely smaller, i.e. approaches zero distance between them. 
 
-## Calculating Limits
+## Limit Definition of a Derivative (i.e. Calculating Derivatives via Limits) 
 Plug in $(f(x + h))$ for every $x$ variable, then simplify $f(x + h) - f(x)$ then solve $\lim\limits_{h \to 0}\frac{f(x + h) - f(x)}{h}$
 ##### General Steps
 $$\LARGE \text{1. Substitute } x + h \text{ into the function:}$$
