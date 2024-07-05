@@ -79,8 +79,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -147,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Partial Derivatives.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -164,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Partial Derivatives.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -187,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md"
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Partial Derivatives.md"
               }
             }
           },
@@ -221,17 +220,22 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "dd2844aef2f7e763",
+  "active": "e9f523721294dd5b",
   "lastOpenFiles": [
-    "Curves/Continuities.md",
+    "images/Pasted image 20240705151637.png",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Partial Derivatives.md",
+    "images/Pasted image 20240705152625.png",
+    "images/Pasted image 20240705152613.png",
+    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Moment.md",
+    "images/Pasted image 20240705151727.png",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Division.md",
+    "Curves/Continuities.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/A Map of Change as Rates to Limits of those Rates to Differentials to Derivatives.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Ratio.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Secant Line.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Partial Derivatives.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Tangent Line.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Limits.md",
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Division.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Proportion.md",
     "Untitled.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Spaces.md",
@@ -250,20 +254,14 @@
     "Abstract/Binary Bits as the Substrate of Consciousness.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Linearity",
     "Surfaces/Surfaces.md",
-    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Moment.md",
     "images/Pasted image 20240630154205.png",
     "images/Pasted image 20240630153708.png",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Analysis.md",
     "images/Pasted image 20240630145638.png",
     "images/Pasted image 20240630145605.png",
     "images/Pasted image 20240630084804.png",
     "Untitled",
     "Data/Abstract Mathematical Spaces/Differential Geometry",
     "Drawing",
-    "images/Pasted image 20240624140108.png",
-    "images/Pasted image 20240624080120.png",
-    "images/Pasted image 20240623222925.png",
-    "images/Pasted image 20240623221622.png",
     "Data/Abstract Mathematical Spaces/Linear Algebra",
     "Data/Abstract Mathematical Spaces/Physics/Basic Concepts/Untitled",
     "Data/Abstract Mathematical Spaces/Physics/Basic Concepts",

@@ -28,9 +28,28 @@ $$f'(x) = \lim_{\Delta x \to 0} \frac{f(x + \Delta x) - f(x)}{\Delta x}$$
 #### Notation
 The derivative can be notated in various ways, including:
 - $\LARGE f'(x)$
-- $\LARGE \frac{df}{dx}$
+- $\LARGE \frac{df}{dx}$ This generally means the derivative of some function $f$ with respect to $x$.
+	- Here, $f$ is an unspecified function of $x$.
 - $D_x f(x)$
 
+$$\LARGE \frac{df}{dx}x^2 \text{ vs. } \frac{d}{dx}x^2$$
+$$\LARGE \frac{d}{dx}x^2 $$
+This notation is used to specify that you are taking the derivative of the specific function $\LARGE f(x)=x^2$ with respect to $x$.
+	Here, $\LARGE \frac{d}{dx}$​ is the differentiation operator, and $x^2$ is the function being differentiated.
+		It specifically means "differentiate $x^2$ with respect to $x$".
+
+$$\LARGE \frac{df}{dx}x^2$$
+This notation is more ambiguous and typically incorrect in this context unless it has a very specific meaning defined in a particular problem or scenario. 
+	It can be broken down as follows:
+	- $\LARGE \frac{df}{dx}$ This generally means the derivative of some function $f$ with respect to $x$.
+	- $\LARGE x^2$ This is just a multiplication with $\LARGE x^2$.
+
+However, when combined as $\LARGE\frac{df}{dx} x^2$, it suggests that the derivative of $f$ with respect to $x$ is being multiplied by $x^2$. 
+	This is not the same as taking the derivative of $x^2$ with respect to $x$.
+		This would mean "multiply the derivative of $f$ with respect to $x$ by $x^2$".
+##### But if $\LARGE f(x)=x^2$ then $\LARGE \frac{df}{dx} == \frac{d}{dx}x^2 == \frac{d}{dx}f(x)$
+When Defining the Derivative by Rules of Differentiation, each term is differentiated (i.e. the Derivative for each term is obtained).
+	Therefore, you will see a lot of the $\LARGE \frac{d}{dx}x^2$ form.
 - - -
 ## Derivative as a Name
 Refers to a seemingly "instantaneous" rate of change. 
@@ -107,8 +126,11 @@ Differentiation is the process of finding the derivative of a function.
 	The derivative represents the rate at which a function is changing at any given point.
 
 Differentiation is used to determine the slope of a function at any point, find the rate of change, and solve problems involving motion, optimization, and other applications where rates of change are important.
-
+### To Differentiate
 **Differentiation** is a process (finding the derivative).
+	To "Differentiate" a function, means to compute its derivative.
+
+*For example: Differentiating of some function $f(x)$ is to find that function's Derivative,* $\LARGE \frac{df}{dx}$
 
 **Mathematical Representation**
 If you have a function $f(x)$, its derivative is denoted as
@@ -302,7 +324,15 @@ Differential rules, such as the power rule, product rule, and chain rule, provid
 
 Differential rules provide a set of formulas and shortcuts to efficiently find derivatives without explicitly computing the limit every time. 
 	These rules **apply directly to differentiating the variable with respect to itself** and are derived from the fundamental limit definition of the derivative.
-
+#### General Differentiation Process
+in general, when differentiating a function with respect to a variable, you apply differentiation rules (such as the power rule, product rule, quotient rule, and chain rule) **to each term that contains the variable**. 
+	This is how you obtain the derivative of the entire function. 
+###### 1. Identify the Function and Variable
+Determine the function you need to differentiate and the variable with respect to which you are differentiating.
+###### 2. Differentiate Each Term
+Apply the appropriate differentiation rule to each term containing the variable.
+###### 3. Combine the Results
+Sum the derivatives of each term to obtain the derivative of the entire function.
 - - -
 ## Derivatives of a Constant
 When you differentiate a function, any constant term disappears because the derivative of a constant (i.e. constant function) is zero. 
@@ -405,6 +435,7 @@ $$\LARGE \text{Where } h \text{ is } 0.$$
 $$\LARGE f'(x) = \lim_{h \to 0}(2x+h) = 2x$$
 
 - - -
+
 ### Sum Rule
 If $f(x) = g(x) + h(x)$, where $g(x)$ and $h(x)$ are differentiable functions, then the derivative of $f$ with respect to $x$ is:
 $\LARGE \frac{d}{dx} \left( g(x) + h(x) \right) = \frac{d}{dx} g(x) + \frac{d}{dx} h(x)$
@@ -413,18 +444,21 @@ $\LARGE \frac{d}{dx} \left( g(x) + h(x) \right) = \frac{d}{dx} g(x) + \frac{d}{d
 
 
 - - -
+
 ### Difference Rule
 If $f(x) = g(x) - h(x)$, where $g(x)$ and $h(x)$ are differentiable functions, then the derivative of $f$ with respect to $x$ is:
 #### $\LARGE \frac{d}{dx} \left( g(x) - h(x) \right) = \frac{d}{dx} g(x) - \frac{d}{dx} h(x)$
 
-#### Product Rule
+- - -
+
+### Product Rule
 If $f(x) = g(x) \cdot h(x)$, where $g(x)$ and $h(x)$ are differentiable functions, then the derivative of $f$ with respect to $x$ is:
 #### $\LARGE \frac{d}{dx} \left( g(x) \cdot h(x) \right) = g(x) \cdot \frac{d}{dx} h(x) + h(x) \cdot \frac{d}{dx} g(x)$
 
 ###### Example
 #### $\LARGE \frac{d}{dx} (x^2 \cdot \sin(x)) = x^2 \cdot \cos(x) + \sin(x) \cdot 2x = x^2 \cos(x) + 2x \sin(x)$
-
 - - -
+
 ### Quotient Rule
 If $f(x) = \frac{g(x)}{h(x)}$, where $g(x)$ and $h(x)$ are differentiable functions and $h(x) \neq 0$, then the derivative of $f$ with respect to $x$ is:
 #### $\LARGE \frac{d}{dx} \left( \frac{g(x)}{h(x)} \right) = \frac{h(x) \cdot \frac{d}{dx} g(x) - g(x) \cdot \frac{d}{dx} h(x)}{(h(x))^2}$
@@ -434,9 +468,17 @@ If $f(x) = \frac{g(x)}{h(x)}$, where $g(x)$ and $h(x)$ are differentiable functi
 
 - - -
 ### Chain Rule
-The chain rule is a formula for computing the derivative of the composition of two or more functions.
+The chain rule is a formula for computing the derivative of the composition (i.e. composite functions) of two or more functions.
 	If you have a function $f(x)$ that is composed of two functions $g$ and $h$, such that:
 	$$\LARGE f(x) = g(h(x))$$
+Then the Chain Rule helps you find the derivative of $f(x)$ with respect to $x$. 
+
+Then the Chain Rule states that:
+$$\LARGE f(x) = g(u) \text{, and } u = h(x)$$
+$$\LARGE \frac{df(g(h(x)))}{dx} = \frac{df(g(h(x)))}{dh(x)} \cdot \frac{dh(x)}{dx}$$
+$$\LARGE f'(g(h(x)) = \frac{df(g(h(x)))}{dx}= \text{Derivative of }f(g(h(x))) \text{ with respect to }x$$
+$$\LARGE g'(h(x)) = \frac{dg(x)}{dx}= \text{Derivative of }g(h(x)) \text{ with respech respect to }h(x)$$
+$$\LARGE h'(x) = \frac{dh(x)}{dx}= \text{Derivative of }h(x) \text{ with respech respect to }x$$
 where:
 ###### $g()$ is a [[#Differentiable Function|Differentiable Function]] of $h(x)$
 This means that $g$ is a function that can be differentiated with respect to its argument, which is $h(x)$.
@@ -447,9 +489,33 @@ This means that $h$ is a function of $x$ that can be differentiated with respect
 
 If $f(x) = g(h(x))$, where $g$ is a [[#Differentiable Function|differentiable function]] of $h(x)$ and $h(x)$ is a differentiable function of $x$, then the derivative of $f$ with respect to $x$ is:
 $$\LARGE \frac{d}{dx} g(h(x)) = g'(h(x)) \cdot h'(x)$$
-
+#### Step by Step Process
 ###### Example
-#### $\LARGE \frac{d}{dx} \sin(x^2) = \cos(x^2) \cdot 2x = 2x \cos(x^2)$
+$$\LARGE g(u) = u^2 + 3 \text{ and } h(x) = \sin(x)$$
+##### 1. Identify the Inner and Outer Functions
+###### Outer Function
+$$\LARGE \text{Outer Function}= g(u) = u^3 + 3u \text{, where } u = h(x)$$
+###### Inner Function
+$$\LARGE \text{Inner Function} = h(x) = \sin(x)$$
+##### 2. Differentiate the Outer Function
+###### 1. Find the Derivative the Outer Function $g(x)$ as $u$ changes.
+$$\LARGE g(u) = u^2 + 3u$$
+$$\LARGE g'(u) = \frac{dg}{du} = 2u + 3$$
+###### 2. Find the Derivative of the Inner Function $h(x)$ as $u$ changes.
+$$\LARGE h(x) = \sin(x)$$
+$$\LARGE h'(x) = \frac{dh(x)}{dx} = \cos(x)$$
+###### 3. Apply the Chain Rule
+- According to the Chain Rule:
+$$\LARGE \frac{df(g(h(x)))}{dx} = \frac{df(g(h(x)))}{dh(x)} \cdot \frac{dh(x)}{dx}$$
+1. Multiply the Derivatives from Steps 1 and 2 to get the Derivative of the Composite Function.
+
+2. Substitute the the Inner and Outer differentials obtained from Steps 1 and 2 for $\LARGE g'(x) = \frac{df(g(x)))}{dh(x)}$ and $\LARGE h'(x) = \frac{dg(h(x))}{dx}$
+$$\LARGE \frac{df(g(x))}{dx} = (2u+3) \cdot \cos(x)$$
+3. Substitute Back the Intermediate Variable, $\LARGE u$
+	Since $\LARGE u = h(x) = \sin(x)$, substitute $u$ back into the expression. 
+$$\LARGE \frac{df(g(x))}{dx} = (2(\sin(x))+3) \cdot \cos(x)$$
+###### 4. The Derivative
+$$\LARGE \boxed{\frac{df}{dx} = (2\sin(x) + 3) \cdot \cos(x)}$$
 
 
 - - -
