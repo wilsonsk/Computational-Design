@@ -166,6 +166,11 @@ This definition shows that the partial derivative measures how the function $f(x
 
 
 ### Gradient
+The gradient of the function is defined to be which can be generalized to a function of any number of independent variables.
+
+The gradient can be used in a formula to calculate the directional derivative. 
+	The gradient indicates the direction of greatest change of a function of more than one variable
+
 The gradient of a scalar function $f(x, y, z)$ in 3D is a vector that points in the direction of the greatest rate of increase of the function. 
 	It is composed of the partial derivatives with respect to each variable:
 

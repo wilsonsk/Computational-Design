@@ -7,7 +7,7 @@ A directional derivative measures the rate of change of the function $f(x, y)$ i
 The **directional derivative** of a function $f(x, y)$ at a point $(x_0, y_0)$ in the direction of a vector $\mathbf{v} = (a, b)$ measures how $f$ changes as you move from $(x_0, y_0)$ in the direction of $\mathbf{v}$.
 	It generalizes the concept of a [[Partial Derivatives|partial derivative]] to any direction, not just along the coordinate axes.
 
-
+A directional derivative represents a rate of change of a function in any given direction.
 ## Calculation of Directional Derivatives
 ![[Pasted image 20240708134159.png]]
 *Finding the directional derivative at a point on the graph of $\LARGE z = f(x,y)$.
