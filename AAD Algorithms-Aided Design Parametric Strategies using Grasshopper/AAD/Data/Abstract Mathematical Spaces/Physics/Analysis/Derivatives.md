@@ -345,6 +345,9 @@ Here, $C$ is a fixed value and does not change with $x$.
 If $f(x) = c$, where $c$ is a constant, then the derivative of $f$ with respect to $x$ is zero:
 $$\LARGE \frac{d}{dx} c = 0$$
 ### Think About it...
+Remember the Derivative measures the **rate of change** as a ratio. 
+	A constant implies no change. 
+	
 If say the velocity is constant, then the rate of change of velocity - that is acceleration, is zero.
 	Because velocity is constant and thus does not have a rate of change, because it does not change.
 		And therefore, the derivative of velocity, that is, acceleration (i.e. the rate of change of velocity), does not exist.

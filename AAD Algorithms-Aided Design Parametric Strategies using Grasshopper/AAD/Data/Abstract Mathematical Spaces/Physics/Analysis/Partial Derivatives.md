@@ -9,6 +9,14 @@ The idea to keep in mind when calculating partial derivatives is to treat all in
 	Then proceed to differentiate as with a function of a single variable. T
 
 $\LARGE \partial = \text{partial}$
+##### Key Concepts
+1. A partial derivative is a derivative involving a function of more than one independent variable. 
+	1. **partial derivative**: A derivative of a function of more than one independent variable in which all the variables but one are held constant.
+	2. **Partial Differential Equation**: An equation that involves an unknown function of more than one independent variable and one or more of its partial derivatives.
+2. To calculate a partial derivative with respect to a given variable, treat all the other variables as constants and use the usual differentiation rules. 
+3. Higher-order partial derivatives can be calculated in the same way as higher-order derivatives.
+	1. **Higher-Order Partial Derivatives**: Second-order or higher partial derivatives, regardless of whether they are mixed partial derivatives.
+	2. **Mixed Partial Derivatives**: Second-order or higher partial derivatives, in which at least two of the differentiations are with respect to different variables.
 ## For a (1D) Function $f(x)$
 The Partial Derivative in 1D is the **same** as the conventional Derivative in 1D.
 	That is because there is only one variable to begin with.
@@ -151,7 +159,7 @@ $$\LARGE \frac{\partial f}{\partial x} = \lim_{\Delta x \to 0} \frac{f(x + \Delt
 This definition shows that the partial derivative measures how the function $f(x,y)$ changes as $x$ changes by a small amount $\Delta x$, while $y$ remains constant.
 
 - - -
-## Directional Directive
+## [[Directional Derivatives|Directional Derivatives]]
 ![[Pasted image 20240705152625.png|400]]
 
 - - -
