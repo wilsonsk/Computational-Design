@@ -28,9 +28,22 @@ $$f'(x) = \lim_{\Delta x \to 0} \frac{f(x + \Delta x) - f(x)}{\Delta x}$$
 #### Notation
 The derivative can be notated in various ways, including:
 - $\LARGE f'(x)$
+- $D_x f(x)$
+- $\LARGE \frac{d}{dx}$
+	- The notation $\LARGE \frac{d}{dx}$​ is an operator, specifically the differentiation operator with respect to the variable $x$.
+		- It requires a function to act upon.
+	- It does not specify any particular function, it just indicates the operation of taking a derivative with respect to $x$.
+		- When you see $\LARGE \frac{d}{dx}$​ by itself, it means "take the derivative with respect to $x$."
+			It is not complete by itself and needs a function or expression to operate on.
+	- *For example*, $\LARGE \frac{d}{dx}(x^2)$ means to take the derivative of $x^2$ with respect to $x$.
+		- It is an instruction to differentiate
 - $\LARGE \frac{df}{dx}$ This generally means the derivative of some function $f$ with respect to $x$.
 	- Here, $f$ is an unspecified function of $x$.
-- $D_x f(x)$
+		- The exact form of $f(x)$ is not specified when you just write $\LARGE \frac{df}{dx}$.
+	- It is the result of applying the operator $\LARGE \frac{d}{dx}$​ to a specific function $f(x)$.
+	- This represents the derivative of a specific function $f(x)$ with respect to $x$. 
+		- It is the result of applying $\LARGE \frac{d}{dx}$​ to $f(x)$.
+			- It is the actual derivative of a specific function $f(x)$.
 
 $$\LARGE \frac{df}{dx}x^2 \text{ vs. } \frac{d}{dx}x^2$$
 $$\LARGE \frac{d}{dx}x^2 $$

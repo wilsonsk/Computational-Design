@@ -14,13 +14,35 @@ A directional derivative represents a rate of change of a function in any given 
 	The slope of the blue arrow on the graph indicates the value of the directional derivative at that point*.
 
 > [!note] 
+> The directional derivative of a function $f(x, y, z)$ in the direction of a unit vector $\LARGE \mathbf{u} = \langle u_x, u_y, u_z \rangle$ measures the rate of change of the function in that specific direction.
+> 	- The direction vector $\mathbf{u}$ makes angles $\alpha, \beta, \gammaα$ with the $x, y, z$ axes respectively, its components are: $$\LARGE u_x = \cos(\alpha), \quad u_y = \cos(\beta), \quad u_z = \cos(\gamma)$$
+> **Calculation**: The directional derivative of $f$ in the direction of $\mathbf{u}$ is: $$\LARGE D_{\mathbf{u}} f = \nabla f \cdot \mathbf{u} = \frac{\partial f}{\partial x} \cos(\alpha) + \frac{\partial f}{\partial y} \cos(\beta) + \frac{\partial f}{\partial z} \cos(\gamma)$$
+> ##### Nabla Operator ($\nabla$)
+> The nabla operator is a vector differential operator that, when applied to a scalar or vector field, produces different types of derivatives. 
+> 	Its components are partial derivatives with respect to the spatial coordinates. In three dimensions, the nabla operator is defined as:
+> 	$$ \nabla = (\frac{\partial}{\partial x}, \frac{\partial}{\partial y}, \frac{\partial}{\partial z})$$
+> ##### Gradient ($\nabla f$)
+> The gradient of a scalar field $f(x, y, z)$ is a vector field that points in the direction of the greatest rate of increase of the scalar field. 
+> - The magnitude of the gradient vector represents the rate of that increase.
+> - Mathematically, the gradient of $f$ is obtained by applying the $\nabla$ operator to $f$:
+> 	$$ \nabla f = (\frac{\partial f}{\partial x}, \frac{\partial f}{\partial y}, \frac{\partial f}{\partial z})$$
+> 
+
+
+
+
+> ### Deriving
 > We start with the graph of a surface defined by the equation $\LARGE z = f(x,y)$.
 > 
 > Given a point $\LARGE (a,b)$ in the domain of $f$, we choose a direction to travel from that point. 
 > We measure the direction using the angle $\LARGE \theta$, which is measured counterclockwise in the $xy$-plane, starting at $zero$ from the positive $x$-axis.
 > ###### $\LARGE h$ (i.e. and interval): The distance traveled.
 > ###### [[Static Equilibrium#Unit Vector|Unit Vector]], $\LARGE \vec{u} = (\cos\theta)\hat{i} + (\sin\theta)\hat{j}$: The direction of travel.
-> - Using the combination of these $\cos\theta$ and $\sin\theta$ components for direction of $\vec{u}$, allows us to extract only the change in the $x$ and $y$-axes.
+> Trigonometric functions help break down a vector into orthogonal components along the coordinate axes.
+> - This isolation allows for the analysis of the vector's effect along each axis independently, simplifying complex vector problems.
+> 	- $cos$ and $⁡\sin$ ensure that the magnitude of the original vector is preserved when summing its components.
+> 
+> Using the combination of these $\cos\theta$ and $\sin\theta$ components for direction of $\vec{u}$, can isolate or extract the change or magnitude along specific axes or directions.
 > - $\LARGE \cos\theta$ gives the projection of the unit vector on the $x$-axis.
 > 	- If $\theta = 0$, $\cos 0 = 1$, and we move entirely in the $x$-direction.
 > - $\LARGE \sin \theta$ gives the projection of the unit vector on the $y$-axis.
