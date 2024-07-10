@@ -78,21 +78,37 @@ The broadest concept, encompassing any rule that associates elements of one set 
 ###### Mappings Are Not Restricted to Be Represented by Ordered Pairs
 They include any of the associations.
 
-**Types of Mappings**:
-- **Functions**: A function f:A→Bf: A \to Bf:A→B is a mapping where each element in AAA is associated with exactly one element in BBB.
-- **Multivalued Mappings**: These are mappings where an element in the domain can be associated with multiple elements in the codomain.
-- **Partial Mappings**: These mappings do not require that every element in the domain be associated with an element in the codomain.
-### A Mapping Defines the [[Abstract Mathematical Spaces#Structure|Structure]] of a [[Abstract Mathematical Spaces#Structured Set (i.e. Space)|Structured Set]]
+>[!note}]
+>## Associations (i.e. Types of Mappings)
+>Associations define how elements of one set (the domain) are related to elements of another set (the codomain). 
+	>These associations can vary based on the number of elements in the domain that are related to elements in the codomain and vice versa.
+>### One to One, ($\LARGE 1:1$), aka Injective Mapping
+>Each element in the domain set $A$ is related (i.e. mapped) to exactly one unique element in the codomain set $B$, and each element in $B$ is related to exactly one unique element in $A$.
+>$$\LARGE \text{Let } A = \{1, 2, 3\} \text{ and } B = \{a, b, c\}$$
+>$$\LARGE \text{A one-to-one relation can be } R = \{(1, a), (2, b), (3, c)\}$$
+>### One to Many, ($\LARGE 1:n$ ), aka Multivalued Mapping
+>An element in the domain set $A$ can be related (i.e. mapped) to multiple elements in the codomain set $B$.
+> $$\LARGE \text{Let} A = \{1, 2\} \text{ and } B = \{a, b, c\}$$
+>$$\LARGE \text{A one-to-many relation can be } R = \{(1, a), (1, b), (1, c), (2, a)\}$$
+>### Many to One, ($\LARGE n:1$), aka Surjective Mapping
+>Multiple elements in the domain can be related (i.e. mapped) to the same single element in the codomain.
+>$$\LARGE \text{If } A = \{1, 2\} \text{ and } B = \{a\}$$
+>$$\LARGE \text{A many-to-one relation could be } R = \{(1, a), (2, a)\}.$$
+>### Many to Many, ($\LARGE n:m$), aka General Relation
+>Multiple elements in the domain set $A$ can be related (i.e. mapped) to multiple elements in the codomain set $B$.
+>$$\LARGE \text{Let } A = \{1, 2, 3\} \text{ and } B = \{a, b\}$$
+>$$\text{A many-to-many relation can be } R = \{(1, a), (1, b), (2, a), (2, b), (3, a), (3, b)\}$$
+## A Mapping Defines the [[Abstract Mathematical Spaces#Structure|Structure]] of a [[Abstract Mathematical Spaces#Structured Set (i.e. Space)|Structured Set]]
 By defining these interactions, which shapes the domain, codomain, and range within the context of the structured set.
 	The domain, codomain, and range are the primary sets that are structured by the mappings (relations, functions, operations) within a structured set. 
 		These mappings define the relationships and interactions between elements of these sets, thereby determining their structure.
-#### Domain as a Subset of the Underlying Set
+### Domain as a Subset of the Underlying Set
 The domain of a mapping (or function) is the **set of all possible input values** that the mapping can process.
 	It is the set from which the first elements of the ordered pairs are taken.
 
 The domain is structured by the mapping because the mapping defines which elements are included as valid inputs.
 	The structure of the domain is shaped by the requirements and constraints imposed by the mapping.
-#### Codomain as a Subset of Domain
+### Codomain as a Subset of Domain
 The codomain of a mapping (or function) is the **set of all potential output values** that the mapping can produce. 
 	It is the set that contains all possible results of the mapping, whether or not all elements in the codomain are actually produced by elements of the domain.
 
@@ -104,33 +120,12 @@ Using the Cartesian product clarifies the definitions of mappings by providing a
 
 Relations and functions are defined as subsets of the Cartesian product. 
 	Without the Cartesian product, it would be difficult to formally describe and work with these subsets.
-#### Range as a Subset of Codomain
+### Range as a Subset of Codomain
 The range (or image) of a mapping (or function) is the **set of all actual output values** that are produced by the mapping (i.e. by applying the function to every element in the domain). 
 	The range is always a subset (or equal to) the codomain.
 
 The range is directly determined by the mapping as it is the actual set of outputs obtained. 
 	The structure of the range is a subset of the codomain, specifically those elements that are realized through the mapping.
-
->[!note}]
->## Associations
->Associations define how elements of one set (the domain) are related to elements of another set (the codomain). 
-	>These associations can vary based on the number of elements in the domain that are related to elements in the codomain and vice versa.
->### One to One, ($\LARGE 1:1$)
->Each element in the domain set $A$ is related to exactly one unique element in the codomain set $B$, and each element in $B$ is related to exactly one unique element in $A$.
->$$\LARGE \text{Let } A = \{1, 2, 3\} \text{ and } B = \{a, b, c\}$$
->$$\LARGE \text{A one-to-one relation can be } R = \{(1, a), (2, b), (3, c)\}$$
->### One to Many, ($\LARGE 1:n$ )
->An element in the domain set $A$ can be related to multiple elements in the codomain set $B$.
-> $$\LARGE \text{Let} A = \{1, 2\} \text{ and } B = \{a, b, c\}$$
->$$\LARGE \text{A one-to-many relation can be } R = \{(1, a), (1, b), (1, c), (2, a)\}$$
->### Many to One, ($\LARGE n:1$)
->Multiple elements in the domain can be related to the same single element in the codomain.
->$$\LARGE \text{If } A = \{1, 2\} \text{ and } B = \{a\}$$
->$$\LARGE \text{A many-to-one relation could be } R = \{(1, a), (2, a)\}.$$
->### Many to Many, ($\LARGE n:m$)
->Multiple elements in the domain set $A$ can be related to multiple elements in the codomain set $B$.
->$$\LARGE \text{Let } A = \{1, 2, 3\} \text{ and } B = \{a, b\}$$
->$$\text{A many-to-many relation can be } R = \{(1, a), (1, b), (2, a), (2, b), (3, a), (3, b)\}$$
 
 - - -
 ## A Function as a Subset of Relations ($1 : 1$, $m:1$)
