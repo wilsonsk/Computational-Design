@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Directional Derivatives.md",
+                "file": "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Fields.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Partial Derivatives.md",
+                "file": "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Mapping.md",
                 "mode": "source",
                 "source": false
               }
@@ -79,7 +79,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Directional Derivatives.md",
+                "file": "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Mapping.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -163,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Directional Derivatives.md",
+                "file": "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Mapping.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -186,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Directional Derivatives.md"
+                "file": "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Mapping.md"
               }
             }
           },
@@ -220,27 +221,28 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "e9f523721294dd5b",
+  "active": "0fd42ca7a970ecb8",
   "lastOpenFiles": [
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Spaces.md",
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Mapping.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/A Map of Change as Rates to Limits of those Rates to Differentials to Derivatives.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Partial Derivatives.md",
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Fields.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Directional Derivatives.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Curvature's Role in Stress Distribution.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Concurrent Systems.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Non-Concurrent Systems.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Static Equilibrium.md",
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Spaces.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Statics Analysis.md",
     "Pasted image 20240708134159.png",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Division.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/A Map of Change as Rates to Limits of those Rates to Differentials to Derivatives.md",
     "Data/Abstract Mathematical Spaces/Differential Geometry/Differential Geometry.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Moment.md",
     "Drawing/Computational and Parametric Thinking While Drawing.md",
     "Drawing/Perspective Projection.md",
     "Abstract/Morphogenesis/Morphogenetic Fields.md",
     "Pasted image 20240708070643.png",
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Fields.md",
     "Pasted image 20240708065933.png",
     "Data/Computation/Programming as an Abstract Mathematical Environment.md",
     "Data/Computation",
@@ -255,7 +257,6 @@
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Limits.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Proportion.md",
     "Untitled.md",
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Linearity/Linear Mapping.md",
     "images/Pasted image 20240630084728.png",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Structures",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Linearity",

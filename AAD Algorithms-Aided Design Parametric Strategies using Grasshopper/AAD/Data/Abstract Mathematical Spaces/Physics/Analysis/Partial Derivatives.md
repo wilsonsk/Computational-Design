@@ -164,8 +164,7 @@ This definition shows that the partial derivative measures how the function $f(x
 
 - - -
 
-
-### Gradient
+## Gradient
 The gradient of the function is defined to be which can be generalized to a function of any number of independent variables.
 
 The gradient can be used in a formula to calculate the directional derivative. 
@@ -177,21 +176,33 @@ The gradient of a scalar function $f(x, y, z)$ in 3D is a vector that points in 
 $$\LARGE \nabla f = \left( \frac{\partial f}{\partial x}, \frac{\partial f}{\partial y}, \frac{\partial f}{\partial z} \right)$$
 > [!note]
 > ### How the Gradient Enables Calculations
-> ##### 1. Directional Derivative:
-> The directional derivative of a function fff in the direction of a unit vector $\LARGE \mathbf{u} = \langle u_x, u_y, u_z \rangle$ is a measure of the rate at which $f$ changes in that direction. 
+> ##### 1. Directional Derivative
+> The directional derivative of a function $f$ in the direction of a unit vector $\LARGE \mathbf{u} = \langle u_x, u_y, u_z \rangle$ is a measure of the rate at which $f$ changes in that direction. 
 > The gradient allows us to calculate the directional derivative as follows:
 > $$\LARGE D_{\mathbf{u}} f = \nabla f \cdot \mathbf{u} = \frac{\partial f}{\partial x} u_x + \frac{\partial f}{\partial y} u_y + \frac{\partial f}{\partial z} u_z$$
 > Where:
-> $\LARGE D_{u}f$ gives the rate at which the function fff changes as you move from a point in the direction of $\mathbf{u}$.​
+> $\LARGE D_{u}f$ gives the rate at which the function $f$ changes as you move from a point in the direction of $\mathbf{u}$.​
 > 
 > Here’s how this works:
 > - The gradient $\LARGE \nabla f$ gives the vector of partial derivatives of $f$.
 > - The dot product $\LARGE \nabla f \cdot \mathbf{u}$ projects the gradient vector onto the direction vector $\mathbf{u}$, yielding the rate of change of $f$ in that direction.
-> ##### 2. **Finding Maximal Increase**:
+> ##### 2. Finding Maximal Increase
 > The gradient points in the direction of the steepest ascent of the scalar field $f$. 
 > By knowing the gradient, one can determine how to move in space to increase the function $f$ most rapidly.
-### Scalar Field 
-is a mathematical function that assigns a single scalar value to every point in a space. In the context of three-dimensional space, a scalar field is typically represented as f(x,y,z)f(x, y, z)f(x,y,z), where fff is the scalar value at each point (x,y,z)(x, y, z)(x,y,z).
+
+### Hierarchical Connection
+
+- **Gradient of a Scalar Field**:
+    
+    - The gradient of a scalar field is a vector field. Given a scalar field f(x,y,z)f(x, y, z)f(x,y,z), the gradient ∇f\nabla f∇f is a vector field that points in the direction of the steepest ascent of the scalar field and whose magnitude represents the rate of increase.
+- **Divergence of a Vector Field**:
+    
+    - The divergence of a vector field is a scalar field. Given a vector field F=(Fx,Fy,Fz)\mathbf{F} = (F_x, F_y, F_z)F=(Fx​,Fy​,Fz​), the divergence ∇⋅F\nabla \cdot \mathbf{F}∇⋅F is a scalar field representing the net rate of flow of the vector field out of an infinitesimal volume.
+    - **Formula**: ∇⋅F=∂Fx∂x+∂Fy∂y+∂Fz∂z\nabla \cdot \mathbf{F} = \frac{\partial F_x}{\partial x} + \frac{\partial F_y}{\partial y} + \frac{\partial F_z}{\partial z}∇⋅F=∂x∂Fx​​+∂y∂Fy​​+∂z∂Fz​​
+- **Curl of a Vector Field**:
+    
+    - The curl of a vector field is another vector field. Given a vector field F=(Fx,Fy,Fz)\mathbf{F} = (F_x, F_y, F_z)F=(Fx​,Fy​,Fz​), the curl ∇×F\nabla \times \mathbf{F}∇×F measures the rotation of the field around a point.
+    - **Formula**: ∇×F=(∂Fz∂y−∂Fy∂z,∂Fx∂z−∂Fz∂x,∂Fy∂x−∂Fx∂y)\nabla \times \mathbf{F} = \left( \frac{\partial F_z}{\partial y} - \frac{\partial F_y}{\partial z}, \frac{\partial F_x}{\partial z} - \frac{\partial F_z}{\partial x}, \frac{\partial F_y}{\partial x} - \frac{\partial F_x}{\partial y} \right)∇×F=(∂y∂Fz​​−∂z∂Fy​​,∂z∂Fx​​−∂x∂Fz​​,∂x∂Fy​​−∂y∂Fx​​)
 #### Role of Scalar Fields in Learning Derivatives
 Scalar fields are central to many applications in physics, engineering, and other sciences. Understanding derivatives in the context of scalar fields is crucial for analyzing how these quantities change in space. Here's how scalar fields come into play when learning derivatives:
 #### 1. Partial Derivatives:

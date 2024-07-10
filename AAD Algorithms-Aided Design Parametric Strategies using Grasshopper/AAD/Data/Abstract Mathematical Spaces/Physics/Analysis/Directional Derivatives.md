@@ -26,11 +26,8 @@ A directional derivative represents a rate of change of a function in any given 
 > - The magnitude of the gradient vector represents the rate of that increase.
 > - Mathematically, the gradient of $f$ is obtained by applying the $\nabla$ operator to $f$:
 > 	$$ \nabla f = (\frac{\partial f}{\partial x}, \frac{\partial f}{\partial y}, \frac{\partial f}{\partial z})$$
-> 
 
-
-
-
+> [!note]
 > ### Deriving
 > We start with the graph of a surface defined by the equation $\LARGE z = f(x,y)$.
 > 
@@ -51,22 +48,19 @@ A directional derivative represents a rate of change of a function in any given 
 > Therefore, the $z$-coordinate of the second point on the graph is given by: 
 > $\LARGE z = f(a+\cos\theta, b+h\sin\theta)$.
 > ###### Slope of the Secant Line
-$$\LARGE m_{secant} = \frac{f(a+h\cos\theta,\space b+h\sin\theta) - f(a,b)}{h}$$
+> $$\LARGE m_{secant} = \frac{f(a+h\cos\theta,\space b+h\sin\theta) - f(a,b)}{h}$$
 To find the slope of the tangent line in the same direction, we take the limit as $\LARGE h$ approaches zero.
 ### 1. [[Statics Analysis#Static Equilibrium Norm of a Vector Magnitude|Normalize]] the Direction Vector
 Ensure the direction vector $\mathbf{v}$ is a unit vector. 
 	If $\mathbf{v} = (a, b)$, normalize it by dividing by its magnitude:
 $$\LARGE \mathbf{u} = \left( \frac{a}{\sqrt{a^2 + b^2}}, \frac{b}{\sqrt{a^2 + b^2}} \right)$$
-
 ### 2. Compute the Gradient
 Find the gradient of $f$ at the point $(x_0, y_0)$. 
 	The gradient is a vector of partial derivatives:
 $$\LARGE \nabla f(x_0, y_0) = \left( \frac{\partial f}{\partial x}(x_0, y_0), \frac{\partial f}{\partial y}(x_0, y_0) \right)$$
-
 ### 3. Dot Product
 Take the dot product of the gradient vector and the normalized direction vector:
 $$\LARGE D_{\mathbf{u}} f(x_0, y_0) = \nabla f(x_0, y_0) \cdot \mathbf{u}$$
-
 ### Result
 $$\LARGE D_{\mathbf{u}} f(x_0, y_0) = \frac{\partial f}{\partial x}(x_0, y_0) \cdot \frac{a}{\sqrt{a^2 + b^2}} + \frac{\partial f}{\partial y}(x_0, y_0) \cdot \frac{b}{\sqrt{a^2 + b^2}}$$
 ### Example Calculation

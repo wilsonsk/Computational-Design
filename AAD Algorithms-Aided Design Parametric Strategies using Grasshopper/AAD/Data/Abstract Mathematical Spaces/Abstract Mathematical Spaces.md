@@ -93,35 +93,49 @@ When a set is endowed with a structure, it becomes a "structured set" or "space.
 Structured sets are formed by taking a subset of the underlying set and adding a structure to it. 
 	The additional structure defines how the elements of the underlying set interact.
 		I.e. The combination of the underlying set and the additional structure. 
-#### Space
-The space refers to the set together with the defined structure (i.e. the operations and properties).
-
-In mathematics, a **space** is a [[#Set Theory|set]] (sometimes known as a universe (i.e. a collection that contains all the entities one wishes to consider in a given situation) with a definition of relationships among the [[Abstract Mathematical Objects|Mathematical Objects]] of the set.
-	Where "definition of relationships" refers to the "structure" of the space.
-		And the "Mathematical Objects" refer to the elements of the underlying set within the space.
-			Although the operations and functions of the space are also technically Mathematical Objects.
-
-A space consists of selected mathematical objects that are treated as [[Points|points]].
-and selected relationships between these points.
-	The nature of the points can vary widely: for example, the points can represent numbers, functions on another space, or subspaces of another space. 
-		It is the relationships (i.e. Morphisms) that define the nature of the space.
-#### Structure
-Structure on a set is the specification of additional operations, relations, and axioms that the set must satisfy. 
-	The structure defines how the elements of the set interact and behave according to certain rules.
-###### Adding Structure to a Set
+#### Adding Structure to a Set
 By defining operations ***on*** a set and imposing certain rules or axioms, we can impart structure to the set.
 	"**Defining on a set**", means that the operation, function, or property is specified in such a way that it applies to the elements of the set and governs their interactions.
 		This definition imparts structure to the set, transforming it into a structured set or space with specific mathematical properties.
-##### Components that compose the "Structure" of a Structured Set
-1. **Set**: 
-	The underlying collection of elements.
-		These are the Mathematical Objects of the Space.
-2. **Operations**:
-	Functions defined on the elements of the set (e.g., addition, multiplication).
-		These are specific functions or rules that describe how the elements of the set interact.
-3. **Axioms (Properties)**: 
-	Rules or conditions that the operations must satisfy (e.g., associativity, commutativity, distributivity).
-		These are the conditions or rules that the operations must satisfy to ensure the set behaves in a particular way.
+### The "Set" of the Structured Set
+The Underlying Set is the "Set" of the Structured Set.
+	This is the underlying set of elements that the structured set is built upon.
+### The "Structure" of the Structured Set
+Structure on a set is the specification of additional operations, [[Mapping#A Relation as a Subset of Mappings ($1 n$)|relations]], and axioms that the set must satisfy. 
+	The structure defines how the elements of the set interact and behave according to certain rules.
+#### 1. Axioms and Properties (Define the Mappings) 
+Rules or conditions that the Structure must satisfy (e.g., associativity, commutativity, distributivity).
+	These are the conditions or rules that the operations must satisfy to ensure the set behaves in a particular way.
+	
+Axioms are fundamental truths or principles that are accepted without proof and serve as the starting point for defining a mathematical structure. 
+	Properties are derived characteristics that follow from these axioms.
+
+The axioms and properties of a structured set come first and define the nature of the mappings.
+	Axioms establish the foundational rules and requirements that any mappings within the structure must satisfy.
+		The structure of the set, including the domain, codomain, and range for each operation or relation, is defined by the axioms and properties of the structured set.
+#### 2. [[Mapping|Mappings]] (Define the Domain, Codomain, and Range)
+The mappings ([[Mapping#A Relation as a Subset of Mappings ($1 n$)|relations]], [[Mapping#A Function as a Subset of Relations ($1 1$, $m 1$)|functions]], [[Mapping#An Operation as a Subset of Functions|operations]]) applied to the Underlying Set establish the rules and behaviors for how the elements of the set interact.  
+	Thereby determining the structure of the domain, codomain, and range.
+	I.e. Determine the specific roles and properties of the domain, codomain, and range within that structured set.
+		These mappings specify the rules for how elements interact, thereby shaping the overall structure of the sets involved.
+			Each Mapping (i.e. relation, function, operation) within a structured set has an associated domain, codomain, and range.
+				The calculations we perform within a structured set help us discover and understand these values, which are inherent to the structure.
+
+Mappings must adhere to the axioms and properties defined by the structure. They are designed to satisfy the constraints and behaviors dictated by the axioms.
+	Mappings (relations, functions, operations) are then defined in a way that satisfies the axioms. 
+		The mappings are constructed to ensure that the structured set adheres to its defined properties.
+#### 3. Domains, Codomains, and Ranges Are Structured by Mappings
+##### [[Mapping#Domain as a Subset of the Underlying Set|Domain as a Subset of the Underlying Set]]
+##### [[Mapping#Codomain as a Subset of Domain|Codomain as a Subset of Domain]]
+##### [[Mapping#Range as a Subset of Codomain|Range as a Subset of Codomain]]
+
+#### 4. Inherent Values in Structured Sets
+The values and relationships within a structured set are inherent to the structure as defined by its axioms and properties. 
+	Specific elements and their relationships that arise from the structure’s defining rules.
+		They reflect the actual elements and interactions that exist within the structured set as dictated by the axioms and operations.
+
+The calculations we perform are methods to uncover and understand these inherent values and relationships.
+
 
 - - -
 ## Types of Structured Sets (i.e. Spaces)
@@ -152,9 +166,31 @@ The term "field" (German: "Körper") was introduced by Richard Dedekind.
 	In English, "field" was chosen to reflect the idea of a set with both additive and multiplicative operations that can be inverted (except for zero).
 	
 A field can be thought of as a "field" of numbers where every non-zero element has a multiplicative inverse, reflecting a rich, fertile structure allowing for extensive arithmetic operations.
+##### Definition
+A field $F$ is a set with two operations (addition and multiplication) such that:
+1. **Closure**: For all $\LARGE a, b \in F$, both $\LARGE a+b \text{ and } \cdot b$ are in $\LARGE F$.
+2. **Associativity**: Both addition and multiplication are associative.
+3. **Commutativity**: Both addition and multiplication are commutative.
+4. **Identity Elements**: There exist elements $\LARGE 0 \in F$ and $\LARGE 1 \in F$ such that for all $\LARGE a \in F$, $\LARGE a + 0 = a$ and $\LARGE a \cdot 1 = a$.
+5. **Additive Inverses**: For every $\LARGE a \in F$, there exists an element $\LARGE -a \in F$ such that $\LARGE a + (-a) = 0$.
+6. **Multiplicative Inverses**: For every $\LARGE a \in F$ (except $0$), there exists an element $a^{-1} \in F$ such that $\LARGE a \cdot a^{-1} = 1$.
+7. **Distributivity**: Multiplication is distributive over addition, i.e., $\LARGE a \cdot (b + c) = a \cdot b + a \cdot c$ for all $\LARGE a, b, c \in F$.
 ### 2. "Spaces" (Not Purely Algebraic)
 The term "space" can refer to **any** set with additional structure, whether algebraic, topological, or geometric.
 	Spaces often incorporate geometric or topological structures, such as distances, open sets, norms, and inner products, which are not typically considered in the purely algebraic structures of groups, rings, and fields.
+
+The space refers to the set together with the defined structure (i.e. the operations and properties).
+
+In mathematics, a **space** is a [[#Set Theory|set]] (sometimes known as a universe (i.e. a collection that contains all the entities one wishes to consider in a given situation) with a definition of relationships among the [[Abstract Mathematical Objects|Mathematical Objects]] of the set.
+	Where "definition of relationships" refers to the "structure" of the space.
+		And the "Mathematical Objects" refer to the elements of the underlying set within the space.
+			Although the operations and functions of the space are also technically Mathematical Objects.
+
+A space consists of selected mathematical objects that are treated as [[Points|points]].
+and selected relationships between these points.
+	The nature of the points can vary widely: for example, the points can represent numbers, functions on another space, or subspaces of another space. 
+		It is the relationships (i.e. Morphisms) that define the nature of the space.
+
 > [!NOTE] ###### Metric Spaces
 > Metric Spaces: A set with a distance function (metric) defined between elements.
 	>**Example**: The set $\mathbb{R}$ with the usual distance function $d(x, y) = |x - y|$.
