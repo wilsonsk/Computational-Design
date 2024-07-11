@@ -131,10 +131,6 @@ This is the metric used to measure the distance between two points in the space.
 
 - - - 
 
-
-
-
-- - -
 ### Contracting an Area
 Where a [[Scaling#Scaling as Area|scalar is a dimension]].
 	A fractional scalar

@@ -145,6 +145,8 @@ $$\LARGE f: A \to B$$
 1. **Uniqueness**: Each element in the domain is associated with exactly one element in the codomain.
 2. **Well-defined**: For every $a \in A$, there is a unique $b \in B$ such that $(a, b) \in f$
 ### Associations of Functions
+These describe how elements from two different sets are paired or associated, often emphasizing the nature of the pairing across different sets.
+
 **Uniqueness Requirement**:  Each element in the domain is associated with exactly one element in the codomain.
 	This rule ensures that each input (element in the domain) maps to a single output (element in the codomain).
 		Functions **can** be
@@ -152,20 +154,28 @@ $$\LARGE f: A \to B$$
 				**Cannot** be $\LARGE 1:m$ or $\LARGE n:m$.
 					These violate the uniqueness requirement, as elements in the domain would map to more than one element in the codomain.
 ##### Injective (One-to-One) Function
-A function $f: A \to B$ is injective if different elements in $A$ map to different elements in $B$. Formally, if $f(a_1) = f(a_2)$ implies $a_1 = a_2$.
+A function $f: A \to B$ is injective if different elements in $A$ map to different elements in $B$. 
+	Formally, if $f(a_1) = f(a_2)$ implies $a_1 = a_2$.
+
 **Example**: If $A = \{1, 2, 3\}$ and $B = \{a, b, c, d\}$, an injective function could be $f = \{(1, a), (2, b), (3, c)\}$.
 ##### Surjective (Onto) Function
-A function $f: A \to B$ is surjective if every element in $B$ is the image of at least one element in $A$. Formally, for every $b \in B$, there exists an $a \in A$ such that $f(a) = b$.
+A function $f: A \to B$ is surjective if every element in $B$ is the image of at least one element in $A$. 
+	Formally, for every $b \in B$, there exists an $a \in A$ such that $f(a) = b$.
+
 **Example**: If $A = \{1, 2, 3\}$ and $B = \{a, b\}$, a surjective function could be $f = \{(1, a), (2, b), (3, a)\}$.
 ##### Bijective (One-to-One and Onto) Function
-A function $f: A \to B$ is bijective if it is both injective and surjective. This means that every element in $A$ maps to a unique element in $B$, and every element in $B$ is the image of a unique element in $A$.
+A function $f: A \to B$ is bijective if it is both injective and surjective.
+	This means that every element in $A$ maps to a unique element in $B$, and every element in $B$ is the image of a unique element in $A$.
+
 **Example**: If $A = \{1, 2, 3\}$ and $B = \{a, b, c\}$, a bijective function could be $f = \{(1, a), (2, b), (3, c)\}$.
 ##### Constant Function
 A function $f: A \to B$ is constant if all elements in $A$ are mapped to the same single element in $B$.
+
 **Example**: If $A = \{1, 2, 3\}$ and $B = \{a\}$, a constant function could be $f = \{(1, a), (2, a), (3, a)\}$.
 ##### Identity Function
 A function $f: A \to A$ is the identity function if every element maps to itself. Formally, $f(a) = a$ for all $a \in A$.
-    **Example**: If $A = \{1, 2, 3\}$, the identity function is $f = \{(1, 1), (2, 2), (3, 3)\}$.
+
+**Example**: If $A = \{1, 2, 3\}$, the identity function is $f = \{(1, 1), (2, 2), (3, 3)\}$.
 
 - - -
 ## An Operation as a Subset of Functions
