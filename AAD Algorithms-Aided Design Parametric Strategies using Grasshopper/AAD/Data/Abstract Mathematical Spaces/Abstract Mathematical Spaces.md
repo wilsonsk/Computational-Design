@@ -93,17 +93,13 @@ When a set is endowed with a structure, it becomes a "structured set" or "space.
 Structured sets are formed by taking a subset of the underlying set and adding a structure to it. 
 	The additional structure defines how the elements of the underlying set interact.
 		I.e. The combination of the underlying set and the additional structure. 
-#### Adding Structure to a Set
-By defining operations ***on*** a set and imposing certain rules or axioms, we can impart structure to the set.
-	"**Defining on a set**", means that the operation, function, or property is specified in such a way that it applies to the elements of the set and governs their interactions.
-		This definition imparts structure to the set, transforming it into a structured set or space with specific mathematical properties.
 ### The "Set" of the Structured Set
 The Underlying Set is the "Set" of the Structured Set.
 	This is the underlying set of elements that the structured set is built upon.
 ### The "Structure" of the Structured Set
-Structure on a set is the specification of additional operations, [[Mapping#A Relation as a Subset of Mappings ($1 n$)|relations]], and axioms that the set must satisfy. 
+Structure on a set is the specification of added axioms, then [[Mapping#A Mapping Defines the Abstract Mathematical Spaces Structure Structure of a Abstract Mathematical Spaces Structured Set (i.e. Space) Structured Set|mappings]] that the [[Mapping#A Function as a Subset of Mappings ($1 1$, $m 1$)|functions]] and [[Mapping#An Operation as a Subset of Functions|operations]] must satisfy. 
 	The structure defines how the elements of the set interact and behave according to certain rules.
-#### 1. Axioms and Properties (Define the Mappings) 
+#### 1. Axioms and Properties (Determine the Mappings) 
 Rules or conditions that the Structure must satisfy (e.g., associativity, commutativity, distributivity).
 	These are the conditions or rules that the operations must satisfy to ensure the set behaves in a particular way.
 	
@@ -113,29 +109,67 @@ Axioms are fundamental truths or principles that are accepted without proof and 
 The axioms and properties of a structured set come first and define the nature of the mappings.
 	Axioms establish the foundational rules and requirements that any mappings within the structure must satisfy.
 		The structure of the set, including the domain, codomain, and range for each operation or relation, is defined by the axioms and properties of the structured set.
-#### 2. [[Mapping|Mappings]] (Define the Domain, Codomain, and Range)
-The mappings ([[Mapping#A Relation as a Subset of Mappings ($1 n$)|relations]], [[Mapping#A Function as a Subset of Relations ($1 1$, $m 1$)|functions]], [[Mapping#An Operation as a Subset of Functions|operations]]) applied to the Underlying Set establish the rules and behaviors for how the elements of the set interact.  
+#### 2. [[Mapping|Mappings]] (Determine the Domain, Codomain, and Range)
+The mappings ([[Mapping#A Function as a Subset of Relations ($1 1$, $m 1$)|functions]], [[Mapping#An Operation as a Subset of Functions|operations]]) applied to the Underlying Set establish the rules and behaviors (that are determined by the axioms) for how the elements of the set interact.  
 	Thereby determining the structure of the domain, codomain, and range.
-	I.e. Determine the specific roles and properties of the domain, codomain, and range within that structured set.
-		These mappings specify the rules for how elements interact, thereby shaping the overall structure of the sets involved.
-			Each Mapping (i.e. relation, function, operation) within a structured set has an associated domain, codomain, and range.
-				The calculations we perform within a structured set help us discover and understand these values, which are inherent to the structure.
+		I.e. Determine the specific roles and properties of the domain, codomain, and range within that structured set.
+			These mappings specify the rules for how elements interact, thereby shaping the overall structure of the sets involved.
+				Each Mapping (i.e. relation, function, operation) within a structured set has an associated domain, codomain, and range.
+					The calculations we perform within a structured set help us discover and understand these values, which are inherent to the structure.
 
-Mappings must adhere to the axioms and properties defined by the structure. They are designed to satisfy the constraints and behaviors dictated by the axioms.
-	Mappings (relations, functions, operations) are then defined in a way that satisfies the axioms. 
-		The mappings are constructed to ensure that the structured set adheres to its defined properties.
-#### 3. Domains, Codomains, and Ranges Are Structured by Mappings
+Mappings must adhere to the axioms and properties defined by the structure. 
+	They are designed to satisfy the constraints and behaviors dictated by the axioms.
+		Mappings (relations, functions, operations) are then defined in a way that satisfies the axioms. 
+			The mappings are constructed to ensure that the structured set adheres to its defined properties.
+#### 3. Domains, Codomains, and Ranges are the "Inherent Values" of a Structured Set
+Domains, Codomains, and Ranges Are Structured by the Mappings which are themselves determined by the axioms.
+	A Domain, Codomain, and Range is associated with each specific mapping of the structured set, determined by the axioms of the structure.
+		These subsets therefore define the scope of inputs, potential outputs, and actual outputs of each of these mappings.
+
+The values and relationships within a structured set are inherent to the structure as defined by its axioms and properties, which are expressed by the mappings of that structure.
+	Specific elements and their relationships that arise from the structure’s defining rules.
+		They reflect the actual elements and interactions that exist within the structured set as dictated by the axioms and operations.
+
+These Inherent Values (as Domains, Codomains and Ranges) already exist (independent of human calculation) upon the definition of the structure.
+	The calculations we perform are methods to uncover and understand these inherent values and relationships.
 ##### [[Mapping#Domain as a Subset of the Underlying Set|Domain as a Subset of the Underlying Set]]
 ##### [[Mapping#Codomain as a Subset of Domain|Codomain as a Subset of Domain]]
 ##### [[Mapping#Range as a Subset of Codomain|Range as a Subset of Codomain]]
 
-#### 4. Inherent Values in Structured Sets
-The values and relationships within a structured set are inherent to the structure as defined by its axioms and properties. 
-	Specific elements and their relationships that arise from the structure’s defining rules.
-		They reflect the actual elements and interactions that exist within the structured set as dictated by the axioms and operations.
-
-The calculations we perform are methods to uncover and understand these inherent values and relationships.
-
+- - -
+## Structuring/Equipping a Set (i.e. Space)
+This refers to the general process of starting with an underlying set and defining operations, properties, and axioms to create a more complex mathematical object.
+### Adding Structure to a Set
+By defining operations ***on*** a set and imposing certain rules or axioms, we can impart structure to the set.
+	"**Defining on a set**", means that the operation, function, or property is specified in such a way that it applies to the elements of the set and governs their interactions.
+		This definition imparts structure to the set, transforming it into a structured set or space with specific mathematical properties.
+			This term describes the process of defining operations and properties on an underlying set to form a structured set or space.
+### The Relationship Between a Structured and the Underlying Set
+#### Underlying Set is More Fundamental Than the Structured
+An underlying set is more fundamental than the structure in the sense that it serves as the basic collection of elements upon which the structure is built.
+	The structure is built on top of this set by defining specific operations and axioms, creating a more complex and rich mathematical object, and ensuring these operations satisfy certain properties and axioms.
+### Sequence of Steps in Structuring a Set
+##### 1. Start with an Underlying Set
+Identify the basic set of elements that will form the foundation of the structured set.
+- **Example**: The set of real numbers $\mathbb{R}$.
+##### 2. Define Properties and Axioms
+Specify the properties that the mappings must satisfy to ensure the set becomes a well-defined structured set.
+> [!note] Examples
+> - Associativity of addition: $(\mathbf{u} + \mathbf{v}) + \mathbf{w} = \mathbf{u} + (\mathbf{v} + \mathbf{w})$
+> - Commutativity of addition: $\mathbf{u} + \mathbf{v} = \mathbf{v} + \mathbf{u}$
+> - Identity element of addition: There exists a zero vector $\mathbf{0}$ such that $\mathbf{u} + \mathbf{0} = \mathbf{u}$
+> - Inverse elements of addition: For each vector $\mathbf{u}$, there exists a vector $-\mathbf{u}$ such that $\mathbf{u} + (-\mathbf{u}) = $\mathbf{0}$
+> - Distributivity: $a(\mathbf{u} + \mathbf{v}) = a\mathbf{u} + a\mathbf{v}$ and $(a + b)\mathbf{u} = a\mathbf{u} + b\mathbf{u}$
+##### 3. Define the Mappings Such That the Axioms are Satisfied
+Specify the operations that will be performed on the elements of the underlying set.
+- **Example**:
+    - Vector addition:
+	    $$(x_1, y_1, z_1) + (x_2, y_2, z_2) = (x_1 + x_2, y_1 + y_2, z_1 + z_2)$$
+    - Scalar multiplication: For a scalar $\LARGE a \in \mathbb{R}$
+	    $$\LARGE a \cdot (x, y, z) = (a x, a y, a z)$$
+##### 4. Form the Structured Set
+- **Resulting Set**: Combine the underlying set with the defined axioms, mappings, and subsets () to form the structured set.
+- **Example**: The set $\mathbb{R}^3$ with the defined operations and axioms forms a vector space.
 
 - - -
 ## Types of Structured Sets (i.e. Spaces)
@@ -166,8 +200,8 @@ The term "field" (German: "Körper") was introduced by Richard Dedekind.
 	In English, "field" was chosen to reflect the idea of a set with both additive and multiplicative operations that can be inverted (except for zero).
 	
 A field can be thought of as a "field" of numbers where every non-zero element has a multiplicative inverse, reflecting a rich, fertile structure allowing for extensive arithmetic operations.
-##### Definition
-A field $F$ is a set with two operations (addition and multiplication) such that:
+##### Axioms of a Field
+A field $F$ is a set with two operations (addition and multiplication) that satisfy the following axioms:
 1. **Closure**: For all $\LARGE a, b \in F$, both $\LARGE a+b \text{ and } \cdot b$ are in $\LARGE F$.
 2. **Associativity**: Both addition and multiplication are associative.
 3. **Commutativity**: Both addition and multiplication are commutative.
@@ -223,40 +257,6 @@ Measure Spaces: A set equipped with a sigma-algebra and a measure.
 > 	**Example**: The set of functions on $[0,1]$ with square-integrable first derivatives, denoted $W^{1,2}([0,1])$.
 
 - - -
-## Structuring/Equipping a Set (i.e. Space)
-This term describes the process of defining operations and properties on an underlying set to form a structured set or space.
-
-This refers to the general process of starting with an underlying set and defining operations, properties, and axioms to create a more complex mathematical object.
-### The Relationship Between a Structured Set and the Underlying Set
-#### Underlying Set is More Fundamental Than the Structured Set
-An underlying set is more fundamental than the structure in the sense that it serves as the basic collection of elements upon which the structure is built.
-	The structure is built on top of this set by defining specific operations and axioms, creating a more complex and rich mathematical object, and ensuring these operations satisfy certain properties and axioms.
-### Sequence of Steps in Structuring a Set
-##### 1. Start with an Underlying Set
-Identify the basic set of elements that will form the foundation of the structured set.
-- **Example**: The set of real numbers $\mathbb{R}$.
-##### 2. Define Operations
-Specify the operations that will be performed on the elements of the underlying set.
-- **Example**:
-    - Vector addition:
-	    $$(x_1, y_1, z_1) + (x_2, y_2, z_2) = (x_1 + x_2, y_1 + y_2, z_1 + z_2)$$
-    - Scalar multiplication: For a scalar $\LARGE a \in \mathbb{R}$
-	    $$\LARGE a \cdot (x, y, z) = (a x, a y, a z)$$
-##### 3. Define Properties and Axioms
-- **Properties**: Specify the properties that the operations must satisfy to ensure the set becomes a well-defined structured set.
-- **Axioms**: These are formal statements that the operations and elements must satisfy.
-> [!note] Examples
-> - Associativity of addition: $(\mathbf{u} + \mathbf{v}) + \mathbf{w} = \mathbf{u} + (\mathbf{v} + \mathbf{w})$
-> - Commutativity of addition: $\mathbf{u} + \mathbf{v} = \mathbf{v} + \mathbf{u}$
-> - Identity element of addition: There exists a zero vector $\mathbf{0}$ such that $\mathbf{u} + \mathbf{0} = \mathbf{u}$
-> - Inverse elements of addition: For each vector $\mathbf{u}$, there exists a vector $-\mathbf{u}$ such that $\mathbf{u} + (-\mathbf{u}) = $\mathbf{0}$
-> - Distributivity: $a(\mathbf{u} + \mathbf{v}) = a\mathbf{u} + a\mathbf{v}$ and $(a + b)\mathbf{u} = a\mathbf{u} + b\mathbf{u}$
-##### 4. Form the Structured Set
-- **Resulting Set**: Combine the underlying set with the defined operations and properties to form the structured set.
-- **Example**: The set $\mathbb{R}^3$ with the defined operations and axioms forms a vector space.
-
-- - -
-
 ## The Frameworks for Abstract Mathematical Space
 Describing and Comparing Abstract Mathematical Space
 ### Set Theory as a Foundation for Abstract Environments

@@ -17,8 +17,7 @@ The Cartesian product allows for a clear and structured representation of all po
 ## A Relation as a Subset of the Cartesian Product ($1 : n$)
 Subsets of the Cartesian product representing **associations** between sets.
 
-A relation can be considered the most fundamental type of mapping.
-	It provides the basic framework for associating elements of one set with elements of another set without imposing additional constraints. 
+Relations provides the basic framework for associating elements of one set with elements of another set without imposing additional constraints. 
 
 A **relation** between two sets $a$ and $B$ is any subset of the Cartesian product $A \times B$.
 	It describes how elements of $A$ are associated with elements of $B$.
@@ -44,27 +43,37 @@ A relation between two sets is a collection of ordered pairs, where each pair co
     - Operations (like addition, multiplication) are functions that perform specific actions on inputs.
     - For example, the relation $y = f(x)$, where $f$ is a function, describes how each $x$ maps to $y$.
 
-### Types of Relations
-1. **Reflexive Relation**: Every element is related to itself.
-    - Example: "is equal to" (e.g., (a,a)(a, a)(a,a) for all a∈Aa \in Aa∈A).
-2. **Symmetric Relation**: If (a,b)(a, b)(a,b) is in the relation, then (b,a)(b, a)(b,a) is also in the relation.
-    - Example: "is married to" (if aaa is married to bbb, then bbb is married to aaa).
-3. **Transitive Relation**: If (a,b)(a, b)(a,b) and (b,c)(b, c)(b,c) are in the relation, then (a,c)(a, c)(a,c) is also in the relation.
-    - Example: "is an ancestor of" (if aaa is an ancestor of bbb and bbb is an ancestor of ccc, then aaa is an ancestor of ccc).
-4. **Equivalence Relation**: A relation that is reflexive, symmetric, and transitive.
-    - Example: "is congruent to" in geometry.
-#### Associations of Relations
-- **General Association**:
-    - **Set A**: {1, 2, 3}
-    - **Set B**: {a, b}
-    - **Relation R**: {(1, a), (2, a), (2, b), (3, b)}
-    - Here, element 1 in Set A is associated with element 'a' in Set B, element 2 is associated with both 'a' and 'b', and element 3 is associated with 'b'. There are no restrictions on how the associations are made.
-- **Non-Functional Relation**:
-    - A relation can include pairs where one element in the domain is related to multiple elements in the codomain.
-    - Example: {(x, y), (x, z)} where x is related to both y and z.
-- **Symmetric Relation**:
-    - If (a, b) is in the relation, then (b, a) is also in the relation.
-    - Example: The relation "is a sibling of" in a set of people. If Alice is a sibling of Bob, then Bob is a sibling of Alice.
+> [!note]
+> ### Types of Relations
+These define specific properties or characteristics of how elements within a single set relate to each other.
+>##### Reflexive Relation
+Every element is related to itself.
+>	*Example*: "is equal to" (e.g., $(a, a)$ for all $a \in A$).
+>##### Symmetric Relation
+If $(a, b)$ is in the relation, then $(b, a)$ is also in the relation.
+>	*Example*: "is married to" (if $a$ is married to $b$, then $b$ is married to $a$).
+>##### Transitive Relation
+If $(a, b)$ and $(b, c)$ are in the relation, then $(a, c)$ is also in the relation.
+>	*Example*: "is an ancestor of" (if $a$ is an ancestor of $b$ and $b$ is an ancestor of $c$, then $a$ is an ancestor of $c$).
+>##### Equivalence Relation
+A relation that is reflexive, symmetric, and transitive.
+>	*Example*: "is congruent to" in geometry.
+
+>[!note]
+>### Associations of Relations
+These describe how elements from two different sets are paired or associated, often emphasizing the nature of the pairing across different sets.
+>##### General Association
+Here, element 1 in Set A is associated with element 'a' in Set B, element 2 is associated with both 'a' and 'b', and element 3 is associated with 'b'.
+>	There are no restrictions on how the associations are made.
+>- **Set A**: {1, 2, 3}
+>- **Set B**: {a, b}
+>- **Relation R**: {(1, a), (2, a), (2, b), (3, b)}
+>##### Non-Functional Relation
+A relation can include pairs where one element in the domain is related to multiple elements in the codomain.
+>	*Example*: {(x, y), (x, z)} where x is related to both y and z.
+>##### Symmetric Relation
+If (a, b) is in the relation, then (b, a) is also in the relation.
+>	*Example*: The relation "is a sibling of" in a set of people. If Alice is a sibling of Bob, then Bob is a sibling of Alice.
 
 - - -
 ## A Mapping as a Subset of Relations
@@ -72,14 +81,10 @@ Mappings, in their broadest sense, are a subset of relations, as they are a spec
 	While relations encompass any possible association between elements of two sets, mappings are a more structured concept that can include functions, multivalued mappings, and other types of correspondences. 
 
 A mapping is a broad concept that refers to **any rule or process that associates elements of one set with elements of another set**. 
-	This can include a wide variety of correspondences, not necessarily adhering to strict rules of uniqueness or well-defined behavior.
+	This can include a wide variety of correspondences, not necessarily adhering to strict rules of uniqueness (i.e. functions) or well-defined behavior.
 
-The broadest concept, encompassing any rule that associates elements of one set with elements of another. This includes functions, relations, and transformations.
-###### Mappings Are Not Restricted to Be Represented by Ordered Pairs
-They include any of the associations.
-
->[!note}]
->## Associations (i.e. Types of Mappings)
+>[!note]
+>## Mapping Associations 
 >Associations define how elements of one set (the domain) are related to elements of another set (the codomain). 
 	>These associations can vary based on the number of elements in the domain that are related to elements in the codomain and vice versa.
 >### One to One, ($\LARGE 1:1$), aka Injective Mapping
@@ -128,28 +133,70 @@ The range is directly determined by the mapping as it is the actual set of outpu
 	The structure of the range is a subset of the codomain, specifically those elements that are realized through the mapping.
 
 - - -
-## A Function as a Subset of Relations ($1 : 1$, $m:1$)
+## A Function as a Subset of Mappings ($1 : 1$, $m:1$)
 Special type of relation with a **uniqueness constraint on the association**.
 
-A function is a specific type of relation where each element in the domain is associated with exactly one element in the codomain.
+A function is a specific type of Mapping where each element in the domain is associated with exactly one element in the codomain.
 	Functions are well-defined mappings with unique outputs for each input.
-#### Associations of Functions
-Functions **can** be
-$\LARGE 1:1$ or $\LARGE m:1$.
 
-But **not** $\LARGE 1:m$ or $\LARGE n:m$.
-#### Standard Function
-A function $\mathbb{R} \to \mathbb{R}$ maps real numbers to real numbers.
-- **Input and Output**: The input is a real number, and the output is a real number.
+Formally, a function $f$ from set $A$ to set $B$ is defined such that every element $a$ in $A$ is associated with exactly one element $b$ in $B$. 
+$$\LARGE f: A \to B$$
+#### Properties of Functions
+1. **Uniqueness**: Each element in the domain is associated with exactly one element in the codomain.
+2. **Well-defined**: For every $a \in A$, there is a unique $b \in B$ such that $(a, b) \in f$
+### Associations of Functions
+**Uniqueness Requirement**:  Each element in the domain is associated with exactly one element in the codomain.
+	This rule ensures that each input (element in the domain) maps to a single output (element in the codomain).
+		Functions **can** be
+			$\LARGE 1:1$ or $\LARGE m:1$.
+				**Cannot** be $\LARGE 1:m$ or $\LARGE n:m$.
+					These violate the uniqueness requirement, as elements in the domain would map to more than one element in the codomain.
+##### Injective (One-to-One) Function
+A function $f: A \to B$ is injective if different elements in $A$ map to different elements in $B$. Formally, if $f(a_1) = f(a_2)$ implies $a_1 = a_2$.
+**Example**: If $A = \{1, 2, 3\}$ and $B = \{a, b, c, d\}$, an injective function could be $f = \{(1, a), (2, b), (3, c)\}$.
+##### Surjective (Onto) Function
+A function $f: A \to B$ is surjective if every element in $B$ is the image of at least one element in $A$. Formally, for every $b \in B$, there exists an $a \in A$ such that $f(a) = b$.
+**Example**: If $A = \{1, 2, 3\}$ and $B = \{a, b\}$, a surjective function could be $f = \{(1, a), (2, b), (3, a)\}$.
+##### Bijective (One-to-One and Onto) Function
+A function $f: A \to B$ is bijective if it is both injective and surjective. This means that every element in $A$ maps to a unique element in $B$, and every element in $B$ is the image of a unique element in $A$.
+**Example**: If $A = \{1, 2, 3\}$ and $B = \{a, b, c\}$, a bijective function could be $f = \{(1, a), (2, b), (3, c)\}$.
+##### Constant Function
+A function $f: A \to B$ is constant if all elements in $A$ are mapped to the same single element in $B$.
+**Example**: If $A = \{1, 2, 3\}$ and $B = \{a\}$, a constant function could be $f = \{(1, a), (2, a), (3, a)\}$.
+##### Identity Function
+A function $f: A \to A$ is the identity function if every element maps to itself. Formally, $f(a) = a$ for all $a \in A$.
+    **Example**: If $A = \{1, 2, 3\}$, the identity function is $f = \{(1, 1), (2, 2), (3, 3)\}$.
 
 - - -
 ## An Operation as a Subset of Functions
 Functions that define how elements of a set interact within an algebraic structure.
 
 **Operations** in mathematics are functions that combine elements of a set to produce another element of the same set. 
-	They are rules that define how to combine elements within the [[Abstract Mathematical Spaces#Structure|structure]]. 
-		Operations are fundamental in defining algebraic structures such as groups, rings, and fields.
-
+	Operations are a subset of functions characterized by their specific rules for combining or transforming elements.
+		They are rules that define how to combine elements within the [[Abstract Mathematical Spaces#Structure|structure]]. 
+			Operations are fundamental in defining algebraic structures such as groups, rings, and fields.
+### Association Types of Operations
+Operations are typically associated with specific types of functions based on how they combine or transform elements. 
+1. **One-to-One (1:1) Association**
+2. **Many-to-One (m:1) Association**
+### Types of Operations
+Operations can be categorized based on the number of operands and the nature of the operation:
+#### Unary Operations
+Operations that take a single input from a set and produce an output in the same or a related set.
+- **Examples**:
+    - **Negation**: $f(a) = -a$
+    - **Square Root**: $f(a) = \sqrt{a}$ (defined for non-negative real numbers)
+#### Binary Operations
+Operations that take two inputs from a set and produce an output in the same set.
+- **Examples**:
+    - **Addition**: $f(a, b) = a + b$
+    - **Multiplication**: $f(a, b) = a \cdot b$
+    - **Division**: $f(a, b) = a / b$ (with $b \neq 0$)
+#### Higher-Arity Operations
+Operations that take more than two inputs.
+- **Examples**:
+    - **Sum**: $\Sigma(a_1, a_2, \ldots, a_n) = a_1 + a_2 + \ldots + a_n$
+    - **Product**: $\Pi(a_1, a_2, \ldots, a_n) = a_1 \cdot a_2 \cdot \ldots \cdot a_n$
 - - - 
 ## A Transformation as a Subset of Functions ($1:1$, $m:1$)
 A transformation is a type of function, often used to emphasize changes or operations applied to the elements of a set. 
