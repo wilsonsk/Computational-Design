@@ -8,6 +8,74 @@ The **directional derivative** of a function $f(x, y)$ at a point $(x_0, y_0)$ i
 	It generalizes the concept of a [[Partial Derivatives|partial derivative]] to any direction, not just along the coordinate axes.
 
 A directional derivative represents a rate of change of a function in any given direction.
+
+- - -
+## Gradient
+A **gradient** is a [[Vectors|vector]] that encapsulates how a [[Mapping#A Function as a Subset of Mappings ($1 1$, $m 1$)|function]] changes at a given point in its [[Mapping#Domain as a Subset of the Underlying Set|domain]]. 
+	It indicates both the direction and the rate of the steepest ascent of the function.
+		The concept of a gradient is fundamental in multivariable calculus and has applications in various fields such as physics, engineering, and optimization.
+#### Gradients and Scalar Functions
+**Gradients** are specifically calculated for [[Mapping#Output Types of Functions|scalar functions]], which are functions that map multiple input variables to a single output real number.
+##### Why Gradients Apply to Scalar Functions
+###### Directional Information
+The gradient vector provides both the direction and magnitude of the steepest ascent of the scalar function. 
+	This is useful for understanding how the function behaves locally around a point.
+###### Optimization
+In optimization, gradients are used to find local maxima and minima of scalar functions. 
+	The gradient points in the direction of the steepest increase, and its negative points in the direction of the steepest decrease.
+###### Physical Interpretations
+In physics, gradients often describe how physical quantities (like temperature, pressure, etc.) change in space. 
+	These quantities are scalar fields, and their gradients provide insight into their spatial variation.
+##### Gradients and Non-Scalar Functions
+For functions that are not scalar-valued, such as vector-valued functions $\mathbf{F}: \mathbb{R}^n \to \mathbb{R}^m$, the concept of the gradient does not directly apply. 
+	Instead, other concepts are used.
+#### A Function and Its Gradient
+Because Gradients calculate the changes of a Scalar Function, the Gradient then must take as input, the [[Partial Derivatives|Partial Derivatives]] of that Scalar Function. 
+
+Consider a function $f$ that takes multiple variables as input and produces a single value as output. 
+	This function can be written as $f(x_1, x_2, \ldots, x_n)$, where $x_1, x_2, \ldots$, are the variables.
+##### Partial Derivatives
+To understand how $f$ changes with respect to each variable individually, we compute the partial derivatives of $f$.
+	The partial derivative of $f$ with respect to $x_i​$ is denoted as $\frac{\partial f}{\partial x_i}$.
+##### Gradient Vector
+The gradient of $f$ is a vector that combines all these partial derivatives. 
+	It is denoted by $\nabla f$ and is defined as:
+$$\LARGE \nabla f = \left( \frac{\partial f}{\partial x_1}, \frac{\partial f}{\partial x_2}, \ldots, \frac{\partial f}{\partial x_n} \right)$$
+    This vector points in the direction in which the function $f$ increases most rapidly and its magnitude represents the rate of this increase.
+
+The gradient of a scalar field $f(x, y, z)$ is a vector field that points in the direction of the greatest rate of increase of the scalar field. 
+- The magnitude of the gradient vector represents the rate of that increase.
+- Mathematically, the gradient of $f$ is obtained by applying the $\nabla$ operator to $f$:
+$$ \nabla f = (\frac{\partial f}{\partial x}, \frac{\partial f}{\partial y}, \frac{\partial f}{\partial z})$$
+#### Gradient as a Vector
+At a specific point in the domain of a scalar function, the gradient is a vector. 
+	This vector points in the direction of the greatest rate of increase of the function at that point, and its magnitude represents the rate of this increase.
+##### Gradient at a Point (Vector)
+For a scalar function $f: \mathbb{R}^n \to \mathbb{R}$, the gradient at a specific point $\mathbf{x} = (x_1, x_2, \ldots, x_n)$ is a vector given by:
+
+$$\LARGE \nabla f(\mathbf{x}) = \left( \frac{\partial f}{\partial x_1}(\mathbf{x}), \frac{\partial f}{\partial x_2}(\mathbf{x}), \ldots, \frac{\partial f}{\partial x_n}(\mathbf{x}) \right)$$
+
+This vector points in the direction of the steepest increase of the function fff at the point x\mathbf{x}x.
+#### Gradient as a Vector [[Fields|Field]]
+When considering the gradient over the entire domain of the scalar function, it forms a vector field.
+	A vector field assigns a vector to every point in the domain.
+##### Gradient Over the Domain (Vector Field)
+When you compute the gradient at every point in the domain of the function $f$, you get a vector field.
+	This means that at each point $\mathbf{x}$ in the domain, there is a corresponding gradient vector $\nabla f(\mathbf{x})$.
+
+- - -
+## Nabla Operator ($\nabla$)
+The Nabla operator is a vector differential operator that, when applied to a scalar or vector field, produces different types of derivatives. 
+	Its components are partial derivatives with respect to the spatial coordinates. 
+		In three dimensions, the Nabla operator is defined as:
+$$\LARGE \nabla = (\frac{\partial}{\partial x}, \frac{\partial}{\partial y}, \frac{\partial}{\partial z})$$
+### Applying the Nabla Operator to a Scalar Function: Gradient
+When the Nabla operator $\nabla$ is applied to a scalar function $f$, it produces the gradient of $f$.
+	The gradient is a vector that contains all the first-order partial derivatives of $f$. 
+		If $f$ is a function of $n$ variables, the gradient $\nabla f$ is given by:
+$$\LARGE \nabla f=(\frac{\partial f}{d x_{1}},\frac{\partial f}{d x_{2}}, \ldots \frac{\partial f}{d x_{n}}​)$$
+This gradient vector points in the direction of the steepest increase of the function and its magnitude represents the rate of this increase.
+- - -
 ## Calculation of Directional Derivatives
 ![[Pasted image 20240708134159.png]]
 *Finding the directional derivative at a point on the graph of $\LARGE z = f(x,y)$.
@@ -17,15 +85,7 @@ A directional derivative represents a rate of change of a function in any given 
 > The directional derivative of a function $f(x, y, z)$ in the direction of a unit vector $\LARGE \mathbf{u} = \langle u_x, u_y, u_z \rangle$ measures the rate of change of the function in that specific direction.
 > 	- The direction vector $\mathbf{u}$ makes angles $\alpha, \beta, \gammaα$ with the $x, y, z$ axes respectively, its components are: $$\LARGE u_x = \cos(\alpha), \quad u_y = \cos(\beta), \quad u_z = \cos(\gamma)$$
 > **Calculation**: The directional derivative of $f$ in the direction of $\mathbf{u}$ is: $$\LARGE D_{\mathbf{u}} f = \nabla f \cdot \mathbf{u} = \frac{\partial f}{\partial x} \cos(\alpha) + \frac{\partial f}{\partial y} \cos(\beta) + \frac{\partial f}{\partial z} \cos(\gamma)$$
-> ##### Nabla Operator ($\nabla$)
-> The nabla operator is a vector differential operator that, when applied to a scalar or vector field, produces different types of derivatives. 
-> 	Its components are partial derivatives with respect to the spatial coordinates. In three dimensions, the nabla operator is defined as:
-> 	$$ \nabla = (\frac{\partial}{\partial x}, \frac{\partial}{\partial y}, \frac{\partial}{\partial z})$$
-> ##### Gradient ($\nabla f$)
-> The gradient of a scalar field $f(x, y, z)$ is a vector field that points in the direction of the greatest rate of increase of the scalar field. 
-> - The magnitude of the gradient vector represents the rate of that increase.
-> - Mathematically, the gradient of $f$ is obtained by applying the $\nabla$ operator to $f$:
-> 	$$ \nabla f = (\frac{\partial f}{\partial x}, \frac{\partial f}{\partial y}, \frac{\partial f}{\partial z})$$
+
 
 > [!note]
 > ### Deriving

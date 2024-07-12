@@ -144,38 +144,83 @@ $$\LARGE f: A \to B$$
 #### Properties of Functions
 1. **Uniqueness**: Each element in the domain is associated with exactly one element in the codomain.
 2. **Well-defined**: For every $a \in A$, there is a unique $b \in B$ such that $(a, b) \in f$
-### Associations of Functions
-These describe how elements from two different sets are paired or associated, often emphasizing the nature of the pairing across different sets.
-
-**Uniqueness Requirement**:  Each element in the domain is associated with exactly one element in the codomain.
-	This rule ensures that each input (element in the domain) maps to a single output (element in the codomain).
-		Functions **can** be
-			$\LARGE 1:1$ or $\LARGE m:1$.
-				**Cannot** be $\LARGE 1:m$ or $\LARGE n:m$.
-					These violate the uniqueness requirement, as elements in the domain would map to more than one element in the codomain.
-##### Injective (One-to-One) Function
-A function $f: A \to B$ is injective if different elements in $A$ map to different elements in $B$. 
-	Formally, if $f(a_1) = f(a_2)$ implies $a_1 = a_2$.
-
-**Example**: If $A = \{1, 2, 3\}$ and $B = \{a, b, c, d\}$, an injective function could be $f = \{(1, a), (2, b), (3, c)\}$.
-##### Surjective (Onto) Function
-A function $f: A \to B$ is surjective if every element in $B$ is the image of at least one element in $A$. 
-	Formally, for every $b \in B$, there exists an $a \in A$ such that $f(a) = b$.
-
-**Example**: If $A = \{1, 2, 3\}$ and $B = \{a, b\}$, a surjective function could be $f = \{(1, a), (2, b), (3, a)\}$.
-##### Bijective (One-to-One and Onto) Function
-A function $f: A \to B$ is bijective if it is both injective and surjective.
-	This means that every element in $A$ maps to a unique element in $B$, and every element in $B$ is the image of a unique element in $A$.
-
-**Example**: If $A = \{1, 2, 3\}$ and $B = \{a, b, c\}$, a bijective function could be $f = \{(1, a), (2, b), (3, c)\}$.
-##### Constant Function
-A function $f: A \to B$ is constant if all elements in $A$ are mapped to the same single element in $B$.
-
-**Example**: If $A = \{1, 2, 3\}$ and $B = \{a\}$, a constant function could be $f = \{(1, a), (2, a), (3, a)\}$.
-##### Identity Function
-A function $f: A \to A$ is the identity function if every element maps to itself. Formally, $f(a) = a$ for all $a \in A$.
-
-**Example**: If $A = \{1, 2, 3\}$, the identity function is $f = \{(1, 1), (2, 2), (3, 3)\}$.
+### Function Classification 
+Functions can be classified based on different criteria. 
+	Two primary ways to classify functions are by the **nature of their associations** and by the **nature of their outputs**.
+#### Associations of Functions
+> [!note]
+> These describe how elements from two different sets are paired or associated, often emphasizing the nature of the pairing across different sets.
+> 	This describes how elements in the domain map to elements in the codomain, focusing on the uniqueness and nature of the mapping.
+> 
+> **Uniqueness Requirement**:  Each element in the domain is associated with exactly one element in the codomain.
+> 	This rule ensures that each input (element in the domain) maps to a single output (element in the codomain).
+> 		Functions **can** be
+> 			$\LARGE 1:1$ or $\LARGE m:1$.
+> 				**Cannot** be $\LARGE 1:m$ or $\LARGE n:m$.
+> 					These violate the uniqueness requirement, as elements in the domain would map to more than one element in the codomain.
+> ##### Injective (One-to-One) Function
+> A function $f: A \to B$ is injective if different elements in $A$ map to different elements in $B$. 
+> 	Formally, if $f(a_1) = f(a_2)$ implies $a_1 = a_2$.
+> 
+> **Example**: If $A = \{1, 2, 3\}$ and $B = \{a, b, c, d\}$, an injective function could be $f = \{(1, a), (2, b), (3, c)\}$.
+> ##### Surjective (Onto) Function
+> A function $f: A \to B$ is surjective if every element in $B$ is the image of at least one element in $A$. 
+> 	Formally, for every $b \in B$, there exists an $a \in A$ such that $f(a) = b$.
+> 
+> **Example**: If $A = \{1, 2, 3\}$ and $B = \{a, b\}$, a surjective function could be $f = \{(1, a), (2, b), (3, a)\}$.
+> ##### Bijective (One-to-One and Onto) Function
+> A function $f: A \to B$ is bijective if it is both injective and surjective.
+> 	This means that every element in $A$ maps to a unique element in $B$, and every element in $B$ is the image of a unique element in $A$.
+> 
+> **Example**: If $A = \{1, 2, 3\}$ and $B = \{a, b, c\}$, a bijective function could be $f = \{(1, a), (2, b), (3, c)\}$.
+> ##### Constant Function
+> A function $f: A \to B$ is constant if all elements in $A$ are mapped to the same single element in $B$.
+> 
+> **Example**: If $A = \{1, 2, 3\}$ and $B = \{a\}$, a constant function could be $f = \{(1, a), (2, a), (3, a)\}$.
+> ##### Identity Function
+> A function $f: A \to A$ is the identity function if every element maps to itself. Formally, $f(a) = a$ for all $a \in A$.
+> 
+> **Example**: If $A = \{1, 2, 3\}$, the identity function is $f = \{(1, 1), (2, 2), (3, 3)\}$.
+#### Output Types of Functions
+> [!note]
+> This categorizes functions based on the nature of their output values.
+> ##### [[Scalars|Scalar]] Functions
+> $$\LARGE f:\mathbb{R} \to \mathbb{R}$$
+> A scalar function maps one or more scalar (i.e. a real number, complex number, etc.) elements from its domain to a single scalar (i.e. real numbers, complex number, etc.) output.
+> $$\LARGE f(x) = x^2 + 3x + 5$$
+> Here, \( f \) maps a real number \( x \) to another real number \( f(x) \).
+> ##### Vector-Valued Functions
+> A vector-valued function maps elements from its domain to vectors.
+> $$\LARGE \mathbf{f}(t) = \begin{pmatrix} t \\t^2 \\t^3\end{pmatrix}$$
+> Here, $\mathbf{f}$ maps a scalar $t$ to a 3-dimensional vector.
+> ##### Matrix-Valued Functions
+> A matrix-valued function maps elements from its domain to matrices.
+> $$\LARGE F(t) = \begin{pmatrix}t & t^2 \\\sin(t) & \cos(t)\end{pmatrix}$$
+> Here, $F$ maps a scalar $t$ to a $2x2$ matrix.
+> ##### Complex-Valued Functions
+> A complex-valued function maps elements from its domain to complex numbers.
+> $$\LARGE f(z) = z^2 + 1$$
+> Here, \(f\) maps a complex number \(z\) to another complex number.
+> ##### Boolean Functions
+> A Boolean function maps elements from its domain to Boolean values (true or false, or equivalently, 1 or 0).
+> $$\LARGE f(x, y) = x \land y$$
+> Here, \(f\) maps pairs of Boolean values to a single Boolean value using the logical AND operation.
+> ##### Set-Valued Functions
+> A set-valued function (or multivalued function) maps elements from its domain to sets of values rather than single values.
+> $$\LARGE F(x) = \{y \in \mathbb{R} \mid y^2 = x\}$$
+> Here, $(F)$ maps a real number $x$ to the set of its square roots.
+> ##### Operator-Valued Functions
+> An operator-valued function maps elements from its domain to operators.
+> $$\LARGE T(t)(x) = e^{tA}x$$
+> Here, $(T(t))$ is a function that maps $(t)$ to the operator $(e^{tA})$, which acts on the vector $(x)$.
+> ##### Tensor-Valued Functions
+> A tensor-valued function maps elements from its domain to tensors.
+> $$\LARGE T(x, y, z) = x \otimes y \otimes z$$
+> Here, $(T)$ maps three vectors $(x, y, z)$ to their tensor product.
+> ##### Piecewise Functions
+> Piecewise functions map elements from their domain to different values depending on which subdomain the input falls into.
+> $$\LARGE f(x) =\begin{cases} x^2 & \text{if } x < 0 \\x + 1 & \text{if } x \geq 0 \end{cases}$$
+> Here, $(f)$ maps 4 to $(x^2)$ for negative values and to $(x + 1)$ for non-negative values.
 
 - - -
 ## An Operation as a Subset of Functions

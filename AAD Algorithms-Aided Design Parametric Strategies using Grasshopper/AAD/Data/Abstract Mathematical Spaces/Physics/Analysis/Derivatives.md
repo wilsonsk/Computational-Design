@@ -11,7 +11,10 @@ related:
   - "[[Data Relationships]]"
 date created: 2024-04-10
 ---
-*Refer to this Map for a detailed map of the relational structure: * [[A Map of Change as Rates to Limits of those Rates to Differentials to Derivatives]]
+*Refer to this Map for a detailed map of the relational structure:* [[A Map of Change as Rates to Limits of those Rates to Differentials to Derivatives]]
+##### *A Note on [[Mapping#A Function as a Subset of Mappings ($1 1$, $m 1$)|Functions]]*
+Derivatives ***themselves*** are a type of function that measure the rate at which ***another*** function's output changes with respect to its input.
+	These "**input functions**" of Derivative functions, can be any [[Mapping#Output Types of Functions|type]], from Scalar Functions, to Vector-Valued, Matrix-Valued, Complex-Valued Functions, etc.
 # Derivatives
 The Rate of Change of a Function's Output Value, as one Input Variable Changes.
 
