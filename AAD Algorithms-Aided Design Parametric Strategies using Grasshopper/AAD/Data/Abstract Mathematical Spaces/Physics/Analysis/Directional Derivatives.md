@@ -55,14 +55,26 @@ For a scalar function $f: \mathbb{R}^n \to \mathbb{R}$, the gradient at a specif
 
 $$\LARGE \nabla f(\mathbf{x}) = \left( \frac{\partial f}{\partial x_1}(\mathbf{x}), \frac{\partial f}{\partial x_2}(\mathbf{x}), \ldots, \frac{\partial f}{\partial x_n}(\mathbf{x}) \right)$$
 
-This vector points in the direction of the steepest increase of the function fff at the point x\mathbf{x}x.
+This vector points in the direction of the steepest increase of the function $f$ at the point $\mathbf{x}$.
 #### Gradient as a Vector [[Fields|Field]]
 When considering the gradient over the entire domain of the scalar function, it forms a vector field.
 	A vector field assigns a vector to every point in the domain.
+##### Example
+Consider the scalar function $f(x, y) = x^2 + y^2$.
+**Gradient at a Specific Point**:
+	At the point $(1, 2)$, the gradient is:
+$$\LARGE \nabla f(1, 2) = \left( \frac{\partial f}{\partial x}(1, 2), \frac{\partial f}{\partial y}(\mathbf{1, 2})\right) = (2 \cdot 1, 2 \cdot 2) = (2, 4)$$
+This expression represents a vector field. 
+	For each point $(x, y)$ in the domain, there is a corresponding gradient vector $(2x, 2y)$.
 ##### Gradient Over the Domain (Vector Field)
 When you compute the gradient at every point in the domain of the function $f$, you get a vector field.
 	This means that at each point $\mathbf{x}$ in the domain, there is a corresponding gradient vector $\nabla f(\mathbf{x})$.
-
+##### Example
+Consider the scalar function $f(x, y) = x^2 + y^2$.
+Over the entire domain, the gradient is:
+$$\LARGE \nabla f(x, y) = (2x, 2y)$$
+This expression represents a vector field. 
+	For each point $(x, y)$ in the domain, there is a corresponding gradient vector $(2x, 2y)$.
 - - -
 ## Nabla Operator ($\nabla$)
 The Nabla operator is a vector differential operator that, when applied to a scalar or vector field, produces different types of derivatives. 
