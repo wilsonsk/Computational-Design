@@ -11,7 +11,7 @@ related:
   - "[[Data Relationships]]"
 date created: 2024-04-11
 ---
-# Scalar Fields
+# [[Scalars|Scalar]] Fields
 A mathematical construct used to describe a region of space where each point in that space is assigned a scalar value.
 	Scalar fields are fundamental in various branches of physics and mathematics, particularly in the study of potential fields, temperature distributions, and more.
 
@@ -27,7 +27,7 @@ Mathematically, a scalar field is often defined as a function $f:Rn→R$
 - Mapping points in $n-$dimensional space to real numbers. 
 	- *For example*, $f(x,y,z)$ in three-dimensional space could represent the temperature at each point $(x,y,z)$.
 ## Analyzing Scalar Fields
-### Gradient: 
+### [[Directional Derivatives#Gradient|Gradient]]: 
 The gradient of a scalar field is a vector field. 
 - The gradient at any point in the scalar field points in the direction of the steepest rate of increase of the scalar value and its magnitude gives the rate of that increase.
 	- I.e. The **direction** of each vector in the **gradient vector** is the **direction** that **most maximally increases the field's value for a given point**.

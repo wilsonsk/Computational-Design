@@ -30,25 +30,24 @@ $$f'(x) = \lim_{\Delta x \to 0} \frac{f(x + \Delta x) - f(x)}{\Delta x}$$
 - **Slope of the Tangent Line**: Geometrically, $f'(x)$ is the slope of the tangent line to the graph of $f$ at the point $(x, f(x))$.
 #### Notation
 The derivative can be notated in various ways, including:
-- $\LARGE f'(x)$
-- $D_x f(x)$
-- $\LARGE \frac{d}{dx}$
-	- The notation $\LARGE \frac{d}{dx}$​ is an operator, specifically the differentiation operator with respect to the variable $x$.
-		- It requires a function to act upon.
-	- It does not specify any particular function, it just indicates the operation of taking a derivative with respect to $x$.
-		- When you see $\LARGE \frac{d}{dx}$​ by itself, it means "take the derivative with respect to $x$."
-			It is not complete by itself and needs a function or expression to operate on.
-	- *For example*, $\LARGE \frac{d}{dx}(x^2)$ means to take the derivative of $x^2$ with respect to $x$.
-		- It is an instruction to differentiate
-- $\LARGE \frac{df}{dx}$ This generally means the derivative of some function $f$ with respect to $x$.
-	- Here, $f$ is an unspecified function of $x$.
-		- The exact form of $f(x)$ is not specified when you just write $\LARGE \frac{df}{dx}$.
-	- It is the result of applying the operator $\LARGE \frac{d}{dx}$​ to a specific function $f(x)$.
-	- This represents the derivative of a specific function $f(x)$ with respect to $x$. 
-		- It is the result of applying $\LARGE \frac{d}{dx}$​ to $f(x)$.
-			- It is the actual derivative of a specific function $f(x)$.
-
-$$\LARGE \frac{df}{dx}x^2 \text{ vs. } \frac{d}{dx}x^2$$
+##### $\LARGE f'(x)$
+##### $D_x f(x)$
+##### $\LARGE \frac{d}{dx}$
+The notation $\LARGE \frac{d}{dx}$​ is an operator, specifically the differentiation operator with respect to the variable $x$.
+	It requires a function to act upon.
+It does not specify any particular function, it just indicates the operation of taking a derivative with respect to $x$.
+	When you see $\LARGE \frac{d}{dx}$​ by itself, it means "take the derivative with respect to $x$."
+		It is not complete by itself and needs a function or expression to operate on.
+*For example*, $\LARGE \frac{d}{dx}(x^2)$ means to take the derivative of $x^2$ with respect to $x$.
+	It is an instruction to differentiate
+##### $\LARGE \frac{df}{dx}$ This generally means the derivative of some function $f$ with respect to $x$.
+Here, $f$ is an unspecified function of $x$.
+	The exact form of $f(x)$ is not specified when you just write $\LARGE \frac{df}{dx}$.
+It is the result of applying the operator $\LARGE \frac{d}{dx}$​ to a specific function $f(x)$.
+This represents the derivative of a specific function $f(x)$ with respect to $x$. 
+	It is the result of applying $\LARGE \frac{d}{dx}$​ to $f(x)$.
+		It is the actual derivative of a specific function $f(x)$.
+##### $$\LARGE \frac{df}{dx}x^2 \text{ vs. } \frac{d}{dx}x^2$$
 $$\LARGE \frac{d}{dx}x^2 $$
 This notation is used to specify that you are taking the derivative of the specific function $\LARGE f(x)=x^2$ with respect to $x$.
 	Here, $\LARGE \frac{d}{dx}$​ is the differentiation operator, and $x^2$ is the function being differentiated.
@@ -57,8 +56,8 @@ This notation is used to specify that you are taking the derivative of the speci
 $$\LARGE \frac{df}{dx}x^2$$
 This notation is more ambiguous and typically incorrect in this context unless it has a very specific meaning defined in a particular problem or scenario. 
 	It can be broken down as follows:
-	- $\LARGE \frac{df}{dx}$ This generally means the derivative of some function $f$ with respect to $x$.
-	- $\LARGE x^2$ This is just a multiplication with $\LARGE x^2$.
+	$\LARGE \frac{df}{dx}$ This generally means the derivative of some function $f$ with respect to $x$.
+	$\LARGE x^2$ This is just a multiplication with $\LARGE x^2$.
 
 However, when combined as $\LARGE\frac{df}{dx} x^2$, it suggests that the derivative of $f$ with respect to $x$ is being multiplied by $x^2$. 
 	This is not the same as taking the derivative of $x^2$ with respect to $x$.

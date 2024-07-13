@@ -169,7 +169,7 @@ Specify the operations that will be performed on the elements of the underlying 
 	    $$\LARGE a \cdot (x, y, z) = (a x, a y, a z)$$
 ##### 4. Form the Structured Set
 - **Resulting Set**: Combine the underlying set with the defined axioms, mappings, and subsets () to form the structured set.
-- **Example**: The set $\mathbb{R}^3$ with the defined operations and axioms forms a vector space.
+- **Example**: When the Underlying Set Real Numbers, $\mathbb{R}$, is defined along with additional structure  (i.e. axioms and relations) it then forms the Scalar Space, $R$.
 
 - - -
 ## Types of Structured Sets (i.e. Spaces)
@@ -192,7 +192,7 @@ A set equipped with two binary operations (addition and multiplication) that sat
 **Origin of the Term**
 	The term "ring" comes from the German word "Zahlring," introduced by David Hilbert.
 		 It refers to the cyclical nature of addition and multiplication operations within the set, similar to a ring structure where operations bring you back to elements within the set.
-#### Fields
+#### [[#The Sequential Generation of the Field of Real Numbers and the Vector Space|Fields]]
 A set that is a commutative ring with the additional property that every non-zero element has a multiplicative inverse.
 
 **Origin of the Term**
@@ -225,8 +225,21 @@ and selected relationships between these points.
 	The nature of the points can vary widely: for example, the points can represent numbers, functions on another space, or subspaces of another space. 
 		It is the relationships (i.e. Morphisms) that define the nature of the space.
 
-> [!NOTE] ###### Metric Spaces
-> Metric Spaces: A set with a distance function (metric) defined between elements.
+> [!NOTE] Examples of Spaces
+>  ###### $R$ Space
+> A 1D Vector Space consisting of all ordered triples of real numbers $(x, y, z)$.
+> 	Each element in $R^3$ is a Vector, not a scalar. 
+> 	Each vector element is composed of three scalars.
+>  ###### $R^2$ Space
+> A 2D Vector Space consisting of all ordered pairs of real numbers $(x, y)$.
+> 	Each element in $R^2$ is a Vector, not a scalar. 
+> 	Each vector element is composed of two scalars.
+> ###### $R^3$ Space
+> A 3D Vector Space consisting of all ordered triples of real numbers $(x, y, z)$.
+> 	Each element in $R^3$ is a Vector, not a scalar. 
+> 	Each vector element is composed of three scalars.
+> ###### Metric Spaces
+> A set with a distance function (metric) defined between elements.
 	>**Example**: The set $\mathbb{R}$ with the usual distance function $d(x, y) = |x - y|$.
 > ###### Topological Spaces
 > Topological Spaces: A set with a topology, a collection of open sets satisfying certain axioms.
@@ -255,6 +268,104 @@ Measure Spaces: A set equipped with a sigma-algebra and a measure.
 > ###### Sobolev Spaces
 > Sobolev Spaces: Function spaces that can accommodate derivatives up to a certain order.
 > 	**Example**: The set of functions on $[0,1]$ with square-integrable first derivatives, denoted $W^{1,2}([0,1])$.
+
+- - -
+## The Sequential Generation of the Field of Real Numbers and the Vector Space
+A field as a mapping (whether a scalar field or a vector field) is a specific instance that must be defined explicitly. 
+	There is no general field of values mapped to points unless specified by a particular function. 
+
+When a Structured Set (for example, a vector space or a scalar space) is generated, the fields (scalar or vector fields) do not automatically exist. 
+	Instead, these fields are defined based on functions that map points within those spaces to scalars or vectors.
+### The Basis
+#### 1. Real Numbers ($\mathbb{R}$) as an Underlying Set
+The set of real numbers $\mathbb{R}$ is the collection of all rational and irrational numbers.
+	This set itself has no additional structure (just the numbers).
+#### 2. Real Number Field ($\mathbb{R}$)
+When we define addition and multiplication on $\mathbb{R}$ and show that these operations satisfy the field axioms (closure, associativity, commutativity, identity elements, inverses, and distributivity), we get the **Field of Real Numbers**, $\mathbb{R}$.
+	This field $\mathbb{R}$ is an [[#1. Algebraic Structured Sets|Algebraic Structured Set]] where we can perform arithmetic operations.
+
+This is the structured set where the field axioms hold.
+### Development of Scalar and Vector Spaces
+
+#### 3. Generating Scalar Space ($\mathbb{R}$)
+The real number field $\mathbb{R}$ itself can be viewed as a one-dimensional vector space over the field $\mathbb{R}$.
+	When we refer to $\mathbb{R}$ as a scalar space, we are focusing on its role as the source of scalars (real numbers) used in various mathematical contexts.
+
+As a one-dimensional vector space, each element (vector) is a **single** scalar (i.e. a single real number).
+	This space uses the field's existing operations for 1D vector addition and scalar multiplication.
+		**Vector Addition**: The addition of vectors is just the usual addition of real numbers.
+		**Scalar Multiplication**: Multiplying a vector by a scalar is the usual multiplication of real numbers.
+
+Scalars in this context are simply real numbers.
+	When you see "scalar space," think of $\mathbb{R}$ as the set from which these scalars are drawn.
+###### Scalar Space
+When we refer to $\mathbb{R}$ as a scalar space, we mean the set of all real numbers where each number is treated as a scalar. 
+	Where scalars are used to scale vectors in vector spaces.
+###### One-Dimensional Vector Space
+$\mathbb{R}$ can also be viewed as a one-dimensional vector space over itself. 
+	Viewing $\mathbb{R}$ as a one-dimensional vector space over itself highlights that it can serve as a vector space where each element (vector) is simply a real number, and the operations are the same as the field operations.
+
+Here, each element of $\mathbb{R}$ is considered a vector, and the operations of vector addition and scalar multiplication are the same as the addition and multiplication in the field of real numbers.
+	In this view, the "vectors" are simply the real numbers themselves, and the space has a single basis element (typically 1).
+##### [[Scalar Fields|Scalar Fields]] and Scalar Functions
+$$\LARGE f:R^n \to R$$
+A **Scalar Function** is a mathematical function that maps points from an $n$-dimensional domain to a single real number (a scalar).
+	They are generally used to to describe a relationship between variables where the output is a single scalar value.
+		A more general term used across various mathematical disciplines. It emphasizes the mathematical relationship between the input and the output.
+
+A **Scalar Field** is a function that maps points in a space (which can be viewed as a vector space) to scalar values from an algebraic field (e.g., $\mathbb{R}$).
+	A mapping from points in a space (like $\mathbb{R}^3$) to scalar values in $\mathbb{R}$.
+		The result of this mapping is not a field in the algebraic sense but rather a function that assigns values.
+			Used primarily in the context of vector calculus and physical sciences. It emphasizes the spatial distribution of scalar values.
+
+A Scalar Function becomes a Scalar Field when it is specifically used to describe scalar values varying over a spatial domain, typically in the context of vector calculus and physical sciences.
+	
+**Domain**: Typically a vector space like $\mathbb{R}^n$.
+**Range**: The set of real numbers $\mathbb{R}$.
+
+
+###### Scalar Field Example
+$$T(x, y, z) = x^2 + y^2 + z^2$$
+**Domain**: $\mathbb{R}^3$
+**Range**: $\mathbb{R}$
+**Interpretation**: For each point $(x, y, z)$ in a 3D space, the field assigns a value, which could represent a temperature distribution.
+$$x^2 + y^2 + z^2$$
+#### 4. Higher-Dimensional Vector Spaces ($\mathbb{R}^n$)
+A vector space extends the concept of a scalar space to multiple dimensions.
+
+It is generated by defining vector addition and scalar multiplication using the real numbers from the Field of Real Numbers $\mathbb{R}$.
+	**Vector Addition**: For $(x_2, y_2)$ \in $\mathbb{R}^2$. $$\LARGE (x_1, y_1) + (x_2, y_2) = (x_1 + x_2, y_1 + y_2)$$
+	**Scalar Multiplication**: For $(x_2, y_2)$ \in $\mathbb{R}^2$. $$\LARGE c\cdot (x, y)=(c\cdot x,c\cdot y)$$
+**$\mathbb{R}^n$** is an n-dimensional vector space where each element is an ordered n-tuple of real numbers.
+	Each component of these vectors is a scalar from the real number field $\mathbb{R}$.
+##### [[Fields#Vector Field|Vector Fields]] and Vector Functions
+$$\LARGE F:R^n \to R^m$$
+A **Vector Function** is a mathematical function that maps a point from an $n$-dimensional domain to a vector in an $m$-dimensional codomain.
+	Vector functions are used broadly in mathematics to describe relationships between variables where the output is a vector.
+
+A **Vector Field** is a function that assigns a vector to every point in a space.
+Maps points in a space to vectors, where the components of these vectors are scalar values from an algebraic field (e.g., $\mathbb{R}$).
+	Vector Functions are used to describe vector values distributed over space.
+		Specifically used to describe vector quantities that vary over a spatial region, often in physics and engineering.
+			Vector fields are used primarily in physics and vector calculus to describe spatially varying vector quantities.
+			
+
+###### Vector Function Example
+$$\mathbf{F}(t) = \begin{pmatrix} \cos(t) \\ \sin(t) \\ t \end{pmatrix}$$
+**Domain**: $\mathbb{R}$
+**Codomain**: $\mathbb{R}^3$
+**Interpretation**: For each real number $t$, the function assigns a vector 
+$$\begin{pmatrix} \cos(t) \\ \sin(t) \\ t \end{pmatrix} \space in \space \mathbb{R}^3$$
+#### Fields vs. Graphs
+When we refer to scalar fields or vector fields in mathematics, we are talking about functions that map points in a space to values (scalars or vectors).
+
+The "graph" of a function typically represents the set of all points $(x, f(x))$ for scalar functions or ($\mathbf{x}, \mathbf{F(x)}$) for vector functions.
+##### Fields can be Represented by Graphs
+The "graph" of a scalar field is a surface in higher-dimensional space, while the graph of a vector field is a collection of vectors in the domain space.
+
+The graph of a scalar field $f: \mathbb{R}^2 \to \mathbb{R}$ can be visualized as a surface in $\mathbb{R}^3$, where each point $(x, y, z)$ represents $(x, y, f(x, y))$.
+
+The graph of a vector field can be visualized as a collection of vectors (arrows) at each point in the domain, showing the direction and magnitude of the field.
 
 - - -
 ## The Frameworks for Abstract Mathematical Space

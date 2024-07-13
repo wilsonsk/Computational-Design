@@ -16,6 +16,11 @@ A **gradient** is a [[Vectors|vector]] that encapsulates how a [[Mapping#A Funct
 		The concept of a gradient is fundamental in multivariable calculus and has applications in various fields such as physics, engineering, and optimization.
 #### Gradients and Scalar Functions
 **Gradients** are specifically calculated for [[Mapping#Output Types of Functions|scalar functions]], which are functions that map multiple input variables to a single output real number.
+
+The gradient of a scalar function $f$, denoted as $\nabla f$, is a vector field that points in the direction of the greatest rate of increase of the function. 
+	The components of the gradient are the partial derivatives of $f$ with respect to each input variable.
+$$\LARGE \nabla f = \left( \frac{\partial f}{\partial x_1}, \frac{\partial f}{\partial x_2}, \ldots, \frac{\partial f}{\partial x_n} \right)$$
+	$\LARGE \nabla$ is the [[#Nabla Operator ($ nabla$)|Nabla Operator]].
 ##### Why Gradients Apply to Scalar Functions
 ###### Directional Information
 The gradient vector provides both the direction and magnitude of the steepest ascent of the scalar function. 
@@ -57,7 +62,7 @@ $$\LARGE \nabla f(\mathbf{x}) = \left( \frac{\partial f}{\partial x_1}(\mathbf{x
 
 This vector points in the direction of the steepest increase of the function $f$ at the point $\mathbf{x}$.
 #### Gradient as a Vector [[Fields|Field]]
-When considering the gradient over the entire domain of the scalar function, it forms a vector field.
+When considering the gradient over the entire domain of the scalar function, it forms a [[|vector field]].
 	A vector field assigns a vector to every point in the domain.
 ##### Example
 Consider the scalar function $f(x, y) = x^2 + y^2$.
