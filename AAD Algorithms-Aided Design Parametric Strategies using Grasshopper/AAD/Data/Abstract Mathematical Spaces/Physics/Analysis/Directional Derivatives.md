@@ -15,7 +15,7 @@ A **gradient** is a [[Vectors|vector]] that encapsulates how a [[Mapping#A Funct
 	It indicates both the direction and the rate of the steepest ascent of the function.
 		The concept of a gradient is fundamental in multivariable calculus and has applications in various fields such as physics, engineering, and optimization.
 #### Gradients and Scalar Functions
-**Gradients** are specifically calculated for [[Mapping#Output Types of Functions|scalar functions]], which are functions that map multiple input variables to a single output real number.
+**Gradients** are specifically calculated for [[Abstract Mathematical Spaces#The Sequential Generation of the Field of Real Numbers and the Vector Space]], which are functions that map multiple input variables to a single output real number.
 
 The gradient of a scalar function $f$, denoted as $\nabla f$, is a vector field that points in the direction of the greatest rate of increase of the function. 
 	The components of the gradient are the partial derivatives of $f$ with respect to each input variable.

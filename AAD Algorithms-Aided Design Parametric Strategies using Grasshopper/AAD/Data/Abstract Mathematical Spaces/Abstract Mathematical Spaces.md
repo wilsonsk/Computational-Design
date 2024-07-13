@@ -320,14 +320,24 @@ A **Scalar Field** is a function that maps points in a space (which can be viewe
 
 A Scalar Function becomes a Scalar Field when it is specifically used to describe scalar values varying over a spatial domain, typically in the context of vector calculus and physical sciences.
 	
-**Domain**: Typically a vector space like $\mathbb{R}^n$.
+**Domain**: 
+Typically a vector space like $\mathbb{R}^n$.
+	The domain of a scalar field is a space, often a vector space like $\mathbb{R}^n$.
+		 For $f(x, y)$, the domain is $\mathbb{R}^2$ (the 2-dimensional plane).
+**Codomain**: The codomain of a scalar field is typically the set of real numbers, $\mathbb{R}$.
 **Range**: The set of real numbers $\mathbb{R}$.
+**Mapping**: The function maps each point in the domain to a scalar value in the codomain.
 
 
 ###### Scalar Field Example
-$$T(x, y, z) = x^2 + y^2 + z^2$$
-**Domain**: $\mathbb{R}^3$
+$$T(x, y, z) = x^2 + y^2$$
+**Domain**: 
+$\mathbb{R}^2$
+	The function $f(x, y) = x^2 + y^2$ takes points $(x, y)$ from the 2-dimensional plane $\mathbb{R}^2$.
+**Codomain**: The function outputs scalar values in $\mathbb{R}$. For any point $(x, y)$, $f(x, y)$ is a real number.
 **Range**: $\mathbb{R}$
+**Mapping**: For each point $(x, y)$ in $\mathbb{R}^2$, the function $f$ assigns the value $x^2 + y^2$. This value is a scalar (a real number).
+
 **Interpretation**: For each point $(x, y, z)$ in a 3D space, the field assigns a value, which could represent a temperature distribution.
 $$x^2 + y^2 + z^2$$
 #### 4. Higher-Dimensional Vector Spaces ($\mathbb{R}^n$)
@@ -350,10 +360,26 @@ Maps points in a space to vectors, where the components of these vectors are sca
 			Vector fields are used primarily in physics and vector calculus to describe spatially varying vector quantities.
 			
 
-###### Vector Function Example
+###### Vector Function Example 1
+$\mathbf{F}(x, y, z) = \begin{pmatrix} -x \ y^2 \ z \end{pmatrix}$
+
+**Domain**: 
+The function $\mathbf{F}(x, y, z)$ takes points $(x, y, z)$ from the 3-dimensional space $\mathbb{R}^3$.
+**Codomain**: 
+The function outputs vectors in $\mathbb{R}^3$. For any point $(x, y, z)$, $\mathbf{F}(x, y, z)$ is a vector with three components.
+**Mapping**: 
+For each point $(x, y, z)$ in $\mathbb{R}^3$, the function $\mathbf{F}$ assigns the vector:
+$$\mathbf{F}(t) = \begin{pmatrix} -x \\ y^2 \\ z \end{pmatrix}$$
+###### Vector Function Example 2
 $$\mathbf{F}(t) = \begin{pmatrix} \cos(t) \\ \sin(t) \\ t \end{pmatrix}$$
-**Domain**: $\mathbb{R}$
-**Codomain**: $\mathbb{R}^3$
+**Domain**: 
+The domain of a vector field is a space, often a vector space like $\mathbb{R}^n$. 
+	For $\mathbf{F}(x, y, z)$, the domain is $\mathbb{R}^3$ (the 3-dimensional space).
+**Codomain**: 
+The codomain of a vector field is typically a set of vectors. 
+	For $\mathbf{F}(x, y, z)$, the codomain is $\mathbb{R}^3$, which means each output is a vector with three components.
+**Mapping**: The function maps each point in the domain to a vector in the codomain.
+
 **Interpretation**: For each real number $t$, the function assigns a vector 
 $$\begin{pmatrix} \cos(t) \\ \sin(t) \\ t \end{pmatrix} \space in \space \mathbb{R}^3$$
 #### Fields vs. Graphs
