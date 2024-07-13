@@ -276,42 +276,227 @@ A field as a mapping (whether a scalar field or a vector field) is a specific in
 
 When a Structured Set (for example, a vector space or a scalar space) is generated, the fields (scalar or vector fields) do not automatically exist. 
 	Instead, these fields are defined based on functions that map points within those spaces to scalars or vectors.
-### The Basis
-#### 1. Real Numbers ($\mathbb{R}$) as an Underlying Set
+### The Foundation: The Generation of the Real Number Field
+#### 1. Real Numbers ($\mathbb{R}$) as the Underlying Set
 The set of real numbers $\mathbb{R}$ is the collection of all rational and irrational numbers.
 	This set itself has no additional structure (just the numbers).
+##### Scalars are the Elements of the Real Number (Underlying) Set 
+Aka Real Number Field Elements.
+	Or just Field Elements for general fields.
+
+In the context of the Real Number Field, $R$, Scalars are simply elements of the real number field.
+	Every real number is a scalar in the context of vector spaces over $\mathbb{R}$.
+		Scalars are elements of a field used to define operations such as scalar multiplication in vector spaces.
+
+The properties of scalars (such as distributivity, associativity, and commutativity) are direct consequences of the field axioms that $\mathbb{R}$ satisfies.
+	Scalars inherit the properties of the field $\mathbb{R}$ because they are elements of this field.
 #### 2. Real Number Field ($\mathbb{R}$)
 When we define addition and multiplication on $\mathbb{R}$ and show that these operations satisfy the field axioms (closure, associativity, commutativity, identity elements, inverses, and distributivity), we get the **Field of Real Numbers**, $\mathbb{R}$.
 	This field $\mathbb{R}$ is an [[#1. Algebraic Structured Sets|Algebraic Structured Set]] where we can perform arithmetic operations.
 
-This is the structured set where the field axioms hold.
-### Development of Scalar and Vector Spaces
-
-#### 3. Generating Scalar Space ($\mathbb{R}$)
-The real number field $\mathbb{R}$ itself can be viewed as a one-dimensional vector space over the field $\mathbb{R}$.
-	When we refer to $\mathbb{R}$ as a scalar space, we are focusing on its role as the source of scalars (real numbers) used in various mathematical contexts.
-
-As a one-dimensional vector space, each element (vector) is a **single** scalar (i.e. a single real number).
-	This space uses the field's existing operations for 1D vector addition and scalar multiplication.
-		**Vector Addition**: The addition of vectors is just the usual addition of real numbers.
-		**Scalar Multiplication**: Multiplying a vector by a scalar is the usual multiplication of real numbers.
-
-Scalars in this context are simply real numbers.
-	When you see "scalar space," think of $\mathbb{R}$ as the set from which these scalars are drawn.
-###### Scalar Space
-When we refer to $\mathbb{R}$ as a scalar space, we mean the set of all real numbers where each number is treated as a scalar. 
-	Where scalars are used to scale vectors in vector spaces.
-###### One-Dimensional Vector Space
-$\mathbb{R}$ can also be viewed as a one-dimensional vector space over itself. 
-	Viewing $\mathbb{R}$ as a one-dimensional vector space over itself highlights that it can serve as a vector space where each element (vector) is simply a real number, and the operations are the same as the field operations.
-
-Here, each element of $\mathbb{R}$ is considered a vector, and the operations of vector addition and scalar multiplication are the same as the addition and multiplication in the field of real numbers.
-	In this view, the "vectors" are simply the real numbers themselves, and the space has a single basis element (typically 1).
-##### [[Scalar Fields|Scalar Fields]] and Scalar Functions
+The Real Number Field $\mathbb{R}$ is a set equipped with operations that satisfy field axioms.
+	A field is a structured set equipped with two operations, addition and multiplication, that satisfy specific axioms (associativity, commutativity, distributivity, identity elements, and inverses).
+##### The Structure of the Real Number Field ($\mathbb{R}$)
+This Structure defines the rules (axioms, properties, and operations) that govern the elements of the real number field (i.e. Scalar) are defined by the structure of the real number field itself. 
+###### Operations
+**Addition**
+A binary operation that combines two real numbers to produce another real number.
+  - Notation: \( a + b \)
+**Multiplication**
+A binary operation that combines two real numbers to produce another real number.
+  - Notation: \( a \cdot b \) or \( ab \)
+###### Axioms
+The real number field satisfies a specific set of axioms that define its structure and properties:
+**Closure**:
+- For all $a, b \in \mathbb{R}$:
+  - $a + b \in \mathbb{R}$
+  - $a \cdot b \in \mathbb{R}$
+**Associativity**:
+- For all $a, b, c \in \mathbb{R}$:
+  - $(a + b) + c = a + (b + c)$
+  - $(a \cdot b) \cdot c = a \cdot (b \cdot c)$
+**Commutativity**:
+- For all $a, b \in \mathbb{R}$:
+  - $a + b = b + a$
+  - $a \cdot b = b \cdot a$
+**Identity Elements**:
+- There exists an element $0 \in \mathbb{R}$ such that for all $a \in \mathbb{R}$:
+  - $a + 0 = a$
+- There exists an element $1 \in \mathbb{R}$ (where $1 \neq 0$) such that for all $a \in \mathbb{R}$:
+  - $a \cdot 1 = a$
+**Inverses**:
+- For each $a \in \mathbb{R}$, there exists an element $-a \in \mathbb{R}$ such that:
+  - $a + (-a) = 0$
+- For each $a \in \mathbb{R}$ (where $a \neq 0$), there exists an element $a^{-1} \in \mathbb{R}$ such that:
+  - $a \cdot a^{-1} = 1$
+**Distributivity**:
+- For all $a, b, c \in \mathbb{R}$:
+  - $a \cdot (b + c) = (a \cdot b) + (a \cdot c)$
+##### Scalar Functions
+Scalar functions leverage the operations (while also satisfying the axioms) of the real number field (addition and multiplication) to map elements from a domain to scalar values in $\mathbb{R}$.
 $$\LARGE f:R^n \to R$$
 A **Scalar Function** is a mathematical function that maps points from an $n$-dimensional domain to a single real number (a scalar).
 	They are generally used to to describe a relationship between variables where the output is a single scalar value.
 		A more general term used across various mathematical disciplines. It emphasizes the mathematical relationship between the input and the output.
+###### Scalar Functions are Defined by their Input Type and Output Type
+Scalar functions are differentiated from other functions primarily by the type of their inputs and outputs.
+**Defining Characteristics**
+1. **Domain**: The input can be elements from various sets, often points in a vector space like $\mathbb{R}^n$.
+2. **Codomain**: The output is a single scalar value in the real number field $\mathbb{R}$.
+
+Consider a scalar function $f$ defined as: $$\LARGE f(x, y) = x^2 + y^2$$
+**Domain**: 
+The domain of $f$ is $\mathbb{R}^2$, the set of all ordered pairs of real numbers $(x, y)$.
+**Codomain**: 
+The codomain of $f$ is $\mathbb{R}$, the set of real numbers.
+**Operations**: 
+The function uses addition and multiplication from the real number field:
+    Squaring each component ($x^2$ and $y^2$).
+    Adding the squared components ($x^2 + y^2$).
+###### How Scalar Functions Utilize the Real Number Field
+1. **Addition**: Scalar functions often involve addition of real numbers.
+    - Example: In $f(x, y) = x^2 + y^2$, the addition operation combines the squared terms.
+2. **Multiplication**: Scalar functions frequently use multiplication.
+    - Example: In $f(x, y) = x^2 + y^2$, the squaring operation is a form of multiplication.
+3. **Other Operations**: Scalar functions can also involve other operations that are defined in the field of real numbers, such as subtraction, division, and more complex functions like exponentiation or trigonometric functions.
+###### What Mapping From One Domain to a Scalar Value Means
+Scalar functions can have domains composed of various objects, not just real numbers.
+	These domains can be multi-dimensional spaces, sets of vectors, matrices, or other mathematical objects.
+		Scalar functions can map elements from complex domains (like vectors, matrices, or higher-dimensional points) to scalar values to simplify analysis or represent a specific quantity.
+
+**Domains Composed of Vectors or Points in Space**
+Often, the domain of a scalar function can be a set of vectors or points in a multi-dimensional space (e.g., $\mathbb{R}^n$). 
+	*For example*: $f(x, y) = x^2 + y^2$
+		Here, the domain is $\mathbb{R}^2$ (the set of all ordered pairs of real numbers), and $f$ maps each pair to a single real number (scalar) in $\mathbb{R}$.
+
+This mapping is crucial in many fields of science and mathematics for simplifying complex structures or representing specific quantities like distance, temperature, or intensity.
+**Examples**:
+1. **Temperature Distribution**:
+    - Domain: Points in a room (3D space, $\mathbb{R}^3$).
+    - Scalar Function: $T(x, y, z)$ maps each point to a temperature value.
+2. **Distance from Origin**:
+    - Domain: Points in 2D space ($\mathbb{R}^2$).
+    - Scalar Function: $d(x, y) = \sqrt{x^2 + y^2}$ maps each point to its distance from the origin.
+3. **Intensity of a Field**:
+    - Domain: Points in space where a field is defined (e.g., electric field, magnetic field).
+    - Scalar Function: $I(x, y, z)$ might map each point to the intensity of the field at that point.
+### Building on the Foundation: Generating Vector Spaces *on Top of* the Real Number Field
+##### "Defining a Space over a Field"
+When we **define a Vector Space over the real number field** $\mathbb{R}$, we inherit and incorporate this field's underlying set and structure.
+	Then the Vector Spaces adds additional elements to the Underlying Set, as well can extend the inherited structure, and/or add its own additional structure (i.e. operations and axioms) to form the vector space.
+
+The Real Number Field doesn't just supply underlying set (Real Numbers) in a vector field, it also maintains its initial structure which the vector space inherits.
+	Then the vector spaces defines **additional** structure on top of the existing structure of the Real Number Field.
+		Remember that the Real Number Field ($\mathbb{R}$) is a structured set equipped with two operations, addition and multiplication, that satisfy specific axioms (associativity, commutativity, distributivity, identity elements, and inverses).
+#### 1. The Underlying Set of the Vector Space
+The Vector Space inherits the Underlying Set (i.e. Real Numbers) from the Real Number Field that it is defined on top of.
+	But it also adds additional elements of its own.
+##### The Inherited Elements
+The scalars used in the Vector Space come from the Real Number Field $\mathbb{R}$.
+	The Real Number Field provides the elements (i.e. scalars as Real Numbers) and the structure (i.e. axioms and operations of addition and multiplication) that are used in the vector space.
+
+These scalar elements (i.e. Real Numbers) are still constrained by the initial Real Number Field Structure. 
+	These scalars are used in scalar multiplication and define how vectors are scaled.
+##### The Additional Elements
+The vector space itself has its own set of elements called vectors.
+	Vectors are constructed from the scalars of the field but are not simply elements of the field being inherited.
+		The phrase "***not simply elements of the field inherited***" means that vectors in a vector space are constructed on this new layer (i.e. Vector Space).
+			They are are composed of the inherited elements of the field to represent a new elements. 
+				And are thus more complex structures than the individual elements (scalars) of the field they are built from. 
+					This distinguishes them from the individual scalars that form their components.
+
+Vectors consist of multiple components (scalars) arranged in an ordered tuple.
+	This makes them inherently more complex than individual scalars.
+		They are elements of the vector space, and they are constructed using the scalars from the field, but they are more complex than just single scalars.
+		
+Vectors represent new elements within the vector space, and they can have multiple dimensions depending on the number of scalars they contain.
+	A vector in an $n$-dimensional space ($\mathbb{R}^n$) is an ordered $n$-tuple of scalars.
+#### 2. The Structure of the Vector Space
+##### The Inherited Structure
+Vector spaces built over $\mathbb{R}$ inherit these fundamental properties and operations, ensuring that the structure and operations within the vector space maintain consistency and mathematical rigor.
+	The real number field provides a robust foundation, ensuring that the vector spaces maintain certain algebraic properties and adhere to specific axioms.
+	
+When a space is defined on top of a field, it generally inherits the field's structure to the extent that the operations and axioms of the space require. 
+	However, the space may not use all aspects of the field's structure directly. 
+		Instead, it may focus on specific properties and operations provided by the field.
+
+In this case, the Vector Space does inherit all the[[#The Structure of the Real Number Field ($ mathbb{R}$)| initial structure of the Real Number Field]].
+##### The Extended Structure
+I.e. Extensions in the Vector Space.
+###### Scalars in Scalar Multiplication
+Scalars from the real number field ($\mathbb{R}$) are used to scale vectors in the vector space.
+###### Operations Involving Scalars
+The addition and multiplication of scalars are used in the definitions of vector space operations.
+###### Scalar Multiplication
+For a scalar $a \in \mathbb{R}$ and a vector $\mathbf{v} \in V$, scalar multiplication is defined component-wise:
+$$\LARGE  a \cdot (v_1, v_2, \ldots, v_n) = (a \cdot v_1, a \cdot v_2, \ldots, a \cdot v_n) $$
+###### Vector Addition
+Uses the inherited addition operation to add corresponding components of vectors:
+$$\LARGE  (v_1, v_2, \ldots, v_n) + (w_1, w_2, \ldots, w_n) = (v_1 + w_1, v_2 + w_2, \ldots, v_n + w_n) $$
+##### The Additional Structure
+- **Vectors**: The primary elements of the vector space, which are ordered tuples of scalars (e.g., $\mathbb{R}^n$).
+- **Vector Addition**: Defined for vectors in the space, combining them component-wise.
+- **Scalar Multiplication**: Defined for vectors in the space, scaling each component of the vector by a scalar.
+- **Vector Space Axioms**:
+  - **Closure**: For any vectors $\mathbf{u}, \mathbf{v} \in V$ and any scalar $a \in \mathbb{R}$, the results of $\mathbf{u} + \mathbf{v}$ and $a \cdot \mathbf{u}$ are also in $V$.
+  - **Associativity of Vector Addition**: $\mathbf{u} + (\mathbf{v} + \mathbf{w}) = (\mathbf{u} + \mathbf{v}) + \mathbf{w}$.
+  - **Commutativity of Vector Addition**: $\mathbf{u} + \mathbf{v} = \mathbf{v} + \mathbf{u}$.
+  - **Existence of Additive Identity**: There exists a zero vector $\mathbf{0}$ such that $\mathbf{u} + \mathbf{0} = \mathbf{u}$.
+  - **Existence of Additive Inverses**: For each vector $\mathbf{u}$, there exists an additive inverse $-\mathbf{u}$ such that $\mathbf{u} + (-\mathbf{u}) = \mathbf{0}$.
+  - **Distributivity of Scalars over Vector Addition**: $a \cdot (\mathbf{u} + \mathbf{v}) = a \cdot \mathbf{u} + a \cdot \mathbf{v}$.
+  - **Distributivity of Scalars over Scalar Addition**: $(a + b) \cdot \mathbf{u} = a \cdot \mathbf{u} + b \cdot \mathbf{u}$.
+  - **Associativity of Scalar Multiplication**: $a \cdot (b \cdot \mathbf{u}) = (a \cdot b) \cdot \mathbf{u}$.
+  - **Identity Element of Scalar Multiplication**: $1 \cdot \mathbf{u} = \mathbf{u}$ for any vector $\mathbf{u}$.
+#### How Do These Structures Vary Among Different $n$ of Vector Spaces ($\mathbb{R}^1, \mathbb{R}^2, \mathbb{R}^3$)?
+##### $\mathbb{R}^1$ - One-Dimensional Vector Space:
+- **Elements**: Single real numbers (e.g., $x$).
+- **Vector Addition**: $x + y$
+- **Scalar Multiplication**: $a \cdot x$
+- **Structure**: Inherits and applies all vector space axioms in the simplest form.
+##### $\mathbb{R}^2$ - Two-Dimensional Vector Space:
+- **Elements**: Ordered pairs of real numbers (e.g., $(x, y)$).
+- **Vector Addition**: $(x_1, y_1) + (x_2, y_2) = (x_1 + x_2, y_1 + y_2)$
+- **Scalar Multiplication**: $a \cdot (x, y) = (a \cdot x, a \cdot y)$
+- **Structure**: Extends the structure of $\mathbb{R}^1$ to two dimensions, applying vector space axioms to pairs of real numbers.
+##### $\mathbb{R}^3$ - Three-Dimensional Vector Space:
+- **Elements**: Ordered triples of real numbers (e.g., $(x, y, z)$).
+- **Vector Addition**: $(x_1, y_1, z_1) + (x_2, y_2, z_2) = (x_1 + x_2, y_1 + y_2, z_1 + z_2)$
+- **Scalar Multiplication**: $a \cdot (x, y, z) = (a \cdot x, a \cdot y, a \cdot z)$
+- **Structure**: Extends the structure of $\mathbb{R}^2$ to three dimensions, applying vector space axioms to triples of real numbers.
+##### $\mathbb{R}^n$ - $n$-Dimensional Vector Space:
+- **Elements**: Ordered $n$-tuples of real numbers (e.g., $(x_1, x_2, \ldots, x_n)$).
+- **Vector Addition**: $(x_1, x_2, \ldots, x_n) + (y_1, y_2, \ldots, y_n) = (x_1 + y_1, x_2 + y_2, \ldots, x_n + y_n)$
+- **Scalar Multiplication**: $a \cdot (x_1, x_2, \ldots, x_n) = (a \cdot x_1, a \cdot x_2, \ldots, a \cdot x_n)$
+- **Structure**: Generalizes the structure of lower-dimensional spaces to $n$ dimensions, applying vector space axioms to $n$-tuples of real numbers.
+
+
+
+
+#### Vector Spaces and $\mathbb{R}^n$
+When we refer to $\mathbb{R}^1, \mathbb{R}^2, \mathbb{R}^3$, etc., we are indeed talking about vector spaces, where the "vector" in the name is often implied but not always explicitly mentioned.
+	These are the most common examples of vector spaces built upon the real number field.
+###### Vectors in $\mathbb{R}$
+Represents the set of all real numbers, which can be seen as a one-dimensional vector space.
+	The elements of are simply real numbers.
+###### Vectors in $\mathbb{R}^2$
+Represents the set of all ordered pairs of real numbers, forming a two-dimensional vector space.
+	The elements are ordered pairs of real numbers.
+	Example: $\mathbf{v} = (x, y)$ where $x,y∈Rx, y \in \mathbb{R}$.
+###### Vectors in $\mathbb{R}^3$
+Represents the set of all ordered triples of real numbers, forming a three-dimensional vector space.
+	The elements are ordered triples of real numbers.
+	Example: $\mathbf{w} = (x, y, z)$ where $x, y, z \in \mathbb{R}$.
+###### Vectors in $\mathbb{R}^n$
+More generally, $\mathbb{R}^n$ represents the set of all ordered $n$-tuples of real numbers, forming an $n$-dimensional vector space.
+	The elements are ordered $n$-tuples of real numbers.
+	Example: $\mathbf{u} = (x_1, x_2, \ldots, x_n)u=(x1​,x2​,…,xn​) \text{ where } x_i \in \mathbb{R}$ for all $i$.
+#### Other Structures Built Upon the Real Number Field
+While $\mathbb{R}^n$ spaces are vector spaces, there are other mathematical structures built upon the real number field that are not vector spaces.
+
+
+
+##### [[Scalar Fields|Scalar Fields]] and Scalar Functions
+
 
 A **Scalar Field** is a function that maps points in a space (which can be viewed as a vector space) to scalar values from an algebraic field (e.g., $\mathbb{R}$).
 	A mapping from points in a space (like $\mathbb{R}^3$) to scalar values in $\mathbb{R}$.
@@ -339,6 +524,29 @@ $\mathbb{R}^2$
 **Mapping**: For each point $(x, y)$ in $\mathbb{R}^2$, the function $f$ assigns the value $x^2 + y^2$. This value is a scalar (a real number).
 
 **Interpretation**: For each point $(x, y, z)$ in a 3D space, the field assigns a value, which could represent a temperature distribution.
+### The Secondary: The 
+### Development of Scalar and Vector Spaces
+#### 3. Generating Scalar Space ($\mathbb{R}$)
+The Real Number Field $\mathbb{R}$ itself can be viewed as a one-dimensional vector space over the field $\mathbb{R}$.
+	When we refer to $\mathbb{R}$ as a scalar space, we are focusing on its role as the source of scalars (real numbers) used in various mathematical contexts.
+
+As a one-dimensional vector space, each element (vector) is a **single** scalar (i.e. a single real number).
+	This space uses the field's existing operations for 1D vector addition and scalar multiplication.
+		**Vector Addition**: The addition of vectors is just the usual addition of real numbers.
+		**Scalar Multiplication**: Multiplying a vector by a scalar is the usual multiplication of real numbers.
+
+Scalars in this context are simply real numbers.
+	When you see "scalar space," think of $\mathbb{R}$ as the set from which these scalars are drawn.
+###### Scalar Space
+When we refer to $\mathbb{R}$ as a scalar space, we mean the set of all real numbers where each number is treated as a scalar. 
+	Where scalars are used to scale vectors in vector spaces.
+###### One-Dimensional Vector Space
+$\mathbb{R}$ can also be viewed as a one-dimensional vector space over itself. 
+	Viewing $\mathbb{R}$ as a one-dimensional vector space over itself highlights that it can serve as a vector space where each element (vector) is simply a real number, and the operations are the same as the field operations.
+
+Here, each element of $\mathbb{R}$ is considered a vector, and the operations of vector addition and scalar multiplication are the same as the addition and multiplication in the field of real numbers.
+	In this view, the "vectors" are simply the real numbers themselves, and the space has a single basis element (typically 1).
+
 $$x^2 + y^2 + z^2$$
 #### 4. Higher-Dimensional Vector Spaces ($\mathbb{R}^n$)
 A vector space extends the concept of a scalar space to multiple dimensions.

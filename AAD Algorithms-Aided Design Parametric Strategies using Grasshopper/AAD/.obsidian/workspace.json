@@ -132,9 +132,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a43ea47d6b1f0214",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data/Abstract Mathematical Spaces/Abstract Mathematical Spaces.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -275,13 +287,13 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "b91cb0b77619c429",
+  "active": "a43ea47d6b1f0214",
   "lastOpenFiles": [
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Mapping.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Spaces.md",
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Fields.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/A Map of Change as Rates to Limits of those Rates to Differentials to Derivatives.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Directional Derivatives.md",
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Mapping.md",
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Fields.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Partial Derivatives.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Scalar Fields.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
