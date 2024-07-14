@@ -462,10 +462,12 @@ A **Vector Function** is a mathematical function that maps a vector from an $n$-
 I.e. The Domain
 	The domain of a vector function is typically an $n$-dimensional vector space, denoted as $\mathbb{R}^n$.
 		This means the input to the function is a vector with $n$ components.
+			Is Non-Spatial.
 ###### Output
 I.e. The Codomain
 	The codomain of a vector function is typically an $m$-dimensional vector space, denoted as $\mathbb{R}^m$.
 		This means the output of the function is a vector with $m$ components.
+			Is Non-Spatial.
 
 A vector function $\mathbf{F}: \mathbb{R}^n \to \mathbb{R}^m$ can be expressed in terms of its component functions.
 	Each component function maps from $\mathbb{R}^n$ to $\mathbb{R}$.
@@ -661,13 +663,16 @@ A **Scalar Field** is a Scalar Function that maps **points from spatial domain**
 The **key difference** between a Scalar Function and a Scalar Field is that the domain of a Scalar Field is typically **a spatial domain**, meaning each input point corresponds to a location in space.
 	Used primarily in the context of vector calculus and physical sciences. It emphasizes the spatial distribution of scalar values.
 
-**Domain**: 
+**Domain**: Spatial
 Typically a vector space like $\mathbb{R}^n$.
 	The domain of a scalar field is spatial, often a vector space like $\mathbb{R}^n$.
 		 For $f(x, y)$, the domain is $\mathbb{R}^2$ (the 2-dimensional plane).
-**Codomain**: The codomain of a scalar field is typically the set of real numbers, $\mathbb{R}$.
-**Range**: The set of real numbers $\mathbb{R}$.
-**Mapping**: The function maps each point in the domain to a scalar value in the codomain.
+**Codomain**: Non-Spatial
+The codomain of a scalar field is typically the set of real numbers, $\mathbb{R}$.
+**Range**:
+The set of real numbers $\mathbb{R}$.
+**Mapping**:
+The function maps each point in the domain to a scalar value in the codomain.
 
 ###### Scalar Field Example
 $$T(x, y, z) = x^2 + y^2$$
@@ -680,21 +685,25 @@ $\mathbb{R}^2$
 
 **Interpretation**: For each point $(x, y, z)$ in a 3D space, the field assigns a value, which could represent a temperature distribution.
 ### Vector Fields
-A **Vector Field** is a Vector Function that assigns a vector to every **point in a spatial domain**.
+A **Vector Field** is a Vector Function that maps every **point in a spatial domain** to a vector in a codomain.
 	It describes how a vector quantity (like velocity, force, or electric field) varies over space
 
 Vector Fields map points in a space to vectors, where the components of these vectors are scalar values from an algebraic field (e.g., $\mathbb{R}$).
 	Vector Functions are used to describe vector values distributed over space.
 		Specifically used to describe vector quantities that vary over a spatial region, often in physics and engineering.
 			Vector fields are used primarily in physics and vector calculus to describe spatially varying vector quantities.
-**Domain**: 
+
+**Domain**: Spatial
 Typically a vector space like $\mathbb{R}^n$.
 	The domain of a scalar field is a spatial, often a vector space like $\mathbb{R}^n$.
 		 For $f(x, y)$, the domain is $\mathbb{R}^2$ (the 2-dimensional plane).
-**Codomain**: A vector space, often $\mathbb{R}^m$, where $m$ is the dimension of the vectors.
+**Codomain**: Non-Spatial
+A vector space, often $\mathbb{R}^m$, where $m$ is the dimension of the vectors.
 	Where $m$ is the dimension of the vectors assigned to each point in the domain.
-**Range**: The set of all possible vectors that the function can assign, which is a subset of the codomain.
-**Mapping**: The function assigns a vector to each point in the domain.
+**Range**: 
+The set of all possible vectors that the function can assign, which is a subset of the codomain.
+**Mapping**: 
+The function assigns a vector to each point in the domain.
 #### Fields vs. Graphs
 When we refer to scalar fields or vector fields in mathematics, we are talking about functions that map points in a space to values (scalars or vectors).
 
