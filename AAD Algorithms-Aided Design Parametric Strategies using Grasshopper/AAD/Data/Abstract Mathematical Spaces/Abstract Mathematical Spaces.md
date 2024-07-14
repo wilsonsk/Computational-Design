@@ -436,7 +436,9 @@ $$\LARGE  (v_1, v_2, \ldots, v_n) + (w_1, w_2, \ldots, w_n) = (v_1 + w_1, v_2 + 
 ##### The Additional Structure
 - **Vectors**: The primary elements of the vector space, which are ordered tuples of scalars (e.g., $\mathbb{R}^n$).
 - **Vector Addition**: Defined for vectors in the space, combining them component-wise.
+	- - **Additivity**: $T(\mathbf{u} + \mathbf{v}) = T(\mathbf{u}) + T(\mathbf{v})$
 - **Scalar Multiplication**: Defined for vectors in the space, scaling each component of the vector by a scalar.
+	- **Homogeneity (Scalar Multiplication)**: $T(c\mathbf{u}) = cT(\mathbf{u})$
 - **Vector Space Axioms**:
   - **Closure**: For any vectors $\mathbf{u}, \mathbf{v} \in V$ and any scalar $a \in \mathbb{R}$, the results of $\mathbf{u} + \mathbf{v}$ and $a \cdot \mathbf{u}$ are also in $V$.
   - **Associativity of Vector Addition**: $\mathbf{u} + (\mathbf{v} + \mathbf{w}) = (\mathbf{u} + \mathbf{v}) + \mathbf{w}$.
@@ -447,6 +449,124 @@ $$\LARGE  (v_1, v_2, \ldots, v_n) + (w_1, w_2, \ldots, w_n) = (v_1 + w_1, v_2 + 
   - **Distributivity of Scalars over Scalar Addition**: $(a + b) \cdot \mathbf{u} = a \cdot \mathbf{u} + b \cdot \mathbf{u}$.
   - **Associativity of Scalar Multiplication**: $a \cdot (b \cdot \mathbf{u}) = (a \cdot b) \cdot \mathbf{u}$.
   - **Identity Element of Scalar Multiplication**: $1 \cdot \mathbf{u} = \mathbf{u}$ for any vector $\mathbf{u}$.
+##### Vector Function
+###### *Note: 
+The term "point" and "vector" can often be used interchangeably in the context of vector spaces, as both represent an ordered tuple of numbers in a given space.*
+	However, to maintain clarity and precision, especially in the context of vector spaces, it's better to explicitly use the term "vector" to avoid confusion with [[#Scalar Functions|Scalar Functions]].
+
+
+
+$$\LARGE F:R^n \to R^m$$
+A **Vector Function** is a mathematical function that maps a vector from an $n$-dimensional space (i.e. domain) to a vector in an $m$-dimensional vector space (i.e. codomain) - or possibly the same vector space.
+	Vector functions are used broadly in mathematics to describe relationships between variables where the output is a vector.
+###### Input
+I.e. The Domain
+	The domain of a vector function is typically an $n$-dimensional vector space, denoted as $\mathbb{R}^n$.
+		This means the input to the function is a vector with $n$ components.
+###### Output
+I.e. The Codomain
+	The codomain of a vector function is typically an $m$-dimensional vector space, denoted as $\mathbb{R}^m$.
+		This means the output of the function is a vector with $m$ components.
+
+A vector function $\mathbf{F}: \mathbb{R}^n \to \mathbb{R}^m$ can be expressed in terms of its component functions.
+	Each component function maps from $\mathbb{R}^n$ to $\mathbb{R}$.
+		For example, if $\mathbf{F}: \mathbb{R}^2 \to \mathbb{R}^3$, then: $\mathbf{F}(x, y) = \begin{pmatrix} f_1(x, y) \\ f_2(x, y) \\ f_3(x, y) \end{pmatrix}$ where $f_1, f_2,$ and $f_3$ are scalar-valued functions of two variables.
+
+###### Example: 2D to 3D Vector Function
+$$\LARGE \mathbf{F}(x, y) = \begin{pmatrix} x + y \\ x - y \\ xy \end{pmatrix}$$
+Here, $\mathbf{F}$ maps a 2-dimensional vector $(x, y)$ to a 3-dimensional vector $(x + y, x - y, xy)$.
+###### Example 3D to 3D Vector Function
+Consider the vector function $\mathbf{F} : \mathbb{R}^3 \to \mathbb{R}^3$ defined by:
+$$\LARGE \mathbf{F}(x, y, z) = \begin{pmatrix} -x \\ y^2 \\ z \end{pmatrix}$$
+Here, $\mathbf{F}$ takes a 3-dimensional vector $(x, y, z)$ as input and maps it to a 3-dimensional vector.
+###### Steps
+1. **Input**: A 3-dimensional vector $(x, y, z) \in \mathbb{R}^3$.
+2. **Output**: A 3-dimensional vector in $\mathbb{R}^3$.
+###### Calculation
+Let's compute $\mathbf{F}(x, y, z)$ for an example vector $(1, 2, 3)$:
+$$\LARGE \mathbf{F}(1, 2, 3) = \begin{pmatrix} -1 \\ 2^2 \\ 3 \end{pmatrix}$$
+
+$$\LARGE \mathbf{F}(1, 2, 3) = \begin{pmatrix} -1 \\ 4 \\ 3 \end{pmatrix}$$
+###### Interpretation
+- The function $\mathbf{F}(x, y, z) = \begin{pmatrix} -x \\ y^2 \\ z \end{pmatrix}$ takes a vector from $\mathbb{R}^3$ and produces another vector in $\mathbb{R}^3$.
+- For the input vector $(1, 2, 3)$, the output is the vector $\begin{pmatrix} -1 \\ 4 \\ 3 \end{pmatrix}$.
+###### Example: 3D to 1D Vector Function
+Consider the vector function $\mathbf{F} : \mathbb{R}^3 \to \mathbb{R}$ defined by:
+$$\LARGE  \mathbf{F}(x, y, z) = x + 2y + 3z$$
+
+Here, $\mathbf{F}$ takes a 3-dimensional vector $(x, y, z)$ as input and maps it to a single real number (a scalar).
+###### Steps
+1. **Input**: A 3-dimensional vector $(x, y, z) \in \mathbb{R}^3$.
+2. **Output**: A real number (scalar) in $\mathbb{R}$.
+###### Calculation
+Let's compute $\mathbf{F}(x, y, z)$ for an example vector $(1, 2, 3)$:
+$$\LARGE \mathbf{F}(1, 2, 3) = 1 + 2 \cdot 2 + 3 \cdot 3$$
+$$\LARGE \mathbf{F}(1, 2, 3) = 1 + 4 + 9$$
+$$\LARGE \mathbf{F}(1, 2, 3) = 14$$
+###### Interpretation
+- The function $\mathbf{F}(x, y, z) = x + 2y + 3z$ takes a vector from $\mathbb{R}^3$ and produces a single real number in $\mathbb{R}$.
+- For the input vector $(1, 2, 3)$, the output is the scalar $14$.
+
+###### Vector Function Example 2
+$$\mathbf{F}(t) = \begin{pmatrix} \cos(t) \\ \sin(t) \\ t \end{pmatrix}$$
+**Domain**: 
+The domain of a vector field is a space, often a vector space like $\mathbb{R}^n$. 
+	For $\mathbf{F}(x, y, z)$, the domain is $\mathbb{R}^3$ (the 3-dimensional space).
+**Codomain**: 
+The codomain of a vector field is typically a set of vectors. 
+	For $\mathbf{F}(x, y, z)$, the codomain is $\mathbb{R}^3$, which means each output is a vector with three components.
+**Mapping**: The function maps each point in the domain to a vector in the codomain.
+
+**Interpretation**: For each real number $t$, the function assigns a vector 
+$$\begin{pmatrix} \cos(t) \\ \sin(t) \\ t \end{pmatrix} \space in \space \mathbb{R}^3$$
+
+##### Vector Function as a Type of Vector Transformation (aka Linear Transformation)
+###### Linear Vector Function
+A linear vector function, often called a linear transformation, is a function between two vector spaces that preserves the operations of vector addition and scalar multiplication.
+	Formally, a function $T: \mathbb{R}^n \to \mathbb{R}^m$ is a linear transformation if, for any vectors $\mathbf{u}, \mathbf{v} \in \mathbb{R}^n$ and any scalar $c \in \mathbb{R}$, the following properties hold:
+
+- **Additivity**: 
+  $T(\mathbf{u} + \mathbf{v}) = T(\mathbf{u}) + T(\mathbf{v})$
+- **Homogeneity (Scalar Multiplication)**: 
+  $T(c\mathbf{u}) = cT(\mathbf{u})$
+
+Linear transformations can often be represented by matrices. 
+	For example, if $T$ is a linear transformation from $\mathbb{R}^n$ to $\mathbb{R}^m$, there exists an $m \times n$ matrix $A$ such that for any vector $\mathbf{x} \in \mathbb{R}^n$:
+$T(\mathbf{x}) = A \mathbf{x}$
+###### Example of Linear Vector Function
+Consider the linear transformation $T: \mathbb{R}^2 \to \mathbb{R}^2$ represented by the matrix:
+$A = \begin{pmatrix} 2 & 0 \\ 0 & 3 \end{pmatrix}$
+The function $T$ can be written as:
+$T\begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 2 & 0 \\ 0 & 3 \end{pmatrix} \begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 2x \\ 3y \end{pmatrix}$
+###### Vector Transformation
+The term vector transformation is often used interchangeably with linear transformation in linear algebra, but it can also refer to more general mappings between vector spaces. 
+	A vector transformation is any function that maps vectors from one vector space to another.
+###### Example of Vector Transformation
+A vector transformation can be either linear or non-linear. 
+	For example, the linear transformation mentioned above is a vector transformation.
+		 A non-linear vector transformation will be discussed in the next section.
+###### Non-Linear Vector Function
+A non-linear vector function is a function between two vector spaces that does not necessarily preserve vector addition and scalar multiplication. 
+	Non-linear vector functions can involve more complex relationships between the input and output vectors.
+###### Example of Non-Linear Vector Function
+Consider the non-linear vector function $F: \mathbb{R}^2 \to \mathbb{R}^2$ defined by:
+$F(x, y) = \begin{pmatrix} x^2 \\ \sin(y) \end{pmatrix}$
+This function maps the vector $(x, y)$ to the vector $(x^2, \sin(y))$.
+###### Key Differences
+1. **Linear Vector Function (Linear Transformation)**:
+   - Preserves vector addition and scalar multiplication.
+   - Can be represented by a matrix.
+   - Examples: Rotations, reflections, scaling transformations.
+
+2. **Vector Transformation**:
+   - General term that can refer to any mapping between vector spaces.
+   - Can be either linear or non-linear.
+   - Linear transformations are a subset of vector transformations.
+
+3. **Non-Linear Vector Function**:
+   - Does not necessarily preserve vector addition and scalar multiplication.
+   - Involves more complex mappings that cannot be represented by a simple matrix multiplication.
+   - Examples: Polynomial transformations, trigonometric transformations.
 #### How Do These Structures Vary Among Different $n$ of Vector Spaces ($\mathbb{R}^1, \mathbb{R}^2, \mathbb{R}^3$)?
 ##### $\mathbb{R}^1$ - One-Dimensional Vector Space:
 - **Elements**: Single real numbers (e.g., $x$).
@@ -468,10 +588,6 @@ $$\LARGE  (v_1, v_2, \ldots, v_n) + (w_1, w_2, \ldots, w_n) = (v_1 + w_1, v_2 + 
 - **Vector Addition**: $(x_1, x_2, \ldots, x_n) + (y_1, y_2, \ldots, y_n) = (x_1 + y_1, x_2 + y_2, \ldots, x_n + y_n)$
 - **Scalar Multiplication**: $a \cdot (x_1, x_2, \ldots, x_n) = (a \cdot x_1, a \cdot x_2, \ldots, a \cdot x_n)$
 - **Structure**: Generalizes the structure of lower-dimensional spaces to $n$ dimensions, applying vector space axioms to $n$-tuples of real numbers.
-
-
-
-
 #### Vector Spaces and $\mathbb{R}^n$
 When we refer to $\mathbb{R}^1, \mathbb{R}^2, \mathbb{R}^3$, etc., we are indeed talking about vector spaces, where the "vector" in the name is often implied but not always explicitly mentioned.
 	These are the most common examples of vector spaces built upon the real number field.
@@ -490,14 +606,13 @@ Represents the set of all ordered triples of real numbers, forming a three-dimen
 More generally, $\mathbb{R}^n$ represents the set of all ordered $n$-tuples of real numbers, forming an $n$-dimensional vector space.
 	The elements are ordered $n$-tuples of real numbers.
 	Example: $\mathbf{u} = (x_1, x_2, \ldots, x_n)u=(x1​,x2​,…,xn​) \text{ where } x_i \in \mathbb{R}$ for all $i$.
+
 #### Other Structures Built Upon the Real Number Field
 While $\mathbb{R}^n$ spaces are vector spaces, there are other mathematical structures built upon the real number field that are not vector spaces.
 
-
-
-##### [[Scalar Fields|Scalar Fields]] and Scalar Functions
-
-
+- - - 
+## Fields
+### Scalar Fields
 A **Scalar Field** is a function that maps points in a space (which can be viewed as a vector space) to scalar values from an algebraic field (e.g., $\mathbb{R}$).
 	A mapping from points in a space (like $\mathbb{R}^3$) to scalar values in $\mathbb{R}$.
 		The result of this mapping is not a field in the algebraic sense but rather a function that assigns values.
@@ -524,72 +639,13 @@ $\mathbb{R}^2$
 **Mapping**: For each point $(x, y)$ in $\mathbb{R}^2$, the function $f$ assigns the value $x^2 + y^2$. This value is a scalar (a real number).
 
 **Interpretation**: For each point $(x, y, z)$ in a 3D space, the field assigns a value, which could represent a temperature distribution.
-### The Secondary: The 
-### Development of Scalar and Vector Spaces
-#### 3. Generating Scalar Space ($\mathbb{R}$)
-The Real Number Field $\mathbb{R}$ itself can be viewed as a one-dimensional vector space over the field $\mathbb{R}$.
-	When we refer to $\mathbb{R}$ as a scalar space, we are focusing on its role as the source of scalars (real numbers) used in various mathematical contexts.
-
-As a one-dimensional vector space, each element (vector) is a **single** scalar (i.e. a single real number).
-	This space uses the field's existing operations for 1D vector addition and scalar multiplication.
-		**Vector Addition**: The addition of vectors is just the usual addition of real numbers.
-		**Scalar Multiplication**: Multiplying a vector by a scalar is the usual multiplication of real numbers.
-
-Scalars in this context are simply real numbers.
-	When you see "scalar space," think of $\mathbb{R}$ as the set from which these scalars are drawn.
-###### Scalar Space
-When we refer to $\mathbb{R}$ as a scalar space, we mean the set of all real numbers where each number is treated as a scalar. 
-	Where scalars are used to scale vectors in vector spaces.
-###### One-Dimensional Vector Space
-$\mathbb{R}$ can also be viewed as a one-dimensional vector space over itself. 
-	Viewing $\mathbb{R}$ as a one-dimensional vector space over itself highlights that it can serve as a vector space where each element (vector) is simply a real number, and the operations are the same as the field operations.
-
-Here, each element of $\mathbb{R}$ is considered a vector, and the operations of vector addition and scalar multiplication are the same as the addition and multiplication in the field of real numbers.
-	In this view, the "vectors" are simply the real numbers themselves, and the space has a single basis element (typically 1).
-
-$$x^2 + y^2 + z^2$$
-#### 4. Higher-Dimensional Vector Spaces ($\mathbb{R}^n$)
-A vector space extends the concept of a scalar space to multiple dimensions.
-
-It is generated by defining vector addition and scalar multiplication using the real numbers from the Field of Real Numbers $\mathbb{R}$.
-	**Vector Addition**: For $(x_2, y_2)$ \in $\mathbb{R}^2$. $$\LARGE (x_1, y_1) + (x_2, y_2) = (x_1 + x_2, y_1 + y_2)$$
-	**Scalar Multiplication**: For $(x_2, y_2)$ \in $\mathbb{R}^2$. $$\LARGE c\cdot (x, y)=(c\cdot x,c\cdot y)$$
-**$\mathbb{R}^n$** is an n-dimensional vector space where each element is an ordered n-tuple of real numbers.
-	Each component of these vectors is a scalar from the real number field $\mathbb{R}$.
-##### [[Fields#Vector Field|Vector Fields]] and Vector Functions
-$$\LARGE F:R^n \to R^m$$
-A **Vector Function** is a mathematical function that maps a point from an $n$-dimensional domain to a vector in an $m$-dimensional codomain.
-	Vector functions are used broadly in mathematics to describe relationships between variables where the output is a vector.
-
+### [[Fields#Vector Field|Vector Fields]] 
 A **Vector Field** is a function that assigns a vector to every point in a space.
 Maps points in a space to vectors, where the components of these vectors are scalar values from an algebraic field (e.g., $\mathbb{R}$).
 	Vector Functions are used to describe vector values distributed over space.
 		Specifically used to describe vector quantities that vary over a spatial region, often in physics and engineering.
 			Vector fields are used primarily in physics and vector calculus to describe spatially varying vector quantities.
-			
 
-###### Vector Function Example 1
-$\mathbf{F}(x, y, z) = \begin{pmatrix} -x \ y^2 \ z \end{pmatrix}$
-
-**Domain**: 
-The function $\mathbf{F}(x, y, z)$ takes points $(x, y, z)$ from the 3-dimensional space $\mathbb{R}^3$.
-**Codomain**: 
-The function outputs vectors in $\mathbb{R}^3$. For any point $(x, y, z)$, $\mathbf{F}(x, y, z)$ is a vector with three components.
-**Mapping**: 
-For each point $(x, y, z)$ in $\mathbb{R}^3$, the function $\mathbf{F}$ assigns the vector:
-$$\mathbf{F}(t) = \begin{pmatrix} -x \\ y^2 \\ z \end{pmatrix}$$
-###### Vector Function Example 2
-$$\mathbf{F}(t) = \begin{pmatrix} \cos(t) \\ \sin(t) \\ t \end{pmatrix}$$
-**Domain**: 
-The domain of a vector field is a space, often a vector space like $\mathbb{R}^n$. 
-	For $\mathbf{F}(x, y, z)$, the domain is $\mathbb{R}^3$ (the 3-dimensional space).
-**Codomain**: 
-The codomain of a vector field is typically a set of vectors. 
-	For $\mathbf{F}(x, y, z)$, the codomain is $\mathbb{R}^3$, which means each output is a vector with three components.
-**Mapping**: The function maps each point in the domain to a vector in the codomain.
-
-**Interpretation**: For each real number $t$, the function assigns a vector 
-$$\begin{pmatrix} \cos(t) \\ \sin(t) \\ t \end{pmatrix} \space in \space \mathbb{R}^3$$
 #### Fields vs. Graphs
 When we refer to scalar fields or vector fields in mathematics, we are talking about functions that map points in a space to values (scalars or vectors).
 
