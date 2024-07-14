@@ -254,8 +254,35 @@ Operations that take more than two inputs.
     - **Product**: $\Pi(a_1, a_2, \ldots, a_n) = a_1 \cdot a_2 \cdot \ldots \cdot a_n$
 - - - 
 ## A Transformation as a Subset of Functions ($1:1$, $m:1$)
+A **transformation** is fundamentally a type of **function**.
+	Where a function is a rule that assigns each element in one set (called the domain) to a single element in another set (called the codomain).
+		A transformation is a function that maps a set to itself or another set, often preserving some structure.
+			**"A function that maps a set to itself or another set"** means that a transformation can take elements from one set and map them either back to the same set or to a different set.
+				In this sense, a transformation does what a function does (maps each element of a set to a single element of another set) but also preserves some structure of the set, which is the distinguishing feature.
+					 This preservation of structure is what makes transformations particularly important in certain fields of mathematics and physics.
+				**Example of Mapping within the same set**: 
+					If you have a set of points on a plane, a transformation could rotate all the points around the origin. 
+						Here, both the domain and codomain are the same set of points on the plane.
+				**Example of Mapping to a different set**: 
+					If you have a set of temperatures measured in Celsius, a transformation could convert these to temperatures in Fahrenheit. 
+						Here, the domain is the set of temperatures in Celsius, and the codomain is the set of temperatures in Fahrenheit.
+			**"Preserving some structure"** refers to the fact that many transformations maintain certain properties or structures of the set.
+##### Function vs. Transformation
+Both statements are describing the same core concept of a function.
+	A function maps elements of the domain to elements of the codomain, ensuring each element in the domain is paired with exactly one element in the codomain."
+###### "Maps each element of a set to a single element of another set"
+**Focus on Elements**:
+- This phrase emphasizes the rule that assigns each individual element of the domain to a single element in the codomain.
+- It highlights the idea that each element in the domain is associated with exactly one element in the codomain.
+- This is the fundamental definition of a function.
+###### "Maps a set to itself or another set"
+**Focus on the Set**:
+- This phrase emphasizes the mapping of the entire set (domain) to another set (codomain).
+- It indicates that the function can map the elements of a set either to itself (the same set) or to a different set.
+
 A transformation is a type of function, often used to emphasize changes or operations applied to the elements of a set. 
-	Transformations are typically associated with geometric or algebraic contexts, where they might involve shifting, rotating, scaling, or otherwise altering the elements of a set or space.
+	In linear algebra, transformations often refer to functions mapping vector spaces to vector spaces.
+		Transformations are typically associated with geometric or algebraic contexts, where they might involve shifting, rotating, scaling, or otherwise altering the elements of a set or space.
 
 A transformation is a general term for any operation that maps elements from one set to another. 
 	This can include a wide variety of mathematical operations, not limited to functions in the traditional sense.

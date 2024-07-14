@@ -14,10 +14,10 @@ A directional derivative represents a rate of change of a function in any given 
 A **gradient** is a [[Vectors|vector]] that encapsulates how a [[Mapping#A Function as a Subset of Mappings ($1 1$, $m 1$)|function]] changes at a given point in its [[Mapping#Domain as a Subset of the Underlying Set|domain]]. 
 	It indicates both the direction and the rate of the steepest ascent of the function.
 		The concept of a gradient is fundamental in multivariable calculus and has applications in various fields such as physics, engineering, and optimization.
-#### Gradients and Scalar Functions
-**Gradients** are specifically calculated for [[Abstract Mathematical Spaces#The Sequential Generation of the Field of Real Numbers and the Vector Space]], which are functions that map multiple input variables to a single output real number.
+#### Gradients and Scalar Functions 
+**Gradients** are specifically calculated for [[Abstract Mathematical Spaces#Scalar Functions|Scalar Functions]], which are functions that map multiple input variables to a single output real number.
 
-The gradient of a scalar function $f$, denoted as $\nabla f$, is a vector field that points in the direction of the greatest rate of increase of the function. 
+The gradient of a scalar function $f$, denoted as $\nabla f$, is a [[Abstract Mathematical Spaces#Vector Fields|vector field]] that points in the direction of the greatest rate of increase of the function. 
 	The components of the gradient are the partial derivatives of $f$ with respect to each input variable.
 $$\LARGE \nabla f = \left( \frac{\partial f}{\partial x_1}, \frac{\partial f}{\partial x_2}, \ldots, \frac{\partial f}{\partial x_n} \right)$$
 	$\LARGE \nabla$ is the [[#Nabla Operator ($ nabla$)|Nabla Operator]].

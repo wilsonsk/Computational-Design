@@ -8,6 +8,7 @@ related:
 date created: 2024-04-22
 ---
 # Abstract Mathematical Spaces
+A map from the abstract notion of environment, to the physical space.
 ## The Abstract, Non-Physical Environment
 **Fundamentally** a **scale** is **defined** by the **Mathematical, Abstract, Non-Physical Environment** that **defines** and **constrains** the Mathematical Abstract Non-Physical **Objects** and their behaviors and interactions that are **analyzed** at that scale.
 	It employed because it facilitates clear, objectively causal relationships between these abstract objects.
@@ -173,7 +174,6 @@ Specify the operations that will be performed on the elements of the underlying 
 
 - - -
 ## Types of Structured Sets (i.e. Spaces)
-
 ### 1. Algebraic Structured Sets
 **Groups, Rings, Fields**: These terms come from the field of abstract algebra, where the focus is on algebraic operations and properties. They have been studied extensively and have well-established definitions and theories.
 
@@ -192,8 +192,10 @@ A set equipped with two binary operations (addition and multiplication) that sat
 **Origin of the Term**
 	The term "ring" comes from the German word "Zahlring," introduced by David Hilbert.
 		 It refers to the cyclical nature of addition and multiplication operations within the set, similar to a ring structure where operations bring you back to elements within the set.
-#### [[#The Sequential Generation of the Field of Real Numbers and the Vector Space|Fields]]
+#### [[#The Sequential Generation of the Field of Real Numbers and the Vector Space|Fields]] (i.e. Algebraic Fields)
 A set that is a commutative ring with the additional property that every non-zero element has a multiplicative inverse.
+
+*See [[Fields#Abstract Mathematical Spaces Fields Algebraic Fields vs. Spatial Fields]] to compare Algebraic Fields and Spatial.*
 
 **Origin of the Term**
 The term "field" (German: "Körper") was introduced by Richard Dedekind. 
@@ -453,9 +455,6 @@ $$\LARGE  (v_1, v_2, \ldots, v_n) + (w_1, w_2, \ldots, w_n) = (v_1 + w_1, v_2 + 
 ###### *Note: 
 The term "point" and "vector" can often be used interchangeably in the context of vector spaces, as both represent an ordered tuple of numbers in a given space.*
 	However, to maintain clarity and precision, especially in the context of vector spaces, it's better to explicitly use the term "vector" to avoid confusion with [[#Scalar Functions|Scalar Functions]].
-
-
-
 $$\LARGE F:R^n \to R^m$$
 A **Vector Function** is a mathematical function that maps a vector from an $n$-dimensional space (i.e. domain) to a vector in an $m$-dimensional vector space (i.e. codomain) - or possibly the same vector space.
 	Vector functions are used broadly in mathematics to describe relationships between variables where the output is a vector.
@@ -519,7 +518,6 @@ The codomain of a vector field is typically a set of vectors.
 
 **Interpretation**: For each real number $t$, the function assigns a vector 
 $$\begin{pmatrix} \cos(t) \\ \sin(t) \\ t \end{pmatrix} \space in \space \mathbb{R}^3$$
-
 ##### Vector Function as a Type of Vector Transformation (aka Linear Transformation)
 ###### Vector Transformation
 A **vector transformation** is a general term for any function that maps vectors from one vector space to another. 
@@ -539,6 +537,8 @@ A linear vector function, often called a linear transformation or a linear vecto
 - **Homogeneity (Scalar Multiplication)**: 
   $T(c\mathbf{u}) = cT(\mathbf{u})$
 
+So, all Linear Functions *are* Vector Transformations but not all Vector Transformations are Linear Vector Functions
+
 Linear transformations can often be represented by matrices. 
 	For example, if $T$ is a linear transformation from $\mathbb{R}^n$ to $\mathbb{R}^m$, there exists an $m \times n$ matrix $A$ such that for any vector $\mathbf{x} \in \mathbb{R}^n$:
 $T(\mathbf{x}) = A \mathbf{x}$
@@ -548,7 +548,7 @@ $A = \begin{pmatrix} 2 & 0 \\ 0 & 3 \end{pmatrix}$
 The function $T$ can be written as:
 $T\begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 2 & 0 \\ 0 & 3 \end{pmatrix} \begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 2x \\ 3y \end{pmatrix}$
 ###### Non-Linear Vector Function
-A non-linear vector function is a function between two vector spaces that does not necessarily preserve vector addition and scalar multiplication. 
+A non-linear vector function is a type Vector Transformation between two vector spaces that does not necessarily preserve vector addition and scalar multiplication. 
 	Non-linear vector functions can involve more complex relationships between the input and output vectors.
 ###### Example of Non-Linear Vector Function
 Consider the non-linear vector function $F: \mathbb{R}^2 \to \mathbb{R}^2$ defined by:
@@ -611,24 +611,63 @@ More generally, $\mathbb{R}^n$ represents the set of all ordered $n$-tuples of r
 #### Other Structures Built Upon the Real Number Field
 While $\mathbb{R}^n$ spaces are vector spaces, there are other mathematical structures built upon the real number field that are not vector spaces.
 
-- - - 
-## Fields
-### Scalar Fields
-A **Scalar Field** is a function that maps points in a space (which can be viewed as a vector space) to scalar values from an algebraic field (e.g., $\mathbb{R}$).
-	A mapping from points in a space (like $\mathbb{R}^3$) to scalar values in $\mathbb{R}$.
-		The result of this mapping is not a field in the algebraic sense but rather a function that assigns values.
-			Used primarily in the context of vector calculus and physical sciences. It emphasizes the spatial distribution of scalar values.
+- - -
+## "Space" vs. "Spatial"
+A vector space becomes "spatial" when it is used to represent geometric or physical space.
 
-A Scalar Function becomes a Scalar Field when it is specifically used to describe scalar values varying over a spatial domain, typically in the context of vector calculus and physical sciences.
-	
+All vector spaces can be considered "abstract" or "algebraic" when viewed purely in terms of their algebraic properties (addition and scalar multiplication).
+### Vector Space $\mathbb{R}^1$ (or simply $\mathbb{R}$)
+#### Abstract Vector Space
+As a vector space over itself, $\mathbb{R}$ is an abstract mathematical structure consisting of all real numbers with standard addition and scalar multiplication.
+#### Spatial Interpretation:
+When $\mathbb{R}$ is used to represent physical quantities along a single dimension (such as positions along a line), it can be considered spatial.
+	Example: The real number line can be used to represent positions along a one-dimensional space. In this context, $\mathbb{R}$ is spatial.
+### Vector Space $\mathbb{R}^2$ and $\mathbb{R}^3$
+#### Naturally Spatial
+$\mathbb{R}^2$ and $\mathbb{R}^3$ are naturally interpreted as spatial because they correspond to 2D and 3D physical spaces, respectively.
+##### $\mathbb{R}^2$
+Represents points in a plane.
+	Each vector $(x, y)$ can be visualized as a point in a 2D Cartesian coordinate system.
+##### $\mathbb{R}^3$
+Represents points in 3D space.
+	Each vector $(x, y, z)$ can be visualized as a point in a 3D Cartesian coordinate system.
+
+- - - 
+## Spatial Fields
+$$\LARGE f:R^n \to S$$
+Where $s$ is the set of possible values .
+	(e.g., $\mathbb{R}$ for scalar fields, $\mathbb{R}^m$ for vector fields).
+		
+A **field** in a spatial context is an abstract mathematical concept used to describe how certain quantities vary over a given spatial domain. 
+	A field is a function that assigns a value to every point in a spatial domain, where the domain is a subset of $\mathbb{R}^n$.
+		This value can be a scalar, vector, or more complex mathematical entity, depending on the type of field.
+#### Defining Characteristics
+**Spatial Domain**
+The domain is a spatial region, meaning each input to the field corresponds to a specific location in space.
+	The domain of a field is a spatial region, typically represented as a subset of $\mathbb{R}^n$.
+		 This means that each point in the domain corresponds to a specific location in $n$-dimensional space.
+**Range (i.e. Value Assignment)**
+The field maps/assigns a value (scalar, vector, etc.) to each point in the spatial domain.
+	The range of a field can vary depending on the type of field:
+		For **scalar fields**, the range is $\mathbb{R}$ (real numbers).
+		For **vector fields**, the range is typically $\mathbb{R}^m$ (vectors in $m$-dimensional space).
+		For more complex fields, the range could be other mathematical structures, such as tensors.
+**Continuity**
+	In many applications, fields are continuous functions, meaning that small changes in the input (spatial coordinates) result in small changes in the output value.
+### Scalar Fields
+A **Scalar Field** is a Scalar Function that maps **points from spatial domain** (which can be viewed as a vector space) to scalar values from an algebraic field (e.g., $\mathbb{R}$).
+	A mapping from points in a space (like $\mathbb{R}^3$) to scalar values in $\mathbb{R}$.
+
+The **key difference** between a Scalar Function and a Scalar Field is that the domain of a Scalar Field is typically **a spatial domain**, meaning each input point corresponds to a location in space.
+	Used primarily in the context of vector calculus and physical sciences. It emphasizes the spatial distribution of scalar values.
+
 **Domain**: 
 Typically a vector space like $\mathbb{R}^n$.
-	The domain of a scalar field is a space, often a vector space like $\mathbb{R}^n$.
+	The domain of a scalar field is spatial, often a vector space like $\mathbb{R}^n$.
 		 For $f(x, y)$, the domain is $\mathbb{R}^2$ (the 2-dimensional plane).
 **Codomain**: The codomain of a scalar field is typically the set of real numbers, $\mathbb{R}$.
 **Range**: The set of real numbers $\mathbb{R}$.
 **Mapping**: The function maps each point in the domain to a scalar value in the codomain.
-
 
 ###### Scalar Field Example
 $$T(x, y, z) = x^2 + y^2$$
@@ -640,13 +679,22 @@ $\mathbb{R}^2$
 **Mapping**: For each point $(x, y)$ in $\mathbb{R}^2$, the function $f$ assigns the value $x^2 + y^2$. This value is a scalar (a real number).
 
 **Interpretation**: For each point $(x, y, z)$ in a 3D space, the field assigns a value, which could represent a temperature distribution.
-### [[Fields#Vector Field|Vector Fields]] 
-A **Vector Field** is a function that assigns a vector to every point in a space.
-Maps points in a space to vectors, where the components of these vectors are scalar values from an algebraic field (e.g., $\mathbb{R}$).
+### Vector Fields
+A **Vector Field** is a Vector Function that assigns a vector to every **point in a spatial domain**.
+	It describes how a vector quantity (like velocity, force, or electric field) varies over space
+
+Vector Fields map points in a space to vectors, where the components of these vectors are scalar values from an algebraic field (e.g., $\mathbb{R}$).
 	Vector Functions are used to describe vector values distributed over space.
 		Specifically used to describe vector quantities that vary over a spatial region, often in physics and engineering.
 			Vector fields are used primarily in physics and vector calculus to describe spatially varying vector quantities.
-
+**Domain**: 
+Typically a vector space like $\mathbb{R}^n$.
+	The domain of a scalar field is a spatial, often a vector space like $\mathbb{R}^n$.
+		 For $f(x, y)$, the domain is $\mathbb{R}^2$ (the 2-dimensional plane).
+**Codomain**: A vector space, often $\mathbb{R}^m$, where $m$ is the dimension of the vectors.
+	Where $m$ is the dimension of the vectors assigned to each point in the domain.
+**Range**: The set of all possible vectors that the function can assign, which is a subset of the codomain.
+**Mapping**: The function assigns a vector to each point in the domain.
 #### Fields vs. Graphs
 When we refer to scalar fields or vector fields in mathematics, we are talking about functions that map points in a space to values (scalars or vectors).
 
@@ -659,6 +707,18 @@ The graph of a scalar field $f: \mathbb{R}^2 \to \mathbb{R}$ can be visualized a
 The graph of a vector field can be visualized as a collection of vectors (arrows) at each point in the domain, showing the direction and magnitude of the field.
 
 - - -
+
+
+
+
+
+
+
+
+
+
+
+
 ## The Frameworks for Abstract Mathematical Space
 Describing and Comparing Abstract Mathematical Space
 ### Set Theory as a Foundation for Abstract Environments

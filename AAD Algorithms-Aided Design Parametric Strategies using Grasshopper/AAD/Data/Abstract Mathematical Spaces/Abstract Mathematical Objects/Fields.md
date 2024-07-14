@@ -15,7 +15,7 @@ Fields often represent how values or quantities influence each other across a sp
 			In morphogenetic fields, the potential for development is influenced by the spatial distribution of cells.
 
 - - -
-## [[Abstract Mathematical Spaces#Fields|Fields]] (of Field Theory, Algebra) vs. Fields (as Functions)
+## [[Abstract Mathematical Spaces#Fields|Algebraic Fields]] vs. Spatial Fields
 
 ### Fields (of Field Theory)
 A [[Abstract Mathematical Spaces#Structured Set (i.e. Space)|Structured Set]] with addition and multiplication satisfying certain properties.
@@ -35,6 +35,27 @@ A field $F$ is a set with two operations (addition and multiplication) that sati
 
 - - -
 ### Fields as [[Mapping|Mappings]] in Analysis and Physics
+$$\LARGE f:R^n \to S$$
+Where $s$ is the set of possible values .
+	(e.g., $\mathbb{R}$ for scalar fields, $\mathbb{R}^m$ for vector fields).
+		
+A **field** in a spatial context is an abstract mathematical concept used to describe how certain quantities vary over a given spatial domain. 
+	A field is a function that assigns a value to every point in a spatial domain, where the domain is a subset of $\mathbb{R}^n$.
+		This value can be a scalar, vector, or more complex mathematical entity, depending on the type of field.
+#### Defining Characteristics
+**Spatial Domain**
+The domain is a spatial region, meaning each input to the field corresponds to a specific location in space.
+	The domain of a field is a spatial region, typically represented as a subset of $\mathbb{R}^n$.
+		 This means that each point in the domain corresponds to a specific location in $n$-dimensional space.
+**Range (i.e. Value Assignment)**
+The field maps/assigns a value (scalar, vector, etc.) to each point in the spatial domain.
+	The range of a field can vary depending on the type of field:
+		For **scalar fields**, the range is $\mathbb{R}$ (real numbers).
+		For **vector fields**, the range is typically $\mathbb{R}^m$ (vectors in $m$-dimensional space).
+		For more complex fields, the range could be other mathematical structures, such as tensors.
+**Continuity**
+	In many applications, fields are continuous functions, meaning that small changes in the input (spatial coordinates) result in small changes in the output value.
+
 In the context of analysis, physics, and geometry, a **field** refers to a [[Mapping|function]] that assigns values (scalars, vectors, etc.) to points in a space. 
 	- These are functions that provide a way to describe how quantities vary over space and time in physical contexts.
 		- They are foundational in fields like fluid dynamics, electromagnetism, and general relativity.
