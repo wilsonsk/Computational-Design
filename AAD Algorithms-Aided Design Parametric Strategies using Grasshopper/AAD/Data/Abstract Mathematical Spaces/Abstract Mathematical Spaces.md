@@ -521,8 +521,17 @@ The codomain of a vector field is typically a set of vectors.
 $$\begin{pmatrix} \cos(t) \\ \sin(t) \\ t \end{pmatrix} \space in \space \mathbb{R}^3$$
 
 ##### Vector Function as a Type of Vector Transformation (aka Linear Transformation)
+###### Vector Transformation
+A **vector transformation** is a general term for any function that maps vectors from one vector space to another. 
+	This term encompasses both linear and non-linear transformations.
+
+The term vector transformation is often used interchangeably with linear transformation in linear algebra, but it can also refer to more general mappings between vector spaces. 
+	A vector transformation is any function that maps vectors from one vector space to another.
+###### Example of Vector Transformation
+A vector transformation can be either linear or non-linear. 
+	For example, the linear transformation mentioned above is a vector transformation.
 ###### Linear Vector Function
-A linear vector function, often called a linear transformation, is a function between two vector spaces that preserves the operations of vector addition and scalar multiplication.
+A linear vector function, often called a linear transformation or a linear vector function, is a specific type of vector transformation between two vector spaces that preserves the operations of vector addition and scalar multiplication.
 	Formally, a function $T: \mathbb{R}^n \to \mathbb{R}^m$ is a linear transformation if, for any vectors $\mathbf{u}, \mathbf{v} \in \mathbb{R}^n$ and any scalar $c \in \mathbb{R}$, the following properties hold:
 
 - **Additivity**: 
@@ -538,13 +547,6 @@ Consider the linear transformation $T: \mathbb{R}^2 \to \mathbb{R}^2$ represente
 $A = \begin{pmatrix} 2 & 0 \\ 0 & 3 \end{pmatrix}$
 The function $T$ can be written as:
 $T\begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 2 & 0 \\ 0 & 3 \end{pmatrix} \begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 2x \\ 3y \end{pmatrix}$
-###### Vector Transformation
-The term vector transformation is often used interchangeably with linear transformation in linear algebra, but it can also refer to more general mappings between vector spaces. 
-	A vector transformation is any function that maps vectors from one vector space to another.
-###### Example of Vector Transformation
-A vector transformation can be either linear or non-linear. 
-	For example, the linear transformation mentioned above is a vector transformation.
-		 A non-linear vector transformation will be discussed in the next section.
 ###### Non-Linear Vector Function
 A non-linear vector function is a function between two vector spaces that does not necessarily preserve vector addition and scalar multiplication. 
 	Non-linear vector functions can involve more complex relationships between the input and output vectors.
@@ -606,7 +608,6 @@ Represents the set of all ordered triples of real numbers, forming a three-dimen
 More generally, $\mathbb{R}^n$ represents the set of all ordered $n$-tuples of real numbers, forming an $n$-dimensional vector space.
 	The elements are ordered $n$-tuples of real numbers.
 	Example: $\mathbf{u} = (x_1, x_2, \ldots, x_n)u=(x1​,x2​,…,xn​) \text{ where } x_i \in \mathbb{R}$ for all $i$.
-
 #### Other Structures Built Upon the Real Number Field
 While $\mathbb{R}^n$ spaces are vector spaces, there are other mathematical structures built upon the real number field that are not vector spaces.
 
