@@ -264,7 +264,7 @@ It [[Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Measurement
 The derivative is the ratio of the change in the output to the change in the input as the change in the input approaches zero.
 ### 2. [[#The Differential (i.e. the Limit) is the Instantaneous Rate of Change|The Instantaneous Rate of Change of a Function]]
 A derivative (of a function $f(x)$) at a single point $f'(x)$, is itself a function that maps that single point (as an input) to the **value** of the **limit** of the **average rate of change** (i.e. limit of $\Delta y / \Delta x$) of that input.
-### 3. [[#The Differential Ratio *is* the Limit *of* the Slope of the Tangent Line|The Limit of the Slope of the Tangent Line]] (i.e. a Vector)
+### 3. [[#The Differential Ratio *is* the Limit *of* the Slope of the Tangent Line|The Limit of the Slope of the Tangent Line]]
 A **derivative** of a **function** at a point **provides the slope of the [[Tangent Line|tangent]] line to the function at that specific point**.^calculus-derivatives
 The **derivative** (which only exists for a given point) is itself is a **value** that represents the **exact slope** of the **tangent vector** at that **point** it is associated with (on the curve).
 	I.e. The **derivative** ***is*** the **slope of the tangent line**.
@@ -288,6 +288,26 @@ As the **interval or distance** over which the change is measured (between point
 
 The **[[Limits|limit]]** is the **means** of **transitioning** between the **average rate of change** to the **instantaneous rate of change**. ^limit-as-a-transition
 ![[Pasted image 20240410153825.png|400]] ^d8b06d
+### 4. The Derivative as a Tangent Vector
+In the context of single-variable calculus, the derivative $f'(x)$ gives the slope of the tangent line to the curve $y=f(x)$ at the point $x$. If we interpret this geometrically:
+
+The tangent vector to the curve at point $(x, f(x))$ can be thought of as having components that describe its direction and magnitude.
+#### Components of a Tangent Vector
+For a [[Abstract Mathematical Spaces#Scalar Functions|scalar function]] $y=f(x)$:
+
+Point on the Curve:
+Consider the point $P=(x, f(x))$ on the curve.
+
+Tangent Vector:
+The tangent vector at $P$ can be described in terms of its components along the x-axis and y-axis.
+	The change in $x$ is typically considered as $\Delta x$, and the change in $y$ is $\Delta y=f'(x) \Delta x$.
+
+Unit Tangent Vector:
+The direction of the tangent vector is given by the slope $f'(x)$.
+A unit tangent vector can be expressed as:
+$$
+\mathbf{T} = \frac{1}{\sqrt{1 + (f'(x))^2}} \begin{pmatrix} 1 \\ f'(x) \end{pmatrix}
+$$
 
 - - -
 ## Calculating the Derivative 

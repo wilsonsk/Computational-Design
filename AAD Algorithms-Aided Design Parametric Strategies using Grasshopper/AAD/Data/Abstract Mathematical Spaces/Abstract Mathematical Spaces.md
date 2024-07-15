@@ -342,6 +342,24 @@ A **Scalar Function** is a mathematical function that maps points from an $n$-di
 		A more general term used across various mathematical disciplines. It emphasizes the mathematical relationship between the input and the output.
 ###### Scalar Functions are Defined by their Input Type and Output Type
 Scalar functions are differentiated from other functions primarily by the type of their inputs and outputs.
+###### Points of a Scalar Function
+> [!note]
+> Refers to elements of a set that serve as the domain of a function, without a spatial interpretation.
+A "point" does not always need to have a spatial interpretation. 
+>	A point can be an element of any set that serves as the domain of a function. 
+> 
+> **Abstract (Algebraic) Points in a Set** (For Scalar Functions)
+> A point can be any element of a set that serves as the domain of a function.
+> 	For a scalar function $: A \to \mathbb{R}$, where $A$ is a non-spatial set, points are elements of $A$.
+> 		Example: Consider a set $S = \{a, b, c\}$.
+> 			 A point in this set could be $a$, $b$, or $c$.
+> 
+> **Spatial Points in a Set** (For [[#Scalar Fields|Scalar Fields]])
+> A spatial point is a specific location in a coordinate system that serves as the domain of a function.
+> 	For a scalar function $f: \mathbb{R}^n \to \mathbb{R}$, where $\mathbb{R}^n$ is a spatial coordinate system, points are coordinates in $\mathbb{R}^n$.
+> 		Example: Consider the 2-dimensional coordinate system $\mathbb{R}^2$.
+> 			A point in this system could be $(x, y)$, where $x, y$ \in $\mathbb{R}$.
+
 **Defining Characteristics**
 1. **Domain**: The input can be elements from various sets, often points in a vector space like $\mathbb{R}^n$.
 2. **Codomain**: The output is a single scalar value in the real number field $\mathbb{R}$.

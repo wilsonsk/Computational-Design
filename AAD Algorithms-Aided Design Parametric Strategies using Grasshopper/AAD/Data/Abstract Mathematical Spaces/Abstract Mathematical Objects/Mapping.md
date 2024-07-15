@@ -319,15 +319,62 @@ $\LARGE m:1$.
 	- A change of coordinates that can be linear or non-linear, used to simplify equations or understand geometrical structures.
 
 - - - 
-## Fields as a Subset of Functions
+## Scalar Functions as a Subset of Functions
+###### *Remember*: Properties of Functions
+1. **Uniqueness**: Each element in the domain is associated with exactly one element in the codomain.
+2. **Well-defined**: For every $a \in A$, there is a unique $b \in B$ such that $(a, b) \in f$
+$$\LARGE f:R^n \to R$$
+A **Scalar Function** is a mathematical function that maps points from an $n$-dimensional domain to a single real number (a scalar).
+	They are generally used to to describe a relationship between variables where the output is a single scalar value.
+		A more general term used across various mathematical disciplines. 
+			It emphasizes the mathematical relationship between the input and the output.
+###### What Mapping From One Domain to a Scalar Value Means
+Scalar functions can have domains composed of various objects, not just real numbers.
+	These domains can be multi-dimensional spaces, sets of vectors, matrices, or other mathematical objects.
+		Scalar functions can map elements from complex domains (like vectors, matrices, or higher-dimensional points) to scalar values to simplify analysis or represent a specific quantity.
+### Scalar Functions are Defined by their Input Type and Output Type
+Scalar functions are differentiated from other functions primarily by the type of their inputs and outputs.
+#### Input of Scalar Functions
+##### Domain
+The input can be elements from various sets, often **points** in a vector space like $\mathbb{R}^n$.
+
+**Domains Composed of Vectors or Points in the Algebraic or Spatial Sense**
+Often, the domain of a scalar function can be a set of vectors or points in a multi-dimensional space (e.g., $\mathbb{R}^n$). 
+	The term "point" and "vector" can often be used interchangeably in the context of vector spaces, as both represent an ordered tuple of numbers in a given space.
+###### If the Domain is "Algebraic"
+It is referred to as a Scalar Function.
+###### If the Domain is "[[#Spatial Fields as a Subset of Functions|Spatial]]"
+It is referred to as a Scalar Field.
+##### Points of a Scalar Function
+> [!note]
+> Refers to elements of a set that serve as the domain of a function, without a spatial interpretation.
+A "point" does not always need to have a spatial interpretation. 
+>	A point can be an element of any set that serves as the domain of a function. 
+> 
+> **Abstract (Algebraic) Points in a Set** (For Scalar Functions)
+> A point can be any element of a set that serves as the domain of a function.
+> 	For a scalar function $: A \to \mathbb{R}$, where $A$ is a non-spatial set, points are elements of $A$.
+> 		Example: Consider a set $S = \{a, b, c\}$.
+> 			 A point in this set could be $a$, $b$, or $c$.
+> 
+> **Spatial Points in a Set** (For [[#Scalar Fields|Scalar Fields]])
+> A spatial point is a specific location in a coordinate system that serves as the domain of a function.
+> 	For a scalar function $f: \mathbb{R}^n \to \mathbb{R}$, where $\mathbb{R}^n$ is a spatial coordinate system, points are coordinates in $\mathbb{R}^n$.
+> 		Example: Consider the 2-dimensional coordinate system $\mathbb{R}^2$.
+> 			A point in this system could be $(x, y)$, where $x, y$ \in $\mathbb{R}$.
+##### Output of Scalar Functions
+**Codomain**: The output is a single scalar value in the real number field $\mathbb{R}$.
+- - -
+## Spatial Fields as a Subset of Functions
 Fields, within various mathematical contexts, can be understood as specific types of functions. 
 	They describe how quantities are distributed over a domain, often physical or abstract spaces, and are crucial in areas like physics, engineering, and mathematics.
 
 From a functional perspective, fields can be seen as functions that provide a systematic way to describe variations of quantities over space and time. 
 	This approach is essential in fields like calculus and physics, where the behavior of physical systems is studied through their spatial and temporal variations.
-
-
 #### *See the Following for More Detailed Information:*
 [[Fields|Fields]]
 [[Abstract Mathematical Spaces#The Sequential Generation of the Field of Real Numbers and the Vector Space|The Sequential Generation of the Field of Real Numbers and the Vector Space]]
-[[Abstract Mathematical Spaces#Fields]]
+[[Abstract Mathematical Spaces#Spatial Fields|Spatial Fields]]
+
+- - -
+
