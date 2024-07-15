@@ -1,4 +1,7 @@
 # Partial Derivatives
+*Note: a Derivative (and Partial Derivative) **is** a vector.*
+	*That vector being the [[Derivatives#3. The Differential Ratio *is* the Limit *of* the Slope of the Tangent Line The Limit of the Slope of the Tangent Line (i.e. a Vector)|Slope of the Tangent Line]] to a given point.*
+
 ![[Pasted image 20240630153708.png]]
 Derivatives in 2D and 3D (and higher dimensions) are generally referred to as **partial derivatives** when dealing with functions of multiple variables. 
 

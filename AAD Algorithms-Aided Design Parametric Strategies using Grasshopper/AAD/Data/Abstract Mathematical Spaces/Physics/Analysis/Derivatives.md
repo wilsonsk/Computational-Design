@@ -264,7 +264,7 @@ It [[Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Measurement
 The derivative is the ratio of the change in the output to the change in the input as the change in the input approaches zero.
 ### 2. [[#The Differential (i.e. the Limit) is the Instantaneous Rate of Change|The Instantaneous Rate of Change of a Function]]
 A derivative (of a function $f(x)$) at a single point $f'(x)$, is itself a function that maps that single point (as an input) to the **value** of the **limit** of the **average rate of change** (i.e. limit of $\Delta y / \Delta x$) of that input.
-### 3. [[#The Differential Ratio *is* the Limit *of* the Slope of the Tangent Line|The Limit of the Slope of the Tangent Line]]
+### 3. [[#The Differential Ratio *is* the Limit *of* the Slope of the Tangent Line|The Limit of the Slope of the Tangent Line]] (i.e. a Vector)
 A **derivative** of a **function** at a point **provides the slope of the [[Tangent Line|tangent]] line to the function at that specific point**.^calculus-derivatives
 The **derivative** (which only exists for a given point) is itself is a **value** that represents the **exact slope** of the **tangent vector** at that **point** it is associated with (on the curve).
 	I.e. The **derivative** ***is*** the **slope of the tangent line**.

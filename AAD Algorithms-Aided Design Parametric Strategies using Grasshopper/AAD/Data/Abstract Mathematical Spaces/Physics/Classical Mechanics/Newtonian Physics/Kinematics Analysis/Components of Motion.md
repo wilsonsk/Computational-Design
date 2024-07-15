@@ -6,6 +6,7 @@ Position refers to the specific location of an object in space at a given point 
 When we derive the kinematic equations from the basic principles of motion, we integrate acceleration to find velocity and then integrate velocity to find displacement.
 #### Position as Vector Components $x(t)$, $y(t)$, $z(t)$ 
 Are the scalar components of the position vector.
+	"Scalar components" refers to the "points" that a [[Abstract Mathematical Spaces#Vector Fields|vector field maps to a vector.]]
 ###### Scalar Quantity
 A **[[Static Equilibrium#Scalars|scalar]]** because it is a single numerical value.
 

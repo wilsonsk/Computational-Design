@@ -618,7 +618,7 @@ While $\mathbb{R}^n$ spaces are vector spaces, there are other mathematical stru
 A vector space becomes "spatial" when it is used to represent geometric or physical space.
 
 All vector spaces can be considered "abstract" or "algebraic" when viewed purely in terms of their algebraic properties (addition and scalar multiplication).
-### Vector Space $\mathbb{R}^1$ (or simply $\mathbb{R}$)
+### Vector Space $\mathbb{R}^1$ (i.e. simply $\mathbb{R}$)
 #### Abstract Vector Space
 As a vector space over itself, $\mathbb{R}$ is an abstract mathematical structure consisting of all real numbers with standard addition and scalar multiplication.
 #### Spatial Interpretation:
@@ -685,7 +685,10 @@ $\mathbb{R}^2$
 
 **Interpretation**: For each point $(x, y, z)$ in a 3D space, the field assigns a value, which could represent a temperature distribution.
 ### Vector Fields
-A **Vector Field** is a Vector Function that maps every **point in a spatial domain** to a vector in a codomain.
+###### *Note: 
+The term "point" and "vector" can often be used interchangeably in the context of vector spaces, as both represent an ordered tuple of numbers in a given space.*
+
+A **Vector Field** is a Vector Function that maps every **point in a spatial domain**, $R^2$ or $R^3$, to a vector in a codomain.
 	It describes how a vector quantity (like velocity, force, or electric field) varies over space
 
 Vector Fields map points in a space to vectors, where the components of these vectors are scalar values from an algebraic field (e.g., $\mathbb{R}$).
@@ -704,6 +707,20 @@ A vector space, often $\mathbb{R}^m$, where $m$ is the dimension of the vectors.
 The set of all possible vectors that the function can assign, which is a subset of the codomain.
 **Mapping**: 
 The function assigns a vector to each point in the domain.
+#### Vector Field Representation
+A Vector Field is [[Derivatives#Continuities Continuity|Continuous]] if its components are continuous.
+
+A vector field in $R^2$ can be represented in either of two equivalent ways. 
+##### 1. A Vector with Components that are Two-Variable Functions
+$$\LARGE \vec{F}(x,y) = \begin{pmatrix} P(x,y) \\ Q(x,y) \end{pmatrix}$$
+##### 2. Standard Unit Vectors
+$$\LARGE \vec{F}(x,y) = P(x,y)\hat{i} + Q(x,y)\hat{j}$$
+###### Example Finding a Vector Mapped to a Given Point
+The following is a Vector Field in $R^2$.
+$$\LARGE \vec{F}(x,y) = (2y^2 + x - 4)\hat{i} + \cos(x)\hat{j}$$
+Solution via substituting point values $(0,-1)$ for $x$ and $y$:
+$$\LARGE \vec{F}(0,-1) = (2(-1)^2+0-4)\hat{i} + \cos(0)\hat{j}$$
+$$\LARGE = 2\hat{i} + \hat{j}$$
 #### Fields vs. Graphs
 When we refer to scalar fields or vector fields in mathematics, we are talking about functions that map points in a space to values (scalars or vectors).
 
@@ -714,7 +731,15 @@ The "graph" of a scalar field is a surface in higher-dimensional space, while th
 The graph of a scalar field $f: \mathbb{R}^2 \to \mathbb{R}$ can be visualized as a surface in $\mathbb{R}^3$, where each point $(x, y, z)$ represents $(x, y, f(x, y))$.
 
 The graph of a vector field can be visualized as a collection of vectors (arrows) at each point in the domain, showing the direction and magnitude of the field.
-
+##### Graph of Vector Field
+We can now represent a vector field in terms of its components of functions or unit vectors, but representing it visually by sketching it is more complex because the domain of a vector field is in $R^2$, as is the range. 
+	Therefore the “graph” of a vector field in $R^2$ lives in four-dimensional space.
+###### Why It Lives in Four-Dimensional Space
+The statement about the vector field "living in four-dimensional space" refers to the combined space required to represent both the input and output dimensions:
+- **Input Dimensions (Domain)**: The points $(x, y)$ span a 2-dimensional space ($\mathbb{R}^2$).
+- **Output Dimensions (Range)**: The vectors $\mathbf{F}(x, y) = (P(x, y), Q(x, y))$ also lie in a 2-dimensional space ($\mathbb{R}^2$).
+To fully capture the relationship between the input (points in $\mathbb{R}^2$) and output (vectors in $\mathbb{R}^2$), you need a four-dimensional space: 
+	Two dimensions for the domain and two dimensions for the range.
 - - -
 
 

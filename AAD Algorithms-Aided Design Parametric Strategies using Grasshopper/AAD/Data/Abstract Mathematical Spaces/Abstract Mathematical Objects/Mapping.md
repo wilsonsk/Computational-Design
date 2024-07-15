@@ -184,12 +184,12 @@ Functions can be classified based on different criteria.
 #### Output Types of Functions
 > [!note]
 > This categorizes functions based on the nature of their output values.
-> ##### [[Scalars|Scalar]] Functions
+> ##### [[Abstract Mathematical Spaces#Scalar Functions|Scalar Functions]]
 > $$\LARGE f:\mathbb{R} \to \mathbb{R}$$
 > A scalar function maps one or more scalar (i.e. a real number, complex number, etc.) elements from its domain to a single scalar (i.e. real numbers, complex number, etc.) output.
 > $$\LARGE f(x) = x^2 + 3x + 5$$
 > Here, \( f \) maps a real number \( x \) to another real number \( f(x) \).
-> ##### Vector-Valued Functions
+> ##### [[Abstract Mathematical Spaces#Vector Function|Vector-Valued Functions]]
 > A vector-valued function maps elements from its domain to vectors.
 > $$\LARGE \mathbf{f}(t) = \begin{pmatrix} t \\t^2 \\t^3\end{pmatrix}$$
 > Here, $\mathbf{f}$ maps a scalar $t$ to a 3-dimensional vector.
@@ -235,23 +235,25 @@ Operations are typically associated with specific types of functions based on ho
 1. **One-to-One (1:1) Association**
 2. **Many-to-One (m:1) Association**
 ### Types of Operations
-Operations can be categorized based on the number of operands and the nature of the operation:
-#### Unary Operations
-Operations that take a single input from a set and produce an output in the same or a related set.
-- **Examples**:
-    - **Negation**: $f(a) = -a$
-    - **Square Root**: $f(a) = \sqrt{a}$ (defined for non-negative real numbers)
-#### Binary Operations
-Operations that take two inputs from a set and produce an output in the same set.
-- **Examples**:
-    - **Addition**: $f(a, b) = a + b$
-    - **Multiplication**: $f(a, b) = a \cdot b$
-    - **Division**: $f(a, b) = a / b$ (with $b \neq 0$)
-#### Higher-Arity Operations
-Operations that take more than two inputs.
-- **Examples**:
-    - **Sum**: $\Sigma(a_1, a_2, \ldots, a_n) = a_1 + a_2 + \ldots + a_n$
-    - **Product**: $\Pi(a_1, a_2, \ldots, a_n) = a_1 \cdot a_2 \cdot \ldots \cdot a_n$
+Operations can be categorized based on the number of operands and the nature of the operation.
+> [!note]
+> #### Unary Operations
+> Operations that take a single input (i.e. operand) from a set and produce an output in the same or a related set.
+> - **Examples**:
+>     - **Negation**: $f(a) = -a$
+>     - **Square Root**: $f(a) = \sqrt{a}$ (defined for non-negative real numbers)
+> #### Binary Operations
+> Operations that take two inputs (i.e. operands) from a set and produce an output in the same set.
+> - **Examples**:
+>     - **Addition**: $f(a, b) = a + b$
+>     - **Multiplication**: $f(a, b) = a \cdot b$
+>     - **Division**: $f(a, b) = a / b$ (with $b \neq 0$)
+> #### Higher-Arity Operations
+> Operations that take more than two inputs (i.e. operands).
+> - **Examples**:
+>     - **Sum**: $\Sigma(a_1, a_2, \ldots, a_n) = a_1 + a_2 + \ldots + a_n$
+>     - **Product**: $\Pi(a_1, a_2, \ldots, a_n) = a_1 \cdot a_2 \cdot \ldots \cdot a_n$
+
 - - - 
 ## A Transformation as a Subset of Functions ($1:1$, $m:1$)
 A **transformation** is fundamentally a type of **function**.
@@ -293,9 +295,9 @@ $\LARGE 1:1$.
 $\LARGE m:1$.
 	A non-linear transformation where multiple input vectors are mapped to the same output vector.
 ##### Transformation Types
-- **Linear Transformation**: T(x)=AxT(\mathbf{x}) = A\mathbf{x}T(x)=Ax, where AAA is a matrix.
-- **Affine Transformation**: T(x)=Ax+bT(\mathbf{x}) = A\mathbf{x} + \mathbf{b}T(x)=Ax+b, where AAA is a matrix and b\mathbf{b}b is a vector.
-- **Non-linear Transformation**: T(x)=x3T(x) = x^3T(x)=x3.
+- **Linear Transformation**: $T(\mathbf{x}) = A\mathbf{x}$, where $A$ is a matrix.
+- **Affine Transformation**: T$(\mathbf{x}) = \mathbf{x} + \mathbf{b}$, where $A$ is a matrix and $\mathbf{b}$ is a vector.
+- **Non-linear Transformation**: $3T(x) = x^3$.
 - **Projective Transformation**
 	- A transformation that maps lines to lines but does not necessarily preserve parallelism. It includes perspective transformations.
 - **Euclidean Transformation**
