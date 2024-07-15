@@ -5,6 +5,8 @@ related:
 date created: 2024-07-28
 ---
 # Directional Derivatives
+*Note: a Derivative (and Partial Derivative) **is** a vector.*
+	*That vector being the [[Derivatives#4. Is the Unit Tangent Vector|Unit Tangent Vector]] to a given point.*
 ![[Pasted image 20240705152625.png|400]]
 
 A directional derivative measures the rate of change of the function $f(x, y)$ in a specific direction given by a vector $\mathbf{v} = (a, b)$.

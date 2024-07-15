@@ -288,26 +288,31 @@ As the **interval or distance** over which the change is measured (between point
 
 The **[[Limits|limit]]** is the **means** of **transitioning** between the **average rate of change** to the **instantaneous rate of change**. ^limit-as-a-transition
 ![[Pasted image 20240410153825.png|400]] ^d8b06d
-### 4. The Derivative as a Tangent Vector
+### 4. Is the Unit Tangent Vector
 In the context of single-variable calculus, the derivative $f'(x)$ gives the slope of the tangent line to the curve $y=f(x)$ at the point $x$. If we interpret this geometrically:
 
 The tangent vector to the curve at point $(x, f(x))$ can be thought of as having components that describe its direction and magnitude.
 #### Components of a Tangent Vector
-For a [[Abstract Mathematical Spaces#Scalar Functions|scalar function]] $y=f(x)$:
-
-Point on the Curve:
+For a [[Abstract Mathematical Spaces#Scalar Functions|scalar function]] $y=f(x)$
+##### Point on the Curve
 Consider the point $P=(x, f(x))$ on the curve.
-
-Tangent Vector:
+##### Tangent Vector
 The tangent vector at $P$ can be described in terms of its components along the x-axis and y-axis.
 	The change in $x$ is typically considered as $\Delta x$, and the change in $y$ is $\Delta y=f'(x) \Delta x$.
-
-Unit Tangent Vector:
+##### Tangent Vector Components
+The components of the tangent vector are given by the changes in $x$ and $y$:
+$$\LARGE \mathbf{T} = \begin{pmatrix} \Delta x \\ \Delta y \end{pmatrix} = \begin{pmatrix} \Delta x \\ f'(x) \Delta x \end{pmatrix}$$
+##### Unit Tangent Vector
 The direction of the tangent vector is given by the slope $f'(x)$.
 A unit tangent vector can be expressed as:
-$$
-\mathbf{T} = \frac{1}{\sqrt{1 + (f'(x))^2}} \begin{pmatrix} 1 \\ f'(x) \end{pmatrix}
-$$
+$$\LARGE \mathbf{T} = \frac{1}{\sqrt{1 + (f'(x))^2}} \begin{pmatrix} 1 \\ f'(x) \end{pmatrix}$$
+###### To find the unit tangent vector, normalize the tangent vector $\mathbf{T}$. 
+###### 1. First, calculate the magnitude of $\mathbf{T}$:
+$$\LARGE |\mathbf{T}| = \sqrt{(\Delta x)^2 + (f'(x) \Delta x)^2} = \Delta x \sqrt{1 + (f'(x))^2}$$
+##### 2. Then, divide the components of $\mathbf{T}$ by this magnitude
+$$\LARGE \mathbf{T}_{\text{unit}} = \frac{1}{|\mathbf{T}|} \mathbf{T} = \frac{1}{\Delta x \sqrt{1 + (f'(x))^2}} \begin{pmatrix} \Delta x \\ f'(x) \Delta x \end{pmatrix}$$
+###### 3. Simplify
+$$\LARGE \mathbf{T} = \frac{1}{\sqrt{1 + (f'(x))^2}} \begin{pmatrix} 1 \\ f'(x) \end{pmatrix}$$
 
 - - -
 ## Calculating the Derivative 

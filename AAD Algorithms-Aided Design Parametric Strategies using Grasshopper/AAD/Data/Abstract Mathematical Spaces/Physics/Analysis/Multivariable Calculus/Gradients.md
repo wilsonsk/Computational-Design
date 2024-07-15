@@ -16,7 +16,7 @@ date created: 2024-07-28
 	*Therefore, the Gradient as a word, is "short for", Gradient of a Scalar Function (or Scalar Field).*
 ### Gradient Defined
 *Note: a Derivative (and Partial Derivative) **is** a vector.*
-	*That vector being the [[Derivatives#3. The Differential Ratio *is* the Limit *of* the Slope of the Tangent Line The Limit of the Slope of the Tangent Line (i.e. a Vector)|Slope of the Tangent Line]] to a given point.*
+	*That vector being the [[Derivatives#4. Is the Unit Tangent Vector|Unit Tangent Vector]] to a given point.*
 
 A Gradient (of a Scalar Function/Field) is ***itself*** a **Vector Function/Field** (depending on context).
 	Therefore, the Gradient of a Scalar Function/Field, as a Vector Function/Field, maps points (also vectors which can be represented by those points) from a given domain to vectors in a given codomain.
