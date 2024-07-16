@@ -22,18 +22,25 @@ A directional derivative represents a rate of change of a function in any given 
 $D_{u}​f(p)$ gives the rate of change of the function $fff$ at the point $\mathbf{p}$ in the direction of the unit vector $\mathbf{u}$.
 
 - - -
-### The Vector Components of a Directional Derivative
-The directional derivative of a function $f(x, y, z)$ in the direction of a unit vector $\LARGE \mathbf{u} = \langle u_x, u_y, u_z \rangle$ measures the rate of change of the function in that specific direction.
+## The Vector Components of a Directional Derivative
+### Unit Vector
 
-The direction vector $\mathbf{u}$ makes angles $\alpha, \beta, \gammaα$ with the $x, y, z$ axes respectively, its components are: $$\LARGE u_x = \cos(\alpha), \quad u_y = \cos(\beta), \quad u_z = \cos(\gamma)$$
+The directional derivative of a function $f(x, y, z)$ in the direction of a unit vector $\LARGE \mathbf{u} = \langle u_{\cos(\alpha)}, u_{\cos(\beta)}, u_{\cos(\gamma)} \rangle$ measures the rate of change of the function in that specific direction.
+
+The direction vector $\mathbf{u}$ makes angles $\alpha, \beta, \gammaα$ with the $x, y, z$ axes respectively, its components are:
+$$\LARGE \mathbf{u} = \langle u_x, u_y, u_z \rangle = \LARGE \mathbf{u} = \langle u_{\cos(\alpha)}, u_{\cos(\beta)}, u_{\cos(\gamma)} \rangle$$
+$$\LARGE u_x = \cos(\alpha), \quad u_y = \cos(\beta), \quad u_z = \cos(\gamma)$$
 - - -
 ## Calculation of Directional Derivatives
 ![[Pasted image 20240708134159.png]]
 *Finding the directional derivative at a point on the graph of $\LARGE z = f(x,y)$.
 	The slope of the blue arrow on the graph indicates the value of the directional derivative at that point*.
 
-The directional derivative of $f$ in the direction of $\mathbf{u}$ is given by the **dot product** of the **[[Gradients|gradient]]** of $f$ at $\mathbf{p}$ and the **unit vector** $\mathbf{u}$:
-$$\LARGE D_{\mathbf{u}} f = \nabla f \cdot \mathbf{u} = \frac{\partial f}{\partial x} \cos(\alpha) + \frac{\partial f}{\partial y} \cos(\beta) + \frac{\partial f}{\partial z} \cos(\gamma)$$
+The directional derivative of a function $f$ in the direction of a unit vector $\LARGE \mathbf{u} = \langle u_{\cos(\alpha)}, u_{\cos(\beta)}, u_{\cos(\gamma)} \rangle$ is a measure of the rate at which $f$ changes in that direction. 
+The gradient allows us to calculate the directional derivative as follows:
+$$\LARGE D_{\mathbf{u}} f = \nabla f \cdot \mathbf{u} = \frac{\partial f}{\partial x} u_{\cos(\alpha)} + \frac{\partial f}{\partial y} u_{\cos(\beta)} + \frac{\partial f}{\partial z}  u_{\cos(\gamma)}$$
+- The gradient $\LARGE \nabla f$ gives the vector of partial derivatives of $f$.
+- The dot product $\LARGE \nabla f \cdot \mathbf{u}$ projects the gradient vector onto the direction vector $\mathbf{u}$, yielding the rate of change of $f$ in that direction.
 ### Deriving
 > [!note]
 > We start with the graph of a surface defined by the equation $\LARGE z = f(x,y)$.
