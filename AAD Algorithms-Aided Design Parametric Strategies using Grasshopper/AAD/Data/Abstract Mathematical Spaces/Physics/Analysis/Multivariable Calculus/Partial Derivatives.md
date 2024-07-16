@@ -1,8 +1,13 @@
 # Partial Derivatives
-*Note: a Derivative (and Partial Derivative) **is** a vector.*
-	*That vector being the [[Derivatives#4. Is the Unit Tangent Vector|Unit Tangent Vector]] to a given point.*
-		Therefore the Vector of the Partial Derivatives is a Unit Tangent Vector describing the direction of the function in a single dimension.
-			But the **Gradient vector** describes the direction and rate of the steepest increase in a multi-dimensional space.
+##### *Note: a Derivative (and Partial Derivative) **is** a vector.*
+*That vector being the [[Derivatives#4. Is the Unit Tangent Vector|Unit Tangent Vector]] to a given point.*
+	*Therefore the Vector of the Partial Derivatives is a Unit Tangent Vector describing the direction of the function in a single dimension.*
+		*But the **Gradient vector** describes the direction and rate of the steepest increase in a multi-dimensional space.*
+
+##### *Note: Role of Scalar Fields in Learning Derivatives*
+*Understanding derivatives in the context of scalar fields is crucial for analyzing how these quantities change in space.* 
+
+- - -
 
 ![[Pasted image 20240630153708.png]]
 Derivatives in 2D and 3D (and higher dimensions) are generally referred to as **partial derivatives** when dealing with functions of multiple variables. 
@@ -164,12 +169,91 @@ $$\LARGE \frac{\partial f}{\partial x} = \lim_{\Delta x \to 0} \frac{f(x + \Delt
 This definition shows that the partial derivative measures how the function $f(x,y)$ changes as $x$ changes by a small amount $\Delta x$, while $y$ remains constant.
 
 - - -
-## [[Directional Derivatives|Directional Derivatives]]
-![[Pasted image 20240705152625.png|400]]
+## Deriving the Tangent Vector Components
+For a scalar function of multiple variables, the concept of the tangent vector can be extended using partial derivatives. 
+
+For a scalar function with multiple variables, the components of the tangent vector at a point are derived using the small changes in each variable and the corresponding changes in the function's value, approximated by the partial derivatives. 
+	The tangent vector provides a direction in the multidimensional space, showing how the function changes with respect to the variables.
+
+### Why These Components?
+###### Small Increments:
+$\Delta x$, $\Delta y$, and $\Delta z$ are small increments in the variables and the function value. 
+	They provide an approximation of how the function changes locally.
+###### Partial Derivatives
+The partial derivatives $\frac{\partial f}{\partial x}$ and $\frac{\partial f}{\partial y}$ give the rate of change of the function in each direction. 
+	When multiplied by the small increments $\Delta x$ and $\Delta y$, they approximate the change in $z$.
+###### Directional Changes
+The components $\Delta x$, $\Delta y$, and $\Delta z$ describe the change in the function's value as we move in the direction of the tangent vector.
+	The vector components are related to how the function changes with respect to the input variables.
+### Scalar Function with Two Variables
+
+Consider a scalar function $f(x, y)$.
+### Partial Derivatives
+
+The partial derivatives of $f$ with respect to $x$ and $y$ are:
+$$
+\frac{\partial f}{\partial x}, \quad \frac{\partial f}{\partial y}
+$$
+
+### Tangent Plane and Tangent Vector
+
+At a point $P = (x_0, y_0, f(x_0, y_0))$, the tangent plane to the surface $z = f(x, y)$ can be defined, and we can derive the tangent vector components from this.
+
+### Steps to Derive the Tangent Vector Components
+
+1. **Point on the Surface:**
+   Consider the point $P = (x_0, y_0, f(x_0, y_0))$ on the surface.
+
+2. **Small Changes in $x$ and $y$:**
+   Let $\Delta x$ and $\Delta y$ be small changes in $x$ and $y$, respectively.
+
+3. **Corresponding Change in $z$:**
+   The corresponding change in $z$, denoted $\Delta z$, can be approximated using the partial derivatives:
+   $$
+   \Delta z \approx \frac{\partial f}{\partial x} \Delta x + \frac{\partial f}{\partial y} \Delta y
+   $$
+### Tangent Vector Components
+
+The tangent vector at the point $P$ in the direction of changes $\Delta x$ and $\Delta y$ has components:
+$$
+\mathbf{T} = \begin{pmatrix} \Delta x \\ \Delta y \\ \Delta z \end{pmatrix} = \begin{pmatrix} \Delta x \\ \Delta y \\ \frac{\partial f}{\partial x} \Delta x + \frac{\partial f}{\partial y} \Delta y \end{pmatrix}
+$$
+### Example
+
+Consider a function $f(x, y) = x^2 + y^2$ and find the tangent vector at $(x_0, y_0) = (1, 1)$:
+
+1. **Function and Partial Derivatives:**
+   $$
+   f(x, y) = x^2 + y^2
+   $$
+   $$
+   \frac{\partial f}{\partial x} = 2x, \quad \frac{\partial f}{\partial y} = 2y
+   $$
+2. **Point on the Surface:**
+   At $(x_0, y_0) = (1, 1)$, the point on the surface is $P = (1, 1, f(1, 1)) = (1, 1, 2)$.
+
+3. **Small Changes $\Delta x$ and $\Delta y$:**
+   Let $\Delta x = 0.1$ and $\Delta y = 0.1$.
+
+4. **Corresponding Change $\Delta z$:**
+   $$
+   \Delta z \approx \frac{\partial f}{\partial x} \Delta x + \frac{\partial f}{\partial y} \Delta y = 2 \cdot 1 \cdot 0.1 + 2 \cdot 1 \cdot 0.1 = 0.2 + 0.2 = 0.4
+   $$
+
+5. **Tangent Vector:**
+   $$
+   \mathbf{T} = \begin{pmatrix} \Delta x \\ \Delta y \\ \Delta z \end{pmatrix} = \begin{pmatrix} 0.1 \\ 0.1 \\ 0.4 \end{pmatrix}
+   $$
+### Generalization
+
+For a scalar function $f(x_1, x_2, \ldots, x_n)$ with multiple variables, the tangent vector components can be derived similarly using the partial derivatives. The tangent vector at a point $(x_1, x_2, \ldots, x_n, f(x_1, x_2, \ldots, x_n))$ is:
+$$
+\mathbf{T} = \begin{pmatrix} \Delta x_1 \\ \Delta x_2 \\ \vdots \\ \Delta x_n \\ \Delta z \end{pmatrix} = \begin{pmatrix} \Delta x_1 \\ \Delta x_2 \\ \vdots \\ \Delta x_n \\ \sum_{i=1}^n \frac{\partial f}{\partial x_i} \Delta x_i \end{pmatrix}
+$$
 
 - - -
-
-## Gradient
+## Relationship Between Partial Derivatives and Gradients
+### [[Gradients]]
 The gradient of the function is defined to be which can be generalized to a function of any number of independent variables.
 
 The gradient can be used in a formula to calculate the directional derivative. 
@@ -177,10 +261,30 @@ The gradient can be used in a formula to calculate the directional derivative.
 
 The gradient of a scalar function $f(x, y, z)$ in 3D is a vector that points in the direction of the greatest rate of increase of the function. 
 	It is composed of the partial derivatives with respect to each variable:
-
 $$\LARGE \nabla f = \left( \frac{\partial f}{\partial x}, \frac{\partial f}{\partial y}, \frac{\partial f}{\partial z} \right)$$
+## Relationship Between Partial Derivatives and Directional Derivatives
+### [[Directional Derivatives|Directional Derivative]]
+![[Pasted image 20240705152625.png|400]]
+Directional derivatives measure the rate of change of a function in any given direction and generalize the concept of partial derivatives to arbitrary directions.
+
+The directional derivative can be expressed in terms of the partial derivatives. 
+	Specifically, if you have a function $f(x, y)$ and a direction vector $\mathbf{v} = (a, b)$, the directional derivative $D_{\mathbf{v}} f$ in the direction of $\mathbf{v}$ is given by:
+$$\LARGE D_{\mathbf{v}} f(x_0, y_0) = \nabla f(x_0, y_0) \cdot \mathbf{u}$$
+
+where $\mathbf{u} = \left( \frac{a}{\sqrt{a^2 + b^2}}, \frac{b}{\sqrt{a^2 + b^2}} \right)$ is the unit vector in the direction of $\mathbf{v}$, and $\nabla f(x_0, y_0)$ is the gradient of $f$ at the point $(x_0, y_0)$, which consists of the partial derivatives:
+
+$$\LARGE \nabla f(x_0, y_0) = \left( \frac{\partial f}{\partial x}(x_0, y_0), \frac{\partial f}{\partial y}(x_0, y_0) \right)$$
+
+Therefore, the directional derivative can be written as:
+$$\LARGE D_{\mathbf{v}} f(x_0, y_0) = \frac{\partial f}{\partial x}(x_0, y_0) \cdot \frac{a}{\sqrt{a^2 + b^2}} + \frac{\partial f}{\partial y}(x_0, y_0) \cdot \frac{b}{\sqrt{a^2 + b^2}}$$
+### Special Cases
+1. When $\mathbf{v}$ is aligned with the $x$-axis ($\mathbf{v} = (1, 0)$), the directional derivative simplifies to the partial derivative with respect to $x$:
+$$\LARGE D_{\mathbf{v}} f = \frac{\partial f}{\partial x}$$ 
+
+2. When $\mathbf{v}$ is aligned with the $y$-axis ($\mathbf{v} = (0, 1)$), the directional derivative simplifies to the partial derivative with respect to $y$:
+$$\LARGE D_{\mathbf{v}} f = \frac{\partial f}{\partial y}$$
+## How the Gradient Uses Partial Derivatives to Calculate the Directional Derivative
 > [!note]
-> ### How the Gradient Enables Calculations
 > ##### 1. Directional Derivative
 > The directional derivative of a function $f$ in the direction of a unit vector $\LARGE \mathbf{u} = \langle u_x, u_y, u_z \rangle$ is a measure of the rate at which $f$ changes in that direction. 
 > The gradient allows us to calculate the directional derivative as follows:
@@ -195,33 +299,8 @@ $$\LARGE \nabla f = \left( \frac{\partial f}{\partial x}, \frac{\partial f}{\par
 > The gradient points in the direction of the steepest ascent of the scalar field $f$. 
 > By knowing the gradient, one can determine how to move in space to increase the function $f$ most rapidly.
 
-### Hierarchical Connection
+- - -
+## [[Directional Derivatives|Directional Derivatives]]
 
-- **Gradient of a Scalar Field**:
-    
-    - The gradient of a scalar field is a vector field. Given a scalar field f(x,y,z)f(x, y, z)f(x,y,z), the gradient ∇f\nabla f∇f is a vector field that points in the direction of the steepest ascent of the scalar field and whose magnitude represents the rate of increase.
-- **Divergence of a Vector Field**:
-    
-    - The divergence of a vector field is a scalar field. Given a vector field F=(Fx,Fy,Fz)\mathbf{F} = (F_x, F_y, F_z)F=(Fx​,Fy​,Fz​), the divergence ∇⋅F\nabla \cdot \mathbf{F}∇⋅F is a scalar field representing the net rate of flow of the vector field out of an infinitesimal volume.
-    - **Formula**: ∇⋅F=∂Fx∂x+∂Fy∂y+∂Fz∂z\nabla \cdot \mathbf{F} = \frac{\partial F_x}{\partial x} + \frac{\partial F_y}{\partial y} + \frac{\partial F_z}{\partial z}∇⋅F=∂x∂Fx​​+∂y∂Fy​​+∂z∂Fz​​
-- **Curl of a Vector Field**:
-    
-    - The curl of a vector field is another vector field. Given a vector field F=(Fx,Fy,Fz)\mathbf{F} = (F_x, F_y, F_z)F=(Fx​,Fy​,Fz​), the curl ∇×F\nabla \times \mathbf{F}∇×F measures the rotation of the field around a point.
-    - **Formula**: ∇×F=(∂Fz∂y−∂Fy∂z,∂Fx∂z−∂Fz∂x,∂Fy∂x−∂Fx∂y)\nabla \times \mathbf{F} = \left( \frac{\partial F_z}{\partial y} - \frac{\partial F_y}{\partial z}, \frac{\partial F_x}{\partial z} - \frac{\partial F_z}{\partial x}, \frac{\partial F_y}{\partial x} - \frac{\partial F_x}{\partial y} \right)∇×F=(∂y∂Fz​​−∂z∂Fy​​,∂z∂Fx​​−∂x∂Fz​​,∂x∂Fy​​−∂y∂Fx​​)
-#### Role of Scalar Fields in Learning Derivatives
-Scalar fields are central to many applications in physics, engineering, and other sciences. Understanding derivatives in the context of scalar fields is crucial for analyzing how these quantities change in space. Here's how scalar fields come into play when learning derivatives:
-#### 1. Partial Derivatives:
-When learning about derivatives, you typically start with functions of a single variable. As you move to functions of multiple variables (like scalar fields), you learn about partial derivatives.
 
-- **Definition**: The partial derivative of a scalar field f(x,y,z)f(x, y, z)f(x,y,z) with respect to xxx is denoted by ∂f∂x\frac{\partial f}{\partial x}∂x∂f​. It measures how fff changes as xxx changes, while yyy and zzz are held constant.
-#### 2. Gradient:
-The gradient of a scalar field extends the concept of a derivative to multiple dimensions, providing a vector that points in the direction of the steepest increase of the scalar field.
-### Scalar Functions
-A scalar function $f$ is a function that takes one or more variables and returns a single scalar value. Mathematically, it can be written as, 
-	*This notation represents scalar functions that take multiple inputs and return a single output, which is a scalar value.*
-###### For 2 Variables
-$$f(x,y)$$
-###### For 3 Variables
-$$f(x,y,z)$$
-###### For $n$ Variables
-$$f(x_1, x_2, \ldots, x_n)$$
+- - -

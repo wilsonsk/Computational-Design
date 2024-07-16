@@ -189,6 +189,12 @@ Functions can be classified based on different criteria.
 > A scalar function maps one or more scalar (i.e. a real number, complex number, etc.) elements from its domain to a single scalar (i.e. real numbers, complex number, etc.) output.
 > $$\LARGE f(x) = x^2 + 3x + 5$$
 > Here, \( f \) maps a real number \( x \) to another real number \( f(x) \).
+>###### For 2 Variables
+$$f(x,y)$$
+>###### For 3 Variables
+>$$f(x,y,z)$$
+>###### For $n$ Variables
+>$$f(x_1, x_2, \ldots, x_n)$$
 > ##### [[Abstract Mathematical Spaces#Vector Function|Vector-Valued Functions]]
 > A vector-valued function maps elements from its domain to vectors.
 > $$\LARGE \mathbf{f}(t) = \begin{pmatrix} t \\t^2 \\t^3\end{pmatrix}$$

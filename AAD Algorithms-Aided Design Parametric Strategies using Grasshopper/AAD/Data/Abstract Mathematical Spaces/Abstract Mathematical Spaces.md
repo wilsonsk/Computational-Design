@@ -675,6 +675,7 @@ The field maps/assigns a value (scalar, vector, etc.) to each point in the spati
 **Continuity**
 	In many applications, fields are continuous functions, meaning that small changes in the input (spatial coordinates) result in small changes in the output value.
 ### Scalar Fields
+
 A **Scalar Field** is a Scalar Function that maps **points from spatial domain** (which can be viewed as a vector space) to scalar values from an algebraic field (e.g., $\mathbb{R}$).
 	A mapping from points in a space (like $\mathbb{R}^3$) to scalar values in $\mathbb{R}$.
 

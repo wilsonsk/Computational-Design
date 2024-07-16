@@ -308,7 +308,8 @@ The components of the tangent vector are given by the changes in $x$ and $y$:
 $$\LARGE \mathbf{T} = \begin{pmatrix} \Delta x \\ \Delta y \end{pmatrix} = \begin{pmatrix} \Delta x \\ f'(x) \Delta x \end{pmatrix}$$
 ##### Unit Tangent Vector
 The direction of the tangent vector is given by the slope $f'(x)$.
-A unit tangent vector can be expressed as:
+	If $\Delta x = 1$ then $f'(x)\Delta x == f'(x)$
+A unit tangent vector can be [[Static Equilibrium#Normalizing Vectors (i.e. unit vectors)|normalized]] and expressed as:
 $$\LARGE \mathbf{T} = \frac{1}{\sqrt{1 + (f'(x))^2}} \begin{pmatrix} 1 \\ f'(x) \end{pmatrix}$$
 ###### To find the unit tangent vector, normalize the tangent vector $\mathbf{T}$. 
 ###### 1. First, calculate the magnitude of $\mathbf{T}$:

@@ -22,20 +22,20 @@ A directional derivative represents a rate of change of a function in any given 
 $D_{u}​f(p)$ gives the rate of change of the function $fff$ at the point $\mathbf{p}$ in the direction of the unit vector $\mathbf{u}$.
 
 - - -
+### The Vector Components of a Directional Derivative
+The directional derivative of a function $f(x, y, z)$ in the direction of a unit vector $\LARGE \mathbf{u} = \langle u_x, u_y, u_z \rangle$ measures the rate of change of the function in that specific direction.
+
+The direction vector $\mathbf{u}$ makes angles $\alpha, \beta, \gammaα$ with the $x, y, z$ axes respectively, its components are: $$\LARGE u_x = \cos(\alpha), \quad u_y = \cos(\beta), \quad u_z = \cos(\gamma)$$
+- - -
 ## Calculation of Directional Derivatives
 ![[Pasted image 20240708134159.png]]
 *Finding the directional derivative at a point on the graph of $\LARGE z = f(x,y)$.
 	The slope of the blue arrow on the graph indicates the value of the directional derivative at that point*.
 
-> [!note] 
-> The directional derivative of a function $f(x, y, z)$ in the direction of a unit vector $\LARGE \mathbf{u} = \langle u_x, u_y, u_z \rangle$ measures the rate of change of the function in that specific direction.
-> 	- The direction vector $\mathbf{u}$ makes angles $\alpha, \beta, \gammaα$ with the $x, y, z$ axes respectively, its components are: $$\LARGE u_x = \cos(\alpha), \quad u_y = \cos(\beta), \quad u_z = \cos(\gamma)$$
-> **Calculation**: The directional derivative of $f$ in the direction of $\mathbf{u}$ is given by the **dot product** of the **gradient** of $f$ at $\mathbf{p}$ and the **unit vector** $\mathbf{u}$:
-> $$\LARGE D_{\mathbf{u}} f = \nabla f \cdot \mathbf{u} = \frac{\partial f}{\partial x} \cos(\alpha) + \frac{\partial f}{\partial y} \cos(\beta) + \frac{\partial f}{\partial z} \cos(\gamma)$$
-
-
+The directional derivative of $f$ in the direction of $\mathbf{u}$ is given by the **dot product** of the **[[Gradients|gradient]]** of $f$ at $\mathbf{p}$ and the **unit vector** $\mathbf{u}$:
+$$\LARGE D_{\mathbf{u}} f = \nabla f \cdot \mathbf{u} = \frac{\partial f}{\partial x} \cos(\alpha) + \frac{\partial f}{\partial y} \cos(\beta) + \frac{\partial f}{\partial z} \cos(\gamma)$$
+### Deriving
 > [!note]
-> ### Deriving
 > We start with the graph of a surface defined by the equation $\LARGE z = f(x,y)$.
 > 
 > Given a point $\LARGE (a,b)$ in the domain of $f$, we choose a direction to travel from that point. 
@@ -83,38 +83,36 @@ $$\LARGE \mathbf{u} = \left( \frac{1}{\sqrt{5}}, \frac{2}{\sqrt{5}} \right)$$
 
 $$\LARGE \nabla f(x, y) = \left( \frac{\partial f}{\partial x}, \frac{\partial f}{\partial y} \right) = (2x, 2y)$$
 
-At the point $(1, 1)$:
+	At the point $(1, 1)$:
 
 $$\LARGE \nabla f(1, 1) = (2 \cdot 1, 2 \cdot 1) = (2, 2)$$
 
 3. **Dot Product**:
 $$\LARGE D_{\mathbf{u}} f(1, 1) = \nabla f(1, 1) \cdot \mathbf{u} = (2, 2) \cdot \left( \frac{1}{\sqrt{5}}, \frac{2}{\sqrt{5}} \right)$$
 
-
+4. **Result**:
 $$\LARGE D_{\mathbf{u}} f(1, 1) = 2 \cdot \frac{1}{\sqrt{5}} + 2 \cdot \frac{2}{\sqrt{5}} = \frac{2}{\sqrt{5}} + \frac{4}{\sqrt{5}} = \frac{6}{\sqrt{5}}$$
-### Relationship Between Directional and Partial Derivatives
-The directional derivative can be expressed in terms of the partial derivatives. 
-	Specifically, if you have a function $f(x, y)$ and a direction vector $\mathbf{v} = (a, b)$, the directional derivative $D_{\mathbf{v}} f$ in the direction of $\mathbf{v}$ is given by:
-$$\LARGE D_{\mathbf{v}} f(x_0, y_0) = \nabla f(x_0, y_0) \cdot \mathbf{u}$$
-
-where $\mathbf{u} = \left( \frac{a}{\sqrt{a^2 + b^2}}, \frac{b}{\sqrt{a^2 + b^2}} \right)$ is the unit vector in the direction of $\mathbf{v}$, and $\nabla f(x_0, y_0)$ is the gradient of $f$ at the point $(x_0, y_0)$, which consists of the partial derivatives:
-
-$$\LARGE \nabla f(x_0, y_0) = \left( \frac{\partial f}{\partial x}(x_0, y_0), \frac{\partial f}{\partial y}(x_0, y_0) \right)$$
-
-Therefore, the directional derivative can be written as:
-
-$$\LARGE D_{\mathbf{v}} f(x_0, y_0) = \frac{\partial f}{\partial x}(x_0, y_0) \cdot \frac{a}{\sqrt{a^2 + b^2}} + \frac{\partial f}{\partial y}(x_0, y_0) \cdot \frac{b}{\sqrt{a^2 + b^2}}$$
-
 ### Special Cases
+1. When $\mathbf{v}$ is aligned with the $x$-axis ($\mathbf{v} = (1, 0)$), the directional derivative simplifies to the partial derivative with respect to $x$:
+$$\LARGE D_{\mathbf{v}} f = \frac{\partial f}{\partial x}$$ 
 
-- When $\mathbf{v}$ is aligned with the $x$-axis ($\mathbf{v} = (1, 0)$), the directional derivative simplifies to the partial derivative with respect to $x$:
-\[
-D_{\mathbf{v}} f = \frac{\partial f}{\partial x}
-\]
+2. When $\mathbf{v}$ is aligned with the $y$-axis ($\mathbf{v} = (0, 1)$), the directional derivative simplifies to the partial derivative with respect to $y$:
+$$\LARGE D_{\mathbf{v}} f = \frac{\partial f}{\partial y}$$
+- - -
+## How the Gradient Uses Partial Derivatives to Calculate the Directional Derivative
+> [!note]
+> ##### 1. Directional Derivative
+> The directional derivative of a function $f$ in the direction of a unit vector $\LARGE \mathbf{u} = \langle u_x, u_y, u_z \rangle$ is a measure of the rate at which $f$ changes in that direction. 
+> The gradient allows us to calculate the directional derivative as follows:
+> $$\LARGE D_{\mathbf{u}} f = \nabla f \cdot \mathbf{u} = \frac{\partial f}{\partial x} u_x + \frac{\partial f}{\partial y} u_y + \frac{\partial f}{\partial z} u_z$$
+> Where:
+> $\LARGE D_{u}f$ gives the rate at which the function $f$ changes as you move from a point in the direction of $\mathbf{u}$.​
+> 
+> Here’s how this works:
+> - The gradient $\LARGE \nabla f$ gives the vector of partial derivatives of $f$.
+> - The dot product $\LARGE \nabla f \cdot \mathbf{u}$ projects the gradient vector onto the direction vector $\mathbf{u}$, yielding the rate of change of $f$ in that direction.
+> ##### 2. Finding Maximal Increase
+> The gradient points in the direction of the steepest ascent of the scalar field $f$. 
+> By knowing the gradient, one can determine how to move in space to increase the function $f$ most rapidly.
 
-- When $\mathbf{v}$ is aligned with the $y$-axis ($\mathbf{v} = (0, 1)$), the directional derivative simplifies to the partial derivative with respect to $y$:
-\[
-D_{\mathbf{v}} f = \frac{\partial f}{\partial y}
-\]
-
-Directional derivatives measure the rate of change of a function in any given direction and generalize the concept of partial derivatives to arbitrary directions.
+- - -
