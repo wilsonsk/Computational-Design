@@ -300,6 +300,10 @@ Consider the point $P=(x, f(x))$ on the curve.
 The tangent vector at $P$ can be described in terms of its components along the x-axis and y-axis.
 	The change in $x$ is typically considered as $\Delta x$, and the change in $y$ is $\Delta y=f'(x) \Delta x$.
 ##### Tangent Vector Components
+Let $\Delta x$  be a small change in $x$. The corresponding change in $y$, denoted $\Delta y$, can be approximated using the derivative $f'(x)$. 
+	This represents the corresponding change in the $y$-direction based on the slope of the function at the point $x$. 
+		The derivative $f'(x)$ gives the rate of change of $y$ with respect to $x$.
+$$\LARGE y \approx f'(x) \Delta x $$
 The components of the tangent vector are given by the changes in $x$ and $y$:
 $$\LARGE \mathbf{T} = \begin{pmatrix} \Delta x \\ \Delta y \end{pmatrix} = \begin{pmatrix} \Delta x \\ f'(x) \Delta x \end{pmatrix}$$
 ##### Unit Tangent Vector

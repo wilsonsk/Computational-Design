@@ -110,7 +110,7 @@ The slope $m$ can be thought of as a scalar that scales the input variable $x$ t
 	Depending on the magnitude and sign of $m$, it either scales up (amplifies) or scales down ([[Division#Contracting|contracts]]) the input $x$.
 $$\LARGE f(x) = mx +b$$
 $$\LARGE m = \frac{\Delta y}{\Delta x}$$
-$$\LARGE y = \frac{\Delta y}{\Delta x} \cdot x$$
+$$\LARGE f(x) = (\frac{\Delta y}{\Delta x}) \cdot x$$
 ### If $|\Delta y| > |\Delta x|$, Then $f(x) > x$
 ###### When the Change in $y$ is Greater than the Change in $x$
 $$m = \frac{\Delta y}{\Delta x} > 1$$
@@ -128,7 +128,7 @@ The notion is that the change in $y$ is a fraction of the change in $x$.
 ## Why Scale the Rate with the Input Variable, $\LARGE x$?
 What does this scalar relationship express or represent?
 #### An Intuitive Notion: Scaling Relationship the Rate of Change with the Input Value, and its Effect on the Output Value 
-$$y = \frac{\Delta y}{\Delta x} \cdot x$$
+$$f(x) = \frac{\Delta y}{\Delta x} \cdot x$$
 This "slope" or "ratio" and its relationship as a scalar to the input $x$ and its output product $y$, is just a way of expressing that if...
 	Change in $y$ is more then change in $x$, then output $y$ will always be larger than input $x$.
 		Or that if a change in $y$ is less then change in $x$, then output $y$ will always be smaller than input $x$.
@@ -232,7 +232,7 @@ As $h$ approaches zero, the secant line approaches the tangent line at $x$, and 
 $$\LARGE \lim_{h \to 0} \frac{f(x+h) - f(x)}{h} = f'(x) =\frac{dy}{dx}$$
 ##### Limit Form
 $$\LARGE \text{Differential y} =  dy = \lim_{h \to 0}​(f(x+h)−f(x))$$
-$$\LARGE \text{Differential x} = dx = \lim_{h \to 0}h$$
+$$\LARGE \text{Differential x} = dx = \lim_{h \to 0}(h)$$
 ##### Differential Form
 $$\LARGE dy = \frac{dy}{dx}$$
 $$\text{And}$$
@@ -250,3 +250,14 @@ $$\LARGE y = mx$$
 ---
 
 ## [[Partial Derivatives|Partial Derivatives]]
+
+- - -
+
+## [[Gradients]]
+
+- - -
+
+## [[Directional Derivatives]]
+
+
+- - -
