@@ -408,22 +408,22 @@ When we **define a Vector Space over the real number field** $\mathbb{R}$, we in
 The Real Number Field doesn't just supply underlying set (Real Numbers) in a vector field, it also maintains its initial structure which the vector space inherits.
 	Then the vector spaces defines **additional** structure on top of the existing structure of the Real Number Field.
 		Remember that the Real Number Field ($\mathbb{R}$) is a structured set equipped with two operations, addition and multiplication, that satisfy specific axioms (associativity, commutativity, distributivity, identity elements, and inverses).
-#### Preservation and Extension of Function Output Types
+#### Preservation Through Inheritance and Extension of Function Output and Input Types
 ##### Inheritance Aspect
 Inheritance refers to the preservation of properties from a fundamental structure (such as a field) to a derived structure (such as a vector space).
-###### Function Output Types Are Determined by the Fields or Spaces in Which the Functions are Defined
+###### Function Output Types Are Determined by the Fields or Spaces in Which the Functions Are Defined (i.e. The Lower Level Imparting Field or Space)
 Inheritance is represented by the fact that the [[Mapping#Inheritance and the Preservation of Function Output Types|inherited function still maps back to its respective space or field, thus preserving the output type]].
 	Therefore, the Output Types of a Function reflect or represent the Fields or Spaces of which they are defined.
 
->[!note] **Inheritance and Preservation of Output Type**:  Functions of a Field or Space Always Map Back to Domain of that Field or Space
+>[!note] **Preservation of Output Type Through Inheritance**:  Functions of a Field or Space Always Map Back to Domain of that Field or Space
 >An inherited function type takes inputs from the domain of the inheriting space and **maps them to values (scalar, vector, matrix, etc.) within the codomain that is consistent with the function type's field or space.**
 ##### Extension Aspect
 Extension refers to building upon a fundamental structure to create more complex structures by defining new types of inputs while maintaining the original output structure.
-###### Function Input Types Are Determined by the Fields or Spaces in Which the Functions Operate
+###### Function Input Types Are Determined by the Fields or Spaces in Which the Functions Operate (i.e. The Higher Level Inheriting Spaces)
 Extension is represented by the fact that this inherited function can now take as input some type of value from the inheriting domain, extending its applicability to more complex structures.
 	The inherited function can now take as input some type of value from the inheriting domain, extending its applicability.
 
->[!note] **Extension and Preservation of Input Type**:  Functions of a Field or Space Can Extend to Accept Inputs from the Domain of the Inheriting Space
+>[!note] **Preservation Through Extension of Input Type**:  Functions of a Field or Space Can Extend to Accept Inputs from the Domain of the Inheriting Space
 >**An inherited function type takes inputs from the domain of the inheriting space** and maps them to values (scalar, vector, matrix, etc.) within the codomain that is consistent with the function type's field or space.
 
 In this case, the Vector Space does inherit all the[[#The Structure of the Real Number Field ($ mathbb{R}$)| initial structure of the Real Number Field]].

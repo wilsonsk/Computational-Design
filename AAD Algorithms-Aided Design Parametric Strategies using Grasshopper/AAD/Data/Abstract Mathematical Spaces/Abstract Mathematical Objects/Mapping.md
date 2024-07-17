@@ -182,16 +182,17 @@ Functions can be classified based on different criteria.
 > 
 > **Example**: If $A = \{1, 2, 3\}$, the identity function is $f = \{(1, 1), (2, 2), (3, 3)\}$.
 #### Output Types of Functions
-##### *See: [[Abstract Mathematical Spaces#Preservation and Extension of Function Output Types|Preservation and Extension of Function Output Types]]*
-
-###### Function Output Types Are Determined by the Fields or Spaces in Which the Functions Are Defined
+##### *For Context Within Structured Sets, See: [[Abstract Mathematical Spaces#Preservation Through Inheritance and Extension of Function Output and Input Types|Preservation Through Inheritance and Extension of Function Output and Input Types]]*
+##### Output Type Preserved (i.e. Determined) by Inheritance
+###### Function Output Types Are Determined by the Fields or Spaces in Which the Functions Are Defined (i.e. The Lower Level Imparting Field or Space)
 Functions can be characterized by their output types, and these types are inherently dependent on the field or space within which they exist. 
 	This dependency shapes how functions are defined and how their outputs are structured. 
 		Furthermore, function types exhibit a hierarchical nature, where more complex function types build upon simpler ones, inheriting their properties and extending their applicability to higher-dimensional spaces.
 
 Function types based on output can be seen as hierarchical.
 	Where scalar functions within the field of real numbers is inherited by any space that is a itself a subset of the real number field.
-###### Function Input Types Are Determined by the Fields or Spaces in Which the Functions Operate
+##### Input Type Preserved (i.e. Determined) by Extensions
+###### Function Input Types Are Determined by the Fields or Spaces in Which the Functions Operate (i.e. The Higher Level Inheriting Spaces)
 Extension is represented by the fact that this inherited function can now take as input some type of value from the inheriting domain, extending its applicability to more complex structures.
 	The inherited function can now take as input some type of value from the inheriting domain, extending its applicability.
 
