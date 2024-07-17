@@ -182,9 +182,25 @@ Functions can be classified based on different criteria.
 > 
 > **Example**: If $A = \{1, 2, 3\}$, the identity function is $f = \{(1, 1), (2, 2), (3, 3)\}$.
 #### Output Types of Functions
+##### *See: [[Abstract Mathematical Spaces#Preservation and Extension of Function Output Types|Preservation and Extension of Function Output Types]]*
+
+###### Function Output Types Are Determined by the Fields or Spaces in Which the Functions Are Defined
+Functions can be characterized by their output types, and these types are inherently dependent on the field or space within which they exist. 
+	This dependency shapes how functions are defined and how their outputs are structured. 
+		Furthermore, function types exhibit a hierarchical nature, where more complex function types build upon simpler ones, inheriting their properties and extending their applicability to higher-dimensional spaces.
+
+Function types based on output can be seen as hierarchical.
+	Where scalar functions within the field of real numbers is inherited by any space that is a itself a subset of the real number field.
+###### Function Input Types Are Determined by the Fields or Spaces in Which the Functions Operate
+Extension is represented by the fact that this inherited function can now take as input some type of value from the inheriting domain, extending its applicability to more complex structures.
+	The inherited function can now take as input some type of value from the inheriting domain, extending its applicability.
+
 > [!note]
 > This categorizes functions based on the nature of their output values.
 > ##### [[Abstract Mathematical Spaces#Scalar Functions|Scalar Functions]]
+> **Field Dependency:** Scalar functions exist within the context of fields, such as the real number field $\mathbb{R}$.
+> **Output Type:** The output of scalar functions is defined by the field they belong to. For example, a scalar function $f: \mathbb{R} \to \mathbb{R}$ produces real number outputs.
+> **Fundamental:** Scalar functions represent the most fundamental level, dealing with outputs in their respective fields.
 > $$\LARGE f:\mathbb{R} \to \mathbb{R}$$
 > A scalar function maps one or more scalar (i.e. a real number, complex number, etc.) elements from its domain to a single scalar (i.e. real numbers, complex number, etc.) output.
 > $$\LARGE f(x) = x^2 + 3x + 5$$
@@ -197,6 +213,10 @@ $$f(x,y)$$
 >$$f(x_1, x_2, \ldots, x_n)$$
 > ##### [[Abstract Mathematical Spaces#Vector Function|Vector-Valued Functions]]
 > A vector-valued function maps elements from its domain to vectors.
+> $$\LARGE \mathbf{f}: D \to V$$
+> Where $D$ is the domain and $V$ is a vector space.
+> **Space Dependency:** These functions exist within vector spaces derived from fields. For example, vector spaces like $\mathbb{R}^2$, $\mathbb{R}^3$, or $\mathbb{R}^n$ are derived from the real number field.
+> **Output Type:** The output is a vector in a specific vector space, which is itself defined by the underlying field.
 > $$\LARGE \mathbf{f}(t) = \begin{pmatrix} t \\t^2 \\t^3\end{pmatrix}$$
 > Here, $\mathbf{f}$ maps a scalar $t$ to a 3-dimensional vector.
 > ##### Matrix-Valued Functions

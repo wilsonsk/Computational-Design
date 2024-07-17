@@ -186,36 +186,41 @@ The partial derivatives $\frac{\partial f}{\partial x}$ and $\frac{\partial f}{\
 The components $\Delta x$, $\Delta y$, and $\Delta z$ describe the change in the function's value as we move in the direction of the tangent vector.
 	The vector components are related to how the function changes with respect to the input variables.
 ### Scalar Function with Two Variables
-
 Consider a scalar function $f(x, y)$.
 ### Partial Derivatives
-
 The partial derivatives of $f$ with respect to $x$ and $y$ are:
 $$
-\frac{\partial f}{\partial x}, \quad \frac{\partial f}{\partial y}
+\LARGE \frac{\partial f}{\partial x}, \quad \frac{\partial f}{\partial y}
 $$
-
 ### Tangent Plane and Tangent Vector
-
 At a point $P = (x_0, y_0, f(x_0, y_0))$, the tangent plane to the surface $z = f(x, y)$ can be defined, and we can derive the tangent vector components from this.
-
 ### Steps to Derive the Tangent Vector Components
-
+Consider the [[Abstract Mathematical Spaces#Scalar Functions|scalar function]]
 1. **Point on the Surface:**
    Consider the point $P = (x_0, y_0, f(x_0, y_0))$ on the surface.
 
 2. **Small Changes in $x$ and $y$:**
    Let $\Delta x$ and $\Delta y$ be small changes in $x$ and $y$, respectively.
 
-3. **Corresponding Change in $z$:**
+3. **Partial Derivatives at the Point:**
+	Compute the partial derivatives of the function at the point $(x_0, y_0)$:
+
+$$\LARGE \frac{\partial f}{\partial x} \bigg|_{(x_0, y_0)}, \quad \frac{\partial f}{\partial y} \bigg|_{(x_0, y_0)}$$
+
+4. **Corresponding Change in $z$:**
    The corresponding change in $z$, denoted $\Delta z$, can be approximated using the partial derivatives:
-   $$
-   \Delta z \approx \frac{\partial f}{\partial x} \Delta x + \frac{\partial f}{\partial y} \Delta y
-   $$
+   $$\LARGE \Delta z \approx \frac{\partial f}{\partial x} \Delta x + \frac{\partial f}{\partial y} \Delta y$$
 ### Tangent Vector Components
+#### [[Abstract Mathematical Spaces#Vector Function|Vector-Valued Functions]]
+The tangent vector itself can be seen as a vector-valued function when we express how changes in $x$ and $y$ (or higher dimensions) affect the function $f$.
+	The points $\Delta x$, $\Delta y$, and $\Delta z$ are mapped to a vector $\mathbf{T}$, this mapping represents a vector function. 
+		Specifically, $\mathbf{T}$ is a vector whose components are functions of the variables $\Delta x$ and $\Delta y$,.
 
 The tangent vector at the point $P$ in the direction of changes $\Delta x$ and $\Delta y$ has components:
-$$
+- A small change in $x$ is denoted by $\Delta x$.
+- A small change in $y$ is denoted by $\Delta y$.
+- The corresponding change in $z$ is given by: 
+$$\LARGE 
 \mathbf{T} = \begin{pmatrix} \Delta x \\ \Delta y \\ \Delta z \end{pmatrix} = \begin{pmatrix} \Delta x \\ \Delta y \\ \frac{\partial f}{\partial x} \Delta x + \frac{\partial f}{\partial y} \Delta y \end{pmatrix}
 $$
 ### Example
@@ -236,21 +241,20 @@ Consider a function $f(x, y) = x^2 + y^2$ and find the tangent vector at $(x_0, 
    Let $\Delta x = 0.1$ and $\Delta y = 0.1$.
 
 4. **Corresponding Change $\Delta z$:**
-   $$
-   \Delta z \approx \frac{\partial f}{\partial x} \Delta x + \frac{\partial f}{\partial y} \Delta y = 2 \cdot 1 \cdot 0.1 + 2 \cdot 1 \cdot 0.1 = 0.2 + 0.2 = 0.4
-   $$
+$$\LARGE \Delta z \approx \frac{\partial f}{\partial x} \Delta x + \frac{\partial f}{\partial y} \Delta y$$ 
+$$\LARGE = \Delta z \approx 2 \Delta x + 2 \Delta y$$
+$$\LARGE    \Delta z \approx \frac{\partial f}{\partial x} \Delta x + \frac{\partial f}{\partial y} \Delta y = 2 \cdot 1 \cdot 0.1 + 2 \cdot 1 \cdot 0.1 = 0.2 + 0.2 = 0.4$$
+1. **Tangent Vector Components:**
 
-5. **Tangent Vector:**
-   $$
-   \mathbf{T} = \begin{pmatrix} \Delta x \\ \Delta y \\ \Delta z \end{pmatrix} = \begin{pmatrix} 0.1 \\ 0.1 \\ 0.4 \end{pmatrix}
-   $$
+| Evaluated Vector                                                                                                                             | Vector Function/Field                                                                                                                                                      |
+| -------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| $$\LARGE \mathbf{T} = \begin{pmatrix} \Delta x \\ \Delta y \\ \Delta z \end{pmatrix} = \begin{pmatrix} 0.1 \\ 0.1 \\ 0.4 \end{pmatrix}$$<br> | $$\LARGE \mathbf{T} = \begin{pmatrix} \Delta x \\ \Delta y \\ \Delta z \end{pmatrix} = \begin{pmatrix} \Delta x \\ \Delta y \\ 2 \Delta x + 2 \Delta y \end{pmatrix}$$<br> |
 ### Generalization
-
-For a scalar function $f(x_1, x_2, \ldots, x_n)$ with multiple variables, the tangent vector components can be derived similarly using the partial derivatives. The tangent vector at a point $(x_1, x_2, \ldots, x_n, f(x_1, x_2, \ldots, x_n))$ is:
-$$
+For a scalar function $\LARGE f(x_1, x_2, \ldots, x_n)$ with multiple variables, the tangent vector components can be derived similarly using the partial derivatives. 
+	The tangent vector at a point $\LARGE (x_1, x_2, \ldots, x_n, f(x_1, x_2, \ldots, x_n))$ is:
+$$\LARGE 
 \mathbf{T} = \begin{pmatrix} \Delta x_1 \\ \Delta x_2 \\ \vdots \\ \Delta x_n \\ \Delta z \end{pmatrix} = \begin{pmatrix} \Delta x_1 \\ \Delta x_2 \\ \vdots \\ \Delta x_n \\ \sum_{i=1}^n \frac{\partial f}{\partial x_i} \Delta x_i \end{pmatrix}
 $$
-
 - - -
 ## Relationship Between Partial Derivatives and Gradients
 ### [[Gradients]]

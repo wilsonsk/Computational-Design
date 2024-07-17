@@ -401,13 +401,34 @@ This mapping is crucial in many fields of science and mathematics for simplifyin
     - Domain: Points in space where a field is defined (e.g., electric field, magnetic field).
     - Scalar Function: $I(x, y, z)$ might map each point to the intensity of the field at that point.
 ### Building on the Foundation: Generating Vector Spaces *on Top of* the Real Number Field
-##### "Defining a Space over a Field"
+#### "Defining a Space over a Field"
 When we **define a Vector Space over the real number field** $\mathbb{R}$, we inherit and incorporate this field's underlying set and structure.
 	Then the Vector Spaces adds additional elements to the Underlying Set, as well can extend the inherited structure, and/or add its own additional structure (i.e. operations and axioms) to form the vector space.
 
 The Real Number Field doesn't just supply underlying set (Real Numbers) in a vector field, it also maintains its initial structure which the vector space inherits.
 	Then the vector spaces defines **additional** structure on top of the existing structure of the Real Number Field.
 		Remember that the Real Number Field ($\mathbb{R}$) is a structured set equipped with two operations, addition and multiplication, that satisfy specific axioms (associativity, commutativity, distributivity, identity elements, and inverses).
+#### Preservation and Extension of Function Output Types
+##### Inheritance Aspect
+Inheritance refers to the preservation of properties from a fundamental structure (such as a field) to a derived structure (such as a vector space).
+###### Function Output Types Are Determined by the Fields or Spaces in Which the Functions are Defined
+Inheritance is represented by the fact that the [[Mapping#Inheritance and the Preservation of Function Output Types|inherited function still maps back to its respective space or field, thus preserving the output type]].
+	Therefore, the Output Types of a Function reflect or represent the Fields or Spaces of which they are defined.
+
+>[!note] **Inheritance and Preservation of Output Type**:  Functions of a Field or Space Always Map Back to Domain of that Field or Space
+>An inherited function type takes inputs from the domain of the inheriting space and **maps them to values (scalar, vector, matrix, etc.) within the codomain that is consistent with the function type's field or space.**
+##### Extension Aspect
+Extension refers to building upon a fundamental structure to create more complex structures by defining new types of inputs while maintaining the original output structure.
+###### Function Input Types Are Determined by the Fields or Spaces in Which the Functions Operate
+Extension is represented by the fact that this inherited function can now take as input some type of value from the inheriting domain, extending its applicability to more complex structures.
+	The inherited function can now take as input some type of value from the inheriting domain, extending its applicability.
+
+>[!note] **Extension and Preservation of Input Type**:  Functions of a Field or Space Can Extend to Accept Inputs from the Domain of the Inheriting Space
+>**An inherited function type takes inputs from the domain of the inheriting space** and maps them to values (scalar, vector, matrix, etc.) within the codomain that is consistent with the function type's field or space.
+
+In this case, the Vector Space does inherit all the[[#The Structure of the Real Number Field ($ mathbb{R}$)| initial structure of the Real Number Field]].
+- **Example:** $h: \mathbb{R}^2 \to \mathbb{R}$, $h(x, y) = x + y$. This function inherits the real number field properties while operating in the vector space $\mathbb{R}^2$.
+	- And the Scalar Function Takes as Input a Vector from this Inheriting Space and Maps it Back to a Value of the Real Number Field of which the Scalar Function was Defined.
 #### 1. The Underlying Set of the Vector Space
 The Vector Space inherits the Underlying Set (i.e. Real Numbers) from the Real Number Field that it is defined on top of.
 	But it also adds additional elements of its own.
@@ -439,12 +460,19 @@ Vector spaces built over $\mathbb{R}$ inherit these fundamental properties and o
 When a space is defined on top of a field, it generally inherits the field's structure to the extent that the operations and axioms of the space require. 
 	However, the space may not use all aspects of the field's structure directly. 
 		Instead, it may focus on specific properties and operations provided by the field.
-
-In this case, the Vector Space does inherit all the[[#The Structure of the Real Number Field ($ mathbb{R}$)| initial structure of the Real Number Field]].
 ##### The Extended Structure
 I.e. Extensions in the Vector Space.
 ###### Scalars in Scalar Multiplication
-Scalars from the real number field ($\mathbb{R}$) are used to scale vectors in the vector space.
+**Extended Definition:** Scalar functions in vector spaces maintain their scalar output while operating within higher-dimensional contexts.
+	Scalars from the real number field ($\mathbb{R}$) are used to scale vectors in the vector space.
+###### Scalar-Valued Functions on Vector Spaces:
+###### Definition:
+A scalar-valued function takes elements from a vector space and maps them to a scalar field.
+###### Form
+$f: V \to F$, where $V$ is a vector space and $F$ is a scalar field (e.g., $\mathbb{R}$ or $\mathbb{C}$).
+###### Example
+$f(\mathbf{v}) = \|\mathbf{v}\|$ where $f: \mathbb{R}^n \to \mathbb{R}$.
+This function maps vectors in $\mathbb{R}^n$ to their magnitudes in $\mathbb{R}$.
 ###### Operations Involving Scalars
 The addition and multiplication of scalars are used in the definitions of vector space operations.
 ###### Scalar Multiplication
@@ -638,7 +666,7 @@ A vector space becomes "spatial" when it is used to represent geometric or physi
 All vector spaces can be considered "abstract" or "algebraic" when viewed purely in terms of their algebraic properties (addition and scalar multiplication).
 ### Vector Space $\mathbb{R}^1$ (i.e. simply $\mathbb{R}$)
 #### Abstract Vector Space
-As a vector space over itself, $\mathbb{R}$ is an abstract mathematical structure consisting of all real numbers with standard addition and scalar multiplication.
+As a vector space $V$ over a field $F$ (commonly the field of real numbers $\mathbb{R}$ or complex numbers $\mathbb{C}$) is an abstract mathematical structure consisting of all real numbers with standard addition and scalar multiplication.
 #### Spatial Interpretation:
 When $\mathbb{R}$ is used to represent physical quantities along a single dimension (such as positions along a line), it can be considered spatial.
 	Example: The real number line can be used to represent positions along a one-dimensional space. In this context, $\mathbb{R}$ is spatial.
@@ -675,7 +703,6 @@ The field maps/assigns a value (scalar, vector, etc.) to each point in the spati
 **Continuity**
 	In many applications, fields are continuous functions, meaning that small changes in the input (spatial coordinates) result in small changes in the output value.
 ### Scalar Fields
-
 A **Scalar Field** is a Scalar Function that maps **points from spatial domain** (which can be viewed as a vector space) to scalar values from an algebraic field (e.g., $\mathbb{R}$).
 	A mapping from points in a space (like $\mathbb{R}^3$) to scalar values in $\mathbb{R}$.
 

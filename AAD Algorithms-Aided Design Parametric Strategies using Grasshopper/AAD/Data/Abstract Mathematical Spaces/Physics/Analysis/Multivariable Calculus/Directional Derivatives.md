@@ -73,7 +73,7 @@ Find the gradient of $f$ at the point $(x_0, y_0)$.
 	The gradient is a vector of partial derivatives:
 $$\LARGE \nabla f(x_0, y_0) = \left( \frac{\partial f}{\partial x}(x_0, y_0), \frac{\partial f}{\partial y}(x_0, y_0) \right)$$
 ### 3. [[Statics Analysis#Dot Product (i.e. Scalar Product)|Dot Product]]
-The directional derivative is the dot product of the gradient vector and the unit vector, reflecting how much of the gradient’s magnitude is in the direction of $\mathbf{u}$.
+The directional derivative is **the dot product of the gradient vector and the unit vector**, reflecting how much of the gradient’s magnitude is in the direction of $\mathbf{u}$.
 
 Take the dot product of the gradient vector and the normalized direction vector:
 $$\LARGE D_{\mathbf{u}} f(x_0, y_0) = \nabla f(x_0, y_0) \cdot \mathbf{u}$$
