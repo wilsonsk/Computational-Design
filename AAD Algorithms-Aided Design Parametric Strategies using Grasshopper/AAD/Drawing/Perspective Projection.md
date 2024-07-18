@@ -1,9 +1,5 @@
 # Perspective Projection
 ![[Pasted image 20240708065933.png|400]]
-I don’t understand how the distance of the perspective view affects the image when the eye point moves but plane is constant moves closer or farther from object of projection and then when the eye point is constant but the plane moves closer or farther from object of projection.
-
-To understand how the distance of the perspective view affects the image when the eye point moves but the projection plane is constant, and vice versa, let's analyze the principles of perspective projection.
-
 ### Key Concepts:
 
 1. **Eye Point (e)**: The location of the observer's eye or camera.
@@ -11,68 +7,85 @@ To understand how the distance of the perspective view affects the image when th
 3. **Projection Plane (P)**: The plane onto which the 3D object is projected to form a 2D image.
 	Also called the "**Picture Plane**".
 
-### Two Scenarios:
+### Detailed Summary of Primary Factors in Perspective Projection
 
-#### 1. Fixed Eye Point, Changing Distance of the Projection Plane:
+### Primary Factors of Perspective Projection:
 
-- **Fixed Eye Point (e):** The observer or camera stays in the same position.
-- **Changing Projection Plane Distance (P):** The plane moves closer or farther from the object being projected.
+1. **Angle of Projection Rays (Determined by Object Distance)**:
+    
+    - **Description**: The angles at which projection rays from the station point (S) intersect the projection plane (P).
+    - **Object Distance (D1)**: The distance between the object (O) and the projection plane (P).
+    - **Determining Factors**:
+        - **Closer Objects (Smaller D1)**: The projection rays intersect the projection plane at wider angles.
+        - **Farther Objects (Larger D1)**: The projection rays intersect the projection plane at narrower angles.
+    - **Effects on Image**:
+        - **Wider Angles (Close Objects)**: The object appears larger and more distorted on the projection plane.
+        - **Narrower Angles (Far Objects)**: The object appears smaller and less distorted on the projection plane.
+2. **Field of View (FOV) (Determined by Perspective Distance)**:
+    
+    - **Description**: The angular extent of the observable scene captured by the projection plane, visualized as a cone extending from the station point to the edges of the projection plane.
+    - **Perspective Distance (D2)**: The distance between the station point (S) and the projection plane (P).
+    - **Determining Factors**:
+        - **Closer Station Point (Smaller D2)**: Results in a wider FOV.
+        - **Farther Station Point (Larger D2)**: Results in a narrower FOV.
+    - **Effects on Image**:
+        - **Wider FOV (Close Station Point)**: Captures more of the scene but with increased distortion.
+        - **Narrower FOV (Far Station Point)**: Captures less of the scene with reduced distortion.
 
-In this scenario:
-##### Smaller Distance of the Projection Plane to the Object
-- When the projection plane moves **closer** to the object, the image appears larger because the projection plane intercepts a larger section of the projection rays.
-- When the projection plane is closer to the object, the portion of the object that is captured in the image is determined by the angles at which the projection lines intersect the plane.
-- The closer the plane is to the object, the larger the angle between the projection lines, causing more of the object to be included in the image. This is why the image captures more of the object, despite the plane being closer to the object.
-##### Larger Distance of the Projection Plane to the Object 
-- When the projection plane moves **farther** from the object, the image appears smaller as it intercepts a smaller section of the projection rays.
-- When the projection plane moves farther from the object, the projection lines become more parallel. This results in a smaller section of the object being captured in the image, as the angles between the projection lines narrow.
-#### 2. Moving Eye Point, Fixed Projection Plane:
+### Amplifying and Contrasting Effects: Three Scenarios
 
-- **Moving Eye Point (e):** The observer or camera moves closer or farther from the object.
-- **Fixed Projection Plane (P):** The plane remains at the same position.
+#### Scenario 1: Fixed Station Point, Decreasing Object Distance (Increasing Perspective Distance)
 
-In this scenario:
-##### Smaller Distance of the Eye Point to the Object
-- When the eye point moves **closer** to the object, the perspective effect becomes more pronounced. The object appears larger and more parts of it come into view.
-- The closer the eye point is to the object, the wider the angles at which the projection lines intersect the projection plane. This captures more of the object in the image but can result in more distortion.
-##### Larger Distance of the Eye Point to the Object
-- When the eye point moves **farther** from the object, the perspective effect diminishes. The object appears smaller, and less of it is visible due to a narrower viewing angle.
-- This typically means the object appears smaller overall because the projection lines are more parallel, reducing the angles at which they intersect the projection plane.
-- However, the entire object can still be captured within the field of view, leading to a larger and more unified image of the object with less distortion.
-### Visualization of the Effects:
+- **Setup**:
+    
+    - The station point (S) is fixed.
+    - The projection plane (P) moves closer to the object (O), decreasing the object distance (D1).
+    - This also increases the effective perspective distance (D2) relative to the object.
+- **Effects**:
+    
+    - **Angle of Projection Rays**: As the object distance decreases, the projection rays intersect the projection plane at wider angles.
+        - **Result**: The object appears larger and more distorted on the projection plane.
+    - **Field of View (FOV)**: As the projection plane moves closer to the object, the FOV narrows.
+        - **Result**: The projection plane captures a smaller portion of the scene around the object, focusing more on the object itself.
+- **Combined Effect**: The object appears significantly larger and more distorted, with a narrow focus on the object and less of the surrounding scene visible.
+    
 
-#### Top Row of Images:
+#### Scenario 2: Fixed Projection Plane, Decreasing Perspective Distance
 
-1. **Image 1 to Image 3**: These images demonstrate how changing the projection plane's distance affects the image size. The eye point remains fixed, but as the projection plane moves closer, the projected image becomes larger.
+- **Setup**:
+    
+    - The projection plane (P) is fixed.
+    - The station point (S) moves closer to the projection plane, decreasing the perspective distance (D2).
+    - The object distance (D1) remains constant.
+- **Effects**:
+    
+    - **Angle of Projection Rays**: The object distance remains the same, so the angles at which the rays intersect the projection plane do not change.
+        - **Result**: The size and distortion of the object on the projection plane remain the same.
+    - **Field of View (FOV)**: As the station point moves closer to the projection plane, the FOV widens.
+        - **Result**: The projection plane captures a larger portion of the scene, making the object appear smaller within a broader context.
+- **Combined Effect**: The object maintains its size and distortion, but it appears smaller within a wider scene due to the increased FOV.
+    
 
-#### Bottom Row of Images:
+#### Scenario 3: Fixed Perspective Distance, Decreasing Object Distance
 
-1. **Image 4 to Image 6**: These images show the effect of moving the eye point while keeping the projection plane fixed. As the eye point moves closer, the image enlarges and more detail is visible. As the eye point moves farther, the image contracts.
-#### Image 4:
+- **Setup**:
+    
+    - The distance between the station point (S) and the projection plane (P) is fixed, maintaining a constant perspective distance (D2).
+    - Both the station point and the projection plane move together closer to the object (O), decreasing the object distance (D1).
+- **Effects**:
+    
+    - **Angle of Projection Rays**: As the object distance decreases, the projection rays intersect the projection plane at wider angles.
+        - **Result**: The object appears larger and more distorted on the projection plane.
+    - **Field of View (FOV)**: The perspective distance remains the same, so the FOV does not change.
+        - **Result**: The projection plane captures the same angular extent of the scene.
+- **Combined Effect**: The object appears larger and more distorted, but the overall field of view remains the same.
+    
 
-- **Eye Point e4e_4e4​** is closest to the object.
-- **Projection Plane PPP** is fixed.
-- The closer eye point results in a more pronounced perspective distortion, capturing a wider vertical section of the object. This causes the object to appear stretched and more of the object’s height is visible.
+### Conclusion:
 
-#### Image 5:
+In perspective projection, the angle of projection rays and the field of view are primary factors that dictate how an image looks. The angle of projection rays, determined by the object distance (D1), affects the size and distortion of the object on the projection plane. The field of view, determined by the perspective distance (D2), affects how much of the scene is visible. By manipulating these distances, you can control the visual impact and spatial relationships in a perspective projection.
 
-- **Eye Point e5e_5e5​** is at an intermediate distance.
-- **Projection Plane PPP** is fixed.
-- The intermediate distance balances the perspective effect, reducing distortion compared to Image 4. The captured image is more proportional but less of the object is visible compared to Image 4.
-
-#### Image 6:
-
-- **Eye Point e6e_6e6​** is farthest from the object.
-- **Projection Plane PPP** is fixed.
-- The farther eye point causes the projection lines to become more parallel. This results in a smaller, more uniform section of the object being visible with less distortion. However, the object appears larger overall because it fits more cohesively within the frame.
-### Summary:
-
-- **Fixed Eye Point, Moving Projection Plane**: Affects the magnification of the image. Closer plane means a larger image, and farther plane means a smaller image.
-- **Moving Eye Point, Fixed Projection Plane**: Affects the perspective and field of view. Closer eye point results in a more pronounced perspective and larger image, whereas a farther eye point results in a reduced perspective effect and smaller image.
-
-Understanding these principles helps in controlling the perspective projection in both architectural visualizations and 3D modeling to achieve the desired visual effects.
-
-### Key Concepts:
+## Relation to Focal Length:
 
 1. **Station Point (e)**: The position of the photographer (or the camera sensor).
 2. **Projection Plane (P)**: The plane where the image is captured, which is effectively controlled by the camera lens.
@@ -188,7 +201,7 @@ Let's calculate the effective distance for two lenses, a 24mm wide-angle lens an
 
 	- Effective Distance (d): $d_{300} = \frac{36}{2 \cdot \tan\left(\frac{6.86^\circ}{2}\right)} \approx \frac{36}{2 \cdot \tan(3.43^\circ)} \approx \frac{36}{0.12} \approx 300mm$
 
-## When Drawing a Perspective Grid
+## Drawing a Perspective Grid
 By measuring the distance from the station point to the projection plane based on the focal length of the lens (50mm in this case), you can accurately set up a perspective grid. 
 	This approach ensures that the perspective distortion and field of view are consistent with what would be captured by a 50mm lens, providing a realistic representation of depth and scale in your drawing.
 

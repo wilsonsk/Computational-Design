@@ -35,6 +35,8 @@ date created: 2024-07-28
 
 - - -
 ## Gradient Defined
+An **increase** or **decrease** in the **magnitude** of a **property**, relative to some variable (time, position, etc.).
+
 *Note: a Derivative (and Partial Derivative) **is** a vector.*
 	*That vector being the [[Derivatives#4. Is the Unit Tangent Vector|Unit Tangent Vector]] to a given point.*
 		Therefore the Vector of the Partial Derivatives is a Unit Tangent Vector describing the direction of the function in a single dimension.
