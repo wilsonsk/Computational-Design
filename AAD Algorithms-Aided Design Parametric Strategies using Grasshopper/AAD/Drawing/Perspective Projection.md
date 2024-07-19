@@ -7,83 +7,62 @@
 3. **Projection Plane (P)**: The plane onto which the 3D object is projected to form a 2D image.
 	Also called the "**Picture Plane**".
 
-### Detailed Summary of Primary Factors in Perspective Projection
+## Primary Factors in Perspective Projection:
 
-### Primary Factors of Perspective Projection:
+1. **Angle of Intersection of Projection Rays**:
+   - **Description**: The angles at which projection rays from the station point (S) pass through points on the object (O) and intersect the projection plane (P). These angles determine how the object is projected onto the plane.
+   - **Determined by**:
+     - **Object Distance (D1)**: The distance between the object (O) and the projection plane (P).
+     - **Object-to-Station Distance (D3)**: The distance between the object (O) and the station point (S).
+   - **Effects on Image**:
+     - **Wider Angles (Close Objects)**: When the object distance (D1) is smaller and the object is closer to the station point (D3), the projection rays intersect the projection plane at wider angles, making the object appear larger and more distorted.
+     - **Narrower Angles (Far Objects)**: When the object distance (D1) is larger and the object is farther from the station point (D3), the projection rays intersect the projection plane at narrower angles, making the object appear smaller and less distorted.
+   - **Explanation**:
+     - The projection rays from the station point to the object and then to the projection plane create the angles of intersection. When the object and station point are closer (smaller D1 and D3), the angles between their connections are wider. Conversely, when the object and station point are farther apart (larger D1 and D3), the angles between their connections are narrower.
 
-1. **Angle of Projection Rays (Determined by Object Distance)**:
-    
-    - **Description**: The angles at which projection rays from the station point (S) intersect the projection plane (P).
-    - **Object Distance (D1)**: The distance between the object (O) and the projection plane (P).
-    - **Determining Factors**:
-        - **Closer Objects (Smaller D1)**: The projection rays intersect the projection plane at wider angles.
-        - **Farther Objects (Larger D1)**: The projection rays intersect the projection plane at narrower angles.
-    - **Effects on Image**:
-        - **Wider Angles (Close Objects)**: The object appears larger and more distorted on the projection plane.
-        - **Narrower Angles (Far Objects)**: The object appears smaller and less distorted on the projection plane.
-2. **Field of View (FOV) (Determined by Perspective Distance)**:
-    
-    - **Description**: The angular extent of the observable scene captured by the projection plane, visualized as a cone extending from the station point to the edges of the projection plane.
-    - **Perspective Distance (D2)**: The distance between the station point (S) and the projection plane (P).
-    - **Determining Factors**:
-        - **Closer Station Point (Smaller D2)**: Results in a wider FOV.
-        - **Farther Station Point (Larger D2)**: Results in a narrower FOV.
-    - **Effects on Image**:
-        - **Wider FOV (Close Station Point)**: Captures more of the scene but with increased distortion.
-        - **Narrower FOV (Far Station Point)**: Captures less of the scene with reduced distortion.
+2. **Field of View (FOV)**:
+   - **Description**: The angular extent of the observable scene captured by the projection plane. It is represented as a cone of vision extending from the station point to the edges of the projection plane, defined by the outermost projection rays.
+   - **Determined by**:
+     - **Perspective Distance (D2)**: The distance between the station point (S) and the projection plane (P).
+   - **Effects on Image**:
+     - **Wider FOV (Close Station Point)**: When the perspective distance (D2) is smaller, the angle formed by the projection rays at the horizontal and vertical bounds of the projection plane is wider, resulting in a larger cone of vision that captures more of the scene.
+     - **Narrower FOV (Far Station Point)**: When the perspective distance (D2) is larger, the angle formed by the projection rays at the horizontal and vertical bounds of the projection plane is narrower, resulting in a smaller cone of vision that captures less of the scene.
+   - **Explanation**:
+     - The projection rays from the station point to the horizontal and vertical bounds of the projection plane create the FOV. When the station point and projection plane are closer (smaller D2), the angles between their connections are wider. Conversely, when the station point and projection plane are farther apart (larger D2), the angles between their connections are narrower.
 
-### Amplifying and Contrasting Effects: Three Scenarios
+### Amplifying and Contrasting Effects in Scenarios:
 
 #### Scenario 1: Fixed Station Point, Decreasing Object Distance (Increasing Perspective Distance)
-
 - **Setup**:
-    
-    - The station point (S) is fixed.
-    - The projection plane (P) moves closer to the object (O), decreasing the object distance (D1).
-    - This also increases the effective perspective distance (D2) relative to the object.
+  - The station point (S) is fixed.
+  - The projection plane (P) moves closer to the object (O), decreasing the object distance (D1) and effectively increasing the perspective distance (D2) relative to the object.
 - **Effects**:
-    
-    - **Angle of Projection Rays**: As the object distance decreases, the projection rays intersect the projection plane at wider angles.
-        - **Result**: The object appears larger and more distorted on the projection plane.
-    - **Field of View (FOV)**: As the projection plane moves closer to the object, the FOV narrows.
-        - **Result**: The projection plane captures a smaller portion of the scene around the object, focusing more on the object itself.
-- **Combined Effect**: The object appears significantly larger and more distorted, with a narrow focus on the object and less of the surrounding scene visible.
-    
+  - **Angle of Intersection**: As the object distance (D1) decreases, the projection rays intersect the projection plane at wider angles because the object is closer to the station point (smaller D3), making the object appear larger and more distorted.
+  - **Field of View (FOV)**: As the projection plane moves closer to the object, the FOV narrows because the projection rays intersect the plane later, creating a smaller cone of vision.
+- **Combined Effect**: The object appears significantly larger and more distorted, with a narrower focus on the object and less of the surrounding scene visible.
 
 #### Scenario 2: Fixed Projection Plane, Decreasing Perspective Distance
-
 - **Setup**:
-    
-    - The projection plane (P) is fixed.
-    - The station point (S) moves closer to the projection plane, decreasing the perspective distance (D2).
-    - The object distance (D1) remains constant.
+  - The projection plane (P) is fixed.
+  - The station point (S) moves closer to the projection plane, decreasing the perspective distance (D2).
+  - The object distance (D1) remains constant.
 - **Effects**:
-    
-    - **Angle of Projection Rays**: The object distance remains the same, so the angles at which the rays intersect the projection plane do not change.
-        - **Result**: The size and distortion of the object on the projection plane remain the same.
-    - **Field of View (FOV)**: As the station point moves closer to the projection plane, the FOV widens.
-        - **Result**: The projection plane captures a larger portion of the scene, making the object appear smaller within a broader context.
+  - **Angle of Intersection**: Remain the same because the object distance (D1) is constant, and the distance between the object and the station point (D3) does not change.
+  - **Field of View (FOV)**: As the perspective distance (D2) decreases, the FOV widens because the projection rays diverge more steeply, creating a larger cone of vision.
 - **Combined Effect**: The object maintains its size and distortion, but it appears smaller within a wider scene due to the increased FOV.
-    
 
 #### Scenario 3: Fixed Perspective Distance, Decreasing Object Distance
-
 - **Setup**:
-    
-    - The distance between the station point (S) and the projection plane (P) is fixed, maintaining a constant perspective distance (D2).
-    - Both the station point and the projection plane move together closer to the object (O), decreasing the object distance (D1).
+  - The distance between the station point (S) and the projection plane (P) is fixed, maintaining a constant perspective distance (D2).
+  - Both the station point and the projection plane move together closer to the object (O), decreasing the object distance (D1).
 - **Effects**:
-    
-    - **Angle of Projection Rays**: As the object distance decreases, the projection rays intersect the projection plane at wider angles.
-        - **Result**: The object appears larger and more distorted on the projection plane.
-    - **Field of View (FOV)**: The perspective distance remains the same, so the FOV does not change.
-        - **Result**: The projection plane captures the same angular extent of the scene.
+  - **Angle of Intersection**: As the object distance (D1) decreases, the projection rays intersect the projection plane at wider angles because the object is closer to the station point (smaller D3), making the object appear larger and more distorted.
+  - **Field of View (FOV)**: Remains the same because the perspective distance (D2) is constant, so the cone of vision does not change in size.
 - **Combined Effect**: The object appears larger and more distorted, but the overall field of view remains the same.
-    
 
 ### Conclusion:
 
-In perspective projection, the angle of projection rays and the field of view are primary factors that dictate how an image looks. The angle of projection rays, determined by the object distance (D1), affects the size and distortion of the object on the projection plane. The field of view, determined by the perspective distance (D2), affects how much of the scene is visible. By manipulating these distances, you can control the visual impact and spatial relationships in a perspective projection.
+In perspective projection, the angle of intersection of projection rays and the field of view (FOV) are primary factors that dictate how an image looks. The angle of intersection, determined by the object distance (D1) and the distance between the object and the station point (D3), affects the scale and distortion of the object on the projection plane. The field of view, determined by the perspective distance (D2), affects how much of the scene is visible. By understanding how these projection rays interact with the projection plane and how their angles change with varying distances, one can effectively control the visual impact and spatial relationships in perspective projection.
 
 ## Relation to Focal Length:
 
