@@ -42,7 +42,7 @@ An **increase** or **decrease** in the **magnitude** of a **property**, relative
 		Therefore the Vector of the Partial Derivatives is a Unit Tangent Vector describing the direction of the function in a single dimension.
 			But the **Gradient vector** describes the direction and rate of the steepest increase in a multi-dimensional space.
 
-A Gradient (of a Scalar Function/Field) is ***itself*** a **Vector Function/Field** (depending on context).
+A Gradient (of a Scalar Function/Field) is ***itself*** a **[[Abstract Mathematical Spaces#Vector Fields|Vector Function/Field]]** (depending on context).
 	Therefore, the Gradient of a Scalar Function/Field, as a Vector Function/Field, maps points (also vectors which can be represented by those points) from a given domain to vectors in a given codomain.
 		A **Gradient** through its mappings, at every point in the domain, produces a [[Vectors|vector]] that encapsulates how a [[Mapping#A Function as a Subset of Mappings ($1 1$, $m 1$)|function]] changes at a given point in its [[Mapping#Domain as a Subset of the Underlying Set|domain]]. 
 			It indicates both the direction and the rate of the steepest ascent of the function.
@@ -54,6 +54,19 @@ The gradient of a scalar function $f$, denoted as $\nabla f$, is a [[Abstract Ma
 $$\LARGE \nabla f = \left< \frac{\partial f}{\partial x_1}, \frac{\partial f}{\partial x_2}, \ldots, \frac{\partial f}{\partial x_n} \right>$$
 	$\LARGE \nabla$ is the [[#Nabla Operator ($ nabla$)|Nabla Operator]].
 		The magnitude of the gradient vector $|\nabla f (\mathbf{p})|$ represents the greatest rate of increase of $f$ at $\mathbf{p}$
+### Gradient Over the Domain (Vector Field)
+When you compute the gradient at every point in the domain of the function $f$, you get a vector field.
+	This means that at each point $\mathbf{x}$ in the domain, there is a corresponding gradient vector $\nabla f(\mathbf{x})$.
+		In other words, for each point $(x, y, z)$ where the scalar function $f$ is defined, the gradient $\nabla f$ provides a vector.
+			The collection of these vectors over the entire domain forms a vector field.
+				 Each vector in this field indicates the direction and rate of the fastest increase of the scalar function at its corresponding point.
+					 These vectors collectively form a vector field, that is, these vectors at each point together form the gradient vector field.
+##### Example
+Consider the scalar function $f(x, y) = x^2 + y^2$.
+Over the entire domain, the gradient is:
+$$\LARGE \nabla f(x, y) = \left< 2x, 2y \right>$$
+This expression represents a vector field. 
+	For each point $(x, y)$ in the domain, there is a corresponding gradient vector $(2x, 2y)$.
 ### Gradient at a Point (i.e. a Single Vector)
 The Gradient of a scalar function at a specific point in the domain is a vector whose components are the partial derivatives at that point. 
 	This vector points in the direction of the greatest rate of increase of the function at that point, and its magnitude represents the rate of this increase.
@@ -73,21 +86,14 @@ Consider the scalar function $f(x, y) = x^2 + y^2$.
 $$\LARGE \nabla f(1, 2) = \left< \frac{\partial f}{\partial x}(1, 2), \frac{\partial f}{\partial y}(\mathbf{1, 2})\right> = \left< 2 \cdot 1, 2 \cdot 2\right> = \left<2, 4\right>$$
 This expression represents a vector field. 
 	For each point $(x, y)$ in the domain, there is a corresponding gradient vector $(2x, 2y)$.
-### Gradient Over the Domain (Vector Field)
-When you compute the gradient at every point in the domain of the function $f$, you get a vector field.
-	This means that at each point $\mathbf{x}$ in the domain, there is a corresponding gradient vector $\nabla f(\mathbf{x})$.
-##### Example
-Consider the scalar function $f(x, y) = x^2 + y^2$.
-Over the entire domain, the gradient is:
-$$\LARGE \nabla f(x, y) = \left< 2x, 2y \right>$$
-This expression represents a vector field. 
-	For each point $(x, y)$ in the domain, there is a corresponding gradient vector $(2x, 2y)$.
 ### Gradients and Scalar Functions 
 *Again, the Gradient itself only exists relative to a Scalar Function (or Scalar Field).*
 	*Therefore, the Gradient as a word, is "short for", Gradient of a Scalar Function (or Scalar Field).*
 	
 The gradient is specifically defined for scalar functions.
 	It is a vector-valued function that represents the rate and direction of the fastest increase of the scalar function.
+
+Remember, a Scalar Function simply means a [[Mapping#Output Types of Functions|mapping from a spatial domain to a scalar codomain.]], as a way to preserve a domain and extend a codomain.t
 #### How Gradients are Connected to Scalar Functions
 ###### The Scalar Function, $f: R^n \to R$
 Scalar Function, $f$ maps points in its domain (spatial or non spatial domain) to single Scalar Values.

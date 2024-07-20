@@ -611,6 +611,13 @@ When we say that a function is "differentiable," it means that the function has 
 3. **Smoothness**:
     - Differentiable functions are "smooth" in the sense that they do not have any sharp corners or cusps. The graph of a differentiable function has a well-defined tangent line at every point in its domain.
 ###### As Differentiability relates to [[Limits#Limits Define Continuity or Discontinuities Discontinuity|Continuity]]:
+Differentiability implies Continuity but not every continuous function is differentiable. 
+###### Continuity
+A function can be continuous without being differentiable.
+A function fff is continuous at a point p\mathbf{p}p if, for every ϵ>0\epsilon > 0ϵ>0, there exists a δ>0\delta > 0δ>0 such that for all points q\mathbf{q}q within a distance δ\deltaδ of p\mathbf{p}p, the value of f(q)f(\mathbf{q})f(q) is within ϵ\epsilonϵ of f(p)f(\mathbf{p})f(p). In simpler terms, small changes in the input lead to small changes in the output.
+An example of this is the absolute value function f(x)=∣x∣f(x) = |x|f(x)=∣x∣, which is continuous everywhere but not differentiable at x=0x = 0x=0.
+- **Differentiability**: If a function is differentiable at a point, it must be continuous at that point. However, the reverse is not necessarily true.
+
 **For a function to be differentiable at a point**, it **must** be **continuous at that point**, and the **derivative** at that point must also exist.
 	Solutions to differential equations are often smooth and continuous (i.e. differentiable).
 		This is because most physical process **behave** as though they are continuous (i.e. smooth) over time and space.

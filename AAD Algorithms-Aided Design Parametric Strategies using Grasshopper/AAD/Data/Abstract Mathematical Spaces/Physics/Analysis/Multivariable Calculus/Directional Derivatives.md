@@ -69,11 +69,18 @@ Ensure the direction vector $\mathbf{v}$ is a unit vector.
 	If $\mathbf{v} = (a, b)$, normalize it by dividing by its magnitude:
 $$\LARGE \mathbf{u} = \left( \frac{a}{\sqrt{a^2 + b^2}}, \frac{b}{\sqrt{a^2 + b^2}} \right)$$
 ### 2. Compute the [[Gradients|Gradient]]
+The set of partial derivatives of a scalar function $f$ with respect to each spatial variable forms the components of the gradient vector. 
+	The gradient vector $\nabla f$ is a vector field that represents the rate and direction of the fastest increase of the scalar function at every point in the domain.
+
 Find the gradient of $f$ at the point $(x_0, y_0)$. 
 	The gradient is a vector of partial derivatives:
 $$\LARGE \nabla f(x_0, y_0) = \left( \frac{\partial f}{\partial x}(x_0, y_0), \frac{\partial f}{\partial y}(x_0, y_0) \right)$$
 ### 3. [[Statics Analysis#Dot Product (i.e. Scalar Product)|Dot Product]]
 The directional derivative is **the dot product of the gradient vector and the unit vector**, reflecting how much of the gradient’s magnitude is in the direction of $\mathbf{u}$.
+
+The directional derivative $D_{\mathbf{u}}f$ is obtained by taking the dot product of the gradient $\nabla f$ and the unit vector $\mathbf{u}$. 
+	This operation projects the gradient vector onto the direction specified by $\mathbf{u}$, giving the rate of change of the scalar function $f$ in that direction.
+		This projection tells us how fast the function $f$ is increasing in that specific direction.
 
 Take the dot product of the gradient vector and the normalized direction vector:
 $$\LARGE D_{\mathbf{u}} f(x_0, y_0) = \nabla f(x_0, y_0) \cdot \mathbf{u}$$
