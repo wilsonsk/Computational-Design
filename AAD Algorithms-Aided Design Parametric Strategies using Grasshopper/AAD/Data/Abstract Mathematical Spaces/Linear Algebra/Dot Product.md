@@ -1,5 +1,7 @@
 # Dot Product 
 The dot product (also known as the scalar product) of two vectors in Euclidean space has a geometric interpretation that connects it to the projection concept.
+	When you take the dot product of two vectors, you are essentially measuring how much one vector projects onto another.
+		The Dot Product measures the magnitude of $\mathbf{a}$ in the direction of $\mathbf{b}$ (or vice versa), scaled by the magnitude of $\mathbf{b}$.
 ###### Components
 **Dot Product $a \cdot b$** gives us a measure of how much one vector extends in the direction of another.
 $$\LARGE a \cdot b$$
@@ -27,13 +29,16 @@ It represents the length of the vector $b$.
 Consider two vectors $a$ and $b$ in a Euclidean space. 
 	Let $\theta$ be the angle between them. 
 		The geometric definition of the dot product involves the magnitudes (lengths) of these vectors and the cosine of the angle between them.
-
+			When you take the dot product of two vectors, you are essentially measuring how much one vector projects onto another.
 ### Steps to Derive the Dot Product
 1. **Definition of the Dot Product** The dot product of two vectors $a$ and $b$, written as $a \cdot b$, is defined as:$$a \cdot b = \|a\| \|b\| \cos \theta$$where:
 
 - $|a|$ is the magnitude of $a$,
 - $|b|$ is the magnitude of $b$,
 - $\theta$ is the angle between $a$ and $b$.
+
+This formula tells us that the dot product measures the magnitude of $\mathbf{a}$ in the direction of $\mathbf{b}$ (or vice versa), scaled by the magnitude of $\mathbf{b}$.
+	The dot product inherently involves the concept of projection. It measures the extent to which one vector projects onto another.
 
 2. **[[Projection#Scalar Projection|Scalar Projection]]** The projection of $a$ onto $b$ (or vice versa) helps to understand the dot product. 
 	1. The projection of $a$ onto the direction of $b$ is given by the component of $a$ that lies along $b$. This projection is:$$\LARGE \| a \| \cos \theta = \frac{a \cdot b}{\|b\|}$$$$\LARGE \text{proj}_{b} a = \|a\| \cos \theta$$

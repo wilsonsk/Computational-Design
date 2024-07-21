@@ -102,19 +102,26 @@ The reasoning behind using the dot product to compute the directional derivative
 	The gradient vector $\nabla f$ represents the direction and rate of the steepest increase, while the unit vector $\mathbf{u}$ specifies the desired direction of change. 
 		The dot product projects the gradient onto this direction, yielding the rate at which the function $f$ changes as we move in the direction of $\mathbf{u}$.
 			 This method leverages the inherent properties of the dot product to capture the directional aspect of the rate of change effectively.
-			 
-A projection measures how much one vector lies in the direction of another.
-	In the context of the directional derivative, we project the gradient vector onto a unit vector to find the rate of change of the function in that specific direction. 
-		The dot product facilitates this projection by providing a scalar measure of the component of one vector along another.
+
+When it comes to directional derivatives, the concept of projection via the dot product becomes very useful. The directional derivative of a scalar field $f$ in the direction of a unit vector $u$ is given by the dot product of the gradient of $f$ and the unit vector $u$:
+
+$$D_{u} f = \nabla f \cdot u$$
+Here’s why this works:
 ##### Computing the Directional Derivative
 The directional derivative of $f$ in the direction of $\mathbf{u}$ measures the rate at which $f$ changes as we move in the direction specified by $\mathbf{u}$.
 	This can be visualized as how much the scalar function $f$ is increasing in the direction of $\mathbf{u}$.
+###### Gradient Vector $\nabla f$
+- The gradient vector $\nabla f$ points in the direction of the steepest increase of the function $f$.
+- Its magnitude represents the rate of increase in that direction.
 ##### Computing the [[Static Equilibrium#Unit Vector|Unit Vector]]
 A unit vector $\mathbf{u}$ specifies a particular direction in space and has a magnitude of 1. 
-	The unit vector is used to indicate the direction in which we want to measure the rate of change of the function.
+	The unit vector is used to indicate the direction in which we want to measure the rate of change of the function. $u$
+		A unit vector $u$ has a magnitude of 1 and indicates the direction in which we want to find the derivative.
 ##### Utilizing the Dot Product 
-By taking the dot product of the gradient $\nabla f$ with the unit vector $\mathbf{u}$, we effectively project the gradient vector onto $\mathbf{u}$. 
+By taking the dot product of the gradient $\nabla f$ with the unit vector $\mathbf{u}$, we effectively [[Projection#Vector Projection|project]] the gradient vector onto $\mathbf{u}$. 
 	This projection tells us how much of the gradient's magnitude is in the direction of $\mathbf{u}$, which is precisely the rate of change of $f$ in that direction.
+		The dot product $\nabla f \cdot u$ measures how much of the gradient vector $\nabla f$ lies in the direction of $u$.
+			This gives us the rate of change of $f$ in the direction of $u$.
 ### Example Calculation
 Suppose $f(x, y) = x^2 + y^2$ and we want to find the directional derivative at $(1, 1)$ in the direction of the vector $(1, 2)$.
 1. **Normalize the Direction Vector**:
