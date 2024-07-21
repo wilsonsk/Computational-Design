@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Directional Derivatives.md",
+                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Dot Product.md",
                 "mode": "source",
                 "source": false
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Directional Derivatives.md",
+                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Dot Product.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -196,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Directional Derivatives.md",
+                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Dot Product.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -219,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Directional Derivatives.md"
+                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Dot Product.md"
               }
             }
           },
@@ -255,8 +255,11 @@
   },
   "active": "8f6a1bbccf5596f1",
   "lastOpenFiles": [
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Gradients.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Projection.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Dot Product.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Directional Derivatives.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Gradients.md",
+    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Statics Analysis.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Partial Derivatives.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Mapping.md",
@@ -264,7 +267,6 @@
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Spaces.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/A Map of Change as Rates to Limits of those Rates to Differentials to Derivatives.md",
     "Drawing/Perspective Projection.md",
-    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Statics Analysis.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Fields.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Multivariable Calculus.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus",
@@ -283,13 +285,11 @@
     "Abstract/Morphogenesis/Morphogenetic Fields.md",
     "images/Pasted image 20240708070643.png",
     "images/Pasted image 20240708065933.png",
-    "Data/Computation/Programming as an Abstract Mathematical Environment.md",
     "Data/Computation",
     "images/Pasted image 20240705151637.png",
     "images/Pasted image 20240705152625.png",
     "images/Pasted image 20240705152613.png",
     "images/Pasted image 20240705151727.png",
-    "Curves/Continuities.md",
     "images/Pasted image 20240630084728.png",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Structures",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Linearity",

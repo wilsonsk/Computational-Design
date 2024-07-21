@@ -32,6 +32,13 @@ $$\LARGE \mathbf{u} = \langle u_x, u_y, u_z \rangle = \LARGE \mathbf{u} = \langl
 $$\LARGE u_x = \cos(\alpha), \quad u_y = \cos(\beta), \quad u_z = \cos(\gamma)$$
 - - -
 ## Calculation of Directional Derivatives
+When we talk about the directional derivative of a scalar function in the direction of a unit vector $\mathbf{u}$, we project the gradient vector $\nabla f∇$ onto $\mathbf{u}$ to determine how much of the gradient’s magnitude is in the direction of $\mathbf{u}$.
+
+This projection is given by the dot product:
+
+$$\LARGE D_{\mathbf{u}} f = \nabla f \cdot \mathbf{u}$$
+Here, $\nabla f \cdot \mathbf{u}$ gives a scalar that tells us the rate of change of $f$ in the direction of $\mathbf{u}$.
+
 ![[Pasted image 20240708134159.png]]
 *Finding the directional derivative at a point on the graph of $\LARGE z = f(x,y)$.
 	The slope of the blue arrow on the graph indicates the value of the directional derivative at that point*.
@@ -76,6 +83,8 @@ Find the gradient of $f$ at the point $(x_0, y_0)$.
 	The gradient is a vector of partial derivatives:
 $$\LARGE \nabla f(x_0, y_0) = \left( \frac{\partial f}{\partial x}(x_0, y_0), \frac{\partial f}{\partial y}(x_0, y_0) \right)$$
 ### 3. [[Statics Analysis#Dot Product (i.e. Scalar Product)|Dot Product]]
+The Dot Product projects the Gradient Vector onto the Unit Vector, which gives the component of the Gradient in the direction of the Unit Vector. 
+
 The directional derivative is **the dot product of the gradient vector and the unit vector**, reflecting how much of the gradient’s magnitude is in the direction of $\mathbf{u}$.
 
 The directional derivative $D_{\mathbf{u}}f$ is obtained by taking the dot product of the gradient $\nabla f$ and the unit vector $\mathbf{u}$. 
@@ -86,6 +95,26 @@ Take the dot product of the gradient vector and the normalized direction vector:
 $$\LARGE D_{\mathbf{u}} f(x_0, y_0) = \nabla f(x_0, y_0) \cdot \mathbf{u}$$
 ### Result
 $$\LARGE D_{\mathbf{u}} f(x_0, y_0) = \frac{\partial f}{\partial x}(x_0, y_0) \cdot \frac{a}{\sqrt{a^2 + b^2}} + \frac{\partial f}{\partial y}(x_0, y_0) \cdot \frac{b}{\sqrt{a^2 + b^2}}$$
+#### The Reasoning Behind Utilizing the [[Dot Product|Dot Product]]
+As a means to compute the Directional Derivative.
+
+The reasoning behind using the dot product to compute the directional derivative is rooted in the geometric interpretation of vectors and [[Projection|projections]]. 
+	The gradient vector $\nabla f$ represents the direction and rate of the steepest increase, while the unit vector $\mathbf{u}$ specifies the desired direction of change. 
+		The dot product projects the gradient onto this direction, yielding the rate at which the function $f$ changes as we move in the direction of $\mathbf{u}$.
+			 This method leverages the inherent properties of the dot product to capture the directional aspect of the rate of change effectively.
+			 
+A projection measures how much one vector lies in the direction of another.
+	In the context of the directional derivative, we project the gradient vector onto a unit vector to find the rate of change of the function in that specific direction. 
+		The dot product facilitates this projection by providing a scalar measure of the component of one vector along another.
+##### Computing the Directional Derivative
+The directional derivative of $f$ in the direction of $\mathbf{u}$ measures the rate at which $f$ changes as we move in the direction specified by $\mathbf{u}$.
+	This can be visualized as how much the scalar function $f$ is increasing in the direction of $\mathbf{u}$.
+##### Computing the [[Static Equilibrium#Unit Vector|Unit Vector]]
+A unit vector $\mathbf{u}$ specifies a particular direction in space and has a magnitude of 1. 
+	The unit vector is used to indicate the direction in which we want to measure the rate of change of the function.
+##### Utilizing the Dot Product 
+By taking the dot product of the gradient $\nabla f$ with the unit vector $\mathbf{u}$, we effectively project the gradient vector onto $\mathbf{u}$. 
+	This projection tells us how much of the gradient's magnitude is in the direction of $\mathbf{u}$, which is precisely the rate of change of $f$ in that direction.
 ### Example Calculation
 Suppose $f(x, y) = x^2 + y^2$ and we want to find the directional derivative at $(1, 1)$ in the direction of the vector $(1, 2)$.
 1. **Normalize the Direction Vector**:

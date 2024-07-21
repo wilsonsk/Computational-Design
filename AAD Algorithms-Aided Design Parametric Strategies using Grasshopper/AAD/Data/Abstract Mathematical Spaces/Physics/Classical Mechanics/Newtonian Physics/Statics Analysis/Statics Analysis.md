@@ -76,6 +76,8 @@ The tensions in the cables supporting this container can be treated as point for
 The friction force between the bow and string on this cello can be treated as a point force
 ![[Pasted image 20240503162235.png]]
 ### Dot Product (i.e. Scalar Product)
+The dot product captures the cosine of the angle between two vectors, scaled by their magnitudes.
+
 Is used extensively to project one vector onto another and to determine angles between vectors.
 	It is defined mathematically between two vectors and results in a scalar (a single number), unlike the cross product, which results in a vector.
 

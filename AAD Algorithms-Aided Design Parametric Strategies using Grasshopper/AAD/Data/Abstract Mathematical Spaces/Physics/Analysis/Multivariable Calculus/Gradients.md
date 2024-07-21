@@ -69,7 +69,7 @@ This expression represents a vector field.
 	For each point $(x, y)$ in the domain, there is a corresponding gradient vector $(2x, 2y)$.
 ### Gradient at a Point (i.e. a Single Vector)
 The Gradient of a scalar function at a specific point in the domain is a vector whose components are the partial derivatives at that point. 
-	This vector points in the direction of the greatest rate of increase of the function at that point, and its magnitude represents the rate of this increase.
+	This vector points in the direction of the greatest rate of increase (i.e. the steepest ascent of the function) of the function at that point, and its magnitude represents the rate of this increase of the function.
 
 The gradient vector $\nabla f (\mathbf{p})$ points in the direction of the greatest rate of increase of the scalar function $f$ at the point $\mathbf{p}$.
 
