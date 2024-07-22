@@ -183,32 +183,24 @@ Functions can be classified based on different criteria.
 > **Example**: If $A = \{1, 2, 3\}$, the identity function is $f = \{(1, 1), (2, 2), (3, 3)\}$.
 #### Output Types of Functions
 ##### *For Context Within Structured Sets, See: [[Abstract Mathematical Spaces#Preservation Through Inheritance and Extension of Function Output and Input Types|Preservation Through Inheritance and Extension of Function Output and Input Types]]*
-##### Output Type Preserved (i.e. Determined) by Inheritance
-###### Function Output Types Are Determined by the Fields or Spaces in Which the Functions Are Defined (i.e. The Lower Level Imparting Field or Space)
+#### Output Type Preserved (i.e. Determined) by Inheritance
+##### Function Output Types Are Determined by the Fields or Spaces in Which the Functions Are Defined (i.e. The Lower Level Imparting Field or Space)
 Functions can be characterized by their output types, and these types are inherently dependent on the field or space within which they exist. 
 	This dependency shapes how functions are defined and how their outputs are structured. 
 		Furthermore, function types exhibit a hierarchical nature, where more complex function types build upon simpler ones, inheriting their properties and extending their applicability to higher-dimensional spaces.
 
 Function types based on output can be seen as hierarchical.
 	Where scalar functions within the field of real numbers is inherited by any space that is a itself a subset of the real number field.
-##### Input Type Preserved (i.e. Determined) by Extensions
-###### Function Input Types Are Determined by the Fields or Spaces in Which the Functions Operate (i.e. The Higher Level Inheriting Spaces)
+#### Input Type Preserved (i.e. Determined) by Extensions
+##### Function Input Types Are Determined by the Fields or Spaces in Which the Functions Operate (i.e. The Higher Level Inheriting Spaces)
 Extension is represented by the fact that this inherited function can now take as input some type of value from the inheriting domain, extending its applicability to more complex structures.
 	The inherited function can now take as input some type of value from the inheriting domain, extending its applicability.
-###### Differentiating Between Scalar and Vector Functions
-I.e. The difference between $f(x,y)$ and $F(x,y)$.
-$$\LARGE F = \begin{pmatrix} F_1(x,y) \\ F_2(x,y) \end{pmatrix} $$
-The vector $\mathbf{F}$ represents the changes in $x$, $y$, and $z$ due to small changes in $x$ and $y$. 
-	It is a combination of differential changes, not the function $f(x, y)$ itself.
-1. **Function vs. Differential**:
-    - $f(x, y)$ represents the value of the function at a point $(x, y)$.
-    - The vector $\mathbf{F}$ represents changes in the variables and the corresponding change in the function value. 
-		- It encapsulates the derivatives (rates of change), not the function values.
-1. **Different Concepts**:
-    - $f(x, y)$ is a scalar field giving the value of $z$ for each point $(x, y)$.
-    - $\mathbf{F}$ is a vector that combines $\Delta x$, $\Delta y$, and $\Delta z$ to show how changes in $x$ and $y$ affect $z$.
-> [!note]
-> This categorizes functions based on the nature of their output values.
+#### Fundamental Functions (i.e. Base-Level Functions)
+Scalar functions serve as the building blocks for more complex functions. 
+	Higher-level functions like vector and matrix functions are often composed of these scalar functions.
+		Scalar functions are simpler to analyze and understand. 
+			They provide the basis for defining and working with more complex functions.
+> [!note] Base-Level Functions
 > ##### [[Abstract Mathematical Spaces#Scalar Functions|Scalar Functions]]
 > **Field Dependency:** Scalar functions exist within the context of fields, such as the real number field $\mathbb{R}$.
 > **Output Type:** The output of scalar functions is defined by the field they belong to. For example, a scalar function $f: \mathbb{R} \to \mathbb{R}$ produces real number outputs.
@@ -224,6 +216,20 @@ $$f(x,y)$$
 >$$f(x,y,z)$$
 >###### For $n$ Variables
 >$$f(x_1, x_2, \ldots, x_n)$$
+
+#### Higher-Level Functions (i.e. Composite Functions)
+These are functions whose outputs are vectors, matrices, or higher-dimensional tensors, rather than scalars.
+	The individual elements or components of these outputs are inherently scalar values, even if they are not explicitly broken down into scalar functions.
+		I.e. Higher-Level Functions are composed of Scalar Functions.
+##### Composite Nature
+**Composition**: The term "composite function" implies that the higher-level function is built from simpler (scalar) functions. 
+	A composite function is one that is formed by combining two or more functions. In the context of higher-level output functions, this typically means that each component of the output (whether it's an element of a vector, matrix, or tensor) is itself a function of the input variables.
+
+When a higher-level function is defined, the computation of its output involves operations that ultimately depend on scalar values.
+	Even if higher-level functions (such as vector or matrix functions) are not explicitly defined by their scalar components, they are at least implicitly defined by scalar functions.
+		This implicit relationship underscores the fundamental nature of scalar functions in constructing and understanding more complex mathematical structures.
+			The operations and rules that define these higher-level functions involve computations that ultimately reduce to scalar values, ensuring that the foundational role of scalar functions is preserved.
+>[!note] Higher-Level Functions (i.e. Composite Functions)
 > ##### [[Abstract Mathematical Spaces#Vector Function|Vector-Valued Functions]]
 > A vector-valued function maps elements from its domain to vectors.
 > $$\LARGE \mathbf{f}: D \to V$$
