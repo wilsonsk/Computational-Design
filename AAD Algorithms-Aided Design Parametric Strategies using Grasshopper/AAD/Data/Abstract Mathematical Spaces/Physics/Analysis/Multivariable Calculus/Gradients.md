@@ -23,9 +23,11 @@ date created: 2024-07-28
 *The gradient of a scalar field extends the concept of a derivative to multiple dimensions, providing a vector that points in the direction of the steepest increase of the scalar field.*
 ##### *Note: Nabla Operator ($\nabla$)*
 *The Nabla operator is a vector differential operator that, when applied to a scalar or vector field, produces different types of derivatives.* 
-	*Its components are partial derivatives with respect to the spatial coordinates.* 
+	*Its a vector whose components are partial derivatives with respect to the spatial coordinates.* 
 		*In three dimensions, the Nabla operator is defined as:*
 *$$\LARGE \nabla = (\frac{\partial}{\partial x}, \frac{\partial}{\partial y}, \frac{\partial}{\partial z})$$*
+*The Nabla Operator by itself doesn't mean anything.*
+	*It must act on a function.*
 ###### *Applying the Nabla Operator to a Scalar Function: Gradient*
 *When the Nabla operator $\nabla$ is applied to a scalar function $f$, it produces the gradient of $f$.*
 	*The gradient is a vector that contains all the first-order partial derivatives of $f$.* 
@@ -41,6 +43,41 @@ An **increase** or **decrease** in the **magnitude** of a **property**, relative
 	*That vector being the [[Derivatives#4. Is the Unit Tangent Vector|Unit Tangent Vector]] to a given point.*
 		Therefore the Vector of the Partial Derivatives is a Unit Tangent Vector describing the direction of the function in a single dimension.
 			But the **Gradient vector** describes the direction and rate of the steepest increase in a multi-dimensional space.
+### Therefore, the Gradient Vector $\nabla f$ at a point on a level curve (or level surface) is **Perpendicular** to the [[Partial Derivatives#Tangent Plane and Tangent Vector|unit tangent vector]] of that point
+Remember the Derivative is the Differential Ratio
+$$\LARGE \LARGE f'(x) = \frac{df}{dx}$$
+And rearranged it is:
+$$\LARGE \LARGE df=f′(x) dx = \frac{df}{dx}dx$$
+Remember that the Derivative as a Unit Tangent Vector is just a Vector Function that contains the Differentials as components.
+$$\LARGE \mathbf{T}(\Delta x) = \begin{pmatrix} \Delta x \\ \Delta y \end{pmatrix} = \begin{pmatrix} \Delta x \\ f'(x) \Delta x \end{pmatrix}$$
+$$\text{Where } \Delta y = f'(x)\Delta x $$
+The Unit Tangent Vector for a Partial Derivative
+$$\LARGE \mathbf{T}(\Delta x, \Delta y) = \begin{pmatrix} \Delta x \\ \Delta y \\ \Delta z \end{pmatrix} = \begin{pmatrix} \Delta x \\ \Delta y \\ \frac{\partial f}{\partial x} \Delta x + \frac{\partial f}{\partial y} \Delta y \end{pmatrix}$$
+$$\text{Where } \Delta z = \frac{\partial f}{\partial x} \Delta x + \frac{\partial f}{\partial y} \Delta y   $$
+#### Calculating Perpendicularity
+##### Dot Product (Gradient $\cdot$ Tangent Vector)
+For the gradient vector $\nabla f$ to be perpendicular to the tangent vector $T$, their dot product must be zero:
+
+$$
+\nabla f \cdot T = \left( \frac{\partial f}{\partial x}, \frac{\partial f}{\partial y}, -1 \right) \cdot \left( \Delta x, \Delta y, \frac{\partial f}{\partial x} \Delta x + \frac{\partial f}{\partial y} \Delta y \right) = 0
+$$
+
+Performing the dot product calculation:
+
+$$
+\nabla f \cdot T = \frac{\partial f}{\partial x} \Delta x + \frac{\partial f}{\partial y} \Delta y - \left( \frac{\partial f}{\partial x} \Delta x + \frac{\partial f}{\partial y} \Delta y \right)
+$$
+
+Simplifying, we get:
+
+$$
+\nabla f \cdot T = \frac{\partial f}{\partial x} \Delta x + \frac{\partial f}{\partial y} \Delta y - \frac{\partial f}{\partial x} \Delta x - \frac{\partial f}{\partial y} \Delta y = 0
+$$
+Hence, the dot product is zero, confirming that $\nabla f$ is perpendicular to $T$.
+
+Therefore, the gradient vector $\nabla f$ is a Vector Field (i.e. specific vector function) composed of the partial derivatives (differentials) of the scalar function $f$, and this is why it inherently points in the direction of the steepest ascent and is perpendicular to the level curves (or surfaces) of $f$.
+- The gradient vector $\nabla f$ at a point $(x_0, y_0)$ is **perpendicular** to the tangent vector of the level curve at that point.
+	- And therefore, the Gradient always points along the direction of the steepest slope.
 
 A Gradient (of a Scalar Function/Field) is ***itself*** a **[[Abstract Mathematical Spaces#Vector Fields|Vector Function/Field]]** (depending on context).
 	Therefore, the Gradient of a Scalar Function/Field, as a Vector Function/Field, maps points (also vectors which can be represented by those points) from a given domain to vectors in a given codomain.
@@ -51,9 +88,12 @@ A Gradient (of a Scalar Function/Field) is ***itself*** a **[[Abstract Mathemati
 The gradient of a scalar function $f$, denoted as $\nabla f$, is a [[Abstract Mathematical Spaces#Vector Fields|vector field]] that points in the direction of the greatest rate of increase of the function. 
 	The [[Components of Motion|components]] of those produced Vectors are the [[Partial Derivatives|Partial Derivatives]] of the Scalar Function $f$ as each input variable changes (i.e. in respect to each input variable).
 		Therefore, the Gradient of the Scalar Function is a set of Vectors each composed of the Partial Derivatives (as Vector components)
-$$\LARGE \nabla f = \left< \frac{\partial f}{\partial x_1}, \frac{\partial f}{\partial x_2}, \ldots, \frac{\partial f}{\partial x_n} \right>$$
+$$\LARGE \nabla f = \left< \frac{\partial f}{\partial x_1}, \frac{\partial f}{\partial x_2}, \ldots, \frac{\partial f}{\partial x_n} \right> $$
+$$\LARGE \nabla f(x,y,z) = \begin{pmatrix} \frac{\partial}{\partial_x}f(x,y,z)\\ \frac{\partial}{\partial_y}f(x,y,z) \\ \frac{\partial}{\partial_z}f(x,y,z)\end{pmatrix}$$
 	$\LARGE \nabla$ is the [[#Nabla Operator ($ nabla$)|Nabla Operator]].
 		The magnitude of the gradient vector $|\nabla f (\mathbf{p})|$ represents the greatest rate of increase of $f$ at $\mathbf{p}$
+
+
 ### Gradient Over the Domain (Vector Field)
 When you compute the gradient at every point in the domain of the function $f$, you get a vector field.
 	This means that at each point $\mathbf{x}$ in the domain, there is a corresponding gradient vector $\nabla f(\mathbf{x})$.

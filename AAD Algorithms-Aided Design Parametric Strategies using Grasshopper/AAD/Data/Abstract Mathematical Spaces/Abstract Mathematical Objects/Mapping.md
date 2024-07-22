@@ -195,12 +195,24 @@ Function types based on output can be seen as hierarchical.
 ###### Function Input Types Are Determined by the Fields or Spaces in Which the Functions Operate (i.e. The Higher Level Inheriting Spaces)
 Extension is represented by the fact that this inherited function can now take as input some type of value from the inheriting domain, extending its applicability to more complex structures.
 	The inherited function can now take as input some type of value from the inheriting domain, extending its applicability.
-
+###### Differentiating Between Scalar and Vector Functions
+I.e. The difference between $f(x,y)$ and $F(x,y)$.
+$$\LARGE F = \begin{pmatrix} F_1(x,y) \\ F_2(x,y) \end{pmatrix} $$
+The vector $\mathbf{F}$ represents the changes in $x$, $y$, and $z$ due to small changes in $x$ and $y$. 
+	It is a combination of differential changes, not the function $f(x, y)$ itself.
+1. **Function vs. Differential**:
+    - $f(x, y)$ represents the value of the function at a point $(x, y)$.
+    - The vector $\mathbf{F}$ represents changes in the variables and the corresponding change in the function value. 
+		- It encapsulates the derivatives (rates of change), not the function values.
+1. **Different Concepts**:
+    - $f(x, y)$ is a scalar field giving the value of $z$ for each point $(x, y)$.
+    - $\mathbf{F}$ is a vector that combines $\Delta x$, $\Delta y$, and $\Delta z$ to show how changes in $x$ and $y$ affect $z$.
 > [!note]
 > This categorizes functions based on the nature of their output values.
 > ##### [[Abstract Mathematical Spaces#Scalar Functions|Scalar Functions]]
 > **Field Dependency:** Scalar functions exist within the context of fields, such as the real number field $\mathbb{R}$.
 > **Output Type:** The output of scalar functions is defined by the field they belong to. For example, a scalar function $f: \mathbb{R} \to \mathbb{R}$ produces real number outputs.
+> $f(x) = y$ where $y$ is a Single Scalar Value.
 > **Fundamental:** Scalar functions represent the most fundamental level, dealing with outputs in their respective fields.
 > $$\LARGE f:\mathbb{R} \to \mathbb{R}$$
 > A scalar function maps one or more scalar (i.e. a real number, complex number, etc.) elements from its domain to a single scalar (i.e. real numbers, complex number, etc.) output.
@@ -218,6 +230,7 @@ $$f(x,y)$$
 > Where $D$ is the domain and $V$ is a vector space.
 > **Space Dependency:** These functions exist within vector spaces derived from fields. For example, vector spaces like $\mathbb{R}^2$, $\mathbb{R}^3$, or $\mathbb{R}^n$ are derived from the real number field.
 > **Output Type:** The output is a vector in a specific vector space, which is itself defined by the underlying field.
+> $f(x,y) = F$ where $F$ is a Vector. 
 > $$\LARGE \mathbf{f}(t) = \begin{pmatrix} t \\t^2 \\t^3\end{pmatrix}$$
 > Here, $\mathbf{f}$ maps a scalar $t$ to a 3-dimensional vector.
 > ##### Matrix-Valued Functions

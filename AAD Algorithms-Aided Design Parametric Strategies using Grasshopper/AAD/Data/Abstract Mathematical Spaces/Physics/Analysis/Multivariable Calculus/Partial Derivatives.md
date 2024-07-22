@@ -8,7 +8,11 @@
 *Understanding derivatives in the context of scalar fields is crucial for analyzing how these quantities change in space.* 
 
 - - -
-
+## The Differential Equations of Partial Derivatives
+##### 2D
+$$\LARGE df = \Delta z= \frac{\partial f}{\partial x}dx + \frac{\partial f}{\partial y}dy$$
+##### 3D
+$$\LARGE df = \frac{\partial f}{\partial x}dx + \frac{\partial f}{\partial y}dy + \frac{\partial f}{\partial z}dz$$
 ![[Pasted image 20240630153708.png]]
 Derivatives in 2D and 3D (and higher dimensions) are generally referred to as **partial derivatives** when dealing with functions of multiple variables. 
 
@@ -174,7 +178,6 @@ For a scalar function of multiple variables, the concept of the tangent vector c
 
 For a scalar function with multiple variables, the components of the tangent vector at a point are derived using the small changes in each variable and the corresponding changes in the function's value, approximated by the partial derivatives. 
 	The tangent vector provides a direction in the multidimensional space, showing how the function changes with respect to the variables.
-
 ### Why These Components?
 ###### Small Increments:
 $\Delta x$, $\Delta y$, and $\Delta z$ are small increments in the variables and the function value. 
@@ -193,6 +196,13 @@ $$
 \LARGE \frac{\partial f}{\partial x}, \quad \frac{\partial f}{\partial y}
 $$
 ### Tangent Plane and Tangent Vector
+The tangent vector $T(\Delta x, \Delta y)$ visually and mathematically represents the instantaneous rate of change of the function $f$ at a point $x,y$.
+	The components of the vector capture the differential changes in the input and output, providing a linear approximation of the function's behavior near that point.
+
+$$\LARGE \text{The derivative, (i.e. the limit of the slope of the secant line) } $$
+$$\LARGE \text{is } df = \Delta z = \frac{\partial f}{\partial x} \Delta x + \frac{\partial f}{\partial y} \Delta y$$
+$$\LARGE \text{Which itself is the Slope of the Tangent Vector}$$
+$$\LARGE \text{And is a component of the Tangent Vector}$$
 At a point $P = (x_0, y_0, f(x_0, y_0))$, the tangent plane to the surface $z = f(x, y)$ can be defined, and we can derive the tangent vector components from this.
 ### Steps to Derive the Tangent Vector Components
 Consider the [[Abstract Mathematical Spaces#Scalar Functions|scalar function]]
@@ -209,7 +219,7 @@ $$\LARGE \frac{\partial f}{\partial x} \bigg|_{(x_0, y_0)}, \quad \frac{\partial
 
 4. **Corresponding Change in $z$:**
    The corresponding change in $z$, denoted $\Delta z$, can be approximated using the partial derivatives:
-   $$\LARGE \Delta z \approx \frac{\partial f}{\partial x} \Delta x + \frac{\partial f}{\partial y} \Delta y$$
+   $$\LARGE df = \Delta z = \frac{\partial f}{\partial x} \Delta x + \frac{\partial f}{\partial y} \Delta y$$
 ### Tangent Vector Components
 #### [[Abstract Mathematical Spaces#Vector Function|Vector-Valued Functions]]
 The tangent vector itself can be seen as a vector-valued function when we express how changes in $x$ and $y$ (or higher dimensions) affect the function $f$.
@@ -221,8 +231,9 @@ The tangent vector at the point $P$ in the direction of changes $\Delta x$ and $
 - A small change in $y$ is denoted by $\Delta y$.
 - The corresponding change in $z$ is given by: 
 $$\LARGE 
-\mathbf{T} = \begin{pmatrix} \Delta x \\ \Delta y \\ \Delta z \end{pmatrix} = \begin{pmatrix} \Delta x \\ \Delta y \\ \frac{\partial f}{\partial x} \Delta x + \frac{\partial f}{\partial y} \Delta y \end{pmatrix}
+\mathbf{T} = \mathbf{T}(\Delta x, \Delta y) \begin{pmatrix} \Delta x \\ \Delta y \\ \Delta z \end{pmatrix} = \begin{pmatrix} \Delta x \\ \Delta y \\ \frac{\partial f}{\partial x} \Delta x + \frac{\partial f}{\partial y} \Delta y \end{pmatrix}
 $$
+$$\text{Compared with the 1D Derivative } \mathbf{T} = \mathbf{T}(\Delta x) \begin{pmatrix} \Delta x \\ \Delta y \end{pmatrix} = \begin{pmatrix} \Delta x \\ f'(x) \Delta x \end{pmatrix}$$
 ### Example
 
 Consider a function $f(x, y) = x^2 + y^2$ and find the tangent vector at $(x_0, y_0) = (1, 1)$:
@@ -241,9 +252,9 @@ Consider a function $f(x, y) = x^2 + y^2$ and find the tangent vector at $(x_0, 
    Let $\Delta x = 0.1$ and $\Delta y = 0.1$.
 
 4. **Corresponding Change $\Delta z$:**
-$$\LARGE \Delta z \approx \frac{\partial f}{\partial x} \Delta x + \frac{\partial f}{\partial y} \Delta y$$ 
-$$\LARGE = \Delta z \approx 2 \Delta x + 2 \Delta y$$
-$$\LARGE    \Delta z \approx \frac{\partial f}{\partial x} \Delta x + \frac{\partial f}{\partial y} \Delta y = 2 \cdot 1 \cdot 0.1 + 2 \cdot 1 \cdot 0.1 = 0.2 + 0.2 = 0.4$$
+$$\LARGE \Delta z = \frac{\partial f}{\partial x} \Delta x + \frac{\partial f}{\partial y} \Delta y$$ 
+$$\LARGE = \Delta z = 2 \Delta x + 2 \Delta y$$
+$$\LARGE    \Delta z = \frac{\partial f}{\partial x} \Delta x + \frac{\partial f}{\partial y} \Delta y = 2 \cdot 1 \cdot 0.1 + 2 \cdot 1 \cdot 0.1 = 0.2 + 0.2 = 0.4$$
 1. **Tangent Vector Components:**
 
 | Evaluated Vector                                                                                                                             | Vector Function/Field                                                                                                                                                      |

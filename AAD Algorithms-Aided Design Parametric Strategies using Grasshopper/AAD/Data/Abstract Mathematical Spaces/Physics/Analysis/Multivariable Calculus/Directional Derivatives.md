@@ -71,7 +71,7 @@ $$\LARGE D_{\mathbf{u}} f = \nabla f \cdot \mathbf{u} = \frac{\partial f}{\parti
 > ###### Slope of the Secant Line
 > $$\LARGE m_{secant} = \frac{f(a+h\cos\theta,\space b+h\sin\theta) - f(a,b)}{h}$$
 To find the slope of the tangent line in the same direction, we take the limit as $\LARGE h$ approaches zero.
-### 1. [[Statics Analysis#Static Equilibrium Norm of a Vector Magnitude|Normalize]] the Direction Vector
+### 1. [[Normalizing a Vector|Normalize]] the Direction Vector
 Ensure the direction vector $\mathbf{v}$ is a unit vector. 
 	If $\mathbf{v} = (a, b)$, normalize it by dividing by its magnitude:
 $$\LARGE \mathbf{u} = \left( \frac{a}{\sqrt{a^2 + b^2}}, \frac{b}{\sqrt{a^2 + b^2}} \right)$$
@@ -83,7 +83,7 @@ Find the gradient of $f$ at the point $(x_0, y_0)$.
 	The gradient is a vector of partial derivatives:
 $$\LARGE \nabla f(x_0, y_0) = \left( \frac{\partial f}{\partial x}(x_0, y_0), \frac{\partial f}{\partial y}(x_0, y_0) \right)$$
 ### 3. [[Statics Analysis#Dot Product (i.e. Scalar Product)|Dot Product]]
-The Dot Product projects the Gradient Vector onto the Unit Vector, which gives the component of the Gradient in the direction of the Unit Vector. 
+The Dot Product [[projects|projects]] the Gradient Vector onto the Unit Vector, which gives the component of the Gradient in the direction of the Unit Vector. 
 
 The directional derivative is **the dot product of the gradient vector and the unit vector**, reflecting how much of the gradient’s magnitude is in the direction of $\mathbf{u}$.
 
@@ -123,25 +123,42 @@ By taking the dot product of the gradient $\nabla f$ with the unit vector $\math
 		The dot product $\nabla f \cdot u$ measures how much of the gradient vector $\nabla f$ lies in the direction of $u$.
 			This gives us the rate of change of $f$ in the direction of $u$.
 ### Example Calculation
-Suppose $f(x, y) = x^2 + y^2$ and we want to find the directional derivative at $(1, 1)$ in the direction of the vector $(1, 2)$.
-1. **Normalize the Direction Vector**:
+Suppose $f(x, y) = x^2 + y^2$ and we want to find the directional derivative at $(1, 1)$ in the direction of the vector, $\vec{v}$ $(1, 2)$.
+1. **[[Static Equilibrium#Normalizing Vectors (i.e. unit vectors)|Normalize]] the Direction Vector**:
 $$\LARGE \mathbf{v} = (1, 2) \implies \|\mathbf{v}\| = \sqrt{1^2 + 2^2} = \sqrt{5}$$
-
+$$\LARGE \left( \frac{1}{\sqrt{1^2 + 2^2}}\right),\left(\frac{2}{\sqrt{1^2+2^2}}\right)$$
 $$\LARGE \mathbf{u} = \left( \frac{1}{\sqrt{5}}, \frac{2}{\sqrt{5}} \right)$$
 
 2. **Compute the Gradient**:
 
 $$\LARGE \nabla f(x, y) = \left( \frac{\partial f}{\partial x}, \frac{\partial f}{\partial y} \right) = (2x, 2y)$$
 
-	At the point $(1, 1)$:
-
+##### A. At the Point $(1, 1)$:
+$$\LARGE D_{\mathbf{u}} f(x, y) = \nabla f(x, y) \cdot \mathbf{u}$$
+1. **Substituting the $x,y$ points for $\nabla f(x, y)$ and $\mathbf{u}$**
 $$\LARGE \nabla f(1, 1) = (2 \cdot 1, 2 \cdot 1) = (2, 2)$$
 
-3. **Dot Product**:
+2. **Compute the Dot Product**:
 $$\LARGE D_{\mathbf{u}} f(1, 1) = \nabla f(1, 1) \cdot \mathbf{u} = (2, 2) \cdot \left( \frac{1}{\sqrt{5}}, \frac{2}{\sqrt{5}} \right)$$
 
-4. **Result**:
+3. **Result**:
 $$\LARGE D_{\mathbf{u}} f(1, 1) = 2 \cdot \frac{1}{\sqrt{5}} + 2 \cdot \frac{2}{\sqrt{5}} = \frac{2}{\sqrt{5}} + \frac{4}{\sqrt{5}} = \frac{6}{\sqrt{5}}$$
+##### B. As a Vector-Valued Function
+To find the directional derivative as a vector function rather than evaluating it at a single point, you need to express the directional derivative in terms of the general coordinates $(x, y)$. 
+$$\LARGE D_{\mathbf{u}} f(x, y) = \nabla f(x, y) \cdot \mathbf{u}$$
+1. **Substituting the expressions for $\nabla f(x, y)$ and $\mathbf{u}$**
+$$\LARGE D_{\mathbf{u}} f(x, y) = (2x, 2y) \cdot \left( \frac{1}{\sqrt{5}}, \frac{2}{\sqrt{5}} \right)$$
+2. **Compute the Dot Product**:
+   The dot product of the gradient and the unit vector is:
+$$\LARGE D_{\mathbf{u}} f(x, y) = 2x \cdot \frac{1}{\sqrt{5}} + 2y \cdot \frac{2}{\sqrt{5}}$$
+$$\LARGE D_{\mathbf{u}} f(x, y) = \frac{2x}{\sqrt{5}} + \frac{4y}{\sqrt{5}}$$
+3. **Simplify the Expression**:
+   Combining the terms, the directional derivative as a vector function is:
+$$\LARGE D_{\mathbf{u}} f(x, y) = \frac{2x + 4y}{\sqrt{5}}$$
+
+Therefore, the directional derivative of $f(x, y) = x^2 + y^2$ in the direction of the vector $\mathbf{v} = (1, 2)$, expressed as a function of $(x, y)$, is:
+$$\LARGE D_{\mathbf{u}} f(x, y) = \frac{2x + 4y}{\sqrt{5}}$$
+And, the vector form of the directional derivative of $f(x, y) = x^2 + y^2$ in the direction of the vector $\mathbf{v} = (1, 2)$, expressed as a function of $(x, y)$, is: $$\LARGE \mathbf{D}_{\mathbf{u}} f(x, y) = \left< \frac{2x}{\sqrt{5}}, \frac{4y}{\sqrt{5}} \right> = \begin{pmatrix}\frac{2x}{\sqrt{5}} \\ \frac{4y}{\sqrt{5}} \end{pmatrix}$$
 ### Special Cases
 1. When $\mathbf{v}$ is aligned with the $x$-axis ($\mathbf{v} = (1, 0)$), the directional derivative simplifies to the partial derivative with respect to $x$:
 $$\LARGE D_{\mathbf{v}} f = \frac{\partial f}{\partial x}$$ 
@@ -152,17 +169,19 @@ $$\LARGE D_{\mathbf{v}} f = \frac{\partial f}{\partial y}$$
 ## How the Gradient Uses Partial Derivatives to Calculate the Directional Derivative
 > [!note]
 > ##### 1. Directional Derivative
-> The directional derivative of a function $f$ in the direction of a unit vector $\LARGE \mathbf{u} = \langle u_x, u_y, u_z \rangle$ is a measure of the rate at which $f$ changes in that direction. 
+> The directional derivative of a function $f$ in the direction of a unit vector $\LARGE \mathbf{e} = \langle e_x, e_y, e_z \rangle$ is a measure of the rate at which $f$ changes in that direction. 
 > The gradient allows us to calculate the directional derivative as follows:
-> $$\LARGE D_{\mathbf{u}} f = \nabla f \cdot \mathbf{u} = \frac{\partial f}{\partial x} u_x + \frac{\partial f}{\partial y} u_y + \frac{\partial f}{\partial z} u_z$$
+> $$\LARGE D_{\mathbf{e}} f = \nabla f \cdot \mathbf{e} = \frac{\partial f}{\partial x} e_x + \frac{\partial f}{\partial y} e_y + \frac{\partial f}{\partial z} e_z$$
 > Where:
-> $\LARGE D_{u}f$ gives the rate at which the function $f$ changes as you move from a point in the direction of $\mathbf{u}$.​
+> $\LARGE D_{e}f$ gives the rate at which the function $f$ changes as you move from a point in the direction of $\mathbf{e}$.​
 > 
 > Here’s how this works:
-> - The gradient $\LARGE \nabla f$ gives the vector of partial derivatives of $f$.
-> - The dot product $\LARGE \nabla f \cdot \mathbf{u}$ projects the gradient vector onto the direction vector $\mathbf{u}$, yielding the rate of change of $f$ in that direction.
+> - The gradient of scalar field $\LARGE \nabla f$ gives the vector field containing partial derivatives of $f$.
+> - The dot product $\LARGE \nabla f \cdot \mathbf{e}$ projects the gradient vector onto the direction vector $\mathbf{e}$, yielding the rate of change of $f$ in that direction.
 > ##### 2. Finding Maximal Increase
 > The gradient points in the direction of the steepest ascent of the scalar field $f$. 
 > By knowing the gradient, one can determine how to move in space to increase the function $f$ most rapidly.
 
+![[Pasted image 20240721131026.png]]
+![[Pasted image 20240721131807.png]]
 - - -

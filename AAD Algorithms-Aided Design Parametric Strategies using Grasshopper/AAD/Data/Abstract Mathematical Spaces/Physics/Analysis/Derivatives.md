@@ -265,8 +265,8 @@ It [[Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Measurement
 The derivative is the ratio of the change in the output to the change in the input as the change in the input approaches zero.
 ### 2. [[#The Differential (i.e. the Limit) is the Instantaneous Rate of Change|The Instantaneous Rate of Change of a Function]]
 A derivative (of a function $f(x)$) at a single point $f'(x)$, is itself a function that maps that single point (as an input) to the **value** of the **limit** of the **average rate of change** (i.e. limit of $\Delta y / \Delta x$) of that input.
-### 3. [[#The Differential Ratio *is* the Limit *of* the Slope of the Tangent Line|The Limit of the Slope of the Tangent Line]]
-A **derivative** of a **function** at a point **provides the slope of the [[Tangent Line|tangent]] line to the function at that specific point**.^calculus-derivatives
+### 3. [[#The Differential Ratio *is* the Limit *of* the Slope of the Tangent Line|The Limit of the Slope of the Secant Line]] and the Slope of the Tangent Line
+A **derivative** of a **function** at a point **provides the slope of the [[Secant Line|Secant]] line to the function at that specific point**.^calculus-derivatives
 The **derivative** (which only exists for a given point) is itself is a **value** that represents the **exact slope** of the **tangent vector** at that **point** it is associated with (on the curve).
 	I.e. The **derivative** ***is*** the **slope of the tangent line**.
 		![[Pasted image 20240410150406.png]]
@@ -276,7 +276,7 @@ The **derivative** (which only exists for a given point) is itself is a **value*
 	The derivative at any point, gives the direction of the tangent vector at that point.
 		For surfaces, taking partial derivatives provides the tangent planes.
 
-Formally, the derivative at a point $a$, is **defined** as the [[Limits|limit]] of the slope of the [[Tangent Line|tangent line]] (i.e. **instantaneous rate of change**)
+Formally, the derivative at a point $a$, is **defined** as the [[Limits|limit]] of the slope of the Secant Line (i.e. **instantaneous rate of change**)
 ![[Pasted image 20240422232308.png]]
 ![[Pasted image 20240422233019.png]]
 As the **interval or distance** over which the change is measured (between point $a$ and another determined point), **approaches zero**. ^c2858f
@@ -290,6 +290,9 @@ As the **interval or distance** over which the change is measured (between point
 The **[[Limits|limit]]** is the **means** of **transitioning** between the **average rate of change** to the **instantaneous rate of change**. ^limit-as-a-transition
 ![[Pasted image 20240410153825.png|400]] ^d8b06d
 ### 4. Is the Unit Tangent Vector
+The tangent vector $T(\Delta x)$ visually and mathematically represents the instantaneous rate of change of the function $f$ at a point $x$.
+	The components of the vector capture the differential changes in the input and output, providing a linear approximation of the function's behavior near that point.
+
 In the context of single-variable calculus, the derivative $f'(x)$ gives the slope of the tangent line to the curve $y=f(x)$ at the point $x$. If we interpret this geometrically:
 
 The tangent vector to the curve at point $(x, f(x))$ can be thought of as having components that describe its direction and magnitude.
@@ -304,9 +307,12 @@ The tangent vector at $P$ can be described in terms of its components along the 
 Let $\Delta x$  be a small change in $x$. The corresponding change in $y$, denoted $\Delta y$, can be approximated using the derivative $f'(x)$. 
 	This represents the corresponding change in the $y$-direction based on the slope of the function at the point $x$. 
 		The derivative $f'(x)$ gives the rate of change of $y$ with respect to $x$.
-$$\LARGE y \approx f'(x) \Delta x $$
+			This represents the corresponding change in $y$ based on the slope of the function at that point.
+$$\LARGE y = f'(x) \Delta x $$
+$$\LARGE \text{Which itself is the Slope of the Tangent Vector}$$
+$$\LARGE \text{And is a component of the Tangent Vector}$$
 The components of the tangent vector are given by the changes in $x$ and $y$:
-$$\LARGE \mathbf{T} = \begin{pmatrix} \Delta x \\ \Delta y \end{pmatrix} = \begin{pmatrix} \Delta x \\ f'(x) \Delta x \end{pmatrix}$$
+$$\LARGE \mathbf{T} = \mathbf{T}(\Delta x) \begin{pmatrix} \Delta x \\ \Delta y \end{pmatrix} = \begin{pmatrix} \Delta x \\ f'(x) \Delta x \end{pmatrix}$$
 ##### Unit Tangent Vector
 The direction of the tangent vector is given by the slope $f'(x)$.
 	If $\Delta x = 1$ then $f'(x)\Delta x == f'(x)$

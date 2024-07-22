@@ -25,6 +25,13 @@ The magnitude (or norm) of vector $b$ is denoted as $\|b\|$ and is defined as:
 
 $$\|b\| = \sqrt{b_1^2 + b_2^2 + \ldots + b_n^2}$$
 It represents the length of the vector $b$.
+##### Inherent Projection
+the dot product inherently involves projection because it measures/quantifies how much one vector extends in the direction of another (i.e. measures the extent to which vectors align with each other).
+	By incorporating the cosine of the angle between them, it captures the idea of projecting one vector onto the other: 
+
+**Alignment**: The dot product is large and positive when vectors are pointing in the same direction, indicating a significant projection. 
+**Orthogonality**: The dot product is zero when vectors are perpendicular, indicating no projection.
+**Opposition**: The dot product is negative when vectors point in opposite directions, indicating a projection in the negative direction.
 ## Geometric Interpretation
 Consider two vectors $a$ and $b$ in a Euclidean space. 
 	Let $\theta$ be the angle between them. 
@@ -38,29 +45,101 @@ Consider two vectors $a$ and $b$ in a Euclidean space.
 - $\theta$ is the angle between $a$ and $b$.
 
 This formula tells us that the dot product measures the magnitude of $\mathbf{a}$ in the direction of $\mathbf{b}$ (or vice versa), scaled by the magnitude of $\mathbf{b}$.
-	The dot product inherently involves the concept of projection. It measures the extent to which one vector projects onto another.
+	The dot product inherently involves the concept of [[Projection|projection]]. 
+		Which measures the extent to which one vector projects onto another.
 
 2. **[[Projection#Scalar Projection|Scalar Projection]]** The projection of $a$ onto $b$ (or vice versa) helps to understand the dot product. 
 	1. The projection of $a$ onto the direction of $b$ is given by the component of $a$ that lies along $b$. This projection is:$$\LARGE \| a \| \cos \theta = \frac{a \cdot b}{\|b\|}$$$$\LARGE \text{proj}_{b} a = \|a\| \cos \theta$$
 
 4. **Using Projections** If we project $a$ onto $b$, the length of this projection is $|a| \cos \theta$. This projection is then scaled by the magnitude of $b$ to give the dot product:$$a \cdot b = \|b\| \times (\|a\| \cos \theta)$$
 5. Thus:$$a \cdot b = \|a\| \|b\| \cos \theta$$
-### Algebraic Interpretation
-Now let's derive the dot product from an algebraic perspective, starting from the components of the vectors.
+## Algebraic Interpretation
 
-1. **Component Form of Vectors** Let vectors $a$ and $b$ be represented in component form as:$$a = (a_1, a_2, \ldots, a_n)$$
-$$b = (b_1, b_2, \ldots, b_n)$$
-2. **Definition of Dot Product in Component Form** The dot product of $a$ and $b$ in $n$-dimensional space is defined as:$$a \cdot b = a_1 b_1 + a_2 b_2 + \ldots + a_n b_n$$
-3. **Connection to Geometry** To connect this component form to the geometric definition, we use the Law of Cosines. For vectors $a$ and $b$, the Law of Cosines in a plane spanned by these vectors states:$$\|a - b\|^2 = \|a\|^2 + \|b\|^2 - 2 \|a\| \|b\| \cos \theta$$
-4. **Expressing the Distance Squared** The squared distance between $a$ and $b$ in terms of components is:$$\|a - b\|^2 = (a_1 - b_1)^2 + (a_2 - b_2)^2 + \ldots + (a_n - b_n)^2$$
-5. Expanding this:$$\|a - b\|^2 = a_1^2 + b_1^2 - 2 a_1 b_1 + a_2^2 + b_2^2 - 2 a_2 b_2 + \ldots + a_n^2 + b_n^2 - 2 a_n b_n$$
-6. This can be grouped as:$$\|a - b\|^2 = \|a\|^2 + \|b\|^2 - 2 (a_1 b_1 + a_2 b_2 + \ldots + a_n b_n)$$
-7. **Equating Both Expressions** From the geometric interpretation, we know:$$\|a - b\|^2 = \|a\|^2 + \|b\|^2 - 2 \|a\| \|b\| \cos \theta$$
-8. Equating the two expressions for $|a - b|^2$:$$\|a\|^2 + \|b\|^2 - 2 (a_1 b_1 + a_2 b_2 + \ldots + a_n b_n) = \|a\|^2 + \|b\|^2 - 2 \|a\| \|b\| \cos \theta$$
-9. Canceling $|a|^2 + |b|^2$ from both sides:$$-2 (a_1 b_1 + a_2 b_2 + \ldots + a_n b_n) = -2 \|a\| \|b\| \cos \theta$$
-10. Dividing both sides by $-2$:$$a_1 b_1 + a_2 b_2 + \ldots + a_n b_n = \|a\| \|b\| \cos \theta$$
-11. Thus, we have derived the dot product equation from both geometric and algebraic perspectives:$$a \cdot b = \|a\| \|b\| \cos \theta$$
-This shows how the dot product encapsulates the geometric idea of projection and angle between two vectors.
+1. **Component Form of Vectors**:
+   - Consider two vectors $\mathbf{a}$ and $\mathbf{b}$ in $n$-dimensional space.
+   - We represent them in component form as:
+     $$
+     \mathbf{a} = (a_1, a_2, \ldots, a_n)
+     $$
+     $$
+     \mathbf{b} = (b_1, b_2, \ldots, b_n)
+     $$
+
+### Definition of Dot Product in Component Form
+
+2. **Definition of Dot Product in Component Form**:
+   - The dot product of $\mathbf{a}$ and $\mathbf{b}$ in $n$-dimensional space is defined as:
+     $$
+     \mathbf{a} \cdot \mathbf{b} = a_1 b_1 + a_2 b_2 + \ldots + a_n b_n
+     $$
+   - This is a purely algebraic definition that provides a way to combine two vectors to get a scalar.
+### Connection to Geometry
+
+3. **Connection to Geometry using the [[Law of Cosines|Law of Cosines]]**:
+   - To understand the geometric interpretation of the dot product, we use the Law of Cosines.
+	   - The Law of Cosines relates the lengths of the sides of a triangle to the cosine of one of its angles.
+   - For vectors $\mathbf{a}$ and $\mathbf{b}$, the Law of Cosines in the plane spanned by these vectors states:
+     $$
+     \|\mathbf{a} - \mathbf{b}\|^2 = \|\mathbf{a}\|^2 + \|\mathbf{b}\|^2 - 2 \|\mathbf{a}\| \|\mathbf{b}\| \cos \theta
+     $$
+   - Here, $\theta$ is the angle between $\mathbf{a}$ and $\mathbf{b}$, and $\|\mathbf{a} - \mathbf{b}\|$ is the Euclidean distance between the points represented by $\mathbf{a}$ and $\mathbf{b}$.
+### Expressing the Distance Squared
+4. **Expressing the Distance Squared**:
+   - The squared distance between $\mathbf{a}$ and $\mathbf{b}$ in terms of components is:
+     $$
+     \|\mathbf{a} - \mathbf{b}\|^2 = (a_1 - b_1)^2 + (a_2 - b_2)^2 + \ldots + (a_n - b_n)^2
+     $$
+### Expanding the Distance Squared
+5. **Expanding the Distance Squared**:
+   - When we expand the expression for $\|\mathbf{a} - \mathbf{b}\|^2$, we get:
+     $$
+     \|\mathbf{a} - \mathbf{b}\|^2 = (a_1 - b_1)^2 + (a_2 - b_2)^2 + \ldots + (a_n - b_n)^2
+     $$
+   - Expanding each term, we get:
+     $$
+     \|\mathbf{a} - \mathbf{b}\|^2 = a_1^2 - 2a_1b_1 + b_1^2 + a_2^2 - 2a_2b_2 + b_2^2 + \ldots + a_n^2 - 2a_nb_n + b_n^2
+     $$
+### Grouping Terms
+6. **Grouping Terms**:
+   - We can group the terms to show the sum of the squares of the individual components and the product terms:
+     $$
+     \|\mathbf{a} - \mathbf{b}\|^2 = (a_1^2 + a_2^2 + \ldots + a_n^2) + (b_1^2 + b_2^2 + \ldots + b_n^2) - 2 (a_1b_1 + a_2b_2 + \ldots + a_nb_n)
+     $$
+### Equating Both Expressions
+7. **Equating Both Expressions**:
+   - From the geometric interpretation using the Law of Cosines, we know:
+     $$
+     \|\mathbf{a} - \mathbf{b}\|^2 = \|\mathbf{a}\|^2 + \|\mathbf{b}\|^2 - 2 \|\mathbf{a}\| \|\mathbf{b}\| \cos \theta
+     $$
+   - From the algebraic expansion, we have:
+     $$
+     \|\mathbf{a} - \mathbf{b}\|^2 = (a_1^2 + a_2^2 + \ldots + a_n^2) + (b_1^2 + b_2^2 + \ldots + b_n^2) - 2 (a_1b_1 + a_2b_2 + \ldots + a_nb_n)
+     $$
+### Simplifying the Equation
+8. **Simplifying the Equation**:
+   - Equating these two expressions for $\|\mathbf{a} - \mathbf{b}\|^2$, we get:
+     $$
+     \|\mathbf{a}\|^2 + \|\mathbf{b}\|^2 - 2 \|\mathbf{a}\| \|\mathbf{b}\| \cos \theta = (a_1^2 + a_2^2 + \ldots + a_n^2) + (b_1^2 + b_2^2 + \ldots + b_n^2) - 2 (a_1b_1 + a_2b_2 + \ldots + a_nb_n)
+     $$
+### Canceling Common Terms
+9. **Canceling Common Terms**:
+   - The terms $\|\mathbf{a}\|^2$ and $\|\mathbf{b}\|^2$ appear on both sides of the equation and can be canceled out:
+     $$
+     -2 \|\mathbf{a}\| \|\mathbf{b}\| \cos \theta = -2 (a_1b_1 + a_2b_2 + \ldots + a_nb_n)
+     $$
+### Final Simplification
+10. **Final Simplification**:
+    - Dividing both sides by $-2$, we obtain:
+      $$
+      \|\mathbf{a}\| \|\mathbf{b}\| \cos \theta = a_1 b_1 + a_2 b_2 + \ldots + a_n b_n
+      $$
+### Conclusion
+11. **Conclusion**:
+    - Thus, we have derived the dot product equation from both geometric and algebraic perspectives:
+      $$
+      \mathbf{a} \cdot \mathbf{b} = \|\mathbf{a}\| \|\mathbf{b}\| \cos \theta
+      $$
+    - This shows how the dot product encapsulates the geometric idea of projection and the angle between two vectors.
 
 
 

@@ -134,3 +134,17 @@ $$\LARGE = \text{proj}_{\mathbf{b}} \mathbf{a} = \left( \frac{\mathbf{a} \cdot \
 The term $\frac{a \cdot b}{b \cdot b}$ is a scalar that tells us how much of $a$ lies in the direction of $b$.
 	By multiplying this scalar by $b$, we get the vector projection of $a$ onto $b$, which lies in the direction of $b$ and has a length proportional to how much $a$ points in the direction of $b$.
 
+## Parallel Projection
+**Find the parallel projection**: The parallel projection of $\mathbf{a}$ onto $\mathbf{b}$ is given by: Projba=(a⋅bb⋅b)b\text{Proj}_{\mathbf{b}} \mathbf{a} = \left( \frac{\mathbf{a} \cdot \mathbf{b}}{\mathbf{b} \cdot \mathbf{b}} \right) \mathbf{b}Projb​a=(b⋅ba⋅b​)b Here, $\mathbf{a} \cdot \mathbf{b}$ represents the dot product, and $\mathbf{b} \cdot \mathbf{b}$ is the square of the magnitude of $\mathbf{b}$.
+## Perpendicular Projection
+**Subtract the parallel projection from the original vector**: To find the perpendicular projection, subtract the parallel projection from $\mathbf{a}$: Perpendicular Projection=a−Projba\text{Perpendicular Projection} = \mathbf{a} - \text{Proj}_{\mathbf{b}} \mathbf{a}Perpendicular Projection=a−Projb​a Substituting the parallel projection, we get: Perpendicular Projection=a−(a⋅bb⋅b)b\text{Perpendicular Projection} = \mathbf{a} - \left( \frac{\mathbf{a} \cdot \mathbf{b}}{\mathbf{b} \cdot \mathbf{b}} \right) \mathbf{b}Perpendicular Projection=a−(b⋅ba⋅b​)b
+
+### Determining Perpendicularity and Parallelism
+
+#### Perpendicularity (Orthogonality):
+
+Two vectors $\mathbf{a}$ and $\mathbf{b}$ are perpendicular if their dot product is zero: a⋅b=0\mathbf{a} \cdot \mathbf{b} = 0a⋅b=0
+
+#### Parallelism:
+
+Two vectors $\mathbf{a}$ and $\mathbf{b}$ are parallel if one is a scalar multiple of the other: a=kbfor some scalar  k\mathbf{a} = k \mathbf{b} \quad \text{for some scalar} \; ka=kbfor some scalark Alternatively, their cross product should be zero: a×b=0\mathbf{a} \times \mathbf{b} = \mathbf{0}a×b=0

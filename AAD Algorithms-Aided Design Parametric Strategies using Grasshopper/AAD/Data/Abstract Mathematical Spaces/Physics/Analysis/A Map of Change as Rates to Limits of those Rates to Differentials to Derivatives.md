@@ -215,19 +215,27 @@ The differential form is a mathematical representation that describes how small 
 For a function $y=f(x$), the differential form is given by:
 $$\LARGE dy = f'(x) \, dx \space \text{and} \space dx = \frac{dy}{f'(x)}$$
 Where $f′(x)$ is the derivative of $f(x)$ with respect to $x$ (i.e. as $x$ changes).
+#### Finite Changes and Approximations
+When dealing with finite changes $\Delta x$ and $\Delta y$, the expression for $\Delta z$ becomes an approximation.
 
+$$\LARGE \Delta z \approx \frac{\partial f}{\partial x} \Delta x + \frac{\partial f}{\partial y} \Delta y$$
+
+- This approximation improves as $\Delta x$ and $\Delta y$ become smaller.
 ---
 
-## The *Limit* of the Difference Quotient as the Differential Ratio (i.e. the Derivative)
+## The *Limit* of the Difference Quotient (i.e. Slope of the Secant Line) as the Differential Ratio (i.e. the Derivative)
 ### [[Limits|Limits]]
 A limit examines the behavior of a function as the input approaches a certain value.
 
 $$\LARGE \lim_{h \to 0} f(x+h)$$
-### Limit of the Difference Quotient is the Differential Ratio aka the [[Derivatives|Derivative]]
+### The Limit of the Difference Quotient is the Differential Ratio aka the [[Derivatives|Derivative]]
 $$\LARGE f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$$
 Where $h$ is a small increment in $x$.​
 
 As $h$ approaches zero, the secant line approaches the tangent line at $x$, and the difference quotient becomes the instantaneous rate of change, or the derivative.
+
+### The Limit of the Difference Quotient (i.e. the Slope of the Secant Line) is the Slope of the Tangent Line
+![[Pasted image 20240422233019.png]]
 ### The Limit of the Difference Quotient is the Derivative Which is Itself the Ratio of Differentials
 $$\LARGE \lim_{h \to 0} \frac{f(x+h) - f(x)}{h} = f'(x) =\frac{dy}{dx}$$
 ##### Limit Form
