@@ -9,6 +9,7 @@ The result is a vector.
 #### [[Dot Product|Dot Product]]
 Measures how much one vector points in the direction of another vector.
 	It is the product of the magnitudes of the two vectors and the cosine of the angle between them.
+		The Dot Product *is* the [[#Scalar Projection (i.e. the Dot Product Dot Product )|Scalar Projection]].
 ##### Dot Product $a \cdot b$:
 The dot product of two vectors $a$ and $b$ is defined as:
 
@@ -28,9 +29,11 @@ It represents the length of the vector $b$.
 ###### Projection
 The projection operation uses the dot product to determine how much of one vector lies in the direction of another.
 	The scalar projection gives a measure of this in terms of length, and the vector projection provides a vector in the direction of $\mathbf{b}$ with that length.
-## Scalar Projection
+## Scalar Projection (i.e. the [[Dot Product|Dot Product]])
 The scalar projection of a vector $\mathbf{a}$ onto a vector $\mathbf{b}$ is a measure of the magnitude of $\mathbf{a}$ in the direction of $\mathbf{b}$ 
 	It is a scalar value (a single number) that tells you how much of $\mathbf{a}$ lies in the direction of $\mathbf{b}$.
+		It gives a scalar value representing the length of the component of $\mathbf{a}$ in the direction of $\mathbf{b}$. 
+			It does not overlay vectors but provides the magnitude of this alignment.
 ##### The scalar projection of $a$ onto $b$ is given by:
 $$\LARGE \text{comp}_{b} a = \|a\| \cos \theta = \frac{a \cdot b}{\|b\|}$$
 where:
@@ -71,6 +74,16 @@ $$
 ## Vector Projection
 The vector projection of a vector $a$ onto a vector $b$ not only tells you how much of $a$ lies in the direction of $b$, but also gives you the actual vector in the direction of $b$ that represents this component.
 	It is a vector quantity.
+		It gives a vector representing the component of $\mathbf{a}$ in the direction of $\mathbf{b}$. 
+			It shows how $\mathbf{a}$ overlays onto $\mathbf{b}$ in both magnitude and direction.
+				This is the actual vector that represents the component of $\mathbf{a}$ in the direction of $\mathbf{b}$.
+					 It has both a direction (the same as $\mathbf{b}$) and a magnitude (the scalar projection).
+						 The vector projection does not physically overlay one vector on top of another, but it does create a new vector that is **oriented** in the direction of the vector onto which we are projecting. 
+							 This new vector has a magnitude that represents how much the original vector "covers" or aligns with the direction of the other vector, as if they were to be overlaid.
+
+- It is a vector.
+- It represents the component of $\mathbf{a}$ that lies in the direction of $\mathbf{b}$.
+- It provides both the direction (same as $\mathbf{b}$) and the magnitude (length of the projection).
 
 The projection of vector $a$ onto vector $b$ is a way of expressing how much of vector $a$ points in the direction of vector $b$. The formula for the projection of $a$ onto $b$ is:
 
@@ -135,16 +148,23 @@ The term $\frac{a \cdot b}{b \cdot b}$ is a scalar that tells us how much of $a$
 	By multiplying this scalar by $b$, we get the vector projection of $a$ onto $b$, which lies in the direction of $b$ and has a length proportional to how much $a$ points in the direction of $b$.
 
 ## Parallel Projection
-**Find the parallel projection**: The parallel projection of $\mathbf{a}$ onto $\mathbf{b}$ is given by: Projba=(a⋅bb⋅b)b\text{Proj}_{\mathbf{b}} \mathbf{a} = \left( \frac{\mathbf{a} \cdot \mathbf{b}}{\mathbf{b} \cdot \mathbf{b}} \right) \mathbf{b}Projb​a=(b⋅ba⋅b​)b Here, $\mathbf{a} \cdot \mathbf{b}$ represents the dot product, and $\mathbf{b} \cdot \mathbf{b}$ is the square of the magnitude of $\mathbf{b}$.
+The parallel projection of $\mathbf{a}$ onto $\mathbf{b}$ is given by:
+ $$\text{Proj}_{\mathbf{b}} \mathbf{a} = \left( \frac{\mathbf{a} \cdot \mathbf{b}}{\mathbf{b} \cdot \mathbf{b}} \right) \mathbf{b}$$ 
+ Here, $\mathbf{a} \cdot \mathbf{b}$ represents the dot product, and $\mathbf{b} \cdot \mathbf{b}$ is the square of the magnitude of $\mathbf{b}$.
 ## Perpendicular Projection
-**Subtract the parallel projection from the original vector**: To find the perpendicular projection, subtract the parallel projection from $\mathbf{a}$: Perpendicular Projection=a−Projba\text{Perpendicular Projection} = \mathbf{a} - \text{Proj}_{\mathbf{b}} \mathbf{a}Perpendicular Projection=a−Projb​a Substituting the parallel projection, we get: Perpendicular Projection=a−(a⋅bb⋅b)b\text{Perpendicular Projection} = \mathbf{a} - \left( \frac{\mathbf{a} \cdot \mathbf{b}}{\mathbf{b} \cdot \mathbf{b}} \right) \mathbf{b}Perpendicular Projection=a−(b⋅ba⋅b​)b
+**Subtract the parallel projection from the original vector**: 
+To find the perpendicular projection, subtract the parallel projection from $\mathbf{a}$: 
+$$\text{Perpendicular Projection} = \mathbf{a} - \text{Proj}_{\mathbf{b}} \mathbf{a}$$Substituting the parallel projection, we get: 
+$$\text{Perpendicular Projection} = \mathbf{a} - \left( \frac{\mathbf{a} \cdot \mathbf{b}}{\mathbf{b} \cdot \mathbf{b}} \right) \mathbf{b}$$
 
-### Determining Perpendicularity and Parallelism
-
+### Alignment
 #### Perpendicularity (Orthogonality):
+Two vectors $\mathbf{a}$ and $\mathbf{b}$ are perpendicular if their dot product is zero: 
+$$\mathbf{a} \cdot \mathbf{b} = 0$$
 
-Two vectors $\mathbf{a}$ and $\mathbf{b}$ are perpendicular if their dot product is zero: a⋅b=0\mathbf{a} \cdot \mathbf{b} = 0a⋅b=0
-
-#### Parallelism:
-
-Two vectors $\mathbf{a}$ and $\mathbf{b}$ are parallel if one is a scalar multiple of the other: a=kbfor some scalar  k\mathbf{a} = k \mathbf{b} \quad \text{for some scalar} \; ka=kbfor some scalark Alternatively, their cross product should be zero: a×b=0\mathbf{a} \times \mathbf{b} = \mathbf{0}a×b=0
+When this dot product is zero, it indicates that there is no component of the first vector in the direction of the second vector. 
+#### Parallelism (i.e. Alignment)
+Two vectors $\mathbf{a}$ and $\mathbf{b}$ are parallel if one is a scalar multiple of the other:
+$$\mathbf{a} = k \mathbf{b} \quad \text{for some scalar}$$
+Alternatively, their cross product should be zero:
+$$\mathbf{a} \times \mathbf{b} = \mathbf{0}$$

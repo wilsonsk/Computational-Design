@@ -32,12 +32,48 @@
             }
           },
           {
-            "id": "a0ac26bd80232ad8",
+            "id": "82da0c0befc5c537",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Projection.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "27266fdd7217bc0a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Dot Product.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "795432bb60c97b49",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Gradients.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a0ac26bd80232ad8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Partial Derivatives.md",
                 "mode": "source",
                 "source": false
               }
@@ -50,18 +86,6 @@
               "type": "markdown",
               "state": {
                 "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d7bf90ff4076d8c6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Projection.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,21 +146,9 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "9071a57337635b8f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data/Abstract Mathematical Spaces/Abstract Mathematical Spaces.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -203,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Mapping.md",
+                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Projection.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -220,7 +232,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Mapping.md",
+                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Projection.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -243,7 +255,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Mapping.md"
+                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Projection.md"
               }
             }
           },
@@ -277,39 +289,39 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "0fd42ca7a970ecb8",
+  "active": "82da0c0befc5c537",
   "lastOpenFiles": [
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Spaces.md",
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Mapping.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Dot Product.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Projection.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Partial Derivatives.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Directional Derivatives.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Gradients.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/A Map of Change as Rates to Limits of those Rates to Differentials to Derivatives.md",
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Projection.md",
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Division.md",
+    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Statics Analysis.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
+    "Data/Abstract Mathematical Spaces/Physics/Topology/Voronoi Diagrams.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Scalar Fields.md",
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Mapping.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Normalizing a Vector.md",
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Division.md",
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Spaces.md",
+    "Abstract/Morphogenesis/Morphogenetic Fields.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/A Map of Change as Rates to Limits of those Rates to Differentials to Derivatives.md",
     "Pasted image 20240721131807.png",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Static Equilibrium.md",
     "Pasted image 20240721131026.png",
     "Pasted image 20240721131022.png",
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Dot Product.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Law of Cosines.md",
-    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Statics Analysis.md",
     "Drawing/Perspective Projection.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Fields.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Multivariable Calculus.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Components of Motion.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Scalar Fields.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Scalars.md",
     "Untitled.md",
     "images/Pasted image 20240708134159.png",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Curvature's Role in Stress Distribution.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Concurrent Systems.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Non-Concurrent Systems.md",
-    "Data/Abstract Mathematical Spaces/Differential Geometry/Differential Geometry.md",
-    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Moment.md",
     "images/Pasted image 20240708070643.png",
     "images/Pasted image 20240708065933.png",
     "Data/Computation",

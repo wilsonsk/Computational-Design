@@ -43,7 +43,19 @@ An **increase** or **decrease** in the **magnitude** of a **property**, relative
 	*That vector being the [[Derivatives#4. Is the Unit Tangent Vector|Unit Tangent Vector]] to a given point.*
 		Therefore the Vector of the Partial Derivatives is a Unit Tangent Vector describing the direction of the function in a single dimension.
 			But the **Gradient vector** describes the direction and rate of the steepest increase in a multi-dimensional space.
+
+The gradient of a scalar field is a vector field that points in the direction of the greatest rate of increase of the scalar field and whose magnitude is the rate of increase in that direction.
+	==**The gradient $\nabla f$ is a vector field that points radially outward from the origin and whose magnitude increases with distance from the origin.==**
+		The phrase "the gradient of a scalar field" specifically refers to the vector field that is derived from a scalar field by taking its partial derivatives. 
+			This gradient vector field indicates the direction and rate of the greatest increase of the scalar field at each point in space.
+### What "Greatest Increase of $f$" Means
+The directional derivative is maximized when $\mathbf{u}$ is in the same direction as $\nabla f$. 
+	Thus, the gradient vector $\nabla f$ points in the direction where $f$ increases most rapidly.
+		The magnitude of the gradient vector $|\nabla f|$ represents the rate of change of $f$ in the direction of the gradient.
+			A larger magnitude means a steeper ascent.
 ### Therefore, the Gradient Vector $\nabla f$ at a point on a level curve (or level surface) is **Perpendicular** to the [[Partial Derivatives#Tangent Plane and Tangent Vector|unit tangent vector]] of that point
+==This perpendicularity of the gradient vector to the tangent vector of the level curve (or surface) at a point is what causes the gradient vector to point in the direction of the greatest increase in the scalar function $f$.==
+
 Remember the Derivative is the Differential Ratio
 $$\LARGE \LARGE f'(x) = \frac{df}{dx}$$
 And rearranged it is:
@@ -85,14 +97,19 @@ A Gradient (of a Scalar Function/Field) is ***itself*** a **[[Abstract Mathemati
 			It indicates both the direction and the rate of the steepest ascent of the function.
 				The concept of a gradient is fundamental in multivariable calculus and has applications in various fields such as physics, engineering, and optimization.
 
-The gradient of a scalar function $f$, denoted as $\nabla f$, is a [[Abstract Mathematical Spaces#Vector Fields|vector field]] that points in the direction of the greatest rate of increase of the function. 
-	The [[Components of Motion|components]] of those produced Vectors are the [[Partial Derivatives|Partial Derivatives]] of the Scalar Function $f$ as each input variable changes (i.e. in respect to each input variable).
-		Therefore, the Gradient of the Scalar Function is a set of Vectors each composed of the Partial Derivatives (as Vector components)
+[[Mapping#Derived from Scalar Functions (General Sense)|The Gradient of a Scalar Function]] $f$, denoted as $\nabla f$, is a [[Abstract Mathematical Spaces#Vector Fields|vector field]] that points in the direction of the greatest rate of increase of the function. 
+	The gradient is constructed from the partial derivatives of the scalar field.
+		I.e. The [[Components of Motion|components]] of those produced Vectors are the [[Partial Derivatives|Partial Derivatives]] of the Scalar Function $f$ as each input variable changes (i.e. in respect to each input variable).
+			Therefore, the Gradient of the Scalar Function is a set of Vectors each composed of the Partial Derivatives (as Vector components)
 $$\LARGE \nabla f = \left< \frac{\partial f}{\partial x_1}, \frac{\partial f}{\partial x_2}, \ldots, \frac{\partial f}{\partial x_n} \right> $$
 $$\LARGE \nabla f(x,y,z) = \begin{pmatrix} \frac{\partial}{\partial_x}f(x,y,z)\\ \frac{\partial}{\partial_y}f(x,y,z) \\ \frac{\partial}{\partial_z}f(x,y,z)\end{pmatrix}$$
 	$\LARGE \nabla$ is the [[#Nabla Operator ($ nabla$)|Nabla Operator]].
 		The magnitude of the gradient vector $|\nabla f (\mathbf{p})|$ represents the greatest rate of increase of $f$ at $\mathbf{p}$
-
+- **Scalar Field as the Starting Point**:
+	- We begin with a scalar field, which is a function $f$ that assigns scalar values to points in space.
+- **Gradient as Derived Vector Field**: 
+	- The gradient $\nabla f$ is a vector field derived from the scalar field $f$. 
+	- Each component of the gradient vector is a partial derivative of the scalar field with respect to one of the coordinates.
 
 ### Gradient Over the Domain (Vector Field)
 When you compute the gradient at every point in the domain of the function $f$, you get a vector field.

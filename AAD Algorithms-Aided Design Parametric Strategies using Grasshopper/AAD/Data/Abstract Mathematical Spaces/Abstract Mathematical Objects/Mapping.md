@@ -223,12 +223,21 @@ These are functions whose outputs are vectors, matrices, or higher-dimensional t
 		I.e. Higher-Level Functions are composed of Scalar Functions.
 ##### Composite Nature
 **Composition**: The term "composite function" implies that the higher-level function is built from simpler (scalar) functions. 
-	A composite function is one that is formed by combining two or more functions. In the context of higher-level output functions, this typically means that each component of the output (whether it's an element of a vector, matrix, or tensor) is itself a function of the input variables.
-
+	A composite function is one that is formed by combining two or more functions. 
+		In the context of higher-level output functions, this typically means that each component of the output (whether it's an element of a vector, matrix, or tensor) is itself a function of the input variables.
+			For higher-level functions (vectors, matrices, tensors), being "composed of scalar functions" means that each component of the higher-level function is a scalar function.
+				**Vector Function**: Each component of the vector is a scalar function of the input variable(s).
+				**Matrix Function**: Each element of the matrix is a scalar function of the input variable(s).
 When a higher-level function is defined, the computation of its output involves operations that ultimately depend on scalar values.
 	Even if higher-level functions (such as vector or matrix functions) are not explicitly defined by their scalar components, they are at least implicitly defined by scalar functions.
 		This implicit relationship underscores the fundamental nature of scalar functions in constructing and understanding more complex mathematical structures.
 			The operations and rules that define these higher-level functions involve computations that ultimately reduce to scalar values, ensuring that the foundational role of scalar functions is preserved.
+### Derived from Scalar Functions (General Sense)
+In a more general sense, higher-level functions can be said to be "derived from" scalar functions if:
+1. **Composition**: The higher-level function is composed of scalar functions as its components.
+2. **Transformation**: The function results from operations on scalar functions, even if the scalar functions are not explicitly shown.
+
+When we say the gradient is "derived from a scalar function", we mean that **the gradient is a vector field that is specifically constructed from the scalar function's partial derivatives**.
 >[!note] Higher-Level Functions (i.e. Composite Functions)
 > ##### [[Abstract Mathematical Spaces#Vector Function|Vector-Valued Functions]]
 > A vector-valued function maps elements from its domain to vectors.

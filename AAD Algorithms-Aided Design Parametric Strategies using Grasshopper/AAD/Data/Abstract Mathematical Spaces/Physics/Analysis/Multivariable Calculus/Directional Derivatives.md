@@ -19,7 +19,7 @@ The **directional derivative** of a function $f(x, y)$ at a point $(x_0, y_0)$ i
 
 A directional derivative represents a rate of change of a function in any given direction.
 
-$D_{u}​f(p)$ gives the rate of change of the function $fff$ at the point $\mathbf{p}$ in the direction of the unit vector $\mathbf{u}$.
+$D_{u}​f(p)$ gives the rate of change of the function $f$ at the point $\mathbf{p}$ in the direction of the unit vector $\mathbf{u}$.
 
 - - -
 ## The Vector Components of a Directional Derivative
@@ -91,6 +91,17 @@ The directional derivative $D_{\mathbf{u}}f$ is obtained by taking the dot produ
 	This operation projects the gradient vector onto the direction specified by $\mathbf{u}$, giving the rate of change of the scalar function $f$ in that direction.
 		This projection tells us how fast the function $f$ is increasing in that specific direction.
 
+The partial derivatives $\frac{\partial f}{\partial x_i}$ represent changes along the coordinate axes, not in the direction of $\mathbf{u}$. 
+	The unit vector $\mathbf{u}$ might point in a completely different direction.
+		 The directional derivative projects the gradient (which consists of these partial derivatives) onto the direction of $\mathbf{u}$ to find the rate of change in that specific direction.
+			When $\mathbf{u}$ is in the same direction as $\nabla f$ ($\theta = 0$), the dot product is maximized.
+
+$$\LARGE \text{The Dot Product between two vectors a and b:}$$
+$$\LARGE a \cdot b = \|a\| \|b\| \cos \theta$$
+$$\text{Where } \theta \text{ is the angle between the two vectors.}$$
+$$\LARGE \text{For the gradient }\nabla f \text{ and the unit vector }\mathbf{u}:$$
+$$\LARGE \nabla f \cdot \mathbf{u} = \|\nabla f\| \|\mathbf{u}\| \cos \theta = \|\nabla f\| \cos \theta$$
+$$\LARGE \text{since }\|\mathbf{u}\| = 1$$
 Take the dot product of the gradient vector and the normalized direction vector:
 $$\LARGE D_{\mathbf{u}} f(x_0, y_0) = \nabla f(x_0, y_0) \cdot \mathbf{u}$$
 ### Result

@@ -1,7 +1,13 @@
-# Dot Product 
+# Dot Product (aka the [[Projection#Scalar Projection|Scalar Projection]])
 The dot product (also known as the scalar product) of two vectors in Euclidean space has a geometric interpretation that connects it to the projection concept.
 	When you take the dot product of two vectors, you are essentially measuring how much one vector projects onto another.
 		The Dot Product measures the magnitude of $\mathbf{a}$ in the direction of $\mathbf{b}$ (or vice versa), scaled by the magnitude of $\mathbf{b}$.
+			The dot product does not overlay one vector on top of another; instead, it provides a scalar value that quantifies how much one vector aligns with another vector.
+
+- It is a single number (a scalar).
+- It represents the length (or magnitude) of the projection of $\mathbf{a}$ onto $\mathbf{b}$.
+- It tells you how much of $\mathbf{a}$ lies in the direction of $\mathbf{b}$.
+- It does not give you the direction or the actual vector of the projection.
 ###### Components
 **Dot Product $a \cdot b$** gives us a measure of how much one vector extends in the direction of another.
 $$\LARGE a \cdot b$$
@@ -25,13 +31,30 @@ The magnitude (or norm) of vector $b$ is denoted as $\|b\|$ and is defined as:
 
 $$\|b\| = \sqrt{b_1^2 + b_2^2 + \ldots + b_n^2}$$
 It represents the length of the vector $b$.
-##### Inherent Projection
-the dot product inherently involves projection because it measures/quantifies how much one vector extends in the direction of another (i.e. measures the extent to which vectors align with each other).
-	By incorporating the cosine of the angle between them, it captures the idea of projecting one vector onto the other: 
+##### Inherent [[Projection|Projection]] (i.e. Scalar Projection)
+The dot product inherently involves projection because it measures/quantifies how much one vector extends in the direction of another (i.e. measures the extent to which vectors align with each other).
+	By incorporating the cosine of the angle between them, it captures the idea of projecting one vector onto the other.
+
+The dot product does not overlay one vector on top of another; instead, it provides a scalar value that quantifies how much one vector aligns with another vector.
 
 **Alignment**: The dot product is large and positive when vectors are pointing in the same direction, indicating a significant projection. 
-**Orthogonality**: The dot product is zero when vectors are perpendicular, indicating no projection.
-**Opposition**: The dot product is negative when vectors point in opposite directions, indicating a projection in the negative direction.
+- If $\cos \theta$ is positive (and thus the dot product), the vectors are pointing in roughly the same direction.
+- **Orthogonality**:
+	- If $\cos \theta$ is zero (and thus the dot product), the vectors are perpendicular (orthogonal) to each other, indicating no projection.
+		- If $\mathbf{a} \cdot \mathbf{b} = 0$, this means that $\cos \theta = 0$ because neither $|\mathbf{a}|$ nor $|\mathbf{b}|$ are zero (assuming non-zero vectors). 
+			- The cosine of $0$ implies that the angle $\theta$ between the vectors is $90^\circ$, indicating that $\mathbf{a}$ is perpendicular to $\mathbf{b}$.
+				- The result of the dot product between two vectors is a scalar value that represents the magnitude of the projection of one vector onto another. 
+					- When this dot product is zero, it indicates that there is no component of the first vector in the direction of the second vector. 
+- **Opposition**:
+	- If $\cos \theta$ is negative (and thus the dot product), the vectors are pointing in roughly opposite directions, indicating a projection in the negative direction.
+
+**Magnitude of Projection**: The dot product $\mathbf{a} \cdot \mathbf{b}$ gives the product of the magnitude of $\mathbf{a}$ and the component of $\mathbf{b}$ that lies in the direction of $\mathbf{a}$.
+	This component is often referred to as the projection of $\mathbf{b}$ onto $\mathbf{a}$.
+$$\LARGE a \cdot b = \|a\| \|b\| \cos \theta$$
+$$\LARGE \| a \| \cos \theta = \frac{a \cdot b}{\|b\|}$$$$\LARGE \text{proj}_{b} a = \|a\| \cos \theta$$
+This scalar value represents the length of the component of $\mathbf{a}$ that lies in the direction of $\mathbf{b}$. 
+	It tells you how much of $\mathbf{a}$ is in the direction of $\mathbf{b}$, but it does not provide the actual vector that represents this component.
+	
 ## Geometric Interpretation
 Consider two vectors $a$ and $b$ in a Euclidean space. 
 	Let $\theta$ be the angle between them. 
