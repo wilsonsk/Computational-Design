@@ -1,5 +1,7 @@
 # Projections
 Projections as measurements (either scalar values or vector values) that describe the amount if any of a vector in the direction of another vector.
+	A projection is NOT measuring the overlay of a vector or producing the overlay of a vector on another.
+		It is describing the amount (magnitude) of one vector in the DIRECTION of another vector. 
 ###### [[#Scalar Projection|Scalar Projection]]
 The result is a scalar (a single number).
 	Provides the magnitude of the projection of $a$ onto the direction of $b$.

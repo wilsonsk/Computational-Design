@@ -20,16 +20,30 @@ The **directional derivative** of a function $f(x, y)$ at a point $(x_0, y_0)$ i
 A directional derivative represents a rate of change of a function in any given direction.
 
 $D_{u}​f(p)$ gives the rate of change of the function $f$ at the point $\mathbf{p}$ in the direction of the unit vector $\mathbf{u}$.
-
 - - -
 ## The Vector Components of a Directional Derivative
-### Unit Vector
+### Unit Vector (i.e. Directional Vector)
 
 The directional derivative of a function $f(x, y, z)$ in the direction of a unit vector $\LARGE \mathbf{u} = \langle u_{\cos(\alpha)}, u_{\cos(\beta)}, u_{\cos(\gamma)} \rangle$ measures the rate of change of the function in that specific direction.
 
 The direction vector $\mathbf{u}$ makes angles $\alpha, \beta, \gammaα$ with the $x, y, z$ axes respectively, its components are:
 $$\LARGE \mathbf{u} = \langle u_x, u_y, u_z \rangle = \LARGE \mathbf{u} = \langle u_{\cos(\alpha)}, u_{\cos(\beta)}, u_{\cos(\gamma)} \rangle$$
 $$\LARGE u_x = \cos(\alpha), \quad u_y = \cos(\beta), \quad u_z = \cos(\gamma)$$
+
+#### The Direction of the Unit Vector
+The direction of the tangent vector is determined by the orientation you choose for measuring the rate of change or movement along the surface. 
+	When you compute the directional derivative, you are essentially projecting the gradient onto the chosen direction vector.
+
+A unit vector $\mathbf{u}$ can be oriented in any direction in 3D space. It is defined as: 
+$$\mathbf{u} = \langle u_x, u_y, u_z \rangle $$
+- The components $u_x, u_y$ and $u_z$​ are such that $\mathbf{u}$ has a magnitude of 1: 
+$$u_x^2 + u_y^2 + u_z^2 = 1$$
+**Perpendicular to the Gradient**
+To find a tangent vector at a point on a surface f(x,y,z)=cf(x, y, z) = cf(x,y,z)=c, the unit vector u\mathbf{u}u must be perpendicular to the gradient vector ∇f\nabla f∇f.
+	This ensures that u\mathbf{u}u lies in the tangent plane to the surface at that point.
+##### Example of Choosing the Unit Vector
+- To find a tangent vector, choose a unit vector u\mathbf{u}u that is perpendicular to (2,0,0)(2, 0, 0)(2,0,0). Any vector in the yyy-zzz plane is perpendicular to (2,0,0)(2, 0, 0)(2,0,0).
+- For example, u=(0,1,0)\mathbf{u} = (0, 1, 0)u=(0,1,0) or u=(0,0,1)\mathbf{u} = (0, 0, 1)u=(0,0,1).
 - - -
 ## Calculation of Directional Derivatives
 When we talk about the directional derivative of a scalar function in the direction of a unit vector $\mathbf{u}$, we project the gradient vector $\nabla f∇$ onto $\mathbf{u}$ to determine how much of the gradient’s magnitude is in the direction of $\mathbf{u}$.
