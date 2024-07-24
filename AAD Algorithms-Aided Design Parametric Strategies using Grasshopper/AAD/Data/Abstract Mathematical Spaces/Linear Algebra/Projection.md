@@ -1,11 +1,12 @@
 # Projections
+Projections as measurements (either scalar values or vector values) that describe the amount if any of a vector in the direction of another vector.
 ###### [[#Scalar Projection|Scalar Projection]]
 The result is a scalar (a single number).
 	Provides the magnitude of the projection of $a$ onto the direction of $b$.
 ###### [[#Vector Projection|Vector Projection]]
 The result is a vector.
 	Provides the actual vector that represents the projection of $a$ onto $b$.
-##### Connecting Projections and Dot Products
+### Connecting Projections and Dot Products
 #### [[Dot Product|Dot Product]]
 Measures how much one vector points in the direction of another vector.
 	It is the product of the magnitudes of the two vectors and the cosine of the angle between them.
