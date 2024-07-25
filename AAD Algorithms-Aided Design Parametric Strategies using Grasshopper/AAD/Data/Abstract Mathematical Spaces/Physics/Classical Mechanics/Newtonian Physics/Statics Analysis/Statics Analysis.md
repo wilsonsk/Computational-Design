@@ -75,7 +75,7 @@ The tensions in the cables supporting this container can be treated as point for
 
 The friction force between the bow and string on this cello can be treated as a point force
 ![[Pasted image 20240503162235.png]]
-### Dot Product (i.e. Scalar Product)
+### Dot Product (i.e. [[Dot Product#Dot Product (aka the Projection Scalar Projection Scalar Projection )|Scalar Product]])
 The dot product captures the cosine of the angle between two vectors, scaled by their magnitudes.
 
 Is used extensively to project one vector onto another and to determine angles between vectors.
@@ -125,7 +125,7 @@ The dot product can also be interpreted geometrically as:
 		Where $∥\vec{a}∥$ and $∥\vec{b}∥$ are the magnitudes (i.e. [[Static Equilibrium#Norm of a Vector|norms]] or lengths) of the vectors.
 		And θ is the angle between them. 
 This interpretation is particularly useful in understanding the angle between vectors or projecting one vector onto another.
-#### Projections
+#### [[Projection|Projections]]
 ###### Parallel Projections
 ![[Pasted image 20240509203552.png]]
 The **parallel projection** or the **parallel component of $\vec{A}$** 

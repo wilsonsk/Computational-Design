@@ -9,6 +9,19 @@ date created: 2024-07-28
 	*That vector being the [[Derivatives#4. Is the Unit Tangent Vector|Unit Tangent Vector]] to a given point.*
 		Therefore the Vector of the Partial Derivatives is a Unit Tangent Vector describing the direction of the function in a single dimension.
 			But the **Gradient vector** describes the direction and rate of the steepest increase in a multi-dimensional space.
+
+The main difference between the gradient and the directional derivative is how the direction is specified.
+	In essence, the directional derivative is a projection of the gradient vector onto the direction given by $\mathbf{u}$. 
+		It tells you how much the function changes in that specific direction, while the gradient tells you the direction and rate of the steepest change.
+- **Direction**:
+    - The gradient vector inherently provides the direction of the steepest ascent.
+    - The directional derivative calculates the rate of change in a specified direction given by the unit vector $\mathbf{u}$.
+- **Magnitude and Direction**:
+    - The magnitude of the gradient vector gives the maximum rate of change at that point.
+    - The directional derivative gives the rate of change in a particular direction, which depends on both the magnitude of the gradient and the cosine of the angle between the gradient and the unit vector $\mathbf{u}$.
+- **Unit Vector**:
+    - The directional derivative requires an arbitrary unit vector $\mathbf{u}$ to specify the direction.
+    - The gradient vector itself determines its own direction.
 ![[Pasted image 20240705152625.png|400]]
 
 A directional derivative measures the rate of change of the function $f(x, y)$ in a specific direction given by a vector $\mathbf{v} = (a, b)$.
@@ -29,21 +42,31 @@ The directional derivative of a function $f(x, y, z)$ in the direction of a unit
 The direction vector $\mathbf{u}$ makes angles $\alpha, \beta, \gammaα$ with the $x, y, z$ axes respectively, its components are:
 $$\LARGE \mathbf{u} = \langle u_x, u_y, u_z \rangle = \LARGE \mathbf{u} = \langle u_{\cos(\alpha)}, u_{\cos(\beta)}, u_{\cos(\gamma)} \rangle$$
 $$\LARGE u_x = \cos(\alpha), \quad u_y = \cos(\beta), \quad u_z = \cos(\gamma)$$
-
 #### The Direction of the Unit Vector
 The direction of the tangent vector is determined by the orientation you choose for measuring the rate of change or movement along the surface. 
 	When you compute the directional derivative, you are essentially projecting the gradient onto the chosen direction vector.
+		The unit vector $\mathbf{u}$ can be oriented in any direction, not just along the $x$-axis or the $x$-axis.
+			 It is chosen based on the direction in which you want to measure the rate of change of the function.
+				 For a unit vector to represent a tangent direction, it must be perpendicular to the gradient vector at the point of interest, ensuring it lies in the tangent plane.
 
 A unit vector $\mathbf{u}$ can be oriented in any direction in 3D space. It is defined as: 
 $$\mathbf{u} = \langle u_x, u_y, u_z \rangle $$
 - The components $u_x, u_y$ and $u_z$​ are such that $\mathbf{u}$ has a magnitude of 1: 
 $$u_x^2 + u_y^2 + u_z^2 = 1$$
 **Perpendicular to the Gradient**
-To find a tangent vector at a point on a surface f(x,y,z)=cf(x, y, z) = cf(x,y,z)=c, the unit vector u\mathbf{u}u must be perpendicular to the gradient vector ∇f\nabla f∇f.
-	This ensures that u\mathbf{u}u lies in the tangent plane to the surface at that point.
+To find a tangent vector at a point on a surface f$f(x, y, z) = c$, the unit vector $\mathbf{u}$ must be perpendicular to the gradient vector $\nabla f$.
+	This ensures that $\mathbf{u}$ lies in the tangent plane to the surface at that point.
 ##### Example of Choosing the Unit Vector
-- To find a tangent vector, choose a unit vector u\mathbf{u}u that is perpendicular to (2,0,0)(2, 0, 0)(2,0,0). Any vector in the yyy-zzz plane is perpendicular to (2,0,0)(2, 0, 0)(2,0,0).
-- For example, u=(0,1,0)\mathbf{u} = (0, 1, 0)u=(0,1,0) or u=(0,0,1)\mathbf{u} = (0, 0, 1)u=(0,0,1).
+Consider a surface defined by $f(x, y, z) = x^2 + y^2 + z^2 - 1$ (a sphere of radius 1 centered at the origin).
+###### Steps to Find a Tangent Vector at a Point
+1. **Compute the Gradient**:
+    $\nabla f = \left( 2x, 2y, 2z \right)$
+2. **Evaluate the Gradient at a Point**:
+    - At the point $(1, 0, 0)$: $\nabla f(1, 0, 0) = (2, 0, 0)$
+3. **Choose a Unit Vector Perpendicular to the Gradient**:
+	- To find a tangent vector, choose a unit vector $\mathbf{u}$ that is perpendicular to $(2, 0, 0)$. 
+		- Any vector in the $y$-$z$ plane is perpendicular to $(2, 0, 0)$.
+- For example, $\mathbf{u} = (0, 1, 0)$ or $\mathbf{u} = (0, 0, 1)$.
 - - -
 ## Calculation of Directional Derivatives
 When we talk about the directional derivative of a scalar function in the direction of a unit vector $\mathbf{u}$, we project the gradient vector $\nabla f∇$ onto $\mathbf{u}$ to determine how much of the gradient’s magnitude is in the direction of $\mathbf{u}$.
@@ -66,7 +89,7 @@ $$\LARGE D_{\mathbf{u}} f = \nabla f \cdot \mathbf{u} = \frac{\partial f}{\parti
 > [!note]
 > We start with the graph of a surface defined by the equation $\LARGE z = f(x,y)$.
 > 
-> Given a point $\LARGE (a,b)$ in the domain of $f$, we choose a direction to travel from that point. 
+> Given a point $\LARGE (a,b)$ in the domain of $f$, we ***[[#Example of Choosing the Unit Vector|choose]]*** a direction to travel from that point. 
 > We measure the direction using the angle $\LARGE \theta$, which is measured counterclockwise in the $xy$-plane, starting at $zero$ from the positive $x$-axis.
 > ###### $\LARGE h$ (i.e. and interval): The distance traveled.
 > ###### [[Static Equilibrium#Unit Vector|Unit Vector]], $\LARGE \vec{u} = (\cos\theta)\hat{i} + (\sin\theta)\hat{j}$: The direction of travel.
@@ -85,6 +108,8 @@ $$\LARGE D_{\mathbf{u}} f = \nabla f \cdot \mathbf{u} = \frac{\partial f}{\parti
 > ###### Slope of the Secant Line
 > $$\LARGE m_{secant} = \frac{f(a+h\cos\theta,\space b+h\sin\theta) - f(a,b)}{h}$$
 To find the slope of the tangent line in the same direction, we take the limit as $\LARGE h$ approaches zero.
+>###### The Limit of the Slope of the Secant Line (i.e. The Tangent Line/Directional Derivative)
+> $$\LARGE \mathbf{D}_{\vec{u}}\mathbf{f}(\mathbf{a},\mathbf{b}) = \lim \limits_{h \to 0} = \frac{f(a+h\cos\theta,\space b+h\sin\theta) - f(a,b)}{h}$$
 ### 1. [[Normalizing a Vector|Normalize]] the Direction Vector
 Ensure the direction vector $\mathbf{v}$ is a unit vector. 
 	If $\mathbf{v} = (a, b)$, normalize it by dividing by its magnitude:
@@ -96,7 +121,7 @@ The set of partial derivatives of a scalar function $f$ with respect to each spa
 Find the gradient of $f$ at the point $(x_0, y_0)$. 
 	The gradient is a vector of partial derivatives:
 $$\LARGE \nabla f(x_0, y_0) = \left( \frac{\partial f}{\partial x}(x_0, y_0), \frac{\partial f}{\partial y}(x_0, y_0) \right)$$
-### 3. [[Statics Analysis#Dot Product (i.e. Scalar Product)|Dot Product]]
+### 3. [[Statics Analysis#Dot Product (i.e. Scalar Product)|Dot **Product**]]
 The Dot Product [[projects|projects]] the Gradient Vector onto the Unit Vector, which gives the component of the Gradient in the direction of the Unit Vector. 
 
 The directional derivative is **the dot product of the gradient vector and the unit vector**, reflecting how much of the gradient’s magnitude is in the direction of $\mathbf{u}$.

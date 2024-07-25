@@ -44,18 +44,6 @@
             }
           },
           {
-            "id": "7d5ab8862aa4a27c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Projection.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "a0ac26bd80232ad8",
             "type": "leaf",
             "state": {
@@ -77,6 +65,20 @@
                 "mode": "source",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "7d5ab8862aa4a27c",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Projection.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
             }
           },
           {
@@ -136,7 +138,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -203,7 +205,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Directional Derivatives.md",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Gradients.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -220,7 +222,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Directional Derivatives.md",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Gradients.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -243,7 +245,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Directional Derivatives.md"
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Gradients.md"
               }
             }
           },
@@ -277,14 +279,19 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "8f6a1bbccf5596f1",
+  "active": "795432bb60c97b49",
   "lastOpenFiles": [
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Projection.md",
+    "Pasted image 20240724234502.png",
+    "Pasted image 20240724234350.png",
+    "Pasted image 20240724232114.png",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Partial Derivatives.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Gradients.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Directional Derivatives.md",
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Dot Product.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Partial Derivatives.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Projection.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Statics Analysis.md",
+    "Pasted image 20240724132725.png",
+    "Pasted image 20240724132123.png",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Dot Product.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
     "Data/Abstract Mathematical Spaces/Physics/Topology/Voronoi Diagrams.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Scalar Fields.md",
@@ -309,14 +316,9 @@
     "images/Pasted image 20240708134159.png",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Curvature's Role in Stress Distribution.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Concurrent Systems.md",
-    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Non-Concurrent Systems.md",
     "images/Pasted image 20240708070643.png",
     "images/Pasted image 20240708065933.png",
     "Data/Computation",
-    "images/Pasted image 20240705151637.png",
-    "images/Pasted image 20240705152625.png",
-    "images/Pasted image 20240705152613.png",
-    "images/Pasted image 20240705151727.png",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Structures",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Linearity",
     "Untitled",

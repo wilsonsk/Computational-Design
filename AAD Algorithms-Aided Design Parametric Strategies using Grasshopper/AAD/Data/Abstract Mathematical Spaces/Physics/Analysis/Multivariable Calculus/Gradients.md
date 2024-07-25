@@ -49,12 +49,58 @@ The gradient of a scalar field is a vector field that points in the direction of
 		The phrase "the gradient of a scalar field" specifically refers to the vector field that is derived from a scalar field by taking its partial derivatives. 
 			This gradient vector field indicates the direction and rate of the greatest increase of the scalar field at each point in space.
 ### What "Greatest Increase of $f$" Means
+![[Pasted image 20240724234502.png]]
 The directional derivative is maximized when $\mathbf{u}$ is in the same direction as $\nabla f$. 
+Each component (partial derivative) measures the rate of change of the function $f$ in one of the coordinate directions (x, y, z).
 	Thus, the gradient vector $\nabla f$ points in the direction where $f$ increases most rapidly.
 		The magnitude of the gradient vector $|\nabla f|$ represents the rate of change of $f$ in the direction of the gradient.
 			A larger magnitude means a steeper ascent.
-### Therefore, the Gradient Vector $\nabla f$ at a point on a level curve (or level surface) is **Perpendicular** to the [[Partial Derivatives#Tangent Plane and Tangent Vector|unit tangent vector]] of that point
-==This perpendicularity of the gradient vector to the tangent vector of the level curve (or surface) at a point is what causes the gradient vector to point in the direction of the greatest increase in the scalar function $f$.==
+				The magnitude of the gradient vector $\nabla f(x_0, y_0)\|$ represents the maximum rate of increase of the function at that point.
+					The gradient vector points in the direction in which the function fff increases most rapidly.
+						This direction is not necessarily aligned with any single coordinate axis (i.e., not necessarily along the x, y, or z direction alone) but is a combination of all three.
+#### Think of the $z$ Value aka the $f(x,y$) Output Value as the "Height"
+1. **Surface and Tangent Plane**:
+    - Imagine you are standing on a hill (the surface).
+    - The tangent plane at your feet is a flat surface that touches the hill exactly at that point. This plane represents all possible directions you can move without changing your height (to the first order).
+2. **Gradient Vector**:
+    - The gradient vector at your feet points directly uphill, indicating the direction of the steepest ascent.
+    - This direction is perpendicular to the flat tangent plane because moving in any direction within the tangent plane does not change your height significantly.
+	- This normal direction is the direction of steepest ascent, meaning moving in this direction increases the function value ($f(,x,y)$ or $z$) most rapidly.
+		- Moving in the direction of the gradient vector means moving in the direction where the function increases, i.e., moving uphill on the surface.
+			- While the gradient vector points away from the tangent plane, it does so in a way that aligns with moving uphill on the surface, not away from the surface as a whole.
+###### Perpendicularity and Steepest Ascent
+The key point is that the gradient vector being perpendicular to the tangent plane means it is pointing out of the plane in the direction where the function increases most rapidly. Here’s why:
+1. **Direction of No Change**:
+    - Moving along any direction within the tangent plane results in no significant change in the function value (height of the hill). These are directions of zero instantaneous change.
+2. **Direction of Maximum Change**:
+    - The gradient vector points out of this plane, indicating the direction in which the function value (height) increases most rapidly. This is the direction of steepest ascent.
+### Therefore, the Gradient Vector $\nabla f$ at a point on a level curve (or level surface) is **Perpendicular** to the Tangent *Plane* (not the tangent vector) of that point
+I.e. The gradient vector is normal (perpendicular) to the tangent plane at a given point on a surface.
+![[Pasted image 20240724232114.png|400]]
+This perpendicularity of the gradient vector to the tangent plane of the level curve (or surface) at a point is what causes the gradient vector to point in the direction of the greatest increase in the scalar function $f$.
+#### Tangent Plane
+The tangent plane at a point $(x_0, y_0, z_0)$ on the surface $z = f(x, y)$ can be described by all vectors that lie in the plane defined by the partial derivatives at that point.
+	It is spanned by two basis vectors corresponding to the partial derivatives with respect to $x$ and $y$.
+		  At a point $(x_0, y_0, z_0)$ on a surface $z = f(x, y)$, the tangent plane is a plane that best approximates the surface at that point.
+		    The tangent plane is defined by the partial derivatives $\frac{\partial f}{\partial x}$ and $\frac{\partial f}{\partial y}$.
+##### Tangent Plane Basis Vectors
+
+The tangent plane at a point $(x_0, y_0)$ can be spanned by the following basis vectors:
+
+###### Basis Vector for $x$-direction:
+$$
+T_x = \left( 1, 0, \frac{\partial f}{\partial x} \right)
+$$
+###### Basis Vector for $y$-direction:
+$$
+T_y = \left( 0, 1, \frac{\partial f}{\partial y} \right)
+$$
+###### Tangent Plane Equation
+Combining these basis vectors, any vector $T$ in the tangent plane can be written as:
+$$
+T = a T_x + b T_y = a \left( 1, 0, \frac{\partial f}{\partial x} \right) + b \left( 0, 1, \frac{\partial f}{\partial y} \right)
+$$
+
 
 Remember the Derivative is the Differential Ratio
 $$\LARGE \LARGE f'(x) = \frac{df}{dx}$$
@@ -88,6 +134,7 @@ $$
 Hence, the dot product is zero, confirming that $\nabla f$ is perpendicular to $T$.
 
 Therefore, the gradient vector $\nabla f$ is a Vector Field (i.e. specific vector function) composed of the partial derivatives (differentials) of the scalar function $f$, and this is why it inherently points in the direction of the steepest ascent and is perpendicular to the level curves (or surfaces) of $f$.
+	Each partial derivative is a _scalar_. It is simply a rate of change.
 - The gradient vector $\nabla f$ at a point $(x_0, y_0)$ is **perpendicular** to the tangent vector of the level curve at that point.
 	- And therefore, the Gradient always points along the direction of the steepest slope.
 
@@ -103,14 +150,15 @@ A Gradient (of a Scalar Function/Field) is ***itself*** a **[[Abstract Mathemati
 			Therefore, the Gradient of the Scalar Function is a set of Vectors each composed of the Partial Derivatives (as Vector components)
 $$\LARGE \nabla f = \left< \frac{\partial f}{\partial x_1}, \frac{\partial f}{\partial x_2}, \ldots, \frac{\partial f}{\partial x_n} \right> $$
 $$\LARGE \nabla f(x,y,z) = \begin{pmatrix} \frac{\partial}{\partial_x}f(x,y,z)\\ \frac{\partial}{\partial_y}f(x,y,z) \\ \frac{\partial}{\partial_z}f(x,y,z)\end{pmatrix}$$
-	$\LARGE \nabla$ is the [[#Nabla Operator ($ nabla$)|Nabla Operator]].
-		The magnitude of the gradient vector $|\nabla f (\mathbf{p})|$ represents the greatest rate of increase of $f$ at $\mathbf{p}$
+For any point in the domain of a function $f$, the gradient vector at that point is perpendicular (orthogonal) to the tangent vector at that point.
+
+$\LARGE \nabla$ is the [[#Nabla Operator ($ nabla$)|Nabla Operator]].
+	The magnitude of the gradient vector $|\nabla f (\mathbf{p})|$ represents the greatest rate of increase of $f$ at $\mathbf{p}$
 - **Scalar Field as the Starting Point**:
 	- We begin with a scalar field, which is a function $f$ that assigns scalar values to points in space.
 - **Gradient as Derived Vector Field**: 
 	- The gradient $\nabla f$ is a vector field derived from the scalar field $f$. 
 	- Each component of the gradient vector is a partial derivative of the scalar field with respect to one of the coordinates.
-
 ### Gradient Over the Domain (Vector Field)
 When you compute the gradient at every point in the domain of the function $f$, you get a vector field.
 	This means that at each point $\mathbf{x}$ in the domain, there is a corresponding gradient vector $\nabla f(\mathbf{x})$.
@@ -136,6 +184,7 @@ For a scalar function $f: \mathbb{R}^n \to \mathbb{R}$, the gradient at a specif
 $$\LARGE \nabla f(\mathbf{x}) = \left< \frac{\partial f}{\partial x_1}(\mathbf{x}), \frac{\partial f}{\partial x_2}(\mathbf{x}), \ldots, \frac{\partial f}{\partial x_n}(\mathbf{x}) \right>$$
 
 This vector points in the direction of the steepest increase of the function $f$ at the point $\mathbf{x}$.
+	And this vector is perpendicular to the tangent vector of that point. 
 ##### Example
 Consider the scalar function $f(x, y) = x^2 + y^2$.
 **Gradient at a Specific Point**:
