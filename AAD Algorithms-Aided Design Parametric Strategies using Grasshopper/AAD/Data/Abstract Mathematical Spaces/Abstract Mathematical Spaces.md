@@ -272,11 +272,9 @@ Measure Spaces: A set equipped with a sigma-algebra and a measure.
 > 	**Example**: The set of functions on $[0,1]$ with square-integrable first derivatives, denoted $W^{1,2}([0,1])$.
 
 - - -
-
 ## The Role of Composite Spaces in Inheritance and Extension
 
 Yes, the fact that spaces are composite is a fundamental concept that enables both the inheritance of base-level functions and the extension of outputs to higher-level spaces. Let's break this down in detail:
-
 ### Composite Spaces
 
 Composite spaces are mathematical structures that are built upon simpler, base-level spaces. These composite spaces allow for the combination and extension of functions, leading to more complex operations and mappings.
@@ -297,7 +295,7 @@ Composite spaces are mathematical structures that are built upon simpler, base-l
     - **Modification of Output Types**: In composite spaces, the output type (or codomain) of the base-level function is extended to higher-dimensional or more complex spaces. This means that while the input domain remains the same, the function's output is mapped to a higher-level space.
     - **Enhanced Functionality**: By extending the output, the function's applicability and complexity are increased. This allows the function to produce more detailed and sophisticated results.
 
-### How Composite Functions Enable Inheritance and Extension
+### How [[Mapping#A Composite Function as a Subset of Functions|Composite Functions]] Enable [[Mapping#Input Type Preserved/Inherited from the Fundamental Functions (i.e. Base-Level Component Functions) Lower-Level Space|Inheritance]] and [[Mapping#Input Type Preserved (i.e. Determined) by Extensions Extension|Extension]]
 
 1. **Composite Functions**:
     - Composite functions are formed by combining two or more base-level functions. This combination allows for the preservation of input types and the extension of output types.
@@ -337,7 +335,7 @@ Consider the following example to illustrate the concepts of inheritance and ext
 By understanding the role of composite spaces in inheritance and extension, you can see how they provide a framework for building more complex functions while preserving the essential properties and extending the capabilities of simpler, base-level functions.
 
 - - -
-## The Sequential Generation of the Field of Real Numbers and the Vector Space
+## Generation of Composite Space: The Sequential Generation of the Field of Real Numbers and the Vector Space
 *First, see the section on [[Mapping#A Composite Function as a Subset of Functions|A Composite Function as a Subset of Functions]] which describe the foundation of this sequence.*
 
 A field as a mapping (whether a scalar field or a vector field) is a specific instance that must be defined explicitly. 
