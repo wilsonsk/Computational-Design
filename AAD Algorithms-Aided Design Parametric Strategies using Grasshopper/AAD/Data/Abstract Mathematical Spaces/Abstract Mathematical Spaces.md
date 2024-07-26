@@ -273,6 +273,8 @@ Measure Spaces: A set equipped with a sigma-algebra and a measure.
 
 - - -
 ## The Sequential Generation of the Field of Real Numbers and the Vector Space
+*First, see the section on [[Mapping#A Composite Function as a Subset of Functions|A Composite Function as a Subset of Functions]] which describe the foundation of this sequence.*
+
 A field as a mapping (whether a scalar field or a vector field) is a specific instance that must be defined explicitly. 
 	There is no general field of values mapped to points unless specified by a particular function. 
 

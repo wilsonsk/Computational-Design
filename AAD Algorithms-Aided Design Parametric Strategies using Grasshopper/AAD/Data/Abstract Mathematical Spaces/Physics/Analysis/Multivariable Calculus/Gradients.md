@@ -79,6 +79,8 @@ I.e. The gradient vector is normal (perpendicular) to the tangent plane at a giv
 ![[Pasted image 20240724232114.png|400]]
 This perpendicularity of the gradient vector to the tangent plane of the level curve (or surface) at a point is what causes the gradient vector to point in the direction of the greatest increase in the scalar function $f$.
 #### Tangent Plane
+$$\LARGE \text{Tangent Plane to the Surface } z = f(x,y) \text{ in the Point } (a, b , f(a,b))$$
+$$\LARGE z = f(a,b) + \frac{\partial f}{\partial x}(a,b) (x-a) + \frac{\partial f}{\partial y}(a,b)(y-b)$$
 The tangent plane at a point $(x_0, y_0, z_0)$ on the surface $z = f(x, y)$ can be described by all vectors that lie in the plane defined by the partial derivatives at that point.
 	It is spanned by two basis vectors corresponding to the partial derivatives with respect to $x$ and $y$.
 		  At a point $(x_0, y_0, z_0)$ on a surface $z = f(x, y)$, the tangent plane is a plane that best approximates the surface at that point.
@@ -101,17 +103,16 @@ $$
 T = a T_x + b T_y = a \left( 1, 0, \frac{\partial f}{\partial x} \right) + b \left( 0, 1, \frac{\partial f}{\partial y} \right)
 $$
 
-
-Remember the Derivative is the Differential Ratio
-$$\LARGE \LARGE f'(x) = \frac{df}{dx}$$
-And rearranged it is:
-$$\LARGE \LARGE df=f′(x) dx = \frac{df}{dx}dx$$
-Remember that the Derivative as a Unit Tangent Vector is just a Vector Function that contains the Differentials as components.
-$$\LARGE \mathbf{T}(\Delta x) = \begin{pmatrix} \Delta x \\ \Delta y \end{pmatrix} = \begin{pmatrix} \Delta x \\ f'(x) \Delta x \end{pmatrix}$$
-$$\text{Where } \Delta y = f'(x)\Delta x $$
-The Unit Tangent Vector for a Partial Derivative
-$$\LARGE \mathbf{T}(\Delta x, \Delta y) = \begin{pmatrix} \Delta x \\ \Delta y \\ \Delta z \end{pmatrix} = \begin{pmatrix} \Delta x \\ \Delta y \\ \frac{\partial f}{\partial x} \Delta x + \frac{\partial f}{\partial y} \Delta y \end{pmatrix}$$
-$$\text{Where } \Delta z = \frac{\partial f}{\partial x} \Delta x + \frac{\partial f}{\partial y} \Delta y   $$
+#### Level Curves
+Level curves (or contour lines) are curves along which the function f(x,y)f(x, y)f(x,y) takes on a constant value, i.e., f(x,y)=cf(x, y) = cf(x,y)=c.
+	They are found by slicing the surface with horizontal planes z=cz = cz=c.
+##### Relationships Between Gradient, Tangent Plane, and Level Curves
+1. **Gradient Vector and Tangent Plane**:
+    - The gradient vector at a point on the surface z=f(x,y)z = f(x, y)z=f(x,y) is perpendicular (normal) to the tangent plane at that point.
+    - This perpendicularity means the gradient vector points directly away from the tangent plane, indicating the direction of steepest ascent on the surface.
+2. **Gradient Vector and Level Curves**:
+    - The gradient vector is also perpendicular to the level curves of the function f(x,y)f(x, y)f(x,y).
+    - This perpendicularity means the gradient vector points in the direction of the steepest increase in f(x,y)f(x, y)f(x,y) as you move away from the level curve.
 #### Calculating Perpendicularity
 ##### Dot Product (Gradient $\cdot$ Tangent Vector)
 For the gradient vector $\nabla f$ to be perpendicular to the tangent vector $T$, their dot product must be zero:

@@ -234,6 +234,16 @@ $$\LARGE
 \mathbf{T} = \mathbf{T}(\Delta x, \Delta y) \begin{pmatrix} \Delta x \\ \Delta y \\ \Delta z \end{pmatrix} = \begin{pmatrix} \Delta x \\ \Delta y \\ \frac{\partial f}{\partial x} \Delta x + \frac{\partial f}{\partial y} \Delta y \end{pmatrix}
 $$
 $$\text{Compared with the 1D Derivative } \mathbf{T} = \mathbf{T}(\Delta x) \begin{pmatrix} \Delta x \\ \Delta y \end{pmatrix} = \begin{pmatrix} \Delta x \\ f'(x) \Delta x \end{pmatrix}$$
+Remember the Derivative is the Differential Ratio
+$$\LARGE \LARGE f'(x) = \frac{df}{dx}$$
+And rearranged it is:
+$$\LARGE \LARGE df=f′(x) dx = \frac{df}{dx}dx$$
+Remember that the Derivative as a Unit Tangent Vector is just a Vector Function that contains the Differentials as components.
+$$\LARGE \mathbf{T}(\Delta x) = \begin{pmatrix} \Delta x \\ \Delta y \end{pmatrix} = \begin{pmatrix} \Delta x \\ f'(x) \Delta x \end{pmatrix}$$
+$$\text{Where } \Delta y = f'(x)\Delta x $$
+The Unit Tangent Vector for a Partial Derivative
+$$\LARGE \mathbf{T}(\Delta x, \Delta y) = \begin{pmatrix} \Delta x \\ \Delta y \\ \Delta z \end{pmatrix} = \begin{pmatrix} \Delta x \\ \Delta y \\ \frac{\partial f}{\partial x} \Delta x + \frac{\partial f}{\partial y} \Delta y \end{pmatrix}$$
+$$\text{Where } \Delta z = \frac{\partial f}{\partial x} \Delta x + \frac{\partial f}{\partial y} \Delta y   $$
 ### Example
 
 Consider a function $f(x, y) = x^2 + y^2$ and find the tangent vector at $(x_0, y_0) = (1, 1)$:

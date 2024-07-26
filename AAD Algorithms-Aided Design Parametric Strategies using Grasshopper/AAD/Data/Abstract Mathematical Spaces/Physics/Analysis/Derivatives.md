@@ -303,6 +303,7 @@ Consider the point $P=(x, f(x))$ on the curve.
 ##### Tangent Vector
 The tangent vector at $P$ can be described in terms of its components along the x-axis and y-axis.
 	The change in $x$ is typically considered as $\Delta x$, and the change in $y$ is $\Delta y=f'(x) \Delta x$.
+$$\LARGE \text{Tangent Line Through a Point (a, f'(a)) } = y = f(a) + f'(a)(x-a)$$
 ##### Tangent Vector Components
 Let $\Delta x$  be a small change in $x$. The corresponding change in $y$, denoted $\Delta y$, can be approximated using the derivative $f'(x)$. 
 	This represents the corresponding change in the $y$-direction based on the slope of the function at the point $x$. 

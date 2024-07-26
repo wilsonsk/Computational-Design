@@ -181,22 +181,76 @@ Functions can be classified based on different criteria.
 > A function $f: A \to A$ is the identity function if every element maps to itself. Formally, $f(a) = a$ for all $a \in A$.
 > 
 > **Example**: If $A = \{1, 2, 3\}$, the identity function is $f = \{(1, 1), (2, 2), (3, 3)\}$.
-#### Output Types of Functions
-##### *For Context Within Structured Sets, See: [[Abstract Mathematical Spaces#Preservation Through Inheritance and Extension of Function Output and Input Types|Preservation Through Inheritance and Extension of Function Output and Input Types]]*
-#### Output Type Preserved (i.e. Determined) by Inheritance
-##### Function Output Types Are Determined by the Fields or Spaces in Which the Functions Are Defined (i.e. The Lower Level Imparting Field or Space)
-Functions can be characterized by their output types, and these types are inherently dependent on the field or space within which they exist. 
-	This dependency shapes how functions are defined and how their outputs are structured. 
-		Furthermore, function types exhibit a hierarchical nature, where more complex function types build upon simpler ones, inheriting their properties and extending their applicability to higher-dimensional spaces.
 
-Function types based on output can be seen as hierarchical.
-	Where scalar functions within the field of real numbers is inherited by any space that is a itself a subset of the real number field.
-#### Input Type Preserved (i.e. Determined) by Extensions
-##### Function Input Types Are Determined by the Fields or Spaces in Which the Functions Operate (i.e. The Higher Level Inheriting Spaces)
-Extension is represented by the fact that this inherited function can now take as input some type of value from the inheriting domain, extending its applicability to more complex structures.
-	The inherited function can now take as input some type of value from the inheriting domain, extending its applicability.
-#### Fundamental Functions (i.e. Base-Level Functions)
-Scalar functions serve as the building blocks for more complex functions. 
+- - - 
+## A Composite Function as a Subset of Functions
+A composite function is formed by applying one function to the result of another function. 
+	This process creates a new function that combines the behaviors and properties of the original functions.
+###### Composition
+The term "composite function" implies that the higher-level function is built from simpler (scalar) functions. 
+	A composite function is one that is formed by combining two or more functions. 
+		In the context of higher-level output functions, this typically means that each component of the output (whether it's an element of a vector, matrix, or tensor) is itself a function of the input variables.
+			For higher-level functions (vectors, matrices, tensors), being "composed of lower-level functions" means that each component of the higher-level function is a some lower-level function (scalar function).
+				**Vector Function**: Each component of the vector is a scalar function of the input variable(s).
+				**Matrix Function**: Each element of the matrix is a scalar function of the input variable(s).
+###### Combines Operations
+Through composition, a new function is formed that performs a series of operations, effectively extending the functionality of the original functions. 
+	This results in a more complex function that integrates multiple steps.
+### Understanding the Notation $f: \mathbb{R}^n \rightarrow \mathbb{R}^m$ in the Context of Composite Functions
+The notation $f: \mathbb{R}^n \rightarrow \mathbb{R}^m$ describes a function $f$ that maps elements from an $n$-dimensional real vector space ($\mathbb{R}^n$) to an $m$-dimensional real vector space ($\mathbb{R}^m$). 
+#### Components of the Notation
+
+1. **$\mathbb{R}^n$ (Domain)**:
+   - **Symbol**: $\mathbb{R}^n$
+   - **Description**: The domain of the function $f$, representing an $n$-dimensional real vector space. It contains the input elements for the function.
+   - **Inheritance and Extension**:
+     - **Inheritance**: When composite functions are formed, the domain properties of the inner function can be inherited by the composite function.
+     - **Extension**: The domain can be extended by incorporating it into a composite function, allowing the composite function to accept a broader range of input types or higher-dimensional inputs.
+2. **$\rightarrow$ (Mapping)**:
+   - **Symbol**: $\rightarrow$
+   - **Description**: Indicates that the function $f$ maps elements from the domain ($\mathbb{R}^n$) to the codomain ($\mathbb{R}^m$).
+   - **Inheritance and Extension**:
+     - **Inheritance**: The mapping process itself can inherit properties such as continuity or differentiability from the simpler functions involved.
+     - **Extension**: By forming composite functions, the mapping can be extended to more complex operations that involve multiple steps.
+3. **$\mathbb{R}^m$ (Codomain)**:
+   - **Symbol**: $\mathbb{R}^m$
+   - **Description**: The codomain of the function $f$, representing an $m$-dimensional real vector space. It contains the output elements of the function.
+   - **Inheritance and Extension**:
+     - **Inheritance**: The codomain properties of the function can be inherited by composite functions.
+     - **Extension**: The codomain can be extended by producing outputs in a higher-dimensional space or different space, thus broadening the function’s applicability.
+#### Composite Functions in Context
+Composite functions involve combining two or more functions, where the output of one function becomes the input for another. Here’s how the notation applies to composite functions:
+
+1. **Formation of Composite Functions**:
+   - Suppose $g: \mathbb{R}^p \rightarrow \mathbb{R}^n$ and $f: \mathbb{R}^n \rightarrow \mathbb{R}^m$.
+   - The composite function $h$ is defined as:
+$$h(x) = f(g(x))$$
+   - Here, $g$ maps from $\mathbb{R}^p$ (domain) to $\mathbb{R}^n$ (codomain), and $f$ maps from $\mathbb{R}^n$ (domain) to $\mathbb{R}^m$ (codomain).
+##### [[#Fundamental Functions (i.e. Base-Level Functions)|Lower-Level Functions]]:
+   - These are the simpler, individual functions that compose the composite function. In the example, $g$ and $f$ are lower-level functions.
+   - **Inheritance**: Lower-level functions provide the fundamental properties that are inherited by the composite function.
+   - **Extension**: Lower-level functions are extended through composition to operate in more complex spaces.
+###### [[#Output Type Preserved (i.e. Determined) by Inheritance|Inheritance]]:
+   - **Domain Inheritance**: The composite function $h$ inherits the domain properties of $g$ and the intermediate space properties of $f$.
+   - **Codomain Inheritance**: The composite function $h$ inherits the codomain properties of $f$.
+##### [[#Higher-Level Functions (i.e. Composite Functions)|Higher-Level Functions]]:
+   - The composite function $h$ represents a higher-level function that results from combining lower-level functions.
+   - **Inheritance**: The higher-level function inherits properties from all lower-level functions involved.
+   - **Extension**: The higher-level function extends the capabilities of the lower-level functions by mapping elements across more complex domains and codomains.
+###### [[#Input Type Preserved (i.e. Determined) by Extensions|Extension]]:
+   - **Domain Extension**: By forming the composite function, the domain is extended from $\mathbb{R}^p$ to $\mathbb{R}^m$.
+   - **Codomain Extension**: The composite function extends the codomain to include the properties of both $g$ and $f$, potentially altering the final output space.
+### Hierarchical Structure
+The process of composition inherently creates a hierarchical structure, where the composite function is built upon the simpler functions. 
+	This hierarchy ensures that the properties and behaviors of the simpler functions are preserved and propagated in the composite function.
+		Higher-level functions build upon the properties of simpler functions, creating a hierarchical structure where complex functions are composed of and inherit properties from simpler ones.
+
+When a higher-level function is defined, the computation of its output involves operations that ultimately depend on scalar values. 
+	Even if higher-level functions (such as vector or matrix functions) are not explicitly defined by their scalar components, they are at least implicitly defined by scalar functions. 
+		This implicit relationship underscores the fundamental nature of scalar functions in constructing and understanding more complex mathematical structures. 
+			The operations and rules that define these higher-level functions involve computations that ultimately reduce to scalar values, ensuring that the foundational role of scalar functions is preserved.
+#### Fundamental Functions (i.e. Base-Level Component Functions)
+**Scalar functions** serve as the Base-Level Functions, that is, the building blocks for more complex functions. 
 	Higher-level functions like vector and matrix functions are often composed of these scalar functions.
 		Scalar functions are simpler to analyze and understand. 
 			They provide the basis for defining and working with more complex functions.
@@ -216,28 +270,16 @@ $$f(x,y)$$
 >$$f(x,y,z)$$
 >###### For $n$ Variables
 >$$f(x_1, x_2, \ldots, x_n)$$
+###### *Derived from Scalar Functions (General Sense)*
+*In a more general sense, higher-level functions can be said to be "derived from" scalar functions if:*
+1. ***Composition**: The higher-level function is composed of scalar functions as its components.*
+2. ***Transformation**: The function results from operations on scalar functions, even if the scalar functions are not explicitly shown.*
 
+When we say the gradient is "derived from a scalar function", we mean that **the gradient is a vector field that is specifically constructed from the scalar function's partial derivatives**.
 #### Higher-Level Functions (i.e. Composite Functions)
 These are functions whose outputs are vectors, matrices, or higher-dimensional tensors, rather than scalars.
 	The individual elements or components of these outputs are inherently scalar values, even if they are not explicitly broken down into scalar functions.
 		I.e. Higher-Level Functions are composed of Scalar Functions.
-##### Composite Nature
-**Composition**: The term "composite function" implies that the higher-level function is built from simpler (scalar) functions. 
-	A composite function is one that is formed by combining two or more functions. 
-		In the context of higher-level output functions, this typically means that each component of the output (whether it's an element of a vector, matrix, or tensor) is itself a function of the input variables.
-			For higher-level functions (vectors, matrices, tensors), being "composed of scalar functions" means that each component of the higher-level function is a scalar function.
-				**Vector Function**: Each component of the vector is a scalar function of the input variable(s).
-				**Matrix Function**: Each element of the matrix is a scalar function of the input variable(s).
-When a higher-level function is defined, the computation of its output involves operations that ultimately depend on scalar values.
-	Even if higher-level functions (such as vector or matrix functions) are not explicitly defined by their scalar components, they are at least implicitly defined by scalar functions.
-		This implicit relationship underscores the fundamental nature of scalar functions in constructing and understanding more complex mathematical structures.
-			The operations and rules that define these higher-level functions involve computations that ultimately reduce to scalar values, ensuring that the foundational role of scalar functions is preserved.
-### Derived from Scalar Functions (General Sense)
-In a more general sense, higher-level functions can be said to be "derived from" scalar functions if:
-1. **Composition**: The higher-level function is composed of scalar functions as its components.
-2. **Transformation**: The function results from operations on scalar functions, even if the scalar functions are not explicitly shown.
-
-When we say the gradient is "derived from a scalar function", we mean that **the gradient is a vector field that is specifically constructed from the scalar function's partial derivatives**.
 >[!note] Higher-Level Functions (i.e. Composite Functions)
 > ##### [[Abstract Mathematical Spaces#Vector Function|Vector-Valued Functions]]
 > A vector-valued function maps elements from its domain to vectors.
@@ -276,6 +318,137 @@ When we say the gradient is "derived from a scalar function", we mean that **the
 > Piecewise functions map elements from their domain to different values depending on which subdomain the input falls into.
 > $$\LARGE f(x) =\begin{cases} x^2 & \text{if } x < 0 \\x + 1 & \text{if } x \geq 0 \end{cases}$$
 > Here, $(f)$ maps 4 to $(x^2)$ for negative values and to $(x + 1)$ for non-negative values.
+### Composite Functions are Defined by their Input and Output Types Through Inheritance and Extension
+Functions can be characterized by their input and output types, and these types are inherently dependent on the field or space within which they exist. 
+	The input of a lower-level component function is determined by its original space.
+		The output of a higher-level composite function is determined by the its own space. 
+
+In this way, composite functions can take simpler inputs, but produce more complex outputs.
+	This dependency shapes how functions are defined and how their outputs are structured. 
+		Furthermore, function types exhibit a hierarchical nature, where more complex function types build upon simpler ones, inheriting their properties and extending their applicability to higher-dimensional spaces.
+##### *For Context Within Structured Sets, See: [[Abstract Mathematical Spaces#Preservation Through Inheritance and Extension of Function Output and Input Types|Preservation Through Inheritance and Extension of Function Output and Input Types]]*
+#### Input Type Preserved/Inherited from the [[#Fundamental Functions (i.e. Base-Level Component Functions)|Lower-Level Space]]
+##### Composite Function Input Types Are Determined by Lower-Level Spaces
+The domain of the lower-level function is typically preserved. 
+	This means the type of inputs that the original function can accept remains the same in the higher-level function.
+###### Inheritance: Means an Input Domain is Preserved, while the Output Codomain is Modified/Changed
+**Inheritance** refers to the preservation of properties from lower-level (simpler) functions when they are used to construct higher-level (more complex) functions.
+	The input domain and properties of lower-level functions are preserved when constructing higher-level functions. 
+		The lower-level function's ability to handle specific input types and maintain properties like continuity or differentiability is inherited by the higher-level function.
+			When a higher-level function is constructed, it inherits the fundamental properties and behaviors of the simpler functions it is composed of.
+				Characteristics like continuity, differentiability, and linearity of the lower-level functions are also preserved in the higher-level function.
+##### Composite Functions Represent Inheritance
+Inheritance implies a compositional/hierarchical structure (i.e. [[#Higher-Level Functions (i.e. Composite Functions)|Levels and Composite Nature]]) where more complex entities build upon simpler ones. 
+	In mathematics, this means that higher-level functions build on the properties and behaviors of lower-level functions.
+		Where scalar functions within the field of real numbers is inherited by any space that is a itself a subset of the real number field.
+
+Higher-level functions inherit properties from the lower-level functions they are composed of. 
+	This means that the behavior and properties of the scalar functions are retained in the higher-level function.
+		When a higher-level function inherits from a simpler function, it retains the fundamental properties and behaviors of the simpler function. 
+			This means that the operations defined for the simpler function are still valid and applicable in the higher-level function.
+#### Output Type Preserved/Extended to the [[#Higher-Level Functions (i.e. Composite Functions)|Higher-Level Space]]
+##### Composite Function Output Types Are Determined by the Higher Level Spaces
+Extension involves modifying or enhancing the output type of the function. 
+	The codomain of the function is typically extended to handle more complex or higher-dimensional outputs.
+###### Extension: Means an Output Codomain is Preserved, while the Input Domain is Modified/Changed
+Extension is represented by the fact that this inherited function can now produce outputs in more complex structures, extending its applicability. 
+	The inherited function can now generate outputs that are more complex, extending its applicability.
+		The output type of the original function is extended. 
+			The composite function extends the applicability of the original function to operate in higher-dimensional spaces or on more complex structures.
+				The higher-level function produces more complex outputs, such as vectors instead of scalars, thus broadening the range and applicability of the original function.
+##### Composite Functions Represent Extension
+Composite functions extend the applicability of the original functions by allowing the output of one function to serve as the input for another. 
+	This creates a broader domain and range for the new composite function.
+
+When functions are composed, the higher-level function extends the functionality of the lower-level function by broadening the range of possible outputs and potentially handling more complex input structures.
+	The higher-level function takes the input processed by the lower-level function and maps it to a new output space.
+
+When a higher-level function is defined, the computation of its output involves operations that ultimately depend on lower-level values (ultimately, scalar values).
+	Even if higher-level functions (such as vector or matrix functions) are not explicitly defined by their scalar components, they are at least implicitly defined by scalar functions.
+		This implicit relationship underscores the fundamental nature of scalar functions in constructing and understanding more complex mathematical structures.
+			The operations and rules that define these higher-level functions involve computations that ultimately reduce to scalar values, ensuring that the foundational role of scalar functions is preserved.
+### Associations of Composite Functions
+> [!note]
+> #### 1:1 (One-to-One):
+> - A composite function where each input element maps to a unique output element.
+> - This occurs if both functions in the composition are one-to-one.
+> - **Example**: If $g: \mathbb{R}^2 \to \mathbb{R}^3$ and $f: \mathbb{R}^3 \to \mathbb{R}^m$ are both one-to-one, then the composite function $h(x) = f(g(x))$ is also one-to-one.
+> 
+> #### m:1 (Many-to-One):
+> - A composite function where multiple input elements map to the same output element.
+> - This can happen if at least one of the functions in the composition is many-to-one.
+> - **Example**: If $g: \mathbb{R}^2 \to \mathbb{R}^3$ is many-to-one, then the composite function $h(x) = f(g(x))$ will also be many-to-one, regardless of whether $f$ is one-to-one or not.
+> 
+> #### n:m (Many-to-Many):
+> - A composite function where multiple input elements map to multiple output elements.
+> - This can happen if both functions in the composition are many-to-many.
+> - **Example**: If both $g$ and $f$ are many-to-many, then $h(x) = f(g(x))$ will also be many-to-many.
+##### Composite Function Properties
+
+###### Continuity:
+- If both functions $f$ and $g$ are continuous, then their composite function $h(x) = f(g(x))$ is also continuous.
+- This ensures that the composite function inherits the property of continuity from its components.
+###### Differentiability:
+- If both $f$ and $g$ are differentiable, then their composite function $h(x) = f(g(x))$ is also differentiable.
+- The derivative of the composite function can be found using the chain rule.
+###### Linearity:
+- If both $f$ and $g$ are linear, then their composite function $h(x) = f(g(x))$ is also linear.
+- Linearity ensures that the composite function preserves vector addition and scalar multiplication.
+
+- - - 
+## A Transformation as a Subset of Composite Functions ($1:1$, $m:1$)
+Transformations are specific types of composite functions that map elements from one space to another, extending the domain and potentially altering the codomain.
+	They build upon the principles of composite functions, utilizing inheritance and extension to enhance functionality and applicability.
+		The spaces can be of different dimensions or the same dimension.
+
+Where a function is a rule that assigns each element in one set (called the domain) to a single element in another set (called the codomain).
+	A transformation is a function that maps a set to itself or another set, often preserving some structure.
+> [!note]
+> ### Associations of Transformations
+> Transformations inherit the properties of functions, meaning they can be
+> $\LARGE 1:1$.
+> 	A linear transformation where each input element is mapped to a unique output element.
+> $\LARGE m:1$.
+> 	A non-linear transformation where multiple input elements are mapped to the same output element.
+### Transformations as [[#Input Type Preserved (i.e. Determined) by Extensions|Extensions]]
+A transformation is a function that maps elements from one space (domain) to another space (codomain). 
+	This mapping can involve changing the nature or dimension of the space in which the elements reside.
+###### Extension: Means an Output Codomain is Preserved, while the Input Domain is Modified/Changed
+
+Transformations represent extensions of functions that operate over different input types (domains) and potentially alter the output type (codomain). 
+	They extend the applicability and functionality of functions by enabling operations over different domains and codomains.
+		Transformations map elements from one space to another, thus extending the function's applicability beyond its original scope.
+
+**Preservation and Modification**: Transformations can preserve the output type (codomain) while operating over different input types (domains). For instance, a transformation might map vectors to vectors or map vectors to scalars, depending on the nature of the transformation.
+##### Transformation Types
+- **Linear Transformation**: $T(\mathbf{x}) = A\mathbf{x}$, where $A$ is a matrix.
+- **Affine Transformation**: T$(\mathbf{x}) = \mathbf{x} + \mathbf{b}$, where $A$ is a matrix and $\mathbf{b}$ is a vector.
+- **Non-linear Transformation**: $3T(x) = x^3$.
+- **Projective Transformation**
+	- A transformation that maps lines to lines but does not necessarily preserve parallelism. It includes perspective transformations.
+- **Euclidean Transformation**
+	- A transformation that preserves distances and angles. Also known as rigid transformations.
+- **Similarity Transformation**
+	- A transformation that preserves angles but not necessarily distances. It is a combination of a Euclidean transformation and uniform scaling.
+- **Homeothety (Dilation)**
+	- A transformation that scales objects by a constant factor, either enlarging or shrinking them.
+		- T(x)=kx where kkk is a scalar.
+- **Möbius Transformation**
+	- A complex function that maps the extended complex plane onto itself, preserving the general form of rational functions.
+- **Conformal Transformation**
+	- A transformation that preserves angles but not necessarily lengths.
+- **Fourier Transform**
+	- A transformation that decomposes a function into its constituent frequencies.
+- **Wavelet Transform**
+	- A transformation that represents data or functions in terms of wavelets with different scales and positions.
+- **Coordinate Transformation**
+	- A change of coordinates that can be linear or non-linear, used to simplify equations or understand geometrical structures.
+
+- - -
+
+
+
+
 
 - - -
 ## An Operation as a Subset of Functions
@@ -309,71 +482,7 @@ Operations can be categorized based on the number of operands and the nature of 
 >     - **Sum**: $\Sigma(a_1, a_2, \ldots, a_n) = a_1 + a_2 + \ldots + a_n$
 >     - **Product**: $\Pi(a_1, a_2, \ldots, a_n) = a_1 \cdot a_2 \cdot \ldots \cdot a_n$
 
-- - - 
-## A Transformation as a Subset of Functions ($1:1$, $m:1$)
-A **transformation** is fundamentally a type of **function**.
-	Where a function is a rule that assigns each element in one set (called the domain) to a single element in another set (called the codomain).
-		A transformation is a function that maps a set to itself or another set, often preserving some structure.
-			**"A function that maps a set to itself or another set"** means that a transformation can take elements from one set and map them either back to the same set or to a different set.
-				In this sense, a transformation does what a function does (maps each element of a set to a single element of another set) but also preserves some structure of the set, which is the distinguishing feature.
-					 This preservation of structure is what makes transformations particularly important in certain fields of mathematics and physics.
-				**Example of Mapping within the same set**: 
-					If you have a set of points on a plane, a transformation could rotate all the points around the origin. 
-						Here, both the domain and codomain are the same set of points on the plane.
-				**Example of Mapping to a different set**: 
-					If you have a set of temperatures measured in Celsius, a transformation could convert these to temperatures in Fahrenheit. 
-						Here, the domain is the set of temperatures in Celsius, and the codomain is the set of temperatures in Fahrenheit.
-			**"Preserving some structure"** refers to the fact that many transformations maintain certain properties or structures of the set.
-##### Function vs. Transformation
-Both statements are describing the same core concept of a function.
-	A function maps elements of the domain to elements of the codomain, ensuring each element in the domain is paired with exactly one element in the codomain."
-###### "Maps each element of a set to a single element of another set"
-**Focus on Elements**:
-- This phrase emphasizes the rule that assigns each individual element of the domain to a single element in the codomain.
-- It highlights the idea that each element in the domain is associated with exactly one element in the codomain.
-- This is the fundamental definition of a function.
-###### "Maps a set to itself or another set"
-**Focus on the Set**:
-- This phrase emphasizes the mapping of the entire set (domain) to another set (codomain).
-- It indicates that the function can map the elements of a set either to itself (the same set) or to a different set.
-
-A transformation is a type of function, often used to emphasize changes or operations applied to the elements of a set. 
-	In linear algebra, transformations often refer to functions mapping vector spaces to vector spaces.
-		Transformations are typically associated with geometric or algebraic contexts, where they might involve shifting, rotating, scaling, or otherwise altering the elements of a set or space.
-
-A transformation is a general term for any operation that maps elements from one set to another. 
-	This can include a wide variety of mathematical operations, not limited to functions in the traditional sense.
-#### Associations of Transformations
-Transformations inherit the properties of functions, meaning they can be
-$\LARGE 1:1$.
-	A linear transformation where each input vector is mapped to a unique output vector.
-$\LARGE m:1$.
-	A non-linear transformation where multiple input vectors are mapped to the same output vector.
-##### Transformation Types
-- **Linear Transformation**: $T(\mathbf{x}) = A\mathbf{x}$, where $A$ is a matrix.
-- **Affine Transformation**: T$(\mathbf{x}) = \mathbf{x} + \mathbf{b}$, where $A$ is a matrix and $\mathbf{b}$ is a vector.
-- **Non-linear Transformation**: $3T(x) = x^3$.
-- **Projective Transformation**
-	- A transformation that maps lines to lines but does not necessarily preserve parallelism. It includes perspective transformations.
-- **Euclidean Transformation**
-	- A transformation that preserves distances and angles. Also known as rigid transformations.
-- **Similarity Transformation**
-	- A transformation that preserves angles but not necessarily distances. It is a combination of a Euclidean transformation and uniform scaling.
-- **Homeothety (Dilation)**
-	- A transformation that scales objects by a constant factor, either enlarging or shrinking them.
-		- T(x)=kx where kkk is a scalar.
-- **Möbius Transformation**
-	- A complex function that maps the extended complex plane onto itself, preserving the general form of rational functions.
-- **Conformal Transformation**
-	- A transformation that preserves angles but not necessarily lengths.
-- **Fourier Transform**
-	- A transformation that decomposes a function into its constituent frequencies.
-- **Wavelet Transform**
-	- A transformation that represents data or functions in terms of wavelets with different scales and positions.
-- **Coordinate Transformation**
-	- A change of coordinates that can be linear or non-linear, used to simplify equations or understand geometrical structures.
-
-- - - 
+- - -  
 ## Scalar Functions as a Subset of Functions
 ###### *Remember*: Properties of Functions
 1. **Uniqueness**: Each element in the domain is associated with exactly one element in the codomain.
