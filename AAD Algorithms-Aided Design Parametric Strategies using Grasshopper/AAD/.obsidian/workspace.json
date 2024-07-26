@@ -138,7 +138,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -205,7 +205,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Abstract Mathematical Spaces.md",
+                "file": "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Mapping.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -222,7 +222,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Abstract Mathematical Spaces.md",
+                "file": "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Mapping.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -245,7 +245,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Abstract Mathematical Spaces.md"
+                "file": "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Mapping.md"
               }
             }
           },
@@ -279,10 +279,11 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "7bf851ae501a8c6a",
+  "active": "0fd42ca7a970ecb8",
   "lastOpenFiles": [
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Mapping.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Spaces.md",
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Mapping.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Projection.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Partial Derivatives.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Gradients.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
@@ -290,7 +291,6 @@
     "Pasted image 20240724234350.png",
     "Pasted image 20240724232114.png",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Directional Derivatives.md",
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Projection.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Statics Analysis.md",
     "Pasted image 20240724132725.png",
     "Pasted image 20240724132123.png",

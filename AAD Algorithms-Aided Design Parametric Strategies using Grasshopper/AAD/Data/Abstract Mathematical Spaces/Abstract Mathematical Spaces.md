@@ -280,6 +280,9 @@ Yes, the fact that spaces are composite is a fundamental concept that enables bo
 Composite spaces are mathematical structures that are built upon simpler, base-level spaces. These composite spaces allow for the combination and extension of functions, leading to more complex operations and mappings.
 
 ### Inheritance in Composite Spaces
+##### Composite Functions Inherit and Thus Preserve Lower-Level Input Domains/Type
+The input domain (or type) of the lower-level function is preserved in the composite function. 
+	This means that the types of inputs the base function can accept remain the same when used within the composite function.
 
 1. **Base-Level Functions**:
     - **Definition**: Base-level functions are simpler functions defined in lower-dimensional or more basic spaces.
@@ -290,6 +293,13 @@ Composite spaces are mathematical structures that are built upon simpler, base-l
     - **Preservation of Properties**: The properties of the base-level function, such as continuity, differentiability, and linearity, are inherited by the higher-level function. This ensures that the composite function retains the fundamental characteristics of the base-level function.
 
 ### Extension in Composite Spaces
+##### [[#A Transformation as a Subset of Composite Functions ($1 1$, $m 1$)|Transformations]] Extend Composite Functions and Preserve Higher-Level Output Codomain
+Transformations take composite functions as their basis and enhance them, allowing these functions to operate in new and more complex contexts.
+
+Transformations extend composite functions by modifying the output type to a higher-level or more complex codomain. 
+	This means that while the function's input domain may be extended to more complex inputs, the output codomain is preserved and potentially expanded.
+		When transformations extend composite functions, they ensure that the higher-level output codomain remains consistent. 
+			This means that the type of outputs the function can produce is preserved, even as the function is extended to handle more complex inputs.
 
 1. **Extension of Outputs**:
     - **Modification of Output Types**: In composite spaces, the output type (or codomain) of the base-level function is extended to higher-dimensional or more complex spaces. This means that while the input domain remains the same, the function's output is mapped to a higher-level space.
@@ -326,13 +336,6 @@ Consider the following example to illustrate the concepts of inheritance and ext
 - **Output Type Extension**:
     - The output type (codomain) of the scalar function $f$ is extended from $\mathbb{R}$ to $\mathbb{R}^n$ in the vector function $\mathbf{F}$. Each component of the output vector is the result of applying $f$ to the corresponding component of the input vector.
     - This extension allows $\mathbf{F}$ to produce more complex outputs, enabling it to operate in higher-dimensional spaces.
-
-### Summary
-
-- **Inheritance**: Composite spaces enable the preservation of input types and properties from base-level functions. The input domain and fundamental characteristics of the base-level function are retained in the higher-level function.
-- **Extension**: Composite spaces facilitate the extension of output types, allowing functions to produce more complex and higher-dimensional outputs. This extends the applicability and functionality of the base-level function to more sophisticated contexts.
-
-By understanding the role of composite spaces in inheritance and extension, you can see how they provide a framework for building more complex functions while preserving the essential properties and extending the capabilities of simpler, base-level functions.
 
 - - -
 ## Generation of Composite Space: The Sequential Generation of the Field of Real Numbers and the Vector Space
@@ -465,7 +468,7 @@ This mapping is crucial in many fields of science and mathematics for simplifyin
 3. **Intensity of a Field**:
     - Domain: Points in space where a field is defined (e.g., electric field, magnetic field).
     - Scalar Function: $I(x, y, z)$ might map each point to the intensity of the field at that point.
-### Building on the Foundation: Generating Vector Spaces *on Top of* the Real Number Field
+### [[#The Role of Composite Spaces in Inheritance and Extension|Building on the Foundation: Generating Vector Spaces *on Top of* the Real Number Field]]
 #### "Defining a Space over a Field"
 When we **define a Vector Space over the real number field** $\mathbb{R}$, we inherit and incorporate this field's underlying set and structure.
 	Then the Vector Spaces adds additional elements to the Underlying Set, as well can extend the inherited structure, and/or add its own additional structure (i.e. operations and axioms) to form the vector space.
@@ -473,27 +476,35 @@ When we **define a Vector Space over the real number field** $\mathbb{R}$, we in
 The Real Number Field doesn't just supply underlying set (Real Numbers) in a vector field, it also maintains its initial structure which the vector space inherits.
 	Then the vector spaces defines **additional** structure on top of the existing structure of the Real Number Field.
 		Remember that the Real Number Field ($\mathbb{R}$) is a structured set equipped with two operations, addition and multiplication, that satisfy specific axioms (associativity, commutativity, distributivity, identity elements, and inverses).
-#### Preservation Through Inheritance and Extension of Function Output and Input Types
-##### Inheritance Aspect
-Inheritance refers to the preservation of properties from a fundamental structure (such as a field) to a derived structure (such as a vector space).
-###### Function Output Types Are Determined by the Fields or Spaces in Which the Functions Are Defined (i.e. The Lower Level Imparting Field or Space)
-Inheritance is represented by the fact that the [[Mapping#Inheritance and the Preservation of Function Output Types|inherited function still maps back to its respective space or field, thus preserving the output type]].
-	Therefore, the Output Types of a Function reflect or represent the Fields or Spaces of which they are defined.
+#### [[Mapping#Composite Functions are Defined by their Input and Output Types Through Inheritance and Extension|Preservation Through Inheritance and Extension of Function Output and Input Types]]
 
->[!note] **Preservation of Output Type Through Inheritance**:  Functions of a Field or Space Always Map Back to Domain of that Field or Space
->An inherited function type takes inputs from the domain of the inheriting space and **maps them to values (scalar, vector, matrix, etc.) within the codomain that is consistent with the function type's field or space.**
-##### Extension Aspect
-Extension refers to building upon a fundamental structure to create more complex structures by defining new types of inputs while maintaining the original output structure.
-###### Function Input Types Are Determined by the Fields or Spaces in Which the Functions Operate (i.e. The Higher Level Inheriting Spaces)
-Extension is represented by the fact that this inherited function can now take as input some type of value from the inheriting domain, extending its applicability to more complex structures.
-	The inherited function can now take as input some type of value from the inheriting domain, extending its applicability.
+### Inheritance and Extension in the Context of Structured Spaces
+**Higher Level Spaces Analogous to Composite Functions (Higher-Level Functions)**: Composite functions inherit properties (such as continuity and differentiability) from the functions they are composed of.
 
->[!note] **Preservation Through Extension of Input Type**:  Functions of a Field or Space Can Extend to Accept Inputs from the Domain of the Inheriting Space
->**An inherited function type takes inputs from the domain of the inheriting space** and maps them to values (scalar, vector, matrix, etc.) within the codomain that is consistent with the function type's field or space.
-
-In this case, the Vector Space does inherit all the[[#The Structure of the Real Number Field ($ mathbb{R}$)| initial structure of the Real Number Field]].
-- **Example:** $h: \mathbb{R}^2 \to \mathbb{R}$, $h(x, y) = x + y$. This function inherits the real number field properties while operating in the vector space $\mathbb{R}^2$.
-	- And the Scalar Function Takes as Input a Vector from this Inheriting Space and Maps it Back to a Value of the Real Number Field of which the Scalar Function was Defined.
+**Transformations of Additional/Extended Structure Analogous to Transformations as Subset of Composite Functions**: 
+**Transformations and Extension of Structure**: Transformations extend the structure of lower-level spaces by mapping them into higher-level spaces, thus adding new dimensions or properties.
+Transformations are indeed utilized in higher-level spaces as means of extending the structure and functionality of lower-level spaces.
+#### Inheritance in Structured Sets (i.e. Spaces)
+Inheritance in structured spaces refers to the process by which a higher-level space retains the fundamental properties, structure, and elements of a lower-level space.
+	The underlying set and the elements of the lower-level space are preserved in the higher-level space, ensuring consistency and continuity in the properties and operations.
+##### Properties Preserved in Inheritance
+###### Set and Elements
+The elements of the lower-level space are preserved in the higher-level space. 
+	If the lower-level space is a subset of a field or another structured set, this subset is retained in the higher-level space.
+		**Example**: The set of real numbers $\mathbb{R}$ in a vector space $\mathbb{R}^n$ is inherited when considering functions operating on $\mathbb{R}^n$.
+###### Structural Properties
+Properties such as continuity, differentiability, linearity, and algebraic operations (addition, multiplication) are preserved.
+	**Example**: If a function $f: \mathbb{R} \rightarrow \mathbb{R}$ is continuous, then a vector function $\mathbf{F}: \mathbb{R}^n \rightarrow \mathbb{R}^n$ that applies $f$ component-wise inherits the continuity property.
+#### Extension in Structured Sets (i.e. Spaces)
+Extension in structured spaces refers to the process by which a higher-level space broadens or enhances the structure and functionality of a lower-level space. 
+	This includes extending the types of operations, the dimensionality of the space, and the complexity of the elements within the space.
+##### Properties Preserved in Extension
+###### Set and Elements
+The elements and structure of the lower-level space are extended to a higher-dimensional or more complex space.
+	**Example**: Extending a scalar function $: \mathbb{R} \rightarrow \mathbb{R}$ to a vector function $\mathbf{F}: \mathbb{R}^n \rightarrow \mathbb{R}^m$ extends the scalar outputs to vector outputs.
+###### Structural Properties
+New properties or operations are added to the higher-level space, such as new dimensions, additional algebraic structures, or more complex relationships between elements.
+	**Example**: A transformation that maps vectors in $\mathbb{R}^n$ to matrices in $\mathbb{R}^{n \times m}$ extends the structure by adding matrix operations and higher-dimensional interactions.
 #### 1. The Underlying Set of the Vector Space
 The Vector Space inherits the Underlying Set (i.e. Real Numbers) from the Real Number Field that it is defined on top of.
 	But it also adds additional elements of its own.
@@ -503,7 +514,7 @@ The scalars used in the Vector Space come from the Real Number Field $\mathbb{R}
 
 These scalar elements (i.e. Real Numbers) are still constrained by the initial Real Number Field Structure. 
 	These scalars are used in scalar multiplication and define how vectors are scaled.
-##### The Additional Elements
+##### The Extended Elements
 The vector space itself has its own set of elements called vectors.
 	Vectors are constructed from the scalars of the field but are not simply elements of the field being inherited.
 		The phrase "***not simply elements of the field inherited***" means that vectors in a vector space are constructed on this new layer (i.e. Vector Space).

@@ -196,9 +196,9 @@ The term "composite function" implies that the higher-level function is built fr
 ###### Combines Operations
 Through composition, a new function is formed that performs a series of operations, effectively extending the functionality of the original functions. 
 	This results in a more complex function that integrates multiple steps.
-### The Role of Composite Spaces in Inheritance and Extension
+### The Role of [[Abstract Mathematical Spaces#Inheritance and Extension in the Context of Structured Spaces|Composite Spaces]]s (aka Higher-Level Spaces) in Inheritance and Extension
 The fact that spaces are composite is a fundamental concept that enables both the inheritance of base-level functions and the extension of outputs to higher-level spaces. 
-### Composite Spaces
+### Composite Spaces (i.e. Higher-Level Spaces)
 Composite spaces are mathematical structures that are built upon simpler, base-level spaces. 
 	These composite spaces allow for the combination and extension of functions, leading to more complex operations and mappings.
 ### Inheritance in Composite Spaces
@@ -220,8 +220,7 @@ Composite spaces are mathematical structures that are built upon simpler, base-l
 
 2. **Inheritance and Extension in Action**:
     - **Inheritance**: The composite function $h$ inherits the properties and input domain from the base-level function $g$. This means that $h$ will accept inputs from the same space as $g$ and will retain any properties $g$ possesses, such as continuity.
-    - **Extension**: The composite function $h$ extends the output type of $f$, mapping the input from $\mathbb{R}^p$ through $\mathbb{R}^n$ to $\mathbb{R}^m$. This extension enables the function to produce more complex outputs, expanding its applicability.
-
+	- **Extension**: The composite function $h$ extends the output type of $f$, mapping the input from $\mathbb{R}^p$ through $\mathbb{R}^n$ to $\mathbb{R}^m$. This extension enables the function to produce more complex outputs, expanding its applicability.
 ### Understanding the Notation $f: \mathbb{R}^n \rightarrow \mathbb{R}^m$ in the Context of Composite Functions
 The notation $f: \mathbb{R}^n \rightarrow \mathbb{R}^m$ describes a function $f$ that maps elements from an $n$-dimensional real vector space ($\mathbb{R}^n$) to an $m$-dimensional real vector space ($\mathbb{R}^m$). 
 #### Components of the Notation
@@ -353,10 +352,12 @@ In this way, composite functions can take simpler inputs, but produce more compl
 	This dependency shapes how functions are defined and how their outputs are structured. 
 		Furthermore, function types exhibit a hierarchical nature, where more complex function types build upon simpler ones, inheriting their properties and extending their applicability to higher-dimensional spaces.
 ##### *For Context Within Structured Sets, See: [[Abstract Mathematical Spaces#Preservation Through Inheritance and Extension of Function Output and Input Types|Preservation Through Inheritance and Extension of Function Output and Input Types]]*
-#### Input Type Preserved/Inherited from the [[#Fundamental Functions (i.e. Base-Level Component Functions)|Lower-Level Space]]
-##### Composite Function Input Types Are Determined by Lower-Level Spaces
-The domain of the lower-level function is typically preserved. 
-	This means the type of inputs that the original function can accept remains the same in the higher-level function.
+#### Composite Functions Inherit and Thus Preserve Lower-Level Input Domains/Type
+
+##### I.e. Composite Function Input Types Are Determined by Lower-Level Spaces
+Composite functions inherit properties from the lower-level functions they are composed of.
+	The input domain (or type) of the lower-level function is preserved in the composite function. 
+		This means that the types of inputs the base function can accept remain the same when used within the composite function.
 ###### Inheritance: Means an Input Domain is Preserved, while the Output Codomain is Modified/Changed
 **Inheritance** refers to the preservation of properties from lower-level (simpler) functions when they are used to construct higher-level (more complex) functions.
 	The input domain and properties of lower-level functions are preserved when constructing higher-level functions. 
@@ -364,19 +365,21 @@ The domain of the lower-level function is typically preserved.
 			When a higher-level function is constructed, it inherits the fundamental properties and behaviors of the simpler functions it is composed of.
 				Characteristics like continuity, differentiability, and linearity of the lower-level functions are also preserved in the higher-level function.
 ##### Composite Functions Represent Inheritance
-Composite spaces enable the preservation of input types and properties from base-level functions.
-	The input domain and fundamental characteristics of the base-level function are retained in the higher-level function.
-
-Inheritance implies a compositional/hierarchical structure (i.e. [[#Higher-Level Functions (i.e. Composite Functions)|Levels and Composite Nature]]) where more complex entities build upon simpler ones. 
-	In mathematics, this means that higher-level functions build on the properties and behaviors of lower-level functions.
-		Where scalar functions within the field of real numbers is inherited by any space that is a itself a subset of the real number field.
-
-Higher-level functions inherit properties from the lower-level functions they are composed of. 
-	This means that the behavior and properties of the scalar functions are retained in the higher-level function.
-		When a higher-level function inherits from a simpler function, it retains the fundamental properties and behaviors of the simpler function. 
-			This means that the operations defined for the simpler function are still valid and applicable in the higher-level function.
-#### Output Type Preserved/Extended to the [[#Higher-Level Functions (i.e. Composite Functions)|Higher-Level Space]]
-##### Composite Function Output Types Are Determined by the Higher Level Spaces
+- **Role**: Composite functions represent inheritance in mathematical structures.
+- **Definition**: Composite functions are formed by combining simpler, lower-level functions. This combination allows the composite function to inherit properties and input domains from the functions it is composed of.
+- **Inheritance**: 
+	- The properties (such as continuity, differentiability, and linearity) and input domains of the lower-level functions are preserved in the composite function.
+	- This ensures that the composite function retains the characteristics and behaviors of the simpler functions.
+	- Inheritance implies a compositional/hierarchical structure (i.e. [[#Higher-Level Functions (i.e. Composite Functions)|Levels and Composite Nature]]) where more complex entities build upon simpler ones. 
+		- In mathematics, this means that higher-level functions build on the properties and behaviors of lower-level functions.
+			- Where scalar functions within the field of real numbers is inherited by any space that is a itself a subset of the real number field.
+			- Higher-level functions inherit properties from the lower-level functions they are composed of. 
+				- This means that the behavior and properties of the scalar functions are retained in the higher-level function.
+					- When a higher-level function inherits from a simpler function, it retains the fundamental properties and behaviors of the simpler function. 
+						- This means that the operations defined for the simpler function are still valid and applicable in the higher-level function.
+#### [[#A Transformation as a Subset of Composite Functions ($1 1$, $m 1$)|Transformations]] Extend Composite Functions and Preserve Higher-Level Output Codomain
+Transformations take composite functions as their basis and enhance them, allowing these functions to operate in new and more complex contexts.
+##### I.e. Composite Function Output Types Are Determined by the Higher Level Spaces
 Extension involves modifying or enhancing the output type of the function. 
 	The codomain of the function is typically extended to handle more complex or higher-dimensional outputs.
 ###### Extension: Means an Output Codomain is Preserved, while the Input Domain is Modified/Changed
@@ -385,20 +388,24 @@ Extension is represented by the fact that this inherited function can now produc
 		The output type of the original function is extended. 
 			The composite function extends the applicability of the original function to operate in higher-dimensional spaces or on more complex structures.
 				The higher-level function produces more complex outputs, such as vectors instead of scalars, thus broadening the range and applicability of the original function.
-##### Composite Functions Represent Extension
-Composite spaces facilitate the extension of output types, allowing functions to produce more complex and higher-dimensional outputs.
-	This extends the applicability and functionality of the base-level function to more sophisticated contexts.
-
-Composite functions extend the applicability of the original functions by allowing the output of one function to serve as the input for another. 
-	This creates a broader domain and range for the new composite function.
-
-When functions are composed, the higher-level function extends the functionality of the lower-level function by broadening the range of possible outputs and potentially handling more complex input structures.
-	The higher-level function takes the input processed by the lower-level function and maps it to a new output space.
 
 When a higher-level function is defined, the computation of its output involves operations that ultimately depend on lower-level values (ultimately, scalar values).
 	Even if higher-level functions (such as vector or matrix functions) are not explicitly defined by their scalar components, they are at least implicitly defined by scalar functions.
 		This implicit relationship underscores the fundamental nature of scalar functions in constructing and understanding more complex mathematical structures.
 			The operations and rules that define these higher-level functions involve computations that ultimately reduce to scalar values, ensuring that the foundational role of scalar functions is preserved.
+##### Transformations Represent Extension
+- **Role**: 
+	- Transformations represent extension.
+- **Definition**: 
+	- Transformations are specific types of composite functions that map elements from one space to another, often altering the output type (codomain) or extending the input domain to more complex or higher-dimensional spaces.
+- **Extension**: 
+	- Transformations extend composite functions by modifying the output type to a higher-level or more complex codomain. 
+		- Composite spaces facilitate the extension of output types, allowing functions to produce more complex and higher-dimensional outputs.
+			- This means that while the function's input domain may be extended to more complex inputs, the output codomain is preserved and potentially expanded.
+		- The higher-level function takes the input processed by the lower-level function and maps it to a new output space.
+			- This enables the function to produce outputs in a higher-level or more complex codomain, thus broadening the scope and range of the function.
+				- This extends the applicability and functionality of the base-level function to more sophisticated contexts.
+					- When functions are composed, the higher-level function extends the functionality of the lower-level function by broadening the range of possible outputs and potentially handling more complex input structures.
 ### Associations of Composite Functions
 > [!note]
 > #### 1:1 (One-to-One):
@@ -442,39 +449,54 @@ Where a function is a rule that assigns each element in one set (called the doma
 > 	A linear transformation where each input element is mapped to a unique output element.
 > $\LARGE m:1$.
 > 	A non-linear transformation where multiple input elements are mapped to the same output element.
-### Transformations as [[#Input Type Preserved (i.e. Determined) by Extensions|Extensions]]
+### Transformations as [[#Input Type Preserved (i.e. Determined) by Extensions|Extend Composite Functions]]
 A transformation is a function that maps elements from one space (domain) to another space (codomain). 
 	This mapping can involve changing the nature or dimension of the space in which the elements reside.
 ###### Extension: Means an Output Codomain is Preserved, while the Input Domain is Modified/Changed
 
-Transformations represent extensions of functions that operate over different input types (domains) and potentially alter the output type (codomain). 
+Transformations can preserve the output type (codomain) while operating over different input types (domains).
 	They extend the applicability and functionality of functions by enabling operations over different domains and codomains.
 		Transformations map elements from one space to another, thus extending the function's applicability beyond its original scope.
+### How Transformations Extend Composite Functions
+#### Extending the Domain and Codomain
+1. **Domain Extension**:
+    - Transformations extend the domain of functions by allowing them to accept inputs from different or more complex spaces.
+    - For example, a transformation can take a function originally defined for real numbers ($\mathbb{R}$) and extend it to operate on vectors ($\mathbb{R}^n$) or matrices ($\mathbb{R}^{n \times n}$).
+    - This extension broadens the scope and applicability of the function, enabling it to handle a wider variety of inputs.
+2. **Codomain Extension**:
+    - Transformations also extend the codomain by producing outputs in different or higher-dimensional spaces.
+    - For instance, a transformation can extend a function that produces scalar outputs to produce vector or matrix outputs.
+    - This allows the function to generate more complex results, which are useful in advanced applications.
+#### Preserving and Extending Properties
+1. **Preservation of Properties**:
+    - Just like composite functions, transformations preserve certain properties of the functions they extend. This includes properties like continuity, differentiability, and linearity.
+    - For example, if the original function is continuous, the transformation will ensure that this continuity is preserved in the new context.
+2. **Enhancement of Functionality**:
+    - By extending the domain and codomain, transformations enhance the functionality of the original functions.
+    - This includes allowing functions to operate in more complex mathematical frameworks and on more intricate data structures.
+### Types of Transformations as Extensions
 
-**Preservation and Modification**: Transformations can preserve the output type (codomain) while operating over different input types (domains). For instance, a transformation might map vectors to vectors or map vectors to scalars, depending on the nature of the transformation.
-##### Transformation Types
-- **Linear Transformation**: $T(\mathbf{x}) = A\mathbf{x}$, where $A$ is a matrix.
-- **Affine Transformation**: T$(\mathbf{x}) = \mathbf{x} + \mathbf{b}$, where $A$ is a matrix and $\mathbf{b}$ is a vector.
-- **Non-linear Transformation**: $3T(x) = x^3$.
-- **Projective Transformation**
-	- A transformation that maps lines to lines but does not necessarily preserve parallelism. It includes perspective transformations.
-- **Euclidean Transformation**
-	- A transformation that preserves distances and angles. Also known as rigid transformations.
-- **Similarity Transformation**
-	- A transformation that preserves angles but not necessarily distances. It is a combination of a Euclidean transformation and uniform scaling.
-- **Homeothety (Dilation)**
-	- A transformation that scales objects by a constant factor, either enlarging or shrinking them.
-		- T(x)=kx where kkk is a scalar.
-- **Möbius Transformation**
-	- A complex function that maps the extended complex plane onto itself, preserving the general form of rational functions.
-- **Conformal Transformation**
-	- A transformation that preserves angles but not necessarily lengths.
-- **Fourier Transform**
-	- A transformation that decomposes a function into its constituent frequencies.
-- **Wavelet Transform**
-	- A transformation that represents data or functions in terms of wavelets with different scales and positions.
-- **Coordinate Transformation**
-	- A change of coordinates that can be linear or non-linear, used to simplify equations or understand geometrical structures.
+1. **Linear Transformations**:
+    - Linear transformations are a primary example of how transformations extend the applicability of functions.
+    - A linear transformation $T: \mathbb{R}^n \rightarrow \mathbb{R}^m$ maps vectors in $\mathbb{R}^n$ to vectors in $\mathbb{R}^m$, preserving vector addition and scalar multiplication.
+    - This extension allows linear functions to operate on vector spaces, which are more complex than the original scalar functions.
+
+    **Example**:
+    - Consider a linear transformation represented by a matrix $A$. If $T(\mathbf{x}) = A\mathbf{x}$, where $\mathbf{x} \in \mathbb{R}^n$ and $A$ is an $m \times n$ matrix, the transformation extends the domain from $\mathbb{R}^n$ to the vector space $\mathbb{R}^n$ and the codomain to $\mathbb{R}^m$.
+
+2. **Affine Transformations**:
+    - Affine transformations extend linear transformations by including a translation component.
+    - An affine transformation can be written as $T(\mathbf{x}) = A\mathbf{x} + \mathbf{b}$, where $A$ is a matrix and $\mathbf{b}$ is a vector.
+    - This type of transformation extends the functionality of linear transformations by allowing for translations, rotations, scalings, and shears in higher-dimensional spaces.
+
+3. **Non-linear Transformations**:
+    - Non-linear transformations extend functions in ways that are not confined to linear relationships.
+    - These transformations can map inputs to outputs using non-linear functions, significantly broadening the range of possible applications.
+    - For example, a non-linear transformation might involve applying a non-linear function like $\sin(x)$ or $e^x$ to each component of a vector, thus extending the domain and codomain into more complex non-linear spaces.
+
+    **Example**:
+    - Consider a transformation $T: \mathbb{R}^n \rightarrow \mathbb{R}^m$ defined by $T(\mathbf{x}) = (\sin(x_1), \cos(x_2), \ldots, \tan(x_n))$. This transformation applies non-linear functions to each component of the input vector, extending the output space to include trigonometric values.
+
 
 - - -
 
