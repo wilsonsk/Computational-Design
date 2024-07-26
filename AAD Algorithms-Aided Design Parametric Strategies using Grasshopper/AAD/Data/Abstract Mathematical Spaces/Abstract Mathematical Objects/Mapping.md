@@ -196,6 +196,32 @@ The term "composite function" implies that the higher-level function is built fr
 ###### Combines Operations
 Through composition, a new function is formed that performs a series of operations, effectively extending the functionality of the original functions. 
 	This results in a more complex function that integrates multiple steps.
+### The Role of Composite Spaces in Inheritance and Extension
+The fact that spaces are composite is a fundamental concept that enables both the inheritance of base-level functions and the extension of outputs to higher-level spaces. 
+### Composite Spaces
+Composite spaces are mathematical structures that are built upon simpler, base-level spaces. 
+	These composite spaces allow for the combination and extension of functions, leading to more complex operations and mappings.
+### Inheritance in Composite Spaces
+1. **Base-Level Functions**:
+    - **Definition**: Base-level functions are simpler functions defined in lower-dimensional or more basic spaces.
+    - **Example**: A scalar function $f: \mathbb{R} \rightarrow \mathbb{R}$ is a base-level function.
+
+2. **Inheritance**:
+    - **Preservation of Input Types**: In composite spaces, the input type (or domain) of the base-level function is preserved. This means the fundamental nature of the input space is maintained even when the function is extended to higher-dimensional spaces.
+    - **Preservation of Properties**: The properties of the base-level function, such as continuity, differentiability, and linearity, are inherited by the higher-level function. This ensures that the composite function retains the fundamental characteristics of the base-level function.
+### Extension in Composite Spaces
+1. **Extension of Outputs**:
+    - **Modification of Output Types**: In composite spaces, the output type (or codomain) of the base-level function is extended to higher-dimensional or more complex spaces. This means that while the input domain remains the same, the function's output is mapped to a higher-level space.
+    - **Enhanced Functionality**: By extending the output, the function's applicability and complexity are increased. This allows the function to produce more detailed and sophisticated results.
+### How Composite Functions Enable Inheritance and Extension
+1. **Composite Functions**:
+    - Composite functions are formed by combining two or more base-level functions. This combination allows for the preservation of input types and the extension of output types.
+    - **Example**: If $g: \mathbb{R}^p \rightarrow \mathbb{R}^n$ and $f: \mathbb{R}^n \rightarrow \mathbb{R}^m$, the composite function $h(x) = f(g(x))$ inherits the input type from $g$ and extends the output type from $f$.
+
+2. **Inheritance and Extension in Action**:
+    - **Inheritance**: The composite function $h$ inherits the properties and input domain from the base-level function $g$. This means that $h$ will accept inputs from the same space as $g$ and will retain any properties $g$ possesses, such as continuity.
+    - **Extension**: The composite function $h$ extends the output type of $f$, mapping the input from $\mathbb{R}^p$ through $\mathbb{R}^n$ to $\mathbb{R}^m$. This extension enables the function to produce more complex outputs, expanding its applicability.
+
 ### Understanding the Notation $f: \mathbb{R}^n \rightarrow \mathbb{R}^m$ in the Context of Composite Functions
 The notation $f: \mathbb{R}^n \rightarrow \mathbb{R}^m$ describes a function $f$ that maps elements from an $n$-dimensional real vector space ($\mathbb{R}^n$) to an $m$-dimensional real vector space ($\mathbb{R}^m$). 
 #### Components of the Notation
@@ -338,6 +364,9 @@ The domain of the lower-level function is typically preserved.
 			When a higher-level function is constructed, it inherits the fundamental properties and behaviors of the simpler functions it is composed of.
 				Characteristics like continuity, differentiability, and linearity of the lower-level functions are also preserved in the higher-level function.
 ##### Composite Functions Represent Inheritance
+Composite spaces enable the preservation of input types and properties from base-level functions.
+	The input domain and fundamental characteristics of the base-level function are retained in the higher-level function.
+
 Inheritance implies a compositional/hierarchical structure (i.e. [[#Higher-Level Functions (i.e. Composite Functions)|Levels and Composite Nature]]) where more complex entities build upon simpler ones. 
 	In mathematics, this means that higher-level functions build on the properties and behaviors of lower-level functions.
 		Where scalar functions within the field of real numbers is inherited by any space that is a itself a subset of the real number field.
@@ -357,6 +386,9 @@ Extension is represented by the fact that this inherited function can now produc
 			The composite function extends the applicability of the original function to operate in higher-dimensional spaces or on more complex structures.
 				The higher-level function produces more complex outputs, such as vectors instead of scalars, thus broadening the range and applicability of the original function.
 ##### Composite Functions Represent Extension
+Composite spaces facilitate the extension of output types, allowing functions to produce more complex and higher-dimensional outputs.
+	This extends the applicability and functionality of the base-level function to more sophisticated contexts.
+
 Composite functions extend the applicability of the original functions by allowing the output of one function to serve as the input for another. 
 	This creates a broader domain and range for the new composite function.
 
