@@ -196,11 +196,12 @@ The term "composite function" implies that the higher-level function is built fr
 ###### Combines Operations
 Through composition, a new function is formed that performs a series of operations, effectively extending the functionality of the original functions. 
 	This results in a more complex function that integrates multiple steps.
-### The Role of [[Abstract Mathematical Spaces#Inheritance and Extension in the Context of Structured Spaces|Composite Spaces]]s (aka Higher-Level Spaces) in Inheritance and Extension
+### The Role of [[Abstract Mathematical Spaces#Inheritance and Extension in the Context of Structured Spaces|Composite Spaces]] (aka Higher-Level Spaces) in Inheritance and Extension
 The fact that spaces are composite is a fundamental concept that enables both the inheritance of base-level functions and the extension of outputs to higher-level spaces. 
 ### Composite Spaces (i.e. Higher-Level Spaces)
 Composite spaces are mathematical structures that are built upon simpler, base-level spaces. 
 	These composite spaces allow for the combination and extension of functions, leading to more complex operations and mappings.
+		Analogous to Composite Functions. 
 ### Inheritance in Composite Spaces
 1. **Base-Level Functions**:
     - **Definition**: Base-level functions are simpler functions defined in lower-dimensional or more basic spaces.
@@ -209,10 +210,24 @@ Composite spaces are mathematical structures that are built upon simpler, base-l
 2. **Inheritance**:
     - **Preservation of Input Types**: In composite spaces, the input type (or domain) of the base-level function is preserved. This means the fundamental nature of the input space is maintained even when the function is extended to higher-dimensional spaces.
     - **Preservation of Properties**: The properties of the base-level function, such as continuity, differentiability, and linearity, are inherited by the higher-level function. This ensures that the composite function retains the fundamental characteristics of the base-level function.
+    - **In Structured Sets**:
+		- Extension in structured sets involves adding new dimensions or properties to create higher-level spaces.
+	    - **Example**: A projective space $\mathbb{P}^n$ extends $\mathbb{R}^n$ by including points at infinity.
+	- **In Transformations**:
+		- Transformations extend functions by mapping them to higher-dimensional spaces or adding new properties.
+	    - **Example**: A linear transformation extends a function from $\mathbb{R}^n$ to $\mathbb{R}^m$.
 ### Extension in Composite Spaces
 1. **Extension of Outputs**:
     - **Modification of Output Types**: In composite spaces, the output type (or codomain) of the base-level function is extended to higher-dimensional or more complex spaces. This means that while the input domain remains the same, the function's output is mapped to a higher-level space.
     - **Enhanced Functionality**: By extending the output, the function's applicability and complexity are increased. This allows the function to produce more detailed and sophisticated results.
+    - **In Structured Sets**:
+		- Extension in structured sets involves adding new dimensions or properties to create higher-level spaces.
+	    - **Example**: A projective space $\mathbb{P}^n$ extends $\mathbb{R}^n$ by including points at infinity.
+	- **In Transformations**:
+		- Transformations extend functions by mapping them to higher-dimensional spaces or adding new properties.
+	    - **Example**: A linear transformation extends a function from $\mathbb{R}^n$ to $\mathbb{R}^m$.
+	    - These are *the* Transformations as Composite Functions.
+		    - They are defined in the (Extended/Additional) Structure of a Higher-Level Space.
 ### How Composite Functions Enable Inheritance and Extension
 1. **Composite Functions**:
     - Composite functions are formed by combining two or more base-level functions. This combination allows for the preservation of input types and the extension of output types.
@@ -221,7 +236,7 @@ Composite spaces are mathematical structures that are built upon simpler, base-l
 2. **Inheritance and Extension in Action**:
     - **Inheritance**: The composite function $h$ inherits the properties and input domain from the base-level function $g$. This means that $h$ will accept inputs from the same space as $g$ and will retain any properties $g$ possesses, such as continuity.
 	- **Extension**: The composite function $h$ extends the output type of $f$, mapping the input from $\mathbb{R}^p$ through $\mathbb{R}^n$ to $\mathbb{R}^m$. This extension enables the function to produce more complex outputs, expanding its applicability.
-### Understanding the Notation $f: \mathbb{R}^n \rightarrow \mathbb{R}^m$ in the Context of Composite Functions
+### Understanding the Notation $f: \mathbb{R}^n \rightarrow \mathbb{R}^m$ in the Context of Composite Functions (Inheritance) and Transformations (Extensions)
 The notation $f: \mathbb{R}^n \rightarrow \mathbb{R}^m$ describes a function $f$ that maps elements from an $n$-dimensional real vector space ($\mathbb{R}^n$) to an $m$-dimensional real vector space ($\mathbb{R}^m$). 
 #### Components of the Notation
 
@@ -436,12 +451,30 @@ When a higher-level function is defined, the computation of its output involves 
 
 - - - 
 ## A Transformation as a Subset of Composite Functions ($1:1$, $m:1$)
-Transformations are specific types of composite functions that map elements from one space to another, extending the domain and potentially altering the codomain.
+Transformations are specific types of composite functions that map elements from one space (domain) to another space (codomain), extending the domain and potentially altering the codomain.
 	They build upon the principles of composite functions, utilizing inheritance and extension to enhance functionality and applicability.
 		The spaces can be of different dimensions or the same dimension.
-
-Where a function is a rule that assigns each element in one set (called the domain) to a single element in another set (called the codomain).
-	A transformation is a function that maps a set to itself or another set, often preserving some structure.
+##### Function vs. Composite Function vs. Transformation  
+Where a **function** is a rule that assigns each element in one set (called the domain) to a single element in another set (called the codomain).
+$$\text{Scalar Function, with Scalar (Real Num. Domain and Codomain) } \mathbf{f}:\mathbb{R} \to \mathbb{R}$$
+$$f(x) = x^2 + 3$$
+**Composite functions** are formed by combining simpler, lower-level functions. 
+$$\text{Composite Vector Function } \mathbf{F}:\mathbb{R^2} \to \mathbb{R^2} $$
+$$\mathbf{F(x)} = \begin{pmatrix} 10 \\ x^2 + 3 \end{pmatrix}$$
+A **transformation** is a function that maps a set to itself or another set, often preserving some structure.
+	When transforming a 3D vector to a 2D vector, you need to map three coordinates $(x, y, z)$ to two coordinates $(u, v)$.
+		This is typically done using a matrix that reduces the dimensionality.
+$$\text{Transformation of 2D Vector to 3D Vector } \mathbf{T}:\mathbb{R^3} \to \mathbb{R^3}$$
+A $2\times 3$ matrix allows you to combine the components of the 3D vector in a linear way to produce the 2D vector.
+$$\mathbf{A}\text{ Is a transformation from a 3D vector to a 2D vector can be represented by a $2 \times 3$ matrix.}$$
+$$ A = \begin{pmatrix} a_{11} & a_{12} & a_{13} \\ a_{21} & a_{22} & a_{23} \end{pmatrix} $$
+$$\text{Then, for a vector } \mathbf{v} = \begin{pmatrix} x \\ y \\ z \end{pmatrix} \in \mathbb{R}^3, \text{ the transformed vector }T(\mathbf{v}) \text{ in } \mathbb{R}^2$$
+$$\text{2D Vector } \vec{\mathbf{u}} = T(\mathbf{v}) = A \mathbf{v} = \begin{pmatrix} a_{11} & a_{12} & a_{13} \\ a_{21} & a_{22} & a_{23} \end{pmatrix} \begin{pmatrix} x \\ y \\ z \end{pmatrix} = \begin{pmatrix} a_{11}x + a_{12}y + a_{13}z \\ a_{21}x + a_{22}y + a_{23}z \end{pmatrix} $$
+$$\text{Transformation of 2D Vector to Scalar } \mathbf{T}:\mathbb{R^3} \to \mathbb{R}$$
+$\text{A transformation from a 3D vector to a scalar can be represented by a dot product with another 3D vector.}$ $$ T: \mathbb{R}^3 \to \mathbb{R} $$
+$$\text{Let the vector } \vec{\mathbf{w}} = \begin{pmatrix} a \\ b \\ c \end{pmatrix} \in \mathbb{R}^3. $$
+$$\text{The transformation }\mathbf{T} \text{ for a vector }\mathbf{v} = \begin{pmatrix} x \\ y \\ z \end{pmatrix} \in \mathbb{R}^3 \text{ is given by the dot product:}$$
+$$ T(\mathbf{v}) = \mathbf{w} \cdot \mathbf{v} = a x + b y + c z $$$$ \text{For example, if we choose }\mathbf{w} = \begin{pmatrix} 1 \\ 2 \\ 3 \end{pmatrix} \text{ and }\mathbf{v} = \begin{pmatrix} 3 \\ 4 \\ 5 \end{pmatrix} \text{, then:}$$ $$ T(\mathbf{v}) = 1 \cdot 3 + 2 \cdot 4 + 3 \cdot 5 = 3 + 8 + 15 = 26 $$
 > [!note]
 > ### Associations of Transformations
 > Transformations inherit the properties of functions, meaning they can be
@@ -457,6 +490,12 @@ A transformation is a function that maps elements from one space (domain) to ano
 Transformations can preserve the output type (codomain) while operating over different input types (domains).
 	They extend the applicability and functionality of functions by enabling operations over different domains and codomains.
 		Transformations map elements from one space to another, thus extending the function's applicability beyond its original scope.
+### Transformations are Defined as Extensions within the Extended Structure of [[Abstract Mathematical Spaces#Inheritance and Extension in the Context of Structured Spaces|Higher-Level Space]]
+transformations are often defined as extensions within higher-level spaces, in the sense that they map elements from one space to another, potentially adding dimensions or altering the structure. 
+	This process of mapping can extend the functionality and applicability of the original space
+
+Higher-level spaces incorporate additional dimensions, elements, or properties compared to lower-level spaces.
+	Transformations facilitate the creation and extension of these higher-level spaces by mapping and modifying the elements and structure of the original space.
 ### How Transformations Extend Composite Functions
 #### Extending the Domain and Codomain
 1. **Domain Extension**:

@@ -291,7 +291,12 @@ The input domain (or type) of the lower-level function is preserved in the compo
 2. **Inheritance**:
     - **Preservation of Input Types**: In composite spaces, the input type (or domain) of the base-level function is preserved. This means the fundamental nature of the input space is maintained even when the function is extended to higher-dimensional spaces.
     - **Preservation of Properties**: The properties of the base-level function, such as continuity, differentiability, and linearity, are inherited by the higher-level function. This ensures that the composite function retains the fundamental characteristics of the base-level function.
-
+	- **In Structured Sets**:
+		- Inheritance in structured sets means that higher-level spaces retain the properties and elements of lower-level spaces.
+	    - **Example**: A vector space Rn\mathbb{R}^nRn retains the field properties of R\mathbb{R}R.
+	- **In Composite Functions**:
+		- Composite functions retain the properties of the functions they are composed of.
+	    - **Example**: If both component functions are continuous, the composite function is continuous.
 ### Extension in Composite Spaces
 ##### [[#A Transformation as a Subset of Composite Functions ($1 1$, $m 1$)|Transformations]] Extend Composite Functions and Preserve Higher-Level Output Codomain
 Transformations take composite functions as their basis and enhance them, allowing these functions to operate in new and more complex contexts.
@@ -304,7 +309,12 @@ Transformations extend composite functions by modifying the output type to a hig
 1. **Extension of Outputs**:
     - **Modification of Output Types**: In composite spaces, the output type (or codomain) of the base-level function is extended to higher-dimensional or more complex spaces. This means that while the input domain remains the same, the function's output is mapped to a higher-level space.
     - **Enhanced Functionality**: By extending the output, the function's applicability and complexity are increased. This allows the function to produce more detailed and sophisticated results.
-
+    - **In Structured Sets**:
+		- Extension in structured sets involves adding new dimensions or properties to create higher-level spaces.
+	    - **Example**: A projective space Pn\mathbb{P}^nPn extends Rn\mathbb{R}^nRn by including points at infinity.
+	- **In Transformations**:
+		- Transformations extend functions by mapping them to higher-dimensional spaces or adding new properties.
+	    - **Example**: A linear transformation extends a function from Rn\mathbb{R}^nRn to Rm\mathbb{R}^mRm.
 ### How [[Mapping#A Composite Function as a Subset of Functions|Composite Functions]] Enable [[Mapping#Input Type Preserved/Inherited from the Fundamental Functions (i.e. Base-Level Component Functions) Lower-Level Space|Inheritance]] and [[Mapping#Input Type Preserved (i.e. Determined) by Extensions Extension|Extension]]
 
 1. **Composite Functions**:
