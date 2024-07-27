@@ -750,13 +750,14 @@ While $\mathbb{R}^n$ spaces are vector spaces, there are other mathematical stru
 A vector space becomes "spatial" when it is used to represent geometric or physical space.
 
 All vector spaces can be considered "abstract" or "algebraic" when viewed purely in terms of their algebraic properties (addition and scalar multiplication).
-### Vector Space $\mathbb{R}^1$ (i.e. simply $\mathbb{R}$)
+### Scalar Space $\mathbb{R}^1$ as Vector Space $\mathbb{R}^1$ (i.e. simply $\mathbb{R}$)
 #### Abstract Vector Space
 As a vector space $V$ over a field $F$ (commonly the field of real numbers $\mathbb{R}$ or complex numbers $\mathbb{C}$) is an abstract mathematical structure consisting of all real numbers with standard addition and scalar multiplication.
 #### Spatial Interpretation:
 When $\mathbb{R}$ is used to represent physical quantities along a single dimension (such as positions along a line), it can be considered spatial.
 	Example: The real number line can be used to represent positions along a one-dimensional space. In this context, $\mathbb{R}$ is spatial.
 ### Vector Space $\mathbb{R}^2$ and $\mathbb{R}^3$
+They are not inherently "non-spatial"; rather, they can be interpreted in either an abstract algebraic sense or a concrete spatial sense, depending on the context.
 #### Naturally Spatial
 $\mathbb{R}^2$ and $\mathbb{R}^3$ are naturally interpreted as spatial because they correspond to 2D and 3D physical spaces, respectively.
 ##### $\mathbb{R}^2$
@@ -770,7 +771,6 @@ Represents points in 3D space.
 ## Spatial Fields
 A spatial field in general implies a continuous distribution of some output over a spatial domain. 
 	Whether the output is a scalar, a vector, or something more complex, the key idea is that there is a specific value or set of values associated with every point in the spatial domain. 
-		
 	
 A spatial field can be broadly defined as a function that maps points in a spatial domain (such as $\mathbb{R}^2$, $\mathbb{R}^3$, or higher dimensions) to some output in a codomain. 
 	The output can be a scalar, a vector, a tensor, or even more complex structures.

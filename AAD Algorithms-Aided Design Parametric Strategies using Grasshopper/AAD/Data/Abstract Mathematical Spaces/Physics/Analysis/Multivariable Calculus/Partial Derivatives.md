@@ -39,7 +39,7 @@ $$\LARGE \partial_x f(x)== {\partial \over \partial x} == {d\over dx} f(x) == f'
 $$\LARGE {\partial \over \partial x} f(x) = \lim_{h \rightarrow 0} {f(x+h) - f(x) \over h}$$
 
 - - -
-## For a ([[Components of Motion#2D Components of the Velocity Vector|2D]]) Function $f(x, y)$
+## For a ([[Components of Motion#2D Components of the Velocity Vector|2D]]) Function $f(x, y)$ aka a Surface
 Its a bit different, because we have a function that depends on multiple variables, $x,y$.
 	$f'(x.y)$ does not make sense or clarify meaning. 
 
@@ -58,11 +58,6 @@ The following, is the Partial Derivative of $f(x,y)$ with respect to $x$.
 		Therefore, the interval value, $h$ is only added to $x$ and not $y$.
 			But the rest is the same as the conventional Limit. 
 				I.e. The limit of the rate of change of the output of the function, $f(x,y)$ as the $x$ changes.  
-
-- - -
-### 2D Partial Derivative of $f$ with Respect to $x$
-$$\LARGE \frac{\partial f}{\partial x} == \partial_x f(x,y) == {\partial \over \partial x}f(x,y) = \lim_{h \rightarrow 0} {f(x+h,y) - f(x,y) \over h}$$
-*Remember: The [[Limits#Limit at a Specific Point|Limit]] in the following form represents the rate of change at a specific point, $a$.*
 ##### Function, $\LARGE f(x,y)$
 ![[Pasted image 20240623221622.png|300]]
 ##### Differential of $f(x,y)$, $\LARGE \frac{\partial}{\partial x}f(x,y)$
@@ -71,11 +66,6 @@ When we first approach this very, very steep slope here where this derivative ha
 	Then when you approach the top, this slope gets less steep.
 		Then at the plateau, the slope is zero.
 			This is why you get here a very large flat region in between the convex and concave regions, where the derivative is basically zero.
-
-- - -
-### 2D Partial Derivative of $f$ with Respect to $y$
-$$\LARGE \frac{\partial f}{\partial y} == \partial_x f(x,y) == {\partial \over \partial y}f(x,y) = \lim_{h \rightarrow 0} {f(x,y+h) - f(x,y) \over h}$$
-*Remember: The [[Limits#Limit at a Specific Point|Limit]] in the following form represents the rate of change at a specific point, $a$.*
 ##### Function, $\LARGE f(x,y)$
 ![[Pasted image 20240623222925.png|300]]
 ##### Differential of $f(x,y)$, $\LARGE \frac{\partial}{\partial y}f(x,y)$
@@ -84,7 +74,124 @@ When we first approach this very, very steep slope here where this derivative ha
 	Then when you approach the top, this slope gets less steep.
 		Then at the plateau, the slope is zero.
 			This is why you get here a very large flat region in between the convex and concave regions, where the derivative is basically zero.
+- - -
+### 2D Partial Derivative of $f$ with Respect to $x$
+Simply compute single variable derivative of one variable while keeping the other variable(s) as constant.  
+$$\frac{\partial f}{\partial x} = \partial_x f(a,b) = {\partial \over \partial x}f(a,b) = f'_{x}(a,b) = f'_{1}(a,b) = \lim_{h \rightarrow 0} {f(a+h,b) - f(a,b) \over h} = g'(a)$$
+$$g(x) = f(x, b)$$
+*Remember: The [[Limits#Limit at a Specific Point|Limit]] in the following form represents the rate of change at a specific point, $a$.*
 
+The partial derivative is simply a single variable calculus function, enabled by holding one variable constant. 
+	Because $y$ is a constant $b$, this function no longer represents a 3D surface, but a 2D Curve.
+$$\text{Where } g=(x) \text{ represents the equivalent single variable function from single variable calculus.}$$
+$$g(x) \text{ is defined by a function } f(x,b) \text{ that has a constant variable } b.$$
+### $y=b$ Represents a Plane
+And thus a domain for $g(x) = f(x,b)$.
+	Parallel to the $xz$-plane.
+### $z=f(x,y)$ Represents a 3D Surface
+Where points within a $xy$-plane are mapped to a $z$ value and thus an additional dimension.
+### $z_{curve} = g(x)$ Represents a 2D Curve Within a Single Plane on the 3D Surface
+Because the the $y$ variable is constant, the function becomes that of a 2D curve is within the plane/domain defined by the constant $y$, and thus parallel to the $xz$-plane.
+	That is, variable $x$ within are mapped to unique $z_{curve}$ values. 
+		$g(x)$ is equivalent to $f(x,b)$ where $b$ is constant.
+
+- - -
+### 2D Partial Derivative of $f$ with Respect to $y$
+Simply compute single variable derivative of one variable while keeping the other variable(s) as constant.  
+$$\frac{\partial f}{\partial y} = \partial_y f(a,b) = {\partial \over \partial y}f(a,b) = f'_{y}(a,b) = f'_{2}(a,b) = \lim_{k \rightarrow 0} {f(a,b+h) - f(a,b) \over k} = h'(b)$$
+$$h(y) = f(a, y)$$
+*Remember: The [[Limits#Limit at a Specific Point|Limit]] in the following form represents the rate of change at a specific point, $a$.*
+
+The partial derivative is simply a single variable calculus function, enabled by holding one variable constant. 
+	Because $y$ is a constant $b$, this function no longer represents a 3D surface, but a 2D Curve.
+$$\text{Where } h=(y) \text{ represents the equivalent single variable function from single variable calculus.}$$
+$$h(y) \text{ is defined by a function } f(a,y) \text{ that has a constant variable } a.$$
+### $a=x$ Represents a Plane
+And thus a domain for $h(y) = f(a,y)$.
+	Parallel to the $zy$-plane.
+### $z=f(x,y)$ Represents a 3D Surface
+Where points within a $xy$-plane are mapped to a $z$ value and thus an additional dimension.
+### $z_{curve} = h(y)$ Represents a 2D Curve Along a Single Plane Within the 3D Surface
+Because the the $x$ variable is constant, the function becomes that of a 2D curve is within the plane defined by the constant $y$, and thus parallel to the $zy$-plane.
+	That is, variable $y$ within are mapped to unique $z_{curve}$ values. 
+		$h(y)$ is equivalent to $f(a,y)$ where $a$ is constant.
+
+- - -
+## Tangent Plane
+
+$$\LARGE \text{3D Surface } z=f(x,y)$$
+The Domain of $f(x,y)$ exists (*blue plane*) as a Subset of the $xy$-plane.
+![[Pasted image 20240727064407.png|500]]
+
+Some point in the $xy$-plane and its position on the surface (i.e. in the function $f(x,y)$).
+![[Pasted image 20240727064901.png|500]]
+
+Notice the **curves** (*green and red*).
+
+To produce the *red* curve, take the plane $y=b$ that is **parallel** to the $xz$-plane. 
+Where $y$ variable is held constant, as in the [[#2D Partial Derivative of $f$ with Respect to $x$|partial derivative with respect to x.]] 
+$$\text{Point } (a, b, f(a,b)) \text{ ; } \text{Surface } z= f(x,y) \text{ ; } \text{Plane }y=b\text{ ; } \text{Curve }z=f(x,b) = g(x))$$
+The plane as a constant $y$ value (being $b$ in this case), 
+	Therefore, any point on this plane has the second coordinate always equal to b.
+		The $x$ variable is free to vary within the bounds/domain (i.e. the initial blue plane) set by the curve (i.e. $z= f(x,y)$).
+			This plane intersects the surface in this *red* curve.
+				This curve ($z=f(x,y)$) represents the single variable calculus function $g(x) = f(x, b)$, which itself is the function from which the partial derivative with respect to $x$ is derived from. 
+![[Pasted image 20240727065106.png|500]]
+
+The *green* curve is produced via the plane, $x=a$ 
+Where $x$ variable is held constant, as in the [[#2D Partial Derivative of $f$ with Respect to $y$|partial derivative with respect to y]] 
+$$ \text{Point } (a, b, f(a,b)) \text{ ; }\text{Surface } z = f(x, y) \text{ ; } \text{Plane }x=a\text{ ; } \text{Curve }z=f(a,y) = h(y)$$
+The plane as a constant $x$ value (being $a$ in this case), 
+	Therefore, any point on this plane has the second coordinate always equal to b.
+		The $y$ variable is free to vary within the bounds/domain (i.e. the initial blue plane) set by the curve (i.e. $z= f(x,y)$).
+			This plane intersects the surface in this *green* curve.
+				This curve ($z=f(x,y)$) represents the single variable calculus function $h(y) = f(a, y)$, which itself is the function from which the partial derivative with respect to $y$ is derived from. 
+![[Pasted image 20240727070252.png|500]]
+
+The Tangent Line to the *red* curve, $g(x)$ lies **within** the same plane, $y=b$.
+	The **Slope** of this Tangent Line is the [[#2D Partial Derivative of $f$ with Respect to $x$|Derivative]] of $g(a)$ at a given point, $(a, b, f(a, b))$.
+		Remember, it is the Derivative of $g(a)$ because the variable b is held constant.
+			Thus, it is the **Partial Derivative** of the function $f(a, b)$ with respect to $a$, making $b$ a constant.  
+### [[#Tangent Vector Components|Tangent Vector]] in Terms of Partial Derivatives 
+The tangent vector to the surface $z = f(x, y)$ at a point $(a, b)$ can be expressed using the partial derivatives of $f$.
+	If you move by small amounts $\Delta x$ and $\Delta y$ from the point $(a, b)$, the change in $z$, denoted as $\Delta z$, can be approximated using the partial derivatives:
+$$\LARGE \Delta z \approx \frac{\partial f}{\partial x}(a, b) \Delta x + \frac{\partial f}{\partial y}(a, b) \Delta y$$
+  The corresponding tangent vector $\mathbf{T}(\Delta x, \Delta y)$ at the point $(a, b, f(a, b))$ is:
+$$\LARGE \mathbf{T}(\Delta x, \Delta y) = \begin{pmatrix} \Delta x \\ \Delta y \\ \Delta z \end{pmatrix} = \begin{pmatrix} \Delta x \\ \Delta y \\ \frac{\partial f}{\partial x}(a, b) \Delta x + \frac{\partial f}{\partial y}(a, b) \Delta y \end{pmatrix}$$
+### Direction Vector in the Plane $y = b$ 
+The **direction vector** is a specific instance of the [[#Tangent Vector Components]] when considering a particular direction in a plane (e.g., the plane $y = b$).
+
+If you are considering the direction vector in the plane $y = b$, then $\Delta y = 0$.
+	In this case, the tangent vector simplifies to:
+$$\LARGE \mathbf{T}(\Delta x, 0) = \begin{pmatrix} \Delta x \\ 0 \\ \frac{\partial f}{\partial x}(a, b) \Delta x \end{pmatrix}$$
+This can be further simplified to:
+$$\LARGE \mathbf{T}(\Delta x, 0) = \Delta x \begin{pmatrix} 1 \\ 0 \\ \frac{\partial f}{\partial x}(a, b) \end{pmatrix}$$
+Here, the vector $\begin{pmatrix} 1 \\ 0 \\ \frac{\partial f}{\partial y}(a, b) \end{pmatrix}$ is the direction vector in the plane $x = a$.
+To represent this tangent line in 3D, we use a direction vector.
+	Instead of using the Slope of the Tangent Line, utilize the Direction Vector.
+		Because this Vector is completely included in the plane, $y=b$, this means the Vector has no $y$ component, and thus $0$ for the $y$ component. 
+$$\LARGE \text{Direction Vector } = \begin{pmatrix} 1 \\ 0 \\ f'_{x}(a,b) \end{pmatrix}$$
+$$\Large \text{Where } f'_{x}(a,b) = g'(a)$$
+![[Pasted image 20240727081213.png]]
+
+The Tangent Line to the *green* curve, $h(y)$ lies **within** the same plane, $x=a$.
+	The **Slope** of this Tangent Line is the [[#2D Partial Derivative of $f$ with Respect to $x$|Derivative]] of $h(b)$ at a given point, $(a, b, f(a, b))$.
+		Remember, it is the Derivative of $h(b)$ because the variable $a$ is held constant.
+			Thus, it is the **Partial Derivative** of the function $f(a, b)$ with respect to $b$, making $a$ a constant.  
+### Direction Vector in the Plane $x = a$ 
+The **direction vector** is a specific instance of the [[#Tangent Vector Components]] when considering a particular direction in a plane (e.g., the plane $x = a$).
+If you are considering the direction vector in the plane $x = a$, then $\Delta x = 0$. In this case, the tangent vector simplifies to:
+ $$\LARGE \mathbf{T}(0, \Delta y) = \begin{pmatrix} 0 \\ \Delta y \\ \frac{\partial f}{\partial y}(a, b) \Delta y \end{pmatrix} $$
+This can be further simplified to:
+ $$\LARGE \mathbf{T}(0, \Delta y) = \Delta y \begin{pmatrix} 0 \\ 1 \\ \frac{\partial f}{\partial y}(a, b) \end{pmatrix}$$
+Here, the vector $\begin{pmatrix} 0 \\ 1 \\ \frac{\partial f}{\partial y}(a, b) \end{pmatrix}$ is the direction vector in the plane $x = a$.
+
+To represent this tangent line in 3D, we use a direction vector.
+	Instead of using the Slope of the Tangent Line, utilize the Direction Vector.
+		Because this Vector is completely included in the plane, $x=a$, this means the Vector has no $x$ component, and thus $0$ for the $x$ component. 
+$$\LARGE \text{Direction Vector } = \begin{pmatrix} 0 \\ 1 \\ f'_{y}(a,b) \end{pmatrix}$$
+$$\Large \text{Where } f'_{y}(a,b) = h'(b)$$
+![[Pasted image 20240727083419.png]]
 - - -
 ## Interpreting Partial Derivatives
 Recall that the graph of a function of two variables is a surface in R^3.

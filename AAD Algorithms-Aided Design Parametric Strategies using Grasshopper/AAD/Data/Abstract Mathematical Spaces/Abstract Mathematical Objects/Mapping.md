@@ -466,7 +466,7 @@ A **transformation** is a function that maps a set to itself or another set, oft
 		This is typically done using a matrix that reduces the dimensionality.
 $$\text{Transformation of 2D Vector to 3D Vector } \mathbf{T}:\mathbb{R^3} \to \mathbb{R^3}$$
 A $2\times 3$ matrix allows you to combine the components of the 3D vector in a linear way to produce the 2D vector.
-$$\mathbf{A}\text{ Is a transformation from a 3D vector to a 2D vector can be represented by a $2 \times 3$ matrix.}$$
+$$\text{Matrix } \mathbf{A}\text{ Is a transformation from a 3D vector to a 2D vector can be represented by a $2 \times 3$ matrix.}$$
 $$ A = \begin{pmatrix} a_{11} & a_{12} & a_{13} \\ a_{21} & a_{22} & a_{23} \end{pmatrix} $$
 $$\text{Then, for a vector } \mathbf{v} = \begin{pmatrix} x \\ y \\ z \end{pmatrix} \in \mathbb{R}^3, \text{ the transformed vector }T(\mathbf{v}) \text{ in } \mathbb{R}^2$$
 $$\text{2D Vector } \vec{\mathbf{u}} = T(\mathbf{v}) = A \mathbf{v} = \begin{pmatrix} a_{11} & a_{12} & a_{13} \\ a_{21} & a_{22} & a_{23} \end{pmatrix} \begin{pmatrix} x \\ y \\ z \end{pmatrix} = \begin{pmatrix} a_{11}x + a_{12}y + a_{13}z \\ a_{21}x + a_{22}y + a_{23}z \end{pmatrix} $$
