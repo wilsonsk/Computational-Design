@@ -768,8 +768,8 @@ Represents points in 3D space.
 	Each vector $(x, y, z)$ can be visualized as a point in a 3D Cartesian coordinate system.
 
 - - - 
-## Spatial Fields
-A spatial field in general implies a continuous distribution of some output over a spatial domain. 
+## Spatial Field as a Subset of Transformations
+A spatial field in general implies a continuous (i.e. real number) distribution of some output over a spatial domain. 
 	Whether the output is a scalar, a vector, or something more complex, the key idea is that there is a specific value or set of values associated with every point in the spatial domain. 
 	
 A spatial field can be broadly defined as a function that maps points in a spatial domain (such as $\mathbb{R}^2$, $\mathbb{R}^3$, or higher dimensions) to some output in a codomain. 

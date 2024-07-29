@@ -262,6 +262,8 @@ The differential of the function is represented/expressed in the fact that the d
 Ratios are a fundamental to the concept of the derivative.
 It [[Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Measurement|measures]] the output ($\Delta y$) (i.e. the differential $dy$) of a function $f(x)$ is proportioned to the input ($\Delta x$) (i.e. the differential $dx$) at an infinitesimally small scale.
 
+$$\LARGE f'(x) = \frac{\Delta y}{\Delta x}$$
+
 The derivative is the ratio of the change in the output to the change in the input as the change in the input approaches zero.
 ### 2. [[#The Differential (i.e. the Limit) is the Instantaneous Rate of Change|The Instantaneous Rate of Change of a Function]]
 A derivative (of a function $f(x)$) at a single point $f'(x)$, is itself a function that maps that single point (as an input) to the **value** of the **limit** of the **average rate of change** (i.e. limit of $\Delta y / \Delta x$) of that input.
@@ -278,6 +280,7 @@ The **derivative** (which only exists for a given point) is itself is a **value*
 
 Formally, the derivative at a point $a$, is **defined** as the [[Limits|limit]] of the slope of the Secant Line (i.e. **instantaneous rate of change**)
 ![[Pasted image 20240422232308.png]]
+![[Pasted image 20240727142926.png]]
 ![[Pasted image 20240422233019.png]]
 As the **interval or distance** over which the change is measured (between point $a$ and another determined point), **approaches zero**. ^c2858f
 	If this limit exists, then the function is **[[#Differentiability|differentiable]]** at that point, and the slope of the tangent line at this point is precisely the value of this limit itself - which is the derivative of that point.

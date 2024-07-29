@@ -21,6 +21,9 @@ The **Voronoi diagram** is a way of dividing space into a number of regions.
 A **set** $(S)$ of *n* points ($S_1, S_2, ..., S_n$).
 - A **Voronoi diagram** for a set (S), is the decomposition of bi-dimensional space.
 	- Which associates a region $V(S_i)$ to each point of $(S)$, so that all points within $V(S_i)$ are **closer** to its own **seed** $(S_i)$ than **another other point of $(S)$** (i.e. any other cell's seed).
+
+We can think of each Voronoi seed as an "attractor" in the sense that each point in the Voronoi cell is "attracted" to its seed by being closer to it than to any other seed.
+	However, this attraction is purely a static, geometric relationship based on distance, not a dynamic process.
 ## Voronoi **Cell** aka region $V(S_i)$:
 Encloses **all points** of a plane or surface that are **closer** to its own specific **seed**. than any other cell's.
 ## Voronoi Edges:

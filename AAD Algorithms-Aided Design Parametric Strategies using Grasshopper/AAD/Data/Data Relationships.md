@@ -122,6 +122,8 @@ Evaluates a list of numbers ranging from A to B and **resizes** them **proportio
 		- (R): Remapped number.
 		- (C): Remapped and clipped number.
 ##### Attractor: 
+**Attractor (in a dynamical system)**: A point or set towards which a system evolves over time. Points in the system's state space that start near the attractor will tend to move towards it.
+
 A geometric entity (point, curve or other element) used to modify the geometry around it within the defined limits. 
 - The **impact** an **attractor** has on other geometry **depends** on the **distance** **between** the defined **attractor** and the **object** it is **manipulating**.
 - The **remapped** domain is used as the **scaling factors**:

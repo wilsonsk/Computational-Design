@@ -536,7 +536,9 @@ Higher-level spaces incorporate additional dimensions, elements, or properties c
     **Example**:
     - Consider a transformation $T: \mathbb{R}^n \rightarrow \mathbb{R}^m$ defined by $T(\mathbf{x}) = (\sin(x_1), \cos(x_2), \ldots, \tan(x_n))$. This transformation applies non-linear functions to each component of the input vector, extending the output space to include trigonometric values.
 
-
+### Transformations from Lower-Level to Higher-Level
+Higher-level spaces can contain functions as inherited structure from lower-level spaces and extend or modify their outputs to fit their own structures.
+$$\LARGE \mathbb{R} \to \mathbb{R^2}$$
 - - -
 
 
