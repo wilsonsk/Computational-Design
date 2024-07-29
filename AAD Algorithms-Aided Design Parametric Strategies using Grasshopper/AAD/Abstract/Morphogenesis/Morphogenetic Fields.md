@@ -121,6 +121,12 @@ In Newtonian physics, all causation was seen in terms of energy, the principle o
 #### The Electromagnetic Field
 An electromagnetic field is a physical field produced by electrically charged objects.
 	This field affects the behavior of charged objects in the vicinity of the field.
+
+**Components**: The electromagnetic field is composed of the electric field $\mathbf{E}$ and the magnetic field $\mathbf{B}$.
+
+**[[Mapping#Spatial Fields as a Subset of Functions|Function Mapping]]**:
+- The electric field $\mathbf{E}(x, y, z, t)$ maps each point in space and time to a vector that represents the electric force per unit charge at that point.
+- The magnetic field $\mathbf{B}(x, y, z, t)$ maps each point in space and time to a vector that represents the magnetic force per unit charge at that point.
 ###### Localization of Electrical Charges:
 - Electrical charges (like electrons and protons) exist at specific locations within this field.
 - These charges are not spread out continuously but are instead confined to certain points or regions.
@@ -133,6 +139,16 @@ An electromagnetic field is a physical field produced by electrically charged ob
 This theory extends the concept to matter fields, where subatomic particles (like electrons and protons) are considered excitations of their respective fields.
 	Each type of particle is a quantum of a specific field (e.g., electrons are quanta of the electron-positron field).
 		In this framework, each particle type is an excitation of a corresponding field, and the particles themselves are localized phenomena within these fields.
+
+**Fields as Operators**: In QFT, fields are treated as operator-valued functions that act on a quantum state.
+$$\LARGE ψ(x,t)$$
+**Field Quantization**: Fields are quantized, meaning that the field values at each point in space-time can be thought of as operators that create or annihilate particles.
+**Electromagnetic Field (Quantum Electrodynamics)**:
+- The electromagnetic field is quantized, and its quanta are photons.
+- The field operator $\hat{A}_\mu(x)$ maps each point in space-time to an operator that can create or annihilate photons.
+**Matter Fields**:
+- For each type of particle (e.g., electrons, quarks), there is a corresponding field.
+- An electron field $\psi(x)$, for example, maps each point in space-time to an operator that can create or annihilate electrons.
 ##### Visualization
 Imagine an ocean with buoys (charges) floating at specific spots. 
 	The ocean represents the electromagnetic field, which is continuous and spread out. The buoys are localized within the ocean, meaning they exist at specific points rather than being spread throughout the entire ocean.
@@ -140,7 +156,8 @@ Imagine an ocean with buoys (charges) floating at specific spots.
 			 Quantum field theory adds that each buoy type (e.g., electron, proton) corresponds to its own specific type of wave pattern in the ocean.
 
 By understanding "localized" in this way, you can see how specific charges or particles exist at definite points within a larger, continuous field.
-#### The Issue of Ordering or Spatial Causes vs. Energetic Causes 
+#### The Issue of Ordering or [[Abstract Mathematical Spaces#"Space" vs. "Spatial"|Spatial]]
+Causes vs. Energetic Causes 
 In these theories, physical phenomena are explained by a combination of fields and of energy, not in terms of energy alone. 
 	Thus although energy can be regarded as the cause of change, the ordering of change depends on the spatial structure of the fields. 
 		These structures have physical effects, but they are not in themselves a type of energy; they act as “geometrical” or spatial causes. 
