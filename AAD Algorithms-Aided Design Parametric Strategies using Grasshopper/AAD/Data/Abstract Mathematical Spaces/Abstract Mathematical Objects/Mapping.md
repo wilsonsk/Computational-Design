@@ -183,6 +183,41 @@ Functions can be classified based on different criteria.
 > **Example**: If $A = \{1, 2, 3\}$, the identity function is $f = \{(1, 1), (2, 2), (3, 3)\}$.
 
 - - - 
+## An Operation as a Subset of Functions
+Functions that define how elements of a set interact within an algebraic structure.
+
+**Operations** in mathematics are functions that combine elements of a set to produce another element of the same set.
+	Operations are a subset of functions characterized by their specific rules for combining or transforming elements.
+		They are rules that define how to combine elements within the [[Abstract Mathematical Spaces#Structure|structure]]. 
+			Operations are fundamental in defining algebraic structures such as groups, rings, and fields.
+
+I.e. Operations are the general term for functions that describe how elements of a set combine or transform. 
+	Operations include basic arithmetic operations (addition, multiplication) as well as more complex algebraic operations.
+### Association Types of Operations
+Operations are typically associated with specific types of functions based on how they combine or transform elements. 
+1. **One-to-One (1:1) Association**
+2. **Many-to-One (m:1) Association**
+### Types of Operations
+Operations can be categorized based on the number of operands and the nature of the operation.
+> [!note]
+> #### Unary Operations
+> Operations that take a single input (i.e. operand) from a set and produce an output in the same or a related set.
+> - **Examples**:
+>     - **Negation**: $f(a) = -a$
+>     - **Square Root**: $f(a) = \sqrt{a}$ (defined for non-negative real numbers)
+> #### Binary Operations
+> Operations that take two inputs (i.e. operands) from a set and produce an output in the same set.
+> - **Examples**:
+>     - **Addition**: $f(a, b) = a + b$
+>     - **Multiplication**: $f(a, b) = a \cdot b$
+>     - **Division**: $f(a, b) = a / b$ (with $b \neq 0$)
+> #### Higher-Arity Operations
+> Operations that take more than two inputs (i.e. operands).
+> - **Examples**:
+>     - **Sum**: $\Sigma(a_1, a_2, \ldots, a_n) = a_1 + a_2 + \ldots + a_n$
+>     - **Product**: $\Pi(a_1, a_2, \ldots, a_n) = a_1 \cdot a_2 \cdot \ldots \cdot a_n$
+
+- - -  
 ## A Composite Function as a Subset of Functions
 A composite function is formed by applying one function to the result of another function. 
 	This process creates a new function that combines the behaviors and properties of the original functions.
@@ -320,6 +355,9 @@ When we say the gradient is "derived from a scalar function", we mean that **the
 These are functions whose outputs are vectors, matrices, or higher-dimensional tensors, rather than scalars.
 	The individual elements or components of these outputs are inherently scalar values, even if they are not explicitly broken down into scalar functions.
 		I.e. Higher-Level Functions are composed of Scalar Functions.
+
+A "insert type-valued" function just means the "return type" of a function.
+	Think of how functions are defined in programming languages, where the type being output or "returned" by a function must explicitly defined (in most programming languages that is).
 >[!note] Higher-Level Functions (i.e. Composite Functions)
 > ##### [[Abstract Mathematical Spaces#Vector Function|Vector-Valued Functions]]
 > A vector-valued function maps elements from its domain to vectors.
@@ -347,9 +385,20 @@ These are functions whose outputs are vectors, matrices, or higher-dimensional t
 > $$\LARGE F(x) = \{y \in \mathbb{R} \mid y^2 = x\}$$
 > Here, $(F)$ maps a real number $x$ to the set of its square roots.
 > ##### Operator-Valued Functions
-> An operator-valued function maps elements from its domain to operators.
+> An operator-valued function is a function that maps elements from one set (usually space-time points) to operators. 
+> These operators act on elements of another structured set or space, typically a Hilbert space in quantum mechanics and quantum field theory.
+> In structured sets and spaces, operator-valued functions can be seen as composite functions where the mapping from space-time points to operators involves multiple levels of functional composition.
 > $$\LARGE T(t)(x) = e^{tA}x$$
 > Here, $(T(t))$ is a function that maps $(t)$ to the operator $(e^{tA})$, which acts on the vector $(x)$.
+> ##### Example in Quantum Field Theory
+> **Field Operator**:
+> The scalar field $\phi(x)$ in quantum field theory is an operator-valued function. 
+> It can be thought of as mapping each point $x$ in space-time to an operator $\phi(x)$ that acts on the Hilbert space of quantum states.
+> $$\phi: \mathbb{R}^{3+1} \to \mathcal{L}(\mathcal{H})$$
+> **Composite Nature**:
+> The action of $\phi(x)$ on a state $|\psi\rangle \in \mathcal{H}$ can be decomposed into further operations, such as creation and annihilation operators acting on the state: 
+> $$\phi(x) |\psi\rangle = (a^\dagger(x) + a(x)) |\psi\rangleϕ(x)$$
+> This composite nature shows how operator-valued functions in QFT can be seen as higher-level functions involving multiple operations.
 > ##### Tensor-Valued Functions
 > A tensor-valued function maps elements from its domain to tensors.
 > $$\LARGE T(x, y, z) = x \otimes y \otimes z$$
@@ -540,44 +589,37 @@ Higher-level spaces incorporate additional dimensions, elements, or properties c
 Higher-level spaces can contain functions as inherited structure from lower-level spaces and extend or modify their outputs to fit their own structures.
 $$\LARGE \mathbb{R} \to \mathbb{R^2}$$
 - - -
+## Operators as a Subset of Transformations
+**Operators** are specialized types of transformations that act on elements within structured sets, (such as vector spaces or Hilbert spaces) to produce other elements within the same or another structured set.
+	They map elements from one structured space to another, or within the same space, while preserving certain algebraic structures.
+		Operators are specific forms of transformations that perform well-defined actions within structured spaces.
+			 They are not just general functions but are characterized by their roles in transforming elements within these spaces.
+				 Operations describe how elements of a set combine or transform. 
+					 Operators take this a step further by defining these actions within the confines of structured spaces, often with additional properties such as linearity or boundedness.
+ 
+ Within the hierarchy of sets, operators are positioned as a subset of transformations because they embody specific transformational properties within defined mathematical frameworks. 
+	 They extend the concept of transformations by incorporating additional structure and rules, particularly in linear spaces.
+		 Operators themselves are not the "structure" of structured sets, but they interact with and utilize the structure of these sets to perform specific actions or transformations.
+			 Operators are defined and act based on the structure provided by the structured sets. 
+				 They are tools or functions that utilize the underlying rules and properties of these sets to perform transformations.
 
+Operators act on elements within structured spaces, such as vector spaces ($\mathbb{R}^n$) or Hilbert spaces ($\mathcal{H}$). 
+	They often map these elements within the same space or to another structured space, preserving or transforming their structure according to specific rules.
 
+Operators can either preserve the structure of the elements they act upon or transform them according to specific rules. 
+	For example, a rotation operator preserves the norm of a vector while changing its direction.
 
+**Example**: A linear operator $T: V \to W$ maps elements from vector space $V$ to vector space $W$.
 
-
+**Notation**: Operators are denoted by symbols such as $\hat{O}$, boldface letters ($\mathbf{T}$), calligraphic letters ($\mathcal{L}$), or uppercase letters (T).
+### Types of Operators
+#### Bounded Operators
+Operators that map bounded sets to bounded sets, important in functional analysis.
+#### Unbounded Operators
+Operators that can map bounded sets to unbounded sets, often encountered in quantum mechanics.
+#### Adjoint Operators
+For an operator $T$, its adjoint T∗T^*T∗ is defined such that ⟨T(x),y⟩=⟨x,T∗(y)⟩\langle T(x), y \rangle = \langle x, T^*(y) \rangle⟨T(x),y⟩=⟨x,T∗(y)⟩ for all xxx and yyy in the space.
 - - -
-## An Operation as a Subset of Functions
-Functions that define how elements of a set interact within an algebraic structure.
-
-**Operations** in mathematics are functions that combine elements of a set to produce another element of the same set. 
-	Operations are a subset of functions characterized by their specific rules for combining or transforming elements.
-		They are rules that define how to combine elements within the [[Abstract Mathematical Spaces#Structure|structure]]. 
-			Operations are fundamental in defining algebraic structures such as groups, rings, and fields.
-### Association Types of Operations
-Operations are typically associated with specific types of functions based on how they combine or transform elements. 
-1. **One-to-One (1:1) Association**
-2. **Many-to-One (m:1) Association**
-### Types of Operations
-Operations can be categorized based on the number of operands and the nature of the operation.
-> [!note]
-> #### Unary Operations
-> Operations that take a single input (i.e. operand) from a set and produce an output in the same or a related set.
-> - **Examples**:
->     - **Negation**: $f(a) = -a$
->     - **Square Root**: $f(a) = \sqrt{a}$ (defined for non-negative real numbers)
-> #### Binary Operations
-> Operations that take two inputs (i.e. operands) from a set and produce an output in the same set.
-> - **Examples**:
->     - **Addition**: $f(a, b) = a + b$
->     - **Multiplication**: $f(a, b) = a \cdot b$
->     - **Division**: $f(a, b) = a / b$ (with $b \neq 0$)
-> #### Higher-Arity Operations
-> Operations that take more than two inputs (i.e. operands).
-> - **Examples**:
->     - **Sum**: $\Sigma(a_1, a_2, \ldots, a_n) = a_1 + a_2 + \ldots + a_n$
->     - **Product**: $\Pi(a_1, a_2, \ldots, a_n) = a_1 \cdot a_2 \cdot \ldots \cdot a_n$
-
-- - -  
 ## Scalar Functions as a Subset of Functions
 ###### *Remember*: Properties of Functions
 1. **Uniqueness**: Each element in the domain is associated with exactly one element in the codomain.

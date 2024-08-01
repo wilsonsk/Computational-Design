@@ -116,17 +116,27 @@ The organismic philosophy embraces both biology and physics; hence, if morphogen
 		 Therefore it is important to consider to what extent these existing theories are capable of explaining the morphogenesis of purely chemical systems.
 			  If they are able to provide an adequate explanation, then the idea of morphogenetic fields is unnecessary; but if they are not, the way lies open for a new hypothesis of the causation of form through morphogenetic fields in both biological and nonbiological systems.
 ## Form and Energy
-In Newtonian physics, all causation was seen in terms of energy, the principle of movement and change. All moving things have energy— the kinetic energy of moving bodies, thermal vibration and electromagnetic radiation—and this energy can cause other things to move.
-	Static things may also have energy—potential energy—due to their tendency to move; they are static only because they are restrained by forces that oppose this tendency.
+In Newtonian physics, all causation was seen in terms of energy, the principle of movement and change. 
+	All moving things have energy— the kinetic energy of moving bodies, thermal vibration and electromagnetic radiation—and this energy can cause other things to move.
+		Static things may also have energy—potential energy—due to their tendency to move; they are static only because they are restrained by forces that oppose this tendency.
+
+[[Mapping#Spatial Fields as a Subset of Functions|Fields]] are mathematical functions that map spatial (and temporal) points to specific mathematical objects (scalars, vectors, etc.).
 #### The Electromagnetic Field
 An electromagnetic field is a physical field produced by electrically charged objects.
 	This field affects the behavior of charged objects in the vicinity of the field.
 
 **Components**: The electromagnetic field is composed of the electric field $\mathbf{E}$ and the magnetic field $\mathbf{B}$.
 
-**[[Mapping#Spatial Fields as a Subset of Functions|Function Mapping]]**:
+**[[Mapping#Spatial Fields as a Subset of Functions|Function Mapping]]**
+In classical physics, the electromagnetic field E\mathbf{E}E and B\mathbf{B}B are described by vector functions.
 - The electric field $\mathbf{E}(x, y, z, t)$ maps each point in space and time to a vector that represents the electric force per unit charge at that point.
 - The magnetic field $\mathbf{B}(x, y, z, t)$ maps each point in space and time to a vector that represents the magnetic force per unit charge at that point.
+##### Quantum View of the Electromagnetic Field: Photon in the Electromagnetic Field
+In QFT, the electromagnetic field is described by operators that can create and annihilate photons.
+- **Electromagnetic Field**: This field permeates all of space.
+- **Excitation**: When the electromagnetic field is excited, it produces photons. Each photon is a quantum of the electromagnetic field.
+    - **Photon Creation**: This can happen through various processes, such as an electron transitioning between energy levels in an atom and emitting a photon.
+    - **Photon Annihilation**: Conversely, a photon can be absorbed by an atom, causing an electron to jump to a higher energy level.
 ###### Localization of Electrical Charges:
 - Electrical charges (like electrons and protons) exist at specific locations within this field.
 - These charges are not spread out continuously but are instead confined to certain points or regions.
@@ -137,18 +147,73 @@ An electromagnetic field is a physical field produced by electrically charged ob
 - The field itself supports the movement of electromagnetic waves, which can also be described as particles (photons) according to quantum mechanics.
 #### Quantum Field Theory
 This theory extends the concept to matter fields, where subatomic particles (like electrons and protons) are considered excitations of their respective fields.
-	Each type of particle is a quantum of a specific field (e.g., electrons are quanta of the electron-positron field).
+	Each type of particle is a quantum of a specific (i.e. corresponds to a specific field) field (e.g., electrons are quanta of the electron-positron field).
 		In this framework, each particle type is an excitation of a corresponding field, and the particles themselves are localized phenomena within these fields.
+			In quantum field theory, fields are treated as operators that can create and annihilate particles. 
+				These particles are seen as the quanta of the field.
 
-**Fields as Operators**: In QFT, fields are treated as operator-valued functions that act on a quantum state.
+I.e. Each **spatial point** and **temporal point** in a domain is mapped to a corresponding "[[#Operators|operator]]".
+	Operators can create or annihilate particles at specific points in space-time.
+##### Field Quantization
+In classical physics, fields are functions that map each point in space (or space-time) to a specific value.
+
+Field Quantization Refers to the process in quantum field theory where fields are treated not just as classical functions that assign values to points in space-time, but as entities (i.e. operators) that can create and annihilate particles. 
+	Fields are quantized, meaning that the field values at each point in space-time can be thought of as operators that create or annihilate particles.
+		In quantum field theory, these fields are extended to incorporate quantum mechanics.
+			 Each field has an associated particle type, and the field values are treated as operators.
+				 This means that the value of the field at each point in space-time is mapped to an operator, rather than a scalar, vector, etc.
+###### Operators
+Operators are mathematical objects that act on the state of a quantum field.
+	When applied, they can change the number of particles in that state.
+		They are used to describe the creation and annihilation of particles.
+			- **Creation Operator**: Adds a particle to the field.
+			- **Annihilation Operator**: Removes a particle from the field.
+		In QFT, operators are used to describe how fields behave and interact.
+
+"Entity" is a more general term that can refer to anything with distinct existence within a theory or model. In the context of QFT, fields and particles are entities.
+	Operators can create or annihilate particles at specific points in space-time.
+##### Quantum Scalar Field, $\LARGE \phi : \mathbb{R^{n+1}} \to \mathbb{R}$
+In quantum field theory, a scalar field assigns a scalar value to every point in space and time.
+	(where $n$ is the number of spatial dimensions and the extra dimension is time)
+		The Higgs field is a scalar field.
+
+where each spatial and temporal point $(x, y, z, t)$ is mapped to an operator $\phi(x, y, z, t)$.
+##### Quantum Vector Field, $\LARGE A : \mathbb{R^{n+1}} \to \mathbb{R^m}$
+A quantum vector field assigns a vector to every point in space and time.
+	The electromagnetic field can be described by a vector field with components for the electric and magnetic fields.
+##### Excitations of Quantum Fields
+These fields can be "excited" in the sense that their values change dynamically over space and time. 
+	An excitation of a field refers to a localized disturbance or a "ripple" in the field. 
+		In quantum field theory, excitations of these fields correspond to particles.
+			These excitations are what we perceive as particles.
+
+These excitations are quantized, meaning they come in discrete units called quanta.
+	This means that the energy associated with these excitations can only take on specific discrete values.
+		For instance, in the electromagnetic field, the excitations are photons. 
+			Each photon represents a discrete packet of energy.
+
+Mathematically, excitations in quantum fields are described using creation and annihilation operators.
+	A creation operator acts on the field to create a particle (excitation), while an annihilation operator removes a particle (excitation).
+###### Quantum
+The smallest possible discrete unit of a physical quantity described by a field. 
+	The discrete units or particles that are the excitations of the fields.
+		These quanta are what we observe as particles in experiments.
+###### Quantum States
+The quantum state of a field describes the number and type of particles present and their properties.
+		***For Example***: The vacuum state (no particles) can be denoted as $|0\rangle$.
+
+**Fields as Operators**: In QFT, fields are treated as [[Mapping#Higher-Level Functions (i.e. Composite Functions)|operator-valued functions]] that act on a quantum state.
 $$\LARGE ψ(x,t)$$
-**Field Quantization**: Fields are quantized, meaning that the field values at each point in space-time can be thought of as operators that create or annihilate particles.
-**Electromagnetic Field (Quantum Electrodynamics)**:
-- The electromagnetic field is quantized, and its quanta are photons.
-- The field operator $\hat{A}_\mu(x)$ maps each point in space-time to an operator that can create or annihilate photons.
-**Matter Fields**:
-- For each type of particle (e.g., electrons, quarks), there is a corresponding field.
-- An electron field $\psi(x)$, for example, maps each point in space-time to an operator that can create or annihilate electrons.
+
+###### Excitation of a Field
+An excitation of a field refers to a localized disturbance or a "ripple" in the field. 
+	These excitations are what we observe as particles.
+###### Electromagnetic Field (Quantum Electrodynamics)
+The electromagnetic field is quantized, and its quanta are photons.
+	The field operator $\hat{A}_\mu(x)$ maps each point in space-time to an operator that can create or annihilate photons.
+###### Matter Fields
+For each type of particle (e.g., electrons, quarks), there is a corresponding field.
+	An electron field $\psi(x)$, for example, maps each point in space-time to an operator that can create or annihilate electrons.
 ##### Visualization
 Imagine an ocean with buoys (charges) floating at specific spots. 
 	The ocean represents the electromagnetic field, which is continuous and spread out. The buoys are localized within the ocean, meaning they exist at specific points rather than being spread throughout the entire ocean.
@@ -156,18 +221,18 @@ Imagine an ocean with buoys (charges) floating at specific spots.
 			 Quantum field theory adds that each buoy type (e.g., electron, proton) corresponds to its own specific type of wave pattern in the ocean.
 
 By understanding "localized" in this way, you can see how specific charges or particles exist at definite points within a larger, continuous field.
-#### The Issue of Ordering or [[Abstract Mathematical Spaces#"Space" vs. "Spatial"|Spatial]]
+### The Issue of [[Abstract Mathematical Spaces#"Space" vs. "Spatial"|Spatial]] (i.e. structural) Causality and Energetic Causality
 Causes vs. Energetic Causes 
-In these theories, physical phenomena are explained by a combination of fields and of energy, not in terms of energy alone. 
-	Thus although energy can be regarded as the cause of change, the ordering of change depends on the spatial structure of the fields. 
-		These structures have physical effects, but they are not in themselves a type of energy; they act as “geometrical” or spatial causes. 
-			The radical difference between this idea and the notion of exclusively energetic causation is illustrated in the contrast between Newton’s and Einstein’s theories of gravitation: according to Newton, the Moon moves around the Earth because it is pulled toward it by an attractive force; according to Einstein, it does so because the very space in which it moves is curved.
-### Schrödinger Equation and Electromagnetism (Orbitals of Electrons)
 Within an electromagnetic field, electrical charges are localized, and through which electromagnetic radiations propagate as vibrational disturbances. 
 	According to quantum theory, these disturbances are particle-like photons associated with discrete quanta of energy. 
 		Third, in the quantum field theory of matter, subatomic particles are quanta of excitation of matter fields. 
-			Each kind of particle has its own [[Fields|field]]: a proton is a quantum of the proton-antiproton field, an electron a quantum of the electron-positron field, and so on.
-
+			Each kind of particle corresponds to a specific [[Fields|field]]: a proton is a quantum of the proton-antiproton field, an electron a quantum of the electron-positron field, and so on.
+#### Energy -> Change; Spatial Structure -> Ordering of the Change
+==**In these theories, physical phenomena are explained by a combination of fields and of energy, not in terms of energy alone.**== 
+	**Thus although energy can be regarded as the cause of change, the ordering of change depends on the spatial structure of the fields.** 
+		These structures have physical effects, but they are not in themselves a type of energy; they act as “geometrical” or spatial causes. 
+			The radical difference between this idea and the notion of exclusively energetic causation is illustrated in the contrast between Newton’s and Einstein’s theories of gravitation: according to Newton, the Moon moves around the Earth because it is pulled toward it by an attractive force; according to Einstein, it does so because the very space in which it moves is curved.
+#### Schrödinger Equation and Electromagnetism (Orbitals of Electrons)
 The possible ways in which the atoms can combine together are given by the Schrödinger equation of quantum mechanics, which enables the orbitals of electrons to be calculated in terms of probabilities; in the quantum field theory of matter these orbitals can be regarded as structures within the electron-positron field. 
 	But since electrons and atomic nuclei are electrically charged, they are also associated with spatial patterns within the electromagnetic field, and hence with potential energies.
 		 Not all the possible spatial arrangements of a given number of atoms have the same potential energy, and only the arrangement with the lowest potential energy will be stable.
