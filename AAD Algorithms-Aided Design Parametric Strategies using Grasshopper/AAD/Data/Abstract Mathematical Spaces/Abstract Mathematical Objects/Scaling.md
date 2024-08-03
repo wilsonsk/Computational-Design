@@ -27,7 +27,7 @@ Here, the value $x = 2$ is scaled by $10$, resulting in the enlarged value $x' =
 - **Geometry**: Scaling a geometric figure by a factor greater than 1 increases its size, often referred to as dilating the figure.
 - **Functional Analysis**: In this context, dilation is a function that increases the distance between any two points by a fixed proportion.
 ## Scaling as Area
-That is a Scalar as a [[Data/Abstract Mathematical Spaces/Physics/Basic Concepts/Measurement#Dimensions|Dimension]].
+That is a Scalar as a [[Data/Abstract Mathematical Spaces/Physics/Dimensional Analysis/Measurement#Dimensions|Dimension]].
 $$\LARGE Area = \text{Width} \cdot \text{Height}$$
 This way we can conceptualize a scalar as one of the dimensions.
 	And then we can conceive that the constant being scaled is another dimension.

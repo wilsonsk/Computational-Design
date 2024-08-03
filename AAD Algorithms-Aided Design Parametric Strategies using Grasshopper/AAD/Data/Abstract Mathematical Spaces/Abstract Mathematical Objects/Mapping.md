@@ -1,8 +1,25 @@
 # Mapping ($n : m$)
-## [[Abstract Mathematical Spaces#Structured Set (i.e. Space)|Sets]] as Precedence for Mapping
+At the most fundamental and abstract, the lowest level is the Abstract Mathematical Object.
+## A Set is an [[Abstract Mathematical Objects|Abstract Mathematical Object]]
+Therefore, all derivatives of the Set are also Abstract Mathematical Objects.
+### [[Abstract Mathematical Spaces#Structured Set (i.e. Space)|Sets]] as Precedence for Mapping
 A set is a well-defined **collection of distinct objects**, considered as an entity in its own right (and thus an element of some superset).  
 	The items which constitute a particular set are called the elements or members of the set.
 		Sets are one of the fundamental building blocks in mathematics and are used to define domains, codomains, and the relationships between them.
+
+Because the following are all derived from Sets, they are at their most fundamental themselves, Sets. 
+	**Functions**
+		A Scalar Function is a specific subset of scalars.
+		Vector Functions is a specific subset of vectors.
+		A Matrix Function is a specific subset of matrices. 
+		...
+		A field (spatial point mapping) is a subset of what ever the spatial points are being mapped *to*.
+			Therefore, at every spatial point (i.e. coordinate in this "grid") there is a (scalar, vector, matrix, operator, etc.).
+				I.e. The Field is the entire "collection" of these codomains across all points on the spatial grid.
+	**Transformations**
+		A Transformation is a specific subset of some given codomain.
+
+- - -
 ## Cartesian Product as a Fundamental Concept of Mappings
 The Cartesian product of two sets $A$ and $B$, denoted $A \times B$, is the set of all ordered pairs $(a, b)$ where $a \in A$ and $b \in B$b.
 $$\LARGE A×B={(a,b)∣a∈A \text{ and } b∈B}$$
@@ -391,6 +408,7 @@ A "insert type-valued" function just means the "return type" of a function.
 > $$\LARGE T(t)(x) = e^{tA}x$$
 > Here, $(T(t))$ is a function that maps $(t)$ to the operator $(e^{tA})$, which acts on the vector $(x)$.
 > ##### Example in Quantum Field Theory
+> The function $\hat{\phi}$​ maps space-time points to operators.
 > **Field Operator**:
 > The scalar field $\phi(x)$ in quantum field theory is an operator-valued function. 
 > It can be thought of as mapping each point $x$ in space-time to an operator $\phi(x)$ that acts on the Hilbert space of quantum states.

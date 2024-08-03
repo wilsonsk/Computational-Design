@@ -9,6 +9,9 @@ date created: 2024-04-22
 ---
 # Abstract Mathematical Spaces
 A map from the abstract notion of environment, to the physical space.
+
+Abstract Mathematical Environments are themselves considered mathematical objects.
+	In fact, one of the powerful aspects of mathematics is its ability to treat collections of objects, along with the structures and operations defined on them, as single entities that can be studied and manipulated.
 ## The Abstract, Non-Physical Environment
 **Fundamentally** a **scale** is **defined** by the **Mathematical, Abstract, Non-Physical Environment** that **defines** and **constrains** the Mathematical Abstract Non-Physical **Objects** and their behaviors and interactions that are **analyzed** at that scale.
 	It employed because it facilitates clear, objectively causal relationships between these abstract objects.

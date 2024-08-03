@@ -7,8 +7,12 @@ related:
 date created: 2024-05-03
 ---
 # Newton's Third Law (i.e. Law of Action and Reaction)
-**"For any action, there is an equal and opposite reaction."**
+**"To every action there is always opposed and equal reaction; or, the mutual actions of bodies upon each other are always equal, and directed to contrary parts."**
+	"For any action, there is an equal and opposite reaction."
 
+I.e. Whenever you push on something, it pushes back on you with the same amount of force, but in the opposite direction. 
+	This means that forces always come in pairs: one force acts on one object, and the other force acts on another object, both being equal in strength but opposite in direction.
+![[Pasted image 20240801232444.png|400]]
 ![[Pasted image 20240525095716.png]]
 
 By "action" Newton meant a force, so for every force one body exerts on another body, that second body exerts a force of equal magnitude but opposite direction back on the first body. 

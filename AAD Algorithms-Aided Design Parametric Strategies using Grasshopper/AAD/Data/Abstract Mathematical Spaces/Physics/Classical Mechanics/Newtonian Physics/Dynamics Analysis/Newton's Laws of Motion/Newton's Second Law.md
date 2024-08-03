@@ -8,10 +8,19 @@ related:
 date created: 2024-05-03
 ---
 # Newton's Second Law (i.e. Law of Force/Motion/Momentum)
-**"When a net force acts on any body with mass, it produces an acceleration of that body. The net force will be equal to the mass of the body times the acceleration of the body."**
+**"The change of motion of an object is [[Division#Proportionality|proportional]] to the force impressed; and is made in the direction of the straight line in which the force is impressed."**
+	"When a net force acts on any body with mass, it produces an acceleration of that body. The net force will be equal to the mass of the body times the acceleration of the body."
+
+I.e. The more force you apply to an object, the more it will accelerate.
+	If you push harder, it speeds up faster (i.e. accelerates at an increased rate).
+		 The acceleration (how quickly the object speeds up) depends on both the amount of force you use and the mass of the object. 
+			 This relationship is expressed by the formula: $\LARGE F = ma$
+				Where $F$ is the force, $m$ is the mass, and $a$ is the acceleration.
+					 This means if you double the force, the acceleration doubles, but if the mass is larger, the same force will cause less acceleration.
 
 ![[Pasted image 20240525095708.png]]
-##### Fundamentally describes how the **velocity** of an object **changes** when it is subjected to external forces.
+## Force
+Fundamentally describes how the **velocity** of an object **changes** when it is subjected to external forces.
 I.e. Is the analysis of acceleration - i.e. the change of an object's **velocity**. 
 	I.e. Change in momentum - which is a static or constant velocity.
 
@@ -26,6 +35,9 @@ And where Force, $\vec{F}$ and [[#Acceleration|acceleration]], $\vec{a}$ are vec
 			
 Based on the equation, it can be inferred that the **magnitude of the net force acting on the body** will be **equal to** the **mass of the body times the magnitude of the acceleration**.
 	And that the direction of the net force on the body will be equal to the direction of the acceleration of the body.
+		
+The more mass an object has, the greater its inertia, and therefore the more it resists changes to its motion.
+	The greater the mass, the greater the inertia, and the more force is required to change the object's state of motion.
 ## Motion
 Motion describes the change in position of an object over a time relative to a reference frame, influenced by applied forces. 
 ### Transformations as Motion (i.e. Representing Motion)
@@ -60,7 +72,7 @@ Dynamics deals with how bodies respond to forces, often involving motion. Here, 
 
 Velocity is a ratio.
 	Where a specific quantity of [[Kinematics Analysis#Displacement (Δx,Δy,Δz)|displacement]] is associated or paired with a specific quantity of time.
-		This is a [[Data/Abstract Mathematical Spaces/Physics/Basic Concepts/Measurement#Derived Dimensions|derived dimension]].
+		This is a [[Data/Abstract Mathematical Spaces/Physics/Dimensional Analysis/Measurement#Derived Dimensions|derived dimension]].
 
 $\large v = {\triangle x \over \triangle t}$
 	Where $v$ is velocity.
@@ -81,7 +93,7 @@ Acceleration is a ratio.
 	I.e. It tells you how much of one thing you have compared to another.
 
 $\large a = {\triangle v \over \triangle t}$
-	Where $v$ is acceleration.
+Where $v$ is acceleration.
 	$\triangle v$ is the change in the object's [[#Velocity|velocity]].
 	$\triangle t$ is the change in time.
 	

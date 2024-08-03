@@ -10,6 +10,10 @@ related:
 date created: 2024-04-16
 ---
 # Abstract Mathematical Objects
+##### The Most Fundamental Objects in Mathematics
+Are sets and their elements.
+	This hierarchy allows for the construction of complex structures from these basic units.
+- **Elements as Sets**: In many contexts, especially in set theory, elements can also be sets. This recursive nature is a powerful aspect of set theory, allowing for the construction of nested and complex structures.
 ## Mathematical objects are what we talk and write about when we do math.
 I.e. Model the Subject Under Study
 

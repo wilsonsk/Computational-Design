@@ -2,7 +2,7 @@
 Dimensional analysis is a mathematical technique used in physics and engineering to analyze the relationships between different physical quantities by considering their dimensions (such as length, mass, time, etc.).
 	This method helps to simplify complex physical problems, check the consistency of equations, derive relationships between variables, and convert units.
 
-We call “dimensional analysis” the process of working out the dimensions of a quantity in terms of the base [[Data/Abstract Mathematical Spaces/Physics/Basic Concepts/Measurement#Dimensions|dimensions]] and a model prediction for that quantity. 
+We call “dimensional analysis” the process of working out the dimensions of a quantity in terms of the base [[Data/Abstract Mathematical Spaces/Physics/Dimensional Analysis/Measurement#Dimensions|dimensions]] and a model prediction for that quantity. 
 
 A few simple rules allow us to easily work out the dimensions of a derived quantity. 
 	Suppose that we have two quantities, X and Y, both with dimensions. 
@@ -14,6 +14,13 @@ You can only add or subtract two quantities if they have the same dimension: [X
 The dimension of the product, [XY][𝑋𝑌], is the product of the dimensions: [XY]=[X]⋅[Y][𝑋𝑌]
 ###### Division
 The dimension of the ratio, [X/Y][𝑋/𝑌], is the ratio of the dimensions: [X/Y]=[X]/[Y]
+
+## Dimensional Analysis and Abstract Mathematical Objects
+At their most abstract fundamental level, real-world objects, when described mathematically, can be considered as sets of elements and functions that describe the relationships and transformations between these elements.
+	This abstraction allows for a systematic and rigorous analysis of physical phenomena, making it possible to apply mathematical tools and techniques to solve real-world problems.
+
+Thus, the abstraction process involves transforming physical properties into a mathematical framework, using sets to represent collections of elements and functions to describe their relationships and transformations. 
+	This approach is foundational in fields like dimensional analysis, computer graphics, and architectural geometry, providing a powerful way to bridge the gap between the physical world and mathematical theory.
 #### Dimensions and Units
 Every physical quantity can be expressed in terms of basic dimensions such as length (L), mass (M), time (T), electric current (I), temperature (Θ), amount of substance (N), and luminous intensity (J). Units are the standard quantities used to measure these dimensions, such as meters for length, kilograms for mass, and seconds for time.
 #### Dimensional Homogeneity

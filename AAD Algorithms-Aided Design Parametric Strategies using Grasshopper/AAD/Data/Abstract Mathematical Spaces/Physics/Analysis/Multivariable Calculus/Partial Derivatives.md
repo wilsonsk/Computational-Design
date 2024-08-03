@@ -259,12 +259,10 @@ It is the Direction Vector of the Tangent Line of the 1D function $\LARGE h(y)$ 
 	Because this Tangent Line and thus Direction Vector, $\vec{u}$ is limited to the plane $x=a$, there will be no change in the $x$ direction.
 		Which means that the $x$ coordinate of the Direction Vector, $\vec{u}$ must be $0$. 
 $$\LARGE = \vec{u} = \left[ 0, 1, h'(b) \right] = \left[ 0, 1, \frac{\partial f}{\partial y}(a,b) \right]$$
-##### Normal Vector as a [[Statics Analysis#Cross Product|Cross Product]]
+##### Normal Vector as a [[Statics Analysis#Cross Product|Cross Product]] (Between the two Tangent Vectors of Partial Derivatives)
 $$\LARGE \vec{n_{\perp}} =  \vec{v} \times \vec{u}$$
 The Normal Vector to a plane is the cross product of the two directional vectors $\vec{v}$ and $\vec{u}$.
 $$\LARGE \left| \begin{matrix} \vec{i} \quad \quad \vec{j} \quad \quad \vec{k} \\ 1 \quad 0 \quad f_{x}'(a,b) \\ 0 \quad 1 \quad f'_{y}(a,b)\end{matrix} \right| =  (-f'_{x}(a,b), -f'_{y}(a,b), 1)$$
-
-
 ##### 1. Compute the Directional Vector (i.e. Tangent Vector)
 - - -
 ## Interpreting Partial Derivatives

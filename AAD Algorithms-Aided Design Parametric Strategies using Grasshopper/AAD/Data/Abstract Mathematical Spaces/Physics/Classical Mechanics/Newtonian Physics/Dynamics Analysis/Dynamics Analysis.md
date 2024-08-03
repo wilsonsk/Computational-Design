@@ -129,6 +129,6 @@ Is an **object** at a given **initial / instant** with an **location**.
 ###### The Application of [[Limits|Calculus]]: The [[Limits#Average Velocity|Limit of the Average Velocity]] (i.e. Average Rate of Change)
 The [[Derivatives#|derivative]] *is* the **[[Limits#Limit of the Average Rate of Change|limit]]** of the **average velocity**.
 
-
+![[Pasted image 20240801232925.png|500]]
 
 

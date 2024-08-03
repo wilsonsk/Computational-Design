@@ -131,6 +131,10 @@ An electromagnetic field is a physical field produced by electrically charged ob
 In classical physics, the electromagnetic field E\mathbf{E}E and B\mathbf{B}B are described by vector functions.
 - The electric field $\mathbf{E}(x, y, z, t)$ maps each point in space and time to a vector that represents the electric force per unit charge at that point.
 - The magnetic field $\mathbf{B}(x, y, z, t)$ maps each point in space and time to a vector that represents the magnetic force per unit charge at that point.
+
+##### Coulomb's Law
+The electric field created by a point charge $q$ decreases with the square of the distance from the charge:
+$$\LARGE \mathbf{E} = \frac{q}{4 \pi \epsilon_0} \frac{\mathbf{r}}{|\mathbf{r}|^3}$$​
 ##### Quantum View of the Electromagnetic Field: Photon in the Electromagnetic Field
 In QFT, the electromagnetic field is described by operators that can create and annihilate photons.
 - **Electromagnetic Field**: This field permeates all of space.
@@ -155,15 +159,20 @@ This theory extends the concept to matter fields, where subatomic particles (lik
 I.e. Each **spatial point** and **temporal point** in a domain is mapped to a corresponding "[[#Operators|operator]]".
 	Operators can create or annihilate particles at specific points in space-time.
 ##### Field Quantization
+Quantization refers to the process of constraining a field to have discrete energy levels.
+	This is analogous to how an electron in an atom can only occupy specific energy levels.
+
 In classical physics, fields are functions that map each point in space (or space-time) to a specific value.
 
-Field Quantization Refers to the process in quantum field theory where fields are treated not just as classical functions that assign values to points in space-time, but as entities (i.e. operators) that can create and annihilate particles. 
+Field Quantization refers to the process in quantum field theory where fields are treated not just as classical functions that assign values to points in space-time, but as entities (i.e. operators) that can create and annihilate particles. 
 	Fields are quantized, meaning that the field values at each point in space-time can be thought of as operators that create or annihilate particles.
 		In quantum field theory, these fields are extended to incorporate quantum mechanics.
 			 Each field has an associated particle type, and the field values are treated as operators.
 				 This means that the value of the field at each point in space-time is mapped to an operator, rather than a scalar, vector, etc.
+
+The field (i.e. function that takes spatial and temporal points) $\LARGE \hat{\phi}$​ **maps space-time points to operators**.
 ###### Operators
-Operators are mathematical objects that act on the state of a quantum field.
+[[Mapping#Operators as a Subset of Transformations|Operators]] are mathematical objects that act on the state of a quantum field.
 	When applied, they can change the number of particles in that state.
 		They are used to describe the creation and annihilation of particles.
 			- **Creation Operator**: Adds a particle to the field.
@@ -172,6 +181,9 @@ Operators are mathematical objects that act on the state of a quantum field.
 
 "Entity" is a more general term that can refer to anything with distinct existence within a theory or model. In the context of QFT, fields and particles are entities.
 	Operators can create or annihilate particles at specific points in space-time.
+###### Fields as a Set of Operators
+In QFT, fields are treated as [[Mapping#Higher-Level Functions (i.e. Composite Functions)|operator-valued functions]] that act on a quantum state.
+$$\LARGE ψ(x,t)$$
 ##### Quantum Scalar Field, $\LARGE \phi : \mathbb{R^{n+1}} \to \mathbb{R}$
 In quantum field theory, a scalar field assigns a scalar value to every point in space and time.
 	(where $n$ is the number of spatial dimensions and the extra dimension is time)
@@ -186,6 +198,8 @@ These fields can be "excited" in the sense that their values change dynamically 
 	An excitation of a field refers to a localized disturbance or a "ripple" in the field. 
 		In quantum field theory, excitations of these fields correspond to particles.
 			These excitations are what we perceive as particles.
+				An excitation of a field refers to a localized disturbance or a "ripple" in the field. 
+					These excitations are what we observe as particles.
 
 These excitations are quantized, meaning they come in discrete units called quanta.
 	This means that the energy associated with these excitations can only take on specific discrete values.
@@ -194,20 +208,37 @@ These excitations are quantized, meaning they come in discrete units called quan
 
 Mathematically, excitations in quantum fields are described using creation and annihilation operators.
 	A creation operator acts on the field to create a particle (excitation), while an annihilation operator removes a particle (excitation).
+		In quantum field theory (QFT), the concept of an operator acting on a field typically means that an operator acts on the quantum state of the field.
+		
+A disturbance or ripple is initiated by applying a creation operator to the field at a specific point. 
+	This action introduces energy into the field, creating an excitation that propagates.
+		The dynamics of how these ripples propagate are governed by the field equations. 
+			For a scalar field, this is often the Klein-Gordon equation; for an electromagnetic field, it's the Maxwell equations.
+				The solutions to the Klein-Gordon equation are typically wave-like, showing how the disturbance (ripple) propagates through space-time.
+
+The creation operator $\hat{a}^\dagger_k​$ adds a quanta to the field, while the annihilation operator $\hat{a}_k$​ removes a quanta.
 ###### Quantum
-The smallest possible discrete unit of a physical quantity described by a field. 
-	The discrete units or particles that are the excitations of the fields.
-		These quanta are what we observe as particles in experiments.
+Quanta or a single Quanta, is the smallest possible discrete excitation or packet of energy of a quantum field.
+	Each quanta corresponds to a particle of the field.
+		i.e. The smallest possible discrete unit of a physical quantity described by a field. 
+			The discrete units or particles that are the excitations of the fields.
+				These quanta are what we observe as particles in experiments.
+
+In classical physics, fields (like the electromagnetic field) are continuous. 
+	However, in quantum mechanics, these fields are quantized, meaning they consist of discrete units.
+		Each field in QFT (such as the electron field, electromagnetic field, or scalar field) can be excited, and these excitations are what we perceive as particles.
+			I.e. Each type of quantum field has its corresponding quanta, which we identify as particles (e.g., photons for the electromagnetic field, electrons for the electron field).
+				For instance, the electromagnetic field's quanta are photons, and the electron field's quanta are electrons.
+		They are created and annihilated by field operators.
 ###### Quantum States
 The quantum state of a field describes the number and type of particles present and their properties.
-		***For Example***: The vacuum state (no particles) can be denoted as $|0\rangle$.
+	***For Example***: 
+		The vacuum state (no particles) can be denoted as $|0\rangle$.
+		The state of a quantum field is described by a state vector $|\psi\rangle∣$ in a Hilbert space $\mathcal{H}$.
 
-**Fields as Operators**: In QFT, fields are treated as [[Mapping#Higher-Level Functions (i.e. Composite Functions)|operator-valued functions]] that act on a quantum state.
-$$\LARGE ψ(x,t)$$
-
-###### Excitation of a Field
-An excitation of a field refers to a localized disturbance or a "ripple" in the field. 
-	These excitations are what we observe as particles.
+ Quantum Field Theory describes fields as operator-valued functions, and these fields can be excited to create particles.
+	  The fundamental particles we observe (like electrons, photons, quarks, etc.) are excitations of their respective fields.
+		These excitations are quantized, meaning they come in discrete amounts, not continuous values.
 ###### Electromagnetic Field (Quantum Electrodynamics)
 The electromagnetic field is quantized, and its quanta are photons.
 	The field operator $\hat{A}_\mu(x)$ maps each point in space-time to an operator that can create or annihilate photons.
@@ -233,7 +264,44 @@ Within an electromagnetic field, electrical charges are localized, and through w
 		These structures have physical effects, but they are not in themselves a type of energy; they act as “geometrical” or spatial causes. 
 			The radical difference between this idea and the notion of exclusively energetic causation is illustrated in the contrast between Newton’s and Einstein’s theories of gravitation: according to Newton, the Moon moves around the Earth because it is pulled toward it by an attractive force; according to Einstein, it does so because the very space in which it moves is curved.
 #### Schrödinger Equation and Electromagnetism (Orbitals of Electrons)
-The possible ways in which the atoms can combine together are given by the Schrödinger equation of quantum mechanics, which enables the orbitals of electrons to be calculated in terms of probabilities; in the quantum field theory of matter these orbitals can be regarded as structures within the electron-positron field. 
+##### Classical Electric Fields and Spatial Patterns
+Charged particles, such as electrons and protons, create electric fields around them.
+	I.e. The presence of the charged particle acts as a source term in the field equations for the electromagnetic field).
+		These fields represent the force that a charge exerts on other charges in its vicinity.
+			 The spatial distribution of electric charges determines the configuration of these electric fields.
+				  For instance, in an atom, the arrangement of electrons around the nucleus forms specific spatial patterns known as orbitals.
+					   These orbitals are solutions to the Schrödinger equation and describe the probability distribution of finding an electron in a particular region of space.
+
+The spatial structure of the electric field $\mathbf{E}$ determines how the field varies from point to point in space. 
+	This variation influences the work required to move a charge within the field.
+###### Coulomb's Law
+The electric field created by a point charge $q$ decreases with the square of the distance from the charge:
+$$\LARGE \mathbf{E} = \frac{q}{4 \pi \epsilon_0} \frac{\mathbf{r}}{|\mathbf{r}|^3}$$
+##### Potential Energy in Classical Electric Fields
+The potential energy of a charged particle in an electric field is a measure of the work done to move the particle within the field.
+	It depends on the spatial configuration of the electric field, which is directly influenced by the positions and magnitudes of the charges creating the field.
+		 When charges are arranged in a certain pattern, the electric field configuration changes, altering the potential energy landscape. 
+			 This is why different spatial arrangements of atoms (and their constituent charges) result in different potential energy states.
+###### Electric Potential
+The electric potential $V$ at a point is related to the electric field:
+$$\LARGE V = -\int \mathbf{E} \cdot d\mathbf{r}$$
+###### Potential Energy
+The potential energy $U$ of a charge $q$ at a point with electric potential $V$ is:
+$$\LARGE U = qV$$
+
+Therefore, the arrangement of multiple charges creates a complex electric field pattern, influencing the potential energy landscape. 
+	Different configurations lead to different potential energy states.
+##### Stable and Unstable States in Classical Electric Fields
+Not all spatial arrangements of charges have the same potential energy.
+	The most stable arrangement is typically the one with the lowest potential energy.
+		 This principle is seen in chemical structures, where atoms arrange themselves to minimize the system's overall potential energy.
+			  If a system is in a higher energy state, it tends to move towards a lower energy state, leading to more stable configurations.
+				   This movement is driven by the electric forces resulting from the spatial patterns of the charges.
+   
+Thus, the spatial patterns of electrically charged particles define the electric fields and consequently the potential energy of the system.
+	These energetic considerations determine the stability of different configurations, guiding the system towards the most stable, low-energy arrangement​​​​​​.
+##### Quantum Fields and Spatial Structure (i.e. Spatial Patterns)
+The possible ways in which the atoms can combine together are given by the Schrödinger equation of quantum mechanics, which enables the orbitals of electrons to be calculated in terms of probabilities; in the quantum field theory of matter these **orbitals can be regarded as structures within the electron-positron field**. 
 	But since electrons and atomic nuclei are electrically charged, they are also associated with spatial patterns within the electromagnetic field, and hence with potential energies.
 		 Not all the possible spatial arrangements of a given number of atoms have the same potential energy, and only the arrangement with the lowest potential energy will be stable.
 			![[Pasted image 20240729072635.png]]
