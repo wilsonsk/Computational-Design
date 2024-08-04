@@ -16,6 +16,64 @@ Consider two quantities, a and b.
 		This operation answers the question: "How many units of b are there in a?"
 
 - - -
+## Division as a Proportional Relationship (i.e. Direct Proportionality)
+The fraction $\frac{A}{B} = k$ abstractly represents how many groups of size $B$ fit into the total $A$. 
+	This concept helps in understanding proportional relationships by breaking down and visualizing quantities in terms of smaller, equal parts.
+##### Direct Proportionality
+Two quantities $x$ and $y$ are said to be in direct proportion (or directly proportional) if they increase or decrease at the same rate.
+	This can be expressed as $y = kx$, where $k$ is a constant of proportionality.
+###### Scaling Up and Down
+In a direct proportion, any change in $x$ results in a proportional change in $y$.
+	If $x$ is scaled by a factor, $y$ is scaled by the same factor.
+		When one quantity doubles, the other doubles.
+		When one quantity is halved, the other is halved.
+		The ratio $\frac{y}{x}$ is always constant and equal to $k$.
+##### Proportional Relationship
+A proportional relationship refers to a consistent ratio between two quantities. 
+	This is often represented in the form $\frac{y}{x} = k$ or $y = kx$.
+###### Constant Ratio of Proportional Relationship/Direct Proportionality
+The constant ratio $k$ means that for any given $x$ and $y$, dividing $y$ by $x$ always gives $k$.
+	This ratio remains unchanged regardless of the specific values of $x$ and $y$.
+###### Proportional Relationship Implies Direct Proportionality
+A proportional relationship does imply direct proportionality because it maintains a consistent/constant ratio between the quantities involved.
+
+Proportional relationships inherently imply direct proportionality because they maintain a constant ratio.
+	This means if $x$ and $y$ are in a proportional relationship, increasing $x$ will lead to a proportional increase in $y$ and vice versa.
+### Proportional Reasoning
+#### Understanding Proportional Relationships
+Proportional relationships involve comparing quantities to see how one quantity scales with respect to another.
+$$\LARGE \frac{a}{b} = k$$
+A proportional relationship between two quantities $a$ and $b$ means that the ratio of $a$ to $b$ is constant. This constant ratio is represented by $k$.
+	Mathematically, this is expressed as $\frac{a}{b} = k$, where $k$ is the constant of proportionality.
+#### Visualizing with Grouping
+Imagine any quantity $A$ as a collection of smaller, equal parts. 
+	For simplicity, let's consider $A = a$ and each part as $b$ units.
+		When we write $\frac{a}{b} = k$, we are essentially asking, "**How many groups of $b$ are there in $a$?**" 
+			This $k$ represents the number of such groups.
+#### Decomposing the Quantity
+Decompose the total quantity ($a$) into parts where each part has a value of $b$:
+	This means dividing $a$ into segments, each representing a size of $b$.
+		The number of such segments is $k$, where $a = k \cdot b$.
+#### Fraction Interpretation
+The fraction $\frac{a}{b} = k$ expresses this decomposition. It tells us how many times the denominator ($b$) fits into the numerator ($a$).
+	Mathematically, $\frac{a}{b} = k$, which means there are $k$ segments of $b$ in $a$.
+#### Proportional Relationship
+##### Scaling Relationships
+If $a$ scales, the number of $b$-sized groups also scales proportionally.
+	If $a$ doubles, the number of $b$-sized groups doubles, maintaining the proportion.
+##### Inverse Understanding
+The inverse, $\frac{b}{a} = \frac{1}{k}$, indicates the fraction of the total $a$ that each group $b$ represents.
+	For $\frac{b}{a} = \frac{1}{k}$, each group of $b$ is $\frac{1}{k}$ of the total $a$.
+##### Constant of Direct Proportionality is a Constant Ratio ($\LARGE k$)
+$$\LARGE a = kb$$
+This ratio compares the values of $a$ and $b$ directly.
+	The ratio $\frac{a}{b} = k$ is maintained regardless of the actual values of $a$ and $b$, showing the constant relationship between them.
+		This constant ratio $k$ is key to understanding proportional reasoning, as it indicates a consistent relationship that scales uniformly.
+
+The constant of proportionality, $k$ can be a ratio or a rate.
+	The constant is specifically the constant of proportionality, and it directly links $a$ and $b$ without any offset.
+
+- - -
 ## Division as Distribution 
 Division distributes the total quantity a into equal parts of size b. 
 	*For example*, if a represents a collection and b the size of each subset, division tells us how many such subsets can be formed.
@@ -68,7 +126,6 @@ Division measures the quantity a using the unit b.
 	If b is a standard unit, division indicates how many times this unit fits into a.
 
 - - - 
-
 ## Ratio as a Fraction
 ### Fraction
 A fraction represents a part of a whole. 

@@ -53,14 +53,16 @@ Where $m$ is mass.
 [[Newton's Second Law|Newton's second law of motion]], $F = ma$, further illustrates the role of mass in inertia. 
 	It states that the force ($F$) required to accelerate an object is equal to the mass ($m$) of the object times its acceleration ($a$).
 
-## Gravitational Force Equation
+## Newton's Universal Law of Gravitational Force
 The gravitational force between two masses is given by Newton's law of universal gravitation:
-$$\LARGE F = G \frac{m_1 m_2}{r^2}$$
+$$\LARGE F =\pm G \frac{m_1 m_2}{r^2} \cdot e_{m_{1}m_{2}}$$
+
 where:
 - $F$ is the gravitational force between the two masses,
 - $G$ is the gravitational constant ($6.67430 \times 10^{-11} \, \text{m}^3 \text{kg}^{-1} \text{s}^{-2}$),
 - $m_1$​ and $m_2$ are the masses of the two objects,
 - $r$ is the distance between the centers of the two masses.
+- $e$ is the standard unit vector that connects the two objects.
 ### [[Weight and Gravity#Falling Gravity *as* Constant Acceleration|Gravity]] as [[Newton's Second Law#Acceleration|Acceleration]] 
 On Earth, the value of gravity is $\large 9.8 m/s^{2}$ 
 **Acceleration Due to Gravity ($g$)**
@@ -86,7 +88,7 @@ $$\LARGE R_{\text{Earth}} \approx 6.371 \times 10^6 \, \text{m}$$
 Substituting these values:
 $$\LARGE g = \frac{(6.67430 \times 10^{-11}) \cdot (5.972 \times 10^{24})}{(6.371 \times 10^6)^2} \approx 9.8 \, \text{m/s}^2$$
 
-## Force *of* [[Weight and Gravity#Falling Force *of* Gravity *as* Weight|Gravity as Weight]]
+## Force *of* [[Weight and Gravity#Falling Force *of* Gravity *as* Weight|Gravity as Weight]] (an Approximation)
 $$\LARGE F_{\text{gravity}} = m \cdot - g \space \text{ where } g = 9.8 \mathbf{m}/\mathbf{s^2}$$
 ## [[Weight and Gravity#Weight (i.e. the "downward" Force acting on an Object due to Gravity)|Weight]]
 Refers to the force acting on the object due to acceleration of gravity.

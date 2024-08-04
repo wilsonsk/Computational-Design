@@ -73,7 +73,7 @@ Equilibrium:
 For an object to remain at rest or move at constant velocity, the net force must be zero:
 $F_{\text{lift}} - F_{\text{gravity}} = 0 \Rightarrow F_{\text{lift}} = F_{\text{gravity}}$
 
-
+### A More Accurate Measure of The Force of Gravity
 			
 
 ![[Pasted image 20240802055712.png|300]]

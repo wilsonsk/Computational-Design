@@ -26,14 +26,18 @@ These properties are directly related to the algebraic structure of $\mathbb{R}$
 		Or more generally for any field of scalars.
 
 For a function $f: \mathbb{R} \to \mathbb{R}$ to be linear, it must satisfy the following conditions:
-#### 1. Proportionality
+#### 1. Proportionality of Linearity
 The proportionality property of linearity refers to the characteristic of a linear relationship where the dependent variable **changes** at a constant rate with respect to the independent variable.
 	The proportionality property of linearity is fundamentally about a constant rate of change between two variables.
 		Specifically, this property indicates that the relationship between $y$ and $x$ can be expressed by a linear equation of the form:
 $$\LARGE y = mx +b$$
 "The proportionality property of linearity indicates that the dependent variable $y$ changes at a constant rate with respect to the independent variable $x$, as described by the equation $y=mx+b$. Here, $m$ represents the constant rate of change, and $b$ is the y-intercept, providing a linear relationship between $y$ and $x$."
-##### Constant of Proportionality (i.e. Constant Rate of Change)
-$$\LARGE m = \frac{\Delta y}{\Delta x}$$
+
+Proportionality of Linearity is **not** the same thing as [[#Direct Proportionality (a "Special Case" of Linear Relationships)|Direct Proportionality]].
+##### Constant of Linear Proportionality is a Constant Rate of Change ($\LARGE m$)
+The constant $m$ is the slope, which represents the rate of change of $y$ with respect to $x$, but there is an additional offset $b$.
+	This represents the change in $y$ divided by the change in $x$.
+$$\LARGE \text{For } y = mx + b, \space m = \frac{\Delta y}{\Delta x}$$
 The constant of proportionality is a fixed value that relates the input and output variables in a directly proportional relationship.
 	The dependent variable $y$ changes at a constant rate with respect to the independent variable $x$. 
 		This rate is given by the slope $m$. 
@@ -43,14 +47,23 @@ The constant of proportionality is a fixed value that relates the input and outp
 						The Rate of Change remains constant regardless of the value of the y-intercept $b$.
 
 The rate of change is a measure of how one quantity changes in response to changes in another quantity. 
-##### Direct Proportionality (a "Special Case" of Linear Relationships)
+##### [[Division#Division as a Proportional Relationship (i.e. Direct Proportionality)|Direct Proportionality]] (a "Special Case" of Linear Relationships)
 *Is a "Special Case" where* $\LARGE b = 0 \text{ in } y = mx + b$ 
 	The output (dependent variable) changes in direct proportion to the input (independent variable) that is being scaled by a constant of proportionality.
-###### Constant Ratio
-The ratio of the two quantities remains constant. 
-	Direct proportionality means that if $\LARGE m$ is the constant of proportionality and $b=0$, then $\LARGE y$ is directly proportional to $\LARGE x$, and the ratio $\LARGE \frac{y}{x}$ remains constant. 
-		If $\LARGE y = mx$, then $\LARGE m = \frac{y}{x}$ for all values of $\LARGE x$ and $\LARGE y$ in the relationship.
+
+###### Think About it...
+If 10 = a \cdot 5 where a = 2, then 10 is 2 times 5 and 5 is 1 half 10 meaning that it requires 2 5's to equal 10.  
+###### Constant of Direct Proportionality is a Constant Ratio ($\LARGE k$)
+$$\LARGE y = kx$$
+This ratio compares the values of $y$ and $x$ directly.
+
+The ratio or rate of the two quantities remains constant. 
+	Direct proportionality means that if $\LARGE k$ is the constant of proportionality and $b=0$, then $\LARGE y$ is directly proportional to $\LARGE x$, and the ratio $\LARGE \frac{y}{x}$ remains constant. 
+		If $\LARGE y = kx$, then $\LARGE k = \frac{y}{x}$ for all values of $\LARGE x$ and $\LARGE y$ in the relationship.
 			The graph of a directly proportional relationship between two variables is a straight line that passes through the origin (0,0).
+
+The constant of proportionality, $k$ can be a ratio or a rate.
+	The constant is specifically the constant of proportionality, and it directly links $y$ and $x$ without any offset.
 
 If $b \neq 0 \text{ in } y=mx+b$, $y$ is not directly proportional to $x$ because the y-intercept $b$ introduces a constant term that shifts the line vertically.
 	This means the ratio $\frac{y}{x}$​ is not constant for all $x$.
