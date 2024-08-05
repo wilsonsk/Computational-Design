@@ -52,7 +52,6 @@ Where $m$ is mass.
 
 [[Newton's Second Law|Newton's second law of motion]], $F = ma$, further illustrates the role of mass in inertia. 
 	It states that the force ($F$) required to accelerate an object is equal to the mass ($m$) of the object times its acceleration ($a$).
-
 ## Newton's Universal Law of Gravitational Force
 The gravitational force between two masses is given by Newton's law of universal gravitation:
 $$\LARGE F =\pm G \frac{m_1 m_2}{r^2} \cdot e_{m_{1}m_{2}}$$
@@ -63,33 +62,80 @@ where:
 - $m_1$​ and $m_2$ are the masses of the two objects,
 - $r$ is the distance between the centers of the two masses.
 - $e$ is the standard unit vector that connects the two objects.
-### [[Weight and Gravity#Falling Gravity *as* Constant Acceleration|Gravity]] as [[Newton's Second Law#Acceleration|Acceleration]] 
-On Earth, the value of gravity is $\large 9.8 m/s^{2}$ 
-**Acceleration Due to Gravity ($g$)**
-
-For an object near the Earth's surface, the Earth can be considered as one mass ($m_1 = M_{\text{Earth}}$) and the object as the other mass ($m_2 = m$). The distance $r$ is approximately the radius of the Earth ($R_{\text{Earth}}$).
+### Deriving Newton's Universal Law of Gravitational Force
+[[Newton's Third Law]] tell us we for every force ("action") one body exerts on another body, that second body exerts a force of equal magnitude but opposite direction back on the first body. 
+	Since all forces are exerted by bodies (either directly or indirectly), all forces come in pairs, one acting on each of the bodies interacting.
+![[Pasted image 20240805062504.png]]
+	Therefore, there exists a force that is proportional to the product of both masses.
+### Deriving $\LARGE \frac{1}{r^2}$ Dependence
+![[Pasted image 20240805062932.png]]
+Was derived via the Motion of the Moon.
+	Where a circular motion implies some "attractive" force.
+		The [[Circular Motion#Components of Motion Centripetal Force Centripetal Force ($F_c$) Centripetal (aka Radial aka Normal) Acceleration ($a_c$)|acceleration of this circular motion]] is the Centripetal Acceleration, $\LARGE a_c = \frac{v_t^2}{r}$
+![[Pasted image 20240805063920.png]]
+![[Pasted image 20240805063911.png]]
+$$\LARGE F \propto r^{-2} = \frac{1}{r^2}$$
+$$\LARGE F \propto = \frac{m_1m_2}{r^2_{12}}$$
+$$\LARGE F =\pm \gamma \frac{m_1m_2}{r^2_{12}}$$
+### Deriving an Approx. of g for Objects Falling Relative to Earth
+**g is the Acceleration Due to Earth's Gravity ($g$)**
+	I.e. On Earth, the value of gravity ($g$) is $\large 9.8 m/s^{2}$ 
+		*Note: $\LARGE F_{\text{falling object}} == F_{\text{gravity}}$*
+			Where Force of Gravity implies the Force of a Falling Object due to Gravity of Earth.
+![[Pasted image 20240805061344.png]]
+![[Pasted image 20240805061305.png]]
+For an object near the Earth's surface, the Earth can be considered as one mass ($m_1 = M_{\text{Earth}}$) and the object as the other mass ($m_2 = m$). 
+	The distance $r$ is approximately the radius of the Earth ($R_{\text{Earth}}$).
 
 Substituting these into the gravitational force equation:
-
-$$\LARGE F = \frac{G M_{\text{Earth}} m}{R_{\text{Earth}}^2}$$​
-
+$$\LARGE F_{\text{falling object}} = \frac{G M_{\text{Earth}} m_{\text{falling object}}}{R_{\text{Earth}}^2}$$
 According to Newton's second law of motion ($F = m \cdot a$), the force $F$ acting on an object of mass $m$ can also be written as:
-
-$$\LARGE F = m \cdot g$$
+$$\LARGE F_{\text{falling object}} = m_{\text{falling object}} \cdot g_{\text{falling object}}$$
 Equating the two expressions for $F$:
-
+$$\LARGE m_{\text{falling object}} \cdot g_{\text{falling object}} = G \frac{M_{\text{Earth}} m_{\text{falling object}}}{R_{\text{Earth}}^2}$$
 Cancel the mass $m$ from both sides:
-$$\LARGE g = \frac{G M_{\text{Earth}}}{R_{\text{Earth}}^2}$$
+$$\LARGE \frac{m_{\text{falling object}}}{m_{\text{falling object}}}g_{\text{falling object}} = \frac{G M_{\text{Earth}}}{R_{\text{Earth}}^2}\frac{m_{\text{falling object}}}{m_{\text{falling object}}}$$
+$$\LARGE =g_{\text{falling object}} = \frac{G M_{\text{Earth}}}{R_{\text{Earth}}^2}$$
 Here, $g$ is the acceleration due to gravity at the surface of the Earth. Plugging in the known values for the gravitational constant $G$, the mass of the Earth $M_{\text{Earth}}$, and the radius of the Earth $R_{\text{Earth}}$:
-
-$$\LARGE G \approx 6.67430 \times 10^{-11} \, \text{m}^3 \text{kg}^{-1} \text{s}^{-2}G≈6.67430×10−11m3kg−1s−2$$
+$$\LARGE G \approx 6.67430 \times 10^{-11} \, \text{m}^3 \text{kg}^{-1} \text{s}^{-2}$$
 $$\LARGE M_{\text{Earth}} \approx 5.972 \times 10^{24} \, \text{kg}$$
 $$\LARGE R_{\text{Earth}} \approx 6.371 \times 10^6 \, \text{m}$$
 Substituting these values:
-$$\LARGE g = \frac{(6.67430 \times 10^{-11}) \cdot (5.972 \times 10^{24})}{(6.371 \times 10^6)^2} \approx 9.8 \, \text{m/s}^2$$
+$$\LARGE g_{\text{falling object}} = g = \frac{(6.67430 \times 10^{-11}) \cdot (5.972 \times 10^{24})}{(6.371 \times 10^6)^2} \approx 9.8 \, \text{m/s}^2$$
+### [[Weight and Gravity#Falling Gravity *as* Constant Acceleration|Gravity]] as Constant [[Newton's Second Law#Acceleration|Acceleration]] For Objects "Falling" to Earth
+From our previous derivation we now have:
+$$\LARGE F_{\text{falling object}} = m_{\text{falling object}} \cdot g$$
+Where $\LARGE g = 9.8 m/s^2$
+![[Pasted image 20240802055745.png|300]]
+The [[Uniform Acceleration#Uniform Acceleration|acceleration]] of some object is **mass independent**.
+	Notice that the magnitude of this acceleration *is* **gravity** in the negative z direction (via standard unit vector).
+		Therefore, Gravity itself is **not** the force itself. 
+			But rather, Gravity is the constant acceleration component of the Force. 
+				Gravity is the phenomenon where a mass accelerates (in a constant rate) towards another mass. 
+					Near the Earth's surface, this acceleration is approximately $9.8 , \text{m/s}^2$ and is denoted by $g$.
 
+If we equate the equations of $\mathbf{F}$ and $\mathbf{F_{gravity}}$ we can see that the acceleration of an object in the "downward" or negative z direction, is Gravity.
+$$\LARGE F= m \cdot a \text{ and } F_{\text{gravity}} = m \cdot g$$
+$$\LARGE m \cdot a = m \cdot g$$
+$$\text{Canceling } m \text{ from both sides } \frac{m}{m} a = \frac{m}{m}g$$
+$$\LARGE = a = g$$
 ## Force *of* [[Weight and Gravity#Falling Force *of* Gravity *as* Weight|Gravity as Weight]] (an Approximation)
 $$\LARGE F_{\text{gravity}} = m \cdot - g \space \text{ where } g = 9.8 \mathbf{m}/\mathbf{s^2}$$
+Remember that Gravity *is* the Constant Acceleration in the "downward" or negative z direction.
+	Therefore, $\LARGE \mathbf{F_{\text{gravity}}} = \mathbf{m} \cdot -\mathbf{g}$
+		Because the Gravity (as constant acceleration) is negative (due to the direction along the negative z axis), the scaling of this with the mass, produces a negative Force (of Gravity) in the same direction.
+###### Weight (i.e. the "downward" Force acting on an Object due to Gravity)
+Refers to the "downward" force acting on the object due to constant acceleration of gravity.
+	Weight can be defined as a vector quantity, the Force of Gravity acting on the object. 
+		Weight can also be defined as a scalar quantity, the magnitude of the Force of Gravity on the object. 
+
+$\LARGE W = mg$
+Where $W$ is weight.
+	Where $m$ is mass.
+	Where $g$ is [[Newton's Second Law#Acceleration|acceleration]] due to gravity.
+
+Therefore if $\LARGE F_{\text{gravity}} = m \cdot g$
+	Then $\LARGE F_{\text{gravity}} = W$
 ## [[Weight and Gravity#Weight (i.e. the "downward" Force acting on an Object due to Gravity)|Weight]]
 Refers to the force acting on the object due to acceleration of gravity.
 	Some standard textbooks define weight as a vector quantity, the gravitational force acting on the object. Others define weight as a scalar quantity, the magnitude of the gravitational force. 

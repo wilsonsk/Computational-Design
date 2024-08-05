@@ -17,6 +17,7 @@ Consider two quantities, a and b.
 
 - - -
 ## Division as a Proportional Relationship (i.e. Direct Proportionality)
+$$\LARGE \propto = \text{Proportionality}$$
 The fraction $\frac{A}{B} = k$ abstractly represents how many groups of size $B$ fit into the total $A$. 
 	This concept helps in understanding proportional relationships by breaking down and visualizing quantities in terms of smaller, equal parts.
 ##### Direct Proportionality

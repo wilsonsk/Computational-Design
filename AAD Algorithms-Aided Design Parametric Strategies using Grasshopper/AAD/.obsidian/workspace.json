@@ -8,24 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "29b67199be9473b1",
+            "id": "3b40d8cf0c4ded36",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Newton's Laws of Motion/Newton's First Law.md",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Forces of an Inclined Plane.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "08a05277beb0f18a",
+            "id": "1a10eb6ad3cf7135",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Morphogenesis/Chemistry/Law of the Conservation of Matter.md",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Pulley.md",
                 "mode": "source",
                 "source": false
               }
@@ -157,8 +157,7 @@
               "pinned": true
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -225,7 +224,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Morphogenesis/Chemistry/Law of the Conservation of Matter.md",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Forces of an Inclined Plane.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -242,7 +241,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Morphogenesis/Chemistry/Law of the Conservation of Matter.md",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Forces of an Inclined Plane.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -265,7 +264,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Morphogenesis/Chemistry/Law of the Conservation of Matter.md"
+                "file": "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Forces of an Inclined Plane.md"
               }
             }
           },
@@ -299,47 +298,47 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "08a05277beb0f18a",
+  "active": "3b40d8cf0c4ded36",
   "lastOpenFiles": [
+    "images/Pasted image 20240802055712.png",
+    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Forces of an Inclined Plane.md",
+    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Pulley.md",
+    "images/Pasted image 20240805070253.png",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Partial Derivatives.md",
+    "images/Pasted image 20240805065859.png",
+    "images/Pasted image 20240805065758.png",
+    "images/Pasted image 20240805065326.png",
+    "images/Pasted image 20240805065051.png",
+    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Weight and Gravity.md",
+    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Newton's Laws of Motion/Newton's First Law.md",
+    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Circular Motion.md",
+    "images/Pasted image 20240805064620.png",
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Division.md",
+    "images/Pasted image 20240805063920.png",
+    "images/Pasted image 20240805063911.png",
+    "images/Pasted image 20240805063809.png",
+    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Newton's Laws of Motion/Newton's Third Law.md",
+    "images/Pasted image 20240805062932.png",
+    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Uniform Acceleration.md",
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Proportion.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Linearity/Linearity in the Field of Real Numbers.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/A Map of Change as Rates to Limits of those Rates to Differentials to Derivatives.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Projection.md",
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Mapping.md",
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Spaces.md",
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Ratio.md",
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Scaling.md",
     "Data/Abstract Mathematical Spaces/Physics/Morphogenesis/Chemistry/Law of Multiple Proportions.md",
     "Data/Abstract Mathematical Spaces/Physics/Morphogenesis/Chemistry/Law of the Conservation of Matter.md",
     "Data/Abstract Mathematical Spaces/Physics/Morphogenesis/Chemistry/Law of Definite Proportions.md",
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Linearity/Linearity in the Field of Real Numbers.md",
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Division.md",
-    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Newton's Laws of Motion/Newton's First Law.md",
     "Data/Abstract Mathematical Spaces/Physics/Morphogenesis/Chemistry",
     "Data/Abstract Mathematical Spaces/Physics/Morphogenesis",
     "Data/Abstract Mathematical Spaces/Physics/Untitled.md",
-    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Weight and Gravity.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Newton's Laws of Motion/Newton's Second Law.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Linearity/Vectors as Linear Functions.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Linearity/Linear Combinations.md",
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Spaces.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Components of Motion.md",
-    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Uniform Acceleration.md",
-    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Newton's Laws of Motion/Newton's Third Law.md",
-    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Newtonian Mechanics.md",
-    "Pasted image 20240802055745.png",
-    "Pasted image 20240802055712.png",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Partial Derivatives.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Directional Derivatives.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Gradients.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Projection.md",
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Mapping.md",
-    "Abstract/Morphogenesis/Abstract Concept.md",
-    "Abstract/Morphogenesis/Computational Methodology.md",
-    "Abstract/Morphogenesis/Digital Informing Creativity.md",
-    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Dynamics Analysis.md",
-    "images/IMG_0131.png",
-    "images/Pasted image 20240729072635.png",
-    "images/Pasted image 20240801232925.png",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Newton's Laws of Motion",
-    "images/Pasted image 20240801232444.png",
-    "images/Pasted image 20240721131022.png",
-    "images/Pasted image 20240728064208.png",
-    "images/Pasted image 20240728064200.png",
-    "images/Pasted image 20240728064143.png",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus",
     "Data/Computation",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Structures",

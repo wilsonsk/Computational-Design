@@ -140,12 +140,12 @@ Tangential acceleration works when an object moves in a circular path.
 	Tangential acceleration is similar to linear acceleration, but it is not the same as straight-line linear acceleration.
 		 If an item moves in a straight line, it is linearly accelerating.
 ##### [[#Components of Motion Centripetal Force Centripetal Force ($F_c$)|Centripetal]] (aka Radial aka Normal) Acceleration ($a_c$)
-![[Pasted image 20240621130609.png|200]]
-The component directed towards the center of the circle, representing changes in the direction of the velocity vector.
-$$\LARGE a_c = \frac{v_t^2}{r}$$​Where $a_c$ is the centripetal acceleration, $v_t$ is the tangential velocity, and $r$ is the radius of the circular path.
-
-**Definition**
 Centripetal acceleration is the acceleration that acts towards the center of the circular path, causing the change in direction of the tangential velocity, thus keeping the object in circular motion.
+![[Pasted image 20240621130609.png|200]]
+![[Pasted image 20240805064620.png]]
+The component directed towards the center of the circle, representing changes in the direction of the velocity vector.
+$$\LARGE a_r = \frac{v_t^2}{r}$$​Where $a_r$ is the centripetal acceleration, $v_t$ is the tangential velocity (i.e. [[#Linear Velocity ($v_{t}$)|Linear Velocity]]), and $r$ is the radius of the circular path.
+
 
 **Direction**
 Always points radially inward towards the center of the circular path.

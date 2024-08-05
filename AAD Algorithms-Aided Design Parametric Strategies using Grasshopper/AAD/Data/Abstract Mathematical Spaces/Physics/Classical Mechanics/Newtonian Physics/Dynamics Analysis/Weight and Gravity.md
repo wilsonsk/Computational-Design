@@ -1,7 +1,7 @@
 # Weight and Gravity
 ## Force as the Product of Mass and Acceleration (aka Force *of* the Product of Mass and Acceleration)
-### [[Linearity in the Field of Real Numbers#1. Proportionality|Proportionality]]
-The [[Newton's Second Law#Force|force]] is [[Linearity in the Field of Real Numbers#Direct Proportionality (a "Special Case" of Linear Relationships)|directly proportional]] to the scaling of [[Newton's First Law#Mass|mass]] by [[Newton's Second Law#Acceleration|acceleration]].
+### [[Division#Division as a Proportional Relationship (i.e. Direct Proportionality)|Proportionality]]
+The [[Newton's Second Law#Force|force]] is [[Division#Direct Proportionality|directly proportional]] to the scaling of [[Newton's First Law#Mass|mass]] by [[Newton's Second Law#Acceleration|acceleration]].
 	Therefore, if a mass is constant, then force is directly proportional to acceleration.
 		I.e. For a given mass, if the acceleration increases, the force increases proportionally.
 			 And if the acceleration decreases, the force decreases proportionally.
@@ -12,7 +12,7 @@ The [[Newton's Second Law#Force|force]] is [[Linearity in the Field of Real Numb
 ![[Pasted image 20240802055745.png|400]]
 ### Two Different Balls with Different Masses
 
-#### Falling: Gravity *as* Constant Acceleration
+#### Falling: [[Newton's First Law#Newton's Universal Law of Gravitational Force|Gravity]] *as* Constant Acceleration
 The [[Uniform Acceleration#Uniform Acceleration|acceleration]] of the balls is **mass independent**.
 	Notice that the magnitude of this acceleration *is* **gravity** in the negative z direction (via standard unit vector).
 		Therefore, Gravity itself is **not** the force itself. 
@@ -26,7 +26,7 @@ $$\LARGE m \cdot a = m \cdot g$$
 $$\text{Canceling } m \text{ from both sides } \frac{m}{m} a = \frac{m}{m}g$$
 $$\LARGE = a = g$$
 [[#Linearity in the Field of Real Numbers 1. Proportionality Proportionality|Remember that if Acceleration is constant]] (in this case it is, as Gravity), then the Force (in this case of Gravity) is directly proportional to the mass of an object.
-#### Falling: Force *of* Gravity *as* Weight
+#### Falling: Force *of* Gravity *as* [[Newton's First Law#Weight and Gravity Weight (i.e. the "downward" Force acting on an Object due to Gravity) Weight|Weight]]
 Remember that Gravity *is* the Constant Acceleration in the "downward" or negative z direction.
 	Therefore, $\LARGE \mathbf{F_{\text{gravity}}} = \mathbf{m} \cdot -\mathbf{g}$
 		Because the Gravity (as constant acceleration) is negative (due to the direction along the negative z axis), the scaling of this with the mass, produces a negative Force (of Gravity) in the same direction.
@@ -73,8 +73,9 @@ Equilibrium:
 For an object to remain at rest or move at constant velocity, the net force must be zero:
 $F_{\text{lift}} - F_{\text{gravity}} = 0 \Rightarrow F_{\text{lift}} = F_{\text{gravity}}$
 
-### A More Accurate Measure of The Force of Gravity
-			
+### [[Newton's First Law#Newton's Universal Law of Gravitational Force|A More Accurate Measure of The Force of Gravity]]
+Using Newton's Universal Law of Gravitational Force.
+
 
 ![[Pasted image 20240802055712.png|300]]
 > [!note] ### Inertia
