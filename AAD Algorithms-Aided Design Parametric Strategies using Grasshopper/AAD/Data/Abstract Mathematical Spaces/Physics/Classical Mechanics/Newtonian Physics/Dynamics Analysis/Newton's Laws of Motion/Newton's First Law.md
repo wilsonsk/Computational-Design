@@ -102,7 +102,7 @@ $$\LARGE M_{\text{Earth}} \approx 5.972 \times 10^{24} \, \text{kg}$$
 $$\LARGE R_{\text{Earth}} \approx 6.371 \times 10^6 \, \text{m}$$
 Substituting these values:
 $$\LARGE g_{\text{falling object}} = g = \frac{(6.67430 \times 10^{-11}) \cdot (5.972 \times 10^{24})}{(6.371 \times 10^6)^2} \approx 9.8 \, \text{m/s}^2$$
-### [[Weight and Gravity#Falling Gravity *as* Constant Acceleration|Gravity]] as Constant [[Newton's Second Law#Acceleration|Acceleration]] For Objects "Falling" to Earth
+### [[Weight as a Force#Falling Gravity *as* Constant Acceleration|Gravity]] as Constant [[Newton's Second Law#Acceleration|Acceleration]] For Objects "Falling" to Earth
 From our previous derivation we now have:
 $$\LARGE F_{\text{falling object}} = m_{\text{falling object}} \cdot g$$
 Where $\LARGE g = 9.8 m/s^2$
@@ -119,7 +119,7 @@ $$\LARGE F= m \cdot a \text{ and } F_{\text{gravity}} = m \cdot g$$
 $$\LARGE m \cdot a = m \cdot g$$
 $$\text{Canceling } m \text{ from both sides } \frac{m}{m} a = \frac{m}{m}g$$
 $$\LARGE = a = g$$
-## Force *of* [[Weight and Gravity#Falling Force *of* Gravity *as* Weight|Gravity as Weight]] (an Approximation)
+## Force *of* [[Weight as a Force#Falling Force *of* Gravity *as* Weight|Gravity as Weight]] (an Approximation)
 $$\LARGE F_{\text{gravity}} = m \cdot - g \space \text{ where } g = 9.8 \mathbf{m}/\mathbf{s^2}$$
 Remember that Gravity *is* the Constant Acceleration in the "downward" or negative z direction.
 	Therefore, $\LARGE \mathbf{F_{\text{gravity}}} = \mathbf{m} \cdot -\mathbf{g}$
@@ -136,7 +136,7 @@ Where $W$ is weight.
 
 Therefore if $\LARGE F_{\text{gravity}} = m \cdot g$
 	Then $\LARGE F_{\text{gravity}} = W$
-## [[Weight and Gravity#Weight (i.e. the "downward" Force acting on an Object due to Gravity)|Weight]]
+## [[Weight as a Force#Weight (i.e. the "downward" Force acting on an Object due to Gravity)|Weight]]
 Refers to the force acting on the object due to acceleration of gravity.
 	Some standard textbooks define weight as a vector quantity, the gravitational force acting on the object. Others define weight as a scalar quantity, the magnitude of the gravitational force. 
 	

@@ -20,6 +20,7 @@ Radius dependent.
 $$s\LARGE = \varphi \cdot r$$
 ### Angular Position $\LARGE \varphi$
 **Angular position** refers to the orientation of a line with another line or plane. 
+	I.e. An angle.
 
 It is the angle between the reference line (often the x-axis) and the line from the center of the circle to the point in question. 
 	Angular position is usually denoted by $\varphi$ and is measured in radians or degrees.
@@ -27,7 +28,6 @@ Used in [[#Angular Displacement ($ phi$)|Angular Displacement]]
 Radius independent
 ### Polar Coordinates
 A single coordinate that describes all motion.
-
 ### Angular Displacement ($\phi$ or $\Delta \varphi$)
 **Angular displacement** is the measure of the **angle** through which an object has rotated or moved from a reference position over a given period of time. 
 	It is the change in the angular position. Angular displacement is also measured in radians or degrees and can be positive (counterclockwise rotation) or negative (clockwise rotation).
@@ -113,7 +113,7 @@ $$\LARGE a = \alpha \cdot r$$
 *Note: The Normal Acceleration (i.e. Centripetal Acceleration) and the Tangential Acceleration are paired together at $90\degree$* at a given point.
 	They are components of Linear Acceleration.
 #### Components of Linear Acceleration
-###### Formula for Total Linear Acceleration ($a$)**
+###### Formula for Total Linear Acceleration ($a$)
 $$\LARGE \vec{a} = \vec{a_t} + \vec{a_c}$$
 Linear acceleration in circular motion can be broken down into two components:
 ##### Tangential Acceleration ($a_t$)

@@ -1,4 +1,4 @@
-# Pulley
+# Forces of the Pulley
 Are used to **reorient** forces.
 	Pulleys enable the change of the direction of the necessary applied force.
 		And Pulleys enable the change of the magnitude of the necessary applied force.
