@@ -72,14 +72,19 @@ Equilibrium follows a similar pattern for angular accelerations.
 ### Coordinates
 A **coordinate** is a number (or set of numbers) used to determine the position of a point in space. 
 	Coordinates are typically part of a coordinate system, such as Cartesian coordinates, which define positions in one-dimensional, two-dimensional, or three-dimensional space.
-### Scalars
+### [[Abstract Mathematical Spaces#Scalar Space $ mathbb{R} 1$ as Vector Space $ mathbb{R} 1$ (i.e. simply $ mathbb{R}$)|Scalars]]
 A **scalar** is a quantity that has only magnitude and no direction.
 	It is a single value, often a real number, that represents size or amount.
-	
- Scalars can describe many physical quantities such as temperature, mass, time, and energy.
+
+Scalars can describe many physical quantities such as temperature, mass, time, and energy.
 ### Scalar Form Analysis
 I.e. Magnitude Form.
 	Where the vector is scaled according to its magnitude, in a given angle.
+
+**Magnitude Only**: Scalar quantities represent only the magnitude of the force without any direction.
+- **Example**: The weight of an object can be given in scalar form as $F = mg$, where $m$ is the mass and $g$ is the gravitational acceleration.
+	- Here, $F$ represents the magnitude of the force.
+
 Overall magnitude and angle(s) to indicate direction.
 ##### 2Dimensional
 ![[Pasted image 20240503162507.png]]
@@ -88,15 +93,7 @@ Overall magnitude and angle(s) to indicate direction.
 ###### Force Representation
 Forces are represented by their magnitudes and the angles they make with reference axes.
 	The direction is considered using angles, and forces are typically discussed in terms of horizontal and vertical components.
-###### Decomposing Forces
-Forces are broken down into horizontal and vertical components using trigonometry:
-- Horizontal Component $\LARGE \vec{F_x​}=\vec{F}cos(θ)$
-- Vertical Component $\LARGE \vec{Fy}​=\vec{F}sin(θ)$
-###### Summing Components
-Components are summed algebraically:
-- $\LARGE ∑Fx$​ for all horizontal components
-- $\LARGE ∑Fy$​ for all vertical components
-- Check for equilibrium: $\LARGE ∑Fx​=0$ and $\LARGE ∑Fy​=0$
+
 ###### Application in Statics
 Mainly used for checking translational equilibrium.
 Suitable for straightforward problems where forces are primarily aligned with or against reference axes.
@@ -105,6 +102,10 @@ Does not inherently handle moments or rotational forces unless explicitly calcul
 ### Vector Form Analysis (i.e. Cartesian Vectors)
 I.e. Component Form.
 	Where each vector, $\vec{F}$ has 2 (in 2D systems) or 3 (in 3D systems) component "scaled" vectors, $\large |\vec{f_{x}}|,|\vec{f_{y}}|, |\vec{f_{z}}|$. 
+
+**Magnitude and Direction**: Vector quantities represent both the magnitude and direction of the force.
+- **Components**: Vectors are often broken down into components along coordinate axes (e.g., $\hat{i}$ and $\hat{j}$ for 2D Cartesian coordinates, or $\hat{i}$, $\hat{j}$​, and $\hat{k}$ for 3D Cartesian coordinates).
+- **Notation**: Vectors are typically written with an arrow or in boldface to indicate their vector nature (e.g., $\vec{F}$ or **F**).
  
  Magnitudes in each of the coordinate directions.
 ##### 2Dimensional
@@ -115,10 +116,20 @@ I.e. Component Form.
 Forces are represented as vectors, $\LARGE \vec{F}=\vec{F_{x}​i}+\vec{F_{y}​j}+\vec{F_{z}​k}$.
 - Each component is associated with a unit vector, emphasizing both magnitude and direction.
 ###### Decomposing Forces
-Forces are decomposed into components based on their direction in three-dimensional space:
+###### Decomposing Forces
+Forces are decomposed into components based on their direction in three-dimensional space.
+	Forces are broken down into horizontal and vertical components using trigonometry:
+
 - $\LARGE |\vec{F_{x}}|​=\vec{F}cos(θ)$
 - $\LARGE |\vec{F_{y}}|​=\vec{F}sin(θ)$
 - $\LARGE |\vec{F_{z}}|$​ (if applicable, based on additional angular measurements)
+- Horizontal Component $\LARGE \vec{F_x​}=\vec{F}cos(θ)$
+- Vertical Component $\LARGE \vec{Fy}​=\vec{F}sin(θ)$
+###### Summing Components
+Components are summed algebraically:
+- $\LARGE ∑Fx$​ for all horizontal components
+- $\LARGE ∑Fy$​ for all vertical components
+- Check for equilibrium: $\LARGE ∑Fx​=0$ and $\LARGE ∑Fy​=0$
 ###### Summing Components
 Vector addition is used to sum components:
 - $\LARGE \sum\vec{F}=(∑\vec{F_{x}}​)i+(∑\vec{F_{y}}​)j+(∑\vec{F_{z}}​)k$
@@ -149,7 +160,7 @@ To find the magnitude and the direction of a vector using components, we will us
 To find the magnitude of the vector we will use the Pythagorean Theorem, taking the square root of the sum of the squares of each component. 
 	To find the angle, we can easily use the inverse tangent function, relating the opposite and adjacent legs of our right triangle.
 #### Converting Between Vector Representations in 3D
-![[Pasted image 20240508145439.png|400]]
+![[Pasted image 20240508145439.png|500]]
 In three dimensions, we will have either three components (𝑥, 𝑦, and 𝑧) for component form or a magnitude and two angles for the direction in magnitude and direction form. 
 
 To convert between forms we will need to draw in two sets of right triangles. 

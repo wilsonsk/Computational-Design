@@ -1,4 +1,5 @@
 # Weight as a Force and Gravity as Acceleration
+*Note: Force as $F=mg$ is a [[Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Static Equilibrium#Scalar Form Analysis|scalar form representation.]]*
 ## Force as the Product of Mass and Acceleration (aka Force *of* the Product of Mass and Acceleration)
 ### [[Division#Division as a Proportional Relationship (i.e. Direct Proportionality)|Proportionality]]
 The [[Newton's Second Law#Force|force]] is [[Division#Direct Proportionality|directly proportional]] to the scaling of [[Newton's First Law#Mass|mass]] by [[Newton's Second Law#Acceleration|acceleration]].
