@@ -1,5 +1,6 @@
 # Normal Force
 This is the force exerted by the ground on the object. It acts upward, perpendicular to the surface, and is denoted as $\LARGE F_{\text{normal}}​$.
+	*Note: The [[Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Gradients|gradient]] of a [[Mapping#Scalar Functions as a Subset of Functions|scalar function]] (such as a [[Potentials#Potential Function, $U(r)$|potential energy function]] or a surface defined by an equation) is indeed used to identify the [[Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Partial Derivatives#Normal Vector to a 3D Surface|normal direction to a surface]] in 3D.*
 
 ![[Pasted image 20240806125122.png]] ![[Pasted image 20240806125514.png]]
 ## Reaction Force (I.e. the Normal Force)

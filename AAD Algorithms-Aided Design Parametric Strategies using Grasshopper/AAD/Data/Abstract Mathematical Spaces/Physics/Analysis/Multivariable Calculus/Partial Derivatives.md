@@ -170,7 +170,7 @@ Therefore the [[Derivatives#3. The Differential Ratio *is* the Limit *of* the Sl
 The tangent vector to the surface $z = f(x, y)$ at a point $(a, b)$ can be expressed using the partial derivatives of $f$.
 	If you move by small amounts $\Delta x$ and $\Delta y$ from the point $(a, b)$, the change in $z$, denoted as $\Delta z$, can be approximated using the partial derivatives:
 $$\LARGE \Delta z \approx \frac{\partial f}{\partial x}(a, b) \Delta x + \frac{\partial f}{\partial y}(a, b) \Delta y$$
-  The corresponding tangent vector $\mathbf{T}(\Delta x, \Delta y)$ at the point $(a, b, f(a, b))$ is:
+  The corresponding tangent vector $\mathbf{T}(\Delta x, \Delta y)$ at the point $(a, b, f(a, b))$ is a [[Mapping#Higher-Level Functions (i.e. Composite Functions) Higher-Level Functions|Vector Function]]
 $$\LARGE \mathbf{T}(\Delta x, \Delta y) = \begin{pmatrix} \Delta x \\ \Delta y \\ \Delta z \end{pmatrix} = \begin{pmatrix} \Delta x \\ \Delta y \\ \frac{\partial f}{\partial x}(a, b) \Delta x + \frac{\partial f}{\partial y}(a, b) \Delta y \end{pmatrix}$$
 ### Direction Vector in the Plane $y = b$ 
 The **direction vector** is a specific instance of the [[#Tangent Vector Components]] when considering a particular direction in a plane (e.g., the plane $y = b$).
@@ -182,7 +182,7 @@ $$\LARGE \mathbf{T}(\Delta x, 0) = \begin{pmatrix} \Delta x \\ 0 \\ \frac{\parti
 This can be further simplified to:
 $$\LARGE \mathbf{T}(\Delta x, 0) = \Delta x \begin{pmatrix} 1 \\ 0 \\ \frac{\partial f}{\partial x}(a, b) \end{pmatrix}$$
 Here, the vector $\begin{pmatrix} 1 \\ 0 \\ \frac{\partial f}{\partial y}(a, b) \end{pmatrix}$ is the direction vector in the plane $x = a$.
-To produce this tangent line in [[Abstract Mathematical Spaces#$ mathbb{R} 3$ - Three-Dimensional Vector Space|$\mathbb{R}^3$]] space, we use a direction vector.
+To produce this tangent line in [[Abstract Mathematical Spaces#$ mathbb{R} 3$ - Three-Dimensional Vector Space|R^3]] space, we use a direction vector.
 	Instead of using the Slope of the Tangent Line, utilize the Direction Vector.
 		Because this Vector is completely included in the plane, $y=b$, this means the Vector has no $y$ component, and thus $0$ for the $y$ component. 
 $$\LARGE \text{Direction Vector } = \begin{pmatrix} 1 \\ 0 \\ f'_{x}(a,b) \end{pmatrix} = \begin{pmatrix} 1 \\ 0 \\ \frac{\partial f}{\partial x}(a,b) \end{pmatrix}$$
@@ -196,7 +196,7 @@ $$\LARGE \Delta z = g'(a) \cdot 1$$
 $$\large \text{The coordinates of the Direction Vector of the Tangent Line (i.e. Tangent Vector):}$$
 $$\LARGE = \vec{v} = \left[ 1, 0, g'(a) \right] = \left[ 1, 0, \frac{\partial f}{\partial x}(a,b) \right]$$
 ![[Pasted image 20240727081213.png]]
-
+![[Pasted image 20240809054135.png]]
 ### Tangent Line of $h(y)$
 The Tangent Line to the *green* curve, $h(y)$ lies **within** the same plane, $x=a$.
 	The **Slope** of this Tangent Line is the [[#2D Partial Derivative of $f$ with Respect to $x$|Derivative]] of $h(b)$ at a given point, $(a, b, f(a, b))$.
@@ -249,6 +249,8 @@ The Normal Vector must be orthogonal to the Tangent Plane and thus both [[#Direc
 It is the Direction Vector of the Tangent Line of the 1D function $\LARGE g(x)$ in the plane $\LARGE y=b$.
 	Because this Tangent Line and thus Direction Vector, $\vec{v}$ is limited to the plane $y=b$, there will be no change in the $y$ direction.
 		Which means that the $y$ coordinate of the Direction Vector, $\vec{v}$ must be $0$. 
+			There will never be a change in the $y$ direction.
+				So only the $x$ and $z$ coordinates are needed.
 $$\LARGE = \vec{v} = \left[ 1, 0, g'(a) \right] = \left[ 1, 0, \frac{\partial f}{\partial x}(a,b) \right]$$
 ##### Vector $\LARGE \vec{u}$
 ![[Pasted image 20240728064208.png]]
@@ -258,6 +260,8 @@ $$\LARGE = \vec{v} = \left[ 1, 0, g'(a) \right] = \left[ 1, 0, \frac{\partial f}
 It is the Direction Vector of the Tangent Line of the 1D function $\LARGE h(y)$ in the plane $\LARGE x=a$.
 	Because this Tangent Line and thus Direction Vector, $\vec{u}$ is limited to the plane $x=a$, there will be no change in the $x$ direction.
 		Which means that the $x$ coordinate of the Direction Vector, $\vec{u}$ must be $0$. 
+			There will never be a change in the $x$ direction.
+				So only the $y$ and $z$ coordinates are needed.
 $$\LARGE = \vec{u} = \left[ 0, 1, h'(b) \right] = \left[ 0, 1, \frac{\partial f}{\partial y}(a,b) \right]$$
 ##### Normal Vector as a [[Statics Analysis#Cross Product|Cross Product]] (Between the two Tangent Vectors of Partial Derivatives)
 $$\LARGE \vec{n_{\perp}} =  \vec{v} \times \vec{u}$$
@@ -266,7 +270,7 @@ $$\LARGE \left| \begin{matrix} \vec{i} \quad \quad \vec{j} \quad \quad \vec{k} \
 ##### 1. Compute the Directional Vector (i.e. Tangent Vector)
 - - -
 ## Interpreting Partial Derivatives
-Recall that the graph of a function of two variables is a surface in R^3.
+Recall that the graph of a function of two variables is a surface in $\mathbf{R^3}$.
 
 If we remove the limit from the definition of partial derivative with respect to $x$, $\LARGE \lim\limits_{h \to 0} \frac{f(x+h, y) - f(x,y)}{h}$, then the Difference Quotient remains.
 $$\LARGE \frac{f(x+h, y) - f(x,y)}{h}$$

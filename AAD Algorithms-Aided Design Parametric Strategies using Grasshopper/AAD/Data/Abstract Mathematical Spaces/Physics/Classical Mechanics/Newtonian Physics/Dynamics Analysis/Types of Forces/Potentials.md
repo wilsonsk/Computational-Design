@@ -2,21 +2,21 @@
 ## Potential Function, $U(r)$
 In classical mechanics, the potential function $U(r)$ is related to the force $F(r)$ through the negative gradient of the potential. 
 	Is **not** a Vector, but is a [[Mapping#Scalar Functions as a Subset of Functions|Scalar Function]] of a [[Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Components of Motion#Position|position]], that has a (negative) gradient gives rise to the force as a scalar.
-		This relationship between the Force and the Potential is given by the equation:
+		In physics, when you know the force field, you can derive the potential energy function by integrating the force. 
+			This process is grounded in the relationship between force and potential energy:
 $$\LARGE F(r) = -\nabla U(r) =-\left( \frac{\partial U}{\partial x}, \frac{\partial U}{\partial y}, \frac{\partial U}{\partial z} \right) =  -\frac{dU(z)}{dz}$$
 Where:
-	The functon $U(r)$ is indirectly defined - that is - it must be "found" from the Force. 
+	The function $U(r)$ is indirectly defined - that is - it must be "found" from the Force. 
 		I.e. Set the two equations for force equal to each other. 
 	And the [[Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Gradients#*Note Nabla Operator ($ nabla$)*|nabla]] represents a [[Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Gradients|gradient]].
 	This nabla is defined on the $U(r)$ function.
 		Therefore, it is the gradient of $U(r)$.
 ### How to Find the Potential ($U(r)$)
 ##### Need the Position to Calculate the Potential
-
 ##### 1. Start with the Force Function
 Suppose you have a force function $F(r)$. 
 	For simplicity, let's consider a one-dimensional case where the force is a function of $x$, denoted as $F(x)$.
-##### 2. Integrate the Force Function (as instructed by the nabla)
+##### 2. Integrate the (both sides) Force Function (as instructed by the nabla)
 The potential energy function $U(x)$ is obtained by integrating the force function with respect to the position variable $x$:
 $$\LARGE F(x) = -\nabla U(x) = -\int F(x) \, dx$$
 ## Potential Energy, $U(r)$
@@ -37,20 +37,31 @@ $$F = -mg$$
    Here, $m$ is the mass of the object, $g$ is the acceleration due to gravity, and the negative sign indicates that the force is directed downward.
 
 2. **Relate the Force to the Potential Energy**:
-   $$F_r = -\nabla U(r)$$
+$$F_r = -\nabla U(r)$$
     Set the two expressions for the force equal to each other:
 	    In this case, since $F = -mg$, we have:
-$$\LARGE F= -mg = -\frac{dU(z)}{dz}$$
+$$\LARGE F= -mg$$
+$$\text{ and }$$
+$$-\nabla U(r) = -\frac{dU(z)}{dz}$$
    The relationship between the force $F$ and the potential energy $U$ is given by:
 $$\LARGE F = -\frac{dU(z)}{dz} = -\left( \frac{\partial U}{\partial x}, \frac{\partial U}{\partial y}, \frac{\partial U}{\partial z} \right) = -(0, 0, mg)$$
 3. **Integrate the Force to Find the Potential Energy**:
-   To find $U(z)$, integrate both sides with respect to $z$:
-	   Remove the negative signs (they cancel each other out):
-$$-mg = -\frac{dU}{dz}$$​
+   To find $U(z)$, integrate **both sides** with respect to $z$:
+$$\LARGE F= -mg$$
+$$\text{ and }$$
+$$-\nabla U(z) = -\frac{dU(z)}{dz}$$
+$$\LARGE F = \nabla U(r) = -mg = -\frac{dU(z)}{dz}$$
+   Remove the negative signs (they cancel each other out):
+$$-\LARGE mg = -\frac{dU}{dz}$$​
 $$\LARGE = mg = \frac{dU(z)}{dz}$$
-   Integrating both sides:
-$$\LARGE U(z) = \int mg \, dz$$
-4. **Perform the Integration**:
+   **Integrating both sides**:
+$$\LARGE \int mg \, dz = \int \frac{dU(z)}{dz} $$
+	1. **Right Side**:
+		By the Fundamental Theorem of Calculus, the [[Data/Abstract Mathematical Spaces/Physics/Analysis/Integrals#function|integral of the derivative of a function]] is the function itself: $\LARGE U(z)$
+	2. **Left Side**: 
+		We are [[Data/Abstract Mathematical Spaces/Physics/Analysis/Integrals#Constant Rule|integrating the constant]] $\LARGE mg$ with respect to $\LARGE z$: $\LARGE mg \int dz$
+			The integral of a constant with respect to $\LARGE z$ is the constant multiplied by $\LARGE z$: $\LARGE mg \int dz = mg \cdot z$
+
    The integral of a constant $mg$ with respect to $z$ is:
 $$\LARGE U(z) = mgz + C$$
    
@@ -74,11 +85,7 @@ Where:
 	$\alpha$ is the angle of inclination, and $e_s$ is the unit vector along the inclined plane.
 ##### 1. Understand the Force Function
 The component of gravitational force acting parallel to the inclined plane is:
-
-$$
-F_H = mg\sin(\alpha)
-$$
-
+$$\LARGE F_H = mg\sin(\alpha)$$
 where:
 - $m$ is the mass of the object,
 - $g$ is the acceleration due to gravity,
@@ -86,11 +93,7 @@ where:
 - $F_H$ is the force component along the plane.
 ##### 2. Relate Force to Potential Energy
 The relationship between the force $F_H$ and the potential energy $U(s)$ along the plane is given by:
-
-$$
-F_H = -\frac{dU(s)}{ds}
-$$
-
+$$\LARGE F_H = -\frac{dU(s)}{ds}$$
 Here, $s$ is the distance along the inclined plane.
 ##### 3. Set Up the Equation
 Set Force Equations Equal
@@ -145,7 +148,7 @@ So, $C = 0$.
 
 Thus, the potential energy function $U(s)$ for an object on an inclined plane is:
 
-$$
+$$\LARGE
 U(s) = -mg\sin(\alpha) s
 $$
 

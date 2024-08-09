@@ -156,8 +156,21 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "7e7584dfb144896b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Cross Product.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -207,7 +220,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a3457d95b32e7cc2",
@@ -223,7 +237,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Types of Forces/Potentials.md",
+                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Cross Product.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -240,7 +254,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Types of Forces/Potentials.md",
+                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Cross Product.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -263,7 +277,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Types of Forces/Potentials.md"
+                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Cross Product.md"
               }
             }
           },
@@ -297,27 +311,32 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "70a890f8a800eb39",
+  "active": "7e7584dfb144896b",
   "lastOpenFiles": [
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Gradients.md",
-    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Static Equilibrium.md",
+    "Pasted image 20240809063504.png",
+    "Pasted image 20240809063452.png",
+    "Pasted image 20240809061516.png",
+    "Pasted image 20240809061447.png",
+    "Pasted image 20240809061435.png",
+    "Pasted image 20240809061348.png",
+    "Pasted image 20240809061340.png",
+    "Pasted image 20240809061208.png",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Partial Derivatives.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Cross Product.md",
+    "Pasted image 20240809054135.png",
+    "Data/ABSTRA~1/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Statics Analysis.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Types of Forces/Potentials.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Gradients.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Types of Forces/Friction Forces.md",
-    "Pasted image 20240808060513.png",
-    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Types of Forces/Normal Force.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Newton's Laws of Motion/Newton's First Law.md",
+    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Types of Forces/Normal Force.md",
+    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Static Equilibrium.md",
+    "Pasted image 20240808060513.png",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Types of Forces/Weight as a Force.md",
     "Data/ABSTRA~1/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Newton's Laws of Motion/Newton's Third Law.md",
     "Pasted image 20240807073354.png",
-    "Pasted image 20240807073108.png",
-    "Pasted image 20240807073100.png",
-    "Pasted image 20240807073048.png",
-    "Pasted image 20240807073040.png",
-    "Pasted image 20240807072821.png",
-    "Pasted image 20240807071924.png",
     "Data/ABSTRA~1/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Static Equilibrium.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Types of Forces/Forces of HarOsc.md",
-    "images/Pasted image 20240806125122.png",
     "Data/ABSTRA~1/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Newton's Laws of Motion/Newton's Second Law.md",
     "Data/ABSTRA~1/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Types of Forces/Normal Force.md",
     "Data/ABSTRA~1/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Types of Forces/Weight as a Force.md",
@@ -326,14 +345,10 @@
     "Data/ABSTRA~1/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Types of Forces/Forces Acting on a Pendulum.md",
     "Data/ABSTRA~1/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Newton's Laws of Motion/Newton's First Law.md",
     "Data/ABSTRA~1/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Structural Analysis.md",
-    "Data/ABSTRA~1/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Statics Analysis.md",
     "Data/ABSTRA~1/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Moment.md",
     "Data/ABSTRA~1/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Non-Concurrent Systems.md",
     "Data/ABSTRA~1/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Free Body Diagram.md",
     "Data/ABSTRA~1/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Curvature's Role in Stress Distribution.md",
-    "Data/ABSTRA~1/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Concurrent Systems.md",
-    "Data/ABSTRA~1/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Uniform Circular Motion.md",
-    "Data/ABSTRA~1/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis/Uniform Motion.md",
     "Data/ABSTRA~1/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Types of Forces",
     "Data/ABSTRA~1/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Newton's Laws of Motion",
     "Data/ABSTRA~1/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis",
@@ -343,7 +358,6 @@
     "Data/ABSTRA~1/Physics/Classical Mechanics/Newtonian Physics",
     "Data/ABSTRA~1/Physics/Analysis/Multivariable Calculus",
     "Data/ABSTRA~1/Physics/Topology",
-    "Data/ABSTRA~1/Physics/Morphogenesis",
-    "images/Pasted image 20240806145432.png"
+    "Data/ABSTRA~1/Physics/Morphogenesis"
   ]
 }
