@@ -39,3 +39,8 @@ The length of the new vector is equal to the **area** of the parallelogram spann
 ## Examples
 ![[Pasted image 20240809063504.png]]
 ![[Pasted image 20240809063452.png]]
+## Three Properties of Cross Product
+$$\LARGE \text{If } \mathbf{u}, \mathbf{v} \in \mathbb{R}^3 \text{, then}$$
+$$\LARGE \text{1. Anti=Commutativity: }\mathbf{u} \times v = - \mathbf{v} \times \mathbf{u}$$
+$$\LARGE \text{2. } \mathbf{u} \cdot (\mathbf{u} \times v) = 0$$
+$$\LARGE \text{3. } |\mathbf{u} \times \mathbf{v}|^2 = |\mathbf{u}|^2|\mathbf{v}|^2 - (\mathbf{u} \cdot \mathbf{v})^2$$

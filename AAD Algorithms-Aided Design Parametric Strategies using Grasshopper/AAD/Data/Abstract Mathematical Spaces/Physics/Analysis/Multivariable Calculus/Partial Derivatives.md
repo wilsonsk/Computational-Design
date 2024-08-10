@@ -226,6 +226,7 @@ $$\LARGE \Delta z = h'(b) \cdot 1$$
 $$\large \text{The coordinates of the Direction Vector of the Tangent Line (i.e. Tangent Vector):}$$
 $$\LARGE = \vec{u} = \left[ 0, 1, h'(b) \right] = \left[ 0, 1, \frac{\partial f}{\partial y}(a,b) \right]$$
 ![[Pasted image 20240727083419.png]]
+###### Therefore Each Tangent Vector is Composed of a Single Partial Derivative
 - - -
 ## Tangent Plane of a 3D Surface
 Tangent Plane to the Surface $z = f(x,y)$ in the point $(a,b, f(a,b))$.
@@ -263,10 +264,29 @@ It is the Direction Vector of the Tangent Line of the 1D function $\LARGE h(y)$ 
 			There will never be a change in the $x$ direction.
 				So only the $y$ and $z$ coordinates are needed.
 $$\LARGE = \vec{u} = \left[ 0, 1, h'(b) \right] = \left[ 0, 1, \frac{\partial f}{\partial y}(a,b) \right]$$
-##### Normal Vector as a [[Statics Analysis#Cross Product|Cross Product]] (Between the two Tangent Vectors of Partial Derivatives)
+##### Normal Vector as a [[Cross Product|Cross Product]] (Between the two Tangent Vectors of Partial Derivatives)
 $$\LARGE \vec{n_{\perp}} =  \vec{v} \times \vec{u}$$
 The Normal Vector to a plane is the cross product of the two directional vectors $\vec{v}$ and $\vec{u}$.
-$$\LARGE \left| \begin{matrix} \vec{i} \quad \quad \vec{j} \quad \quad \vec{k} \\ 1 \quad 0 \quad f_{x}'(a,b) \\ 0 \quad 1 \quad f'_{y}(a,b)\end{matrix} \right| =  (-f'_{x}(a,b), -f'_{y}(a,b), 1)$$
+$$\LARGE \left| \begin{matrix} \vec{i} \quad \quad \vec{j} \quad \quad \vec{k} \\ 1 \quad 0 \quad f_{x}'(a,b) \\ 0 \quad 1 \quad f'_{y}(a,b)\end{matrix} \right| =   = (-f'_{x}(a,b), -f'_{y}(a,b), 1)$$
+$$\LARGE = \text{The Normal Vector } (-\frac{\partial f}{\partial x}(a,b), - \frac{\partial f}{\partial y}(a,b), 1)$$
+$$\LARGE \text{To point the point } (a,b, f(a,b))$$
+The Normal Vector is thus **composed of two partial derivatives** 
+### Back to the Tangent Plane
+Once the normal vector to the [[#Cross-Section Curves|cross section curves]], the tangent plane can now be calculated via the Normal Equation.
+![[Pasted image 20240810055336.png]]
+#### The Normal Equation of the Plane
+The Normal Equation of the plane, $\LARGE \pi$ through $\LARGE x_0 = (x_0, y_0, z_0)$ and orthogonal to the vector $\LARGE \mathbf{n} = (a,b,c)$:
+$$\LARGE ax + by + cz + d = 0$$
+$$\LARGE \text{Where } d = -ax_0 - by_0 - cz_0$$
+***If*** a point $\LARGE x = (x,y,z)$ belongs to $\LARGE \pi$, ***then*** the vectors $\LARGE \mathbf{n} = (a,b,c)$ and $\LARGE x - x_0 = (x-x_0, y-y_0, z- z_0)$ must be orthogonal, which means that their dot product must be 0:
+$$\LARGE (a,b,c) \cdot (x-x_0 y - y_0, z- z_0) = 0$$
+$$\LARGE \text{If and only if} $$
+$$\LARGE ax-\textcolor{red}{ax_0}+by-\textcolor{red}{by_0} +cz-\textcolor{red}{cz_0}={0}$$
+$$\LARGE \text{If and only if} $$
+$$\LARGE ax- +by  +cz + \textcolor{red}{d}= 0$$
+##### Computing the Normal Equation
+![[Pasted image 20240810060854.png]]
+$$\LARGE (x,y,z) \Leftrightarrow (x-a,y-b,z-f(a,b)) \cdot (f'_x(a,b), f'_y(a,b), -1) = 0$$
 ##### 1. Compute the Directional Vector (i.e. Tangent Vector)
 - - -
 ## Interpreting Partial Derivatives

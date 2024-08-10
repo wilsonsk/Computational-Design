@@ -170,7 +170,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -237,7 +237,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Cross Product.md",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Partial Derivatives.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -254,7 +254,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Cross Product.md",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Partial Derivatives.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -277,7 +277,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Cross Product.md"
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Partial Derivatives.md"
               }
             }
           },
@@ -311,8 +311,14 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "7e7584dfb144896b",
+  "active": "3de96b08661913df",
   "lastOpenFiles": [
+    "Pasted image 20240810060854.png",
+    "Pasted image 20240810055336.png",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Cross Product.md",
+    "Data/ABSTRA~1/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Statics Analysis.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Partial Derivatives.md",
+    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Types of Forces/Potentials.md",
     "Pasted image 20240809063504.png",
     "Pasted image 20240809063452.png",
     "Pasted image 20240809061516.png",
@@ -321,20 +327,14 @@
     "Pasted image 20240809061348.png",
     "Pasted image 20240809061340.png",
     "Pasted image 20240809061208.png",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Partial Derivatives.md",
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Cross Product.md",
     "Pasted image 20240809054135.png",
-    "Data/ABSTRA~1/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Statics Analysis.md",
-    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Types of Forces/Potentials.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Gradients.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Types of Forces/Friction Forces.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Newton's Laws of Motion/Newton's First Law.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Types of Forces/Normal Force.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Static Equilibrium.md",
-    "Pasted image 20240808060513.png",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Types of Forces/Weight as a Force.md",
     "Data/ABSTRA~1/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Newton's Laws of Motion/Newton's Third Law.md",
-    "Pasted image 20240807073354.png",
     "Data/ABSTRA~1/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Static Equilibrium.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Types of Forces/Forces of HarOsc.md",
     "Data/ABSTRA~1/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Newton's Laws of Motion/Newton's Second Law.md",
