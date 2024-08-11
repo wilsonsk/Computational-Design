@@ -234,7 +234,7 @@ When the change becomes infinitesimal, the interval between the two points appro
 		This smallest interval of change between two points, represents the **"Instantaneous" Rate of Change.**
 $$\LARGE \text{If } dx \text{ (i.e. } h \text{)} = 0$$
 $$\LARGE \frac{df}{dx} = \frac{0}{0} = \lim_{h \to 0} = \frac{f(x+0) - f(x)}{0}$$
-### The Instantaneous Rate of Change is the Slope of the Tangent Line
+### The Instantaneous Rate of Change (i.e the Limit of the Slope of the Secant Line) is the Slope of the Tangent Line
 Remember that the Slope of a Secant Line represents the Average Rate of Change.
 $$\LARGE \text{Ave. Rate of Change} = {f(x-2)−f(x_1)​ \over x_2 - x_1} = \text{Slope of the Secant Line}$$
 This ratio is the slope of a linear function.
@@ -246,7 +246,7 @@ This ratio is the slope of a linear function.
 $$\LARGE f'(x) = \frac{df}{dx} = \lim_{h \to 0} = \frac{f(x+h) - f(x)}{h}$$
 As $h$ approaches zero, this average slope becomes the instantaneous slope, which is the Tangent Line.
 ![[Pasted image 20240422232308.png]]
-## The Differential Ratio *is* the Limit *of* the Slope of the Tangent Line
+## The Differential Ratio *is* the Slope of the Tangent Line
 ![[Pasted image 20240422233019.png]]
 The Limit of the slope of this tangent line is the derivative of the function at that point, $f'(x)$.
 #### Which is the Derivative
@@ -267,17 +267,18 @@ $$\LARGE f'(x) = \frac{\Delta y}{\Delta x}$$
 The derivative is the ratio of the change in the output to the change in the input as the change in the input approaches zero.
 ### 2. [[#The Differential (i.e. the Limit) is the Instantaneous Rate of Change|The Instantaneous Rate of Change of a Function]]
 A derivative (of a function $f(x)$) at a single point $f'(x)$, is itself a function that maps that single point (as an input) to the **value** of the **limit** of the **average rate of change** (i.e. limit of $\Delta y / \Delta x$) of that input.
-### 3. [[#The Differential Ratio *is* the Limit *of* the Slope of the Tangent Line|The Limit of the Slope of the Secant Line]] and the Slope of the Tangent Line
+### 3. [[#The Differential Ratio *is* the Limit *of* the Slope of the Tangent Line|The Limit of the Slope of the Secant Line as h Approaches Infinity]] (i.e. the Slope of the Tangent Line)
 A **derivative** of a **function** at a point **provides the slope of the [[Secant Line|Secant]] line to the function at that specific point**.^calculus-derivatives
 The **derivative** (which only exists for a given point) is itself is a **value** that represents the **exact slope** of the **tangent vector** at that **point** it is associated with (on the curve).
 	I.e. The **derivative** ***is*** the **slope of the tangent line**.
 		![[Pasted image 20240410150406.png]]
- 
+##### The [[Data/Abstract Mathematical Spaces/Physics/Analysis/Tangent Line|Tangent Line]]
  The **Tangent line (or vector)** at a single point, represents the **"instantaneous" rate of change** of the curve (i.e. function) at that point. ^f2b939
 	The slope of this tangent line/vector is given by the **derivative** of the curve/function at this point. ^1f0a97
 	The derivative at any point, gives the direction of the tangent vector at that point.
 		For surfaces, taking partial derivatives provides the tangent planes.
-
+###### [[Data/Abstract Mathematical Spaces/Physics/Analysis/Tangent Line|Tangent Line Through a Point (a, f'(a))]] 
+$$\LARGE y = f(a) + f'(a)(x-a)$$
 Formally, the derivative at a point $a$, is **defined** as the [[Limits|limit]] of the slope of the Secant Line (i.e. **instantaneous rate of change**)
 ![[Pasted image 20240422232308.png]]
 ![[Pasted image 20240727142926.png]]
@@ -306,7 +307,6 @@ Consider the point $P=(x, f(x))$ on the curve.
 ##### Tangent Vector
 The tangent vector at $P$ can be described in terms of its components along the x-axis and y-axis.
 	The change in $x$ is typically considered as $\Delta x$, and the change in $y$ is $\Delta y=f'(x) \Delta x$.
-$$\LARGE \text{Tangent Line Through a Point (a, f'(a)) } = y = f(a) + f'(a)(x-a)$$
 ##### Tangent Vector Components
 Let $\Delta x$  be a small change in $x$. The corresponding change in $y$, denoted $\Delta y$, can be approximated using the derivative $f'(x)$. 
 	This represents the corresponding change in the $y$-direction based on the slope of the function at the point $x$. 

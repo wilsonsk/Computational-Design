@@ -161,7 +161,7 @@ The plane as a constant $x$ value (being $a$ in this case),
 ![[Pasted image 20240727070252.png|500]]
 ### Tangent Line of $g(x)$
 The Tangent Line to the *red* curve, $g(x)$ lies **within** the same plane, $y=b$.
-	The **Slope** of this Tangent Line is the [[#2D Partial Derivative of $f$ with Respect to $x$|Derivative]] of $g(a)$ at a given point, $(a, b, f(a, b))$.
+	The **Slope** of this [[Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives#The Tangent Line|Tangent Line]] is the [[#2D Partial Derivative of $f$ with Respect to $x$|Derivative]] of $g(a)$ at a given point, $(a, b, f(a, b))$.
 		Remember, it is the Derivative of $g(a)$ because the variable b is held constant.
 			Thus, it is the **Partial Derivative** of the function $f(a, b)$ with respect to $a$, making $b$ a constant.  
 
@@ -199,7 +199,7 @@ $$\LARGE = \vec{v} = \left[ 1, 0, g'(a) \right] = \left[ 1, 0, \frac{\partial f}
 ![[Pasted image 20240809054135.png]]
 ### Tangent Line of $h(y)$
 The Tangent Line to the *green* curve, $h(y)$ lies **within** the same plane, $x=a$.
-	The **Slope** of this Tangent Line is the [[#2D Partial Derivative of $f$ with Respect to $x$|Derivative]] of $h(b)$ at a given point, $(a, b, f(a, b))$.
+	The **Slope** of this [[Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives#The Tangent Line|Tangent Line]] is the [[#2D Partial Derivative of $f$ with Respect to $x$|Derivative]] of $h(b)$ at a given point, $(a, b, f(a, b))$.
 		Remember, it is the Derivative of $h(b)$ because the variable $a$ is held constant.
 			Thus, it is the **Partial Derivative** of the function $f(a, b)$ with respect to $b$, making $a$ a constant.  
 ### Direction Vector in the Plane $x = a$ 
@@ -236,13 +236,15 @@ A plane through the point $(a,b, f(a,b))$.
 		Thus the line with the slope of $g'(a)$.
 	Which also contains the [[#Tangent Line of $h(y)$|tangent line]] to $z = f(a, y) = h(y)$ in the plane $x = a$, through the point  $(a,b, f(a,b))$.
 		Thus the line with the slope of $h'(b)$.
-### Need a Normal Vector (to a 3D Surface) First
+### Need to Compute a Normal Vector (to a 3D Surface) First
 ![[Pasted image 20240728064143.png|400]]
 #### Normal Vector to a 3D Surface
 The Normal Vector must be orthogonal to the Tangent Plane and thus both [[#Direction Vector in the Plane $y = b$|Directional Vectors]] (Tangent Vectors).
 	A Vector that is perpendicular to two given Vectors is the Vector that is the [[Statics Analysis#Cross Product|Cross Product]] of two given Vectors.
 		Which requires knowing the **coordinates** of the two Tangent Vectors (i.e. Direction Vectors).
-##### Vector $\LARGE \vec{v}$ 
+#### Which Requires Computing the Directional Vectors (i.e. Tangent Vectors) 
+The Normal Vector requires the Directional Vectors of a point, in order to be calculated.
+##### Compute a Direction Vector, $\LARGE \vec{v}$ 
 ![[Pasted image 20240728064200.png]]
 ###### Coordinates of the $\LARGE \vec{v}$ of the Tangent Line of $g(x)$
 *See above: [[#Coordinates of the $ LARGE vec{v}$ of the Tangent Line of $g(x)$|Coordinates of the Tangent Vector of the Tangent Line of]]* $g(x)$.
@@ -253,7 +255,7 @@ It is the Direction Vector of the Tangent Line of the 1D function $\LARGE g(x)$ 
 			There will never be a change in the $y$ direction.
 				So only the $x$ and $z$ coordinates are needed.
 $$\LARGE = \vec{v} = \left[ 1, 0, g'(a) \right] = \left[ 1, 0, \frac{\partial f}{\partial x}(a,b) \right]$$
-##### Vector $\LARGE \vec{u}$
+##### Compute a Direction Vector, $\LARGE \vec{u}$
 ![[Pasted image 20240728064208.png]]
 ###### Coordinates of the $\LARGE \vec{u}$ of the Tangent Line of $h(y)$
 *See above: [[#Coordinates of the $ LARGE vec{v}$ of the Tangent Line of $h(y)$|Coordinates of the Tangent Vector of the Tangent Line of]]* $h(y)$.
@@ -264,7 +266,7 @@ It is the Direction Vector of the Tangent Line of the 1D function $\LARGE h(y)$ 
 			There will never be a change in the $x$ direction.
 				So only the $y$ and $z$ coordinates are needed.
 $$\LARGE = \vec{u} = \left[ 0, 1, h'(b) \right] = \left[ 0, 1, \frac{\partial f}{\partial y}(a,b) \right]$$
-##### Normal Vector as a [[Cross Product|Cross Product]] (Between the two Tangent Vectors of Partial Derivatives)
+##### Compute a Normal Vector as a [[Cross Product|Cross Product]] (Between the two Tangent Vectors of Partial Derivatives)
 $$\LARGE \vec{n_{\perp}} =  \vec{v} \times \vec{u}$$
 The Normal Vector to a plane is the cross product of the two directional vectors $\vec{v}$ and $\vec{u}$.
 $$\LARGE \left| \begin{matrix} \vec{i} \quad \quad \vec{j} \quad \quad \vec{k} \\ 1 \quad 0 \quad f_{x}'(a,b) \\ 0 \quad 1 \quad f'_{y}(a,b)\end{matrix} \right| =   = (-f'_{x}(a,b), -f'_{y}(a,b), 1)$$
@@ -272,7 +274,7 @@ $$\LARGE = \text{The Normal Vector } (-\frac{\partial f}{\partial x}(a,b), - \fr
 $$\LARGE \text{To point the point } (a,b, f(a,b))$$
 The Normal Vector is thus **composed of two partial derivatives** 
 ### Back to the Tangent Plane
-Once the normal vector to the [[#Cross-Section Curves|cross section curves]], the tangent plane can now be calculated via the Normal Equation.
+Once the Directional Vectors have been calculated, then the Normal Vector to the [[#Cross-Section Curves|cross section curves]], the tangent plane can now be calculated via the Normal Equation.
 ![[Pasted image 20240810055336.png]]
 #### The Normal Equation of the Plane
 The Normal Equation of the plane, $\LARGE \pi$ through $\LARGE x_0 = (x_0, y_0, z_0)$ and orthogonal to the vector $\LARGE \mathbf{n} = (a,b,c)$:
@@ -284,10 +286,29 @@ $$\LARGE \text{If and only if} $$
 $$\LARGE ax-\textcolor{red}{ax_0}+by-\textcolor{red}{by_0} +cz-\textcolor{red}{cz_0}={0}$$
 $$\LARGE \text{If and only if} $$
 $$\LARGE ax- +by  +cz + \textcolor{red}{d}= 0$$
+Because the Normal vector is normal to the whole plane, then any points along the plane are also orthogonal to the normal vector. 
 ##### Computing the Normal Equation
+*Remember to obtain the coordinates of a vector, take the difference of the terminating point and the origin.*
+	The Normal Equation states: if a point $(x,y,z)$ exists on the plane $\pi$, then the [[Dot Product|dot product]] of the normal vector with the vector containing those initial points, is equal to $0$.
 ![[Pasted image 20240810060854.png]]
 $$\LARGE (x,y,z) \Leftrightarrow (x-a,y-b,z-f(a,b)) \cdot (f'_x(a,b), f'_y(a,b), -1) = 0$$
-##### 1. Compute the Directional Vector (i.e. Tangent Vector)
+$$\LARGE  = \text{ The Dot Product, } (x-a)f'_x(a,b) + (y-b)f'_y(a,b) - z + f(a,b) = 0$$
+##### Computing the Tangent Plane
+$$\LARGE \text{Rearranging the Previous Dot Product Equation:}$$
+$$\LARGE  = (x-a)f'_x(a,b) + (y-b)f'_y(a,b) - z (+z) + f(a,b) = +z + 0$$
+###### Tangent Plane to the Surface $z=f(x,y)$ in the point $(a,b,f(a,b))$:
+$$\LARGE = z = f(a,b) + \frac{\partial f}{\partial x}(a,b) (x-a) + \frac{\partial f}{\partial y}(a,b)(y-b)$$
+*Notice the comparison* between the [[Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives#The Tangent Line|Tangent Line]] through the Point $(a,f(a))$:
+$$\LARGE y = f(a) + f'(a)(x-a)$$
+$$ \text{Where the Tangent Line Through a Point (a, f'(a)) } = y = f(a) + f'(a)(x-a)$$
+##### Computing the Normal Line Through a Point with a Directional Vector
+There are two ways to calculate a **line** through a **point**, $\LARGE (a,b,f(a,b))$ , on the plane ($\LARGE \pi$), with the directional vector (being the [[#Normal Vector as a Cross Product Cross Product (Between the two Tangent Vectors of Partial Derivatives)|normal vector]]), $\LARGE \vec{v} = (f'_x(a,b), f'_y(a,b), -1)$.
+###### [[Straight Line Through a Point#Parametric Equation|Parametric Form of a Line Through a Point with a Vector]]
+$$ \begin{Bmatrix} x = x_0 + v_1t \\ y = y_0 + v_2t \\ z = z_0 + v_3t\end{Bmatrix} =(x,y,z) = (a,b,f(a,b)) + t(f'_1(a,b), f'_2(a,b), -1), t \in \mathbb{R}$$
+###### [[Straight Line Through a Point#Standard Equation for a Line Through a Point|Standard Form of a Line Through a Point with a Vector]]
+$$\LARGE \frac{x - x_0}{v_1} = \frac{y - y_0}{v_2} = \frac{z - z_0}{v_3} = \frac{x - a}{x'_x(a,b)} = \frac{y - b}{f'_y(a,b)} = \frac{z - f(a,b)}{-1}$$
+
+
 - - -
 ## Interpreting Partial Derivatives
 Recall that the graph of a function of two variables is a surface in $\mathbf{R^3}$.
