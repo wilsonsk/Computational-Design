@@ -43,7 +43,7 @@ The equation of the tangent line through a point $(a, f(a))$ is derived from the
 	The equation $y = f(a) + f'(a)(x - a)$ is derived by finding the slope of the tangent line as the limit of the slopes of secant lines and then using the point-slope form of the equation of a line. 
 		This process ensures that the tangent line touches the curve $y = f(x)$ at exactly one point $(a, f(a))$ and has a slope equal to the derivative $f'(a)$ at that point.
 
-The **tangent line** through a point on a curve is derived using the derivative to find [[Straight Line Through a Point#The Standard Equation of a Line with Slope $m$ Passing Through a Point $(x_1, y_1)$|the slope at that point]].
+The **tangent line** through a point on a curve is derived using the derivative to find [[Straight Lines#The Standard Equation of a Line with Slope $m$ Passing Through a Point $(x_1, y_1)$|the slope at that point]].
 
 1. **Secant Line Slope**:
    The slope of the secant line between the points $(a, f(a))$ and $(x, f(x))$ on the curve $y = f(x)$ is given by:

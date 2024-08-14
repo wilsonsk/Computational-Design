@@ -14,6 +14,9 @@ $$\LARGE T(x) = k \cdot x$$
 Where $k > 1$.
 Where $x$ is any element in the space and $T(x)$ is the transformed element. 
 	The transformation $T$ increases the magnitude of $x$ by the factor $k$.
+
+### A Scaling (alone) Represents a Directly Proportional Relationship
+Where $\LARGE k$ is [[Division#Constant of Direct Proportionality is a Constant Ratio ($ LARGE k$)|the Constant of Proportionality]].
 ### Explanation
 - **Transformation $T$**: This is a function that maps values in a space to other values in the same space.
 - **Constant $k$**: This is the scaling factor, which must be greater than 1. The value of $k$ determines the degree of enlargement.

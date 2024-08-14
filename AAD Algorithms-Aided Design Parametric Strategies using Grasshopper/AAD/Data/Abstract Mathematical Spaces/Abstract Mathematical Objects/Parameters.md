@@ -15,6 +15,8 @@ related:
 date created: 2024-03-20
 ---
 # Parameters
+A [[Scalars|Scalar]] value.
+
 The **measurable** or **quantifiable** aspects of an [[Abstract Mathematical Objects|abstract mathematical object]] or physical object.
 ###### Attributes of Geometric Objects:
 - Representing properties such as length of an edge, radius of a circle, the angle between two lines, a position or point in a given space, etc.
