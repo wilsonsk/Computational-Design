@@ -1,4 +1,5 @@
 # Straight Lines
+The functions that produce lines, are themselves solution sets, and each solution of the set is contained within the produced line.
 ## Straight Lines in the Plane (I.e. Straight Lines in $\mathbb{R}^2$) 
 Lines in $\mathbb{R}^2$ (i.e. lines that exist in the plane) can be represented in 4 ways.
 ### 1. Standard Form of a Line
@@ -35,8 +36,10 @@ $$\LARGE y - y_1 = m(x - x_1)$$
 ### 2. Normal Equation of a Line
 ![[Pasted image 20240814060636.png]]
 Is an equation for a line $\LARGE l$ through $\LARGE \mathbf{x_0} = (x_0, y_0)$ and orthogonal to the vector $\LARGE \vec{n} = (A,B)$.
-$$\LARGE Ax + By + Cz + D = 0$$
+$$\LARGE Ax + By + C = 0$$
 Where $\LARGE C = -Ax_0 - By_0$
+
+This equation represents the linear combination of the normal vector scaled by the coordinates of the terminating point $\LARGE x=(x,y,z)$, where $\LARGE C$ is some constant that allows the equation to equal $0$. 
 ### 3. Intercept Form of a Line
 ![[Pasted image 20240814061157.png|500]]
 $$\LARGE \frac{x}{b_1} + \frac{y}{b_2} = 1$$
