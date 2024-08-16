@@ -131,6 +131,8 @@ A component used in the **creation** of a complex surface or shape.
 
 So, while a directrix can be considered a specific type of frame used for guiding the shape of curves or surfaces, the term "frame" in algorithmic modeling encompasses a broader range of guiding geometries beyond just directrices.
 ### How to identify the Generatrix and Directrix (intuitively)
+The line segment or curve segment between an apex and a base (i.e. directrix) is the a generatrix. 
+
 Understand the Surface Type:
 - [[Gaussian Curvature#Developable Surfaces|Developable]] Surfaces
 - Ruled Surfaces

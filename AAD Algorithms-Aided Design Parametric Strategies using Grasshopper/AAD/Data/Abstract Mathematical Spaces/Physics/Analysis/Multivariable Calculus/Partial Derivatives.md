@@ -172,7 +172,7 @@ The tangent vector to the surface $z = f(x, y)$ at a point $(a, b)$ can be expre
 $$\LARGE \Delta z \approx \frac{\partial f}{\partial x}(a, b) \Delta x + \frac{\partial f}{\partial y}(a, b) \Delta y$$
   The corresponding tangent vector $\mathbf{T}(\Delta x, \Delta y)$ at the point $(a, b, f(a, b))$ is a [[Mapping#Higher-Level Functions (i.e. Composite Functions) Higher-Level Functions|Vector Function]]
 $$\LARGE \mathbf{T}(\Delta x, \Delta y) = \begin{pmatrix} \Delta x \\ \Delta y \\ \Delta z \end{pmatrix} = \begin{pmatrix} \Delta x \\ \Delta y \\ \frac{\partial f}{\partial x}(a, b) \Delta x + \frac{\partial f}{\partial y}(a, b) \Delta y \end{pmatrix}$$
-### Direction Vector in the Plane $y = b$ 
+### Direction Vector in the [[Planes|Plane]] $y = b$ 
 The **direction vector** is a specific instance of the [[#Tangent Vector Components]] when considering a particular direction in a plane (e.g., the plane $y = b$).
 	It is formally called the Direction Vector *of* the Tangent Line.
 
@@ -245,6 +245,8 @@ The Normal Vector must be orthogonal to the Tangent Plane and thus both [[#Direc
 #### Which Requires Computing the Directional Vectors (i.e. Tangent Vectors) 
 The Normal Vector requires the Directional Vectors of a point, in order to be calculated.
 ##### Compute a Direction Vector, $\LARGE \vec{v}$ 
+The Direction Vectors are the Tangent Vectors of a point - i.e. the Partial Derivative of a point.
+
 ![[Pasted image 20240728064200.png]]
 ###### Coordinates of the $\LARGE \vec{v}$ of the Tangent Line of $g(x)$
 *See above: [[#Coordinates of the $ LARGE vec{v}$ of the Tangent Line of $g(x)$|Coordinates of the Tangent Vector of the Tangent Line of]]* $g(x)$.
@@ -256,6 +258,8 @@ It is the Direction Vector of the Tangent Line of the 1D function $\LARGE g(x)$ 
 				So only the $x$ and $z$ coordinates are needed.
 $$\LARGE = \vec{v} = \left[ 1, 0, g'(a) \right] = \left[ 1, 0, \frac{\partial f}{\partial x}(a,b) \right]$$
 ##### Compute a Direction Vector, $\LARGE \vec{u}$
+The Direction Vectors are the Tangent Vectors of a point - i.e. the Partial Derivative of a point.
+
 ![[Pasted image 20240728064208.png]]
 ###### Coordinates of the $\LARGE \vec{u}$ of the Tangent Line of $h(y)$
 *See above: [[#Coordinates of the $ LARGE vec{v}$ of the Tangent Line of $h(y)$|Coordinates of the Tangent Vector of the Tangent Line of]]* $h(y)$.
@@ -276,25 +280,30 @@ The Normal Vector is thus **composed of two partial derivatives**
 ### Back to the Tangent Plane
 Once the Directional Vectors have been calculated, then the Normal Vector to the [[#Cross-Section Curves|cross section curves]], the tangent plane can now be calculated via the Normal Equation.
 ![[Pasted image 20240810055336.png]]
-#### The Normal Equation of the Plane
+#### [[Planes#Normal Equation of a Plane|The Normal Equation of the Plane]]
 The Normal Equation of the plane, $\LARGE \pi$ through $\LARGE x_0 = (x_0, y_0, z_0)$ and orthogonal to the vector $\LARGE \mathbf{n} = (a,b,c)$:
 ##### The Equation of a Plane
-$\LARGE a, b,c, d$ are all constants.
+$\LARGE \textcolor{green}{a, b,c}$ are all constants.
 	These constants are the values of the calculated **partial derivatives** of a given point.
+		I.e. Coordinates of the Normal Vector $\LARGE \vec{n} = (a,b,c)$.
+			And the Normal Vector is just a vector that is orthogonal to both Direction Vectors of a Point.
+				And the Direction Vectors are the Tangent Vectors of a point - i.e. the Partial Derivative of a point.
 
-$\LARGE x,y,z$ are all variables, i.e. the position values of the point. 
-$$\LARGE ax + by + cz + d = 0$$
-$$\LARGE \text{Where } d = -ax_0 - by_0 - cz_0$$
+$\LARGE \textcolor{red}{x,y,z}$ are all variable scalars.
+	I.e. the position values of the point. 
+$$\LARGE \textcolor{green}{a}\textcolor{red}{x} + \textcolor{green}{b}\textcolor{red}{y} + \textcolor{green}{c}\textcolor{red}{z} + \textcolor{yellow}{d} = 0$$
+$$\LARGE \text{Where } \textcolor{yellow}{d = -ax_0 - by_0 - cz_0}$$
 ***If*** a point $\LARGE x = (x,y,z)$ belongs to $\LARGE \pi$, ***then*** the vectors $\LARGE \mathbf{n} = [a,b,c]$ and $\LARGE x - x_0 = [x-x_0, y-y_0, z- z_0]$ must be orthogonal, which means that their dot product must be 0:
 $$\LARGE (a,b,c) \cdot (x-x_0, y - y_0, z- z_0) = 0$$
 $$\LARGE \text{If and only if} $$
-$$\LARGE ax-\textcolor{red}{ax_0}+by-\textcolor{red}{by_0} +cz-\textcolor{red}{cz_0}={0}$$
+$$\LARGE ax-\textcolor{yellow}{ax_0}+by-\textcolor{yellow}{by_0} +cz-\textcolor{yellow}{cz_0}={0}$$
 $$\LARGE \text{If and only if} $$
-$$\LARGE ax- +by  +cz + \textcolor{red}{d}= 0$$
+$$\LARGE ax- +by  +cz + \textcolor{yellow}{d}= 0$$
 Because the Normal vector is normal to the whole plane, then any points along the plane are also orthogonal to the normal vector. 
 ##### Computing the Normal Equation
 *Remember to obtain the coordinates of a vector, take the difference of the terminating point and the origin.*
 	The Normal Equation states: if a point $(x,y,z)$ exists on the plane $\pi$, then the [[Dot Product|dot product]] of the normal vector with the vector containing those initial points, is equal to $0$.
+		Where $\LARGE \textcolor{red}{d}$ contains the remaining terms that equate the equation to the dot product between the two vectors.
 ![[Pasted image 20240810060854.png]]
 $$\LARGE (x,y,z) \Leftrightarrow (x-a,y-b,z-f(a,b)) \cdot (f'_x(a,b), f'_y(a,b), -1) = 0$$
 $$\LARGE  = \text{ The Dot Product, } (x-a)f'_x(a,b) + (y-b)f'_y(a,b) - z + f(a,b) = 0$$
@@ -312,7 +321,34 @@ There are two ways to calculate a **line** through a **point**, $\LARGE (a,b,f(a
 $$ \begin{Bmatrix} x = x_0 + v_1t \\ y = y_0 + v_2t \\ z = z_0 + v_3t\end{Bmatrix} =(x,y,z) = (a,b,f(a,b)) + t(f'_1(a,b), f'_2(a,b), -1), t \in \mathbb{R}$$
 ###### [[Straight Lines#Standard Equation for a Line Through a Point|Standard Form of a Line Through a Point with a Vector]]
 $$\LARGE \frac{x - x_0}{v_1} = \frac{y - y_0}{v_2} = \frac{z - z_0}{v_3} = \frac{x - a}{x'_x(a,b)} = \frac{y - b}{f'_y(a,b)} = \frac{z - f(a,b)}{-1}$$
-
+#### Example of Calculating the Tangent Plane and Normal Line
+$$\LARGE f(x,y) = x^2=y^2$$
+$$\LARGE \text{For a point } (a,b) = (-2,1)$$
+#### The Normal Plane Equation
+$$\LARGE \textcolor{green}{a}\textcolor{red}{x} + \textcolor{green}{b}\textcolor{red}{y} + \textcolor{green}{c}\textcolor{red}{z} + \textcolor{yellow}{d} = 0$$
+$$\LARGE = \textcolor{red}{z} = \textcolor{green}{f(a,b)} + \textcolor{green}{\frac{\partial f}{\partial x}(a,b)} (\textcolor{red}{x}-a) + \textcolor{green}{\frac{\partial f}{\partial y}(a,b)}(\textcolor{red}{y}-b)$$
+##### 1. Calculate the Constants (i.e. The Coordinates of the Normal Vector)
+Plug in the point and calculate the constants. 
+###### The Output of the Function $f(x,y)$ For the Point $(a,b)$
+$$\LARGE \textcolor{green}{f(a,b)} = f(-2,1) = (-2)^2 - 1^2 = 3$$
+###### The Partial Derivative of the Function $f(x,y) =x^2 + y^2$
+$$\LARGE \frac{\partial f}{\partial x}f(x,y) = 2x$$
+$$\LARGE \frac{\partial f}{\partial y}f(x,y) = -2y$$
+###### The Partial Derivative of the Function $f(x,y)$ For the Point $(a,b)$
+This yields the Coordinates of the Normal Vector $\vec{n} = (a,b,c)$. 
+$$\LARGE \textcolor{green}{\frac{\partial f}{\partial x}(a,b)} = 2x = 2 \cdot (-2) = \textcolor{green}{-4}, \text{where x = a = -2}$$
+$$\LARGE \textcolor{green}{\frac{\partial f}{\partial y}(a,b)} = -2y = -2 \cdot 1 = \textcolor{green}{-2}, \text{where y = b = 1}$$
+$$\LARGE \vec{n} = (-4, -2, 1), \text{where 1 is the normalized unit}$$
+##### 2. Plug in the Constants and Calculate the Normal Plane Equation for the Point $(a,b) = (-2,1)$
+$$\LARGE \textcolor{red}{z} = \textcolor{green}{3} + \textcolor{green}{-4}(\textcolor{red}{x}-(-4)) + \textcolor{green}{-2}(\textcolor{red}{y}-1)$$
+$$\LARGE = \textcolor{green}{4}\textcolor{red}{x} + \textcolor{green}{2}\textcolor{red}{y} + \textcolor{red}{z} + \textcolor{yellow}{3} = 0$$
+##### 3. Calculate the Line Through the Point $(a,b)$ (i.e. the Normal Line)
+$$\LARGE \frac{x - x_0}{v_1} = \frac{y - y_0}{v_2} = \frac{z - z_0}{v_3}$$
+$$\LARGE  = \frac{x - a}{x'_x(a,b)} = \frac{y - b}{f'_y(a,b)} = \frac{z - f(a,b)}{-1}$$
+$$\LARGE  = \frac{\textcolor{red}{x} - (-2)}{\textcolor{green}{-4}} = \frac{\textcolor{red}{y} - 1}{\textcolor{green}{-2}} = \frac{\textcolor{red}{z} - 3}{\textcolor{green}{-1}}$$
+##### 4. Calculate the [[Straight Lines#Point Vector Form "Coordinate-Wise"|Point Vector (i.e. Parametric) Equation Coordinate Wise ]]of the Tangent Line
+$$\LARGE (x,y,z) = (x_0,y_0,z_0) + t(v_1,v_2,v_3), \quad t \in \mathbb{R}$$
+$$\LARGE (x,y,z) = (-2,1,3) + t(4,2,1), \quad t \in \mathbb{R}$$
 
 - - -
 ## Interpreting Partial Derivatives

@@ -37,9 +37,19 @@ $$\LARGE y - y_1 = m(x - x_1)$$
 ![[Pasted image 20240814060636.png]]
 Is an equation for a line $\LARGE l$ through $\LARGE \mathbf{x_0} = (x_0, y_0)$ and orthogonal to the vector $\LARGE \vec{n} = (A,B)$.
 $$\LARGE Ax + By + C = 0$$
-Where $\LARGE C = -Ax_0 - By_0$
+Where $\LARGE \textcolor{red}{C = -Ax_0 - By_0}$
 
 This equation represents the linear combination of the normal vector scaled by the coordinates of the terminating point $\LARGE x=(x,y,z)$, where $\LARGE C$ is some constant that allows the equation to equal $0$. 
+	$\LARGE Ax+By+C=0$ is the [[Dot Product|dot product]] of $(A,B)$ and $(x-x_0, y-y_0)$.
+#### The Reasoning of the Normal Equation
+If a point $\LARGE x_0=(x_0,y_0)$ belongs to the plane $\LARGE \pi$ then the vectors $\LARGE \vec{n}=(a,b)$ and $\LARGE \mathbf{x}-\mathbf{x_0} = (x-x_0, y-y_0)$ must be orthogonal.
+	This means the [[Dot Product|dot product]] between the two vectors must be produce $\LARGE 0$.
+		Where $\LARGE \textcolor{red}{c}$ contains the remaining terms that equate the equation to the dot product between the two vectors.
+$$\LARGE (a,b) \cdot (x-x_0, y-y_0) = 0$$
+$$\LARGE  \iff$$
+$$\LARGE  ax\textcolor{red}{-ax_0} + by\textcolor{red}{-by_0} = 0$$
+$$\LARGE  \iff$$
+$$\LARGE ax+by+\textcolor{red}{c}= 0$$
 ### 3. Intercept Form of a Line
 ![[Pasted image 20240814061157.png|500]]
 $$\LARGE \frac{x}{b_1} + \frac{y}{b_2} = 1$$
@@ -69,16 +79,17 @@ $$\LARGE \mathbf{x} = x_0 + t\vec{v}, \quad t \in \mathbb{R}$$
 This form describes the same Point Vector Form equation, but substitutes the coordinates of a point and vector with the corresponding variables.
 $$\LARGE (x,y,z) = (x_0,y_0,z_0) + t(v_1,v_2,v_3), \quad t \in \mathbb{R}$$
 ##### Coordinate-Wise in Three Rows
-One **row** for each coordinate. 
-$$\LARGE t:\begin{Bmatrix} x = x_0 + v_1t \\ y = y_0 + v_2t \\ z = z_0 + v_3t\end{Bmatrix}, \quad t \in \mathbb{R}$$
+A Linear System of Equations that gives the coordinates of any point on the line, $\LARGE l$.
+	One **row** for each coordinate. 
+$$\LARGE l:\begin{Bmatrix} x = x_0 + v_1t \\ y = y_0 + v_2t \\ z = z_0 + v_3t\end{Bmatrix}, \quad t \in \mathbb{R}$$
 ### Standard Equation for a Line Through a Point
 A Parameter-free (i.e. Non Parametric) equation, and instead is an equality of (i.e. [[Division#Proportionality|Proportion]]) of some quotients.
 	But is **derived** from the [[#Point Vector Form "Coordinate-Wise"|Point Vector Form]] (i.e. the Parametric equation).
 		This is done by solving all the "rows" for parameter $\LARGE t$ of the Point Vector Form equation.
 
-Describes a line through the point $\LARGE x_0 = (x_0, y_0, z_0)$ and with a [[Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Partial Derivatives#Direction Vector in the Plane $y = b$|direction vector]] $\LARGE \vec{v} = (v_1, v_2, v_3)$ with all non-zero coordinates.
+Describes a line $\LARGE l$ through the point $\LARGE x_0 = (x_0, y_0, z_0)$ and with a [[Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Partial Derivatives#Direction Vector in the Plane $y = b$|direction vector]] $\LARGE \vec{v} = (v_1, v_2, v_3)$ with all non-zero coordinates.
 	Eliminate the $t$ parameter:
-$$\LARGE \begin{Bmatrix} x = x_0 + v_1t \\ y = y_0 + v_2t \\ z = z_0 + v_3t\end{Bmatrix} =  \frac{x - x_0}{v_1} = \frac{y - y_0}{v_2} = \frac{z - z_0}{v_3}$$
+$$\LARGE l: \begin{Bmatrix} x = x_0 + v_1t \\ y = y_0 + v_2t \\ z = z_0 + v_3t\end{Bmatrix} =  \frac{x - x_0}{v_1} = \frac{y - y_0}{v_2} = \frac{z - z_0}{v_3}$$
 
 If *for example* $\LARGE v_2 = 0$ (and $v_1, v_3 \neq 0$), produces the following equation:
 $$\LARGE \frac{x-x_0}{v_1} = \frac{z-z_0}{v_3}, y = y_0$$

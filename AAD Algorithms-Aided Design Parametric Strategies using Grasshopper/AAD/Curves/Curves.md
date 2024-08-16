@@ -16,7 +16,7 @@ date created: 2024-03-20
 # Curves
 Curves are exemplary parametric objects
 Understanding how they work gives insight into both the form-making possibilities of curves and into parametric modeling in general.
-## Lines and "Graphs"
+## Lines as a "Graph" of a Function
 A line is an ordered set of points in between two bounding points.
 A line expresses the [[Data Relationships#Ratios|ratio]] of directly proportional changes between two variables.
 - I.e. A "straight" line is a **linear** [[Data Relationships#Graphical Representation of Relationships|relationship]] between two variables (typically represented in a Cartesian coordinate system as $x$ and $y$).
@@ -30,7 +30,8 @@ A "graphic" representation of a line is a mark connecting two points, and defini
 
 *For example:* A [[Derivatives#^1f0a97|tangent line]]  or a **"slope"** is the **rate of change**, is a ratio, that is a linear relationship.
 	The "vertical" change between any two points along a line, divided by the corresponding horizontal change. 
-## Curves
+## Curves as a Graph of a Function
+![[Pasted image 20240816055910.png|400]]
 A line is an ordered set of points in between two bounding points.
 A curve expresses the [[Data Relationships#Ratios|ratio]] between two variables.
 - But a curve is a **non-linear** relationship between two variables.
@@ -41,6 +42,23 @@ A curve expresses the [[Data Relationships#Ratios|ratio]] between two variables.
 - **Exponential Curves**: Functions like $y=e^x$ or $y=ax$ (where $a>0$) exhibit exponential growth or decay, drastically different from linear growth.
 - **Circular and Elliptical Curves**: Described by equations involving both $x$ and $y$ terms, such as $x^2+y^2=r^2$ for a circle, representing a completely different kind of relationship involving squaring of terms.
 ![[Pasted image 20240414205435.png]]
+
+## Curves as an Intersection of Two Surfaces
+![[Pasted image 20240816055948.png]]
+![[Pasted image 20240816055956.png]]
+## Curves as the Solution Set of an Equation in Two Variables
+![[Pasted image 20240816060131.png]]
+This Circle is the Solution Set of this Equation.
+## Curves Defined Geometrically (e.g. By Distances)
+![[Pasted image 20240816060216.png]]
+## Curve as the Path of a Moving Object (e.g. a Particle, object, etc.)
+Curves as Vector Valued Functions.
+	Previous representations of the curve were only Interested in the path.
+		But this representation is also interested in the way in the movement is happening (i.e. the Analysis of the Path).
+			It is a richer way of looking at the curve.
+## Curve as the [[Transformations|Transformation]] of an [[Domain|Interval]]
+A one-dimensional object (i.e. an "endlessly thin object").
+	A [[Straight Lines|Line]] *is* a curve.
 ## Free Form Curves: 
 Facilitate the expression of polynomial curves (that is constrained, relational numbers- polynomial expressions).
 
