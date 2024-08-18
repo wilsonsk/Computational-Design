@@ -281,41 +281,43 @@ The Normal Vector is thus **composed of two partial derivatives**
 Once the Directional Vectors have been calculated, then the Normal Vector to the [[#Cross-Section Curves|cross section curves]], the tangent plane can now be calculated via the Normal Equation.
 ![[Pasted image 20240810055336.png]]
 #### [[Planes#Normal Equation of a Plane|The Normal Equation of the Plane]]
-The Normal Equation of the plane, $\LARGE \pi$ through $\LARGE x_0 = (x_0, y_0, z_0)$ and orthogonal to the vector $\LARGE \mathbf{n} = (a,b,c)$:
+The Normal Equation of the plane, $\LARGE \pi$ relates a Vector on the Plane $\LARGE \vec{x}$ (from a starting point $\LARGE x = (x, y, z)$ through $\LARGE x_0 = (x_0, y_0, z_0)$) and a Normal Vector $\LARGE \mathbf{n} = (a,b,c)$   orthogonal to the vector $\LARGE \vec{x}$ and the plane $\LARGE \pi$. 
 ##### The Equation of a Plane
 $\LARGE \textcolor{green}{a, b,c}$ are all constants.
 	These constants are the values of the calculated **partial derivatives** of a given point.
 		I.e. Coordinates of the Normal Vector $\LARGE \vec{n} = (a,b,c)$.
-			And the Normal Vector is just a vector that is orthogonal to both Direction Vectors of a Point.
+			And the Normal Vector is just a vector that is orthogonal to both Direction Vectors of a Point (produced as the cross product of those two directional vectors).
 				And the Direction Vectors are the Tangent Vectors of a point - i.e. the Partial Derivative of a point.
 
 $\LARGE \textcolor{red}{x,y,z}$ are all variable scalars.
 	I.e. the position values of the point. 
 $$\LARGE \textcolor{green}{a}\textcolor{red}{x} + \textcolor{green}{b}\textcolor{red}{y} + \textcolor{green}{c}\textcolor{red}{z} + \textcolor{yellow}{d} = 0$$
 $$\LARGE \text{Where } \textcolor{yellow}{d = -ax_0 - by_0 - cz_0}$$
-***If*** a point $\LARGE x = (x,y,z)$ belongs to $\LARGE \pi$, ***then*** the vectors $\LARGE \mathbf{n} = [a,b,c]$ and $\LARGE x - x_0 = [x-x_0, y-y_0, z- z_0]$ must be orthogonal, which means that their dot product must be 0:
-$$\LARGE (a,b,c) \cdot (x-x_0, y - y_0, z- z_0) = 0$$
+***If*** a point $\LARGE x = \textcolor{red}{(x,y,z)}$ belongs to $\LARGE \pi$, ***then*** the vectors $\LARGE \mathbf{n} = [\textcolor{green}{a,b,c}]$ and $\LARGE x - x_0 = [x-x_0, y-y_0, z- z_0]$ must be orthogonal, which means that their dot product must be 0:
+$$\LARGE (\textcolor{green}{a,b,c}) \cdot (\textcolor{red}{x}-x_0, \textcolor{red}{y} - y_0, \textcolor{red}{z}- z_0) = 0$$
 $$\LARGE \text{If and only if} $$
-$$\LARGE ax-\textcolor{yellow}{ax_0}+by-\textcolor{yellow}{by_0} +cz-\textcolor{yellow}{cz_0}={0}$$
+$$\LARGE \textcolor{green}{a}\textcolor{red}{x}-\textcolor{yellow}{ax_0}+\textcolor{green}{b}\textcolor{red}{y}-\textcolor{yellow}{by_0} +\textcolor{green}{c}\textcolor{red}{z}-\textcolor{yellow}{cz_0}={0}$$
 $$\LARGE \text{If and only if} $$
-$$\LARGE ax- +by  +cz + \textcolor{yellow}{d}= 0$$
+$$\LARGE \textcolor{green}{a}\textcolor{red}{x} +\textcolor{green}{b}\textcolor{red}{y}  +\textcolor{green}{c}\textcolor{red}{z} + \textcolor{yellow}{d}= 0$$
 Because the Normal vector is normal to the whole plane, then any points along the plane are also orthogonal to the normal vector. 
-##### Computing the Normal Equation
+##### The Tangent Plane Through a Point
 *Remember to obtain the coordinates of a vector, take the difference of the terminating point and the origin.*
 	The Normal Equation states: if a point $(x,y,z)$ exists on the plane $\pi$, then the [[Dot Product|dot product]] of the normal vector with the vector containing those initial points, is equal to $0$.
 		Where $\LARGE \textcolor{red}{d}$ contains the remaining terms that equate the equation to the dot product between the two vectors.
 ![[Pasted image 20240810060854.png]]
-$$\LARGE (x,y,z) \Leftrightarrow (x-a,y-b,z-f(a,b)) \cdot (f'_x(a,b), f'_y(a,b), -1) = 0$$
-$$\LARGE  = \text{ The Dot Product, } (x-a)f'_x(a,b) + (y-b)f'_y(a,b) - z + f(a,b) = 0$$
-##### The Equation of the Tangent Plane
+$$\LARGE (\textcolor{red}{x,y,z}) \Leftrightarrow (x-a,y-b,z-\textcolor{green}{f(a,b)}) \cdot (\textcolor{green}{f'_x(a,b), f'_y(a,b)}, -1) = 0$$
+$$\LARGE  = \text{ The Dot Product, } \textcolor{green}{f'_x(a,b)}(\textcolor{red}{x}-a) + \textcolor{green}{f'_y(a,b)}(\textcolor{red}{y}-b) - \textcolor{red}{z} + \textcolor{green}{f(a,b)} = 0$$
+Where $\textcolor{green}{\text{Green Terms}}$ are the Constants of the Normal Equation.
+Where $\textcolor{red}{\text{Red Terms}}$ are the Variable Coordinates of the Point of the Normal Equation. 
+##### The Equation of the Tangent Plane is a Rearrangement of the Normal Equation
 $$\LARGE \text{Rearranging the Previous Dot Product Equation:}$$
 $$\LARGE  = (x-a)f'_x(a,b) + (y-b)f'_y(a,b) - z \textcolor{red}{+z} + f(a,b) = \textcolor{red}{z +} 0$$
-###### Tangent Plane to the Surface $z=f(x,y)$ in the point $(a,b,f(a,b))$:
-$$\LARGE = z = f(a,b) + \frac{\partial f}{\partial x}(a,b) (x-a) + \frac{\partial f}{\partial y}(a,b)(y-b)$$
-*Notice the comparison* between the [[Data/Abstract Mathematical Spaces/Physics/Analysis/Tangent Line#The Tangent Line Through a Point (on a Curve)|Tangent Line through the Point]] $(a,f(a))$:
+#### Tangent Plane to the Surface $z=f(x,y)$ in the point $(a,b,f(a,b))$:
+$$\LARGE = \textcolor{red}{z} = \textcolor{green}{f(a,b)} + \textcolor{green}{\frac{\partial f}{\partial x}(a,b)} (\textcolor{red}{x}-a) + \textcolor{green}{\frac{\partial f}{\partial y}(a,b)}(\textcolor{red}{y}-b)$$
+*Notice the comparison* between the [[Straight Lines#The Tangent Line Through a Point (on a Curve)|Tangent Line through the Point]] $(a,f(a))$:
 $$\LARGE y = f(a) + f'(a)(x-a)$$
-$$ \text{Where the Tangent Line Through a Point (a, f'(a)) } = y = f(a) + f'(a)(x-a)$$
-##### Computing the Normal Line Through a Point with a Directional Vector
+Where the Derivative $\LARGE f'(a)$ is the Slope $\LARGE m$.
+#### Computing the Normal Line Through a Point with a Directional Vector
 There are two ways to calculate a **line** through a **point**, $\LARGE (a,b,f(a,b))$ , on the plane ($\LARGE \pi$), with the directional vector (being the [[#Normal Vector as a Cross Product Cross Product (Between the two Tangent Vectors of Partial Derivatives)|normal vector]]), $\LARGE \vec{v} = (f'_x(a,b), f'_y(a,b), -1)$.
 ###### [[Straight Lines#Parametric Equation|Parametric Form of a Line Through a Point with a Vector]]
 $$ \begin{Bmatrix} x = x_0 + v_1t \\ y = y_0 + v_2t \\ z = z_0 + v_3t\end{Bmatrix} =(x,y,z) = (a,b,f(a,b)) + t(f'_1(a,b), f'_2(a,b), -1), t \in \mathbb{R}$$

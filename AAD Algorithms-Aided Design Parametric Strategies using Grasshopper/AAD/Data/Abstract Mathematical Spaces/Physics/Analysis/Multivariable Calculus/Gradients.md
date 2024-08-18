@@ -22,6 +22,7 @@ date created: 2024-07-28
 ###### *Gradient*
 *The gradient of a scalar field extends the concept of a derivative to multiple dimensions, providing a vector that points in the direction of the steepest increase of the scalar field.*
 ##### *Note: Nabla Operator ($\nabla$)*
+*Etymology: The Harp in Greek*
 *The Nabla operator is a vector differential operator that, when applied to a scalar or vector field, produces different types of derivatives.* 
 	*Its a vector whose components are partial derivatives with respect to the spatial coordinates.* 
 		*In three dimensions, the Nabla operator is defined as:*
@@ -37,14 +38,41 @@ date created: 2024-07-28
 
 - - -
 ## Gradient Defined
-An **increase** or **decrease** in the **magnitude** of a **property**, relative to some variable (time, position, etc.).
+The Gradient is the several-variable counterpart of the first derivative.
+	An **increase** or **decrease** in the **magnitude** of a **property**, relative to some variable (time, position, etc.).
+
+Let $\LARGE f: \mathbb{R}^n \to \mathbb{R}$  be a partially differentiable function of $\LARGE n$ variables.
+	Then the gradient of $\LARGE f$ in the point $\LARGE \vec{x}$ is the following vector: 
+$$\LARGE grad \space f(\vec{x}) = \nabla f(\vec{x}) = (\frac{\partial f}{d x_{1}}(\vec{x}),\frac{\partial f}{d x_{2}}(\vec{x}), \ldots \frac{\partial f}{d x_{n}}(\vec{x})​)$$
+		Where the Gradient is a [[Abstract Mathematical Spaces#Vector Fields|Vector Field]] (a function from $\LARGE \mathbb{R}^n \to \mathbb{R}^n$).
+			Where $\LARGE \vec{x}$ is a **Spatial Point** from $\LARGE \mathbb{R}^n$ with its coordinates contained in a vector form. 
+				That is, a function with a domain of scalar "spatial" values that maps each spatial scalar to a vector in the codomain.
 
 *Note: a Derivative (and Partial Derivative) **is** a vector.*
 	*That vector being the [[Derivatives#4. Is the Unit Tangent Vector|Unit Tangent Vector]] to a given point.*
-		Therefore the Vector of the Partial Derivatives is a Unit Tangent Vector describing the direction of the function in a single dimension.
-			But the **Gradient vector** describes the direction and rate of the steepest increase in a multi-dimensional space.
+		That is, the vector contains the coordinates of a slope of a line that is tangent to the point. 
+			Therefore the [[Partial Derivatives#Compute a Direction Vector, $ LARGE vec{v}$|Vector of the Partial Derivatives is a Unit Tangent Vector]] describing the direction of the function in a single dimension.
+				But the **Gradient vector** describes the direction and rate of the steepest increase in a multi-dimensional space.
+## The Gradient as the Slope $\LARGE m$
+The Gradient is the **Slope** of the [[Planes#Tangent Plane to the Surface $z=f(x,y)$ in the point $(a,b,f(a,b))$|Tangent Plane Equation]].
 
-The gradient of a scalar field is a vector field that points in the direction of the greatest rate of increase of the scalar field and whose magnitude is the rate of increase in that direction.
+The $1\times 2$ Vector that is composed of the Partial Derivatives for a given point, is itself the [[Gradients|Gradient]] of the function $\LARGE f$ at point $(a,b)$, $\LARGE  \nabla f(a,b) = \begin{bmatrix}(\frac{\partial f}{d x}(a,b),\frac{\partial f}{d y}(a,b)\end{bmatrix}$. 
+	I.e. The scalars produced from the evaluated Partial Derivatives, are coordinates of the Gradient at point $(a,b)$. 
+
+And the Increments $(x-a)$ and (y-b), in the $\LARGE x$ and $\LARGE y$ direction, can also be coordinates in some separate column vector (i.e. a $2 \times 1$ vector), $\LARGE \begin{bmatrix} x-a \\ y-b \end{bmatrix}$. 
+	Therefore, the Tangent Plane Equation can be reconfigured.
+$$\LARGE \text{Tangent Plane } z = f(a,b) + [f'_x(a,b),f'_y(a,b)] \cdot \begin{bmatrix} x-a \\ y-b \end{bmatrix}$$
+$$\LARGE == z = f(a,b) + \nabla f(a,b) \cdot \begin{bmatrix} x-a \\ y-b\end{bmatrix}$$
+$$\text{Compared to Standard Form of a Line } y = mx +b$$
+		Where the two vectors are then arranged to produce the [[Dot Product|Dot Product]] between them. 
+			And the result is the that the **Gradient** itself becomes the representation of the slope $\LARGE m$, and  the new $2 \times 1$ vector is the **increment**.  
+## Gradient at Each Point is Perpendicular to the Tangent Vector on [[#Level Curves|Level Curve]] at this Point
+![[Pasted image 20240816222319.png]]
+
+![[Pasted image 20240816130841.png]]
+*Each vector shows the value of the gradient at a given point for a given function.*
+
+The gradient of a scalar field is a [[Mapping#Higher-Level Functions (i.e. Composite Functions) Higher-Level Functions|vector field]] that points in the direction of the greatest rate of increase of the scalar field and whose magnitude is the rate of increase in that direction.
 	==**The gradient $\nabla f$ is a vector field that points radially outward from the origin and whose magnitude increases with distance from the origin.==**
 		The phrase "the gradient of a scalar field" specifically refers to the vector field that is derived from a scalar field by taking its partial derivatives. 
 			This gradient vector field indicates the direction and rate of the greatest increase of the scalar field at each point in space.
@@ -104,6 +132,18 @@ T = a T_x + b T_y = a \left( 1, 0, \frac{\partial f}{\partial x} \right) + b \le
 $$
 
 #### Level Curves
+The curves along which the function achieves the same value.
+$$\LARGE \text{Where } \textcolor{red}{z} = f(x,y) = \text{ constant } c$$
+	I.e. A Level Curve of $\LARGE f$ on level $\LARGE c$.
+$$\LARGE \text{Let } f: D \to \mathbb{R} \text{ where } D \subset \mathbb{R}^2 \text{ and } c \in \mathbb{R}$$
+$$\LARGE \textcolor{lightblue}{L_c = \begin{Bmatrix} (x,y) \in D : f(x,y) = c \end{Bmatrix}}$$
+What this implies is that the velocity of a position is constant, that is, it has no change in value and thus no acceleration. 
+![[Pasted image 20240816223947.png]]
+![[Pasted image 20240816221307.png]]
+![[Pasted image 20240816221430.png]]
+![[Pasted image 20240816221459.png]]
+![[Pasted image 20240816222319.png]]
+![[Pasted image 20240816222501.png]]
 Level curves (or contour lines) are curves along which the function f(x,y)f(x, y)f(x,y) takes on a constant value, i.e., f(x,y)=cf(x, y) = cf(x,y)=c.
 	They are found by slicing the surface with horizontal planes z=cz = cz=c.
 ##### Relationships Between Gradient, Tangent Plane, and Level Curves

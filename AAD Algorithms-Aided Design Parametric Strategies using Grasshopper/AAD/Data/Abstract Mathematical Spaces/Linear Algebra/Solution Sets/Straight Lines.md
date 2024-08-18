@@ -97,3 +97,60 @@ Here, the $y$-coordinate is **constant** for all the points on the line, which m
 	But this form with a zero coordinate doesn't "look" right because it has a $\LARGE \frac{y-y_0}{0}$ a division by $0$.
 		In which case using the Point Vector Form is optimal. 
 
+- - -
+## The Tangent Line Through a Point (on a Curve)
+The equation of the tangent line through a point $(a, f(a))$ is derived from the limit of the slope of the secant line as it approaches the point $(a, f(a))$. 
+	The equation $y = f(a) + f'(a)(x - a)$ is derived by finding the slope of the tangent line as the limit of the slopes of secant lines and then using the point-slope form of the equation of a line. 
+		This process ensures that the tangent line touches the curve $y = f(x)$ at exactly one point $(a, f(a))$ and has a slope equal to the derivative $f'(a)$ at that point.
+
+The **tangent line** through a point on a curve is derived using the derivative to find [[Straight Lines#The Standard Equation of a Line with Slope $m$ Passing Through a Point $(x_1, y_1)$|the slope at that point]].
+
+1. **Secant Line Slope**:
+   The slope of the secant line between the points $(a, f(a))$ and $(x, f(x))$ on the curve $y = f(x)$ is given by:
+   $$\LARGE
+   m_{\text{sec}} = \frac{f(x) - f(a)}{x - a}
+   $$
+
+2. **Tangent Line Slope**:
+   The slope of the tangent line at the point $(a, f(a))$ is the limit of the secant slope as $x$ approaches $a$:
+   $$\LARGE
+   m_{\text{tan}} = \lim_{x \to a} \frac{f(x) - f(a)}{x - a}
+   $$
+
+   This limit, if it exists, is the derivative of $f(x)$ at $x = a$, which we denote as $f'(a)$:
+   $$\LARGE
+   m_{\text{tan}} = f'(a)
+   $$
+
+3. **Equation of the Tangent Line**:
+   The equation of a line with slope $m$ passing through a point $(x_1, y_1)$ is:
+   $$\LARGE
+   y - y_1 = m(x - x_1)
+   $$
+
+   In our case, the slope $m$ is $f'(a)$ and the point $(x_1, y_1)$ is $(a, f(a))$. 
+	   Plugging in these values:
+   $$\LARGE
+   y - f(a) = f'(a)(x - a)
+   $$
+
+4. **Rearranging to the Standard Form**:
+   We can rearrange this equation to the more familiar form of the tangent line:
+
+   $$\LARGE
+   y = f(a) + f'(a)(x - a)
+   $$
+### The Relationship Between the Tangent Line (Through a Point) and [[#1. Standard Form of a Line|The Standard Form of a Line]]
+##### The Tangent Line Through a Point
+$$\LARGE y = f(a) + f'(a)(x - a)$$
+##### The Standard Form of a Line
+$$\LARGE y = mx + b$$
+#### The Derivative as the [[Derivatives#Is the Tangent Line The Slope of a Tangent Line Slope (i.e. a proportion/rate/ratio between $ Delta y / Delta x$) of the Tangent Line Tangent Line|Slope]] of a Tangent Line
+The [[Derivatives|derivative]] of that single point along the curve of a function is the slope of the tangent line through a point.
+$$\LARGE m_{tan} = f'(a) = \frac{\Delta y}{\Delta x} = \lim_{x \to a} \frac{f(x) - f(a)}{x - a}$$ - - -
+### Computing the Normal Line Through a Point with a Directional Vector
+There are two ways to calculate a **line** through a **point**, $\LARGE (a,b,f(a,b))$ , on the [[Planes|plane]] ($\LARGE \pi$), with the directional vector (being the [[#Normal Vector as a Cross Product Cross Product (Between the two Tangent Vectors of Partial Derivatives)|normal vector]]), $\LARGE \vec{v} = (f'_x(a,b), f'_y(a,b), -1)$.
+##### [[Straight Lines#Parametric Equation|Parametric Form of a Line Through a Point with a Vector]]
+$$ \begin{Bmatrix} x = x_0 + v_1t \\ y = y_0 + v_2t \\ z = z_0 + v_3t\end{Bmatrix} =(x,y,z) = (a,b,f(a,b)) + t(f'_1(a,b), f'_2(a,b), -1), t \in \mathbb{R}$$
+##### [[Straight Lines#Standard Equation for a Line Through a Point|Standard Form of a Line Through a Point with a Vector]]
+$$\LARGE \frac{x - x_0}{v_1} = \frac{y - y_0}{v_2} = \frac{z - z_0}{v_3} = \frac{x - a}{x'_x(a,b)} = \frac{y - b}{f'_y(a,b)} = \frac{z - f(a,b)}{-1}$$

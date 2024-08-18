@@ -1,4 +1,6 @@
 # Curve Theory
+At the most fundamental, a curve is a set from a Domain, that is mapped to a set in a Codomain. 
+	I.e. A curve at the most fundamental is a function. 
 
 ## Curves as a Graph of a Function
 ![[Pasted image 20240816055910.png|400]]

@@ -32,7 +32,31 @@
             }
           },
           {
-            "id": "3de96b08661913df",
+            "id": "d16b3e3ee67218c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Chain Rule.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "11889233f71cda22",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Planes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "38ec529a96a7ba1b",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -156,18 +180,6 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "7c78d35f5c5d718b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Straight Lines.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
         "currentTab": 2
@@ -237,7 +249,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Partial Derivatives.md",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Chain Rule.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -254,7 +266,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Partial Derivatives.md",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Chain Rule.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -277,7 +289,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Partial Derivatives.md"
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Chain Rule.md"
               }
             }
           },
@@ -311,46 +323,46 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "3de96b08661913df",
+  "active": "d16b3e3ee67218c5",
   "lastOpenFiles": [
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Straight Lines.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Partial Derivatives.md",
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Planes.md",
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Mapping.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Chain Rule.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Directional Derivatives.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Division.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Straight Lines.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Gradients.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Planes.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Partial Derivatives.md",
+    "Pasted image 20240818132752.png",
+    "Pasted image 20240818132748.png",
+    "Pasted image 20240818120303.png",
+    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Static Equilibrium.md",
+    "Pasted image 20240818115309.png",
+    "Pasted image 20240816223947.png",
+    "Pasted image 20240816222501.png",
+    "Pasted image 20240816222424.png",
+    "Pasted image 20240816222319.png",
+    "Pasted image 20240816221459.png",
+    "Pasted image 20240816221430.png",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Curves Theory.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Tangent Line.md",
     "Curves/Curves.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Untitled",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Domain.md",
-    "Pasted image 20240816060216.png",
-    "Pasted image 20240816060131.png",
-    "Pasted image 20240816055956.png",
-    "Pasted image 20240816055954.png",
-    "Pasted image 20240816055948.png",
-    "Pasted image 20240816055910.png",
     "Curves/Discontinuities.md",
     "Surfaces/Notion of Surface Curvature.md",
-    "Pasted image 20240815060854.png",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Cross Product.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Functions as Solution Sets.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets",
-    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Static Equilibrium.md",
-    "Pasted image 20240814062213.png",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Scaling.md",
-    "Pasted image 20240814061157.png",
-    "images/Pasted image 20240814060804.png",
     "Untitled.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Parameters.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Scalars.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Tangent Line.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Lines.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Linearity/Standard Form of a Line.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Slope.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Types of Forces/Potentials.md",
-    "Data/Abstract Mathematical Spaces/Physics/Morphogenesis/Morphogenetic Fields.md",
-    "Data/ABSTRA~1/Physics/Analysis/Derivatives.md",
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Dot Product.md",
-    "Data/ABSTRA~1/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Statics Analysis.md",
     "Data/ABSTRA~1/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Types of Forces",
     "Data/ABSTRA~1/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Newton's Laws of Motion",
     "Data/ABSTRA~1/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis",

@@ -238,6 +238,8 @@ Operations can be categorized based on the number of operands and the nature of 
 ## A Composite Function as a Subset of Functions
 A composite function is formed by applying one function to the result of another function. 
 	This process creates a new function that combines the behaviors and properties of the original functions.
+$$\LARGE f \circ g \circ h: \mathbb{R} \xrightarrow{h}\mathbb{R} \xrightarrow{g}  \mathbb{R} \xrightarrow{f} \mathbb{R}$$
+$$\LARGE \frac{d}{dx}f(g(h(x))) = \frac{d}{dh(x)}f(g(h(x))) \cdot \frac{d}{dh(x)}g(h(x)) \cdot \frac{d}{dx}h(x)$$
 ###### Composition
 The term "composite function" implies that the higher-level function is built from simpler (scalar) functions. 
 	A composite function is one that is formed by combining two or more functions. 
@@ -348,7 +350,7 @@ When a higher-level function is defined, the computation of its output involves 
 			They provide the basis for defining and working with more complex functions.
 > [!note] Base-Level Functions
 > ##### [[Abstract Mathematical Spaces#Scalar Functions|Scalar Functions]]
-> **Field Dependency:** Scalar functions exist within the context of fields, such as the real number field $\mathbb{R}$.
+> **Field Dependency:** Scalar functions exist within the context of fields, such as the [[Abstract Mathematical Spaces#The Foundation The Generation of the Real Number Field|real number field]] $\mathbb{R}$.
 > **Output Type:** The output of scalar functions is defined by the field they belong to. For example, a scalar function $f: \mathbb{R} \to \mathbb{R}$ produces real number outputs.
 > $f(x) = y$ where $y$ is a Single Scalar Value.
 > **Fundamental:** Scalar functions represent the most fundamental level, dealing with outputs in their respective fields.
