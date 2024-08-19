@@ -527,9 +527,10 @@ If $f(x) = \frac{g(x)}{h(x)}$, where $g(x)$ and $h(x)$ are differentiable functi
 
 
 - - -
-### [[Chain Rule|Chain Rule]]
+### [[Chain Rule|Chain Rule of Single Variable Functions]]
 The chain rule is a formula for computing the derivative of the composition (i.e. composite functions) of two or more functions.
-	If you have a function $f(x)$ that is composed of two functions $g$ and $h$, such that:
+	The Derivatives of each higher-level and lower-level are themselves scalars, and are then multiplied together.
+		If you have a function $f(x)$ that is composed of two functions $g$ and $h$, such that:
 	$$\LARGE f(x) = g(h(x))$$
 Then the Chain Rule helps you find the derivative of $f(x)$ with respect to $x$. 
 
@@ -577,7 +578,9 @@ $$\LARGE \frac{df(g(x))}{dx} = (2(\sin(x))+3) \cdot \cos(x)$$
 ###### 4. The Derivative
 $$\LARGE \boxed{\frac{df}{dx} = (2\sin(x) + 3) \cdot \cos(x)}$$
 
-
+- - -
+## [[Chain Rule#Most General Variant (of the Chain Rule)|Chain Rule of Multi-Variable Functions]]
+The Derivatives themselves are now [[Jacobian Matrix|Jacobian Matrices]]
 - - -
 ## Example: Using the Rules of Differentiation to find the  Derivative
 

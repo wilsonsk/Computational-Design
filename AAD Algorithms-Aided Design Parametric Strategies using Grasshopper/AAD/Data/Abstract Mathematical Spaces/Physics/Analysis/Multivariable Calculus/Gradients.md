@@ -53,6 +53,8 @@ $$\LARGE grad \space f(\vec{x}) = \nabla f(\vec{x}) = (\frac{\partial f}{d x_{1}
 		That is, the vector contains the coordinates of a slope of a line that is tangent to the point. 
 			Therefore the [[Partial Derivatives#Compute a Direction Vector, $ LARGE vec{v}$|Vector of the Partial Derivatives is a Unit Tangent Vector]] describing the direction of the function in a single dimension.
 				But the **Gradient vector** describes the direction and rate of the steepest increase in a multi-dimensional space.
+
+A Gradient is a special case of the [[Jacobian Matrix|Jacobian Matrix]].
 ## The Gradient as the Slope $\LARGE m$
 The Gradient is the **Slope** of the [[Planes#Tangent Plane to the Surface $z=f(x,y)$ in the point $(a,b,f(a,b))$|Tangent Plane Equation]].
 
