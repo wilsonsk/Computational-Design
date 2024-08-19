@@ -526,17 +526,38 @@ When a higher-level function is defined, the computation of its output involves 
 Transformations are specific types of composite functions that map elements from one space (domain) to another space (codomain), extending the domain and potentially altering the codomain.
 	They build upon the principles of composite functions, utilizing inheritance and extension to enhance functionality and applicability.
 		The spaces can be of different dimensions or the same dimension.
+### Transformation Notation/Forms
+##### General Vector-Valued Function Notation
+Describes transformations (linear or nonlinear) between vector spaces.
+
+A vector-valued function $\vec{f}: \mathbb{R}^n \to \mathbb{R}^m$ can be written as a collection of **component functions** $f_1, f_2, \dots, f_m$, each mapping from $\mathbb{R}^n \to \mathbb{R}$.
+	This form can be used to describe both Linear and Non-Linear Transformations depending on the nature of the component functions $f_1, f_2, \dots, f_m$.
 $$\LARGE \vec{y} = \vec{f}(\vec{x}) : \mathbb{R}^n \to \mathbb{R}^m$$
 $$\text{Alternative Notation:  } \space \mathbf{y} = \mathbf{f}(\mathbf{x})$$
-This is a [[Mapping#An Example of a Vector Function that is composed of Scalar Functions (Linear)|Vector-Valued Function]] composed of the [[Mapping#Fundamental Functions (i.e. Base-Level Functions) Lower-Level Functions|component functions]], $\LARGE f_1, \dots f_m, \space \mathbb{R}^n \to \mathbb{R}$ i.e.
-$$\LARGE \begin{Bmatrix} y_1 = f_1(x_1, \dots, x_n) \\ y_2 = f_2(x_1, \dots, x_n) \\ \vdots  \\ y_m = f_m(x_1, \dots, x_n)\end{Bmatrix}$$
-##### Function vs. Composite Function vs. Transformation  
+This is a [[Mapping#An Example of a Vector Function that is composed of Scalar Functions (Linear)|Vector-Valued Function]] composed of the [[Mapping#Fundamental Functions (i.e. Base-Level Functions) Lower-Level Functions|component Linear functions]], $\LARGE f_1, \dots f_m, \space \mathbb{R}^n \to \mathbb{R}$ i.e.
+$$\LARGE \text{General Form of Vector-Valued Function} \space \begin{Bmatrix} y_1 = f_1(x_1, \dots, x_n) \\ y_2 = f_2(x_1, \dots, x_n) \\ \vdots  \\ y_m = f_m(x_1, \dots, x_n)\end{Bmatrix}$$
+To represent a transformation as a matrix, it must be a **linear transformation**. 
+	Linear transformations are those that can be expressed as linear combinations of the input variables, without involving any nonlinear operations (like multiplication of variables, exponentiation, logarithms, etc.).
+##### Linear Transformation Form
+A transformation that can be represented by a constant matrix.
+
+A linear transformation $T: \mathbb{R}^n \to \mathbb{R}^m$ satisfies the properties of additivity and homogeneity.
+	Linear transformations can always be represented by a matrix $A$ such that: $T(\mathbf{x}) = A\mathbf{x}$
+		Example: A linear transformation $T: \mathbb{R}^3 \to \mathbb{R}^2$ could be represented by a $2 \times 3$ matrix.
+##### Jacobian Matrix and Linearization Form
+A local linear approximation of a nonlinear transformation using the Jacobian matrix, also known as the first-order Taylor expansion.
+
+For **nonlinear transformations**, the **[[Jacobian Matrix|Jacobian matrix]]** provides a linear approximation at a specific point.
+	The **Jacobian matrix** $\mathbf{J}_{\vec{f}}(\mathbf{x})$ is constructed by taking the partial derivatives of the component functions of $\vec{f}$ with respect to the input variables.
+		The linear approximation (also called **first-order Taylor expansion**) around a point $\mathbf{x}_0$ is given by: $\LARGE \vec{f}(\mathbf{x}) \approx \vec{f}(\mathbf{x}_0) + \mathbf{J}_{\vec{f}}(\mathbf{x}_0) \cdot (\mathbf{x} - \mathbf{x}_0)$
+			This is known as **Jacobian linearization** and provides the best local linear approximation to a nonlinear transformation.
+### Function vs. Composite Function vs. Transformation  
 Where a **function** is a rule that assigns each element in one set (called the domain) to a single element in another set (called the codomain).
 $$\text{Scalar Function, with Scalar (Real Num. Domain and Codomain) } \mathbf{f}:\mathbb{R} \to \mathbb{R}$$
 $$f(x) = x^2 + 3$$
 **Composite functions** are formed by combining simpler, lower-level functions. 
-$$\text{Composite Vector Function } \mathbf{F}:\mathbb{R^2} \to \mathbb{R^2} $$
-$$\mathbf{F(x)} = \begin{pmatrix} 10 \\ x^2 + 3 \end{pmatrix}$$
+$$\LARGE \text{Composite Vector Function } \vec{F}:\mathbb{R^2} \to \mathbb{R^2} $$
+$$\LARGE \mathbf{F(x)} = \begin{pmatrix} 10 \\ x^2 + 3 \end{pmatrix} = (10, \space x^2+3)$$
 A **transformation** is a function that maps a set to itself or another set, often preserving some structure.
 	When transforming a 3D vector to a 2D vector, you need to map three coordinates $(x, y, z)$ to two coordinates $(u, v)$.
 		This is typically done using a matrix that reduces the dimensionality.
@@ -603,6 +624,8 @@ $$\LARGE \textcolor{magenta}{f_1(x,y,z) = 3x-5y+z}$$
 $$\LARGE \textcolor{red}{f_2(x,y,z) = 4x+6y+7z}$$
 $$\LARGE \textcolor{orange}{f_3(x,y,z) = 3x-z}$$
 $$\LARGE \textcolor{green}{f_4(x,y,z) = 8y-9z}$$
+$$\LARGE A = \begin{bmatrix} \textcolor{magenta}{3 \quad -5 \quad 1} \\ \textcolor{red}{4 \quad 6 \quad 7} \\ \textcolor{orange}{3 \quad 0 \quad -1} \\ \textcolor{green}{0 \quad 8 \quad -9}\end{bmatrix} =  \begin{bmatrix} \textcolor{magenta}{\frac{\partial f_1}{\partial x} \quad \frac{\partial f_1}{\partial y} \quad \frac{\partial f_1}{\partial z}} \\ \textcolor{red}{\frac{\partial f_2}{\partial x} \quad \frac{\partial f_2}{\partial y} \quad \frac{\partial f_2}{\partial z}} \\ \textcolor{orange}{\frac{\partial f_3}{\partial x} \quad \frac{\partial f_3}{\partial y} \quad \frac{\partial f_3}{\partial z}} \\ \textcolor{green}{\frac{\partial f_4}{\partial x} \quad \frac{\partial f_4}{\partial y} \quad \frac{\partial f_4}{\partial z}} \end{bmatrix} = DT_A(\vec{x}) = \mathbf{J}_{T_A}(\mathbf{x})$$
+
 
 **Example**:
 Consider a linear transformation represented by a matrix $A$. If $T(\mathbf{x}) = A\mathbf{x}$, where $\mathbf{x} \in \mathbb{R}^n$ and $A$ is an $m \times n$ matrix, the transformation extends the domain from $\mathbb{R}^n$ to the vector space $\mathbb{R}^n$ and the codomain to $\mathbb{R}^m$.
@@ -616,6 +639,10 @@ Affine transformations extend linear transformations by including a translation 
 Non-linear transformations extend functions in ways that are not confined to linear relationships.
 	These transformations can map inputs to outputs using non-linear functions, significantly broadening the range of possible applications.
 		For example, a non-linear transformation might involve applying a non-linear function like $\sin(x)$ or $e^x$ to each component of a vector, thus extending the domain and codomain into more complex non-linear spaces.
+###### Jacobian Matrix for Nonlinear Transformations
+Nonlinear transformations **cannot be represented by a constant matrix** because they do not satisfy the properties of linearity (additivity and homogeneity).
+	The **[[Jacobian Matrix|Jacobian matrix]]** is used to linearize a nonlinear transformation locally at a specific point in the domain.
+		The Jacobian matrix provides the **best linear approximation** of the nonlinear transformation near the point $\mathbf{x}$.
 ###### An Example of a Vector Function that is composed of Scalar Functions (Non-Linear)
 Where **each $f_i$ is a lower-level component function** composing the higher-level function, and subsequently each $f_i$ represents a coordinate of $\mathbb{R}^4$
 $$\LARGE \vec{f}: \mathbb{R}^3 \to \mathbb{R}^2$$
@@ -623,6 +650,8 @@ $$\LARGE \vec{f}(x,y,z) = (\textcolor{magenta}{x^2+yz}, \textcolor{red}{y^2-x \l
 $$\LARGE f_i: \mathbb{R}^3 \to \mathbb{R}$$
 $$\LARGE \textcolor{magenta}{f_1(x,y,z) = x^2+yz}$$
 $$\LARGE \textcolor{red}{f_2(x,y,z) = y^2-x \ln z}$$
+###### Jacobian Matrix
+$$\LARGE  = D\vec{f}(\vec{x}) = \mathbf{J}_{T_A}(\mathbf{x}) =\begin{bmatrix} \textcolor{magenta}{\frac{\partial f_1}{\partial x} \quad \frac{\partial f_1}{\partial y} \quad \frac{\partial f_1}{\partial z}} \\ \textcolor{red}{\frac{\partial f_2}{\partial x} \quad \frac{\partial f_2}{\partial y} \quad \frac{\partial f_2}{\partial z}} \end{bmatrix} =  \begin{bmatrix} \textcolor{magenta}{2x \quad z \quad y} \\ \textcolor{red}{-\ln z \quad 2y \quad -\frac{x}{z}} \end{bmatrix}$$
 **Example**:
 Consider a transformation $T: \mathbb{R}^n \rightarrow \mathbb{R}^m$ defined by $T(\mathbf{x}) = (\sin(x_1), \cos(x_2), \ldots, \tan(x_n))$. This transformation applies non-linear functions to each component of the input vector, extending the output space to include trigonometric values.
 

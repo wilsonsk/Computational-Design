@@ -4,7 +4,7 @@ Of Multi-Variable Functions
 $$\LARGE f \circ g \circ h: \mathbb{R} \xrightarrow{h}\mathbb{R} \xrightarrow{g}  \mathbb{R} \xrightarrow{f} \mathbb{R}$$
 $$\LARGE \frac{d}{dx}f(g(h(x))) = \frac{d}{dg(h(x))}f(g(h(x))) \cdot \frac{d}{dh(x)}g(h(x)) \cdot \frac{d}{dx}h(x)$$
 $$\LARGE ==  f'(g(h(x)) \cdot g'(h(x)) \cdot h'(x)$$
-## Chain Rule
+## [[Derivatives#Chain Rule Chain Rule of Single Variable Functions|Chain Rule of Single Variable Functions]]
 The chain rule is a formula for computing the derivative of the composition (i.e. composite functions) of two or more functions.
 	I.e. is a rule for computations of the [[Derivatives|derivatives]] of [[Mapping#A Composite Function as a Subset of Functions|composite functions]].
 		Where the $\textcolor{yellow}{\text{derivative of a composite function}}$ is the product of the derivatives of each of the subsequent component functions. 
@@ -30,7 +30,7 @@ Where each component of the vector is differentiated individually.
 ###### $\LARGE \phi$: A change of variables in $\LARGE \textcolor{pink}{\mathbb{R}^2}$ or in $\LARGE \textcolor{pink}{\mathbb{R}^3}$.
 [[Jacobian Matrix|Jacobian Matrix]]
 $$\LARGE \textcolor{pink}{\frac{\partial}{\partial x}}$$
-## Most General Variant (of the Chain Rule)
+## Most General Variant (of the Chain Rule) for Multi-Variable Functions
 Occurs when both functions are functions of several variables $\mathbb{R}^n$ and are vector-valued.
 	With help of the [[Jacobian Matrix|Jacobian Matrix]].
 		The Chain Rule for composite functions can be expressed with the help of **[[Matrix Multiplication|matrix multiplication]].**
@@ -55,10 +55,20 @@ $$\LARGE \frac{d}{dx}f(g(x)) =  f'(g(x)) \cdot g'(x)$$
 $$\LARGE \text{With the notation } u = f(v),\space v = g(x)$$
 $$\LARGE \text{We can write } \frac{du}{dx} = \frac{du}{dv} \cdot \frac{dv}{dx}, \quad u:\mathbb{R} \to \mathbb{R}$$
 ## Variant 1
-A Vector Function composed of a Scalar Function.
+For a Vector Function composed of a Scalar Function.
 $$\LARGE \vec{v} \circ s: \mathbb{R} \xrightarrow{s} \mathbb{R} \xrightarrow{\vec{v}} \mathbb{R}^n$$
 $$\LARGE \frac{d}{dt}(\vec{v}(s(t))) = s'(t) \cdot \vec{v}'(s(t))$$
 Function $t$ is a Scalar Function from R to R which takes a scalar as input and produces a scalar output value.
 	The Function $s(t)$ is a Scalar Function which takes the function $t$ as input and produces a scalar output value.
 		The function $\vec{v}(s(t))$ is a Vector Function which takes $s(t)$ as input and produces a vector output value.
 $$\LARGE \vec{v}(t) = (x_1(t), \dots, x_n(t)) \quad \Rightarrow \quad \vec{v}'(t) = (x'_1(t), \dots, x'_n(t))$$
+
+Because the component functions are Scalar Functions producing a single value, then for each of the derivatives of the composite component functions we can apply the [[Derivatives#Chain Rule Chain Rule of Single Variable Functions|single variable chain rule]].
+$$\LARGE \frac{d}{dt}(\vec{v}(s(t)) = \left(\frac{d}{dt}(x_1(s(t)),\dots, \frac{d}{dt}(x_n(s(t)))\right) = $$
+$$\LARGE = (x'_1(s(t)) \cdot s'(t), \dots, x'_n(s'(t)) \cdot s'(t))$$
+Because the same scalar is applied to each coordinate i.e. component function of a vector, then the scalar $s'(t)$ can be factored out.
+$$\LARGE =\frac{d}{dt}(\vec{v}(s(t))= s'(t)\cdot\vec{v}'(s(t))$$
+## Variant 2
+For a Scalar Function that takes a Vector as input, then that produced Scalar becomes the input for the outer function which is another Scalar Function producing a Scalar. 
+$$\LARGE z = s \circ f : \mathbb{R}^2 \xrightarrow{f} \mathbb{R} \xrightarrow{s} \mathbb{R}$$
+$$\LARGE \frac{\partial z}{\partial x} = \frac{ds}{dt} \cdot \frac{\partial f}{\partial x}, \quad \frac{\partial z}{\partial y} = \frac{ds}{dt} \cdot \frac{\partial f}{\partial y}$$
