@@ -106,10 +106,10 @@ Where $\LARGE [\alpha , \beta]$ is the interval of the domain of the parameter $
 ##### Example of Variant 3
 Determine $\LARGE \frac{d}{dt}f(\vec{v}(t))$ for $\LARGE f=(f_1,f_2f_3) = f(x,y,z) = xz + \cos y$ and $\LARGE \vec{v}(t) = (\sin t, t^2, \ln (t^2+1))$ 
 $$\LARGE \frac{d}{dt}f(\vec{v}(t)) = f'_1(\vec{v}(t))x'(t) + f'_2(\vec{v}(t)y'(t)  + f'_3(\vec{v}(t))z'(t) $$
-$$\LARGE \text{Where } f'_1(x,y,z) = z, \quad (\vec{v}(t))_z = \ln(t^2+1)$$
-$$\LARGE f'_2(x,y,z) = -\sin y, \quad (\vec{v}(t))_y = t^2$$
-$$\LARGE f'_3(x,y,z) = x, \quad (\vec{v}(t))_x = \sin t $$
+$$\LARGE \text{Where } f'_1(x,y,z) = \frac{\partial f}{\partial x}xz+\cos y  = z, \quad (\vec{v}(t))_z = \ln(t^2+1)$$
+$$\LARGE f'_2(x,y,z) = \frac{\partial f}{\partial y}xz+\cos y = -\sin y, \quad (\vec{v}(t))_y = t^2$$
+$$\LARGE f'_3(x,y,z) = \frac{\partial f}{\partial z}xz+\cos y = x, \quad (\vec{v}(t))_x = \sin t $$
 $$\LARGE \text{And }$$
-$$\LARGE \text{Where } (\vec{v}'(t))_x = \cos t$$
-$$\LARGE  (\vec{v}'(t))_y = 2t$$
-$$\LARGE  (\vec{v}'(t))_z = \sin t \cdot \frac{2t}{1+t^2}$$
+$$\LARGE \text{Where } (\vec{v}'(t))_x = \frac{d}{dt}\sin t = \cos t$$
+$$\LARGE  (\vec{v}'(t))_y = \frac{d}{dt}t^2 = 2t$$
+$$\LARGE  (\vec{v}'(t))_z = \frac{d}{dt}\ln(t^2+1) = \sin t \cdot \frac{2t}{1+t^2}$$
