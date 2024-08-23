@@ -22,11 +22,17 @@ $$\LARGE \textcolor{lightblue}{\frac{d}{dt}}$$
 ###### $\LARGE f$: A [[Mapping#Scalar Functions as a Subset of Functions|Real-Valued]] function (i.e. a Scalar Function) of $\LARGE \text{\textcolor{pink}{several real variables}}$.
 $$\LARGE \text{\textcolor{lightgreen}{Gradient} } \nabla f = (f'_x, f'_y, f'_z)$$
 $$\LARGE \textcolor{pink}{\frac{\partial}{\partial x}}$$
-Where the $f'_x, f'_y, f'_z$ are the real-valued functions from $\LARGE \mathbb{R}^3 \to \mathbb{R}$ 
+Where the $\LARGE f'_x, f'_y, f'_z$ which are each themselves the partial derivative functions, are the real-valued functions from $\LARGE \mathbb{R}^3 \to \mathbb{R}$ 
 ###### $\LARGE \vec{v}$: A [[Mapping#Higher-Level Functions (i.e. Composite Functions) Higher-Level Functions|Vector-Valued]] function (i.e. a Vector Function) of $\LARGE \text{\textcolor{lightblue}{one real variable}}$.
+I.e. A function that takes a single variable and produces a vector. 
 $$\LARGE \vec{v}'(t) = (x'(t), y'(t), z'(t))$$
 $$\LARGE \textcolor{lightblue}{\frac{d}{dt}}$$
 Where each component of the vector is differentiated individually. 
+	Each component function is a Scalar Function.
+		And the Outer/Higher-level Function is a vector function that produces a vector via a single variable and several component Scalar Functions. 
+###### $\LARGE \nabla f$: A Vector function of $\LARGE \text{\textcolor{pink}{several real variables}}$.
+$$\LARGE \text{\textcolor{pink}{Gradient} } \nabla f(x,y,z) = (f'_x, f'_y, f'_z)$$
+$$\LARGE \textcolor{}{\frac{\partial}{\partial x}}$$
 ###### $\LARGE \phi$: A change of variables in $\LARGE \textcolor{pink}{\mathbb{R}^2}$ or in $\LARGE \textcolor{pink}{\mathbb{R}^3}$.
 [[Jacobian Matrix|Jacobian Matrix]]
 $$\LARGE \textcolor{pink}{\frac{\partial}{\partial x}}$$
@@ -56,6 +62,7 @@ $$\LARGE \text{With the notation } u = f(v),\space v = g(x)$$
 $$\LARGE \text{We can write } \frac{du}{dx} = \frac{du}{dv} \cdot \frac{dv}{dx}, \quad u:\mathbb{R} \to \mathbb{R}$$
 ## Variant 1
 For a Vector Function composed of a Scalar Function.
+	The derivative of the Scalar Function (i.e. the inner/lower-level function) is essentially the scaling factor of the derivative of the Vector Function.
 $$\LARGE \vec{v} \circ s: \mathbb{R} \xrightarrow{s} \mathbb{R} \xrightarrow{\vec{v}} \mathbb{R}^n$$
 $$\LARGE \frac{d}{dt}(\vec{v}(s(t))) = s'(t) \cdot \vec{v}'(s(t))$$
 Function $t$ is a Scalar Function from R to R which takes a scalar as input and produces a scalar output value.
@@ -70,5 +77,39 @@ Because the same scalar is applied to each coordinate i.e. component function of
 $$\LARGE =\frac{d}{dt}(\vec{v}(s(t))= s'(t)\cdot\vec{v}'(s(t))$$
 ## Variant 2
 For a Scalar Function that takes a Vector as input, then that produced Scalar becomes the input for the outer function which is another Scalar Function producing a Scalar. 
-$$\LARGE z = s \circ f : \mathbb{R}^2 \xrightarrow{f} \mathbb{R} \xrightarrow{s} \mathbb{R}$$
-$$\LARGE \frac{\partial z}{\partial x} = \frac{ds}{dt} \cdot \frac{\partial f}{\partial x}, \quad \frac{\partial z}{\partial y} = \frac{ds}{dt} \cdot \frac{\partial f}{\partial y}$$
+	*Remember, that a [[#$ LARGE f$ A Mapping Scalar Functions as a Subset of Functions Real-Valued function (i.e. a Scalar Function) of $ LARGE text{ textcolor{pink}{several real variables}}$.|Scalar Function that takes multiple variables]] implies utilizing partial derivatives.*
+		The multi-variables are differentiated individually and each derivative of the inner/lower-level function (Scalar Function) is scaled by the derivative of the outer/higher-level function (also a Scalar Function).
+			I.e. Multi-variable Derivatives scaled by Single-variable Derivatives.
+$$\LARGE z = s \circ f : \mathbb{R}^2 \textcolor{pink}{\xrightarrow{f}} \mathbb{R} \textcolor{lightblue}{\xrightarrow{s}} \mathbb{R}$$
+$$\LARGE \frac{\partial z}{\partial x} = \textcolor{lightblue}{\frac{ds}{dt}} \cdot \textcolor{pink}{\frac{\partial f}{\partial x}}, \quad \frac{\partial z}{\partial y} = \frac{ds}{dt} \cdot \frac{\partial f}{\partial y}$$
+##### Example
+$$\LARGE z = \arctan \frac{y}{x}$$
+$$\LARGE  \textcolor{pink}{f(x,y) = \frac{y}{x}}$$
+$$\LARGE \textcolor{lightblue}{s(t) = \arctan t}$$
+## Variant 3
+The most frequently used variant in our case.
+	It is essentially the [[Dot Product|dot product]] (because of the two vectors in the equation) of the gradient (i.e. the vector composed of partial derivatives) of the outer function by the derivative of the [[#$ LARGE vec{v}$ A Mapping Higher-Level Functions (i.e. Composite Functions) Higher-Level Functions Vector-Valued function (i.e. a Vector Function) of $ LARGE text{ textcolor{lightblue}{one real variable}}$.|single variable vector function]].
+		$\LARGE f(x,y)$ is a [[#$ LARGE f$ A Mapping Scalar Functions as a Subset of Functions Real-Valued function (i.e. a Scalar Function) of $ LARGE text{ textcolor{pink}{several real variables}}$.]].
+		$\LARGE \vec{v}(t) = [x(t), y(t), z(t)]$ is a [[#$ LARGE vec{v}$ A Mapping Higher-Level Functions (i.e. Composite Functions) Higher-Level Functions Vector-Valued function (i.e. a Vector Function) of $ LARGE text{ textcolor{lightblue}{one real variable}}$.|Single Variable Vector Function]].
+		$\LARGE \nabla f(x,y)$ is a [[#$ LARGE nabla f$ A Vector function of $ LARGE text{ textcolor{pink}{several real variables}}$.|Multi-Variable Vector Function]].
+$$\LARGE f \circ \vec{v} : \mathbb{R} \xrightarrow{\vec{v}} \mathbb{R}^2 \xrightarrow{f} \mathbb{R}$$
+$$\LARGE \frac{d}{dt} [f(\vec{v}(t))] = \nabla f(\vec{v}(t)) \cdot \vec{v}'(t) $$
+$$\LARGE \nabla f(\vec{v}(t)) \cdot \vec{v}'(t) = (\frac{\partial f}{\partial x} \cdot x'(t)) + (\frac{\partial f}{\partial y} \cdot y'(t)) + (\frac{\partial f}{\partial z} \cdot z'(t))$$
+![[Pasted image 20240823064235.png]]![[Pasted image 20240823064316.png]]
+Where $\LARGE [\alpha , \beta]$ is the interval of the domain of the parameter $\LARGE t$ of the vector function $\LARGE \vec{v} (t)$.
+	$\LARGE \vec{v}(t)$ is the green curve.
+		Therefore, $\LARGE \vec{v}(t)$ is now the domain of the outer function $\LARGE f(x,y)$ (i.e. the multi-variable scalar function).
+			$\LARGE f(x,y)$ is the blue curve.
+				$\LARGE z$ is the produced scalar as "height" along the $z$ axis for the interval of the domain on the plane. 
+###### If the Curve of $f$ is a Level, Then the Composite Function is a Constant Function
+![[Pasted image 20240823064934.png]]
+##### Example of Variant 3
+Determine $\LARGE \frac{d}{dt}f(\vec{v}(t))$ for $\LARGE f=(f_1,f_2f_3) = f(x,y,z) = xz + \cos y$ and $\LARGE \vec{v}(t) = (\sin t, t^2, \ln (t^2+1))$ 
+$$\LARGE \frac{d}{dt}f(\vec{v}(t)) = f'_1(\vec{v}(t))x'(t) + f'_2(\vec{v}(t)y'(t)  + f'_3(\vec{v}(t))z'(t) $$
+$$\LARGE \text{Where } f'_1(x,y,z) = z, \quad (\vec{v}(t))_z = \ln(t^2+1)$$
+$$\LARGE f'_2(x,y,z) = -\sin y, \quad (\vec{v}(t))_y = t^2$$
+$$\LARGE f'_3(x,y,z) = x, \quad (\vec{v}(t))_x = \sin t $$
+$$\LARGE \text{And }$$
+$$\LARGE \text{Where } (\vec{v}'(t))_x = \cos t$$
+$$\LARGE  (\vec{v}'(t))_y = 2t$$
+$$\LARGE  (\vec{v}'(t))_z = \sin t \cdot \frac{2t}{1+t^2}$$
