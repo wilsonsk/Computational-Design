@@ -87,14 +87,15 @@ $$\LARGE z = \arctan \frac{y}{x}$$
 $$\LARGE  \textcolor{pink}{f(x,y) = \frac{y}{x}}$$
 $$\LARGE \textcolor{lightblue}{s(t) = \arctan t}$$
 ## Variant 3
-The most frequently used variant in our case.
-	It is essentially the [[Dot Product|dot product]] (because of the two vectors in the equation) of the gradient (i.e. the vector composed of partial derivatives) of the outer function by the derivative of the [[#$ LARGE vec{v}$ A Mapping Higher-Level Functions (i.e. Composite Functions) Higher-Level Functions Vector-Valued function (i.e. a Vector Function) of $ LARGE text{ textcolor{lightblue}{one real variable}}$.|single variable vector function]].
-		$\LARGE f(x,y)$ is a [[#$ LARGE f$ A Mapping Scalar Functions as a Subset of Functions Real-Valued function (i.e. a Scalar Function) of $ LARGE text{ textcolor{pink}{several real variables}}$.]].
-		$\LARGE \vec{v}(t) = [x(t), y(t), z(t)]$ is a [[#$ LARGE vec{v}$ A Mapping Higher-Level Functions (i.e. Composite Functions) Higher-Level Functions Vector-Valued function (i.e. a Vector Function) of $ LARGE text{ textcolor{lightblue}{one real variable}}$.|Single Variable Vector Function]].
-		$\LARGE \nabla f(x,y)$ is a [[#$ LARGE nabla f$ A Vector function of $ LARGE text{ textcolor{pink}{several real variables}}$.|Multi-Variable Vector Function]].
+A composition of a multi-variable scalar function (outer) that takes as input, a single variable vector function.
+	The most frequently used variant in our case.
+		It is essentially the [[Dot Product|dot product]] (because of the two vectors in the equation) of the gradient (i.e. the vector composed of partial derivatives) of the outer function by the derivative of the [[#$ LARGE vec{v}$ A Mapping Higher-Level Functions (i.e. Composite Functions) Higher-Level Functions Vector-Valued function (i.e. a Vector Function) of $ LARGE text{ textcolor{lightblue}{one real variable}}$.|single variable vector function]].
+			$\LARGE f(x,y)$ is a [[#$ LARGE f$ A Mapping Scalar Functions as a Subset of Functions Real-Valued function (i.e. a Scalar Function) of $ LARGE text{ textcolor{pink}{several real variables}}$.|multi-variable scalar function]].
+			$\LARGE \vec{v}(t) = [x(t), y(t), z(t)]$ is a [[#$ LARGE vec{v}$ A Mapping Higher-Level Functions (i.e. Composite Functions) Higher-Level Functions Vector-Valued function (i.e. a Vector Function) of $ LARGE text{ textcolor{lightblue}{one real variable}}$.|Single Variable Vector Function]].
+			$\LARGE \nabla f(x,y)$ is a [[#$ LARGE nabla f$ A Vector function of $ LARGE text{ textcolor{pink}{several real variables}}$.|Multi-Variable Vector Function]].
 $$\LARGE f \circ \vec{v} : \mathbb{R} \xrightarrow{\vec{v}} \mathbb{R}^2 \xrightarrow{f} \mathbb{R}$$
 $$\LARGE \frac{d}{dt} [f(\vec{v}(t))] = \nabla f(\vec{v}(t)) \cdot \vec{v}'(t) $$
-$$\LARGE \nabla f(\vec{v}(t)) \cdot \vec{v}'(t) = (\frac{\partial f}{\partial x} \cdot x'(t)) + (\frac{\partial f}{\partial y} \cdot y'(t)) + (\frac{\partial f}{\partial z} \cdot z'(t))$$
+$$\LARGE = \nabla f(\vec{v}(t)) \cdot \vec{v}'(t) = (\frac{\partial f}{\partial x} \cdot x'(t)) + (\frac{\partial f}{\partial y} \cdot y'(t)) + (\frac{\partial f}{\partial z} \cdot z'(t))$$
 ![[Pasted image 20240823064235.png]]![[Pasted image 20240823064316.png]]
 Where $\LARGE [\alpha , \beta]$ is the interval of the domain of the parameter $\LARGE t$ of the vector function $\LARGE \vec{v} (t)$.
 	$\LARGE \vec{v}(t)$ is the green curve.
@@ -105,11 +106,28 @@ Where $\LARGE [\alpha , \beta]$ is the interval of the domain of the parameter $
 ![[Pasted image 20240823064934.png]]
 ##### Example of Variant 3
 Determine $\LARGE \frac{d}{dt}f(\vec{v}(t))$ for $\LARGE f=(f_1,f_2f_3) = f(x,y,z) = xz + \cos y$ and $\LARGE \vec{v}(t) = (\sin t, t^2, \ln (t^2+1))$ 
-$$\LARGE \frac{d}{dt}f(\vec{v}(t)) = f'_1(\vec{v}(t))x'(t) + f'_2(\vec{v}(t)y'(t)  + f'_3(\vec{v}(t))z'(t) $$
-$$\LARGE \text{Where } f'_1(x,y,z) = \frac{\partial f}{\partial x}xz+\cos y  = z, \quad (\vec{v}(t))_z = \ln(t^2+1)$$
-$$\LARGE f'_2(x,y,z) = \frac{\partial f}{\partial y}xz+\cos y = -\sin y, \quad (\vec{v}(t))_y = t^2$$
-$$\LARGE f'_3(x,y,z) = \frac{\partial f}{\partial z}xz+\cos y = x, \quad (\vec{v}(t))_x = \sin t $$
-$$\LARGE \text{And }$$
-$$\LARGE \text{Where } (\vec{v}'(t))_x = \frac{d}{dt}\sin t = \cos t$$
-$$\LARGE  (\vec{v}'(t))_y = \frac{d}{dt}t^2 = 2t$$
-$$\LARGE  (\vec{v}'(t))_z = \frac{d}{dt}\ln(t^2+1) = \sin t \cdot \frac{2t}{1+t^2}$$
+$$\LARGE \text{Variant 3:} \space \nabla f(\vec{v}(t)) \cdot \vec{v}'(t) = (\frac{\partial f}{\partial x} \cdot x'(t)) + (\frac{\partial f}{\partial y} \cdot y'(t)) + (\frac{\partial f}{\partial z} \cdot z'(t))$$
+###### Method 1:
+$$\LARGE = \frac{d}{dt}f(\vec{v}(t)) = \textcolor{red}{f'_1(\vec{v}(t))}\textcolor{violet}{x'(t)} + \textcolor{green}{f'_2(\vec{v}(t))}\textcolor{teal}{y'(t)}  + \textcolor{orange}{f'_3(\vec{v}(t))}\textcolor{gray}{z'(t)} $$
+$$\LARGE \text{Where} \quad \textcolor{red}{f'_1(x,y,z) = \frac{\partial f}{\partial x}xz+\cos y  = z}$$
+$$\LARGE \textcolor{gray}{z(t) = \ln(t^2+1)}$$
+$$\LARGE \text{Plug } \textcolor{gray}{z(t)} \text{ into } \textcolor{red}{z \text{ of }f'_1 =\frac{\partial f}{\partial x} xz+ \cos y} = \textcolor{red}{\frac{\partial f}{\partial x}\textcolor{gray}{\ln (t^2 + 1)}z + \cos y}$$
+$$\LARGE \textcolor{red}{f'_1(\vec{v}(t))_z = f'_1(\textcolor{gray}{z(t)}) = \frac{\partial f}{\partial x}xz+\cos y} = \textcolor{red}{\ln(t^2 +1)}$$
+$$\LARGE \text{And } \quad \textcolor{gray}{\vec{v}'(t)_z = z'(t) = \frac{d}{dt}\ln(t^2+1) = \frac{2t}{1+t^2}}$$
+$$\LARGE \text{Where }\quad\textcolor{green}{f'_2(x,y,z) = \frac{\partial f}{\partial y}xz+\cos y = -\sin y}$$
+$$\LARGE \textcolor{teal}{y(t) = t^2}$$
+$$\LARGE \text{Plug } \textcolor{teal}{y(t)} \text{ into } \textcolor{green}{y\text{ of }f'_2 =\frac{\partial f}{\partial y} xz+ \cos y} = \textcolor{green}{\frac{\partial f}{\partial y}xz + \cos }\textcolor{teal}{t^2}$$
+$$\LARGE \textcolor{green}{f'_2(\vec{v}(t))_y = f'_2(\textcolor{teal}{y(t)}) = \frac{\partial f}{\partial y}xz+\cos y = -\sin t^2}$$
+$$\LARGE \text{And} \quad \textcolor{teal}{\vec{v}'(t)_y = y'(t) = \frac{d}{dt}t^2 = 2t}$$
+$$\LARGE \text{Where} \quad \textcolor{orange}{f'_3(x,y,z) = \frac{\partial f}{\partial z}xz+\cos y = x}$$
+$$\LARGE \textcolor{violet}{x(t) = \sin t}$$
+$$\LARGE \text{Plug } \textcolor{violet}{x(t)} \text{ into } \textcolor{orange}{z \text{ of }f'_1 =\frac{\partial f}{\partial z} xz+ \cos y} = \textcolor{orange}{\frac{\partial f}{\partial x}x\textcolor{violet}{\sin t} + \cos y }$$
+$$\LARGE \textcolor{orange}{f'_3(\vec{v}(t))_x = f'_3(\textcolor{violet}{x(t)}) = \frac{\partial f}{\partial z}xz+\cos y =\textcolor{violet}{\sin t}}$$
+$$\LARGE \text{And } \quad \textcolor{violet}{\vec{v}'(t)_x =x'(t) = \frac{d}{dt}\sin t  = \cos t}$$
+###### Method 2:
+Compute the composition $\LARGE f(\vec{v}(t))$ and differentiate it as a function of one variable (i.e. single variable derivative/differentiation).
+
+$$\LARGE f=(\textcolor{red}{f_1},\textcolor{green}{f_2},\textcolor{orange}{f_3}) = f(\textcolor{red}{x},\textcolor{green}{y},\textcolor{orange}{z}) = \textcolor{red}{x}\textcolor{orange}{z} + \cos \textcolor{green}{y}$$
+$$\LARGE \vec{v}(t) = (\textcolor{red}{x(t)}, \textcolor{green}{y(t)}, \textcolor{orange}{z(t)}) = (\textcolor{red}{\sin t}, \textcolor{green}{t^2}, \textcolor{orange}{\ln (t^2+1)})$$
+$$\LARGE f(\vec{v}(t)) = \textcolor{red}{\sin t} \cdot \textcolor{orange}{\ln (t^2+1)} + \cos \textcolor{green}{t^2}$$
+$$\LARGE \frac{d}{dt}f(\vec{v}(t)) = \cos t \cdot \textcolor{orange}{\ln(t^2+1)} + \textcolor{red}{\sin t} \cdot \frac{2t}{t^2+1} - 2t\sin \textcolor{green}{t^2}$$

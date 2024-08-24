@@ -209,7 +209,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "\"constant of proportionality",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -226,7 +226,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -323,8 +324,11 @@
   },
   "active": "d16b3e3ee67218c5",
   "lastOpenFiles": [
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Jacobian Matrix.md",
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Division.md",
+    "Data/Abstract Mathematical Spaces/Physics/Morphogenesis/Chemistry/Law of Definite Proportions.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Linearity/Linearity in the Field of Real Numbers.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Chain Rule.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Jacobian Matrix.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Partial Derivatives.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Projection.md",
     "Pasted image 20240823064934.png",
@@ -345,7 +349,6 @@
     "Data/Abstract Mathematical Spaces/Linear Algebra/Matrix Multiplication.md",
     "Pasted image 20240819054230.png",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Directional Derivatives.md",
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Division.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Straight Lines.md",
     "Pasted image 20240818132752.png",
     "Pasted image 20240818132748.png",
@@ -360,8 +363,6 @@
     "Data/Abstract Mathematical Spaces/Linear Algebra/Cross Product.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Functions as Solution Sets.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets",
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Scaling.md",
-    "Untitled.md",
     "Data/ABSTRA~1/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Types of Forces",
     "Data/ABSTRA~1/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Newton's Laws of Motion",
     "Data/ABSTRA~1/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis",

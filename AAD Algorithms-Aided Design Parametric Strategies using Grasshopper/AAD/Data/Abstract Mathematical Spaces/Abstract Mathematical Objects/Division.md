@@ -46,6 +46,7 @@ Proportional relationships involve comparing quantities to see how one quantity 
 $$\LARGE \frac{a}{b} = k$$
 A proportional relationship between two quantities $a$ and $b$ means that the ratio of $a$ to $b$ is constant. This constant ratio is represented by $k$.
 	Mathematically, this is expressed as $\frac{a}{b} = k$, where $k$ is the constant of proportionality.
+		This is the slope of a linear function.
 #### Visualizing with Grouping
 Imagine any quantity $A$ as a collection of smaller, equal parts. 
 	For simplicity, let's consider $A = a$ and each part as $b$ units.
