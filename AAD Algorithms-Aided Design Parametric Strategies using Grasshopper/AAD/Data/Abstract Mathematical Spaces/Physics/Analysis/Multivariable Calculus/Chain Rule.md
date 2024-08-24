@@ -131,3 +131,17 @@ $$\LARGE f=(\textcolor{red}{f_1},\textcolor{green}{f_2},\textcolor{orange}{f_3})
 $$\LARGE \vec{v}(t) = (\textcolor{red}{x(t)}, \textcolor{green}{y(t)}, \textcolor{orange}{z(t)}) = (\textcolor{red}{\sin t}, \textcolor{green}{t^2}, \textcolor{orange}{\ln (t^2+1)})$$
 $$\LARGE f(\vec{v}(t)) = \textcolor{red}{\sin t} \cdot \textcolor{orange}{\ln (t^2+1)} + \cos \textcolor{green}{t^2}$$
 $$\LARGE \frac{d}{dt}f(\vec{v}(t)) = \cos t \cdot \textcolor{orange}{\ln(t^2+1)} + \textcolor{red}{\sin t} \cdot \frac{2t}{t^2+1} - 2t\sin \textcolor{green}{t^2}$$
+## Proof of Variant 3
+$$\LARGE z(t) = f(x(t), y(t))$$
+##### 1. Replace $\LARGE z(t)$$ with $\LARGE f(x(t),y(t))$ 
+##### 2. Find Limit of $\LARGE f(x(t), y(t))$
+$$\LARGE z'(t) = \lim\limits_{h \to 0} \frac{z(t+h) - z(t)}{h}$$
+$$\LARGE = \lim\limits_{h \to 0} \frac{f(x(t +h), y(t +h)) - f(x(t), y(t))}{h}$$
+##### 3. Obtain the Partial Derivatives via Typical Trick (subtraction and addition) of $\textcolor{red}{\text{Same Terms}}$ in Order to Eliminate Each in Either Equation
+This produces two equations, where in each, one coordinate becomes constant.
+	Therefore, the other coordinate is the only one to change, that is, the equation becomes a partial derivative. 
+$$ = \lim\limits_{h \to 0} \frac{f(x(t +h), y(t +h)) - \textcolor{teal}{f(x(t), y(t +h))}}{h} + \lim\limits_{h \to 0} \frac{\textcolor{teal}{f(x(t +h), y(t +h))} - f(x(t), y(t))}{h}$$
+$$ = \lim\limits_{h \to 0} \frac{f(\textcolor{red}{x(t +h)}, \textcolor{}{y(t +h)}) - f(\textcolor{red}{x(t)}, \textcolor{}{y(t +h)})}{h} + \lim\limits_{h \to 0} \frac{f(\textcolor{}{x(t +h)}, \textcolor{green}{y(t +h)}) - \textcolor{}{f(x(t)}, \textcolor{green}{y(t)})}{h}$$
+##### 4. Apply the [[Derivatives#Chain Rule Chain Rule of Single Variable Functions|Basic Chain Rule From Single-Variable Derivatives]]
+$$\LARGE = f'_1(x(t), y(t)) \cdot x'(t) + \textcolor{green}{f'_2}(x(t), y(t)) \cdot y'(t) = \textcolor{violet}{(\frac{\partial f}{\partial x}, \frac{\partial f}{\partial y})} \cdot \textcolor{orange}{(x'(t), y'(t))}$$
+$$\LARGE = \textcolor{violet}{\nabla f(\vec{v}(t))} \cdot \textcolor{orange}{\vec{v'}(t)}$$
