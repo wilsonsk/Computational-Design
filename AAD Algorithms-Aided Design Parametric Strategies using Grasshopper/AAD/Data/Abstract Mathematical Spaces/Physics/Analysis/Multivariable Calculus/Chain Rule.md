@@ -1,5 +1,5 @@
 # Chain Rule
-Of Multi-Variable Functions
+Derivatives of Composition of Multi-Variable Functions
 ## [[Mapping#A Composite Function as a Subset of Functions|Composite Functions]]
 $$\LARGE f \circ g \circ h: \mathbb{R} \xrightarrow{h}\mathbb{R} \xrightarrow{g}  \mathbb{R} \xrightarrow{f} \mathbb{R}$$
 $$\LARGE \frac{d}{dx}f(g(h(x))) = \frac{d}{dg(h(x))}f(g(h(x))) \cdot \frac{d}{dh(x)}g(h(x)) \cdot \frac{d}{dx}h(x)$$
@@ -16,6 +16,8 @@ $$ \LARGE = \textcolor{yellow}{\frac{d}{dx}(\ln (\sin x^2))} = \textcolor{red}{\
 In this case there are three functions which are composed with each other.
 	And the chain rule gives a product of three derivatives, the most outer one, the most inner one, and all the functions in between. 
 ## Notation of the Four Variants of the Chain Rule
+Remember there is a single derivative for Single Variable Functions.
+	And there are $n$ number of partial derivatives for $n$ Variable Functions.
 ###### $\LARGE s$: A [[Mapping#Scalar Functions as a Subset of Functions|Real-Valued]] function (i.e. a Scalar Function) of one $\LARGE \text{\textcolor{lightblue}{real variable}}$.
 $$\LARGE s'(t)$$
 $$\LARGE \textcolor{lightblue}{\frac{d}{dt}}$$
@@ -87,7 +89,7 @@ $$\LARGE z = \arctan \frac{y}{x}$$
 $$\LARGE  \textcolor{pink}{f(x,y) = \frac{y}{x}}$$
 $$\LARGE \textcolor{lightblue}{s(t) = \arctan t}$$
 ## Variant 3
-A composition of a multi-variable scalar function (outer) that takes as input, a single variable vector function.
+The derivative of a composition of a multi-variable scalar function (outer) that takes as input, a single variable vector function.
 	The most frequently used variant in our case.
 		It is essentially the [[Dot Product|dot product]] (because of the two vectors in the equation) of the gradient (i.e. the vector composed of partial derivatives) of the outer function by the derivative of the [[#$ LARGE vec{v}$ A Mapping Higher-Level Functions (i.e. Composite Functions) Higher-Level Functions Vector-Valued function (i.e. a Vector Function) of $ LARGE text{ textcolor{lightblue}{one real variable}}$.|single variable vector function]].
 			$\LARGE f(x,y)$ is a [[#$ LARGE f$ A Mapping Scalar Functions as a Subset of Functions Real-Valued function (i.e. a Scalar Function) of $ LARGE text{ textcolor{pink}{several real variables}}$.|multi-variable scalar function]].
@@ -108,7 +110,7 @@ Where $\LARGE [\alpha , \beta]$ is the interval of the domain of the parameter $
 Determine $\LARGE \frac{d}{dt}f(\vec{v}(t))$ for $\LARGE f=(f_1,f_2f_3) = f(x,y,z) = xz + \cos y$ and $\LARGE \vec{v}(t) = (\sin t, t^2, \ln (t^2+1))$ 
 $$\LARGE \text{Variant 3:} \space \nabla f(\vec{v}(t)) \cdot \vec{v}'(t) = (\frac{\partial f}{\partial x} \cdot x'(t)) + (\frac{\partial f}{\partial y} \cdot y'(t)) + (\frac{\partial f}{\partial z} \cdot z'(t))$$
 ###### Method 1:
-$$\LARGE = \frac{d}{dt}f(\vec{v}(t)) = \textcolor{red}{f'_1(\vec{v}(t))}\textcolor{violet}{x'(t)} + \textcolor{green}{f'_2(\vec{v}(t))}\textcolor{teal}{y'(t)}  + \textcolor{orange}{f'_3(\vec{v}(t))}\textcolor{gray}{z'(t)} $$
+$$\LARGE = \frac{d}{dt}f(\vec{v}(t)) = \textcolor{red}{f'_1(\vec{v}(t))}\cdot \textcolor{violet}{x'(t)} + \textcolor{green}{f'_2(\vec{v}(t))}\cdot \textcolor{teal}{y'(t)}  + \textcolor{orange}{f'_3(\vec{v}(t))}\cdot \textcolor{gray}{z'(t)} $$
 $$\LARGE \text{Where} \quad \textcolor{red}{f'_1(x,y,z) = \frac{\partial f}{\partial x}xz+\cos y  = z}$$
 $$\LARGE \textcolor{gray}{z(t) = \ln(t^2+1)}$$
 $$\LARGE \text{Plug } \textcolor{gray}{z(t)} \text{ into } \textcolor{red}{z \text{ of }f'_1 =\frac{\partial f}{\partial x} xz+ \cos y} = \textcolor{red}{\frac{\partial f}{\partial x}\textcolor{gray}{\ln (t^2 + 1)}z + \cos y}$$
@@ -137,11 +139,60 @@ $$\LARGE z(t) = f(x(t), y(t))$$
 ##### 2. Find Limit of $\LARGE f(x(t), y(t))$
 $$\LARGE z'(t) = \lim\limits_{h \to 0} \frac{z(t+h) - z(t)}{h}$$
 $$\LARGE = \lim\limits_{h \to 0} \frac{f(x(t +h), y(t +h)) - f(x(t), y(t))}{h}$$
-##### 3. Obtain the Partial Derivatives via Typical Trick (subtraction and addition) of $\textcolor{red}{\text{Same Terms}}$ in Order to Eliminate Each in Either Equation
+##### 3. Obtain the Partial Derivatives via Typical Trick (subtraction and addition) of $\textcolor{teal}{\text{Same Terms}}$ in Order to Eliminate Each in Either Equation
 This produces two equations, where in each, one coordinate becomes constant.
 	Therefore, the other coordinate is the only one to change, that is, the equation becomes a partial derivative. 
 $$ = \lim\limits_{h \to 0} \frac{f(x(t +h), y(t +h)) - \textcolor{teal}{f(x(t), y(t +h))}}{h} + \lim\limits_{h \to 0} \frac{\textcolor{teal}{f(x(t +h), y(t +h))} - f(x(t), y(t))}{h}$$
 $$ = \lim\limits_{h \to 0} \frac{f(\textcolor{red}{x(t +h)}, \textcolor{}{y(t +h)}) - f(\textcolor{red}{x(t)}, \textcolor{}{y(t +h)})}{h} + \lim\limits_{h \to 0} \frac{f(\textcolor{}{x(t +h)}, \textcolor{green}{y(t +h)}) - \textcolor{}{f(x(t)}, \textcolor{green}{y(t)})}{h}$$
 ##### 4. Apply the [[Derivatives#Chain Rule Chain Rule of Single Variable Functions|Basic Chain Rule From Single-Variable Derivatives]]
-$$\LARGE = f'_1(x(t), y(t)) \cdot x'(t) + \textcolor{green}{f'_2}(x(t), y(t)) \cdot y'(t) = \textcolor{violet}{(\frac{\partial f}{\partial x}, \frac{\partial f}{\partial y})} \cdot \textcolor{orange}{(x'(t), y'(t))}$$
+$$\LARGE = \textcolor{red}{f'_1(x(t), y(t))} \cdot \textcolor{orange}{x'(t)} + \textcolor{green}{f'_2(x(t), y(t))} \cdot \textcolor{orange}{y'(t)} = \textcolor{violet}{(\frac{\partial f}{\partial x}, \frac{\partial f}{\partial y})} \cdot \textcolor{orange}{(x'(t), y'(t))}$$
 $$\LARGE = \textcolor{violet}{\nabla f(\vec{v}(t))} \cdot \textcolor{orange}{\vec{v'}(t)}$$
+$$\text{Where the gradient is "dotted" (dot product) with the derivative of the vector}$$
+## Variant 4
+The Derivative of $\LARGE z$ which is the scalar product of a composition of a multi-variable scalar function, which has as input variable changing functions.
+##### $\LARGE z =f(x, y) = f(x(s,t), y(s,t))$
+$$\LARGE f \circ \Phi: \mathbb{R}^2 \xrightarrow{\Phi} \mathbb{R}^2 \xrightarrow{f} \mathbb{R}$$
+Where $\LARGE \Phi$, a [[#$ LARGE phi$ A change of variables in $ LARGE textcolor{pink}{ mathbb{R} 2}$ or in $ LARGE textcolor{pink}{ mathbb{R} 3}$.|change of variables]] in $\LARGE \mathbb{R}^2$, is defined as: $\LARGE \textcolor{orange}{x} = \textcolor{orange}{x}(\textcolor{red}{s},\textcolor{green}{t}),\quad \textcolor{violet}{y} = \textcolor{violet}{y}(\textcolor{red}{s},\textcolor{green}{t})$.
+	Where $\LARGE s$ and $\LARGE t$ each require their own partial derivatives.
+### "Change of Variables"
+Refers to a mathematical process where you express a function in terms of a new set of variables, instead of the original ones.
+	This is often done to simplify a problem, make computations easier, or because the new variables might better reflect the structure of the problem.
+
+In the function $f(x, y)$ that depends on two variables $x$ and $y$. 
+	A change of variables occurs when you introduce new variables, say $s$ and $t$, and express $x$ and $y$ in terms of $s$ and $t$.
+		Where instead of working directly with $x$ and $y$, you work with $s$ and $t$. 
+			The function $f(x, y)$ now becomes a function of $s$ and $t$ through $x(s,t)$ and $y(s,t)$:
+$$\LARGE z = f(x, y) = f(x(s,t), y(s,t))$$
+#### Inner Functions, $\LARGE \Phi$
+This is the function or transformation that maps the variables $s$ and $t$ to the variables $x$ and $y$, where: 
+$$\LARGE \Phi(s, t) = (x(s,t), y(s,t))$$
+The $\Phi$ function in this context is referring specifically to the change of variables that maps from the variables $s$ and $t$ to $x$ and $y$.
+	This mapping is captured by the functions $x(s,t)$ and $y(s,t)$. 
+		Therefore, $\Phi$ represents the transformation from the $(s,t)$ coordinate system to the $(x,y)$ coordinate system.
+
+The functions $\LARGE x(s,t)$ and $\LARGE y(s,t)$ together form the mapping that is referred to as the $\LARGE\Phi$ function in this context.
+	$\LARGE \Phi(s,t)$ is a vector-valued function that represents the transformation from the new variables $s$ and $t$ to the original variables $x$ and $y$.
+		This means: 
+$$\LARGE \Phi(\textcolor{red}{s}, \textcolor{green}{t}) = \begin{pmatrix} \textcolor{orange}{x}(\textcolor{red}{s},\textcolor{green} {t}) \\ \textcolor{violet}{y}(\textcolor{red}{s}, \textcolor{green}{t}) \end{pmatrix}$$
+
+The Jacobian matrix $D\Phi$ captures how $x$ and $y$ change with respect to $s$ and $t$.
+	I.e. It consists of the partial derivatives of $x$ and $y$ with respect to $s$ and $t$.
+##### The Derivative of $\Phi$ (a [[Jacobian Matrix|Jacobian Matrix]])
+$$\LARGE D\Phi = \begin{pmatrix} \frac{\partial \textcolor{orange}{x}}{\partial \textcolor{red}{s}} \space \frac{\partial \textcolor{orange}{x}}{\partial \textcolor{green}{t}} \\ \frac{\partial \textcolor{violet}{y}}{\partial \textcolor{red}{s}} \space \frac{\partial \textcolor{violet}{y}}{\partial \textcolor{green}{t}} \end{pmatrix}$$
+### Outer Function $f$
+The function $f$ takes the transformed variables $x(s,t)$ and $y(s,t)$ as its inputs.
+	So $f(x(s,t), y(s,t))$ represents the composition $f \circ \Phi$.
+		The gradient of $f$ is with respect to $x$ and $y$, not directly with respect to $s$ and $t$. 
+			However, using the chain rule, the gradient of $f$ in the new coordinates $(s,t)$ involves both the gradient of $f$ with respect to $x$ and $y$ and the Jacobian matrix $D\Phi$.
+##### The Derivative of $f$ (a [[Gradients|gradient]])
+$$\LARGE \nabla f = \begin{pmatrix} \frac{\partial f}{\partial \textcolor{orange}{x}} , \frac{\partial f}{\partial \textcolor{violet}{y}} \end{pmatrix}$$
+##### $\LARGE z'$
+$\LARGE z$ is the value of the function $f$ evaluated at the transformed variables $x(s,t)$ and $y(s,t)$. 
+	In other words, $z$ represents the output of the function after the change of variables has been applied.
+$$\LARGE \nabla f \cdot D\Phi = \nabla f = \begin{pmatrix} \frac{\partial f}{\partial \textcolor{orange}{x}} , \frac{\partial f}{\partial \textcolor{violet}{y}} \end{pmatrix} \cdot D\Phi = \begin{pmatrix} \frac{\partial \textcolor{orange}{x}}{\partial \textcolor{red}{s}} \space \frac{\partial \textcolor{orange}{x}}{\partial \textcolor{green}{t}} \\ \frac{\partial \textcolor{violet}{y}}{\partial \textcolor{red}{s}} \space \frac{\partial \textcolor{violet}{y}}{\partial \textcolor{green}{t}} \end{pmatrix} =$$
+$$\LARGE = \begin{pmatrix} \frac{\partial z}{\partial \textcolor{orange}{x}} \cdot \frac{\partial \textcolor{orange}{x}}{\partial \textcolor{red}{s}} + \frac{\partial z}{\partial \textcolor{violet}{y}} \cdot \frac{\partial \textcolor{violet}{y}}{\partial \textcolor{red}{s}}, \space  \frac{\partial z}{\partial \textcolor{orange}{x}} \cdot \frac{\partial \textcolor{orange}{x}}{\partial \textcolor{green}{t}} + \frac{\partial z}{\partial \textcolor{violet}{y}} \cdot \frac{\partial \textcolor{violet}{y}}{\partial \textcolor{green}{t}} \end{pmatrix} = \begin{pmatrix} \frac{\partial z}{\partial \textcolor{red}{s}}, \space \frac{\partial z}{\partial \textcolor{green}{t}}\end{pmatrix}$$
+
+##### $\LARGE z = f(x, y) = f(x(s,t), y(s,t))$
+![[Pasted image 20240825133440.png]]
+#### For $\mathbb{R}^3$$
+![[Pasted image 20240825142726.png]]
