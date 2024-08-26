@@ -173,6 +173,9 @@ The Derivative of $\LARGE z$ which is the scalar product of a composition of a m
 $$\LARGE f \circ \Phi: \mathbb{R}^2 \xrightarrow{\Phi} \mathbb{R}^2 \xrightarrow{f} \mathbb{R}$$
 Where $\LARGE \Phi$, a [[#$ LARGE phi$ A change of variables in $ LARGE textcolor{pink}{ mathbb{R} 2}$ or in $ LARGE textcolor{pink}{ mathbb{R} 3}$.|change of variables]] in $\LARGE \mathbb{R}^2$, is defined as: $\LARGE \textcolor{orange}{x} = \textcolor{orange}{x}(\textcolor{red}{s},\textcolor{green}{t}),\quad \textcolor{violet}{y} = \textcolor{violet}{y}(\textcolor{red}{s},\textcolor{green}{t})$.
 	Where $\LARGE s$ and $\LARGE t$ each require their own partial derivatives.
+		$\LARGE f(x,y)$ is a [[#$ LARGE f$ A Mapping Scalar Functions as a Subset of Functions Real-Valued function (i.e. a Scalar Function) of $ LARGE text{ textcolor{pink}{several real variables}}$.|multi-variable scalar function]].
+		$\LARGE \Phi$ (i.e. $\LARGE x(s,t), y(s,t)$) is/are a [[#$ LARGE nabla f$ A Vector function of $ LARGE text{ textcolor{pink}{several real variables}}$.|Multi-Variable Vector Function(s)]].
+		$\LARGE \nabla f(x,y)$ is a [[#$ LARGE nabla f$ A Vector function of $ LARGE text{ textcolor{pink}{several real variables}}$.|Multi-Variable Vector Function]] (i.e. a gradient of a partial variables of a scalar function $\LARGE f$).
 ### "Change of Variables"
 Refers to a mathematical process where you express a function in terms of a new set of variables, instead of the original ones.
 	This is often done to simplify a problem, make computations easier, or because the new variables might better reflect the structure of the problem.
@@ -255,6 +258,12 @@ $$\LARGE \nabla f \cdot D\Phi = \nabla f = \begin{pmatrix} \frac{\partial f}{\pa
 $$\LARGE = \begin{pmatrix} \frac{\partial z}{\partial \textcolor{orange}{x}} \cdot \frac{\partial \textcolor{orange}{x}}{\partial \textcolor{red}{s}} + \frac{\partial z}{\partial \textcolor{violet}{y}} \cdot \frac{\partial \textcolor{violet}{y}}{\partial \textcolor{red}{s}}, \space  \frac{\partial z}{\partial \textcolor{orange}{x}} \cdot \frac{\partial \textcolor{orange}{x}}{\partial \textcolor{green}{t}} + \frac{\partial z}{\partial \textcolor{violet}{y}} \cdot \frac{\partial \textcolor{violet}{y}}{\partial \textcolor{green}{t}} \end{pmatrix} = \begin{pmatrix} \frac{\partial z}{\partial \textcolor{red}{s}}, \space \frac{\partial z}{\partial \textcolor{green}{t}}\end{pmatrix}$$
 #### For $\mathbb{R}^3$$
 ![[Pasted image 20240825142726.png]]
+
+## Examples of Problems Using Variants
+#### 1. Variant 4 Example
+![[Pasted image 20240826160738.png]]
+#### 2. Variant 4 Example
+![[Pasted image 20240826155010.png]]
 ## Matrix Transformations Derived from Variant 4
 The matrix transformation equation involving transformations between different $\LARGE \mathbb{R}^n$ spaces is essentially a generalization of this concept of Variant 4.
 	In multivariable calculus, when you perform a change of variables, the derivative of the composed function is given by the product of the gradients (or derivatives) and the Jacobian matrices, as shown in Variant 4.
