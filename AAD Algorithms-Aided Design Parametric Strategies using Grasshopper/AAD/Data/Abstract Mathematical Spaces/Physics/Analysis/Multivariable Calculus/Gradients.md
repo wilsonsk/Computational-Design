@@ -38,6 +38,8 @@ date created: 2024-07-28
 
 - - -
 ## Gradient Defined
+The **gradient** is a vector of partial derivatives that applies to scalar-valued functions and tells you the direction of the steepest ascent of the function.
+
 The Gradient is the several-variable counterpart of the first derivative.
 	An **increase** or **decrease** in the **magnitude** of a **property**, relative to some variable (time, position, etc.).
 

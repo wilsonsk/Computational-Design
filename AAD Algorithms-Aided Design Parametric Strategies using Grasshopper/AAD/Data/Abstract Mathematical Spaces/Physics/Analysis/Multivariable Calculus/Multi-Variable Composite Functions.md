@@ -1,9 +1,28 @@
-# Chain Rule
-Derivatives of Composition of Multi-Variable Functions
+# Multi-Variable Composite Functions
+Derivatives of Composition of Multi-Variable Functions.
+	*See [[Mapping#A Composite Function as a Subset of Functions|Composite Functions]] for more information about Composite Functions.*
+		*See [[Derivatives#Multi-Variable Composite Functions Chain Rule of Single Variable Functions]|Chain Rule For Single Variable Functions]].* 
 ## [[Mapping#A Composite Function as a Subset of Functions|Composite Functions]]
 $$\LARGE f \circ g \circ h: \mathbb{R} \xrightarrow{h}\mathbb{R} \xrightarrow{g}  \mathbb{R} \xrightarrow{f} \mathbb{R}$$
 $$\LARGE \frac{d}{dx}f(g(h(x))) = \frac{d}{dg(h(x))}f(g(h(x))) \cdot \frac{d}{dh(x)}g(h(x)) \cdot \frac{d}{dx}h(x)$$
 $$\LARGE ==  f'(g(h(x)) \cdot g'(h(x)) \cdot h'(x)$$
+
+A composite function is formed when one function is applied after another. 
+	Mathematically, if you have two functions $\LARGE f: \mathbb{R}^m \to \mathbb{R}^k$ and $\LARGE \Phi: \mathbb{R}^n \to \mathbb{R}^m$, their composition $\LARGE f \circ \Phi$ is defined as:
+$$\LARGE (f \circ \Phi)(\mathbf{s}) = f(\Phi(\mathbf{s}))$$
+		where you first apply the transformation $\Phi$ to the input $\mathbf{s}$, and then apply the function $f$ to the result.
+#### Transformations as Composite Functions
+###### Direct Transformations
+If you have a transformation like 
+$$\LARGE \Phi(s,t) = \begin{pmatrix} x(s,t) \\ y(s,t) \end{pmatrix}$$
+This is a function from $\mathbb{R}^2$ (with variables $s$ and $t$) to $\mathbb{R}^2$ (with variables $x$ and $y$). 
+	This transformation by itself can be thought of as a function that directly maps between spaces.
+##### Composite Transformations
+If you combine transformations, or if your function is expressed in terms of other functions (like coordinate transformations), this can often be modeled as a composition of functions. 
+	For instance, if you have a physical quantity $f$ that depends on coordinates $(x, y)$, but you express $(x, y)$ as functions of $(s, t)$, the overall function $f$ is a composition of the transformation $\Phi(s,t)$ and the original function $f(x,y)$:
+$$\LARGE \mathbb{R}^2 \xrightarrow{\Phi} \mathbb{R}^2 \xrightarrow{f} \mathbb{R}$$
+$$\LARGE f(x, y) = f(x(s,t), y(s,t))$$
+In this sense, the transformation is part of a composite function where the final outcome depends on the intermediate step of transforming the variables.
 ## [[Derivatives#Chain Rule Chain Rule of Single Variable Functions|Chain Rule of Single Variable Functions]]
 The chain rule is a formula for computing the derivative of the composition (i.e. composite functions) of two or more functions.
 	I.e. is a rule for computations of the [[Derivatives|derivatives]] of [[Mapping#A Composite Function as a Subset of Functions|composite functions]].
@@ -56,13 +75,13 @@ $\LARGE (\vec{f} \circ \vec{g})(\vec{t})$ is a function from $\LARGE \mathbb{R}^
 	According to the Chain Rule for a given row $\LARGE \frac{\partial}{\partial t_j} (\vec{f} \circ \vec{g})_i(\vec{t})$ 
 $$\frac{\partial}{\partial t_j} (\vec{f} \circ \vec{g})_i(\vec{t}) = \sum^n_{k=1} \frac{\partial f_i(\vec{g}(\vec{t}))}{\partial x_k} \cdot \frac{\partial g_k(\vec{t})}{\partial t_j} = \frac{\partial f_i(\vec{g}(\vec{t}))}{\partial x_1} \cdot \frac{\partial g_1(\vec{t})}{\partial t_j} + \dots + \frac{\partial f_i(\vec{g}(\vec{t}))}{\partial x_n} \cdot \frac{\partial g_n(\vec{t})}{\partial t_j}$$
 Which is exactly the result in the row $\LARGE i$ and the column $\LARGE j$ in the matrix multiplication above ($\LARGE i = 1, \dots, m$ and $\LARGE j =1, \dots, q$) because the product of an $\LARGE m \times n$ matrix and an $\LARGE n \times q$ matrix is an $\LARGE m \times q$ matrix. 
-## Variant 0
+## Chain Rule: Variant 0
 The one-dimensional Chain Rule for 
 $$\LARGE f \circ g : \mathbb{R} \xrightarrow{g}\mathbb{R} \xrightarrow{f}  \mathbb{R}$$
 $$\LARGE \frac{d}{dx}f(g(x)) =  f'(g(x)) \cdot g'(x)$$
 $$\LARGE \text{With the notation } u = f(v),\space v = g(x)$$
 $$\LARGE \text{We can write } \frac{du}{dx} = \frac{du}{dv} \cdot \frac{dv}{dx}, \quad u:\mathbb{R} \to \mathbb{R}$$
-## Variant 1
+## Chain Rule: Variant 1
 For a Vector Function composed of a Scalar Function.
 	The derivative of the Scalar Function (i.e. the inner/lower-level function) is essentially the scaling factor of the derivative of the Vector Function.
 $$\LARGE \vec{v} \circ s: \mathbb{R} \xrightarrow{s} \mathbb{R} \xrightarrow{\vec{v}} \mathbb{R}^n$$
@@ -77,7 +96,7 @@ $$\LARGE \frac{d}{dt}(\vec{v}(s(t)) = \left(\frac{d}{dt}(x_1(s(t)),\dots, \frac{
 $$\LARGE = (x'_1(s(t)) \cdot s'(t), \dots, x'_n(s'(t)) \cdot s'(t))$$
 Because the same scalar is applied to each coordinate i.e. component function of a vector, then the scalar $s'(t)$ can be factored out.
 $$\LARGE =\frac{d}{dt}(\vec{v}(s(t))= s'(t)\cdot\vec{v}'(s(t))$$
-## Variant 2
+## Chain Rule: Variant 2
 For a Scalar Function that takes a Vector as input, then that produced Scalar becomes the input for the outer function which is another Scalar Function producing a Scalar. 
 	*Remember, that a [[#$ LARGE f$ A Mapping Scalar Functions as a Subset of Functions Real-Valued function (i.e. a Scalar Function) of $ LARGE text{ textcolor{pink}{several real variables}}$.|Scalar Function that takes multiple variables]] implies utilizing partial derivatives.*
 		The multi-variables are differentiated individually and each derivative of the inner/lower-level function (Scalar Function) is scaled by the derivative of the outer/higher-level function (also a Scalar Function).
@@ -88,7 +107,7 @@ $$\LARGE \frac{\partial z}{\partial x} = \textcolor{lightblue}{\frac{ds}{dt}} \c
 $$\LARGE z = \arctan \frac{y}{x}$$
 $$\LARGE  \textcolor{pink}{f(x,y) = \frac{y}{x}}$$
 $$\LARGE \textcolor{lightblue}{s(t) = \arctan t}$$
-## Variant 3
+## Chain Rule: Variant 3
 The derivative of a composition of a multi-variable scalar function (outer) that takes as input, a single variable vector function.
 	The most frequently used variant in our case.
 		It is essentially the [[Dot Product|dot product]] (because of the two vectors in the equation) of the gradient (i.e. the vector composed of partial derivatives) of the outer function by the derivative of the [[#$ LARGE vec{v}$ A Mapping Higher-Level Functions (i.e. Composite Functions) Higher-Level Functions Vector-Valued function (i.e. a Vector Function) of $ LARGE text{ textcolor{lightblue}{one real variable}}$.|single variable vector function]].
@@ -148,7 +167,7 @@ $$ = \lim\limits_{h \to 0} \frac{f(\textcolor{red}{x(t +h)}, \textcolor{}{y(t +h
 $$\LARGE = \textcolor{red}{f'_1(x(t), y(t))} \cdot \textcolor{orange}{x'(t)} + \textcolor{green}{f'_2(x(t), y(t))} \cdot \textcolor{orange}{y'(t)} = \textcolor{violet}{(\frac{\partial f}{\partial x}, \frac{\partial f}{\partial y})} \cdot \textcolor{orange}{(x'(t), y'(t))}$$
 $$\LARGE = \textcolor{violet}{\nabla f(\vec{v}(t))} \cdot \textcolor{orange}{\vec{v'}(t)}$$
 $$\text{Where the gradient is "dotted" (dot product) with the derivative of the vector}$$
-## Variant 4
+## Chain Rule: Variant 4
 The Derivative of $\LARGE z$ which is the scalar product of a composition of a multi-variable scalar function, which has as input variable changing functions.
 ##### $\LARGE z =f(x, y) = f(x(s,t), y(s,t))$
 $$\LARGE f \circ \Phi: \mathbb{R}^2 \xrightarrow{\Phi} \mathbb{R}^2 \xrightarrow{f} \mathbb{R}$$
@@ -157,13 +176,23 @@ Where $\LARGE \Phi$, a [[#$ LARGE phi$ A change of variables in $ LARGE textcolo
 ### "Change of Variables"
 Refers to a mathematical process where you express a function in terms of a new set of variables, instead of the original ones.
 	This is often done to simplify a problem, make computations easier, or because the new variables might better reflect the structure of the problem.
+##### Coordinate Systems and Transformations
+Imagine you are working with a function $f(x,y)$ that depends on two variables, $x$ and $y$. 
+	These variables are in a particular **coordinate system** (e.g., Cartesian coordinates).
+		Now, suppose you want to **change the coordinate system** by introducing new variables $s$ and $t$, where $x$ and $y$ are now functions of $s$ and $t$. 
+			**This transformation is described by the function $\LARGE \Phi(s, t)$, which maps the new coordinates $(s, t)$ to the original coordinates $(x, y).**
+				In the context of a "change of variables," the function $\LARGE \Phi$ is typically a **vector-valued function** that maps one set of variables (like $s$ and $t$) to another $t$ of variables (like $x$ and $y$).
+					$\LARGE \Phi$ is a [[#Direct Transformations|Direct Transformation]].
 
-In the function $f(x, y)$ that depends on two variables $x$ and $y$. 
+I.e. In the function $f(x, y)$ that depends on two variables $x$ and $y$. 
 	A change of variables occurs when you introduce new variables, say $s$ and $t$, and express $x$ and $y$ in terms of $s$ and $t$.
 		Where instead of working directly with $x$ and $y$, you work with $s$ and $t$. 
 			The function $f(x, y)$ now becomes a function of $s$ and $t$ through $x(s,t)$ and $y(s,t)$:
 $$\LARGE z = f(x, y) = f(x(s,t), y(s,t))$$
 #### Inner Functions, $\LARGE \Phi$
+The transformation function $\LARGE \Phi$ can indeed be considered a **vector-valued function** that is composed of **scalar functions**.
+	Furthermore, when viewed in the context of transformations and changes of variables, $\Phi$ can also be thought of as part of a **composite function**.
+
 This is the function or transformation that maps the variables $s$ and $t$ to the variables $x$ and $y$, where: 
 $$\LARGE \Phi(s, t) = (x(s,t), y(s,t))$$
 The $\Phi$ function in this context is referring specifically to the change of variables that maps from the variables $s$ and $t$ to $x$ and $y$.
@@ -174,11 +203,43 @@ The functions $\LARGE x(s,t)$ and $\LARGE y(s,t)$ together form the mapping that
 	$\LARGE \Phi(s,t)$ is a vector-valued function that represents the transformation from the new variables $s$ and $t$ to the original variables $x$ and $y$.
 		This means: 
 $$\LARGE \Phi(\textcolor{red}{s}, \textcolor{green}{t}) = \begin{pmatrix} \textcolor{orange}{x}(\textcolor{red}{s},\textcolor{green} {t}) \\ \textcolor{violet}{y}(\textcolor{red}{s}, \textcolor{green}{t}) \end{pmatrix}$$
+This is a vector function that takes the input variables $s$ and $t$ (which are in $\LARGE \mathbb{R}^2$) and outputs a pair of new variables, $x$ and $y$, also in $\LARGE \mathbb{R}^2$.
+	**Input:** The function $\LARGE \Phi$ takes a point $\LARGE (s, t)$ in $\LARGE \mathbb{R}^2$.
+	**Output:** The output is a new point $\LARGE (x(s,t), y(s,t))$ in $\LARGE \mathbb{R}^2$, where $x$ and $y$ are functions of $s$ and $t$.
+##### $\LARGE \Phi$ as a Vector Function
+$\LARGE \Phi$ is a function that maps from one coordinate space to another.
+	Specifically, if 
+$$\LARGE \Phi : \mathbb{R}^n \to \mathbb{R}^m$$
+		then  $\Phi$  takes a vector from  $\mathbb{R}^n$ and produces a vector in $\mathbb{R}^m$.
 
-The Jacobian matrix $D\Phi$ captures how $x$ and $y$ change with respect to $s$ and $t$.
-	I.e. It consists of the partial derivatives of $x$ and $y$ with respect to $s$ and $t$.
+The function $\Phi$ can be written as a vector whose components are scalar functions. 
+	For example, if 
+$$\LARGE \Phi : \mathbb{R}^2 \to \mathbb{R}^2$$ it could look like this:
+$$\LARGE \Phi(s,t) = 
+\begin{pmatrix}
+x(s,t) \\
+y(s,t)
+\end{pmatrix}$$
+Where $x(s,t)$ and $y(s,t)$ are scalar functions of the variables $s$ and $t$.
+##### $\LARGE \Phi$ as a Composite Function
+![[Pasted image 20240825133440.png]]
+When you have a scalar function $f(x,y)$ and you express the variables $x$ and $y$ in terms of new variables $s$ and $t$, the function $f$ becomes a composite function.
+	This is because $f$ is now being evaluated with inputs that are themselves functions of other variables
+
+In this case, the overall function $\LARGE f \circ \Phi$ can be written as:
+$$\LARGE f(x(s,t), y(s,t)) = f(\Phi(s,t))$$
+Here,$f$ is composed with the vector function $\LARGE \Phi$, making $f \circ \Phi$ a composite function.
+	The scalar output of $f$ depends on the transformed variables $x(s,t)$ and $y(s,t)$, which are the components of the vector function $\Phi$.
+
+When you want to understand how this transformation affects the function $f$, you use the **Jacobian matrix** of $\Phi$, which is built from the partial derivatives of the scalar functions $x(s,t)$ and $y(s,t)$. 
+	The Jacobian helps apply the **chain rule** to compute derivatives of the composite function $\circ \Phi$ with respect to the new variables $s$ and $t$.
 ##### The Derivative of $\Phi$ (a [[Jacobian Matrix|Jacobian Matrix]])
 $$\LARGE D\Phi = \begin{pmatrix} \frac{\partial \textcolor{orange}{x}}{\partial \textcolor{red}{s}} \space \frac{\partial \textcolor{orange}{x}}{\partial \textcolor{green}{t}} \\ \frac{\partial \textcolor{violet}{y}}{\partial \textcolor{red}{s}} \space \frac{\partial \textcolor{violet}{y}}{\partial \textcolor{green}{t}} \end{pmatrix}$$
+
+The **Jacobian matrix** $\LARGE D\Phi$ tells us how the new coordinates $s$ and $t$ relate to the old coordinates $x$ and $y$. 
+	Specifically, it provides the partial derivatives of the old coordinates with respect to the new ones.
+		The Jacobian matrix $D\Phi$ captures how $x$ and $y$ change with respect to $s$ and $t$.
+				I.e. It consists of the partial derivatives of $x$ and $y$ with respect to $s$ and $t$.
 ### Outer Function $f$
 The function $f$ takes the transformed variables $x(s,t)$ and $y(s,t)$ as its inputs.
 	So $f(x(s,t), y(s,t))$ represents the composition $f \circ \Phi$.
@@ -186,13 +247,66 @@ The function $f$ takes the transformed variables $x(s,t)$ and $y(s,t)$ as its in
 			However, using the chain rule, the gradient of $f$ in the new coordinates $(s,t)$ involves both the gradient of $f$ with respect to $x$ and $y$ and the Jacobian matrix $D\Phi$.
 ##### The Derivative of $f$ (a [[Gradients|gradient]])
 $$\LARGE \nabla f = \begin{pmatrix} \frac{\partial f}{\partial \textcolor{orange}{x}} , \frac{\partial f}{\partial \textcolor{violet}{y}} \end{pmatrix}$$
-##### $\LARGE z'$
+##### Variant 4 Chain Rule $\LARGE z'$ (i.e. the Derivative of the Composite Function)
 $\LARGE z$ is the value of the function $f$ evaluated at the transformed variables $x(s,t)$ and $y(s,t)$. 
 	In other words, $z$ represents the output of the function after the change of variables has been applied.
+		The matrix multiplication $\LARGE \nabla f \cdot D\Phi$ combines the information about the rate of change of the function $f$ (in terms of the original variables $x$ and $y$) with the information about how the coordinates themselves change (from the new variables $s$ and $t$ to $x$ and $y$).
 $$\LARGE \nabla f \cdot D\Phi = \nabla f = \begin{pmatrix} \frac{\partial f}{\partial \textcolor{orange}{x}} , \frac{\partial f}{\partial \textcolor{violet}{y}} \end{pmatrix} \cdot D\Phi = \begin{pmatrix} \frac{\partial \textcolor{orange}{x}}{\partial \textcolor{red}{s}} \space \frac{\partial \textcolor{orange}{x}}{\partial \textcolor{green}{t}} \\ \frac{\partial \textcolor{violet}{y}}{\partial \textcolor{red}{s}} \space \frac{\partial \textcolor{violet}{y}}{\partial \textcolor{green}{t}} \end{pmatrix} =$$
 $$\LARGE = \begin{pmatrix} \frac{\partial z}{\partial \textcolor{orange}{x}} \cdot \frac{\partial \textcolor{orange}{x}}{\partial \textcolor{red}{s}} + \frac{\partial z}{\partial \textcolor{violet}{y}} \cdot \frac{\partial \textcolor{violet}{y}}{\partial \textcolor{red}{s}}, \space  \frac{\partial z}{\partial \textcolor{orange}{x}} \cdot \frac{\partial \textcolor{orange}{x}}{\partial \textcolor{green}{t}} + \frac{\partial z}{\partial \textcolor{violet}{y}} \cdot \frac{\partial \textcolor{violet}{y}}{\partial \textcolor{green}{t}} \end{pmatrix} = \begin{pmatrix} \frac{\partial z}{\partial \textcolor{red}{s}}, \space \frac{\partial z}{\partial \textcolor{green}{t}}\end{pmatrix}$$
-
-##### $\LARGE z = f(x, y) = f(x(s,t), y(s,t))$
-![[Pasted image 20240825133440.png]]
 #### For $\mathbb{R}^3$$
 ![[Pasted image 20240825142726.png]]
+## Matrix Transformations Derived from Variant 4
+The matrix transformation equation involving transformations between different $\LARGE \mathbb{R}^n$ spaces is essentially a generalization of this concept of Variant 4.
+	In multivariable calculus, when you perform a change of variables, the derivative of the composed function is given by the product of the gradients (or derivatives) and the Jacobian matrices, as shown in Variant 4.
+
+This idea generalizes to transformations between any two vector spaces $\LARGE \mathbb{R}^n$ and $\LARGE \mathbb{R}^m$, where:
+- The **Jacobian matrix** describes the transformation of the space.
+	That is, $\LARGE \text{Matrix } A$
+
+- The **gradient vector** describes the rate of change of the function in the original space.
+	That is, $\LARGE \nabla f$ is analogous to the **vector** $\LARGE \mathbf{x}$ being transformed by the matrix $A$.
+		$\LARGE \nabla f$ is also a vector, but instead of being a point in space, it represents the directional rates of change of the function.
+
+- The resulting matrix multiplication gives the derivative of the composite function, taking into account both the function's behavior and the transformation of the space.
+
+In the context of **Variant 4** and matrix transformations, the transformation $T_A(x, y, z) = A \cdot \mathbf{x} + \dots$ refers to a linear transformation that maps a vector $\mathbf{x} = (x, y, z)$ in $\mathbb{R}^3$ to another vector in $\mathbb{R}^3$ (or possibly a different space) using a matrix $A$.
+#### Relation to Variant 4 and Chain Rule
+In **Variant 4**, when you compute derivatives of a function after applying a transformation (like a change of variables), you're essentially dealing with a more generalized version of this matrix transformation. 
+	The **Jacobian matrix** in **Variant 4** acts like the transformation matrix $A$, where it transforms small changes in the input coordinates into changes in the output coordinates. 
+		The gradient of the function, when multiplied by the Jacobian, gives the derivative in the new coordinate system.
+
+The matrix $A$ in this context is analogous to the Jacobian matrix $D\Phi$ in **Variant 4**, which describes how the coordinates $(x, y, z)$ change with respect to the new variables $(s, t, u)$ (for a 3D example).
+
+#### Formal Definition
+Given a matrix $A \in \mathbb{R}^{m \times n}$ and a vector $\mathbf{x} \in \mathbb{R}^n$, the matrix transformation $T_A$ is defined as:
+$$\LARGE
+T_A(\mathbf{x}) = A \cdot \mathbf{x},
+$$
+	where $A$ is an $m \times n$ matrix and $\mathbf{x}$ is an $n \times 1$ column vector.
+		 The result of this matrix multiplication is a new vector $T_A(\mathbf{x})$ in $\mathbb{R}^m$.
+##### Example in $\mathbb{R}^3$
+Suppose $A$ is a $3 \times 3$ matrix and $\mathbf{x} = \begin{pmatrix} x \\ y \\ z \end{pmatrix}$ is a vector in $\mathbb{R}^3$. The linear transformation $T_A$ is then given by:
+$$\LARGE 
+T_A(x, y, z) = A \cdot \begin{pmatrix} x \\ y \\ z \end{pmatrix}.
+$$
+If $A$ is the matrix:
+$$\LARGE
+A = \begin{pmatrix} a_{11} & a_{12} & a_{13} \\ a_{21} & a_{22} & a_{23} \\ a_{31} & a_{32} & a_{33} \end{pmatrix},
+$$
+then the transformation is:
+$$\LARGE 
+T_A(x, y, z) = \begin{pmatrix} a_{11}x + a_{12}y + a_{13}z \\ a_{21}x + a_{22}y + a_{23}z \\ a_{31}x + a_{32}y + a_{33}z \end{pmatrix}.
+$$
+##### Geometric Interpretation
+- **Linear Transformation:** The matrix transformation $T_A(\mathbf{x})$ represents a linear transformation that can scale, rotate, reflect, or shear the vector $\mathbf{x}$. The specific operation depends on the entries of the matrix $A$.
+- **Mapping Between Spaces:** If $A$ is a $3 \times 3$ matrix, it maps vectors from $\mathbb{R}^3$ to $\mathbb{R}^3$. However, if $A$ is an $m \times n$ matrix, it maps vectors from $\mathbb{R}^n$ to $\mathbb{R}^m$.
+##### Example of a Matrix Transformation
+Consider the following matrix $A$:
+$$\LARGE
+A = \begin{pmatrix} 2 & 0 & 0 \\ 0 & 3 & 0 \\ 0 & 0 & 4 \end{pmatrix}.
+$$
+For a vector $\mathbf{x} = \begin{pmatrix} x \\ y \\ z \end{pmatrix}$, the transformation $T_A$ would be:
+$$\LARGE
+T_A(x, y, z) = \begin{pmatrix} 2x \\ 3y \\ 4z \end{pmatrix}.
+$$
+This transformation scales the $x$, $y$, and $z$ components of the vector by factors of 2, 3, and 4, respectively. This is an example of a diagonal matrix that performs axis-aligned scaling.

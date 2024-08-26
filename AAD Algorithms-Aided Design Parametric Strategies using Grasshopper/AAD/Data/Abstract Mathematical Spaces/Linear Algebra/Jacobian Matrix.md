@@ -1,12 +1,20 @@
 # Jacobian Matrix
+It is a matrix of all first-order partial derivatives of a vector-valued function. 
+	It generalizes the concept of the derivative to functions that map from $\LARGE\mathbb{R}^n$ to $\LARGE \mathbb{R}^m$. 
+		The Jacobian matrix describes how a function transforms small changes in input variables into changes in output variables, essentially providing the best linear approximation to the function at a given point.
+			In the context of [[Mapping#A Transformation as a Subset of Multi-Variable Composite Functions Composite Functions ($1 1$, $m 1$)|transformations]] and chain rules, it acts as the bridge between different coordinate systems, enabling the calculation of derivatives in transformed coordinates.
+
 The multi-variable (i.e. several-variable) counterpart of the first [[Derivatives|derivative]], generally.
-	This is, it is the derivative of a composite function that takes multiple variables.
+	This is, it is the [[Multi-Variable Composite Functions|derivative of a composite function that takes multiple variables]].
 		For [[Mapping#Higher-Level Functions (i.e. Composite Functions) Higher-Level Functions|Vector-Valued Functions]] due to the [[Abstract Mathematical Spaces#Vector Spaces and $ mathbb{R} n$|multi-variable nature]].
+			Can Linearize Non-Linear Functions.
+				But can also be utilized for linear functions.
+					The Jacobian matrix for a function $\LARGE\Phi: \mathbb{R}^n \to \mathbb{R}^m$ is an  $\LARGE m\times n$ matrix.
 $$\LARGE \vec{y} = \vec{f}(\vec{x}) : \mathbb{R}^n \to \mathbb{R}^m$$
 $$\text{Alternative Notation:  } \space \mathbf{y} = \mathbf{f}(\mathbf{x})$$
 This is a [[Mapping#An Example of a Vector Function that is composed of Scalar Functions (Linear)|Vector-Valued Function]] composed of the [[Mapping#Fundamental Functions (i.e. Base-Level Functions) Lower-Level Functions|component functions]], $\LARGE f_1, \dots f_m, \space \mathbb{R}^n \to \mathbb{R}$ i.e.
 $$\LARGE \begin{Bmatrix} y_1 = f_1(x_1, \dots, x_n) \\ y_2 = f_2(x_1, \dots, x_n) \\ \vdots  \\ y_m = f_m(x_1, \dots, x_n)\end{Bmatrix}$$
-$$\LARGE \text{Jacobian Matrix } = m \times n \space \text{matrix} \space=  D\vec{f}(\vec{x}) = \begin{pmatrix} \frac{\partial f_1}{\partial x_1} \space \dots \space \frac{\partial f_1}{\partial x_n} \\ \vdots \quad \ddots \quad \vdots \\ \frac{\partial fm}{\partial x_1} \space \dots \space \frac{\partial f_m}{\partial x_n} \end{pmatrix}$$
+$$\LARGE \text{Jacobian Matrix } = m \times n \space \text{matrix} \space=  D\vec{f}(\vec{x}) = \begin{pmatrix} \frac{\partial f_1}{\partial x_1} \space \dots \space \frac{\partial f_1}{\partial x_n} \\ \frac{\partial f_2}{\partial x_1} \space \dots \space \frac{\partial f_2}{\partial x_n}\\ \vdots \quad \ddots \quad \vdots \\ \frac{\partial fm}{\partial x_1} \space \dots \space \frac{\partial f_m}{\partial x_n} \end{pmatrix}$$
 Every row $\LARGE j$ of the Jacobian Matrix is the [[Gradients|Gradient]] $\LARGE \nabla f_j(\vec{x})$ of one component function ($\LARGE f_i$).
 $$\LARGE \text{Alternative Notation:  } \space \mathbf{J}_\mathbf{f}(\mathbf{x})$$
 ### Example of Jacobian Matrix: As a Linear Map $T_A : \mathbb{R}^3 \to \mathbb{R}^4$

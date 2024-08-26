@@ -380,12 +380,12 @@ A "insert type-valued" function just means the "return type" of a function.
 >[!note] Higher-Level Functions (i.e. Composite Functions)
 > ##### [[Abstract Mathematical Spaces#Vector Function|Vector-Valued Functions]]
 > A vector-valued function maps elements from its domain to vectors.
-> $$\LARGE \mathbf{f}: D \to V$$
+> $$\LARGE \mathbf{\Phi}: D \to V$$
 > Where $D$ is the domain and $V$ is a vector space.
 > **Space Dependency:** These functions exist within vector spaces derived from fields. For example, vector spaces like $\mathbb{R}^2$, $\mathbb{R}^3$, or $\mathbb{R}^n$ are derived from the real number field.
 > **Output Type:** The output is a vector in a specific vector space, which is itself defined by the underlying field.
-> $f(x,y) = F$ where $F$ is a Vector. 
-> $$\LARGE \mathbf{f}(t) = \begin{pmatrix} t \\t^2 \\t^3\end{pmatrix}$$
+> $\Phi(x,y) = F$ where $F$ is a Vector. 
+> $$\LARGE \mathbf{\Phi}(t) = \begin{pmatrix} t \\t^2 \\t^3\end{pmatrix}$$
 > Here, $\mathbf{f}$ maps a scalar $t$ to a 3-dimensional vector.
 > A Vector Function composed of a Scalar Function.
 $$\LARGE \vec{v} \circ s: \mathbb{R} \xrightarrow{s} \mathbb{R} \xrightarrow{\vec{v}} \mathbb{R}^n$$
@@ -520,9 +520,9 @@ When a higher-level function is defined, the computation of its output involves 
 ###### Linearity:
 - If both $f$ and $g$ are linear, then their composite function $h(x) = f(g(x))$ is also linear.
 - Linearity ensures that the composite function preserves vector addition and scalar multiplication.
-
+### [[Multi-Variable Composite Functions]]
 - - - 
-## A Transformation as a Subset of Composite Functions ($1:1$, $m:1$)
+## A Transformation as a Subset of [[Multi-Variable Composite Functions|Composite Functions]] ($1:1$, $m:1$)
 Transformations are specific types of composite functions that map elements from one space (domain) to another space (codomain), extending the domain and potentially altering the codomain.
 	They build upon the principles of composite functions, utilizing inheritance and extension to enhance functionality and applicability.
 		The spaces can be of different dimensions or the same dimension.
@@ -583,7 +583,6 @@ $$ T(\mathbf{v}) = \mathbf{w} \cdot \mathbf{v} = a x + b y + c z $$$$ \text{For 
 A transformation is a function that maps elements from one space (domain) to another space (codomain). 
 	This mapping can involve changing the nature or dimension of the space in which the elements reside.
 ###### Extension: Means an Output Codomain is Preserved, while the Input Domain is Modified/Changed
-
 Transformations can preserve the output type (codomain) while operating over different input types (domains).
 	They extend the applicability and functionality of functions by enabling operations over different domains and codomains.
 		Transformations map elements from one space to another, thus extending the function's applicability beyond its original scope.
@@ -629,17 +628,15 @@ $$\LARGE A = \begin{bmatrix} \textcolor{magenta}{3 \quad -5 \quad 1} \\ \textcol
 
 **Example**:
 Consider a linear transformation represented by a matrix $A$. If $T(\mathbf{x}) = A\mathbf{x}$, where $\mathbf{x} \in \mathbb{R}^n$ and $A$ is an $m \times n$ matrix, the transformation extends the domain from $\mathbb{R}^n$ to the vector space $\mathbb{R}^n$ and the codomain to $\mathbb{R}^m$.
-
 ##### Affine Transformations
 Affine transformations extend linear transformations by including a translation component.
 	An affine transformation can be written as $T(\mathbf{x}) = A\mathbf{x} + \mathbf{b}$, where $A$ is a matrix and $\mathbf{b}$ is a vector.
 		This type of transformation extends the functionality of linear transformations by allowing for translations, rotations, scalings, and shears in higher-dimensional spaces.
-
 ##### Non-linear Transformations
 Non-linear transformations extend functions in ways that are not confined to linear relationships.
 	These transformations can map inputs to outputs using non-linear functions, significantly broadening the range of possible applications.
 		For example, a non-linear transformation might involve applying a non-linear function like $\sin(x)$ or $e^x$ to each component of a vector, thus extending the domain and codomain into more complex non-linear spaces.
-###### Jacobian Matrix for Nonlinear Transformations
+###### [[Jacobian Matrix#Example of Jacobian Matrix As a Non-Linear Function $ mathbf{f} mathbb{R} 3 to mathbb{R} 2$|Jacobian Matrix for Nonlinear Transformations]]
 Nonlinear transformations **cannot be represented by a constant matrix** because they do not satisfy the properties of linearity (additivity and homogeneity).
 	The **[[Jacobian Matrix|Jacobian matrix]]** is used to linearize a nonlinear transformation locally at a specific point in the domain.
 		The Jacobian matrix provides the **best linear approximation** of the nonlinear transformation near the point $\mathbf{x}$.
@@ -654,7 +651,6 @@ $$\LARGE \textcolor{red}{f_2(x,y,z) = y^2-x \ln z}$$
 $$\LARGE  = D\vec{f}(\vec{x}) = \mathbf{J}_{T_A}(\mathbf{x}) =\begin{bmatrix} \textcolor{magenta}{\frac{\partial f_1}{\partial x} \quad \frac{\partial f_1}{\partial y} \quad \frac{\partial f_1}{\partial z}} \\ \textcolor{red}{\frac{\partial f_2}{\partial x} \quad \frac{\partial f_2}{\partial y} \quad \frac{\partial f_2}{\partial z}} \end{bmatrix} =  \begin{bmatrix} \textcolor{magenta}{2x \quad z \quad y} \\ \textcolor{red}{-\ln z \quad 2y \quad -\frac{x}{z}} \end{bmatrix}$$
 **Example**:
 Consider a transformation $T: \mathbb{R}^n \rightarrow \mathbb{R}^m$ defined by $T(\mathbf{x}) = (\sin(x_1), \cos(x_2), \ldots, \tan(x_n))$. This transformation applies non-linear functions to each component of the input vector, extending the output space to include trigonometric values.
-
 ### Transformations from Lower-Level to Higher-Level
 Higher-level spaces can contain functions as inherited structure from lower-level spaces and extend or modify their outputs to fit their own structures.
 $$\LARGE \mathbb{R} \to \mathbb{R^2}$$
