@@ -1,8 +1,38 @@
-# Multi-Variable Composite Functions
-Derivatives of Composition of Multi-Variable Functions.
-	*See [[Mapping#A Composite Function as a Subset of Functions|Composite Functions]] for more information about Composite Functions.*
-		*See [[Derivatives#Multi-Variable Composite Functions Chain Rule of Single Variable Functions]|Chain Rule For Single Variable Functions]].* 
-## [[Mapping#A Composite Function as a Subset of Functions|Composite Functions]]
+# Derivatives of Multi-Variable Composite Functions
+*See [[Mapping#A Composite Function as a Subset of Functions|Composite Functions]] for more information about Composite Functions.*
+	*See [[Derivatives#Multi-Variable Composite Functions Chain Rule of Single Variable Functions]|Chain Rule For Single Variable Functions]].* 
+### First Order Partial Derivatives
+First-order partial derivatives measure the rate of change of a function with respect to one of its input variables, while holding the other variables constant.
+
+For a scalar-valued function $\LARGE f(x_1, x_2, \dots, x_n)$, the first-order partial derivative with respect to $\LARGE x_i$​ is denoted by:
+
+$$\LARGE \frac{\partial f}{\partial x_i} = \lim_{\Delta x_i \to 0} \frac{f(x_1, x_2, \dots, x_i + \Delta x_i, \dots, x_n) - f(x_1, x_2, \dots, x_n)}{\Delta x_i}$$
+
+In the context of **composite functions**, these first-order partial derivatives arise naturally when you apply the **chain rule**. 
+	When a function $f$ depends on intermediate variables (e.g., $u(x, y)$ and $v(x)$), you use the chain rule to express how $f$ changes with respect to its original variables (e.g., $x$).
+###### Example
+Consider a function $\LARGE f(u(x, y), v(x))$. 
+	The first-order partial derivative of $f$ with respect to $x$ is:
+$$\LARGE \frac{\partial f}{\partial x} = \frac{\partial f}{\partial u} \cdot \frac{\partial u}{\partial x} + \frac{\partial f}{\partial v} \cdot \frac{\partial v}{\partial x}$$
+
+This expression shows that the **first-order derivatives** of the composite function $f$ depend on the first-order derivatives of $u$ and $v$ with respect to $x$, as well as the derivatives of $f$ with respect to its intermediate variables $u$ and $v$.
+##### First Order Partial Derivatives Relationship to Composite Functions
+These arise when you differentiate a composite function with respect to one of the original variables. 
+	The chain rule tells you how the derivative of the composite function is distributed across the intermediate functions (e.g., $u(x,y)$ and $v(x)$.
+### Second Order Partial Derivatives
+Are the derivatives of the first order of the derivative of the first order.
+	Second-order partial derivatives measure the rate of change of the first-order partial derivatives. They provide information about the curvature of the function and are denoted as:
+
+$$\LARGE \frac{\partial^2 f}{\partial x_i^2} = \frac{\partial}{\partial x_i} \left( \frac{\partial f}{\partial x_i} \right)$$
+Second-order partial derivatives can also be mixed derivatives, where you take the derivative with respect to different variables, such as:
+$$\LARGE \frac{\partial^2 f}{\partial x_i \partial x_j}$$
+In the context of **composite functions**, second-order derivatives arise when you take the derivative of the first-order derivative. 
+	The chain rule for second-order derivatives becomes more complex, involving not just the second-order partial derivatives of the intermediate variables, but also the product of first-order derivatives.
+##### Second Order Partial Derivatives Relationship to Composite Functions
+These come into play when you take the derivative of the first-order derivatives.
+	For composite functions, the second-order derivatives involve applying both the product rule and the chain rule, leading to more complex expressions that account for the curvature of the function in the transformed space.
+## The First Order Derivatives of [[Mapping#A Composite Function as a Subset of Functions|Composite Functions]]
+The derivative of a composite function in the context of multivariable calculus is dependent on the **first-order partial derivatives** of the inner functions.
 $$\LARGE f \circ g \circ h: \mathbb{R} \xrightarrow{h}\mathbb{R} \xrightarrow{g}  \mathbb{R} \xrightarrow{f} \mathbb{R}$$
 $$\LARGE \frac{d}{dx}f(g(h(x))) = \frac{d}{dg(h(x))}f(g(h(x))) \cdot \frac{d}{dh(x)}g(h(x)) \cdot \frac{d}{dx}h(x)$$
 $$\LARGE ==  f'(g(h(x)) \cdot g'(h(x)) \cdot h'(x)$$
@@ -23,7 +53,7 @@ If you combine transformations, or if your function is expressed in terms of oth
 $$\LARGE \mathbb{R}^2 \xrightarrow{\Phi} \mathbb{R}^2 \xrightarrow{f} \mathbb{R}$$
 $$\LARGE f(x, y) = f(x(s,t), y(s,t))$$
 In this sense, the transformation is part of a composite function where the final outcome depends on the intermediate step of transforming the variables.
-## [[Derivatives#Chain Rule Chain Rule of Single Variable Functions|Chain Rule of Single Variable Functions]]
+## [[Derivatives#Chain Rule Chain Rule of Single Variable Functions|Chain Rule for Single Variable Functions]]
 The chain rule is a formula for computing the derivative of the composition (i.e. composite functions) of two or more functions.
 	I.e. is a rule for computations of the [[Derivatives|derivatives]] of [[Mapping#A Composite Function as a Subset of Functions|composite functions]].
 		Where the $\textcolor{yellow}{\text{derivative of a composite function}}$ is the product of the derivatives of each of the subsequent component functions. 
@@ -34,7 +64,20 @@ $$\LARGE \textcolor{magenta}{\frac{d}{dx} x = 1}$$
 $$ \LARGE = \textcolor{yellow}{\frac{d}{dx}(\ln (\sin x^2))} = \textcolor{red}{\frac{1}{\sin x^2}} \cdot \textcolor{green}{\cos x^2} \cdot \textcolor{orange}{2x} \cdot \textcolor{magenta}{1}$$
 In this case there are three functions which are composed with each other.
 	And the chain rule gives a product of three derivatives, the most outer one, the most inner one, and all the functions in between. 
-## Notation of the Four Variants of the Chain Rule
+## Chain Rule for Multi-Variable Composite Functions
+The chain rule is used to compute the derivative of the composite function with respect to the outer variables (e.g., $x$, $y$).
+	The chain rule tells us that to compute the derivative of the composite function with respect to an outer variable (e.g., $x$), you need to account for all the paths through which $x$ influences the final function $f$.
+		This involves:
+			The **first-order partial derivatives** of the outer function $f$ with respect to the intermediate variables (e.g., $u$ and $v$).
+				And the **first-order partial derivatives** of the inner functions $u$ and $v$ with respect to the outer variables (e.g., $x$).
+##### How it Works
+Suppose $\LARGE f(u(x,y),v(x,y))$ is a composite function. 
+	The derivative of $f$ with respect to $x$ is given by: 
+$$\LARGE \frac{\partial f}{\partial x} = \frac{\partial f}{\partial u} \cdot \frac{\partial u}{\partial x} + \frac{\partial f}{\partial v} \cdot \frac{\partial v}{\partial x}$$
+
+Here, $\LARGE \frac{\partial f}{\partial u}$​ and $\LARGE \frac{\partial f}{\partial v}$​ are the **first-order partial derivatives** of the outer function $f$.
+$\LARGE \frac{\partial u}{\partial x}$​ and $\LARGE \frac{\partial v}{\partial x}$​ are the **first-order partial derivatives** of the inner functions $u$ and $v$.
+## Notation of the Four Variants of the Chain Rule for Multi-Variable Functions
 Remember there is a single derivative for Single Variable Functions.
 	And there are $n$ number of partial derivatives for $n$ Variable Functions.
 ###### $\LARGE s$: A [[Mapping#Scalar Functions as a Subset of Functions|Real-Valued]] function (i.e. a Scalar Function) of one $\LARGE \text{\textcolor{lightblue}{real variable}}$.
@@ -76,7 +119,7 @@ $\LARGE (\vec{f} \circ \vec{g})(\vec{t})$ is a function from $\LARGE \mathbb{R}^
 $$\frac{\partial}{\partial t_j} (\vec{f} \circ \vec{g})_i(\vec{t}) = \sum^n_{k=1} \frac{\partial f_i(\vec{g}(\vec{t}))}{\partial x_k} \cdot \frac{\partial g_k(\vec{t})}{\partial t_j} = \frac{\partial f_i(\vec{g}(\vec{t}))}{\partial x_1} \cdot \frac{\partial g_1(\vec{t})}{\partial t_j} + \dots + \frac{\partial f_i(\vec{g}(\vec{t}))}{\partial x_n} \cdot \frac{\partial g_n(\vec{t})}{\partial t_j}$$
 Which is exactly the result in the row $\LARGE i$ and the column $\LARGE j$ in the matrix multiplication above ($\LARGE i = 1, \dots, m$ and $\LARGE j =1, \dots, q$) because the product of an $\LARGE m \times n$ matrix and an $\LARGE n \times q$ matrix is an $\LARGE m \times q$ matrix. 
 ## Chain Rule: Variant 0
-The one-dimensional Chain Rule for 
+The one-dimensional Chain Rule for an Outer 1D Scalar function, composed of an inner 1D Scalar Function. 
 $$\LARGE f \circ g : \mathbb{R} \xrightarrow{g}\mathbb{R} \xrightarrow{f}  \mathbb{R}$$
 $$\LARGE \frac{d}{dx}f(g(x)) =  f'(g(x)) \cdot g'(x)$$
 $$\LARGE \text{With the notation } u = f(v),\space v = g(x)$$
@@ -167,6 +210,13 @@ $$ = \lim\limits_{h \to 0} \frac{f(\textcolor{red}{x(t +h)}, \textcolor{}{y(t +h
 $$\LARGE = \textcolor{red}{f'_1(x(t), y(t))} \cdot \textcolor{orange}{x'(t)} + \textcolor{green}{f'_2(x(t), y(t))} \cdot \textcolor{orange}{y'(t)} = \textcolor{violet}{(\frac{\partial f}{\partial x}, \frac{\partial f}{\partial y})} \cdot \textcolor{orange}{(x'(t), y'(t))}$$
 $$\LARGE = \textcolor{violet}{\nabla f(\vec{v}(t))} \cdot \textcolor{orange}{\vec{v'}(t)}$$
 $$\text{Where the gradient is "dotted" (dot product) with the derivative of the vector}$$
+$\LARGE \frac{\partial f}{\partial x}$​ and $\LARGE \frac{\partial f}{\partial y}$ are **first-order partial derivatives** of the scalar function $f$ with respect to its variables $x$ and $y$. 
+	These partial derivatives describe how $f$ changes with respect to changes in $x$ and $yy$, assuming the other variable is held constant.
+		$\LARGE \nabla f(\vec{v}(t))$ is the **gradient vector** of the function $f$ at the point $\LARGE \vec{v}(t)$.
+
+The terms $\LARGE x′(t)$ and $\LARGE y′(t)$ represent the **first-order derivatives** of the functions $\LARGE x(t)$ and $\LARGE y(t)$ with respect to the parameter $t$. 
+	These derivatives describe how the variables $x$ and $y$ change with respect to the parameter $t$.
+		$\LARGE \vec{v'}(t)$ is the vector of the **first-order derivatives** $\LARGE x′(t)$ and $\LARGE y'(t)$.
 ## Chain Rule: Variant 4
 The Derivative of $\LARGE z$ which is the scalar product of a composition of a multi-variable scalar function, which has as input variable changing functions.
 ##### $\LARGE z =f(x, y) = f(x(s,t), y(s,t))$
@@ -256,14 +306,43 @@ $\LARGE z$ is the value of the function $f$ evaluated at the transformed variabl
 		The matrix multiplication $\LARGE \nabla f \cdot D\Phi$ combines the information about the rate of change of the function $f$ (in terms of the original variables $x$ and $y$) with the information about how the coordinates themselves change (from the new variables $s$ and $t$ to $x$ and $y$).
 $$\LARGE \nabla f \cdot D\Phi = \nabla f = \begin{pmatrix} \frac{\partial f}{\partial \textcolor{orange}{x}} , \frac{\partial f}{\partial \textcolor{violet}{y}} \end{pmatrix} \cdot D\Phi = \begin{pmatrix} \frac{\partial \textcolor{orange}{x}}{\partial \textcolor{red}{s}} \space \frac{\partial \textcolor{orange}{x}}{\partial \textcolor{green}{t}} \\ \frac{\partial \textcolor{violet}{y}}{\partial \textcolor{red}{s}} \space \frac{\partial \textcolor{violet}{y}}{\partial \textcolor{green}{t}} \end{pmatrix} =$$
 $$\LARGE = \begin{pmatrix} \frac{\partial z}{\partial \textcolor{orange}{x}} \cdot \frac{\partial \textcolor{orange}{x}}{\partial \textcolor{red}{s}} + \frac{\partial z}{\partial \textcolor{violet}{y}} \cdot \frac{\partial \textcolor{violet}{y}}{\partial \textcolor{red}{s}}, \space  \frac{\partial z}{\partial \textcolor{orange}{x}} \cdot \frac{\partial \textcolor{orange}{x}}{\partial \textcolor{green}{t}} + \frac{\partial z}{\partial \textcolor{violet}{y}} \cdot \frac{\partial \textcolor{violet}{y}}{\partial \textcolor{green}{t}} \end{pmatrix} = \begin{pmatrix} \frac{\partial z}{\partial \textcolor{red}{s}}, \space \frac{\partial z}{\partial \textcolor{green}{t}}\end{pmatrix}$$
-#### For $\mathbb{R}^3$$
+#### For $\mathbb{R}^3$
 ![[Pasted image 20240825142726.png]]
 
 ## Examples of Problems Using Variants
 #### 1. Variant 4 Example
+$$\LARGE f: \mathbb{R^2} \to \mathbb{R^n}, \quad u, v: \mathbb{R^2} \to \mathbb{R}$$
+$$\LARGE f(u(x,t), v(y,t)), \quad u(x,t) = xt, \quad v(y,t) = yt$$
 ![[Pasted image 20240826160738.png]]
-#### 2. Variant 4 Example
+#### 2. Variant 3 Example
+$$\LARGE f: \mathbb{R^2} \to \mathbb{R^n}, \quad u: \mathbb{R^2} \to \mathbb{R}, \quad v: \mathbb{R} \to \mathbb{R}$$
+$$\LARGE f(u(x,y), v(x)), \quad u(x,y) = xy^2, \quad v(x) = x^3$$
 ![[Pasted image 20240826155010.png]]
+#### 3. General Variant Example
+$$\LARGE f: \mathbb{R^2} \to \mathbb{R^n}, \quad u: \mathbb{R^2} \to \mathbb{R}, \quad v: \mathbb{R} \to \mathbb{R}$$
+$$\LARGE z(x,y,z) = f(u(x,y), v(y,z)), \quad u(x,y) = \frac{x}{y}, \quad v(y,z) = \frac{y}{z}$$
+![[Pasted image 20240827055027.png|400]]
+![[Pasted image 20240827054949.png]]
+![[Pasted image 20240827054900.png]]
+#### 4. Variant 4 Example
+$$\LARGE f: \mathbb{R^2} \to \mathbb{R}, \quad x,y: \mathbb{R^2} \to \mathbb{R}$$
+$$\LARGE z= f(x(s,t), y(s,t)), \quad x(s,t) = 2s+3t, \quad y(s,t) = 3s-2t$$
+###### 1. Obtain [[#First Order Partial Derivatives|First Order Partial Derivatives]] of $x,y$ with Respect to $s,t$
+![[Pasted image 20240827060259.png]]
+###### 2. Obtain First Order Derivatives of $z$ with Respect to $x,y$
+![[Pasted image 20240827063645.png]]
+###### 3. Obtain the [[#Second Order Partial Derivatives|Second Order Partial Derivatives]] of $x,y$ with Respect to $s,t$
+I.e. the First Order Derivative of the First Order Derivative.
+	*Use the [[Linearity of Differentiation]] where the derivative of this sum is equal to sum of the derivatives and the constants.*
+$$\LARGE \frac{\partial z^2}{\partial s^2}, \space \text{Second Order Partial Derivative of } \frac{\partial z}{\partial s} = 2\frac{\partial z}{\partial x} + 3 \frac{\partial z}{\partial y}$$
+![[Pasted image 20240827064744.png|400]]
+![[Pasted image 20240827065615.png]]
+![[Pasted image 20240827065943.png]]
+If the Second Order Partial Derivatives of the $f$ are Continuous, then can use the Schwartz Theorem.
+	Which means like terms can be combined.
+![[Pasted image 20240827070202.png]]
+$$\LARGE \frac{\partial z^2}{\partial t^2}, \space \text{Second Order Partial Derivative of } \frac{\partial z}{\partial t} = 3 \frac{\partial z}{\partial x} - 2 \frac{\partial z}{\partial y}$$
+
 ## Matrix Transformations Derived from Variant 4
 The matrix transformation equation involving transformations between different $\LARGE \mathbb{R}^n$ spaces is essentially a generalization of this concept of Variant 4.
 	In multivariable calculus, when you perform a change of variables, the derivative of the composed function is given by the product of the gradients (or derivatives) and the Jacobian matrices, as shown in Variant 4.
