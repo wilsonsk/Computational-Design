@@ -347,46 +347,68 @@ $$\LARGE = \begin{pmatrix} \frac{\partial z}{\partial \textcolor{orange}{x}} \cd
 ##### 1. Obtain [[#First Order Partial Derivatives|First Order Partial Derivatives]] of $x,y$ with Respect to $s,t$
 ![[Pasted image 20240827060259.png]]
 $$\LARGE \text{Where the First Order Partial Derivatives are:} $$
-$$\LARGE \textcolor{violet}{\frac{\partial x}{\partial s} = 2, \quad \frac{\partial x}{\partial t} = 3}, \textcolor{lightgreen}{\quad \frac{\partial y}{\partial s} = 3, \quad \frac{\partial y}{\partial t} = 2}$$
-##### 2. Obtain First Order Derivatives of $z$ with Respect to $x,y$
+$$\LARGE \textcolor{violet}{\frac{\partial x}{\partial s} = 2, \quad \frac{\partial x}{\partial t} = 3}, \textcolor{lightgreen}{\quad \frac{\partial y}{\partial s} = 3, \quad \frac{\partial y}{\partial t} = - 2}$$
+##### 2. Obtain First Order Derivatives of $z$  (i.e. the composite function) with Respect to $s, t$
 ![[Pasted image 20240827063645.png]]
 $$\LARGE \text{The Chain Rule: }\quad \frac{\partial z}{\partial \textcolor{red}{s}} = \frac{\partial z}{\partial \textcolor{orange}{x}} \cdot \frac{\partial \textcolor{orange}{x}}{\partial \textcolor{red}{s}} + \frac{\partial z}{\partial \textcolor{violet}{y}} \cdot \frac{\partial \textcolor{violet}{y}}{\partial \textcolor{red}{s}}$$
 $$\LARGE \text{Substitute the Partial Derivatives: } \quad \textcolor{violet}{\frac{\partial x}{\partial s} = 2},  \textcolor{lightgreen}{\quad \frac{\partial y}{\partial s} = 3}$$
-$$\LARGE \text{Therefore, the First Order Derivative of the Composite Function is: }$$
+$$\large \text{Therefore, the First Order Derivative wrt s of the Composite Function is: }$$
 $$\LARGE \textcolor{orange}{\frac{\partial z}{\partial s}} = \frac{\partial z}{\partial x} \cdot \textcolor{violet}{\frac{\partial x}{\partial s}} + \frac{\partial z}{\partial y} \cdot \textcolor{lightgreen}{\frac{\partial y}{\partial s}} = \textcolor{violet}{2}\frac{\partial z}{\partial x} + \textcolor{lightgreen}{3} \frac{\partial z}{\partial y}$$
-##### 3. Obtain the [[#Second Order Partial Derivatives|Second Order Partial Derivatives]] of $x,y$ with Respect to $s,t$
+$$\large \text{And, the First Order Derivative wrt t of the Composite Function is: }$$
+$$\LARGE \textcolor{teal}{\frac{\partial z}{\partial t}} = \frac{\partial z}{\partial x} \cdot \textcolor{violet}{\frac{\partial x}{\partial t}} + \frac{\partial z}{\partial y} \cdot \textcolor{lightgreen}{\frac{\partial y}{\partial t}} = \textcolor{violet}{3}\frac{\partial z}{\partial x} + \textcolor{lightgreen}{-2} \frac{\partial z}{\partial y}$$
+##### 3. Obtain the [[#Second Order Partial Derivatives|Second Order Partial Derivatives]] of $z$ (i.e. the composite function) with Respect to $s,t$
 I.e. the First Order Derivative of the First Order Derivative.
 	*Use the [[Linearity of Differentiation]] where the derivative of this sum is equal to sum of the derivatives and the constants.*	
 ###### A. Obtain the [[#Second Order Partial Derivatives|Second Order Partial Derivatives]] of $x,y$ with Respect to $s$
 $$\LARGE \text{Second Order Derivatives: } \quad \frac{\partial^2 f}{\partial x_i^2} = \frac{\partial}{\partial x_i} \left( \frac{\partial f}{\partial x_i} \right)$$
 $$\LARGE \frac{\partial^2 z}{\partial s^2}, \space \text{Second Order Partial Derivative of } \textcolor{orange}{\frac{\partial z}{\partial s}} = \textcolor{violet}{2}\frac{\partial z}{\partial x} + \textcolor{lightgreen}{3} \frac{\partial z}{\partial y}$$
+$$\LARGE \frac{\partial^2 z}{\partial s^2} = {\frac{\partial}{\partial s} }\left( \frac{\partial z}{\partial s} \right) = {\frac{\partial}{\partial s} }(\textcolor{violet}{2}\frac{\partial z}{\partial x} + \textcolor{lightgreen}{3} \frac{\partial z}{\partial y})$$
+$$\LARGE = \textcolor{violet}{2} \frac{\partial}{\partial s} \left(\frac{\partial z}{\partial x}\right) + \textcolor{lightgreen}{3} \frac{\partial}{\partial s}  \left( \frac{\partial z}{\partial y}\right)$$
 ![[Pasted image 20240827064744.png|400]]
 ###### B. Applying the Chain Rule Again
+$$\LARGE \frac{\partial^2 z}{\partial s^2}  = \textcolor{violet}{2} \textcolor{yellow}{\frac{\partial}{\partial s} \left(\frac{\partial z}{\partial x}\right)} + \textcolor{lightgreen}{3} \frac{\partial}{\partial s}  \left( \frac{\partial z}{\partial y}\right)$$
 To differentiate $\LARGE \frac{\partial z}{\partial x}$​ and $\LARGE \frac{\partial z}{\partial y}$​ with respect to $s$, we need to apply the chain rule again:
 $$\LARGE \text{Differentiating $\LARGE \frac{\partial z}{\partial x}$​ with respect to $s$: }$$
-$$\LARGE {\frac{\partial}{\partial s} }\left( \frac{\partial z}{\partial x} \right) = \frac{\partial \left( \frac{\partial z}{\partial x} \right)}{\partial x} \cdot \textcolor{violet}{\frac{\partial x}{\partial s}} + \frac{\partial \left( \frac{\partial z}{\partial x} \right)}{\partial y} \cdot \textcolor{lightgreen}{\frac{\partial y}{\partial s}}$$
-$$\LARGE \text{Substitute known Partials: } \quad \frac{\partial}{\partial s} \left( \frac{\partial z}{\partial x} \right) = \frac{\partial \left( \frac{\partial z}{\partial x} \right)}{\partial x} \cdot \textcolor{violet}{2} + \frac{\partial \left( \frac{\partial z}{\partial x} \right)}{\partial y} \cdot \textcolor{lightgreen}{3}$$
-$$\LARGE \text{Simplifying: } \quad \frac{\partial \left( \frac{\partial z}{\partial x} \right)}{\partial x} == \frac{\partial}{\partial x} (\frac{\partial z}{\partial x}) = \frac{\partial^2 z}{\partial x} $$
-$$\LARGE \text{And Simplifing: } \quad \frac{\partial \left( \frac{\partial z}{\partial x} \right)}{\partial y} == \frac{\partial}{\partial y} (\frac{\partial z}{\partial x}) = \frac{\partial^2 z}{\partial x \partial y} $$
+$$\LARGE  \textcolor{yellow}{\frac{\partial}{\partial s} \left( \frac{\partial z}{\partial x} \right)} = \frac{\partial \left( \frac{\partial z}{\partial x} \right)}{\partial x} \cdot \textcolor{violet}{\frac{\partial x}{\partial s}} + \frac{\partial \left( \frac{\partial z}{\partial x} \right)}{\partial y} \cdot \textcolor{lightgreen}{\frac{\partial y}{\partial s}}$$
+$$\LARGE \text{Substitute known Partials: } \quad \textcolor{yellow}{\frac{\partial}{\partial s} \left( \frac{\partial z}{\partial x} \right)} = \frac{\partial \left( \frac{\partial z}{\partial x} \right)}{\partial x} \cdot \textcolor{violet}{2} + \frac{\partial \left( \frac{\partial z}{\partial x} \right)}{\partial y} \cdot \textcolor{lightgreen}{3}$$
+$$\LARGE \text{Where: } \quad \frac{\partial \left( \frac{\partial z}{\partial x} \right)}{\partial x} == \frac{\partial}{\partial x} (\frac{\partial z}{\partial x}) = \frac{\partial^2 z}{\partial x} $$
+$$\LARGE \text{And Where: } \quad \frac{\partial \left( \frac{\partial z}{\partial x} \right)}{\partial y} == \frac{\partial}{\partial y} (\frac{\partial z}{\partial x}) = \frac{\partial^2 z}{\partial x \partial y} $$
 
 $$\LARGE \text{Simplify: } \quad \frac{\partial}{\partial s} \left( \frac{\partial z}{\partial x} \right) = \frac{\partial ^2 z}{\partial x^2} \cdot \textcolor{violet}{2} + \frac{\partial^2 z}{\partial x \partial y} \cdot \textcolor{lightgreen}{3}$$
+$$\LARGE \textcolor{yellow}{\frac{\partial}{\partial s} \left( \frac{\partial z}{\partial x} \right)} = \textcolor{violet}{2} \frac{\partial ^2 z}{\partial x^2} +  \textcolor{lightgreen}{3} \frac{\partial^2 z}{\partial x \partial y}$$
+$$\LARGE \text{Therefore, }\quad \textcolor{violet}{2}\textcolor{yellow}{\frac{\partial}{\partial s} \left( \frac{\partial z}{\partial x} \right)} = \textcolor{violet}{2}\left(\textcolor{violet}{2} \frac{\partial ^2 z}{\partial x^2} +  \textcolor{lightgreen}{3} \frac{\partial^2 z}{\partial x \partial y}\right)$$
 
 ![[Pasted image 20240827065615.png]]
 $$\LARGE \text{Differentiating $\LARGE \frac{\partial z}{\partial y}$​ with respect to $s$: }$$
-$$\LARGE {\frac{\partial}{\partial s} }\left( \frac{\partial z}{\partial y} \right) = \frac{\partial \left( \frac{\partial z}{\partial y} \right)}{\partial x} \cdot \textcolor{violet}{\frac{\partial x}{\partial s}} + \frac{\partial \left( \frac{\partial z}{\partial y} \right)}{\partial y} \cdot \textcolor{lightgreen}{\frac{\partial y}{\partial s}}$$
-$$\LARGE \text{Substitute known Partials: } \quad \frac{\partial}{\partial s} \left( \frac{\partial z}{\partial y} \right) = \frac{\partial \left( \frac{\partial z}{\partial y} \right)}{\partial x} \cdot \textcolor{violet}{2} + \frac{\partial \left( \frac{\partial z}{\partial y} \right)}{\partial y} \cdot \textcolor{lightgreen}{3}$$
+$$\LARGE \frac{\partial^2 z}{\partial s^2}  = \textcolor{violet}{2} \frac{\partial}{\partial s} \left(\frac{\partial z}{\partial x}\right) + \textcolor{lightgreen}{3} \textcolor{yellow}{\frac{\partial}{\partial s}  \left( \frac{\partial z}{\partial y}\right)}$$
+$$\LARGE \textcolor{yellow}{\frac{\partial}{\partial s} \left( \frac{\partial z}{\partial y} \right)} = \frac{\partial \left( \frac{\partial z}{\partial y} \right)}{\partial x} \cdot \textcolor{violet}{\frac{\partial x}{\partial s}} + \frac{\partial \left( \frac{\partial z}{\partial y} \right)}{\partial y} \cdot \textcolor{lightgreen}{\frac{\partial y}{\partial s}}$$
+$$\LARGE \text{Substitute known Partials: } \quad \textcolor{yellow}{\frac{\partial}{\partial s} \left( \frac{\partial z}{\partial y} \right)} = \frac{\partial \left( \frac{\partial z}{\partial y} \right)}{\partial x} \cdot \textcolor{violet}{2} + \frac{\partial \left( \frac{\partial z}{\partial y} \right)}{\partial y} \cdot \textcolor{lightgreen}{3}$$
 $$\LARGE \text{Simplifying: } \quad \frac{\partial \left( \frac{\partial z}{\partial y} \right)}{\partial x} == \frac{\partial}{\partial x} (\frac{\partial z}{\partial y}) = \frac{\partial^2 z}{\partial y \partial x} $$
 $$\LARGE \text{And Simplifing: } \quad \frac{\partial \left( \frac{\partial z}{\partial y} \right)}{\partial y} == \frac{\partial}{\partial y} (\frac{\partial z}{\partial y}) = \frac{\partial^2 z}{\partial y^2} $$
 
-$$\LARGE \text{Simplify: } \quad \frac{\partial}{\partial s} \left( \frac{\partial z}{\partial y} \right) = \frac{\partial ^2 z}{\partial y \partial x} \cdot \textcolor{violet}{2} + \frac{\partial^2 z}{\partial y^2} \cdot \textcolor{lightgreen}{3}$$
+$$\LARGE \text{Simplify: } \quad \textcolor{yellow}{\frac{\partial}{\partial s} \left( \frac{\partial z}{\partial y} \right)} = \frac{\partial ^2 z}{\partial y \partial x} \cdot \textcolor{violet}{2} + \frac{\partial^2 z}{\partial y^2} \cdot \textcolor{lightgreen}{3}$$
+$$\LARGE \textcolor{yellow}{\frac{\partial}{\partial s} \left( \frac{\partial z}{\partial y} \right)}= \textcolor{violet}{2} \frac{\partial ^2 z}{\partial y \partial x} +  \textcolor{lightgreen}{3}\frac{\partial^2 z}{\partial y^2}$$
+$$\LARGE \text{Therefore, } \quad \textcolor{lightgreen}{3}\textcolor{yellow}{\frac{\partial}{\partial s} \left( \frac{\partial z}{\partial y} \right)}= \textcolor{lightgreen}{3}\left(\textcolor{violet}{2} \frac{\partial ^2 z}{\partial y \partial x} +  \textcolor{lightgreen}{3}\frac{\partial^2 z}{\partial y^2}\right)$$
+###### C. Substitute These Expressions into the Equation for $\LARGE \frac{\partial^2 z}{\partial s^2}$ 
+
 ![[Pasted image 20240827065943.png]]
 If the Second Order Partial Derivatives of the $f$ are Continuous, then can use the Schwartz Theorem.
 	Which means like terms can be combined.
 ![[Pasted image 20240827070202.png]]
 $$\LARGE \text{The Second Order Derivative } \quad \frac{\partial^2 z}{\partial s^2} = 4\frac{\partial^z}{\partial x^2} + 12\frac{\partial^2 z}{\partial x \partial y} + 9\frac{\partial^2 z}{\partial y^2}$$
 ###### C. Obtain the [[#Second Order Partial Derivatives|Second Order Partial Derivatives]] of $x,y$ with Respect to $t$
-$$\LARGE \frac{\partial^2 z}{\partial t^2}, \space \text{Second Order Partial Derivative of } \frac{\partial z}{\partial t} = 3 \frac{\partial z}{\partial x} - 2 \frac{\partial z}{\partial y}$$
+$$\large \text{The First Order Derivative wrt t of the Composite Function is: }$$
+$$\LARGE \textcolor{teal}{\frac{\partial z}{\partial t}} = \frac{\partial z}{\partial x} \cdot \textcolor{violet}{\frac{\partial x}{\partial t}} + \frac{\partial z}{\partial y} \cdot \textcolor{lightgreen}{\frac{\partial y}{\partial t}} = \textcolor{violet}{3}\frac{\partial z}{\partial x} + \textcolor{lightgreen}{-2} \frac{\partial z}{\partial y}$$
+$$\LARGE \frac{\partial^2 z}{\partial t^2}, \space \text{Second Order Partial Derivative of } \textcolor{teal}{\frac{\partial z}{\partial t}} = \textcolor{violet}{3} \frac{\partial z}{\partial x} \textcolor{lightgreen}{- 2} \frac{\partial z}{\partial y}$$
 ![[Pasted image 20240827130350.png|400]]
+To differentiate $\LARGE \frac{\partial z}{\partial x}$​ and $\LARGE \frac{\partial z}{\partial y}$​ with respect to $t$, we need to apply the chain rule again:
+$$\LARGE \text{Differentiating $\LARGE \frac{\partial z}{\partial x}$​ with respect to $t$: }$$
+$$\LARGE {\frac{\partial}{\partial t} }\left( \frac{\partial z}{\partial x} \right) = \frac{\partial \left( \frac{\partial z}{\partial x} \right)}{\partial x} \cdot \textcolor{violet}{\frac{\partial x}{\partial t}} + \frac{\partial \left( \frac{\partial z}{\partial x} \right)}{\partial y} \cdot \textcolor{lightgreen}{\frac{\partial y}{\partial t}}$$
+$$\LARGE \text{Substitute known Partials: } \quad \frac{\partial}{\partial t} \left( \frac{\partial z}{\partial x} \right) = \frac{\partial \left( \frac{\partial z}{\partial x} \right)}{\partial x} \cdot \textcolor{violet}{3} + \frac{\partial \left( \frac{\partial z}{\partial x} \right)}{\partial y} \cdot \textcolor{lightgreen}{-2}$$
+$$\LARGE \text{Simplifying: } \quad \frac{\partial \left( \frac{\partial z}{\partial x} \right)}{\partial x} == \frac{\partial}{\partial x} (\frac{\partial z}{\partial x}) = \frac{\partial^2 z}{\partial x} $$
+$$\LARGE \text{And Simplifing: } \quad \frac{\partial \left( \frac{\partial z}{\partial x} \right)}{\partial y} == \frac{\partial}{\partial y} (\frac{\partial z}{\partial x}) = \frac{\partial^2 z}{\partial x \partial y} $$
+
+$$\LARGE \text{Simplify: } \quad \frac{\partial}{\partial t} \left( \frac{\partial z}{\partial x} \right) = \frac{\partial ^2 z}{\partial x^2} \cdot \textcolor{violet}{3} + \frac{\partial^2 z}{\partial x \partial y} \cdot \textcolor{lightgreen}{-2}$$
 ## Matrix Transformations Derived from Variant 4
 The matrix transformation equation involving transformations between different $\LARGE \mathbb{R}^n$ spaces is essentially a generalization of this concept of Variant 4.
 	In multivariable calculus, when you perform a change of variables, the derivative of the composed function is given by the product of the gradients (or derivatives) and the Jacobian matrices, as shown in Variant 4.
