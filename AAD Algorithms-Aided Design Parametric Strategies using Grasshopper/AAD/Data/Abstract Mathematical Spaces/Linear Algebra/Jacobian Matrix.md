@@ -4,6 +4,8 @@ It is a matrix of all first-order partial derivatives of a vector-valued functio
 		The Jacobian matrix describes how a function transforms small changes in input variables into changes in output variables, essentially providing the best linear approximation to the function at a given point.
 			In the context of [[Mapping#A Transformation as a Subset of Multi-Variable Composite Functions Composite Functions ($1 1$, $m 1$)|transformations]] and chain rules, it acts as the bridge between different coordinate systems, enabling the calculation of derivatives in transformed coordinates.
 
+*Remember, a [[Gradients|Gradient]] is a vector of the all first order partial derivatives of a Scalar Function.*
+
 The multi-variable (i.e. several-variable) counterpart of the first [[Derivatives|derivative]], generally.
 	This is, it is the [[Multi-Variable Composite Functions|derivative of a composite function that takes multiple variables]].
 		For [[Mapping#Higher-Level Functions (i.e. Composite Functions) Higher-Level Functions|Vector-Valued Functions]] due to the [[Abstract Mathematical Spaces#Vector Spaces and $ mathbb{R} n$|multi-variable nature]].

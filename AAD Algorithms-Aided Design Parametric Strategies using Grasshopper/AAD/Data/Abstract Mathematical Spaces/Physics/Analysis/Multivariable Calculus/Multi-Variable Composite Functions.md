@@ -1,6 +1,25 @@
 # Derivatives of Multi-Variable Composite Functions
 *See [[Mapping#A Composite Function as a Subset of Functions|Composite Functions]] for more information about Composite Functions.*
-	*See [[Derivatives#Multi-Variable Composite Functions Chain Rule of Single Variable Functions]|Chain Rule For Single Variable Functions]].* 
+	*See [[Derivatives#Multi-Variable Composite Functions Chain Rule of Single Variable Functions]|Chain Rule For Single Variable Functions]].*
+
+*Remember: The [[Derivatives#Notation|Notation of First Order Derivatives]] (Single Variable*) = $\LARGE \frac{d}{dt}$
+	$\LARGE \frac{d}{dt}$ of a function $\LARGE f(t) = t^2+1$ is equivalent to $\LARGE \frac{d}{dt}f(t) == \frac{df}{dt} == \frac{d}{dt}t^2+1$
+### Notation for First-Order Partial Derivatives:
+1. **General notation:**
+   $\LARGE \frac{\partial}{\partial s}$
+2. **Applied to a function ($\LARGE z = f(x(s, t), y(s, t))$):**
+   $\LARGE \frac{\partial z}{\partial s} = \frac{\partial f}{\partial s}$
+3. **Chain rule application to ($\LARGE x(s, t)$):**
+   $\LARGE \frac{\partial}{\partial s} f(x(s, t)) = \frac{\partial f}{\partial x} \cdot \frac{\partial x}{\partial s}$
+4. **For a specific function ($\LARGE x(s, t) = s + 2t$):**
+   $\LARGE \frac{\partial}{\partial s} (s + 2t)$
+### Notation for Second-Order Partial Derivatives:
+1. **General notation:**
+   $\LARGE \frac{\partial^2}{\partial s^2}$
+2. **Applied to a function ($\LARGE z = f(x(s, t), y(s, t))$):**
+   $\LARGE \frac{\partial^2 z}{\partial s^2} = \frac{\partial}{\partial s} \left( \frac{\partial z}{\partial s} \right)$
+3. **Chain rule application to the second derivative:**
+   $\LARGE \frac{\partial^2}{\partial s^2} f(x(s, t)) = \frac{\partial}{\partial s} \left( \frac{\partial f}{\partial x} \cdot \frac{\partial x}{\partial s} \right)$
 ### First Order Partial Derivatives
 First-order partial derivatives measure the rate of change of a function with respect to one of its input variables, while holding the other variables constant.
 
@@ -362,27 +381,44 @@ I.e. the First Order Derivative of the First Order Derivative.
 ###### A. Obtain the [[#Second Order Partial Derivatives|Second Order Partial Derivatives]] of $x,y$ with Respect to $s$
 $$\LARGE \text{Second Order Derivatives: } \quad \frac{\partial^2 f}{\partial x_i^2} = \frac{\partial}{\partial x_i} \left( \frac{\partial f}{\partial x_i} \right)$$
 $$\LARGE \text{Where } x_i \text{ is a component of the Vector }x=[x_1,x_2,\dots,x_i]$$
+$$\large \text{Where } \quad \nabla z = \begin{pmatrix}\frac{\partial z}{\partial x} \\ \frac{\partial z}{\partial y} \end{pmatrix}$$
+$$\text{And } \quad\large D\Phi = \begin{pmatrix}\textcolor{violet}{\frac{\partial x}{\partial s} = 2 \quad \frac{\partial x}{\partial t} = 3} \\ \textcolor{lightgreen}{\quad \frac{\partial y}{\partial s} = 3 \quad \frac{\partial y}{\partial t} = - 2}\end{pmatrix}$$
+$$\LARGE \textcolor{orange}{\frac{\partial z}{\partial s}} = \nabla z \cdot D\Phi$$
+$$\large \textcolor{orange}{\frac{\partial z}{\partial s}} = \frac{\partial z}{\partial x} \cdot \textcolor{violet}{\frac{\partial x}{\partial s}} + \frac{\partial z}{\partial y} \cdot \textcolor{lightgreen}{\frac{\partial y}{\partial s}} = \textcolor{violet}{2}\frac{\partial z}{\partial x} + \textcolor{lightgreen}{3} \frac{\partial z}{\partial y}$$
+$$\LARGE \frac{\partial^2 z}{\partial s^2} = \frac{\partial}{\partial s} \left( \frac{\partial z}{\partial x} \cdot \textcolor{violet}{\frac{\partial x}{\partial s}} + \frac{\partial z}{\partial y} \cdot \textcolor{lightgreen}{\frac{\partial y}{\partial s}} \right)$$
 $$\large \frac{\partial^2 z}{\partial s^2} = \frac{\partial}{\partial s}\left( \textcolor{orange}{\frac{\partial z}{\partial s}}\right), \space \text{Second Order Partial Derivative of } \textcolor{orange}{\frac{\partial z}{\partial s}} = \textcolor{violet}{2}\frac{\partial z}{\partial x} + \textcolor{lightgreen}{3} \frac{\partial z}{\partial y}$$
+$$\LARGE \text{Substitute the expression, } \textcolor{violet}{2}\frac{\partial z}{\partial x} + \textcolor{lightgreen}{3} \frac{\partial z}{\partial y}, \text{ for } \textcolor{orange}{\frac{\partial z}{\partial s}}$$
 $$\LARGE \frac{\partial^2 z}{\partial s^2} = {\frac{\partial}{\partial s} }\left( \textcolor{orange}{\frac{\partial z}{\partial s}} \right) = {\frac{\partial}{\partial s} }\left(\textcolor{violet}{2}\frac{\partial z}{\partial x} + \textcolor{lightgreen}{3} \frac{\partial z}{\partial y}\right)$$
+$$\LARGE \text{Distribute } \frac{\partial}{\partial s} \text{ to Expand the Equation:}$$
 $$\LARGE = \textcolor{violet}{2} \frac{\partial}{\partial s} \left(\frac{\partial z}{\partial x}\right) + \textcolor{lightgreen}{3} \frac{\partial}{\partial s}  \left( \frac{\partial z}{\partial y}\right)$$
 ![[Pasted image 20240827064744.png|400]]
-###### B. Applying the Chain Rule Again
+###### B. Applying the Chain Rule Again (i.e. Taking the Partial Derivative of the Partial Derivative of z wrt s)
+$$\LARGE \quad \frac{\partial^2 z}{\partial s^2} = \frac{\partial}{\partial s}\left( \textcolor{orange}{\frac{\partial z}{\partial s}}\right)$$
+$$\large \text{Remember, } \quad \textcolor{orange}{\frac{\partial z}{\partial s}} = \frac{\partial z}{\partial x} \cdot \textcolor{violet}{\frac{\partial x}{\partial s}} + \frac{\partial z}{\partial y} \cdot \textcolor{lightgreen}{\frac{\partial y}{\partial s}} = \textcolor{violet}{2}\frac{\partial z}{\partial x} + \textcolor{lightgreen}{3} \frac{\partial z}{\partial y}$$
+$$\LARGE \text{And }\quad \frac{\partial^2 z}{\partial s^2} = \frac{\partial}{\partial s} \left( \frac{\partial z}{\partial x} \cdot \textcolor{violet}{\frac{\partial x}{\partial s}} + \frac{\partial z}{\partial y} \cdot \textcolor{lightgreen}{\frac{\partial y}{\partial s}} \right)$$
+$$\LARGE \text{Substitute the expression, } \textcolor{violet}{2}\frac{\partial z}{\partial x} + \textcolor{lightgreen}{3} \frac{\partial z}{\partial y}, \text{ for } \textcolor{orange}{\frac{\partial z}{\partial s}}$$
+$$\LARGE \frac{\partial^2 z}{\partial s^2} = {\frac{\partial}{\partial s} }\left( \textcolor{orange}{\frac{\partial z}{\partial s}} \right) = {\frac{\partial}{\partial s} }\left(\textcolor{violet}{2}\frac{\partial z}{\partial x} + \textcolor{lightgreen}{3} \frac{\partial z}{\partial y}\right)$$
+$$\large \text{And} \left(\frac{\partial}{\partial s}\right) \text{ has been distributed:}$$
 $$\LARGE \frac{\partial^2 z}{\partial s^2}  = \textcolor{violet}{2} \textcolor{yellow}{\frac{\partial}{\partial s} \left(\frac{\partial z}{\partial x}\right)} + \textcolor{lightgreen}{3} \frac{\partial}{\partial s}  \left( \frac{\partial z}{\partial y}\right)$$
-To differentiate $\LARGE \frac{\partial z}{\partial x}$​ and $\LARGE \frac{\partial z}{\partial y}$​ with respect to $s$, we need to apply the chain rule again:
-$$\LARGE \text{Differentiating $\LARGE \frac{\partial z}{\partial x}$​ with respect to $s$: }$$
+Differentiate $\LARGE \frac{\partial z}{\partial x}$​ and $\LARGE \frac{\partial z}{\partial y}$​ with respect to $s$, so apply the chain rule **again**:
+	*Remember that we already differentiated $\LARGE \frac{\partial z}{\partial x} \cdot \textcolor{violet}{\frac{\partial x}{\partial s}}$  as a component of $\LARGE \frac{\partial z}{\partial s}$*.
+		Now we are doing it again, to get the Second Order Partial Derivative of $\LARGE \frac{\partial z}{\partial s}$ which is $\LARGE \frac{\partial^2 z}{\partial s^2}$.
+$$\LARGE \text{\textcolor{yellow}{Differentiating $\LARGE \frac{\partial z}{\partial x}$​ with respect to $s$} = } \textcolor{yellow}{\frac{\partial}{\partial s} \left( \frac{\partial z}{\partial x} \right)} $$
 $$\LARGE  \textcolor{yellow}{\frac{\partial}{\partial s} \left( \frac{\partial z}{\partial x} \right)} = \frac{\partial \left( \frac{\partial z}{\partial x} \right)}{\partial x} \cdot \textcolor{violet}{\frac{\partial x}{\partial s}} + \frac{\partial \left( \frac{\partial z}{\partial x} \right)}{\partial y} \cdot \textcolor{lightgreen}{\frac{\partial y}{\partial s}}$$
-$$\LARGE \text{Substitute known Partials: } \quad \textcolor{yellow}{\frac{\partial}{\partial s} \left( \frac{\partial z}{\partial x} \right)} = \frac{\partial \left( \frac{\partial z}{\partial x} \right)}{\partial x} \cdot \textcolor{violet}{2} + \frac{\partial \left( \frac{\partial z}{\partial x} \right)}{\partial y} \cdot \textcolor{lightgreen}{3}$$
-$$\LARGE \text{Where: } \quad \frac{\partial \left( \frac{\partial z}{\partial x} \right)}{\partial x} == \frac{\partial}{\partial x} (\frac{\partial z}{\partial x}) = \frac{\partial^2 z}{\partial x} $$
-$$\LARGE \text{And Where: } \quad \frac{\partial \left( \frac{\partial z}{\partial x} \right)}{\partial y} == \frac{\partial}{\partial y} (\frac{\partial z}{\partial x}) = \frac{\partial^2 z}{\partial x \partial y} $$
+$$\LARGE \text{Where: } \quad \frac{\partial \left( \frac{\partial z}{\partial x} \right)}{\partial x} == \frac{\partial}{\partial x} \left(\frac{\partial z}{\partial x}\right), \quad \text{and }\quad \frac{\partial \left( \frac{\partial z}{\partial x} \right)}{\partial y}  =\space \frac{\partial}{\partial x} \left(\frac{\partial z}{\partial y}\right) $$
+$$\large \text{Substitute known Partials: } \quad \textcolor{yellow}{\frac{\partial}{\partial s} \left( \frac{\partial z}{\partial x} \right)} = \frac{\partial}{\partial x} \left(\frac{\partial z}{\partial x}\right) \cdot \textcolor{violet}{2} + \frac{\partial}{\partial x} \left(\frac{\partial z}{\partial y}\right)\cdot \textcolor{lightgreen}{3}$$
+$$\LARGE \text{Where: } \quad \frac{\partial \left( \frac{\partial z}{\partial x} \right)}{\partial x} == \frac{\partial}{\partial x} \left(\frac{\partial z}{\partial x}\right) = \frac{\partial^2 z}{\partial x} $$
+$$\LARGE \text{And Where: } \quad \frac{\partial \left( \frac{\partial z}{\partial x} \right)}{\partial y} == \frac{\partial}{\partial y} \left(\frac{\partial z}{\partial x}\right) = \frac{\partial^2 z}{\partial x \partial y} $$
 
 $$\LARGE \text{Simplify: } \quad \frac{\partial}{\partial s} \left( \frac{\partial z}{\partial x} \right) = \frac{\partial ^2 z}{\partial x^2} \cdot \textcolor{violet}{2} + \frac{\partial^2 z}{\partial x \partial y} \cdot \textcolor{lightgreen}{3}$$
 $$\LARGE \textcolor{yellow}{\frac{\partial}{\partial s} \left( \frac{\partial z}{\partial x} \right)} = \textcolor{violet}{2} \frac{\partial ^2 z}{\partial x^2} +  \textcolor{lightgreen}{3} \frac{\partial^2 z}{\partial x \partial y}$$
-$$\LARGE \text{Therefore, }\quad \textcolor{violet}{2}\textcolor{yellow}{\frac{\partial}{\partial s} \left( \frac{\partial z}{\partial x} \right)} = \textcolor{violet}{2}\left(\textcolor{violet}{2} \frac{\partial ^2 z}{\partial x^2} +  \textcolor{lightgreen}{3} \frac{\partial^2 z}{\partial x \partial y}\right)$$
-
+$$\LARGE \text{Reinsert } \textcolor{yellow}{\frac{\partial}{\partial s} \left( \frac{\partial z}{\partial x} \right)} \text{ back into } \frac{\partial^2 z}{\partial s^2}  = \textcolor{violet}{2} \textcolor{yellow}{\frac{\partial}{\partial s} \left(\frac{\partial z}{\partial x}\right)} + \textcolor{lightgreen}{3} \frac{\partial}{\partial s}  \left( \frac{\partial z}{\partial y}\right)$$
+$$\LARGE =\frac{\partial^2 z}{\partial s^2}  = \textcolor{violet}{2} \left(\textcolor{violet}{2} \frac{\partial ^2 z}{\partial x^2} +  \textcolor{lightgreen}{3} \frac{\partial^2 z}{\partial x \partial y}\right)+ \textcolor{lightgreen}{3} \frac{\partial}{\partial s}  \left( \frac{\partial z}{\partial y}\right)$$
 ![[Pasted image 20240827065615.png]]
-$$\LARGE \text{Differentiating $\LARGE \frac{\partial z}{\partial y}$​ with respect to $s$: }$$
-$$\LARGE \frac{\partial^2 z}{\partial s^2}  = \textcolor{violet}{2} \frac{\partial}{\partial s} \left(\frac{\partial z}{\partial x}\right) + \textcolor{lightgreen}{3} \textcolor{yellow}{\frac{\partial}{\partial s}  \left( \frac{\partial z}{\partial y}\right)}$$
+$$\LARGE \text{\textcolor{yellow}{Differentiating $\LARGE \frac{\partial z}{\partial y}$​ with respect to $s$} = } \textcolor{yellow}{\frac{\partial}{\partial s} \left( \frac{\partial z}{\partial y} \right)} $$
+$$\LARGE \frac{\partial^2 z}{\partial s^2}  = \textcolor{violet}{2} \left(\textcolor{violet}{2} \frac{\partial ^2 z}{\partial x^2} +  \textcolor{lightgreen}{3} \frac{\partial^2 z}{\partial x \partial y}\right)+ \textcolor{lightgreen}{3} \textcolor{yellow}{\frac{\partial}{\partial s}  \left( \frac{\partial z}{\partial y}\right)}$$
 $$\LARGE \textcolor{yellow}{\frac{\partial}{\partial s} \left( \frac{\partial z}{\partial y} \right)} = \frac{\partial \left( \frac{\partial z}{\partial y} \right)}{\partial x} \cdot \textcolor{violet}{\frac{\partial x}{\partial s}} + \frac{\partial \left( \frac{\partial z}{\partial y} \right)}{\partial y} \cdot \textcolor{lightgreen}{\frac{\partial y}{\partial s}}$$
+$$\LARGE \text{Where: } \quad \frac{\partial \left( \frac{\partial z}{\partial y} \right)}{\partial x} == \frac{\partial}{\partial x} \left(\frac{\partial z}{\partial x}\right), \quad \text{and }\quad \frac{\partial \left( \frac{\partial z}{\partial x} \right)}{\partial y}  =\space \frac{\partial}{\partial x} \left(\frac{\partial z}{\partial y}\right) $$
 $$\LARGE \text{Substitute known Partials: } \quad \textcolor{yellow}{\frac{\partial}{\partial s} \left( \frac{\partial z}{\partial y} \right)} = \frac{\partial \left( \frac{\partial z}{\partial y} \right)}{\partial x} \cdot \textcolor{violet}{2} + \frac{\partial \left( \frac{\partial z}{\partial y} \right)}{\partial y} \cdot \textcolor{lightgreen}{3}$$
 $$\LARGE \text{Simplifying: } \quad \frac{\partial \left( \frac{\partial z}{\partial y} \right)}{\partial x} == \frac{\partial}{\partial x} (\frac{\partial z}{\partial y}) = \frac{\partial^2 z}{\partial y \partial x} $$
 $$\LARGE \text{And Simplifing: } \quad \frac{\partial \left( \frac{\partial z}{\partial y} \right)}{\partial y} == \frac{\partial}{\partial y} (\frac{\partial z}{\partial y}) = \frac{\partial^2 z}{\partial y^2} $$
