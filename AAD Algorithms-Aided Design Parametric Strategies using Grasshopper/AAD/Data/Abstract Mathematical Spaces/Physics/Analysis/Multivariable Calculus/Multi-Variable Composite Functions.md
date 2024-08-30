@@ -4,23 +4,7 @@
 
 *Remember: The [[Derivatives#Notation|Notation of First Order Derivatives]] (Single Variable*) = $\LARGE \frac{d}{dt}$
 	$\LARGE \frac{d}{dt}$ of a function $\LARGE f(t) = t^2+1$ is equivalent to $\LARGE \frac{d}{dt}f(t) == \frac{df}{dt} == \frac{d}{dt}t^2+1$
-### Notation for First-Order Partial Derivatives:
-1. **General notation:**
-   $\LARGE \frac{\partial}{\partial s}$
-2. **Applied to a function ($\LARGE z = f(x(s, t), y(s, t))$):**
-   $\LARGE \frac{\partial z}{\partial s} = \frac{\partial f}{\partial s}$
-3. **Chain rule application to ($\LARGE x(s, t)$):**
-   $\LARGE \frac{\partial}{\partial s} f(x(s, t)) = \frac{\partial f}{\partial x} \cdot \frac{\partial x}{\partial s}$
-4. **For a specific function ($\LARGE x(s, t) = s + 2t$):**
-   $\LARGE \frac{\partial}{\partial s} (s + 2t)$
-### Notation for Second-Order Partial Derivatives:
-1. **General notation:**
-   $\LARGE \frac{\partial^2}{\partial s^2}$
-2. **Applied to a function ($\LARGE z = f(x(s, t), y(s, t))$):**
-   $\LARGE \frac{\partial^2 z}{\partial s^2} = \frac{\partial}{\partial s} \left( \frac{\partial z}{\partial s} \right)$
-3. **Chain rule application to the second derivative:**
-   $\LARGE \frac{\partial^2}{\partial s^2} f(x(s, t)) = \frac{\partial}{\partial s} \left( \frac{\partial f}{\partial x} \cdot \frac{\partial x}{\partial s} \right)$
-### First Order Partial Derivatives
+## First Order Partial Derivatives
 First-order partial derivatives measure the rate of change of a function with respect to one of its input variables, while holding the other variables constant.
 
 For a scalar-valued function $\LARGE f(x_1, x_2, \dots, x_n)$, the first-order partial derivative with respect to $\LARGE x_i$​ is denoted by:
@@ -38,6 +22,21 @@ This expression shows that the **first-order derivatives** of the composite func
 ##### First Order Partial Derivatives Relationship to Composite Functions
 These arise when you differentiate a composite function with respect to one of the original variables. 
 	The chain rule tells you how the derivative of the composite function is distributed across the intermediate functions (e.g., $u(x,y)$ and $v(x)$.
+### Notation for First-Order Partial Derivatives
+##### For a function $z = f(x, y)$, where $x$ and $y$ are variables:
+1. **General notation**: 
+	This notation represents the **differentiation operator**.
+		 It indicates that you are going to take the derivative with respect to $x$, but it does not specify the function you are differentiating.
+$$\LARGE \frac{\partial}{\partial x}$$ 2. **Applied to the function $z = f(x, y)$**: 
+$$\LARGE \frac{\partial z}{\partial x}$$ 3. **Equivalent notations**: 
+$$\LARGE \frac{\partial}{\partial x}f(x, y) \equiv \frac{\partial f}{\partial x} \equiv \frac{\partial}{\partial x} \cdot f \equiv \frac{\partial}{\partial x}z \equiv \frac{\partial z}{\partial x}$$ 4. **Example with a specific function**: If $f(x, y) = x^2 + y$, then: 
+$$\LARGE \frac{\partial}{\partial x}f(x, y) \equiv \frac{\partial f}{\partial x} \equiv \frac{\partial}{\partial x}(x^2 + y) = 2x$$
+5 . **Applied to a function ($\LARGE z = f(x(s, t), y(s, t))$):**
+$$\LARGE \frac{\partial z}{\partial s} = \frac{\partial f}{\partial s}$$
+6 . **Chain rule application to ($\LARGE x(s, t)$):**
+$$\LARGE \frac{\partial}{\partial s} f(x(s, t)) = \frac{\partial f}{\partial x} \cdot \frac{\partial x}{\partial s}$$
+7 . **For a specific function ($x(s, t) = s + 2t$):**
+$$\LARGE \frac{\partial}{\partial s} (s + 2t)$$
 ### Second Order Partial Derivatives
 Are the derivatives of the first order of the derivative of the first order.
 	Second-order partial derivatives measure the rate of change of the first-order partial derivatives. They provide information about the curvature of the function and are denoted as:
@@ -49,8 +48,20 @@ Second-order partial derivatives can also be mixed derivatives, where you take t
 $$\LARGE \frac{\partial^2 f}{\partial x_i \partial x_j}$$
 In the context of **composite functions**, second-order derivatives arise when you take the derivative of the first-order derivative. 
 	The chain rule for second-order derivatives becomes more complex, involving not just the second-order partial derivatives of the intermediate variables, but also the product of first-order derivatives.
-
-##### **$\LARGE \frac{\partial^2 t}{\partial t}$​** is saying: "Take the derivative of $z$ with respect to $t$, and then do it again."
+### Notation for Second-Order Partial Derivatives
+##### For the same function $z = f(x, y)$:
+1. **General notation**:    
+	This notation represents the **differentiation operator**.
+		 It indicates that you are going to take the derivative with respect to $x$, but it does not specify the function you are differentiating.
+$$\LARGE \frac{\partial^2}{\partial x^2}$$  2. **Applied to the function $z = f(x, y)$**:
+$$\LARGE \frac{\partial^2 z}{\partial x^2}$$  3. **Equivalent notations**:    
+$$\LARGE \frac{\partial^2}{\partial x^2}f(x, y) \equiv \frac{\partial^2 f}{\partial x^2} \equiv \frac{\partial^2}{\partial x^2}z \equiv \frac{\partial^2 z}{\partial x^2}$$
+4 . **Applied to a function ($\LARGE z = f(x(s, t), y(s, t))$):**
+$$\LARGE \frac{\partial^2 z}{\partial s^2} = \frac{\partial}{\partial s} \left( \frac{\partial z}{\partial s} \right)$$
+$$\frac{\partial}{\partial s} \left( \frac{\partial z}{\partial s} \right) \text{means "take the partial derivative with respect to $s$ of the first derivative"} \frac{\partial z}{\partial x}$$
+5 . **Chain rule application to the second derivative:**
+$$\LARGE \frac{\partial^2}{\partial s^2} f(x(s, t)) = \frac{\partial}{\partial s} \left( \frac{\partial f}{\partial x} \cdot \frac{\partial x}{\partial s} \right)$$
+##### **$\LARGE \frac{\partial^2 t}{\partial t^2}$​** is saying: "Take the derivative of $z$ with respect to $t$, and then do it again."
 First, take the partial derivative of $z$ with respect to $t$, which gives $\LARGE \frac{\partial z}{\partial t}$.
 	Then, take the partial derivative of $\LARGE \frac{\partial z}{\partial t}$​ with respect to $t$ again, which gives $\LARGE \frac{\partial^2 z}{\partial t^2}$.
 		So, $\LARGE \frac{\partial^2 z}{\partial t^2}$ represents the **second-order partial derivative** of $z$ with respect to $t$. 
@@ -64,7 +75,7 @@ This expression​ does **not** represent the second-order partial derivative of
 These come into play when you take the derivative of the first-order derivatives.
 	For composite functions, the second-order derivatives involve applying both the product rule and the chain rule, leading to more complex expressions that account for the curvature of the function in the transformed space.
 ## The First Order Derivatives of [[Mapping#A Composite Function as a Subset of Functions|Composite Functions]]
-The derivative of a composite function in the context of multivariable calculus is dependent on the **first-order partial derivatives** of the inner functions.
+The derivative of a composite function in the context of multivariable calculus is dependent on the **first-order non-partial derivatives** of the inner functions.
 $$\LARGE f \circ g \circ h: \mathbb{R} \xrightarrow{h}\mathbb{R} \xrightarrow{g}  \mathbb{R} \xrightarrow{f} \mathbb{R}$$
 $$\LARGE \frac{d}{dx}f(g(h(x))) = \frac{d}{dg(h(x))}f(g(h(x))) \cdot \frac{d}{dh(x)}g(h(x)) \cdot \frac{d}{dx}h(x)$$
 $$\LARGE ==  f'(g(h(x)) \cdot g'(h(x)) \cdot h'(x)$$
@@ -73,13 +84,39 @@ A composite function is formed when one function is applied after another.
 	Mathematically, if you have two functions $\LARGE f: \mathbb{R}^m \to \mathbb{R}^k$ and $\LARGE \Phi: \mathbb{R}^n \to \mathbb{R}^m$, their composition $\LARGE f \circ \Phi$ is defined as:
 $$\LARGE (f \circ \Phi)(\mathbf{s}) = f(\Phi(\mathbf{s}))$$
 		where you first apply the transformation $\Phi$ to the input $\mathbf{s}$, and then apply the function $f$ to the result.
-#### Transformations as Composite Functions
-###### Direct Transformations
+## Transformations as Composite Functions
+A **transformation** is a function that explicitly describes a mapping from one space to another. It is typically represented as $\LARGE \mathbb{R}^m \to \mathbb{R}^n$, where f maps inputs from an $m$-dimensional space ($\mathbb{R}^m$) to an $n$-dimensional space ($\LARGE \mathbb{R}^n$).
+
+The term "transformation" is generally used when the focus is on the mapping between spaces and how that mapping changes the structure, coordinates, or geometry.
+	"Composite function," on the other hand, emphasizes the process of combining functions. 
+		The term "transformation" is more specific and often associated with the idea of changing or mapping spaces, while "composite function" is broader and refers to the combination of any functions, whether or not they explicitly map between spaces.
+
+**Overlap**: $\large \textcolor{yellow}{\text{When a composite function is used to map between spaces, it is also a transformation.}}$
+#### Direct Transformations
+This transformation is a simple function that directly maps between spaces, and **no composition with another transformation is involved.**
+
 If you have a transformation like 
 $$\LARGE \Phi(s,t) = \begin{pmatrix} x(s,t) \\ y(s,t) \end{pmatrix}$$
-This is a function from $\mathbb{R}^2$ (with variables $s$ and $t$) to $\mathbb{R}^2$ (with variables $x$ and $y$). 
+This is a transformation (i.e. composite function) from $\mathbb{R}^2$ (with variables $s$ and $t$) to $\mathbb{R}^2$ (with variables $x$ and $y$). 
 	This transformation by itself can be thought of as a function that directly maps between spaces.
-##### Composite Transformations
+
+$$\LARGE \Phi(s,t) = \begin{pmatrix} x(s,t) \\ y(s,t)  \\ z(s,t) \end{pmatrix}$$
+This is a transformation (i.e. composite function) from $\mathbb{R}^2$ (with variables $s$ and $t$) to $\mathbb{R}^3$ (with variables $x$ and $y$ and $z$). 
+	This transformation by itself can be thought of as a function that directly maps between spaces.
+#### Composite Transformations
+Refers to transformations (which are specific types of functions) that are composed of other transformations.
+	I.e. Combining transformations.
+
+A **composite transformation** occurs when two or more transformations are applied sequentially, where the output of one transformation becomes the input of the next. 
+	Mathematically, if you have two transformations 
+$$\LARGE \Phi: \mathbb{R}^n \to \mathbb{R}^m \text{ and } \Psi: \mathbb{R}^m \to \mathbb{R}^k$$
+	Then their composition $\LARGE \Psi \circ \Phi$ is defined as: 
+$$\LARGE (\Psi \circ \Phi)(\mathbf{s}) = \Psi(\Phi(\mathbf{s}))$$
+This means you first apply the transformation $\LARGE \Phi$ to the input $\LARGE \mathbf{s}$ and $\LARGE \mathbf{s}$ , and then apply the transformation $\LARGE \Psi$ to the result of $\LARGE \Phi(\mathbf{s,t})$.
+
+When you're dealing with a transformation like $\LARGE \Phi(s, t) = (x(s,t), y(s,t))$ and then apply a function $f(x,y)$ to the result, you're effectively dealing with a composite function, where the function $f$ is composed with the transformation $\Phi$.
+	The partial derivatives you calculate in this context (whether you call them derivatives of composite functions or composite transformations) are derived using the chain rule, reflecting the dependence on the intermediate variables.
+
 If you combine transformations, or if your function is expressed in terms of other functions (like coordinate transformations), this can often be modeled as a composition of functions. 
 	For instance, if you have a physical quantity $f$ that depends on coordinates $(x, y)$, but you express $(x, y)$ as functions of $(s, t)$, the overall function $f$ is a composition of the transformation $\Phi(s,t)$ and the original function $f(x,y)$:
 $$\LARGE \mathbb{R}^2 \xrightarrow{\Phi} \mathbb{R}^2 \xrightarrow{f} \mathbb{R}$$
@@ -97,18 +134,28 @@ $$ \LARGE = \textcolor{yellow}{\frac{d}{dx}(\ln (\sin x^2))} = \textcolor{red}{\
 In this case there are three functions which are composed with each other.
 	And the chain rule gives a product of three derivatives, the most outer one, the most inner one, and all the functions in between. 
 ## Chain Rule for Multi-Variable Composite Functions
+The chain rule in multivariable calculus tells us that when we take the derivative of a function that depends on multiple variables, we must account for how each of those variables changes.
+	Specifically, when you differentiate $\LARGE \frac{\partial z}{\partial x}$​ with respect to $s$, you need to account for how $\LARGE \frac{\partial z}{\partial x}$​ changes with respect to $x$ (which itself depends on $s$) and with respect to $y$ (which also depends on $s$).
+
 The chain rule is used to compute the derivative of the composite function with respect to the outer variables (e.g., $x$, $y$).
 	The chain rule tells us that to compute the derivative of the composite function with respect to an outer variable (e.g., $x$), you need to account for all the paths through which $x$ influences the final function $f$.
 		This involves:
 			The **first-order partial derivatives** of the outer function $f$ with respect to the intermediate variables (e.g., $u$ and $v$).
 				And the **first-order partial derivatives** of the inner functions $u$ and $v$ with respect to the outer variables (e.g., $x$).
-##### How it Works
+### First-Order Partial Derivative Chain Rule
 Suppose $\LARGE f(u(x,y),v(x,y))$ is a composite function. 
 	The derivative of $f$ with respect to $x$ is given by: 
 $$\LARGE \frac{\partial f}{\partial x} = \frac{\partial f}{\partial u} \cdot \frac{\partial u}{\partial x} + \frac{\partial f}{\partial v} \cdot \frac{\partial v}{\partial x}$$
 
 Here, $\LARGE \frac{\partial f}{\partial u}$​ and $\LARGE \frac{\partial f}{\partial v}$​ are the **first-order partial derivatives** of the outer function $f$.
 $\LARGE \frac{\partial u}{\partial x}$​ and $\LARGE \frac{\partial v}{\partial x}$​ are the **first-order partial derivatives** of the inner functions $u$ and $v$.
+### Second-Order Partial Derivative Chain Rule
+Suppose $\LARGE f(u(x,y),v(x,y))$ is a composite function.
+The second-order partial derivative of $f$ with respect to $x$ is given by:
+$$\large \frac{\partial^2 f}{\partial x^2} = \frac{\partial^2 f}{\partial u^2} \left(\frac{\partial u}{\partial x}\right)^2 + 2 \cdot \frac{\partial^2 f}{\partial u \partial v} \cdot \frac{\partial u}{\partial x} \cdot \frac{\partial v}{\partial x} + \frac{\partial^2 f}{\partial v^2} \left(\frac{\partial v}{\partial x}\right)^2 + \frac{\partial f}{\partial u} \cdot \frac{\partial^2 u}{\partial x^2} + \frac{\partial f}{\partial v} \cdot \frac{\partial^2 v}{\partial x^2}$$
+
+Here, $\LARGE \frac{\partial^2 f}{\partial u^2}$, $\LARGE \frac{\partial^2 f}{\partial v^2}$, and $\LARGE \frac{\partial^2 f}{\partial u \partial v}$ are the **second-order partial derivatives** of the outer function $f$.
+$\LARGE \frac{\partial u}{\partial x}$​, $\LARGE \frac{\partial v}{\partial x}$, and their second derivatives $\LARGE \frac{\partial^2 u}{\partial x^2}$, $\LARGE \frac{\partial^2 v}{\partial x^2}$ are the **first and second-order partial derivatives** of the inner functions $u$ and $v$.
 ## Notation of the Four Variants of the Chain Rule for Multi-Variable Functions
 Remember there is a single derivative for Single Variable Functions.
 	And there are $n$ number of partial derivatives for $n$ Variable Functions.
@@ -392,7 +439,8 @@ $$\LARGE \frac{\partial^2 z}{\partial s^2} = {\frac{\partial}{\partial s} }\left
 $$\LARGE \text{Distribute } \frac{\partial}{\partial s} \text{ to Expand the Equation:}$$
 $$\LARGE = \textcolor{violet}{2} \frac{\partial}{\partial s} \left(\frac{\partial z}{\partial x}\right) + \textcolor{lightgreen}{3} \frac{\partial}{\partial s}  \left( \frac{\partial z}{\partial y}\right)$$
 ![[Pasted image 20240827064744.png|400]]
-###### B. Applying the Chain Rule Again (i.e. Taking the Partial Derivative of the Partial Derivative of z wrt s)
+###### B. Applying the Chain Rule Again (i.e. Taking the Partial Derivative of the Partial Derivative of z wrt s), $\LARGE \frac{\partial}{\partial s} \left( \frac{\partial z}{\partial x} \right)$
+$$\LARGE \text{The 1st Order Chain Rule: }\quad \frac{\partial z}{\partial \textcolor{red}{s}} = \frac{\partial z}{\partial \textcolor{orange}{x}} \cdot \frac{\partial \textcolor{orange}{x}}{\partial \textcolor{red}{s}} + \frac{\partial z}{\partial \textcolor{violet}{y}} \cdot \frac{\partial \textcolor{violet}{y}}{\partial \textcolor{red}{s}}$$
 $$\LARGE \quad \frac{\partial^2 z}{\partial s^2} = \frac{\partial}{\partial s}\left( \textcolor{orange}{\frac{\partial z}{\partial s}}\right)$$
 $$\large \text{Remember, } \quad \textcolor{orange}{\frac{\partial z}{\partial s}} = \frac{\partial z}{\partial x} \cdot \textcolor{violet}{\frac{\partial x}{\partial s}} + \frac{\partial z}{\partial y} \cdot \textcolor{lightgreen}{\frac{\partial y}{\partial s}} = \textcolor{violet}{2}\frac{\partial z}{\partial x} + \textcolor{lightgreen}{3} \frac{\partial z}{\partial y}$$
 $$\LARGE \text{And }\quad \frac{\partial^2 z}{\partial s^2} = \frac{\partial}{\partial s} \left( \frac{\partial z}{\partial x} \cdot \textcolor{violet}{\frac{\partial x}{\partial s}} + \frac{\partial z}{\partial y} \cdot \textcolor{lightgreen}{\frac{\partial y}{\partial s}} \right)$$
@@ -400,12 +448,17 @@ $$\LARGE \text{Substitute the expression, } \textcolor{violet}{2}\frac{\partial 
 $$\LARGE \frac{\partial^2 z}{\partial s^2} = {\frac{\partial}{\partial s} }\left( \textcolor{orange}{\frac{\partial z}{\partial s}} \right) = {\frac{\partial}{\partial s} }\left(\textcolor{violet}{2}\frac{\partial z}{\partial x} + \textcolor{lightgreen}{3} \frac{\partial z}{\partial y}\right)$$
 $$\large \text{And} \left(\frac{\partial}{\partial s}\right) \text{ has been distributed:}$$
 $$\LARGE \frac{\partial^2 z}{\partial s^2}  = \textcolor{violet}{2} \textcolor{yellow}{\frac{\partial}{\partial s} \left(\frac{\partial z}{\partial x}\right)} + \textcolor{lightgreen}{3} \frac{\partial}{\partial s}  \left( \frac{\partial z}{\partial y}\right)$$
-Differentiate $\LARGE \frac{\partial z}{\partial x}$​ and $\LARGE \frac{\partial z}{\partial y}$​ with respect to $s$, so apply the chain rule **again**:
+$$\LARGE \text{\textcolor{yellow}{Differentiating $\LARGE \frac{\partial z}{\partial x}$​ with respect to $s$} = } \textcolor{yellow}{\frac{\partial}{\partial s} \left( \frac{\partial z}{\partial x} \right)} $$
+Differentiate $\LARGE \frac{\partial z}{\partial x}$​ and $\LARGE \frac{\partial z}{\partial y}$​ with respect to $s$, so **apply the chain rule again, to** $\LARGE \frac{\partial}{\partial s}\left( \frac{\partial z}{\partial x} \right)$
 	*Remember that we already differentiated $\LARGE \frac{\partial z}{\partial x} \cdot \textcolor{violet}{\frac{\partial x}{\partial s}}$  as a component of $\LARGE \frac{\partial z}{\partial s}$*.
 		Now we are doing it again, to get the Second Order Partial Derivative of $\LARGE \frac{\partial z}{\partial s}$ which is $\LARGE \frac{\partial^2 z}{\partial s^2}$.
-$$\LARGE \text{\textcolor{yellow}{Differentiating $\LARGE \frac{\partial z}{\partial x}$​ with respect to $s$} = } \textcolor{yellow}{\frac{\partial}{\partial s} \left( \frac{\partial z}{\partial x} \right)} $$
-$$\LARGE  \textcolor{yellow}{\frac{\partial}{\partial s} \left( \frac{\partial z}{\partial x} \right)} = \frac{\partial \left( \frac{\partial z}{\partial x} \right)}{\partial x} \cdot \textcolor{violet}{\frac{\partial x}{\partial s}} + \frac{\partial \left( \frac{\partial z}{\partial x} \right)}{\partial y} \cdot \textcolor{lightgreen}{\frac{\partial y}{\partial s}}$$
+$$\LARGE \text{The 2nd Order Chain Rule: } \textcolor{yellow}{\frac{\partial}{\partial s} \left( \frac{\partial z}{\partial x} \right)} = \frac{\partial \left( \frac{\partial z}{\partial x} \right)}{\partial x} \cdot \textcolor{violet}{\frac{\partial x}{\partial s}} + \frac{\partial \left( \frac{\partial z}{\partial x} \right)}{\partial y} \cdot \textcolor{lightgreen}{\frac{\partial y}{\partial s}}$$
 $$\LARGE \text{Where: } \quad \frac{\partial \left( \frac{\partial z}{\partial x} \right)}{\partial x} == \frac{\partial}{\partial x} \left(\frac{\partial z}{\partial x}\right), \quad \text{and }\quad \frac{\partial \left( \frac{\partial z}{\partial x} \right)}{\partial y}  =\space \frac{\partial}{\partial x} \left(\frac{\partial z}{\partial y}\right) $$
+##### Why $\LARGE \frac{\partial \left( \frac{\partial z}{\partial x} \right)}{\partial x}$ and $\LARGE \frac{\partial \left( \frac{\partial z}{\partial x} \right)}{\partial x}$ Appears
+This term appears because you are applying the chain rule to the partial derivative $\LARGE \frac{\partial z}{\partial x}$ with respect to another variable $s$.
+	The chain rule in multivariable calculus tells us that when we take the derivative of a function that depends on multiple variables, we must account for how each of those variables changes.
+		The term $\LARGE \frac{\partial \left( \frac{\partial z}{\partial x} \right)}{\partial x}​$​ in the second-order derivative is analogous to the term $\LARGE \frac{\partial z}{\partial x}​$ in the first-order chain rule, which itself represents how $z$ changes with respect to $x$. 
+			The term $\LARGE \frac{\partial \left( \frac{\partial z}{\partial x} \right)}{\partial x}​$ represents how $\LARGE \frac{\partial z}{\partial x}$​ changes with respect to $x$ as $s$ changes.
 $$\large \text{Substitute known Partials: } \quad \textcolor{yellow}{\frac{\partial}{\partial s} \left( \frac{\partial z}{\partial x} \right)} = \frac{\partial}{\partial x} \left(\frac{\partial z}{\partial x}\right) \cdot \textcolor{violet}{2} + \frac{\partial}{\partial x} \left(\frac{\partial z}{\partial y}\right)\cdot \textcolor{lightgreen}{3}$$
 $$\LARGE \text{Where: } \quad \frac{\partial \left( \frac{\partial z}{\partial x} \right)}{\partial x} == \frac{\partial}{\partial x} \left(\frac{\partial z}{\partial x}\right) = \frac{\partial^2 z}{\partial x} $$
 $$\LARGE \text{And Where: } \quad \frac{\partial \left( \frac{\partial z}{\partial x} \right)}{\partial y} == \frac{\partial}{\partial y} \left(\frac{\partial z}{\partial x}\right) = \frac{\partial^2 z}{\partial x \partial y} $$
@@ -416,13 +469,21 @@ $$\LARGE \text{Reinsert } \textcolor{yellow}{\frac{\partial}{\partial s} \left( 
 $$\LARGE =\frac{\partial^2 z}{\partial s^2}  = \textcolor{violet}{2} \left(\textcolor{violet}{2} \frac{\partial ^2 z}{\partial x^2} +  \textcolor{lightgreen}{3} \frac{\partial^2 z}{\partial x \partial y}\right)+ \textcolor{lightgreen}{3} \frac{\partial}{\partial s}  \left( \frac{\partial z}{\partial y}\right)$$
 ![[Pasted image 20240827065615.png]]
 $$\LARGE \text{\textcolor{yellow}{Differentiating $\LARGE \frac{\partial z}{\partial y}$​ with respect to $s$} = } \textcolor{yellow}{\frac{\partial}{\partial s} \left( \frac{\partial z}{\partial y} \right)} $$
-$$\LARGE \frac{\partial^2 z}{\partial s^2}  = \textcolor{violet}{2} \left(\textcolor{violet}{2} \frac{\partial ^2 z}{\partial x^2} +  \textcolor{lightgreen}{3} \frac{\partial^2 z}{\partial x \partial y}\right)+ \textcolor{lightgreen}{3} \textcolor{yellow}{\frac{\partial}{\partial s}  \left( \frac{\partial z}{\partial y}\right)}$$
-$$\LARGE \textcolor{yellow}{\frac{\partial}{\partial s} \left( \frac{\partial z}{\partial y} \right)} = \frac{\partial \left( \frac{\partial z}{\partial y} \right)}{\partial x} \cdot \textcolor{violet}{\frac{\partial x}{\partial s}} + \frac{\partial \left( \frac{\partial z}{\partial y} \right)}{\partial y} \cdot \textcolor{lightgreen}{\frac{\partial y}{\partial s}}$$
-$$\LARGE \text{Where: } \quad \frac{\partial \left( \frac{\partial z}{\partial y} \right)}{\partial x} == \frac{\partial}{\partial x} \left(\frac{\partial z}{\partial x}\right), \quad \text{and }\quad \frac{\partial \left( \frac{\partial z}{\partial x} \right)}{\partial y}  =\space \frac{\partial}{\partial x} \left(\frac{\partial z}{\partial y}\right) $$
-$$\LARGE \text{Substitute known Partials: } \quad \textcolor{yellow}{\frac{\partial}{\partial s} \left( \frac{\partial z}{\partial y} \right)} = \frac{\partial \left( \frac{\partial z}{\partial y} \right)}{\partial x} \cdot \textcolor{violet}{2} + \frac{\partial \left( \frac{\partial z}{\partial y} \right)}{\partial y} \cdot \textcolor{lightgreen}{3}$$
-$$\LARGE \text{Simplifying: } \quad \frac{\partial \left( \frac{\partial z}{\partial y} \right)}{\partial x} == \frac{\partial}{\partial x} (\frac{\partial z}{\partial y}) = \frac{\partial^2 z}{\partial y \partial x} $$
-$$\LARGE \text{And Simplifing: } \quad \frac{\partial \left( \frac{\partial z}{\partial y} \right)}{\partial y} == \frac{\partial}{\partial y} (\frac{\partial z}{\partial y}) = \frac{\partial^2 z}{\partial y^2} $$
+$$\LARGE \text{We have: } \frac{\partial^2 z}{\partial s^2}  = \textcolor{violet}{2} \left(\textcolor{violet}{2} \frac{\partial ^2 z}{\partial x^2} +  \textcolor{lightgreen}{3} \frac{\partial^2 z}{\partial x \partial y}\right)+ \textcolor{lightgreen}{3} \textcolor{yellow}{\frac{\partial}{\partial s}  \left( \frac{\partial z}{\partial y}\right)}$$
+Differentiate $\LARGE \frac{\partial z}{\partial x}$​ and $\LARGE \frac{\partial z}{\partial y}$​ with respect to $s$, so **apply the chain rule again, to** $\LARGE \frac{\partial}{\partial s}\left( \frac{\partial z}{\partial y} \right)$
+	*Remember that we already differentiated $\LARGE \frac{\partial z}{\partial x} \cdot \textcolor{violet}{\frac{\partial y}{\partial s}}$  as a component of $\LARGE \frac{\partial z}{\partial s}$*.
+		Now we are doing it again, to get the Second Order Partial Derivative of $\LARGE \frac{\partial z}{\partial s}$ which is $\LARGE \frac{\partial^2 z}{\partial s^2}$.
+$$\large \text{The 2nd Order Chain Rule: } \textcolor{yellow}{\frac{\partial}{\partial s} \left( \frac{\partial z}{\partial y} \right)} = \frac{\partial \left( \frac{\partial z}{\partial y} \right)}{\partial x} \cdot \textcolor{violet}{\frac{\partial x}{\partial s}} + \frac{\partial \left( \frac{\partial z}{\partial y} \right)}{\partial y} \cdot \textcolor{lightgreen}{\frac{\partial y}{\partial s}}$$
+$$\LARGE \text{Where: } \quad \frac{\partial \left( \frac{\partial z}{\partial y} \right)}{\partial x} == \frac{\partial}{\partial x} \left(\frac{\partial z}{\partial x}\right), \quad \text{and }\quad \frac{\partial \left( \frac{\partial z}{\partial y} \right)}{\partial y}  =\space \frac{\partial}{\partial x} \left(\frac{\partial z}{\partial y}\right) $$
+##### Why $\LARGE \frac{\partial \left( \frac{\partial z}{\partial y} \right)}{\partial x}$ and $\LARGE \frac{\partial \left( \frac{\partial z}{\partial y} \right)}{\partial y}$ Appears
+This term appears because you are applying the chain rule to the partial derivative $\LARGE \frac{\partial z}{\partial y}$ with respect to another variable $s$.
+	The chain rule in multivariable calculus tells us that when we take the derivative of a function that depends on multiple variables, we must account for how each of those variables changes.
+		The term $\LARGE \frac{\partial \left( \frac{\partial z}{\partial y} \right)}{\partial y}​$​ in the second-order derivative is analogous to the term $\LARGE \frac{\partial z}{\partial y}​$ in the first-order chain rule, which itself represents how $z$ changes with respect to $x$. 
+			The term $\LARGE \frac{\partial \left( \frac{\partial z}{\partial y} \right)}{\partial y}​$ represents how $\LARGE \frac{\partial z}{\partial y}$​ changes with respect to $x$ as $s$ changes.
 
+$$\LARGE \text{Substitute known Partials: } \quad \textcolor{yellow}{\frac{\partial}{\partial s} \left( \frac{\partial z}{\partial y} \right)} = \frac{\partial \left( \frac{\partial z}{\partial y} \right)}{\partial x} \cdot \textcolor{violet}{2} + \frac{\partial \left( \frac{\partial z}{\partial y} \right)}{\partial y} \cdot \textcolor{lightgreen}{3}$$
+$$\LARGE \text{Where: } \quad \frac{\partial \left( \frac{\partial z}{\partial y} \right)}{\partial x} == \frac{\partial}{\partial x} (\frac{\partial z}{\partial y}) = \frac{\partial^2 z}{\partial y \partial x} $$
+$$\LARGE \text{And Where: } \quad \frac{\partial \left( \frac{\partial z}{\partial y} \right)}{\partial y} == \frac{\partial}{\partial y} (\frac{\partial z}{\partial y}) = \frac{\partial^2 z}{\partial y^2} $$
 $$\LARGE \text{Simplify: } \quad \textcolor{yellow}{\frac{\partial}{\partial s} \left( \frac{\partial z}{\partial y} \right)} = \frac{\partial ^2 z}{\partial y \partial x} \cdot \textcolor{violet}{2} + \frac{\partial^2 z}{\partial y^2} \cdot \textcolor{lightgreen}{3}$$
 $$\LARGE \textcolor{yellow}{\frac{\partial}{\partial s} \left( \frac{\partial z}{\partial y} \right)}= \textcolor{violet}{2} \frac{\partial ^2 z}{\partial y \partial x} +  \textcolor{lightgreen}{3}\frac{\partial^2 z}{\partial y^2}$$
 $$\LARGE \text{Therefore, } \quad \textcolor{lightgreen}{3}\textcolor{yellow}{\frac{\partial}{\partial s} \left( \frac{\partial z}{\partial y} \right)}= \textcolor{lightgreen}{3}\left(\textcolor{violet}{2} \frac{\partial ^2 z}{\partial y \partial x} +  \textcolor{lightgreen}{3}\frac{\partial^2 z}{\partial y^2}\right)$$

@@ -32,7 +32,19 @@
             }
           },
           {
-            "id": "d16b3e3ee67218c5",
+            "id": "89b5189184663a3e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Multi-Variable Composite Functions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "87e92abdb7bd9f07",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -321,7 +333,7 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "d16b3e3ee67218c5",
+  "active": "89b5189184663a3e",
   "lastOpenFiles": [
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Multi-Variable Composite Functions.md",
