@@ -21,3 +21,5 @@ Curves as Vector Valued Functions.
 ## Curve as the [[Transformations|Transformation]] of an [[Domain|Interval]]
 A one-dimensional object (i.e. an "endlessly thin object").
 	A [[Straight Lines|Line]] *is* a curve.
+
+## [[Curves as Parametric Functions|Curves as Parametric Functions]]
