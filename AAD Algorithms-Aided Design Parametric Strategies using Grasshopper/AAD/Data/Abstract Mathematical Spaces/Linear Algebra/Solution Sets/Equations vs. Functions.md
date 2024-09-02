@@ -163,6 +163,61 @@ The idea of parameters in both parametric functions and equations is deeply inte
 	- Parameters can also appear in equations where they define fixed conditions or constraints.
 		- **Example:** In the equation $y = mx + b$, $m$ and $b$ are parameters that control the slope and y-intercept of the line. 
 			- While $x$ and $y$ are variables that can vary, $m$ and $b$ are treated as constants for a given line but can vary across different lines.
+### Identifying When a Variable Becomes a Parameter
+
+The key to identifying when a variable becomes a parameter lies in understanding its role and context within the equation or function.
+#### Primary Variables:
+- **Definition:** Primary variables are the variables that are directly involved in the relationship or operation defined by an equation or function. These are the variables that you are typically solving for.
+- **Role:** They represent the quantities that change or vary within the context of a problem. In a function, the primary variable is often the input (e.g., $x$ in $f(x)$). In an equation, primary variables are those that you are trying to determine the values of.
+#### Parameters:
+- **Definition:** A parameter is a variable that influences the form, position, or behavior of a function or equation but is not the primary variable you are solving for.
+- **Role:** Parameters are often constants within the context of a specific problem or scenario, but they can vary across different problems. They set conditions or describe a family of solutions rather than being the direct focus of the solution process.
+#### Step 1: Determine the Focus of the Problem
+
+- **Ask:** What are you trying to solve for?
+- If a variable is the main focus—meaning you are trying to find its value—then it is likely a **primary variable**.
+- If a variable is not the main focus and instead serves to define or control certain aspects of the equation or function, it might be a **parameter**.
+
+#### Step 2: Analyze the Role of the Variable
+
+- **Ask:** Is the variable setting a condition, defining a shape, or controlling a family of solutions?
+- If the variable controls how the equation or function behaves or how it looks but is not being directly solved for, then it is a **parameter**.
+- Example: In $y = mx + b$, $m$ and $b$ are parameters because they define the slope and intercept of the line, while $x$ is the primary variable because you input values for $x$ to get corresponding $y$ values.
+
+#### Step 3: Look at the Variable's Flexibility
+
+- **Ask:** Can the variable take on a range of values to describe different scenarios, or is it fixed for a specific case?
+- If the variable is used to describe a range of scenarios or solutions, it is likely a **parameter**.
+- If the variable's value is what you are solving for in a specific instance, it is a **primary variable**.
+
+### 3. Examples to Clarify the Pattern
+
+#### Example 1: Linear Equation
+
+- **Equation:** $y = mx + b$
+    - **Primary Variables:** $x$ and $y$
+    - **Parameters:** $m$ (slope) and $b$ (y-intercept)
+    - **Pattern:** $x$ and $y$ are the primary variables because they represent the inputs and outputs of the function. $m$ and $b$ are parameters because they control the line's slope and position.
+
+#### Example 2: Circle Equation
+
+- **Equation:** $x^2 + y^2 = r^2$
+    - **Primary Variables:** $x$ and $y$
+    - **Parameter:** $r$ (radius)
+    - **Pattern:** $x$ and $y$ are the primary variables because you are finding points $(x, y)$ that satisfy the equation. $r$ is a parameter because it defines the size of the circle but is not the focus of what you’re solving for.
+
+#### Example 3: System of Equations with a Free Variable
+
+- **System:** $x + 2y = 4$
+    - **Primary Variable:** $x$
+    - **Parameter:** $y$ (if treated as a free variable)
+    - **Pattern:** If you solve for $x$ in terms of $y$ ($x = 4 - 2y$), then $y$ becomes a parameter that can vary, describing a family of solutions. $x$ is still a primary variable because it depends directly on the value of $y$.
+
+### 4. Summary of the Pattern
+
+1. **Focus:** If a variable is what you are solving for, it’s a primary variable. If it controls conditions or describes a scenario but is not the focus of the solution, it’s a parameter.
+2. **Role:** If the variable sets a condition or defines a characteristic of the equation or function, it is a parameter.
+3. **Flexibility:** If the variable can take on different values across a range of scenarios or solutions, it is likely a parameter.
 
 - **Linear Systems:**
     - In a system of linear equations, if there are more variables than independent equations (an underdetermined system), some variables may be treated as parameters.
