@@ -1,8 +1,9 @@
 # Curves as Parametric Functions (i.e. [[Mapping#General Vector-Valued Function Notation|Vector-Valued Functions]])
 *[[Curves Theory|Curves can describe many things.]]*
 ![[Pasted image 20240903055710.png]]
-$$\LARGE \vec{r}(t), \quad \text{Where $t$ is a parameter.}$$
-$$\LARGE \vec{r}(t) = [\vec{x}(t), \vec{y}(t), \vec{z}(t)]$$
+$$\LARGE \vec{r}(t), \quad \vec{r}(t) = [x(t),\space y(t),\space z(t)]$$
+$$\LARGE \text{Where $\vec{r}$ is a Vector-Valued Function, and $t$ is a parameter.}$$
+$$\LARGE \text{And $x(t), \space y(t), \space z(t)$ are Component Scalar Functions}$$
 ## $\LARGE t$ as a Parameter
 In the context of the parametric function $\vec{r}(t)$, where $\vec{r}(t)$ is typically a vector-valued function describing a curve or path in space, the variable $t$ is identified as a parameter due to the following characteristics:
 ##### 1. [[Parameters vs. Variables#Step 2 Analyze the Role of the Variable|Role as a Controlled Variable]]
@@ -46,5 +47,4 @@ The **domain** of a function is a subset of $\LARGE X$, that is, the set of the 
 		*Where '\' is notation for "except".*
 
 The **range** of a function is a subset of $\LARGE Y$ where $\LARGE V_f = \{y;\space y = f(x) \text{ for some } x \in D_f\}$
-
 #### For Parametric Curves
