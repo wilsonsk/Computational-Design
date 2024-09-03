@@ -3,7 +3,8 @@
 ![[Pasted image 20240903055710.png]]
 $$\LARGE \vec{r}(t), \quad \vec{r}(t) = [x(t),\space y(t),\space z(t)]$$
 $$\LARGE \text{Where $\vec{r}$ is a Vector-Valued Function, and $t$ is a parameter.}$$
-$$\LARGE \text{And $x(t), \space y(t), \space z(t)$ are Component Scalar Functions}$$
+$$\LARGE \text{And $x(t), \space y(t), \space z(t)$ are Component Scalar Functions, $\mathbb{R}\to \mathbb{R}$} $$
+The Scalars returned by these component scalar functions compose the "points" of the returned vector. 
 ## $\LARGE t$ as a Parameter
 In the context of the parametric function $\vec{r}(t)$, where $\vec{r}(t)$ is typically a vector-valued function describing a curve or path in space, the variable $t$ is identified as a parameter due to the following characteristics:
 ##### 1. [[Parameters vs. Variables#Step 2 Analyze the Role of the Variable|Role as a Controlled Variable]]
@@ -47,4 +48,53 @@ The **domain** of a function is a subset of $\LARGE X$, that is, the set of the 
 		*Where '\' is notation for "except".*
 
 The **range** of a function is a subset of $\LARGE Y$ where $\LARGE V_f = \{y;\space y = f(x) \text{ for some } x \in D_f\}$
-#### For Parametric Curves
+### The Domain of Parametric Curves (i.e. Vector-Valued Functions) is an Interval (i.e. an intersection of the Domains of its Component Scalar Functions)
+The Domain consists of **all** the values of the parameter $t$, for which **all** the component functions are possible to compute. 
+	Each scalar function $\vec{x}(t)$, $\vec{y}(t)$, and $\vec{z}(t)$ may have different domains, but for the vector-valued function $\vec{r}(t)$ to be defined, $t$ must be in the domain of **all** of the component functions.
+		This ensures that $\vec{r}(t)$ is defined only where all of its components are defined.
+		
+Therefore, the Domain of the Vector-Valued Functions is the intersection (i.e. $\LARGE \cap$) of the two or three component scalar functions.
+	The Domain of $\LARGE \vec{r}$ being an intersection of the Domains its corresponding component scalar functions, implies that the Domain of $\LARGE \vec{r}$ is in fact an interval. 
+$$\LARGE D_{\vec{r}} = D_x \space \cap \space D_y \space\cap \space D_z$$
+###### For Example
+$$\LARGE \vec{r} = \left( 2t+1, \frac{\sin t}{t}, \frac{1}{\sqrt{1-t^2}} \right)$$
+$$\LARGE \text{Where }\quad  x(t) = 2t+1, \quad D_x = \mathbb{R}$$
+$$\LARGE y(t) = \frac{\sin t}{t}, \quad D_y = \mathbb{R} \backslash \{0\}$$
+$$\LARGE z(t) = \frac{1}{\sqrt{1-t^2}}, \quad D_z = [-1,1]$$
+$$\LARGE \text{(I.e. $t$ is any value between the interval $-1$ and 1)}$$
+$$\LARGE \text{Therefore, } D_\vec{r} = [-1,0] \space \cup \space [0,1]$$
+### The Domain of $\vec{r}(t)$ as an Intersection of its Component Functions Implies an Interval which is itself a Subset of $\mathbb{R}^1$
+Each component function $x(t)$, $y(t)$, and $z(t)$ has its own domain, denoted by $D_x$, $D_y$, and $D_z$, respectively.
+	The **domain** $D_{\vec{r}}$ of the entire vector-valued function is the set of all values of $t$ where all three component functions are defined. In other words, it is the intersection of $D_x$, $D_y$, and $D_z$.
+		If this intersection is a connected set of real numbers, it is typically represented as an **interval**. 
+			Since an interval is a **subset of $\mathbb{R}^1$**, this indeed implies that the domain $D_{\vec{r}}$ is a subset of $\mathbb{R}$ (the real number line).
+
+The parameter $t$ is a real number, and the domain of $\vec{r}(t)$ is a set of values that $t$ can take where all component functions ($\vec{x}(t), \vec{y}(t), \vec{z}(t)$) are defined.
+	Therefore, the domain of $\vec{r}(t)$ is a subset of $\mathbb{R}^1$, typically an interval like $[a, b]$ or a larger set like $(-\infty, \infty)$, depending on the context.
+#### Implication Breakdown
+##### Intersection of Domains
+$\LARGE D_x \cap D_y \cap D_z$ refers to the set of $t$ values where all component functions $x(t)$, $y(t)$, and $z(t)$ are simultaneously defined.
+##### Interval
+If this set is continuous, it forms an interval, which could be closed, open, or half-open (e.g., $[a, b]$, $(a, b]$, etc.).
+##### Subset
+Any interval is a subset of $\mathbb{R}$, meaning $D_{\vec{r}} \subseteq \mathbb{R}$.
+#### Why an Interval of $\mathbb{R}^1$ rather than all of $\mathbb{R}^1$?
+The domain of a parametric curve is usually an **interval** of $\mathbb{R}^1$ rather than the entire real line $\mathbb{R}^1$, because parametric curves typically describe a **finite path** or trajectory through space. 
+	I.e. **The domain of a parametric curve is an interval of $\mathbb{R}^1$** because the curve is typically only defined or of interest over a specific range of $t$ values, and this range is represented by an interval.
+##### Finite Definition of the Curve
+The parameter $t$ represents a single degree of freedom that controls movement along the curve. 
+	Often, we are only interested in tracing the curve over a specific range of $t$ values, which corresponds to an interval. 
+		For example, in a circle parameterized by $t$:
+$$\LARGE \vec{r}(t) = [\cos(t), \sin(t)] $$
+		  You might restrict $t$ to the interval $[0, 2\pi]$ to describe one full rotation around the circle.
+##### Specific Intervals
+Parametric curves often represent segments or bounded portions of curves. 
+	For example, if you wanted to describe a segment of a line or a part of a curve, you would restrict $t$ to a particular interval, say $[a, b]$. 
+		For instance, if $t \in [0, 1]$, it might represent a specific portion of the curve between two points.
+#### Why not all of $\mathbb{R}^1$?
+##### Infinite Domain
+In some cases, we can extend the domain to be all of $\mathbb{R}^1$ (e.g., $t \in (-\infty, \infty)$), but in many practical cases, we're interested in specific portions of the curve, like a finite arc of a circle, a segment of a line, or a finite motion trajectory.
+	This makes an interval more suitable for describing such cases.
+##### Natural Boundaries
+Some curves or motions inherently have a beginning and an end.
+	For example, if you’re describing a finite-length curve, it makes sense to define the domain of $t$ as an interval, rather than the entire real line.

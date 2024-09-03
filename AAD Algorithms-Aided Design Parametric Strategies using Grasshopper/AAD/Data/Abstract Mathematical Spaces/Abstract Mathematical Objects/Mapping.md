@@ -148,7 +148,91 @@ The range (or image) of a mapping (or function) is the **set of all actual outpu
 
 The range is directly determined by the mapping as it is the actual set of outputs obtained. 
 	The structure of the range is a subset of the codomain, specifically those elements that are realized through the mapping.
+### Equations as Defining Mappings
+Equations are fundamental tools in mathematics that establish specific rules or conditions linking elements from one set (the domain) to elements of another set (the codomain). 
+	In this context, equations define mappings, specifying how elements are associated in a precise and structured manner. 
+		They are essential for translating abstract mathematical relations into concrete and well-defined mappings, forming the backbone of functions, operations, and transformations in various mathematical structures.
+#### Components of an Equation
+##### Variables
+**Definition**
+Variables are symbols representing elements from the domain or codomain of a mapping. 
+	They are the placeholders or inputs to which the equation applies its rule.
+###### Role in Equations
+Variables are central to the definition of a mapping. In the equation $\LARGE y = f(x)$, $x$ is the independent variable representing the input from the domain, while $y$ is the dependent variable representing the output in the codomain.
+	The variable $x$ in the domain is mapped to a specific value of $y$ in the codomain according to the rule defined by the equation $\LARGE y = f(x)$.
+###### Types of Variables
+**Independent Variables**
+The inputs to the function, often denoted by symbols like $x$, $t$, or $\theta$. 
+	These are the variables you control or choose values for, which determine the outcome of the equation.
 
+**Dependent Variables**
+The outputs or results of the function, typically denoted by $y$, $z$, or $f(x)$. 
+	These variables depend on the values of the independent variables.
+##### Parameters
+**Definition**
+Parameters are constants in an equation that define specific characteristics of the mapping but do not vary like the independent variables. 
+	They influence the behavior of the equation but are not the primary inputs.
+
+**Role in Equations**
+Parameters adjust the properties or shape of the mapping defined by the equation without altering the fundamental nature of the relationship between variables.
+	For example, in the linear equation $\LARGE y = mx + b$, $m$ and $b$ are parameters. $m$ represents the slope of the line, and $b$ represents the y-intercept. 
+		These parameters modify how the input variable $x$ is mapped to the output $y$.
+
+**[[Parameters vs. Variables|Parameters vs. Variables]]**
+Unlike variables, parameters are not typically solved for within the context of the equation; they are given or assumed to be constant in a particular scenario. 
+	Variables, on the other hand, are what the equation solves for or evaluates.
+		Parameters allow for the generalization of equations, enabling a single equation to describe a family of mappings or relationships depending on the parameter values.
+##### Constants
+**Definition**
+Constants are specific values in an equation that remain fixed across the domain and codomain. 
+	They can be thought of as parameters with a fixed value.
+
+**Role in Equations**
+Constants help to define the specific nature of the mapping. For instance, in the quadratic equation $\LARGE y = ax^2 + bx + c$, the constants $a$, $b$, and $c$ determine the exact shape and position of the parabola that the equation defines.
+##### Operators and Functions
+**Definition**: Operators are symbols or functions that specify the operations performed on the variables and parameters within an equation.
+###### Types of Operators
+**Arithmetic Operators**
+$+$, $-$, $\times$, $\div$ perform basic mathematical operations.
+
+**Functional Operators**
+These include trigonometric functions (e.g., $\sin$, $\cos$), logarithmic functions (e.g., $\log$), and more complex operators like derivatives (e.g., $\LARGE \frac{d}{dx}$) or integrals.
+
+**Role in Equations**
+	Operators define how the inputs (variables) and parameters interact within the equation. For instance, in the equation $\LARGE y = \sin(x) + 3$, the sine function $\sin(x)$ operates on the variable $x$, determining the output $y$.
+#### Roles and Characteristics of Equations
+##### Defining the Relationship
+Equations articulate the precise relationship between variables within a mapping. 
+	They define how inputs from the domain correspond to outputs in the codomain, thereby creating a structured association between elements of the sets involved.
+##### Imposing Structure on Mappings
+Equations impose specific rules or structures on mappings.
+	They transform a general relation, which might allow multiple associations, into a well-defined mapping where each input corresponds to a particular output, as in the case of functions.
+	    For example, the equation $\LARGE y = x^2$ defines a parabolic mapping from the domain (set of $x$ values) to the codomain (set of $y$ values), imposing a specific quadratic relationship.
+##### Generalization and Specification
+Equations allow for the generalization of mappings through the use of parameters.
+	By varying the parameters, one equation can describe a family of curves, functions, or mappings.
+		For example, the equation $\LARGE y = ax^2 + bx + c$ can describe any parabola in the plane by adjusting the parameters $a$, $b$, and $c$, thus allowing a single form to encapsulate a wide range of specific cases.
+##### Types of Equations
+**Algebraic Equations**
+Involving algebraic expressions, such as polynomials, and characterized by operations of addition, subtraction, multiplication, and division.
+
+**Differential Equations**
+Equations involving derivatives, defining how functions change over an interval, critical in defining dynamic systems.
+
+**Integral Equations**
+Equations involving integrals, often used to describe accumulated quantities or areas under curves.
+
+**Functional Equations**
+Equations where the unknowns are functions rather than simple variables, often used in advanced mathematical contexts such as calculus of variations or dynamic programming.
+#### Equations in the Context of Mathematical Structures
+##### Equations as Mappings in Structured Sets
+Within the framework of structured sets, equations are the formal expressions that define how elements of one set are mapped to elements of another.
+	They determine the structure of the domain and codomain, influencing the behavior and interaction of elements within these sets.
+		For instance, in vector spaces, equations define linear mappings that preserve vector addition and scalar multiplication, shaping the space's structure.
+##### Equations and Composite Functions
+In more complex mappings, particularly in composite functions, equations define the interactions between multiple variables and functions. 
+	For example, in the composition of functions $\LARGE h(x) = g(f(x))$, the equation $h(x)$ is defined through the nested application of the rules specified by $f(x)$ and $g(x)$.
+		This hierarchical structuring through equations allows for the definition of more complex mathematical objects, such as transformations or operators, within higher-dimensional spaces.
 - - -
 ## A Function as a Subset of Mappings ($1 : 1$, $m:1$)
 Special type of relation with a **uniqueness constraint on the association**.
