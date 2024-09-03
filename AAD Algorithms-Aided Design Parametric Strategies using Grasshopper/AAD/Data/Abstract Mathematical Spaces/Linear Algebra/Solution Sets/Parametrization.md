@@ -13,6 +13,9 @@ In the context of the parametric function $\vec{r}(t)$, where $\vec{r}(t)$ is ty
 Means to establish (two or three) component functions ($\LARGE x(t), y(t), z(t)$) of $\LARGE \vec{r}(t), \quad \vec{r}(t) = [x(t),\space y(t),\space z(t)]$.
 ##### Examples of Curves Being Parametrized
 ![[Pasted image 20240903160459.png|400]]
+$$\LARGE \text{The Parametrization: } \quad (x(t), y(t)) = (t, f(t)), \quad t \in [a,b]$$
+You simply define the independent variable $\LARGE x$ equal to the parameter, $\LARGE t$ (i.e. the component function $\LARGE x(t) = t$).
+	Then define make the second component function (i.e. dependent variable) a **function of the parameter $t$** (i.e. the component function $\LARGE y(t) = f(t)$).
 
 ![[Pasted image 20240903160537.png|400]]
 
