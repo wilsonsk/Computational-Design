@@ -56,6 +56,18 @@
             }
           },
           {
+            "id": "f3515013e0b61d59",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Parameters vs. Variables.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "87e92abdb7bd9f07",
             "type": "leaf",
             "state": {
@@ -204,7 +216,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -271,7 +283,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Equations vs. Functions.md",
+                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Curves as Parametric Functions.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -288,7 +300,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Equations vs. Functions.md",
+                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Curves as Parametric Functions.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -311,7 +323,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Equations vs. Functions.md"
+                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Curves as Parametric Functions.md"
               }
             }
           },
@@ -345,16 +357,19 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "89b5189184663a3e",
+  "active": "a0a938715b9e690d",
   "lastOpenFiles": [
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Curves as Parametric Functions.md",
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Mapping.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Equations vs. Functions.md",
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Curves Theory.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Curves as Parametric Functions.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Parameters vs. Variables.md",
+    "Untitled.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Multi-Variable Composite Functions.md",
+    "Pasted image 20240903055710.png",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Curves Theory.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Untitled",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Jacobian Matrix.md",
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Mapping.md",
     "Pasted image 20240827130350.png",
     "images/Pasted image 20240827070202.png",
     "images/Pasted image 20240827065943.png",
@@ -365,7 +380,6 @@
     "images/Pasted image 20240827063645.png",
     "images/Pasted image 20240827060259.png",
     "images/Pasted image 20240827055027.png",
-    "images/Pasted image 20240827054949.png",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Gradients.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Dot Product.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Division.md",
@@ -383,9 +397,7 @@
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Directional Derivatives.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Straight Lines.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Tangent Line.md",
-    "Curves/Curves.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Untitled",
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Domain.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets",
     "Data/ABSTRA~1/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Types of Forces",
     "Data/ABSTRA~1/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Newton's Laws of Motion",
