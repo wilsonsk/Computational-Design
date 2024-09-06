@@ -1,7 +1,14 @@
 # Curves as Parametric Functions (i.e. [[Mapping#General Vector-Valued Function Notation|Vector-Valued Functions]])
 *[[Curves Theory|Curves can describe many things.]]*
-![[Pasted image 20240903055710.png]]
-$$\LARGE \vec{r}(t), \quad \vec{r}(t) = [x(t),\space y(t),\space z(t)]$$
+![[Pasted image 20240906071943.png]]
+$$\LARGE \vec{r}(t) : [0,1] \to \mathbb{R}^3, \quad \vec{r}(t) = [x(t)\textcolor{red}{,}\space y(t)\textcolor{red}{,}\space z(t)], \quad x,y,z : [0,1] \to \mathbb{R} $$
+$$\LARGE \equiv \mathbf{r}(t) = (x(t)\textcolor{red}{,}\space y(t)\textcolor{red}{,}\space z(t))$$
+$$\LARGE \equiv \text{A linear Combo of Std. Unit Vectors: }\quad \vec{r}(t) = x(t)\vec{i} \textcolor{red}{+} y(t)\vec{j} \textcolor{red}{+} z(t)\vec{k} $$
+$$\LARGE \equiv \text{A linear Combo of Std. Unit Vectors: }\quad\mathbf{r}(t) = x(t)\mathbf{i} \textcolor{red}{+} y(t)\mathbf{j} \textcolor{red}{+} z(t)\mathbf{k}$$
+$$\text{Where } \quad \vec{i} = \mathbf{i} = (1,0,0), \quad \vec{j} = \mathbf{j} = (0,1,0), \quad \vec{k} = \mathbf{k} = (0,0,1)$$
+$$\text{And where each component function scaled by a std. unit vector is another vector}$$
+$$\quad x(t)\mathbf{i} = ( x(t), 0, 0), \quad y(t)\mathbf{j} = (0, y(t), 0), \quad z(t)\mathbf{k} = (0,0,z(t)) $$
+$$\LARGE \implies \textcolor{red}{\neq} \cancel{\mathbf{r}(t) = \textcolor{red}{(}x(t)\mathbf{i}, y(t)\mathbf{j},z(t)\mathbf{k}\textcolor{red}{)}}$$
 $$\LARGE \text{Where $\vec{r}$ is a Vector-Valued Function, and $t$ is a parameter.}$$
 $$\LARGE \text{And $x(t), \space y(t), \space z(t)$ are Component Scalar Functions, $\mathbb{R}\to \mathbb{R}$} $$
 The Scalars returned by these component scalar functions compose the "points" of the returned vector. 
@@ -98,3 +105,5 @@ In some cases, we can extend the domain to be all of $\mathbb{R}^1$ (e.g., $t \i
 ##### Natural Boundaries
 Some curves or motions inherently have a beginning and an end.
 	For example, if you’re describing a finite-length curve, it makes sense to define the domain of $t$ as an interval, rather than the entire real line.
+
+## How to [[Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Parametrization|Parametrize]] a Curve

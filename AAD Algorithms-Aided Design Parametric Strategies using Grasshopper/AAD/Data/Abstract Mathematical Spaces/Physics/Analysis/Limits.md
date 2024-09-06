@@ -21,7 +21,7 @@ They represent the rate of change of a function at a specific point.
 	Instantaneous Rate of Change (i.e. Slope of the Tangent Line).
 
 The derivative of a function $f(x)$ at a specific point $x = a$ is defined using the limit: 
-$$\LARGE $f'(a) = \lim_{{h \to 0}} \frac{f(a+h) - f(a)}{h}$$​
+$$\LARGE f'(a) = \lim_{{h \to 0}} \frac{f(a+h) - f(a)}{h}$$​
 This expression represents the instantaneous rate of change of the function at the specific point $x = a$. 
 	It tells us the slope of the tangent line to the function at that point.
 ### Vs. [[Derivatives#Derivative as a Function|Derivative as a Function]]

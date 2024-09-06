@@ -4,6 +4,9 @@
 
 *Remember: The [[Derivatives#Notation|Notation of First Order Derivatives]] (Single Variable*) = $\LARGE \frac{d}{dt}$
 	$\LARGE \frac{d}{dt}$ of a function $\LARGE f(t) = t^2+1$ is equivalent to $\LARGE \frac{d}{dt}f(t) == \frac{df}{dt} == \frac{d}{dt}t^2+1$
+## Component-wise Decomposition
+Where the limit, continuity and derivatives of multi-variable functions (i.e. vector-valued functions) are all calculated **component-wise**.
+	That is, from the [[Mapping#Fundamental Functions (i.e. Base-Level Functions) Lower-Level Functions|component functions]] (i.e. scalar functions) up to the [[Mapping#Higher-Level Functions (i.e. Composite Functions)|higher level functions]].
 ## First Order Partial Derivatives
 First-order partial derivatives measure the rate of change of a function with respect to one of its input variables, while holding the other variables constant.
 

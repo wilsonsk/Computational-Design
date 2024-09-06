@@ -149,6 +149,8 @@ $$\LARGE y=kx$$
 - $y$ is the dependent variable.
 - $x$ is the independent variable.
 - $k$ is the constant of proportionality.
+
+The constant of proportionality is a [[Parameters vs. Variables|parameter]].
 ### Linear Proportional Relationships (i.e. Direct Proportion)
 Two quantities $x$ and $y$ are directly proportional if they change at the same rate, and this relationship can be expressed as:
 $$\LARGE y = kx$$

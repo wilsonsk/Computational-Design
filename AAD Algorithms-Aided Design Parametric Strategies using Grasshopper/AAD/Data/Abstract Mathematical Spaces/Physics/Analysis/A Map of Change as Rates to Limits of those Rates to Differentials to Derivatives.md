@@ -242,9 +242,10 @@ $$\LARGE \lim_{h \to 0} \frac{f(x+h) - f(x)}{h} = f'(x) =\frac{dy}{dx}$$
 $$\LARGE \text{Differential y} =  dy = \lim_{h \to 0}​(f(x+h)−f(x))$$
 $$\LARGE \text{Differential x} = dx = \lim_{h \to 0}(h)$$
 ##### Differential Form
-$$\LARGE dy = \frac{dy}{dx}$$
+$$\LARGE dy = \frac{dy}{dx}dx, \quad \text{Where } \frac{dy}{dx}= f'(x)$$
+$$\LARGE \text{Therfore, } \quad dy = \frac{dy}{dx}dx = f'(x)dx$$
 $$\text{And}$$
-$$\LARGE dx = \frac{dy}{(\frac{dy}{dx})}$$
+$$\LARGE dx = \frac{dy}{(\frac{dy}{dx})} = \frac{dy}{f'(x)}$$
 $$\LARGE == dy = f'(x) \, dx \space \text{and} \space dx = \frac{dy}{f'(x)}$$
 *This is similar to the Slope, $m$ of the Secant Line*
 $$\LARGE m = \frac{\Delta y}{\Delta x}$$

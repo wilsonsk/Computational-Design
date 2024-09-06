@@ -66,7 +66,7 @@ If $a$ scales, the number of $b$-sized groups also scales proportionally.
 ##### Inverse Understanding
 The inverse, $\frac{b}{a} = \frac{1}{k}$, indicates the fraction of the total $a$ that each group $b$ represents.
 	For $\frac{b}{a} = \frac{1}{k}$, each group of $b$ is $\frac{1}{k}$ of the total $a$.
-##### Constant of Direct Proportionality is a Constant Ratio ($\LARGE k$)
+##### [[Proportion#The Constant of Proportionality|Constant of Direct Proportionality]] is a Constant Ratio ($\LARGE k$)
 $$\LARGE a = kb$$
 This ratio compares the values of $a$ and $b$ directly.
 	The ratio $\frac{a}{b} = k$ is maintained regardless of the actual values of $a$ and $b$, showing the constant relationship between them.
@@ -75,6 +75,7 @@ This ratio compares the values of $a$ and $b$ directly.
 The constant of proportionality, $k$ can be a ratio or a rate.
 	The constant is specifically the constant of proportionality, and it directly links $a$ and $b$ without any offset.
 
+The constant of proportionality is a [[Parameters vs. Variables|parameter]].
 - - -
 ## Division as Distribution 
 Division distributes the total quantity a into equal parts of size b. 
