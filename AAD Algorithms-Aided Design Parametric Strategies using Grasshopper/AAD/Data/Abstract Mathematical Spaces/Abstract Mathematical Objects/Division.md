@@ -5,6 +5,11 @@ related:
 date created: 2024-05-31
 ---
 # Division
+$$\LARGE y = mx, \quad \frac{y}{x} = m$$
+Ultimately "division" is a **constant** (of [[Proportion|proportionality]]), which means it is a type of [[Parameters vs. Variables|parameter]] and therefore, a quotient or [[Ratio|ratio]] is actually a constant **scalar**, $\LARGE m$.
+	In many scenarios, **parameters** like $m$ are set **first** as governing constants or rules, and then the relationship between variables like $x$ and $y$ flows from that.
+- - -
+
 Can be thought of as simply the amount of one quantity of a "thing" that is associated with a separate quantity of another "thing".
 	I.e.  A ratio:
 		A ratio is a mathematical expression that compares two quantities, showing the relative size of one quantity in relation to the other.

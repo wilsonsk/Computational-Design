@@ -1,4 +1,80 @@
 # Ratio
+### 2. **Ratio as a _Parameter_**
+
+Here’s where things get interesting: when you think of a ratio as a parameter, you’re elevating it from being a mere "result" of a division to something _active_, like a dial you can tune. This "dial" adjusts the relationship between two values. If you think about different systems where a parameter defines behavior — like in physics with constants of proportionality (e.g., Hooke’s Law, F=kxF = kxF=kx) or even in financial models (where interest rates define growth) — the parameter acts like a rule that defines the relationship's intensity, but it doesn’t act independently. It only exists _because_ of the relationship between xxx and yyy.
+
+Think of this: mmm, the parameter, is like a bridge that adjusts how two quantities are connected. This isn’t just passive. It governs how tightly or loosely these quantities are linked, creating a direct cause-effect channel between them. It turns two independent scalars into a _system_.
+
+### 3. **Division as a Binding Relationship**
+
+What if, instead of thinking of division merely as an operation, you thought of it as a **relationship-generating process**? Division (or a ratio) introduces a _dynamic relationship_ between the two values. In essence, the ratio becomes a **lens** through which you see how one variable scales or changes relative to the other. It is an abstraction that compresses the interaction between two entities into a single value — like a snapshot of their relationship at a given moment.
+
+Take a more abstract example. Let’s say you have two abstract entities in a geometric space, say a point at (x1,y1)(x_1, y_1)(x1​,y1​) and another at (x2,y2)(x_2, y_2)(x2​,y2​). The "division" or ratio between their coordinates isn’t just a mathematical result but defines **a gradient**, a direction or slope that describes how one point changes relative to the other in the space. This parameter (like a slope) now becomes a _directive_, telling you how the two points relate not just spatially, but _relationally_.
+
+### 4. **The Ratio as a _Link_ Between Two Realms**
+
+Here’s an analogy that might give you that "aha" moment:
+
+Imagine you’re standing between two worlds. On one side, you have xxx (one scalar), and on the other side, you have yyy (another scalar). The ratio, mmm, is like a portal or _thread_ connecting them. It governs the flow of energy, influence, or change between these two worlds. If mmm is large, then a small change in xxx causes a large change in yyy. If mmm is small, the connection between the two worlds is more subtle, and changes in one world only slightly affect the other. In this way, mmm is more than just a constant — it’s the _fabric_ that ties these two different quantities together.
+
+### 5. **Ratios as Dimensions of Change**
+
+In physics, ratios often represent fundamental constants that govern how quantities interact. For instance, velocity is a ratio of distance over time. But here’s the insight: that ratio is also the parameter that _links_ the concept of motion through space and time. You can’t have velocity without both distance and time, but velocity _itself_ isn't either of those things. It’s a higher-level descriptor, a **relational dimension** that arises _only because_ distance and time are in conversation with each other.
+
+When you think about it this way, the ratio becomes a _new dimension_ in which the two quantities can interact. It’s a rule that they follow, a constraint they obey. And that’s why it’s so powerful.
+
+### 6. **Ratios in Parametric Design**
+
+Lastly, if we extend this thinking to parametric design, the ratio is **the very essence of parametric control**. When designing forms or spaces, ratios between dimensions (length, width, height) don’t just define the shape, they _bind_ its elements together. Change one parameter, and the whole form adapts — the ratio here is more than a static measurement; it becomes the **generator** of relationships that create dynamic, evolving systems.
+
+### 1. **What is a Parameter?**
+
+In the most general sense, a **parameter** is a variable that defines a system or influences the behavior of a system but isn't necessarily one of the primary variables being studied. It’s something you can adjust, and it will change the behavior or outcome of the system. Parameters are like the "settings" you can tweak in a model.
+
+For example, in the equation y=mxy = mxy=mx, mmm is a parameter because it controls the relationship between xxx and yyy. If you change mmm, you change how yyy responds to changes in xxx, but you don’t necessarily change xxx or yyy directly. You are adjusting the way those two variables are connected.
+
+### 2. **The Dependency of the Parameter**
+
+Here’s the key thing that’s confusing you (and it’s subtle): you’re absolutely right that the parameter mmm is often _derived_ from the relationship between xxx and yyy. In that sense, it’s **dependent** on xxx and yyy. If you rearrange the equation y=mxy = mxy=mx, you get:
+
+m=yxm = \frac{y}{x}m=xy​
+
+So, mmm is indeed determined by the values of yyy and xxx. This makes it feel like mmm is not an independent player in the equation but more of a result of their interaction.
+
+However, in the context of how we usually talk about parameters in equations, **once** mmm is defined, it becomes a **fixed relationship** that governs how yyy and xxx relate. In other words, while you can use xxx and yyy to _calculate_ mmm, you can also think of mmm as the thing that describes _how_ yyy will scale with xxx, or vice versa.
+
+### 3. **Why Parameters Still Matter**
+
+Think of parameters as part of a _model_. Once you know mmm, it acts as a _constant_ that controls the relationship between xxx and yyy. It no longer fluctuates as xxx or yyy changes (unless you explicitly change mmm). So while mmm was **derived** from xxx and yyy, it now acts as a governing rule between them. This is why parameters like mmm are still considered critical in systems — they dictate behavior even though their value may come from the relationship between other variables.
+
+### 4. **Parameters vs. Descriptive Relationships**
+
+Now, you raised a great point: mmm might feel more like a **descriptive relationship** rather than a true "independent" parameter. This is because it’s describing how xxx and yyy relate in that specific scenario. However, in many systems, parameters work exactly like this. They describe a fixed relationship between variables, and their **role** is to set the structure of how those variables interact.
+
+It might help to look at a different example:
+
+In a physics equation like Hooke’s Law:
+
+F=kxF = kxF=kx
+
+Here, kkk is a **parameter** that describes the stiffness of a spring. Once we know the value of kkk, it _binds_ FFF and xxx together. Yes, you could calculate kkk if you know FFF and xxx, but once you _have_ kkk, it doesn’t change unless you move to a different spring. kkk is now governing the relationship between the force and the displacement, even though it was derived from an initial situation.
+
+### 5. **Understanding Parameters as Governing Relationships**
+
+So, mmm in your example represents a **fixed rule** or **constant of proportionality** once it’s defined, even though it might have been calculated from yyy and xxx. The key is that after it’s defined, it doesn’t _change_ unless you explicitly adjust it. It governs how changes in one variable (say xxx) will produce changes in the other variable (say yyy).
+
+This makes mmm a **parameter** because it still _controls_ the relationship between xxx and yyy. It’s as if you’ve set a rule that binds the two variables together, and that rule is mmm.
+
+### 6. **The Core Idea**
+
+A **parameter** is not about being independent or primary, but rather about defining a **relationship** or **structure** in a system. In your example, mmm (the quotient of y/xy/xy/x) is a parameter because it determines how xxx and yyy will behave relative to each other. While it is derived from them, it’s now acting as the _rule_ by which xxx and yyy relate.
+
+**The big takeaway**: Parameters are more about _controlling the structure of the relationship_ than being completely independent. Even though mmm depends on xxx and yyy, once defined, it governs how those two variables will always interact, hence acting as a parameter.
+
+### Analogy to Simplify:
+
+Imagine two dancers ( xxx and yyy ) moving across the floor. The ratio mmm is like the rhythm or beat to which they’re dancing. It controls how they move relative to each other. The rhythm ( mmm) can be discovered by watching the dancers (observing xxx and yyy), but once you know it, it defines how they’ll continue to move together. The rhythm is a _parameter_ of their dance — it controls their relationship, even though it was initially inferred from their movement.
+- - -
 A ratio is a mathematical expression that compares two quantities, showing the relative size of one quantity in relation to the other.
 	It is often expressed as a fraction or a division of two quantities.
 ## From Ratio to Rate of Change
