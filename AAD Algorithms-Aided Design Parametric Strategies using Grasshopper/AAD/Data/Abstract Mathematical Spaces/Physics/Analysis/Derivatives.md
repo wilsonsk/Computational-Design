@@ -150,7 +150,7 @@ Differentiation is used to determine the slope of a function at any point, find 
 
 **Mathematical Representation**
 If you have a function $f(x)$, its derivative is denoted as
-$$\LARGE f'(x) \text{ or }\frac{df(x)}{dx}$$
+$$\LARGE f'(x) =\frac{df(x)}{dx} = \frac{df}{dx}(x) = \frac{d}{dx}f(x)$$
 ### Differential
 $$\LARGE \frac{\text{Infinitesmal } \Delta f}{\text{Infinitesmal } \Delta x} = \frac{df}{dx}$$
 $$\LARGE \text{The Differential of the function } f(x) \text{ is } df.$$
@@ -293,7 +293,7 @@ As the **interval or distance** over which the change is measured (between point
 
 The **[[Limits|limit]]** is the **means** of **transitioning** between the **average rate of change** to the **instantaneous rate of change**. ^limit-as-a-transition
 ![[Pasted image 20240410153825.png|400]] ^d8b06d
-### 4. Is the Unit Tangent Vector
+### 4. Is the Unit [[Vector-Valued Single Var Deriv|Tangent Vector]]
 That is, the vector contains the coordinates of a slope of a line that is tangent to the point. 
 	The tangent vector $T(\Delta x)$ visually and mathematically represents the instantaneous rate of change of the function $f$ at a point $x$.
 		The components of the vector capture the differential changes in the input and output, providing a linear approximation of the function's behavior near that point.
@@ -313,10 +313,11 @@ Let $\Delta x$  be a small change in $x$. The corresponding change in $y$, denot
 	This represents the corresponding change in the $y$-direction based on the slope of the function at the point $x$. 
 		The derivative $f'(x)$ gives the rate of change of $y$ with respect to $x$.
 			This represents the corresponding change in $y$ based on the slope of the function at that point.
-$$\LARGE y = f'(x) \Delta x $$
+$$\LARGE f'(x) = \frac{\Delta y}{\Delta x} \quad \implies \quad f'(x) \Delta x = \Delta y $$
 $$\LARGE \text{Which itself is the Slope of the Tangent Vector}$$
 $$\LARGE \text{And is a component of the Tangent Vector}$$
 The components of the tangent vector are given by the changes in $x$ and $y$:
+	This is a [[Mapping#Higher-Level Functions (i.e. Composite Functions)|vector valued function]].
 $$\LARGE \mathbf{T} = \mathbf{T}(\Delta x) \begin{pmatrix} \Delta x \\ \Delta y \end{pmatrix} = \begin{pmatrix} \Delta x \\ f'(x) \Delta x \end{pmatrix}$$
 ##### Unit Tangent Vector
 The direction of the tangent vector is given by the slope $f'(x)$.
@@ -819,6 +820,13 @@ An inflection point is typically a smooth, continuous transition or change in th
 	If $P_1$ and $P_2$ are very "close" together distance wise:
 		$T_1$ and $T_2$ will be almost equal.
 			Therefore, $V$ will be almost **perpendicular** (i.e. normal, orthogonal) to both $T_1$ and $T_2$.
+###### How to find the [[Derivatives#Inflection Points Inflection Points (*also see* Curves Inflection Point Inflection Points in Curves)|inflection points]]
+I.e. Where the curve "turns".
+	These inflection points can be vertical or horizontal.
+
+Identification of Inflection Points is done by localizing the point where the tangent vectors (i.e. the velocity vectors) are vertical or horizontal.
+1. Tangent vector vertical $\LARGE x'(t) = 0$ 
+2. Tangent vector horizontal $\LARGE y'(t) = 0$
 
 - - -
 ### Identifying Critical Points
