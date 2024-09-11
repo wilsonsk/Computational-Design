@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Curves as Parametric Functions.md",
+                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Arc Length of P Curves.md",
                 "mode": "source",
                 "source": false
               }
@@ -62,18 +62,6 @@
               "type": "markdown",
               "state": {
                 "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Multi-Variable Composite Functions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c6a549943da0dfe7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Sketching a Curve.md",
                 "mode": "source",
                 "source": false
               }
@@ -158,20 +146,6 @@
             }
           },
           {
-            "id": "7d5ab8862aa4a27c",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Projection.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
             "id": "0fd42ca7a970ecb8",
             "type": "leaf",
             "pinned": true,
@@ -228,7 +202,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -295,7 +269,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Sketching a Curve.md",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Partial Derivatives.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -312,7 +286,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Sketching a Curve.md",
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Partial Derivatives.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -335,7 +309,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Sketching a Curve.md"
+                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Partial Derivatives.md"
               }
             }
           },
@@ -369,45 +343,45 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "c6a549943da0dfe7",
+  "active": "38ec529a96a7ba1b",
   "lastOpenFiles": [
-    "Pasted image 20240909072419.png",
-    "Pasted image 20240909072357.png",
-    "Pasted image 20240909072328.png",
-    "Pasted image 20240909072247.png",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Sketching a Curve.md",
-    "Curves/Curves.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Vector-Valued Single Var Deriv.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Partial Derivatives.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Multi-Variable Composite Functions.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Arc Length of P Curves.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Parametrization.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Curves as Parametric Functions.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Multi-Variable Composite Functions.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Vector-Valued Single Var Deriv.md",
+    "Pasted image 20240911061758.png",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Straight Lines.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Secant Line.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Partial Derivatives.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Jacobian Matrix.md",
-    "Pasted image 20240907144456.png",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Planes.md",
-    "Pasted image 20240907143354.png",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Gradients.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
+    "Pasted image 20240910070247.png",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Division.md",
+    "Pasted image 20240910063322.png",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Sketching a Curve.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Limits of Multi-Variable Functions.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Neighborhoods.md",
+    "Pasted image 20240909212356.png",
+    "Pasted image 20240909212351.png",
+    "Pasted image 20240909160627.png",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Limits.md",
+    "Pasted image 20240909160502.png",
+    "Pasted image 20240909160500.png",
+    "Pasted image 20240909160054.png",
+    "Pasted image 20240909160015.png",
+    "Curves/Curves.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Ratio.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Parameters vs. Variables.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Proportion.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Limits of Multi-Variable Functions.md",
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Curves as Parametric Functions.md",
-    "Pasted image 20240906071943.png",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Limits.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/A Map of Change as Rates to Limits of those Rates to Differentials to Derivatives.md",
-    "Pasted image 20240906054041.png",
-    "Pasted image 20240905064708.png",
-    "Pasted image 20240905064706.png",
-    "Pasted image 20240904141857.png",
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Straight Lines.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Degrees of Freedom.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Mapping.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Equations vs. Functions.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Static Equilibrium.md",
-    "Untitled.md",
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Curves Theory.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Untitled",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Linearity of Differentiation.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Real Value Functions",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Untitled",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets",

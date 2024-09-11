@@ -13,6 +13,7 @@ related:
 date created: 2024-04-10
 ---
 # Limits
+![[Pasted image 20240909160502.png]]
 ## Limit i.e. *limes*
 *See [[Linear Motion#Average Velocity|Linear Motion]] for more specific application of Limits.* 
 ### Limit as a Derivative at a Specific Point
