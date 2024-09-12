@@ -13,6 +13,7 @@ $$\frac{\partial f}{\partial x} = \partial_x f(a,b) = {\partial \over \partial x
 $$\LARGE \vec{r}(t) = (2t+1, \sin^2t, e^t \cos t)$$
 $$\LARGE = \frac{d}{dt}\vec{r}(t) = \vec{r}'(t) = (2, 2 \sin t \cos t, e^t \cos t - e^t \sin t)$$
 ## Tangent Vectors (i.e. Velocity Vectors)
+$$\LARGE \vec{r}(t) = [x(t), y(t)], \quad \vec{r'}(t) = \vec{v}(t) = [x'(t), y'(t)]$$
 The proof of the Tangent Vector Computed component wise.
 ![[Pasted image 20240910070247.png]]
 ##### The Secant Line
@@ -30,7 +31,7 @@ $$\LARGE 4a) \quad  y \textcolor{yellow}{- y_0}= mx + (\cancel{y_0} - mx_0) \can
 $$\LARGE 4b) \quad  y \textcolor{yellow}{- y_0}= \frac{\cancel{m}x - \cancel{m}x_0}{\cancel{\textcolor{yellow}{m}}} = y \textcolor{yellow}{- y_0}= m(x-x_0)$$
 $$\LARGE y - y_0 = m(x - x_0)$$
 $$\LARGE \frac{y - y_0}{x - x_0} = m$$
-##### The Slope of the Secant Line
+##### The Slope of the Secant Line, $m$
 $$\large \text{For Vector-Valued Functions } \frac{\Delta y}{\Delta x} = \frac{y(t)-y(t_0)}{x(t)-x(t_0)} = \frac{y(t)-y(t_0)}{t-t_0} \cdot \frac{t-t_0}{x(t)-x(t_0)} $$
 $$\large \text{Compared to Scalar-Valued Functions } \frac{\Delta y}{\Delta x} = \frac{f(x)-f(x_0)}{x-x_0} = {f(x+h)−f(x)​ \over h}$$
 

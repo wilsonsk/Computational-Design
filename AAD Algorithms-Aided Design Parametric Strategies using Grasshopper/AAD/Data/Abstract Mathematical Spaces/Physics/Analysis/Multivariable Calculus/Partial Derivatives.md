@@ -1,4 +1,5 @@
-# Partial Derivatives
+# Partial Derivatives of $z = f(x,y)$, $\LARGE \mathbb{R}^2 \to \mathbb{R}$
+
 ##### *Note: a Derivative (and Partial Derivative) **is** a vector.*
 *That vector being the [[Derivatives#4. Is the Unit Tangent Vector|Unit Tangent Vector]] to a given point.*
 	*Therefore the Vector of the Partial Derivatives is a Unit Tangent Vector describing the direction of the function in a single dimension.*
