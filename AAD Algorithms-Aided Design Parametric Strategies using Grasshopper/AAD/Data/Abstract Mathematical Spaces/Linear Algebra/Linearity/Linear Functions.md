@@ -36,9 +36,7 @@ In the equation $y = mx + b$:
 - **Slope ($m$)**: Acts as a scaling factor that determines how changes in $x$ affect $y$. If $x$ increases by 1 unit, $y$ changes by $m$ units.
 - **Scaling Effect**: The input variable $x$ is scaled by $m$. 
 	- For instance, if $m = 2$, every unit increase in $x$ results in a 2-unit increase in $y$.
-
-
-### Slope as a Rate of Change
+### Slope as a [[Parameters vs. Variables#3. **Parameter Before Variables A Fixed Rule of Proportionality**|Parameter]], the Rate of Change
 In essence, because $y(x)$ is the value being produced, the value of $m$ when either [[Division#Contracting|contracting]] or [[Scaling|scaling]] the input $x$ value (and combining with $b$).
 	Therefore, if $m$ is scaling $x$, then that produces a $y$ output value that is larger than $x$ and thus increases at a "faster" rate than $x$.
 		if $m$ is contracting $x$, then that produces a $y$ output value that is smaller than $x$ and thus increases at a "slower" rate than $x$.

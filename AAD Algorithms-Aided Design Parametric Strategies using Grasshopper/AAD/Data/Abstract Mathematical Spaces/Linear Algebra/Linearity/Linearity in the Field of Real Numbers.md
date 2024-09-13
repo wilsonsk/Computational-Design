@@ -35,7 +35,7 @@ $$\LARGE y = mx +b$$
 
 Proportionality of Linearity is **not** the same thing as [[#Direct Proportionality (a "Special Case" of Linear Relationships)|Direct Proportionality]].
 ##### Constant of Linear Proportionality is a Constant Rate of Change ($\LARGE m$)
-The constant $m$ is the slope, which represents the rate of change of $y$ with respect to $x$, but there is an additional offset $b$.
+The [[Parameters vs. Variables#1. **Parameter as a Constant or Predefined Rule**|constant]] $m$ is a scalar and a [[Parameters vs. Variables#3. **Parameter Before Variables A Fixed Rule of Proportionality**|parameter]] called the slope, which represents the rate of change of $y$ with respect to $x$, but there is an additional offset $b$.
 	This represents the change in $y$ divided by the change in $x$.
 $$\LARGE \text{For } y = mx + b, \space m = \frac{\Delta y}{\Delta x}$$
 The constant of proportionality is a fixed value that relates the input and output variables in a directly proportional relationship.
@@ -57,7 +57,7 @@ If 10 = a \cdot 5 where a = 2, then 10 is 2 times 5 and 5 is 1 half 10 meaning t
 $$\LARGE y = kx$$
 This ratio compares the values of $y$ and $x$ directly.
 
-The ratio or rate of the two quantities remains constant. 
+The [[Parameters vs. Variables#1. **Parameter as a Constant or Predefined Rule**|ratio or rate of the two quantities remains constant]]. 
 	Direct proportionality means that if $\LARGE k$ is the constant of proportionality and $b=0$, then $\LARGE y$ is directly proportional to $\LARGE x$, and the ratio $\LARGE \frac{y}{x}$ remains constant. 
 		If $\LARGE y = kx$, then $\LARGE k = \frac{y}{x}$ for all values of $\LARGE x$ and $\LARGE y$ in the relationship.
 			The graph of a directly proportional relationship between two variables is a straight line that passes through the origin (0,0).
