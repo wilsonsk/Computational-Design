@@ -59,9 +59,11 @@
             "id": "69d98d2e0511efd4",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "images/Pasted image 20240913065838.png"
+                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Arc Length of P Curves.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -279,7 +281,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "images/Pasted image 20240913065838.png",
+                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Arc Length of P Curves.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -296,7 +298,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "images/Pasted image 20240913065838.png",
+                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Arc Length of P Curves.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -319,7 +321,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "images/Pasted image 20240913065838.png"
+                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Arc Length of P Curves.md"
               }
             }
           },
@@ -353,11 +355,13 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "70a890f8a800eb39",
+  "active": "69d98d2e0511efd4",
   "lastOpenFiles": [
+    "Pasted image 20240914085927.png",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Integrals.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Arc Length of P Curves.md",
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Sol. Sets of Linear Eq..md",
     "images/Pasted image 20240913065838.png",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Sol. Sets of Linear Eq..md",
     "images/Pasted image 20240913065754.png",
     "images/Pasted image 20240913065708.png",
     "images/Pasted image 20240913065207.png",
@@ -389,7 +393,6 @@
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Sketching a Curve.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Limits of Multi-Variable Functions.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Neighborhoods.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Limits.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Untitled",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Real Value Functions",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Untitled",
