@@ -49,19 +49,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Vector-Valued Single Var Deriv.md",
+                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Arc Length/Parametrization by Arc Len.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "69d98d2e0511efd4",
+            "id": "1fd3985fe873e97b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Arc Length of P Curves.md",
+                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Equations vs. Functions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3b0fd714d00ecadc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Equations as Constraints.md",
                 "mode": "source",
                 "source": false
               }
@@ -214,7 +226,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -281,7 +293,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Arc Length of P Curves.md",
+                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Equations as Constraints.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -298,7 +310,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Arc Length of P Curves.md",
+                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Equations as Constraints.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -321,7 +333,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Arc Length of P Curves.md"
+                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Equations as Constraints.md"
               }
             }
           },
@@ -355,44 +367,46 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "69d98d2e0511efd4",
+  "active": "3b0fd714d00ecadc",
   "lastOpenFiles": [
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Degrees of Freedom.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Equations as Constraints.md",
+    "Untitled.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Parametrization.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Equations vs. Functions.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Arc Length/Parametrization by Arc Len.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Curves as Parametric Functions.md",
+    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Static Equilibrium.md",
+    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Types of Forces/Potentials.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Arc Length/Arc Length of P Curves.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Arc Length",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Vector-Valued Single Var Deriv.md",
+    "Pasted image 20240915063908.png",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Systems of Equations/System of Equations.md",
+    "Pasted image 20240915063717.png",
+    "Pasted image 20240915063659.png",
+    "Pasted image 20240915063646.png",
+    "Pasted image 20240915063624.png",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Systems of Equations",
     "Pasted image 20240914085927.png",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Integrals.md",
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Arc Length of P Curves.md",
     "images/Pasted image 20240913065838.png",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Sol. Sets of Linear Eq..md",
     "images/Pasted image 20240913065754.png",
     "images/Pasted image 20240913065708.png",
     "images/Pasted image 20240913065207.png",
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Parametrization.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Linearity/Linear Equations.md",
-    "images/Pasted image 20240913063347.png",
-    "Untitled.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Linearity/Linear Functions.md",
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Equations vs. Functions.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Parameters vs. Variables.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Linearity/Linearity in the Field of Real Numbers.md",
-    "images/Pasted image 20240912062802.png",
-    "images/Pasted image 20240912060353.png",
-    "images/Pasted image 20240912060305.png",
-    "images/Pasted image 20240912055803.png",
-    "images/Pasted image 20240912055343.png",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Vector-Valued Single Var Deriv.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Multi-Variable Composite Functions.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Partial Derivatives.md",
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Curves as Parametric Functions.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Mapping.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Straight Lines.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Secant Line.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Jacobian Matrix.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Planes.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Gradients.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Division.md",
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Sketching a Curve.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Limits of Multi-Variable Functions.md",
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Neighborhoods.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Untitled",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Real Value Functions",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Untitled",
@@ -400,8 +414,6 @@
     "Data/ABSTRA~1/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Types of Forces",
     "Data/ABSTRA~1/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Newton's Laws of Motion",
     "Data/ABSTRA~1/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis",
-    "Data/ABSTRA~1/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis",
-    "Data/ABSTRA~1/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis",
-    "Data/ABSTRA~1/Physics/Morphogenesis/Chemistry"
+    "Data/ABSTRA~1/Physics/Classical Mechanics/Newtonian Physics/Kinematics Analysis"
   ]
 }

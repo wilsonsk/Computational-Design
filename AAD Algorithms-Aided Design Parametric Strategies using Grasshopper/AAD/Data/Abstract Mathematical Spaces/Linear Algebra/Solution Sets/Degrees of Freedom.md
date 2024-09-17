@@ -1,4 +1,55 @@
 # Degrees of Freedom
+The concept of **degrees of freedom** refers to the number of independent variables that can vary freely without violating any constraints imposed by equations.
+	In a system with $n$ variables and $m$ independent equations, the degrees of freedom are $\LARGE n−m$.
+[[Equations as Constraints]]
+[[Functions as Solution Sets]]
+## Dimensions and Degrees of Freedom
+The key to understanding why equations in higher dimensions can represent lines or surfaces lies in the concept of **degrees of freedom**.
+	Because there are more variables than equations, not all variables are fully constrained.
+#### General Rule $(n-1)$ 
+In $n$-dimensional space, an equation reduces the degrees of freedom by one, defining an $\LARGE (n−1)$-dimensional object.
+	**In higher dimensions ($n>1$)** 
+		Equations can represent lines, planes, or hypersurfaces, depending on the number of variables and equations.
+	**In a system with remaining degrees of freedom** 
+		There's room for continuous variation, leading to solution sets that are lines, curves, or surfaces.
+##### Degrees of Freedom in $\LARGE \mathbb{R}^1$
+A single variable $x$ has one degree of freedom.
+	A single equation in one variable typically doesn't produce an interval because there's only one degree of freedom, and the equation removes that freedom by specifying exact values.
+		An equation like $\LARGE f(x) = 0$ constrains that freedom, typically resulting in discrete solutions.
+
+**Interpretation:**
+	No degrees of freedom remain.
+		The equation fully determines the value of $x$. 
+			There's only one solution.
+##### Degrees of Freedom in $\LARGE \mathbb{R}^2$ 
+Two variables $x$ and $y$ have two degrees of freedom.
+	A single equation with two variables still leaves one degree of freedom, allowing for a continuous set of solutions (a line or curve).
+		An equation like $\LARGE f(x,y)=0$ reduces the degrees of freedom by one, leaving one degree of freedom.
+			 This remaining freedom allows for a continuous set of solutions—a line or curve.
+
+**Interpretation:** One degree of freedom remains.
+	You can freely choose a value for one variable, and the equation will determine the corresponding value of the other variable.
+		 This results in infinitely many solutions that form a line in the plane.
+## Degrees of Freedom and Solution Sets
+The number of degrees of freedom directly affects the nature of the solution set.
+##### Single Variable and Single Equation ($\mathbb{R}^1$)
+- **Constraint:** The equation fully determines the value of the variable.
+- **Result:** Discrete solutions (often a single value).
+##### Multiple Variables and Fewer Equations ($\mathbb{R}^n, m < n$)
+- **Constraint:** The equation relates variables but doesn't fix them individually.
+- **Result:** Infinite solutions forming geometric objects (lines, planes).
+##### Number of Equations Equals Number of Variables ($m=n$)
+- **Constraint:** Variables are fully determined.
+- **Result:** Unique solution (single point), provided the equations are independent and consistent.
+##### Zero Degrees of Freedom
+The system is fully constrained. 
+	There's a finite set of discrete solutions (often just one).
+##### One Degree of Freedom
+The system has a single independent variable.
+	The solutions form a one-dimensional continuum (a line or curve).
+##### Two Degrees of Freedom
+The system has two independent variables. 
+	The solutions form a two-dimensional continuum (a surface).
 ### Degree of Freedom in Parametric Curves
 In the context of parametric curves, **a degree of freedom refers to the number of independent parameters** (or variables) that control the position of a point on the curve.
 - In a parametric curve, you typically have a vector-valued function like:

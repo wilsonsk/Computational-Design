@@ -6,6 +6,8 @@ For Vector-Valued Functions composed of Scalar-Valued Functions, derivatives are
 $$\LARGE \vec{r}: [0,1] \to \mathbb{R}^3, \quad x,y,z : [0,1] \to \mathbb{R}$$
 $$\LARGE \text{If all the component functions are differentiable then:}$$
 $$\LARGE \vec{r}(t) = \frac{d}{dt}\vec{r} = \lim\limits_{h \to 0}\frac{\vec{r}(t+ h)-\vec{r}(t)}{h} = (x'(t), y'(t), z'(t))$$
+$$\LARGE \text{Where Magnitude (i.e. Length of the Vector is}$$
+$$\LARGE \left| \vec{r'}(t) \right| = \sqrt{x'(t)^2+y'(t)^2+z'(t)^2}$$
 ###### *Compare to Vector-Valued [[Partial Derivatives|Multi-Variable Derivative]] (i.e. Partial Derivatives)*
 $$\frac{\partial f}{\partial x} = \partial_x f(a,b) = {\partial \over \partial x}f(a,b) = f'_{x}(a,b) = f'_{1}(a,b) = \lim_{h \rightarrow 0} {f(a+h,b) - f(a,b) \over h} = g'(a)$$
 ![[Pasted image 20240907143354.png]]

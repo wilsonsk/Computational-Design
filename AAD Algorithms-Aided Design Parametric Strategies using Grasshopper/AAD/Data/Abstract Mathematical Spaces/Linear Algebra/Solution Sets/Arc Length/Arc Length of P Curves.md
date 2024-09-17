@@ -8,6 +8,9 @@ $$\LARGE l = \int^{b}_{a}\sqrt{x'(t)^{2} + y'(t)^{2} + z'(t)^{2}} \space \cdot d
 *[[#Calculating the Length of the Arc Path|see the derivation here]]* 
 ![[Pasted image 20240906071943.png]]
 ## Calculating the Length of the Arc Path
+1. Compute the velocity $\LARGE \vec{r'}(t)$
+2. Compute the the length (i.e. magnitude) of the velocity vector (i.e. speed) $\LARGE v(t) = \left| \vec{r'}(t)\right|=\sqrt{x'(t)^2 + y'(t)^2 + z'(t)^2}$
+3. Compute the Integral $\LARGE \int_{a}^{b} v(t)dt$
 ### 1. Successive Approximation of the Arc Length $\LARGE l$
 By piecewise linear curves (i.e. straight line segments) aka a polygonal path.
 	Where the approximation of the arc length $\LARGE l$ improves its accuracy with each successive approximation, i.e. division and summation.
@@ -63,4 +66,21 @@ $$\LARGE \text{Therefore, } \quad d = \sum_{i=1}^ns_i\Delta t_i$$
 Simply apply the Arc Length formula for **each smooth piece**, then **add** the individual values.
 $$\LARGE l = l{\gamma_1} + l{\gamma_2} + l{\gamma_3} + l{\gamma_4}$$
 ![[Pasted image 20240914085927.png]]
-## 
+## Arc Length Formula Does Not Depend on Parametrization
+We get the same Arc Length for two different parameters. 
+![[Pasted image 20240915063908.png]]
+## Example Problems
+###### Calculating the Length of the Arc Path
+1. Compute the velocity $\LARGE \vec{r'}(t)$
+2. Compute the speed $\LARGE v(t) = \left| \vec{r'}(t)\right|=\sqrt{x'(t)^2 + y'(t)^2 + z'(t)^2}$
+3. Compute the Integral $\LARGE \int_{a}^{b} v(t)dt$
+##### 1. Compute the Length of the Path of a particle moves along the path given by
+$$\LARGE \vec{r}(t) = \left( t^2, \frac{1}{3}t(t^2-3)\right), \quad t \in [0, \sqrt{3}]$$
+1. Compute the velocity:
+$$\LARGE \vec{r'}(t) = v(t) = (2t, t^2-1)$$
+2. Compute the magnitude of the velocity vector
+$$\LARGE \left|\vec{r'}(t)\right|=\sqrt{(2t)^2 + (t^2 -1)^2} = \sqrt{4t^2 + t^4-2t^2 + 1} = \sqrt{t^4+2t^2+1}$$
+$$\LARGE = \sqrt{(t^2+1^2)} = |t^2 +1| = \left|\vec{r'}(t)\right|$$
+3. Compute the Integral
+$$\LARGE \int_{0}^{\sqrt{3}} (t^2+1)dt = \left[ \frac{1}{3}t^3+t\right]_{0}^{\sqrt3} = \frac{1}{3}\sqrt{3}^3+\sqrt{3}=\frac{1}{3}\sqrt{3}^2 \cdot \sqrt{3}+ \sqrt{3} $$
+$$\LARGE = 2\sqrt{3}$$
