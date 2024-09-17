@@ -80,6 +80,18 @@
             }
           },
           {
+            "id": "fde1abff7b4f84e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Degrees of Freedom.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "d4d82461b5305811",
             "type": "leaf",
             "state": {
@@ -226,7 +238,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -293,7 +305,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Equations as Constraints.md",
+                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Degrees of Freedom.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -310,7 +322,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Equations as Constraints.md",
+                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Degrees of Freedom.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -333,7 +345,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Equations as Constraints.md"
+                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Degrees of Freedom.md"
               }
             }
           },
@@ -367,10 +379,10 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "3b0fd714d00ecadc",
+  "active": "fde1abff7b4f84e3",
   "lastOpenFiles": [
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Degrees of Freedom.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Equations as Constraints.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Degrees of Freedom.md",
     "Untitled.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Parametrization.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Equations vs. Functions.md",
