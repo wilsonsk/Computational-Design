@@ -1,8 +1,148 @@
 # Degrees of Freedom
+In general, **degrees of freedom** represent the number of independent values or choices you can make in a system without violating its constraints. In a system of equations, the degrees of freedom tell you how much "freedom" you have in selecting values for the unknowns.
+
 The concept of **degrees of freedom** refers to the number of independent variables that can vary freely without violating any constraints imposed by equations.
-	In a system with $n$ variables and $m$ independent equations, the degrees of freedom are $\LARGE n−m$.
+	In a system with $n$ free variables and $m$ independent equations, the degrees of freedom are $\LARGE n−m$.
 [[Equations as Constraints]]
 [[Functions as Solution Sets]]
+## [[Parameters vs. Variables|Parameters]] as Free Variables
+In many mathematical models (such as equations, parametric curves, or systems of equations), a **parameter** is a quantity that can take on different values but is not constrained by the system's other variables or equations.
+	This gives it the status of a **free variable**.
+
+**Free variable** means the parameter can vary independently without being determined by other variables in the system.
+	**Parameters** are often introduced in situations where not all variables are fully constrained by equations. For example, in a system of equations with fewer constraints than variables, parameters represent the remaining degrees of freedom.
+### Parameters and Degrees of Freedom
+The number of **parameters** you introduce to describe the solution is equal to the number of degrees of freedom left after applying the constraints. 
+	Each parameter corresponds to one degree of freedom and allows you to describe how the system can "move" or "vary" within the space.
+
+Just because you're working in **$\mathbb{R}^2$** (a 2D space) with two variables $x$ and $y$, it **does not necessarily mean there are two degrees of freedom**. 
+	The number of degrees of freedom is determined by the **constraints** (independent equations) in the system, not just the number of variables.
+
+**The number of degrees of freedom depends on the constraints**, not just the number of variables.
+	You might have two variables $x$ and $y$ in $\mathbb{R}^2$, but the degrees of freedom are reduced if there are constraints (independent equations) that relate the variables.
+###### [[Equations as Constraints|Constraints]] (independent equations)
+Limit the degrees of freedom.
+	For every independent equation you have, one degree of freedom is "used up" because it imposes a restriction on how the variables $x$ and $y$ can vary.
+
+**Parameters represent the remaining degrees of freedom**.
+	Once the independent equations are applied, the remaining variables that can still vary freely are represented by **parameters**. 
+		The number of parameters introduced corresponds to the number of degrees of freedom left in the system.
+#### Parameters in Systems of Equations
+In a system of equations with more variables than independent equations, some variables are not fully determined by the system. 
+	These variables are often expressed in terms of **parameters**, which are **free variables** because they are not directly determined by the system’s constraints.
+		In a system of equations, the degrees of freedom tell you how much "freedom" you have in selecting values for the unknowns.
+
+For example:
+$$\LARGE x+y=2$$
+If you introduce a parameter $\LARGE t$, you might set $\LARGE x=t$, making $\LARGE t$ a free variable. 
+	Then you can express $\LARGE y$ in terms of $\LARGE t$:
+$$\LARGE y=2−t$$
+Here, $t$ is free to vary, making it a **free variable**.
+##### Parameters represent degrees of freedom
+In a system of equations, when there aren't enough independent constraints (equations) to uniquely determine all the variables, you introduce **parameters** to describe the remaining freedom in the system. 
+	Each parameter corresponds to one **degree of freedom**.
+###### Degrees of freedom = Number of parameters
+The number of degrees of freedom in a system is exactly equal to the number of **parameters** you need to fully describe the solution.
+	Every parameter you introduce allows one variable (or some combination of variables) to vary freely within the system, meaning the system has flexibility or "freedom" in choosing those values.
+
+- If you have **one parameter**, you have **one degree of freedom**.
+- If you have **two parameters**, you have **two degrees of freedom**, and so on.
+##### Parameters Control How Variables Change
+Once you've introduced parameters, the other variables in the system become dependent on those parameters. 
+	This means that the degrees of freedom (i.e., the number of parameters) determine how the system can evolve or change.
+##### Parameters vs. Variables in a System of Equations
+In a **system of equations**, we have **primary (or independent) variables**, like $x$ and $y$, which are the unknowns we're trying to solve for. 
+	However, when the system doesn't have enough constraints (independent equations) to uniquely determine $x$ and $y$, we introduce **parameters** to express the relationship between them.
+
+For example, consider this system:
+$$\LARGE x=t, \quad y=t+5$$
+Here, $x=t$ and $y=t+5$ are **scalar equations** because they give specific values of $x$ and $y$ for any value of $t$. 
+	In this context, the parameter $t$ is a free variable that lets you describe the relationship between $x$ and $y$ for an infinite number of solutions.
+		$x$ and $y$ are the **primary variables** (or independent variables) in the system because they are the unknowns we're solving for.
+			**$t$** is introduced as a **parameter** because we lack enough equations to fully determine $x$ and $y$ uniquely. 
+				Instead of solving for $x$ and $y$ directly, we express them in terms of $t$, which can take any value.
+##### Why is $t$ Considered a Parameter?
+Even though $t$ directly defines $x$ and $y$, it is called a **parameter** because it represents the **degree of freedom** in the system.
+	That is, $t$ can take on any value, and the values of $x$ and $y$ depend on $t$. 
+		So, instead of solving $x$ and $y$ as fixed values, you're saying that they are defined **in terms of a free parameter** $t$.
+
+**In systems with degrees of freedom**, parameters like $t$ are introduced to express how the variables $x$ and $y$ change in relation to each other.
+	Parameters are "free" in the sense that they can vary independently, while the values of $x$ and $y$ are constrained by the choice of $t$.
+
+$t$ **defines** both $x$ and $y$, but it is still considered a **parameter** because it’s **not constrained by the system of equations**.
+	The system doesn’t directly specify what $t$ must be; it only tells you that $x$ and $y$ are related through $t$. 
+		Therefore, $t$ is free to take any value, which is what makes it a parameter.
+			**$x$** and **$y$**, on the other hand, are **primary variables** because they are the quantities we’re ultimately solving for, but their values are dependent on $t$.
+				To make this clearer, think of $t$ as the **input** that you choose, and $x$ and $y$ as the **outputs** that result from that choice.
+					 The parameter $t$ provides the flexibility to choose any value, and that choice defines $x$ and $y$.
+### Parameters in Parametric Curves
+#### Scalar Functions in Vector-Valued Functions
+A **vector function** is a function that gives a vector as its output.
+	Each component of the vector is typically a **scalar function** of a parameter, just like how $x=t$ and $y=t+5$ are scalar functions of $t$.
+
+For example, consider the parametric equation of a curve in two-dimensional space:
+$$\LARGE \mathbf{r}(t) = \begin{pmatrix} x(t) \\ y(t) \end{pmatrix} = \begin{pmatrix} t \\ t + 5 \end{pmatrix}$$
+Here, $\mathbf{r}(t)$ is a **vector function**, and its components, $x(t)=t$ and $y(t)=t+5$, are **scalar functions** of the parameter $t$.
+- $\mathbf{r}(t)$ describes the position of a point as $t$ varies, and each component (in this case, $x(t)$ and $y(t)$) is a scalar function of $t$.
+- As $t$ changes, the point $(x(t),y(t))$( traces a curve or a line, depending on the nature of the scalar functions.
+#### Comparison to Systems of Linear Equations
+Both in the **system of equations** example and the **vector function** example, you are dealing with **scalar functions** of a **parameter** $t$. 
+
+1. The difference is how these scalar functions are used:
+		**In a system of equations** like:
+$$\LARGE x = t, \quad y = t + 5$$
+		$x$ and $y$ are expressed as scalar functions of $t$ because the system has one degree of freedom (represented by $t$).
+			 This allows you to describe an infinite set of solutions, typically representing a line in $\LARGE \mathbb{R}^2$
+    
+2. **In vector functions**, you often have something like:
+$$\LARGE \mathbf{r}(t) = \begin{pmatrix} x(t) \\ y(t) \end{pmatrix}$$
+    
+    Each component of the vector is a scalar function of $t$. 
+	    The vector function describes a point moving in space (or along a curve) as the parameter $t$ changes.
+##### Similarities
+In both cases, $t$ is a parameter that allows you to express how the components (either $x$ and $y$, or $x(t)$ and $y(t)$) change as $t$ varies.
+	Each of the component functions $x(t)$ and $y(t)$ are **scalar functions** of the parameter $t$, which means they output a real number for each value of $t$.
+##### Differences
+In the **system of equations**, the parameter $t$ represents the freedom in the solution of the system. 
+	It's a way of describing the relationship between the variables $x$ and $y$.
+
+In the **vector function**, the parameter $t$ typically has a geometric or physical meaning (like time or distance) and describes how a point moves along a curve. 
+	The scalar functions $x(t)$ and $y(t)$ describe the position of the point at any given $T$.
+#### Parameters in Parametric Equations
+In parametric equations, such as parametric curves, a parameter (like $\LARGE t$ in $\LARGE x(t)$ and $\LARGE y(t)$) is generally considered a **free variable** because:
+	It can vary over a certain range (for instance, $\LARGE t \in [0, 2\pi]$ for a circle).
+		The value of the parameter controls the behavior of the other variables (like $x(t)$ and $y(t)$), but it is not constrained by those variables.
+
+In a parametric curve, the parameter $t$ controls the movement of the point along the curve.
+	The curve itself is represented by the vector $\mathbf{r}(t)$, and as $t$ changes, the position $(x(t), y(t))$ of the point changes.
+###### Single Parameter $t$
+The entire curve is determined by the single parameter $t$, which can vary freely. 
+	This means there is **one degree of freedom**—you have the freedom to choose $t$, and based on this choice, the values of $x(t)$ and $y(t)$ are determined.
+###### Dependent Variables
+The component functions $x(t)$ and $y(t)$ are **dependent** on the parameter $t$.
+	You do not have the freedom to choose $x(t)$ and $y(t)$ independently because their values are constrained by the specific parametric relationship with $t$.
+###### Intuition Behind **One** Degree of Freedom:
+The degree of freedom in this context refers to how many independent choices you can make in describing the position of the point on the curve.
+	Since the position of the point is fully controlled by the parameter $t$, which can vary freely, there is **one degree of freedom**.
+		The curve can be thought of as a one-dimensional object (like a line or a path) in two-dimensional space, and you need just one parameter to describe the entire curve.
+#### More General Parametric Curves
+A **parametric curve** doesn’t need to be a simple shape like a circle—it can describe very complex shapes or paths. 
+	For example, if you had the following parametric equations:
+$$\LARGE x(t) = t^2 - 3t + 2, \quad y(t) = 2t + 1$$
+As $t$ changes, the point $(x(t),y(t))$ traces a **parabola**. 
+	Again, the curve is described by how $x$ and $y$ depend on the parameter $t$, so it's a parametric curve.
+#### Vector Functions as Parametric Curves
+When you represent a parametric curve using a vector function like:
+$$\LARGE \mathbf{r}(t) = \begin{pmatrix} x(t) \\ y(t) \end{pmatrix}$$
+You’re explicitly showing that the curve is **[[Data/Abstract Mathematical Spaces/Differential Geometry/Parametrization|parametrized]]** by $t$.
+	The vector $\mathbf{r}(t)$ gives the position of the point as a function of $t$, and each component of the vector (the $x(t)$ and $y(t)$ functions) is a scalar function of the parameter.
+
+So the curves described by vector functions are called **parametric curves** because the parameter $t$ (or sometimes more than one parameter) dictates how the point moves along the curve.
+#### Parametric Curves in Higher Dimensions
+In three dimensions, you can have a parametric curve like:
+$$\LARGE \mathbf{r}(t) = \begin{pmatrix} x(t) \\ y(t) \\ z(t) \end{pmatrix}$$
+Where each of $x(t)$, $y(t)$, and $z(t)$ are scalar functions of $t$.
+	As $t$ varies, the point $(x(t),y(t),z(t))$ moves along a curve in three-dimensional space.
 ## Dimensions and Degrees of Freedom
 The key to understanding why equations in higher dimensions can represent lines or surfaces lies in the concept of **degrees of freedom**.
 	Because there are more variables than equations, not all variables are fully constrained.

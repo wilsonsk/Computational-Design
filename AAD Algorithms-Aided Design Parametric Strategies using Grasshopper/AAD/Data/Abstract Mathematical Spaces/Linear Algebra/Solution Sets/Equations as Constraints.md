@@ -1,6 +1,9 @@
 # Equations as Constraints
 ###### Variables
 The dimensions in which the problem exists.
+
+**Parameters**
+**Parameters** are often introduced in situations where not all variables are fully constrained by equations.
 ###### Equations
 The constraints imposed on those variables.
 ###### Degrees of Freedom
@@ -121,3 +124,19 @@ Because the equation involves two variables connected by a relationship, fixing 
 - **Selecting $y$:** If you choose $y=0$, then $x=4$.
 
 This interdependence creates a **set of solutions** rather than a single solution, forming a line when graphed in $\mathbb{R}^2$.
+## Equations and [[Degrees of Freedom|Degrees of Freedom]]
+##### Degrees of freedom = Number of parameters
+The number of degrees of freedom in a system is exactly equal to the number of **parameters** you need to fully describe the solution. 
+	Every parameter you introduce allows one variable (or some combination of variables) to vary freely within the system, meaning the system has flexibility or "freedom" in choosing those values.
+
+- If you have **one parameter**, you have **one degree of freedom**.
+- If you have **two parameters**, you have **two degrees of freedom**, and so on.
+
+#### More Independent Equations = Fewer Degrees of Freedom:
+Every independent equation in the system imposes a constraint on the variables, reducing the degrees of freedom. 
+	This is because each independent equation narrows the possible values the variables can take.
+		For example, if you have two independent equations and two variables $x$ and $y$, you would have **no degrees of freedom** left, meaning there is a unique solution.
+#### Fewer Independent Equations = More Degrees of Freedom:
+If the system has fewer independent equations than variables, there are extra variables that are not fully constrained by the system. 
+	These variables are represented by **parameters**, which allow those variables to take on any value, creating **degrees of freedom**.
+	    For example, if you have only one independent equation but two variables $x$ and $y$, you will have **one degree of freedom**, and you can introduce a parameter to represent one of the variables, say $t$.
