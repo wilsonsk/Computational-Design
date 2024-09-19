@@ -159,10 +159,13 @@ Mappings must adhere to the axioms and properties defined by the structure.
 			The mappings are constructed to ensure that the structured set adheres to its defined properties.
 #### 3. Domains, [[Axes and Dimensions#Codomain|Codomains]], and Ranges are the "Inherent Values" of a Structured Set
 Domains, Codomains, and Ranges are possible values, that is, the [[Axes and Dimensions|axis or axes]] of a structured set.  
+	That is, Domains, Codomains are the **sets of all possible values**, and can be represented "spatially" as "axes". 
+		Basically a direction of sequenced values.
 
 Domains, Codomains, and Ranges Are Structured by the Mappings which are themselves determined by the axioms.
 	A Domain, Codomain, and Range is associated with each specific mapping of the structured set, determined by the axioms of the structure.
 		These subsets therefore define the scope of inputs, potential outputs, and actual outputs of each of these mappings.
+			A **variable** is a **selector** that picks a specific value from the set of all possible values represented by an axis.
 
 The values and relationships within a structured set are inherent to the structure as defined by its axioms and properties, which are expressed by the mappings of that structure.
 	Specific elements and their relationships that arise from the structure’s defining rules.
