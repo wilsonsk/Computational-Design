@@ -1,9 +1,19 @@
 # Equations vs. Functions
+###### Every Function is an Equation, but not every Equation is a Function.
+
 In mathematics, both functions and equations are essential concepts that describe relationships between variables. 
-###### Functions
-Describe specific mappings between an independent input variable and the dependent output variable.
-	Therefore, each input $\LARGE x$ in the domain maps to one and only one output $\LARGE y=f(x)$. 
-		The goal is to 
+$$\LARGE f(x) = mx + b \quad \equiv \quad y = mx + b \quad \equiv \quad b = y - mx$$
+
+In a hierarchical sense, you can think of **functions** as a subset or **specific type of equation**, but with additional structure and specific characteristics. Let's explore how this works conceptually:
+### Equations (General Concept)
+An **equation** is a **statement of equality** between two mathematical expressions. 
+	It typically describes a **relationship** between variables or constants.
+		 For example:
+			$\LARGE x+2=5$ is a simple equation.
+			$\LARGE y=2x+3$ is a linear equation describing the relationship between $y$ and $x$.
+
+An equation tells you that two expressions are equal under certain conditions, but it doesn't necessarily specify a **mapping** or dependency between variables. 
+	Equations are very general and can include relationships where variables don’t have a one-way dependency (e.g., implicit equations like $x^2 + y^2 = 1$, which describes a circle but doesn’t express $y$ directly in terms of $x$).
 ###### Equations
 Describes the equality between two expressions.
 	The output is a constant which therefore, means it does not "depend" on an "input". 
@@ -11,6 +21,42 @@ Describes the equality between two expressions.
 			I.e. To find the set of values that makes the equation "true".
 				In an equation, a single input can correspond to multiple outputs. 
 					 Additionally, the equation might not define a direct relationship between input and output as a function does.
+
+**Equations** give you the **whole set** of possible solutions at once, but they don’t give you the **sequence** or process of obtaining those points.
+	Equations are great for defining **shapes** or **curves** (like circles, ellipses, lines, etc.) because they give you the entire **set of solutions** that satisfy the relationship between variables.
+### Functions (A Specific Type of Equation)
+A **function** is a special kind of equation, where there is a clear and **explicit mapping** from one variable (the **independent variable**) to another (the **dependent variable**). 
+	In a function, for every input, there is exactly **one output**. 
+		This is a key property that distinguishes functions from general equations.
+
+For example, $\LARGE y=2x+3$ **can be viewed as both an equation and a function**.
+	It tells you that for each value of $x$, there is a corresponding value of $y$, and the function is $f(x)=2x+3$.
+###### Functions
+Describe specific mappings between an independent input variable and the dependent output variable.
+	Therefore, each input $\LARGE x$ in the domain maps to one and only one output $\LARGE y=f(x)$. 
+		The goal is to 
+
+**Functions** describe relationships **dynamically**
+
+**Functions** allow you to **calculate** specific outcomes based on inputs and give a sense of **flow** (like parametric curves that describe movement over time or space).
+### Hierarchy: Equations vs. Functions
+**Equations** are the **broader category**. 
+	They describe relationships between variables and can take many forms, including implicit equations, where it’s not easy to solve one variable in terms of another.
+
+**Functions** are a **specific subset** of equations where the relationship between variables is more structured: one variable (the dependent variable) is explicitly expressed as a function of another variable (the independent variable).
+
+In other words, every function is an equation, but not every equation is a function. 
+	The distinction lies in the **one-to-one mapping** characteristic of functions.
+### Implicit Equations vs. Functions
+Some equations, like the equation of a circle x2+y2=1x^2 + y^2 = 1x2+y2=1, are **implicit equations**. 
+	They describe a relationship between $x$ and $y$, but they don’t easily allow you to solve for $y$ in terms of $x$ (or vice versa) in a way that defines a **function**.
+
+To make such an equation a function, you would need to restrict it, for example, to the upper or lower semicircle:
+- Upper semicircle: $y = \sqrt{1 - x^2}$
+- Lower semicircle: $y = -\sqrt{1 - x^2}$
+
+Each of these is now a **function** because it defines a **one-to-one relationship** for $y$ in terms of $x$.
+## The Differences
 
 |                                               | Functions                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | Equations                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | --------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -190,9 +236,6 @@ Sometimes, you can manipulate or restrict an equation to turn it into a function
 2. **Restricting the Domain**:
    - By restricting the domain of an equation, you can sometimes ensure that it satisfies the criteria of a function.
    - **Example:** The equation $\LARGE y = \sqrt{x}$ is a function if the domain is restricted to $\LARGE x \geq 0$. This restriction ensures that each $\LARGE x$ corresponds to exactly one $\LARGE y$.
-
-
-
 ## [[Parameters vs. Variables|Connecting Parameters and Variables in Functions and Equations]]
 
 ### Common Underlying Concept of Parameters
@@ -409,3 +452,78 @@ Parameters in equations can act as free variables, leading to a family of soluti
   - **Example:** In the equation $\LARGE x^2 + y^2 = r^2$, the parameter $\LARGE r$ represents the radius of the circle. It is fixed and determines the specific circle described by the equation.
 
 - Unlike in functions, where parameters often help define a family of curves or surfaces, in equations, parameters can define the specific conditions that the solution set must satisfy.
+### 1. Graphs as Representations of Sets of Solutions (Equations)
+
+When you have an **equation**, it typically defines a **relationship** between variables. The **graph** of this equation represents the **set of solutions** — all the points that satisfy the equation. Think of it like this:
+
+- Take the equation y=2x+5y = 2x + 5y=2x+5. The graph of this equation is a straight line.
+- Every point (x,y)(x, y)(x,y) on the line is a **solution** to the equation. For example, the point (1,7)(1, 7)(1,7) satisfies y=2x+5y = 2x + 5y=2x+5, because if you plug in x=1x = 1x=1, you get y=7y = 7y=7. Similarly, (−1,3)(-1, 3)(−1,3) is also a solution, since y=2(−1)+5=3y = 2(-1) + 5 = 3y=2(−1)+5=3.
+
+The **graph** of the equation is essentially the **visual representation** of **all the pairs of values** (x,y)(x, y)(x,y) that satisfy the equation. This set of points forms the **set of solutions**.
+
+### 2. Graphs as Representations of Mappings (Functions)
+
+Now, consider the **function** interpretation of the graph. When you think of a graph as a function, you are focusing on the **mapping** between the independent variable (say xxx) and the dependent variable (say yyy).
+
+In a function, every value of xxx has a corresponding value of yyy. The **graph** of a function shows you how this mapping works:
+
+- For every value of xxx, the graph tells you what the value of yyy is, based on the function. For example, if y=2x+5y = 2x + 5y=2x+5, then for x=1x = 1x=1, the function tells you that y=7y = 7y=7.
+- You can think of the graph as **plotting** this mapping of pairs (x,y)(x, y)(x,y), showing how each xxx is mapped to a unique yyy.
+
+### Key Insight: Set of Solutions vs. Mapping of Pairs
+
+At first glance, it can be hard to separate the concept of a **set of solutions** from the **mapping of pairs** because they are visually represented in the same way — both are simply **points on a graph**. But here’s the difference:
+
+1. **Set of Solutions** (Equation):
+    - The graph of an equation is the set of all points (x,y)(x, y)(x,y) that **satisfy** the equation.
+    - There is no inherent direction in this representation. It’s a **static collection** of points that fulfill the condition of the equation.
+2. **Mapping of Pairs** (Function):
+    - The graph of a function shows how each xxx is **mapped** to a specific yyy. It’s more **dynamic** because for each xxx, you can find the corresponding yyy.
+    - In this interpretation, the graph is a way of seeing the **relationship** between xxx and yyy — how yyy changes as xxx changes.
+
+### Why This Feels Tricky:
+
+- **Visually**, the graph looks the same whether you're interpreting it as a **set of solutions** or as a **mapping** of pairs. Both interpretations are about the same set of points on the graph.
+- The difference lies in **how you interpret those points**. In the **set of solutions** view, you’re focusing on the fact that these points satisfy a given equation. In the **mapping of pairs** view, you're focusing on how one variable (the independent one) determines the other (the dependent one).
+
+### 3. A Practical Example: Circle
+
+Let’s take the equation of a circle:
+
+x2+y2=r2x^2 + y^2 = r^2x2+y2=r2
+
+The graph of this equation is a circle. Here’s how to think about it:
+
+- As a **set of solutions**, this equation describes all the pairs (x,y)(x, y)(x,y) that satisfy the condition x2+y2=r2x^2 + y^2 = r^2x2+y2=r2. The graph is just the **collection** of all these pairs — all the points that lie on the circle.
+    
+- However, it’s difficult to write this in a **function** form for all values of xxx because it’s not always possible to express yyy as a single function of xxx over the whole domain (you would need two functions, one for the upper half of the circle and one for the lower half). So in this case, thinking of the graph as a **set of solutions** is more natural.
+    
+
+### 4. A Line Example (Function and Set of Solutions)
+
+Now, consider the linear function y=2x+5y = 2x + 5y=2x+5:
+
+- **Set of Solutions**: The graph is a straight line, and it represents the collection of all points (x,y)(x, y)(x,y) that satisfy y=2x+5y = 2x + 5y=2x+5. Any point on this line is a solution to the equation.
+    
+- **Mapping of Pairs**: The graph is also a visual representation of the **mapping** from xxx to yyy. For each xxx, you can trace up or down to the line and find the corresponding yyy. It shows you how yyy changes as xxx changes.
+    
+
+### 5. Bridging the Gap: Dual Interpretations
+
+When you're looking at the graph:
+
+- As a **set of solutions**, you’re viewing it as a **static collection of points** that all satisfy a certain equation. You’re not necessarily thinking about how xxx maps to yyy.
+    
+- As a **function** (mapping of pairs), you’re seeing it more **dynamically** — each value of xxx is associated with exactly one yyy, and you can trace this relationship along the curve.
+    
+
+Both views are true at the same time! The graph encodes both the **set of solutions** and the **mapping of pairs** because those are two ways of interpreting the same mathematical object.
+
+### Conclusion
+
+To summarize:
+
+- **Set of solutions** refers to all the points (x,y)(x, y)(x,y) that satisfy an equation, and this is represented by the graph.
+- **Mapping of pairs** (function) refers to how the graph shows the relationship between xxx and yyy, with yyy depending on xxx.
+
+In essence, both views are embedded in the graph — the graph is a bridge between the **geometric (visual)** view of equations and the **functional (dynamic)** view of mappings. They are two sides of the same coin. It’s just a matter of interpreting the points on the graph in different ways depending on whether you are thinking of an equation or a function.

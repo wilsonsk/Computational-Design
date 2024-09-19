@@ -29,6 +29,38 @@ In abstract mathematics, concepts are defined rigorously through axioms and defi
 ## A Hierarchy
 The hierarchy from the most fundamental mathematical concepts (universal superset) to fields, spaces, categories, etc., is structured by increasing levels of complexity and structure.
 	Each subsequent level derives its elements and properties from the more fundamental levels, creating a layered approach to mathematical concepts.
+## Equality (and thus Inequality) as the Most Fundamental Notion $\LARGE (=)$
+**Equality** is a **fundamental structure** in all mathematical sets and structured sets.
+	For something to be defined as "something", its definition exists in relation to what that "something" is "not".
+		Absolute vs. Relational. 
+##### Fundamental Role
+Essential for defining the identity of elements, operations, and satisfying axioms.
+##### Set Membership
+The notion of an element belonging to a set **relies on equality**.
+	We determine if an element $x$ is in set $A$ by checking if $x$ satisfies certain properties that define $A$.
+### Inequality
+Is a **fundamental structure** in mathematical constructs where an order relation is integral to the structure, such as ordered sets, ordered groups, and ordered fields.
+#### Inequalities as Differentiation
+**Inequality** at its core expresses **differentiation** — the process of separating one thing from another. In essence, an inequality tells us **"this, but not that,"** defining boundaries and regions. 
+	For instance, $x>0$ says, “we are only concerned with values greater than 0, not equal to or less than 0.”
+		 This is what allows the formation of sets, as inequalities often define **regions** or **domains** in space (or more abstract spaces like $\mathbb{R}^n$).
+
+This **differentiation** creates **[[#Structured Set (i.e. Space)|structure]]** in the mathematical universe. 
+	It tells us where one set of conditions or behaviors **ends** and another **begins**. 
+		It's what allows us to carve out meaningful spaces, like regions where certain conditions hold. 
+			So, in many ways, inequalities are the foundation for distinguishing one set from another.
+#### Inequalities Define Open and Closed Sets
+Inequalities are **fundamental** in defining **open sets** or **closed sets**. 
+Consider:
+- An **inequality** like $x>0$ defines an open interval or region, $(0, \infty)$, in $\mathbb{R}$, which is a set.
+- A **closed set** might be defined by $x \geq 0$, including the boundary, which also represents a set.
+
+Thus, inequalities naturally define a **region** within a space, often representing all the elements that satisfy the inequality. 
+	This region, in turn, is a **set** of solutions or points. 
+		While equations can specify precise points or curves, inequalities define a **range** or area, which is often more general and inclusive, forming a **collection of points** — i.e., a set.
+
+From this perspective, you could argue that **inequalities are a fundamental way of constructing sets** because they define the boundaries and regions in which elements reside. 
+	This becomes even clearer when working in **higher dimensions** or more abstract spaces, where inequalities describe entire regions, planes, or volumes.
 ## The Universal Superset
 This is the most abstract and comprehensive set, **containing all possible** underlying, structured, and higher-level sets. 
 	Think of it as the "universe" of **all** mathematical objects and structures.
@@ -125,7 +157,9 @@ Mappings must adhere to the axioms and properties defined by the structure.
 	They are designed to satisfy the constraints and behaviors dictated by the axioms.
 		Mappings (relations, functions, operations) are then defined in a way that satisfies the axioms. 
 			The mappings are constructed to ensure that the structured set adheres to its defined properties.
-#### 3. Domains, Codomains, and Ranges are the "Inherent Values" of a Structured Set
+#### 3. Domains, [[Axes and Dimensions#Codomain|Codomains]], and Ranges are the "Inherent Values" of a Structured Set
+Domains, Codomains, and Ranges are possible values, that is, the [[Axes and Dimensions|axis or axes]] of a structured set.  
+
 Domains, Codomains, and Ranges Are Structured by the Mappings which are themselves determined by the axioms.
 	A Domain, Codomain, and Range is associated with each specific mapping of the structured set, determined by the axioms of the structure.
 		These subsets therefore define the scope of inputs, potential outputs, and actual outputs of each of these mappings.

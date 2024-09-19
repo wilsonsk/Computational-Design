@@ -1,8 +1,7 @@
 # Equations as Constraints
 ###### Variables
 The dimensions in which the problem exists.
-
-**Parameters**
+###### Parameters
 **Parameters** are often introduced in situations where not all variables are fully constrained by equations.
 ###### Equations
 The constraints imposed on those variables.
@@ -11,6 +10,8 @@ The remaining variability after applying constraints.
 ## Solution Sets
 A **solution set** is the collection of all values that satisfy a given equation or system of equations. 
 	It represents all possible solutions that make the equation true.
+		I.e. **Set of solutions** refers to all the points $(x,y)$ that satisfy an equation, and this is represented by the graph.
+			It as a **static collection of points** that all satisfy a certain equation. You’re not necessarily thinking about how $x$ maps to $y$.
 ###### [[Degrees of Freedom]]
 
 ##### Intersections of Solution Sets
@@ -71,7 +72,8 @@ Because there are more variables than equations, not all variables are fully con
     - **Degrees of Freedom:** $2−1=1$
     - **Interpretation:** One variable can be chosen freely; the second is determined by the equation.
 
-The set of all points (x,y)(x, y)(x,y) that satisfy an equation like x+y=4x + y = 4x+y=4 forms a **line** in R2\mathbb{R}^2R2. This line represents the entire set of possible solutions, all of which maintain the balance described by the equation.
+The set of all points $(x,y)$ that satisfy an equation like $x+y=4$ forms a **line** in $\mathbb{R}^2$.
+	This line represents the entire set of possible solutions, all of which maintain the balance described by the equation.
 
 **Common Outcome:** Often, especially with **continuous equations**, you get infinitely many solutions forming a curve (line, circle, etc.) because there's one degree of freedom—choosing a value for one variable determines the other.
 
@@ -91,6 +93,18 @@ Because there are more variables than equations, not all variables are fully con
     - **Equations:** 1
     - **Degrees of Freedom:** $3−1=1$
     - **Interpretation:** Two variables can be chosen freely; the third is determined by the equation.
+## Graphs as Representations of Sets of Solutions (Equations)
+When you have an **equation**, it typically defines a **relationship** between variables.
+	The **graph** of this equation represents the **set of solutions** — all the points that satisfy the equation.
+		Think of it like this:
+			Take the equation $\LARGE y = 2x + 5$.
+				 The graph of this equation is a straight line.
+					Every point $(x,y)$ on the line is a **solution** to the equation.
+						 For example, the point $(1,7)$ satisfies $y=2x+5$, because if you plug in $x=1$, you get $y=7$. 
+							 Similarly, $(−1,3)$ is also a solution, since $y=2(−1)+5=3$.
+
+The **graph** of the equation is essentially the **visual representation** of **all the pairs of values** $(x,y)$ that satisfy the equation. 
+	This set of points forms the **set of solutions**.
 ## Equations Constrain Relationships Between Variables
 When an equation involves multiple variables, it doesn't just constrain each variable individually. 
 	Instead, it defines a **relationship** between the variables.
@@ -101,12 +115,12 @@ When an equation involves multiple variables, it doesn't just constrain each var
 - **Example:** In the equation $x+y=4$, $x$ and $y$ are linked.
 	- Choosing a value for $x$ determines $y$, and vice versa.
 		- The equation doesn't restrict $x$ and $y$ to specific individual values but to pairs of values that together sum to 4.
-###### In $\mathbb{R}^1$
+### In $\mathbb{R}^1$
 An equation like $x=3$ is a simple **constraint**: it fixes the value of $x$ to a single point. 
 	There’s only one variable involved, so the equation just tells you exactly what value $x$ must take.
 		There’s no other variable for $x$ to relate to. 
 			You get a **single solution**.
-###### In $\mathbb{R}^2$ (or higher)
+### In $\mathbb{R}^2$ (or higher)
 An equation doesn’t just constrain a single variable to a value—it defines a **relationship** between two or more variables. 
 	This relationship constrains **how the variables interact with each other**.
 		If you change $x$, the value of $y$ must also change in a specific way so that the equation remains true.
@@ -131,7 +145,6 @@ The number of degrees of freedom in a system is exactly equal to the number of *
 
 - If you have **one parameter**, you have **one degree of freedom**.
 - If you have **two parameters**, you have **two degrees of freedom**, and so on.
-
 #### More Independent Equations = Fewer Degrees of Freedom:
 Every independent equation in the system imposes a constraint on the variables, reducing the degrees of freedom. 
 	This is because each independent equation narrows the possible values the variables can take.

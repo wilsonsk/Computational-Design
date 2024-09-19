@@ -108,7 +108,47 @@ In the **system of equations**, the parameter $t$ represents the freedom in the 
 
 In the **vector function**, the parameter $t$ typically has a geometric or physical meaning (like time or distance) and describes how a point moves along a curve. 
 	The scalar functions $x(t)$ and $y(t)$ describe the position of the point at any given $T$.
+#### Parametric Equations
+When you express equations like $x=t$ and $y=t+5$, you're defining **parametric equations**. 
+	These are equations where both $x$ and $y$ are expressed as **functions of a common parameter** (in this case, $t$).
+		$x(t)=t$ is a **function** of $t$ because for each value of $t$, there is a corresponding value of $x$.
+			Similarly, $y(t)=t+5$ is also a **function** of $t$, because for each value of $t$, there is a corresponding value of $y$.
+
+**Parametric Equations** are equations where both $x$ and $y$ are expressed as functions of a **shared parameter** $t$.
+	This gives you a more complete picture of a system's behavior, describing both variables (e.g., $x$ and $y$) in terms of the same parameter.
+		The following are the Parametric Equations, where both $x$ and $y$ are expressed in terms of the parameter $t$.
+			$x=t$
+			$y=t+5$
+##### *Important*: Parametric Equations are Functions
+$\LARGE x(t)=t$ and $\LARGE y(t)=t+5$ are both technically functions, however, more specifically they are parametric equations where both $x$ and $y$ are expressed as functions of the parameter $t$.
+	These are called **parametric equations** because they express the coordinates $x$ and $y$ as functions of a common **parameter** $t$.
+
+They **look like functions** because they **are** functions — they map the parameter $t$ to values for $x$ and $y$. 
+	In parametric equations, instead of having a single equation like $y=f(x)$, you have **two functions**, one for $x$ and one for $y$, both depending on a shared parameter $t$.
+		They are **equations** in the sense that they describe **relationships** between variables. 
+			For instance, $x$ is related to $t$ by the equation $x=t$, and $y$ is related to $t$ by the equation $y=t+5$.
+			    They are also **functions** because $x(t)$ and $y(t)$ explicitly describe how $x$ and $y$ depend on the parameter $t$.
+				    Each of these is a function of $t$.
+						In this case, the parametric equations are telling you that both $x$ and $y$ depend on the same parameter $t$, but they depend on $t$ in different ways (linearly for $y$, and identically for $x$).
+
+So, **parametric equations** can be thought of as a **pair of functions**:
+- One function that gives you the $x$-value for each $t$ (i.e., $x(t)=t$),
+- Another function that gives you the $y$-value for each $t$ (i.e., $y(t)=t+5$).
+These parametric equations describe how $x$ and $y$ vary as $t$ changes.
+
+##### Parametric Equations vs. Standard Functions
+In a standard function $y=f(x)$, you typically express $y$ directly as a function of $x$, like this:
+$$y=2x+5$$
+This is a **non-parametric function**, where you think of x as the independent variable, and $y$ depends on $x$.
+
+In **parametric equations**, you're not directly relating $y$ to $x$. 
+	Instead, you have a **third variable** (the parameter $t$) that both $x$ and $y$ depend on.
+		 The goal of parametric equations is to describe a curve or relationship in terms of this parameter.
 #### Parameters in Parametric Equations
+In a parametric system, the parameter $t$ is the **independent variable** that defines both $x$ and $y$.
+	It’s a **free parameter** that you can adjust, and as you do, the corresponding values of $x(t)$ and $y(t)$ change accordingly.
+		The parameter $t$ **drives** both $x$ and $y$, but it’s not a function itself — it’s just the variable on which the functions depend.
+
 In parametric equations, such as parametric curves, a parameter (like $\LARGE t$ in $\LARGE x(t)$ and $\LARGE y(t)$) is generally considered a **free variable** because:
 	It can vary over a certain range (for instance, $\LARGE t \in [0, 2\pi]$ for a circle).
 		The value of the parameter controls the behavior of the other variables (like $x(t)$ and $y(t)$), but it is not constrained by those variables.
@@ -152,7 +192,7 @@ In $n$-dimensional space, an equation reduces the degrees of freedom by one, def
 		Equations can represent lines, planes, or hypersurfaces, depending on the number of variables and equations.
 	**In a system with remaining degrees of freedom** 
 		There's room for continuous variation, leading to solution sets that are lines, curves, or surfaces.
-### The Implications of the Spatial Nature of Real Number Field and Vector Spaces
+### The Implications of the Spatial Nature of the [[Axes and Dimensions|Dimensions]] of the Real Number Field and Vector Spaces
 #### The Spatial Nature of $\LARGE \mathbb{R}^1$ (i.e. Real Number Field)
 Imagine a **tightrope**, stretching infinitely in both directions. 
 	This is $\mathbb{R}^1$—a **one-dimensional space**. 
