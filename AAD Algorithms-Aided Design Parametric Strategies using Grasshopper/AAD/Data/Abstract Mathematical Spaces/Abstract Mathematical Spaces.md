@@ -29,18 +29,35 @@ In abstract mathematics, concepts are defined rigorously through axioms and defi
 ## A Hierarchy
 The hierarchy from the most fundamental mathematical concepts (universal superset) to fields, spaces, categories, etc., is structured by increasing levels of complexity and structure.
 	Each subsequent level derives its elements and properties from the more fundamental levels, creating a layered approach to mathematical concepts.
-## Equality (and thus Inequality) as the Most Fundamental Notion $\LARGE (=)$
-**Equality** is a **fundamental structure** in all mathematical sets and structured sets.
-	For something to be defined as "something", its definition exists in relation to what that "something" is "not".
-		Absolute vs. Relational. 
+## Constraint as the Foundational Notion
+Constraints are the building blocks for defining sets, and they are formulated using the fundamental concepts of **logic**.
+	Constraints specify the conditions under which elements are included in a set or satisfy a definition.
+		Constraints often involve equations (statements of equality) that elements must satisfy.
+			In logic, predicates and conditions involve equality to express precise relationships.
+#### Equality (and thus Inequality) as the Most Fundamental Notion $\LARGE (=)$
+**Equality is indeed a foundational notion in mathematics and logic**.
+
+**Establishes Identity**: Definitions require stating what an object is, which inherently involves equality.
+	When we define something "as" something else, we are essentially stating that the two are equal in some sense; we are establishing an identity between them based on certain properties or criteria.
+		**Equality** is a **fundamental structure** in all mathematical sets and structured sets.
+			For something to be defined as "something", its definition exists in relation to what that "something" is "not".
+				Absolute vs. Relational. 
+
+**In foundational mathematics, equality is considered a primitive notion**, meaning it is not defined in terms of other concepts but is accepted as a basic building block.
+
+**Equality (===)** is one of the most basic and primitive notions in mathematics and logic. It signifies that two expressions represent the same object or have the same value.
+
+- **Identity**: Equality establishes the identity between objects. When we say a=ba = ba=b, we assert that aaa and bbb are the same in all relevant aspects.
+    
+- **Indiscernibility of Identicals**: If two objects are equal, then any property of one is a property of the other.
 ##### Fundamental Role
 Essential for defining the identity of elements, operations, and satisfying axioms.
 ##### Set Membership
 The notion of an element belonging to a set **relies on equality**.
 	We determine if an element $x$ is in set $A$ by checking if $x$ satisfies certain properties that define $A$.
-### Inequality
+#### Inequality
 Is a **fundamental structure** in mathematical constructs where an order relation is integral to the structure, such as ordered sets, ordered groups, and ordered fields.
-#### Inequalities as Differentiation
+##### Inequalities as Differentiation
 **Inequality** at its core expresses **differentiation** — the process of separating one thing from another. In essence, an inequality tells us **"this, but not that,"** defining boundaries and regions. 
 	For instance, $x>0$ says, “we are only concerned with values greater than 0, not equal to or less than 0.”
 		 This is what allows the formation of sets, as inequalities often define **regions** or **domains** in space (or more abstract spaces like $\mathbb{R}^n$).
@@ -49,7 +66,7 @@ This **differentiation** creates **[[#Structured Set (i.e. Space)|structure]]** 
 	It tells us where one set of conditions or behaviors **ends** and another **begins**. 
 		It's what allows us to carve out meaningful spaces, like regions where certain conditions hold. 
 			So, in many ways, inequalities are the foundation for distinguishing one set from another.
-#### Inequalities Define Open and Closed Sets
+##### Inequalities Define Open and Closed Sets
 Inequalities are **fundamental** in defining **open sets** or **closed sets**. 
 Consider:
 - An **inequality** like $x>0$ defines an open interval or region, $(0, \infty)$, in $\mathbb{R}$, which is a set.
