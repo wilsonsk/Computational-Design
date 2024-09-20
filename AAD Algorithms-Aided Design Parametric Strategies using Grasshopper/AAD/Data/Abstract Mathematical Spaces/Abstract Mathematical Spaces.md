@@ -45,7 +45,7 @@ Constraints are the building blocks for defining sets, and they are formulated u
 
 **In foundational mathematics, equality is considered a primitive notion**, meaning it is not defined in terms of other concepts but is accepted as a basic building block.
 
-**Equality (===)** is one of the most basic and primitive notions in mathematics and logic. It signifies that two expressions represent the same object or have the same value.
+**Equality ($=$)** is one of the most basic and primitive notions in mathematics and logic. It signifies that two expressions represent the same object or have the same value.
 
 - **Identity**: Equality establishes the identity between objects. When we say a=ba = ba=b, we assert that aaa and bbb are the same in all relevant aspects.
     
@@ -78,7 +78,7 @@ Thus, inequalities naturally define a **region** within a space, often represent
 
 From this perspective, you could argue that **inequalities are a fundamental way of constructing sets** because they define the boundaries and regions in which elements reside. 
 	This becomes even clearer when working in **higher dimensions** or more abstract spaces, where inequalities describe entire regions, planes, or volumes.
-## The Universal Superset
+## The Universal Superset as the Most Fundamental Mathematical Object
 This is the most abstract and comprehensive set, **containing all possible** underlying, structured, and higher-level sets. 
 	Think of it as the "universe" of **all** mathematical objects and structures.
 ### Elements of the Universal Superset

@@ -68,24 +68,24 @@
             }
           },
           {
-            "id": "174c926e5077dee7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Equations vs. Functions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "22051a7fc51d827d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Axes and Dimensions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1e874b40e370f710",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Degrees of Freedom.md",
                 "mode": "source",
                 "source": false
               }
@@ -238,7 +238,7 @@
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -305,7 +305,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Abstract Mathematical Spaces.md",
+                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Axes and Dimensions.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -322,7 +322,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Abstract Mathematical Spaces.md",
+                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Axes and Dimensions.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -345,7 +345,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Abstract Mathematical Spaces.md"
+                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Axes and Dimensions.md"
               }
             }
           },
@@ -379,24 +379,30 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "7bf851ae501a8c6a",
+  "active": "22051a7fc51d827d",
   "lastOpenFiles": [
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/A Map of Change as Rates to Limits of those Rates to Differentials to Derivatives.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Degrees of Freedom.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Axes and Dimensions.md",
     "Abstract/Reality.md",
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Spaces.md",
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Equations as Constraints.md",
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Parametrization.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Equations vs. Functions.md",
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Degrees of Freedom.md",
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Division.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Arc Length/Parametrization by Arc Len.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Curves as Parametric Functions.md",
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Parameters.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Multi-Variable Composite Functions.md",
-    "Untitled.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Static Equilibrium.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Types of Forces/Potentials.md",
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Division.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/A Map of Change as Rates to Limits of those Rates to Differentials to Derivatives.md",
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Spaces.md",
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Mapping.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Gradients.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Partial Derivatives.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Planes.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Jacobian Matrix.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Multi-Variable Composite Functions.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Parametrization.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Equations as Constraints.md",
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Parameters.md",
+    "Untitled.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Arc Length/Arc Length of P Curves.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Arc Length",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Vector-Valued Single Var Deriv.md",
@@ -410,15 +416,9 @@
     "Pasted image 20240914085927.png",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Integrals.md",
     "images/Pasted image 20240913065838.png",
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Sol. Sets of Linear Eq..md",
     "images/Pasted image 20240913065754.png",
     "images/Pasted image 20240913065708.png",
     "images/Pasted image 20240913065207.png",
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Linearity/Linear Equations.md",
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Linearity/Linear Functions.md",
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Parameters vs. Variables.md",
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Linearity/Linearity in the Field of Real Numbers.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Partial Derivatives.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Untitled",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Real Value Functions",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Untitled",

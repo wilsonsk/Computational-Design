@@ -183,7 +183,7 @@ In three dimensions, you can have a parametric curve like:
 $$\LARGE \mathbf{r}(t) = \begin{pmatrix} x(t) \\ y(t) \\ z(t) \end{pmatrix}$$
 Where each of $x(t)$, $y(t)$, and $z(t)$ are scalar functions of $t$.
 	As $t$ varies, the point $(x(t),y(t),z(t))$  moves along a curve in three-dimensional space.
-## Dimensions and Degrees of Freedom
+## [[Axes and Dimensions|Dimensions]] and Degrees of Freedom
 The key to understanding why equations in higher dimensions can represent lines or surfaces lies in the concept of **degrees of freedom**.
 	Because there are more variables than equations, not all variables are fully constrained.
 #### General Rule $(n-1)$ 
