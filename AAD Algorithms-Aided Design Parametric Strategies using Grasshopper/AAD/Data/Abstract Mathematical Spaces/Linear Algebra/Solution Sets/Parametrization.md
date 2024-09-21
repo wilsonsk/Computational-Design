@@ -11,6 +11,7 @@ $$\text{Where } \quad \vec{i} = \mathbf{i} = (1,0,0), \quad \vec{j} = \mathbf{j}
 $$\text{And where each component function scaled by a std. unit vector is another vector}$$
 $$\quad x(t)\mathbf{i} = ( x(t), 0, 0), \quad y(t)\mathbf{j} = (0, y(t), 0), \quad z(t)\mathbf{k} = (0,0,z(t)) $$
 $$\LARGE \implies \textcolor{red}{\neq} \cancel{\mathbf{r}(t) = \textcolor{red}{(}x(t)\mathbf{i}, y(t)\mathbf{j},z(t)\mathbf{k}\textcolor{red}{)}}$$
+$$\text{As this would imply a vector composed of vectors, instead of a vector composed of scalars}$$
 $$\LARGE \text{Where $\vec{r}$ (and $\mathbf{r}$) is a Vector-Valued Function, and $t$ is a parameter.}$$
 $$\LARGE \text{And $x(t), \space y(t), \space z(t)$ are Component Scalar Functions, $\mathbb{R}\to \mathbb{R}$} $$
 The Scalars returned by these component scalar functions compose the "points" of the returned vector. 

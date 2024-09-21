@@ -14,6 +14,23 @@ An **equation** is a **statement of equality** between two mathematical expressi
 
 An equation tells you that two expressions are equal under certain conditions, but it doesn't necessarily specify a **mapping** or dependency between variables. 
 	Equations are very general and can include relationships where variables don’t have a one-way dependency (e.g., implicit equations like $x^2 + y^2 = 1$, which describes a circle but doesn’t express $y$ directly in terms of $x$).
+#### Equations and Domains
+
+- While equations can define functions, they can also represent more general relationships.
+- For equations that define functions, the concepts of domain and codomain apply.
+- For equations that do not define functions, we consider their **solution sets** rather than domains and codomains.
+
+##### Domains and Codomains in R1\mathbb{R}^1R1
+##### Functions in R1\mathbb{R}^1R1
+- In R1\mathbb{R}^1R1, functions are mappings from a subset of R\mathbb{R}R to R\mathbb{R}R.
+    - **Example**: f(x)=2x+3f(x) = 2x + 3f(x)=2x+3 is a function from R\mathbb{R}R to R\mathbb{R}R.
+- The **domain** is the set of all xxx values for which the function is defined.
+- The **codomain** is R\mathbb{R}R, but the **range** depends on the function.
+
+#### **Equations in R1\mathbb{R}^1R1**
+
+- An equation involving only xxx (e.g., x=5x = 5x=5) specifies a particular value or set of values of xxx.
+- Without another variable (like yyy), there's no mapping from one set to another, so the concepts of domain and codomain in the function sense do not directly apply.
 ###### Equations
 Describes the equality between two expressions.
 	The output is a constant which therefore, means it does not "depend" on an "input". 

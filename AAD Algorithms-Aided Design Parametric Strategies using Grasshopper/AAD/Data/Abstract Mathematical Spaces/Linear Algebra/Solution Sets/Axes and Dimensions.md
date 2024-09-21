@@ -1,16 +1,137 @@
 # Axes and Dimensions
-An axis is a **conceptual dimension**, where the "value" along the axis corresponds to different states or outcomes of a system. 
-	It doesn't have to be spatial at all.
-		 It’s about representing the **[[Degrees of Freedom|degrees of freedom]]** or **[[Degrees of Freedom#Parameters and Degrees of Freedom|parameters]]** that define your system’s behavior.
+## Starting at Universal Superset (Set of all Real Numbers $\mathbb{R}$)
+Before there are axes or dimensions there is simply the [[Abstract Mathematical Spaces#The Universal Superset as the Most Fundamental Mathematical Object|Universal Superset]].
+	Which encompasses every possible number, whether positive, negative, rational, irrational, or infinite.
+		It represents a space of **total freedom** where no values are excluded or constrained. Every possible value is included in this universal set.
 
-An **axis** is essentially a **set of possibilities** or a **range of values** for some variable, just like a set defines possible elements. 
-	An axis can be thought of as a **range** in which the system can exist or evolve, and it doesn’t need to be limited to physical space.
-		Where a "variable" represents a potential value that corresponds with a given axis, that is, a set of possible values.
+- - - 
+## Constraints
+#### Constraining the $\mathbb{R}^1$ (i.e. $x$-axis) Internal Vs. External/Expansive
+##### Internal Constraints (Constraining within a Space) are Limiting
+**Internal constraints** are those that apply **within a space**, typically through the use of **equations** or **inequalities** that restrict the set of possible values on an axis (or axes). 
+	In R1\mathbb{R}^1R1, for example, an internal constraint limits the possible values of xxx within the one-dimensional space.
+		They reduce the number of possible values by applying equations or inequalities that restrict the range of valid values within the given space.
+			These constraints make subsets within the original space.
+##### Examples
+- **Equations**:
+    - An equation like x2−4=0x^2 - 4 = 0x2−4=0 constrains xxx to the specific values where the equation holds true, i.e., x=±2x = \pm 2x=±2. This means we are still working within R1\mathbb{R}^1R1, but we’ve **internally constrained** the values of xxx to just {−2,2}\{-2, 2\}{−2,2}.
+- **Inequalities**:
+    - An inequality like x>0x > 0x>0 restricts the set of possible values of xxx within R1\mathbb{R}^1R1 to positive numbers. Again, this is an **internal constraint** that limits the values on the x-axis but doesn’t move us out of the space R1\mathbb{R}^1R1.
+###### Terminology
+- In formal terms, these types of constraints are often referred to as **subsets** or **restricted subsets** within a space. They describe a smaller set of allowable values within the original set.
+- If the constraint is an equation (like x=2x = 2x=2), we often talk about a **solution set** or a **locus** of points that satisfy the equation. If the constraint is an inequality, we speak of **intervals** or **regions** that satisfy the inequality.
+###### Equations in $\mathbb{R}^1$ Constrain the Possible Values of $x$
+In the context of equations, the set of solutions to an equation is often called the **solution set** or **locus** (the set of all points satisfying the equation).
+##### External Constraints (Creating Higher-Dimensional Spaces) are Expansive
+**External constraints**, on the other hand, are those that **extend** or **expand** a space by introducing new degrees of freedom or additional axes, resulting in the creation of a **higher-dimensional space**. For example, moving from R1\mathbb{R}^1R1 (a one-dimensional space) to R2\mathbb{R}^2R2 (a two-dimensional space) involves the introduction of a **new axis** and hence a **new degree of freedom**.
+- These are constraints that result in the **extension or expansion** of the space to a higher-dimensional one by introducing new degrees of freedom.
+- The process is often referred to as **embedding** or **dimensional extension**. When you embed R1\mathbb{R}^1R1 into R2\mathbb{R}^2R2, you’re not constraining the values in the traditional sense; you’re **expanding** the system to accommodate new dimensions of freedom.
+- In linear algebra and geometry, this is often called **dimension extension** or **embedding** one space into another.
+They introduce new degrees of freedom, creating higher-dimensional spaces like R2\mathbb{R}^2R2 from R1\mathbb{R}^1R1. These constraints add new possibilities, leading to more complex structures, not less.
+###### Examples
+- **Expanding from R1\mathbb{R}^1R1 to R2\mathbb{R}^2R2**:
+    - Introducing a second variable, say yyy, creates a new axis, and the set of possible values is no longer constrained to just the x-axis. Now, we have the **x-axis** and the **y-axis**, and each point is described by a pair of values (x,y)(x, y)(x,y).
+    - This transformation isn’t just a constraint on the x-values; it’s the introduction of a **new dimension** of freedom, resulting in a space where both the x-values and y-values can vary independently.
+- **Expanding from R2\mathbb{R}^2R2 to R3\mathbb{R}^3R3**:
+    - Similarly, moving from R2\mathbb{R}^2R2 (a plane) to R3\mathbb{R}^3R3 (a 3D space) involves the introduction of a third axis (the z-axis). This adds a third degree of freedom and allows us to describe points in a three-dimensional space using triples (x,y,z)(x, y, z)(x,y,z).
+###### Terminology
+The process of moving to a higher-dimensional space by introducing additional degrees of freedom is often described as **embedding** or **expanding** the space. 
+	The term **dimension extension** is also used to describe this shift from a lower-dimensional space (like R1\mathbb{R}^1R1) to a higher-dimensional space (like R2\mathbb{R}^2R2 or R3\mathbb{R}^3R3).
+    
+**Embedding** specifically refers to placing one space (like R1\mathbb{R}^1R1) into a higher-dimensional space (like R2\mathbb{R}^2R2) in a way that preserves the structure of the original space while adding more dimensions.
+
+- - - 
+### The First Constraint (Producing the First Axis, $\mathbb{R}^1$ (Sub)Set)
+An Axis is simply a [[Abstract Mathematical Spaces#The Universal Superset as the Most Fundamental Mathematical Object|Subset]] of some lower level Set which itself can be derived back to the initial and "singular", Parent Superset (i.e. absolute).
+
+A **constraint** in the form of an **[[Abstract Mathematical Spaces#Equality (and thus Inequality) as the Most Fundamental Notion $ LARGE (=)$|inequality]]** applied to the Universal Superset is what **restricts** or **filters** this vast set, creating a **subset** of possible values.
+	This subset is called **$\mathbb{R}^1$** is the set of all real numbers along a single axis, commonly called the $x$-axis.
+		This subset is (or corresponds to) a single axis, in this case, called the $x$-axis.
+			It is an **independent set** of **possible values** in this $\mathbb{R}^1$ set.
+				Any value in the set $\mathbb{R}^1$ can be represented by a variable $x$.
+###### Elements of $\mathbb{R}^1$: Individual real numbers $\LARGE x \in \mathbb{R}$.
+Where $x$ represents a possible, single value in the $x$-axis/set of $\mathbb{R}^1$.
+	In $\mathbb{R}^1$ if the possible value of $x$ on the axis (or in the set of possible values) is not constrained by an equation (and thus can be any element in the axis/set of $\mathbb{R}^1$), then it has $1$ degree of freedom.
+		This axis or set of possible values directly corresponds to a **[[Degrees of Freedom|degree of freedom]]**.
+			In **$\mathbb{R}^1$**, there is only **one degree of freedom** (one axis), so any point is defined by a single value.
+
+
+### The Second Constraint (Producing the Second Axis (i.e. 2-Axis space), $\mathbb{R}^2$ (Sub)Set/Space)
+
+#### Forming R2\mathbb{R}^2R2 Through the Cartesian Product
+
+##### Understanding the Cartesian Product
+
+- **Definition**: The **Cartesian product** of two sets XXX and YYY is the set of all ordered pairs (x,y)(x, y)(x,y) where x∈Xx \in Xx∈X and y∈Yy \in Yy∈Y.
+- **Mathematical Representation**: R2=X×Y={(x,y)∣x∈R,y∈R}\mathbb{R}^2 = X \times Y = \{ (x, y) \mid x \in \mathbb{R}, y \in \mathbb{R} \}R2=X×Y={(x,y)∣x∈R,y∈R}.
+
+##### Combining Axes to Form R2\mathbb{R}^2R2
+
+- **Elements of R2\mathbb{R}^2R2**: Ordered pairs (x,y)(x, y)(x,y) where both xxx and yyy are real numbers.
+- **Visualization**: A plane where each point is determined by a pair of real numbers, one from the xxx-axis and one from the yyy-axis.
+#### Formal Set-Theoretic Explanation
+
+##### Sets Involved
+- **Set XXX**: The set of all real numbers along the xxx-axis, X=RX = \mathbb{R}X=R.
+- **Set YYY**: The set of all real numbers along the yyy-axis, Y=RY = \mathbb{R}Y=R.
+##### Cartesian Product
+- **Definition**: R2=X×Y={(x,y)∣x∈X,y∈Y}\mathbb{R}^2 = X \times Y = \{ (x, y) \mid x \in X, y \in Y \}R2=X×Y={(x,y)∣x∈X,y∈Y}.
+
+#### **Elements of R2\mathbb{R}^2R2**
+
+- **Ordered Pairs**: Each element is a pair (x,y)(x, y)(x,y), not just individual numbers.
+- **Distinct from Elements of R1\mathbb{R}^1R1**: The elements xxx and yyy are individual real numbers, but (x,y)(x, y)(x,y) is a single element in R2\mathbb{R}^2R2.
+#### How the New Axis Is Added to the Structured Set
+
+##### Understanding Sets and Elements
+
+- **Original Set (R1\mathbb{R}^1R1)**:
+    - **Elements**: Real numbers xxx.
+    - **Structured Set**: The xxx-axis.
+- **New Axis (yyy-Axis)**:
+    - **Elements**: Real numbers yyy.
+    - **Structured Set**: The yyy-axis.
+
+#### **Combining Elements to Form R2\mathbb{R}^2R2**
+
+- **Process**:
+    1. **Pairing Elements**: For each element xxx in R1\mathbb{R}^1R1, we pair it with every element yyy in the yyy-axis set.
+    2. **Creating Ordered Pairs**: Each combination (x,y)(x, y)(x,y) becomes an element of R2\mathbb{R}^2R2.
+- **Result**: The set R2\mathbb{R}^2R2 consists of all possible ordered pairs formed from elements of R1\mathbb{R}^1R1 and the yyy-axis.
+#### Introducing a New Axis: The yyy-Axis
+
+##### **Defining the yyy-Axis**
+- **yyy-Axis as a Set**: Another copy of the real numbers, Y=RY = \mathbb{R}Y=R.
+- **Elements of YYY**: Individual real numbers y∈Ry \in \mathbb{R}y∈R.
+- **Visualization**: A line perpendicular to the xxx-axis, extending infinitely in both directions.
+- - -
+## [[Abstract Mathematical Spaces#Change/Differentiation Through Constraint as the Foundational Notion|Change/Differentiation Through Constraint as the Foundational Notion]]
+Change is differentiation.
+	The initial change is that from the undifferentiated, absolute to the first duality or relational existence of two interdependent states. 
+		The states being most simply "**is**" and "**is not**", that is "**equality**" and "**inequality**".
+			Which through the notion of value expressed as quantity which is expresses as numbers, can be described as $\LARGE 1$ and $\LARGE 0$.
+### Change/Constraint Described by Equality/Inequality Derives Identity (i.e. Interdependent States of Being/Not Being)
+The assignment of a value is dependent on a the notion of **equality** and thus **inequality**.
+	Which define states of "being".
+		But this **state of being** is implicitly and necessarily defined relative to a **state of not being.**
+			These interdependent States of Being/Not Being are what produce Identity.
+				That is a distinct entity, i.e. the differentiation between entities (i.e. states of being).
+#### Equality/Inequality Establish a State of Being
+This **state of being** is Interdependent with its corresponding state of what it is not.
+	I.e. This **state of being** is implicitly and necessarily defined relative to a **state of not being.**
+
+Equality establishes the identity between objects. When we say $a=b$, we assert that $a$ and $b$ are the same in all relevant aspects.
+
+An axis is a **conceptual dimension**, where the "value" along the axis corresponds to a **state** or outcome of a system. 
+##### Interdependent State of Being/Not Being Express an Identity
+These interdependent States of Being/Not Being are what describe Identity.
+	That is a distinct entity, i.e. the differentiation between entities (i.e. states of being).
 
 - - -
 ## Identity: Values, Quantities, and Numbers
 ### Identity
-The set of characteristics or properties that make an object or entity distinct from others.
+A state of being defined by differentiation.
+	That differentiation is described by set of characteristic(s) or property/properties that make an object or entity distinct from others.
 #### Relational Identity
 ##### Identity Is Relational
 Philosophically, an object's identity can be understood not only by its intrinsic properties but also by how it relates to other objects.
@@ -352,6 +473,13 @@ In a Cartesian plane, each axis (e.g., $x$-axis, $y$-axis, etc.) represents the 
 	
 		**In two dimensions**, the Cartesian plane has an $x$-axis and a $y$-axis. Each of these axes represents the range of values that the variables $x$ and $y$ can independently take.
 			So, dimensions or axes are essentially **possibilities** — they define the **space** or **range** in which variables can exist.
+
+- - -
+## Equations Constrain the Axes (i.e. the Sets of Possible Values aka Domain and Codomain of a Space)
+##### The resulting, constrained Subsets of Values (from the Parent Sets/Axes) is called the Range of Solutions (i.e. the Subset of Solutions).
+
+##### The resulting, constrained Subsets of Values (from the Parent Sets/Axes) is called the Range of Solutions (i.e. the Subset of Solutions).
+Domain and Codomain
 ### Solutions and Constraints in $\mathbb{R}^2$ and Beyond
 In higher-dimensional spaces, such as R2\mathbb{R}^2R2 or R3\mathbb{R}^3R3, the **spatial aspect** becomes clearer:
 

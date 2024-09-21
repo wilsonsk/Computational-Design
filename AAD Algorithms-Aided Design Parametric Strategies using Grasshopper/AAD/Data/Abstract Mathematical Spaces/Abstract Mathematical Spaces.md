@@ -29,27 +29,41 @@ In abstract mathematics, concepts are defined rigorously through axioms and defi
 ## A Hierarchy
 The hierarchy from the most fundamental mathematical concepts (universal superset) to fields, spaces, categories, etc., is structured by increasing levels of complexity and structure.
 	Each subsequent level derives its elements and properties from the more fundamental levels, creating a layered approach to mathematical concepts.
-## Constraint as the Foundational Notion
+## Change/Differentiation Through Constraint as the Foundational Notion
+Change is differentiation.
+	The initial change is that from the undifferentiated, absolute to the first duality or relational existence of two interdependent states. 
+		The states being most simply "**is**" and "**is not**", that is "**equality**" and "**inequality**".
+			Which through the notion of value expressed as quantity which is expresses as numbers, can be described as $\LARGE 1$ and $\LARGE 0$.
+
 Constraints are the building blocks for defining sets, and they are formulated using the fundamental concepts of **logic**.
 	Constraints specify the conditions under which elements are included in a set or satisfy a definition.
 		Constraints often involve equations (statements of equality) that elements must satisfy.
 			In logic, predicates and conditions involve equality to express precise relationships.
-#### Equality (and thus Inequality) as the Most Fundamental Notion $\LARGE (=)$
+### Equality (and thus Inequality) as the Most Fundamental Notion $\LARGE (=)$
 **Equality is indeed a foundational notion in mathematics and logic**.
+	Which defines a state of being.
+		
+**In foundational mathematics, equality is considered a primitive notion**, meaning it is not defined in terms of other concepts but is accepted as a basic building block.
+	It signifies that two expressions represent the same object or have the same value.
+#### Equality/Inequality Establish a State of Being
+This **state of being** is Interdependent with its corresponding state of what it is not.
+	I.e. This **state of being** is implicitly and necessarily defined relative to a **state of not being.**
 
-**Establishes Identity**: Definitions require stating what an object is, which inherently involves equality.
+Equality establishes the identity between objects. When we say $a=b$, we assert that $a$ and $b$ are the same in all relevant aspects.
+##### Interdependent State of Being/Not Being Express an Identity
+These interdependent States of Being/Not Being are what produce Identity.
+	That is a distinct entity, i.e. the differentiation between entities (i.e. states of being).
+###### Identity as a Relational Structure
+A Relational Structure is the Higher Level Structure composed of a relationship between Lower Level Components (i.e. entities/identities/states of being/not being).
+	They can be seen as a level in a hierarchy that facilitate or support further relational structures to be composed of and thus built "upon".
+
+Definitions require stating what an object is, which inherently involves equality.
 	When we define something "as" something else, we are essentially stating that the two are equal in some sense; we are establishing an identity between them based on certain properties or criteria.
 		**Equality** is a **fundamental structure** in all mathematical sets and structured sets.
 			For something to be defined as "something", its definition exists in relation to what that "something" is "not".
 				Absolute vs. Relational. 
-
-**In foundational mathematics, equality is considered a primitive notion**, meaning it is not defined in terms of other concepts but is accepted as a basic building block.
-
-**Equality ($=$)** is one of the most basic and primitive notions in mathematics and logic. It signifies that two expressions represent the same object or have the same value.
-
-- **Identity**: Equality establishes the identity between objects. When we say a=ba = ba=b, we assert that aaa and bbb are the same in all relevant aspects.
-    
-- **Indiscernibility of Identicals**: If two objects are equal, then any property of one is a property of the other.
+###### Indiscernibility of Identicals
+If two objects are equal, then any property of one is a property of the other.
 ##### Fundamental Role
 Essential for defining the identity of elements, operations, and satisfying axioms.
 ##### Set Membership
@@ -81,13 +95,21 @@ From this perspective, you could argue that **inequalities are a fundamental way
 ## The Universal Superset as the Most Fundamental Mathematical Object
 This is the most abstract and comprehensive set, **containing all possible** underlying, structured, and higher-level sets. 
 	Think of it as the "universe" of **all** mathematical objects and structures.
-### Elements of the Universal Superset
+		This Universal Superset does not have any constraints applied upon it.
+			Therefore a "superset" can be seen as absolute despite technically being a "set".
+### Elements (i.e. the Possible Values) of the Universal Superset
 #### The Underlying Set (i.e. Base Set)
 The most comprehensive set, containing all possible mathematical objects and structures.
 	The base set within the universal superset, containing all possible raw abstract mathematical objects.
 #### Elements of the Underlying Set
 Contains the "**all possible**" raw Abstract Mathematical Objects without any additional structure or defined operations.
 	All conceivable mathematical entities, both structured and unstructured.
+
+A **Universal Superset** is the concept of **"all possible values"**. 
+	This superset can be thought of as representing **every conceivable value** that a variable or set of variables could take.
+		In mathematical terms, you might imagine this as the set of **all real numbers** $\mathbb{R}$, which encompasses every possible number, whether positive, negative, rational, irrational, or infinite. 
+			**Conceptually**, it represents a space of **total freedom** where no values are excluded or constrained. 
+				Every possible value is included in this universal set.
 ##### 1. Numerical Sets
 ###### Natural Numbers ($\mathbb{N}$)
 The set of all positive integers (sometimes including zero).
@@ -136,10 +158,12 @@ Groups of Permutations: The set of all permutations of a given set.
 Serves as the theoretical "universe" encompassing all mathematical constructs.
 
 - - - 
-## Structured Set (i.e. Space)
-A subset of the Universal Superset.
+## Structured Set (i.e. Space) as the Subset of the Universal Superset
+Is the result of the "first" application of constraint.
+	Therefore, is the first relational structure, a level from which further relational structures (i.e. identities) can be derived from.
+		With each subsequent "constraining" of a structured set, new relational structures are produced from the lower level relational structures.
 
-When a set is endowed with a structure, it becomes a "structured set" or "space."
+When a set is endowed with a structure (i.e. applied constraints), it becomes a "structured set" or "space."
 	"Structure" refers to additional operations, relations, and properties that are defined on a set to give it more meaning or to make it useful for certain purposes. 
 		The structure itself is not a set but rather a framework of rules and operations applied to a set.
 
@@ -149,9 +173,12 @@ Structured sets are formed by taking a subset of the underlying set and adding a
 ### The "Set" of the Structured Set
 The Underlying Set is the "Set" of the Structured Set.
 	This is the underlying set of elements that the structured set is built upon.
+
+This Set is actually a subset of possible values, produced by constraining the parent set of values.
 ### The "Structure" of the Structured Set
-Structure on a set is the specification of added axioms, then [[Mapping#A Mapping Defines the Abstract Mathematical Spaces Structure Structure of a Abstract Mathematical Spaces Structured Set (i.e. Space) Structured Set|mappings]] that the [[Mapping#A Function as a Subset of Mappings ($1 1$, $m 1$)|functions]] and [[Mapping#An Operation as a Subset of Functions|operations]] must satisfy. 
-	The structure defines how the elements of the set interact and behave according to certain rules.
+The Structure is the Constraints.
+	I.e. Structure on a set is the specification of added axioms, then [[Mapping#A Mapping Defines the Abstract Mathematical Spaces Structure Structure of a Abstract Mathematical Spaces Structured Set (i.e. Space) Structured Set|mappings]] that the [[Mapping#A Function as a Subset of Mappings ($1 1$, $m 1$)|functions]] and [[Mapping#An Operation as a Subset of Functions|operations]] must satisfy. 
+		The structure defines how the elements of the set interact and behave according to certain rules.
 #### 1. Axioms and Properties (Determine the Mappings) 
 Rules or conditions that the Structure must satisfy (e.g., associativity, commutativity, distributivity).
 	These are the conditions or rules that the operations must satisfy to ensure the set behaves in a particular way.
@@ -761,7 +788,7 @@ This function maps the vector $(x, y)$ to the vector $(x^2, \sin(y))$.
    - Involves more complex mappings that cannot be represented by a simple matrix multiplication.
    - Examples: Polynomial transformations, trigonometric transformations.
 #### How Do These Structures Vary Among Different $n$ of Vector Spaces ($\mathbb{R}^1, \mathbb{R}^2, \mathbb{R}^3$)?
-##### $\mathbb{R}^1$ - One-Dimensional Vector Space:
+##### $\mathbb{R}^1$ - One-Dimensional Metric Space:
 - **Elements**: Single real numbers (e.g., $x$).
 - **Vector Addition**: $x + y$
 - **Scalar Multiplication**: $a \cdot x$
@@ -785,7 +812,7 @@ This function maps the vector $(x, y)$ to the vector $(x^2, \sin(y))$.
 When we refer to $\mathbb{R}^1, \mathbb{R}^2, \mathbb{R}^3$, etc., we are indeed talking about vector spaces, where the "vector" in the name is often implied but not always explicitly mentioned.
 	These are the most common examples of vector spaces built upon the real number field.
 ###### Vectors in $\mathbb{R}$
-Represents the set of all real numbers, which can be seen as a one-dimensional vector space.
+Represents the set of all real numbers, which can be seen as a one-dimensional metric space.
 	The elements of are simply real numbers.
 ###### Vectors in $\mathbb{R}^2$
 Represents the set of all ordered pairs of real numbers, forming a two-dimensional vector space.
@@ -807,7 +834,7 @@ While $\mathbb{R}^n$ spaces are vector spaces, there are other mathematical stru
 A vector space becomes "spatial" when it is used to represent geometric or physical space.
 
 All vector spaces can be considered "abstract" or "algebraic" when viewed purely in terms of their algebraic properties (addition and scalar multiplication).
-### Scalar Space $\mathbb{R}^1$ as Vector Space $\mathbb{R}^1$ (i.e. simply $\mathbb{R}$)
+### Scalar/Metric Space $\mathbb{R}^1$ as Vector Space $\mathbb{R}^1$ (i.e. simply $\mathbb{R}$)
 #### Abstract Vector Space
 As a vector space $V$ over a field $F$ (commonly the field of real numbers $\mathbb{R}$ or complex numbers $\mathbb{C}$) is an abstract mathematical structure consisting of all real numbers with standard addition and scalar multiplication.
 #### Spatial Interpretation:

@@ -1,7 +1,7 @@
 # Planes
 The functions that produce planes, are themselves solution sets, and each solution of the set is contained within the produced plane.
 ## Planes in the Space ($\mathbb{R}^3$)
-### Normal Equation of a Plane
+### Normal [[Equations as Constraints|Equation]] of a Plane
 The Normal Equation of the plane, $\LARGE \pi$ relates a Vector on the Plane $\LARGE \vec{x}$ (from a starting point $\LARGE x = (x, y, z)$ through $\LARGE x_0 = (x_0, y_0, z_0)$) and a Normal Vector $\LARGE \mathbf{n} = (a,b,c)$   orthogonal to the vector $\LARGE \vec{x}$ and the plane $\LARGE \pi$.
 
 ![[Pasted image 20240810055336.png]]

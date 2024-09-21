@@ -36,9 +36,16 @@ Subsets of the Cartesian product representing **associations** between sets.
 
 Relations provides the basic framework for associating elements of one set with elements of another set without imposing additional constraints. 
 
+A **relation** between two sets $A$ and $B$ is a subset of the Cartesian product $A \times B$.
+	It associates elements of $A$ with elements of $B$ without the requirement of being a function.
+
 A **relation** between two sets $a$ and $B$ is any subset of the Cartesian product $A \times B$.
 	It describes how elements of $A$ are associated with elements of $B$.
-	
+###### Domain and Codomain of a Relation
+**Domain of Relation $\mathbb{R}$**: The set of all $a \in A$ such that there exists $b \in B$ with $(a, b) \in R$.
+**Range (Image) of Relation RRR**: The set of all b∈Bb \in Bb∈B such that there exists a∈Aa \in Aa∈A with (a,b)∈R(a, b) \in R(a,b)∈R.
+- **Codomain of Relation RRR**: The set BBB, which contains all possible outputs, even if they are not actually related to any input.
+
 If $R$ is a relation from set $A$ to set $B$, then $R$ is a subset of $A \times B$
 
 $$\LARGE R \subseteq A \times B$$
