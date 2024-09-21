@@ -161,7 +161,7 @@ Serves as the theoretical "universe" encompassing all mathematical constructs.
 ## Structured Set (i.e. Space) as the Subset of the Universal Superset
 Is the result of the "first" application of constraint.
 	Therefore, is the first relational structure, a level from which further relational structures (i.e. identities) can be derived from.
-		With each subsequent "constraining" of a structured set, new relational structures are produced from the lower level relational structures.
+		With each subsequent "extending" or inclusion of additional structured, new relational structures (i.e. structured sets) are produced from the lower level relational structures.
 
 When a set is endowed with a structure (i.e. applied constraints), it becomes a "structured set" or "space."
 	"Structure" refers to additional operations, relations, and properties that are defined on a set to give it more meaning or to make it useful for certain purposes. 

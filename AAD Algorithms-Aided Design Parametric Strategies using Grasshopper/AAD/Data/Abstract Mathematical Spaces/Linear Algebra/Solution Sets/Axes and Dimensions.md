@@ -1,4 +1,22 @@
 # Axes and Dimensions
+##### Axis
+An **axis** is an independent **set of possible values** corresponding to a variable or coordinate in a space, where each value in this set represents a potential position or state (of being) corresponding to a single type of variation (i.e. **axis or dimension**).
+##### Dimension
+Is an independent type of set of possible values, or type of variation. 
+	I.e. A **dimension** is an abstract concept representing a distinct, independent **degree of freedom** or **variable of variation** within a system or set.
+		 It refers to the number of independent parameters or factors needed to uniquely describe elements or states within that system.
+			Each dimension describes a specific aspect or characteristic of the system that can change without influencing other dimensions.
+
+In set theory, dimension can be interpreted as the **cardinality** of the set of independent variables or parameters needed to describe the system. 
+	For instance, in a vector space, the number of vectors required to span the entire space (the **basis vectors**) represents the number of dimensions.
+	
+The axis provides one **degree of freedom** in which values can vary, and it is typically **unconstrained** unless a relationship or constraint is imposed upon it.
+##### Variable 
+A **variable** is a **symbol** or **placeholder** that represents an unknown or changing **quantity** within a set of possible values.
+	A **variable** represents the **instance** of that dimension's possible values. 
+		For instance, the variable $x$ refers to a specific point or value within the set of all possible $x$-values in the $x$-dimension.
+
+Both **dimensions** and **variables** define **types of sets** of possible values, where each dimension or variable corresponds to a specific **type** or **aspect** of variation within the space or system
 ## Starting at Universal Superset (Set of all Real Numbers $\mathbb{R}$)
 Before there are axes or dimensions there is simply the [[Abstract Mathematical Spaces#The Universal Superset as the Most Fundamental Mathematical Object|Universal Superset]].
 	Which encompasses every possible number, whether positive, negative, rational, irrational, or infinite.
@@ -6,28 +24,77 @@ Before there are axes or dimensions there is simply the [[Abstract Mathematical 
 
 - - - 
 ## Constraints
-#### Constraining the $\mathbb{R}^1$ (i.e. $x$-axis) Internal Vs. External/Expansive
-##### Internal Constraints (Constraining within a Space) are Limiting
-**Internal constraints** are those that apply **within a space**, typically through the use of **equations** or **inequalities** that restrict the set of possible values on an axis (or axes). 
-	In R1\mathbb{R}^1R1, for example, an internal constraint limits the possible values of xxx within the one-dimensional space.
+**Constraints** (whether in the form of inequalities or equations) simply **restrict** or **structure** the relationships between the values on these axes, but they do not force the axes to behave like domains or codomains.
+	Instead, they just define **how values can interact** within the space.
+### Constraining the $\mathbb{R}^1$ (i.e. $x$-axis) Internal vs. External/Expansive
+#### Internal Constraints (Constraining within a Space) are Limiting
+In formal terms, these types of constraints are often referred to as **subsets** or **restricted subsets** within a space.
+	  They describe a smaller set of allowable values within the original set.
+ 
+**Internal constraints** are those that apply **within a set or space**, typically through the use of **equations** or **inequalities** that restrict the set of possible values on an axis (or axes). 
+	In $\mathbb{R}^1$, for example, an internal constraint limits the possible values of xxx within the one-dimensional space.
 		They reduce the number of possible values by applying equations or inequalities that restrict the range of valid values within the given space.
 			These constraints make subsets within the original space.
-##### Examples
-- **Equations**:
-    - An equation like x2−4=0x^2 - 4 = 0x2−4=0 constrains xxx to the specific values where the equation holds true, i.e., x=±2x = \pm 2x=±2. This means we are still working within R1\mathbb{R}^1R1, but we’ve **internally constrained** the values of xxx to just {−2,2}\{-2, 2\}{−2,2}.
-- **Inequalities**:
-    - An inequality like x>0x > 0x>0 restricts the set of possible values of xxx within R1\mathbb{R}^1R1 to positive numbers. Again, this is an **internal constraint** that limits the values on the x-axis but doesn’t move us out of the space R1\mathbb{R}^1R1.
-###### Terminology
-- In formal terms, these types of constraints are often referred to as **subsets** or **restricted subsets** within a space. They describe a smaller set of allowable values within the original set.
-- If the constraint is an equation (like x=2x = 2x=2), we often talk about a **solution set** or a **locus** of points that satisfy the equation. If the constraint is an inequality, we speak of **intervals** or **regions** that satisfy the inequality.
-###### Equations in $\mathbb{R}^1$ Constrain the Possible Values of $x$
+##### Equations as Constraints
+###### in $\mathbb{R}^1$ Constrain the Possible Values of $x$
+An equation like $x^2−4=0$ constrains $x$ to the specific values where the equation holds true, i.e., $x = \pm 2$.
+	 This means we are still working within $\mathbb{R}^1$, but we’ve **internally constrained** the values of xxx to just $\{-2, 2\}$.
+		 If the constraint is an equation (like $x=2$), we often talk about a **solution set** or a **locus** of points that satisfy the equation. 
+			 If the constraint is an inequality, we speak of **intervals** or **regions** that satisfy the inequality.
+###### Equations in $\mathbb{R}^1$ Constrain the Possible Values of $x$ to a Single Value
 In the context of equations, the set of solutions to an equation is often called the **solution set** or **locus** (the set of all points satisfying the equation).
-##### External Constraints (Creating Higher-Dimensional Spaces) are Expansive
-**External constraints**, on the other hand, are those that **extend** or **expand** a space by introducing new degrees of freedom or additional axes, resulting in the creation of a **higher-dimensional space**. For example, moving from R1\mathbb{R}^1R1 (a one-dimensional space) to R2\mathbb{R}^2R2 (a two-dimensional space) involves the introduction of a **new axis** and hence a **new degree of freedom**.
-- These are constraints that result in the **extension or expansion** of the space to a higher-dimensional one by introducing new degrees of freedom.
-- The process is often referred to as **embedding** or **dimensional extension**. When you embed R1\mathbb{R}^1R1 into R2\mathbb{R}^2R2, you’re not constraining the values in the traditional sense; you’re **expanding** the system to accommodate new dimensions of freedom.
-- In linear algebra and geometry, this is often called **dimension extension** or **embedding** one space into another.
-They introduce new degrees of freedom, creating higher-dimensional spaces like R2\mathbb{R}^2R2 from R1\mathbb{R}^1R1. These constraints add new possibilities, leading to more complex structures, not less.
+	In $\mathbb{R}^1$, this solution set contains a single value as an element.
+		This is because **Equations** specify exact values where the condition is met.
+##### Inequalities as Constraints
+###### in $\mathbb{R}^1$ Constrain the Possible Values of $x$
+An inequality like $\LARGE 0 \le x \le 10$ restricts the set of possible values of $x$ within $\mathbb{R}^1$ to an **interval**.
+	Again, this is an **internal constraint** that limits the values on the x-axis but doesn’t move us out of the space $\mathbb{R}^1$.
+###### Inequalities in $\mathbb{R}^1$ Constrain the Possible Values of $x$ to a Interval
+That is a solution set containing elements sequenced by an interval.
+###### Interval 
+Is a **set of values** between two endpoints, where the interval can be either **open**, **closed**, or **half-open/half-closed** depending on whether the endpoints are included.
+###### Bounds
+**Bounds** refer to the **minimum and maximum limits** of a set of values. 
+	In the case of an interval like $0 < x < 10$, the bounds refer to the endpoints, but the critical point is whether or not those endpoints are **included**.
+###### Types of Intervals
+**Open interval**:  The endpoints (i.e. bounds) are **not included**.
+$$\LARGE (a,b) \quad \text{where}\quad a < x < b$$
+**Closed interval**: The endpoints (i.e. bounds) are **included**.
+$$\LARGE [a,b] \quad \text{where} \quad a \leq x \leq b$$
+**Half-open interval**: Only one of the endpoints (i.e. bounds) is included.
+$$\LARGE [a,b) \text{ or } (a,b]$$
+##### Functions as Constraints
+###### Constrain the Set of Possible Values (i.e. Axis) to a Range
+Assuming the Function is not a [[Mapping#A Transformation as a Subset of Multi-Variable Composite Functions Composite Functions ($1 1$, $m 1$)|transformation]], the Codomain is then the same "set" or "space" as the Domain. 
+	I.e. The function transforms the input values from the domain into values that lie **within** the codomain.
+###### Codomain
+The codomain is the set of **possible output values** that the function can map to.
+
+However, the functions still constrains the Domain to a specific subset of possible values **within** this Domain (and thus set of potential values) called the **range**.
+###### Range
+Refers to the **set of possible output values** of a function or system. 
+	When you're discussing the **range** in the context of a function, it refers to the **values that the function produces**.
+		Again, if the functions is **not a transformation**, then the Codomain and thus the Range are subsets of and within the Domain. 
+#### External Constraints Extend A Set or Space
+##### Dimension Extension (Common Term)
+**External constraints** refer to the process of **expanding a space** by introducing **[[Abstract Mathematical Spaces#The Additional Structure|additional new structure]]** (such as a new axis) which adds **extra degrees of freedom** or **additional axes** (i.e. sets of possible values), which creates a higher-dimensional space where each axis corresponds to a new **set of possible values**. 
+	This process is often called **dimension extension** or **embedding**.
+		These new axes allow for **greater flexibility** in describing positions or relationships, effectively moving from a lower-dimensional space (like $\mathbb{R}^1$) to a higher-dimensional space (like $\mathbb{R}^2$ or $\mathbb{R}^3$).
+			It is not constraining the values in the traditional sense; you’re **expanding** the system to accommodate new dimensions of freedom.
+				These constraints add new possibilities, leading to more complex structures, not less.
+					In this process, the original space is preserved along the new axes, meaning points from the lower-dimensional space remain valid in the new, higher-dimensional space.
+##### Cartesian Product Extension (Formal Term)
+In formal set-theoretic terms, **Cartesian product extension** is another way to describe the process of adding new axes or dimensions to a space. When you extend from R1\mathbb{R}^1R1 to R2\mathbb{R}^2R2, you are effectively taking the **Cartesian product** of R1\mathbb{R}^1R1 with another copy of R\mathbb{R}R (the new axis).
+
+- For example, R2\mathbb{R}^2R2 can be seen as R×R\mathbb{R} \times \mathbb{R}R×R, which is the Cartesian product of two sets of real numbers, one for each axis.
+    
+- Similarly, R3=R×R×R\mathbb{R}^3 = \mathbb{R} \times \mathbb{R} \times \mathbb{R}R3=R×R×R is the Cartesian product of three sets of real numbers, representing the x-axis, y-axis, and z-axis.
+- R1 is the set of all real numbers (points on a line),
+- R2\mathbb{R}^2R2 is the Cartesian product of two sets of real numbers (points in a plane),
+- R3\mathbb{R}^3R3 is the Cartesian product of three sets of real numbers (points in three-dimensional space).
+
+In this sense, the **new axes** that are added correspond to **additional sets of possible values** being combined through the Cartesian product, which produces a higher-dimensional space.
+
 ###### Examples
 - **Expanding from R1\mathbb{R}^1R1 to R2\mathbb{R}^2R2**:
     - Introducing a second variable, say yyy, creates a new axis, and the set of possible values is no longer constrained to just the x-axis. Now, we have the **x-axis** and the **y-axis**, and each point is described by a pair of values (x,y)(x, y)(x,y).
