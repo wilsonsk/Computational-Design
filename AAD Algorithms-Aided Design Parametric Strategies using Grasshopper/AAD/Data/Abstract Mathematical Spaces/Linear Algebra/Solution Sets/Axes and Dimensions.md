@@ -304,7 +304,7 @@ At the most abstract level, **numbers** represent **quantities** by expressing t
 
 This relational differentiation is what gives numbers their power as representations of quantity. 
 	They allow us to describe not just amounts, but how amounts are **related** to one another.
-#### Numbers as Encoded Order and Sequence
+#### Numbers as Encoded Order and Sequence and Measurement
 ##### Numbers Inherently Represent a Sequence
 That is, an ordered structure, where each number has a place relative to others.
 	For instance, the natural numbers (1, 2, 3,...) form a **sequence** where each number follows a defined order. 
