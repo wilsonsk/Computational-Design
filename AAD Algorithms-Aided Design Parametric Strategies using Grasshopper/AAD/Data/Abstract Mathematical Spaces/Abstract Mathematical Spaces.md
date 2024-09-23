@@ -31,56 +31,91 @@ The hierarchy from the most fundamental mathematical concepts (universal superse
 	Each subsequent level derives its elements and properties from the more fundamental levels, creating a layered approach to mathematical concepts.
 ## The Foundational Notion: Change Is the Process of Differentiation Produced by Constraint 
 ### Change
-**Change** is the movement from a state of **non-definition** to a state of **definition**. 
-	The act of change is a **transition** from one possible state to another, and it is through this transition that identity and being are established.
-		It represents the general transition from one state to another, from potential to actuality, or from an undefined state to a defined one. Change is the **force** that drives everything to happen.
+**Change** is the fundamental process that initiates the potential of differentiation and transition/transformation.
+	**Change** is the **force** that drives everything to happen.
+		**All processes involve change** in some form, but **change** is a more neutral, foundational concept.
 
-**Change** is the **movement** that initiates the transformation of a state from formlessness to form, from potential to realization, or from one state to a different state. 
-	**All processes involve change** in some form, but **change** is a more neutral, foundational concept.
+At its core, **change** is the process by which **potential** becomes **actualized** into a specific, defined state. 
 
-Change is the fundamental process that drives the transition from **undefined potential** to **defined existence** through **differentiation**.
-	It is the movement from formlessness to form, from one state to another, and is expressed through the relationships between **definition**, **identity**, **constraints**, and **equality**.
-##### Differentiation 
-**Differentiation** is a **specific outcome of change**—it is the process by which change produces **distinctions**, **separating** one state, entity, or concept from others.
+**Change** is the movement from a state of **non-definition** (or a possible state) to a state of **definition** by way of expression, definition and thus differentiation, and it is through this transition that identity and being are established.
+	**Differentiation** produces a distinct state, and **definition** describes what that state is, **expression** is how this state **appears** or is **communicated**.
+
+**Differentiation** happens first—it is the creation of **distinctness**, contrast, definition, expression of change.
+	**Differentiation** is the **moment** that something changes or evolves and becomes distinct from other states or possibilities.
+		**Definition** follows differentiation— that is, the **formal or specific clarification** of what something **is** after it has been differentiated via **equating** a form/expression to a differentiated state.
+			**Equality** is the **mechanism** by which we **assign** a state to a specific form.
+				In other words, equality creates a formal **definition** by **equating** a state to its specific identity.
+					**Definition** **assigns meaning** and **identity** to what has been differentiated.
+						**Definition** describes and formalizes **what** the differentiated state **is**.
+							**Expression** is how the **defined, differentiated state** becomes **experienced** (i.e. **visible** or **manifest**).
+								 **Expression** is how that state **appears** or is **communicated**.
+									  Expression is the **form** that the differentiated state takes when we **experience** it or **perceive** it.
+
+This movement from formlessness to form, from one state to another, and is expressed through the relationships between **definition**, **identity**, **constraints**, and **equality**.
+#### Differentiation
+**Differentiation** is **how change produces a difference**. 
+	**Change** is the process of **differentiation** by which a state of being emerges from a field of possibilities. 
+		When **change** occurs, something transitions from an undefined state to a defined one. 
+			If this change leads to a state that is now **recognizable** or **distinct** from other possibilities, we call this **differentiation**. 
+				Differentiation is the **moment** when something becomes **distinct** or **separate** from something else after the process of change has acted on it.
+					Differentiation happens **because of change**—it's the **outcome** that allows us to see that something has become distinct.
+						Therefore, differentiation is the type of change that leads to **distinction**.
+
+**Differentiation** is a **specific outcome of change**— it is the actualized contrast from the potential of change.
+
+It is the process by which change produces **distinctions**, **separating** one state, entity, or concept from others.
 	**Differentiation** is a **specific type of change**—it’s the type of change that produces **distinction** and **identity**, making a state of being **recognizable** and **unique**.
 		While change can refer to any transformation, **differentiation** is the particular kind of change where something becomes **distinct** from something else.
 
-**Differentiation** focuses on the process where a state **becomes distinct** or **separate** from other possibilities or from its undefined origin. 
-	Differentiation is change **with a focus on creating distinction**, on making something **recognizable** as different or unique.
-#### Change as Differentiation and Becoming
-When **change** occurs, something transitions from an undefined state to a defined one. 
-	If this change leads to a state that is now **recognizable** or **distinct** from other possibilities, we call this **differentiation**. 
-		Therefore, differentiation is the type of change that leads to **separation**, **clarity**, and **identity**.
-
-At its core, **change** is the process by which **potential** becomes **actualized** into a specific, defined state. 
-	It is the movement that introduces **differentiation**—the transformation of what is undefined, formless, or indeterminate into something that is defined, structured, and identifiable.
-
-**Change** is the process of **differentiation** by which a state of being emerges from a field of possibilities. 
-	Through the application of constraints or definitions, an undefined potential is **reduced** or **narrowed** into a specific, identifiable state, giving it a new **identity**.
-		Once change has occurred, a new **identity** or **state** of existence emerges—this state is distinct and differentiated from other potential states
-	
 The initial change is that from the undifferentiated, absolute to the first duality or relational existence of two interdependent states. 
 	The states being most simply "**is**" and "**is not**", that is "**equality**" and "**inequality**".
 		Which through the notion of value expressed as quantity which is expresses as numbers, can be described as $\LARGE 1$ and $\LARGE 0$.
+#### Expression is the Form of the Differentiation (and thus the corresponding aspect of Differentiation)
+Expression is the **form** or **appearance** that results from differentiation, definition, and constraint. 
+	It’s how something **manifests** or **becomes recognizable**.
+		Expression is how the defined and constrained state is **experienced** (**"appears"**).
+			 It's the **form** that the differentiated, defined, and constrained state takes.
+
+Expression is inherently relational, in that it is contrasted with and thus defined by what it is not.
+#### Definition is the Identification of an Expression of a Differentiated State
+**Definition** is the **formal or specific clarification** of what something **is** after it has been differentiated via **equating** a form/expression to a differentiated state.
+	It is the explicit Identification of an expression of a differentiated state.
+##### Equality as the Act of Definition (Assigning an Identity to a Expression)
+When you **define** something, you are saying that the state is **equal** to the specific **Identity** (i.e. the characteristics or rules that describe it). 
+	Equating is Assignment.
+		In this way, equality is the **act** or **mechanism** of definition, by which we **assign** a state and its expressed form to a specific identity.
 ### Components of Differentiation (Change)
-**Change** is the process that introduces differentiation.
-	**Change** introduces the potential for something to become distinct.
-**Constraint**  leads to the differentiation of states by constraining **change**.
-	**Constraint** directs this **change** by imposing boundaries or limitations of potential outcomes.
+###### Change
+**Change**: The fundamental process of transformation or becoming.
+	**Change** is the process that introduces potential and transformation..
+		**Change** introduces the potential for something to become distinct.
+###### Constraint
+The act and the definition of limiting the potential outcomes of change.		
+	**Constraint** is always **bounded** by its **definition**—the definition restricts where and how the constraint operates.
+		**Constraint** leads to the differentiation of states by constraining **change**.
+			**Constraint** directs this **change** by imposing boundaries or limitations of potential outcomes.
+###### Equality
 **Equating** is the act of assigning a differentiated state to a specific form according to the **constraints**.
 	**Equating** assigns a specific form or role to the **constrained, differentiated state**.
 		These are still **conceptual** ideas—"black" and "white" are distinct.
+###### Definition
 **Definition** emerges from **equating a state to a specific form**, giving it structure.
 	**Definition** arises from **equating, clarifying what the state is**.
+###### Identity
+A class of differentiated states.
+
 **Identity** is the **result of a defined state**, making it distinct and recognizable.
 	**Identity** emerges as the distinct nature of the **defined state**.
 		Identity in this form is still **abstract**—for example, the concept of **blackness** or **whiteness**.
+###### Value
 **Value** is the realization of **identity** within a specific context or system.
 	**Value** is the actualized form of **identity** in a given context.
 		**Value** begins to introduce the notion of **realization** in a system—values are specific manifestations of identity within a defined structure (like black = 0, white = 1).
 			This is where the **foundation for quantity** begins to form, but we are not yet dealing with **quantity** in the full sense.
+###### Measurement
 **Measurement** comes into play when we need to **compare** or **express** these values in a formal way. 
 	Measurement introduces **scales**, **units**, and **comparisons** that allow for the distinction between "more" or "less" of something.
+###### Quantity
 **Quantity** arises when the differentiated values are **measured** or **counted** in relation to each other.
 	This step requires a system in which **values** can be expressed using some measurable **unit** or **scale**.
 		**Quantity** is the measurable expression of a **value** in a given system.
@@ -92,6 +127,10 @@ A **constraint** is an abstract **act of differentiation** that defines a partic
 **Constraint** is a **condition** or **rule** that limits or defines what is **possible**. 
 	A constraint **narrows** the possibilities of how something can exist or behave by setting **boundaries**. 
 		It doesn't directly say "this equals that"; rather, it **excludes** certain possibilities and **defines the rules (what is allowed)** within a given system (i.e. within which the change operates).
+
+The core of what constraints limit are the **relationship and interactions rules between differentiated states**.
+	And because **differentiated states are relational structures**, that is **they compose higher level differentiated states** (thus higher level relational structures), by their interactions.
+		**Then these rules subsequently limit the potential higher level differentiated states, bounding them within a subset of potential states (like a codomain), where the actualized differentiated states make up a further subset (like a range)**.
 
 By specifying the conditions under which **limiting** the set of possibilities, constraints drive the movement from potential to actualized states.
 	 In doing so, they bring about **change** by determining which states of being are allowed to emerge.
