@@ -68,6 +68,18 @@
             }
           },
           {
+            "id": "d54d4ec8da7dcaca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Curves as Parametric Functions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "22051a7fc51d827d",
             "type": "leaf",
             "state": {
@@ -198,12 +210,12 @@
             }
           },
           {
-            "id": "d54d4ec8da7dcaca",
+            "id": "5d9a89128f584bda",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Curves as Parametric Functions.md",
+                "file": "notes to add to abstract math spaces.md",
                 "mode": "source",
                 "source": false
               }
@@ -238,7 +250,7 @@
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -381,9 +393,11 @@
   },
   "active": "7bf851ae501a8c6a",
   "lastOpenFiles": [
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Mapping.md",
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Axes and Dimensions.md",
+    "notes to add to abstract math spaces.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Spaces.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/A Map of Change as Rates to Limits of those Rates to Differentials to Derivatives.md",
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Division.md",
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Mapping.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Gradients.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Partial Derivatives.md",
@@ -391,24 +405,22 @@
     "Data/Abstract Mathematical Spaces/Linear Algebra/Jacobian Matrix.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Multi-Variable Composite Functions.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Parametrization.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Axes and Dimensions.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Curves as Parametric Functions.md",
+    "Untitled 1.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Degrees of Freedom.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Arc Length/Parametrization by Arc Len.md",
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Curves as Parametric Functions.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Static Equilibrium.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Types of Forces/Potentials.md",
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Division.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/A Map of Change as Rates to Limits of those Rates to Differentials to Derivatives.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Functions as Solution Sets.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Equations as Constraints.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Equations vs. Functions.md",
     "Abstract/Reality.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Parameters.md",
-    "Untitled.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Arc Length/Arc Length of P Curves.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Arc Length",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Vector-Valued Single Var Deriv.md",
     "Pasted image 20240915063908.png",
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Systems of Equations/System of Equations.md",
     "Pasted image 20240915063717.png",
     "Pasted image 20240915063659.png",
     "Pasted image 20240915063646.png",

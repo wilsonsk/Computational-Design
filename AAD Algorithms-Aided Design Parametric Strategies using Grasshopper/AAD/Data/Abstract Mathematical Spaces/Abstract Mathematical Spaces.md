@@ -29,7 +29,7 @@ In abstract mathematics, concepts are defined rigorously through axioms and defi
 ## A Hierarchy, Structure
 The hierarchy from the most fundamental mathematical concepts (universal superset) to fields, spaces, categories, etc., is structured by increasing levels of complexity and structure.
 	Each subsequent level derives its elements and properties from the more fundamental levels, creating a layered approach to mathematical concepts.
-## The Foundational Notion: Change Is the Process of Differentiation Produced by Constraint 
+## The Foundational Notion: Change Is the Process of Differentiation, Implemented by Definition/Constraint
 ### Change
 **Change** is the fundamental process that initiates the potential of differentiation and transition/transformation.
 	**Change** is the **force** that drives everything to happen.
@@ -52,81 +52,61 @@ At its core, **change** is the process by which **potential** becomes **actualiz
 									  Expression is the **form** that the differentiated state takes when we **experience** it or **perceive** it.
 
 This movement from formlessness to form, from one state to another, and is expressed through the relationships between **definition**, **identity**, **constraints**, and **equality**.
-#### Differentiation
-**Differentiation** is **how change produces a difference**. 
-	**Change** is the process of **differentiation** by which a state of being emerges from a field of possibilities. 
+
+- - -
+### Differentiation is the Mechanism of Change
+**Differentiation** is **how change produces a difference**, and it **is the smallest degree of change**.
+	**Differentiation** is the core process of **change**—it creates the distinction between one state and another, by which a state of being emerges from a field of possibilities. 
 		When **change** occurs, something transitions from an undefined state to a defined one. 
 			If this change leads to a state that is now **recognizable** or **distinct** from other possibilities, we call this **differentiation**. 
 				Differentiation is the **moment** when something becomes **distinct** or **separate** from something else after the process of change has acted on it.
 					Differentiation happens **because of change**—it's the **outcome** that allows us to see that something has become distinct.
 						Therefore, differentiation is the type of change that leads to **distinction**.
 
-**Differentiation** is a **specific outcome of change**— it is the actualized contrast from the potential of change.
-
-It is the process by which change produces **distinctions**, **separating** one state, entity, or concept from others.
-	**Differentiation** is a **specific type of change**—it’s the type of change that produces **distinction** and **identity**, making a state of being **recognizable** and **unique**.
-		While change can refer to any transformation, **differentiation** is the particular kind of change where something becomes **distinct** from something else.
+Without differentiation, no change can be perceived because all would remain in an undifferentiated, static potential.
+	Differentiation is what transforms potential into specific, distinguishable states.
+		It is the process by which change produces **distinctions**, **separating** one state, entity, or concept from others.
+			**Differentiation** is a **specific type of change**—it’s the type of change that produces **distinction** and **identity**, making a state of being **recognizable** and **unique**.
+				While change can refer to any transformation, **differentiation** is the particular kind of change where something becomes **distinct** from something else.
 
 The initial change is that from the undifferentiated, absolute to the first duality or relational existence of two interdependent states. 
 	The states being most simply "**is**" and "**is not**", that is "**equality**" and "**inequality**".
 		Which through the notion of value expressed as quantity which is expresses as numbers, can be described as $\LARGE 1$ and $\LARGE 0$.
-#### Expression is the Form of the Differentiation (and thus the corresponding aspect of Differentiation)
-Expression is the **form** or **appearance** that results from differentiation, definition, and constraint. 
-	It’s how something **manifests** or **becomes recognizable**.
-		Expression is how the defined and constrained state is **experienced** (**"appears"**).
-			 It's the **form** that the differentiated, defined, and constrained state takes.
 
-Expression is inherently relational, in that it is contrasted with and thus defined by what it is not.
-#### Definition is the Identification of an Expression of a Differentiated State
-**Definition** is the **formal or specific clarification** of what something **is** after it has been differentiated via **equating** a form/expression to a differentiated state.
-	It is the explicit Identification of an expression of a differentiated state.
-##### Equality as the Act of Definition (Assigning an Identity to a Expression)
-When you **define** something, you are saying that the state is **equal** to the specific **Identity** (i.e. the characteristics or rules that describe it). 
-	Equating is Assignment.
-		In this way, equality is the **act** or **mechanism** of definition, by which we **assign** a state and its expressed form to a specific identity.
-### Components of Differentiation (Change)
-###### Change
-**Change**: The fundamental process of transformation or becoming.
-	**Change** is the process that introduces potential and transformation..
-		**Change** introduces the potential for something to become distinct.
-###### Constraint
-The act and the definition of limiting the potential outcomes of change.		
-	**Constraint** is always **bounded** by its **definition**—the definition restricts where and how the constraint operates.
-		**Constraint** leads to the differentiation of states by constraining **change**.
-			**Constraint** directs this **change** by imposing boundaries or limitations of potential outcomes.
-###### Equality
-**Equating** is the act of assigning a differentiated state to a specific form according to the **constraints**.
-	**Equating** assigns a specific form or role to the **constrained, differentiated state**.
-		These are still **conceptual** ideas—"black" and "white" are distinct.
-###### Definition
-**Definition** emerges from **equating a state to a specific form**, giving it structure.
-	**Definition** arises from **equating, clarifying what the state is**.
-###### Identity
-A class of differentiated states.
+- - -
 
-**Identity** is the **result of a defined state**, making it distinct and recognizable.
-	**Identity** emerges as the distinct nature of the **defined state**.
-		Identity in this form is still **abstract**—for example, the concept of **blackness** or **whiteness**.
-###### Value
-**Value** is the realization of **identity** within a specific context or system.
-	**Value** is the actualized form of **identity** in a given context.
-		**Value** begins to introduce the notion of **realization** in a system—values are specific manifestations of identity within a defined structure (like black = 0, white = 1).
-			This is where the **foundation for quantity** begins to form, but we are not yet dealing with **quantity** in the full sense.
-###### Measurement
-**Measurement** comes into play when we need to **compare** or **express** these values in a formal way. 
-	Measurement introduces **scales**, **units**, and **comparisons** that allow for the distinction between "more" or "less" of something.
-###### Quantity
-**Quantity** arises when the differentiated values are **measured** or **counted** in relation to each other.
-	This step requires a system in which **values** can be expressed using some measurable **unit** or **scale**.
-		**Quantity** is the measurable expression of a **value** in a given system.
-			**Quantity** is the specific, measurable representation of that **value**.
-#### Constraints
-A **constraint** is an abstract **act of differentiation** that defines a particular **state** of being by excluding other potential states.
-	This act of constraining is fundamentally about establishing **boundaries** and **relations** that define what a state **is** and what it **is not**.
-##### Constraints **Define** the **Conditions** under which **Change Occurs**
-**Constraint** is a **condition** or **rule** that limits or defines what is **possible**. 
+
+- - -
+### Definition is the Mechanism of Differentiation ("this" vs. "that")
+**Differentiation** requires a mechanism to make distinctions clear, and this is **definition**. 
+
+**Definition** is the **equating/imposition/assignment/assertion** of **explicit, formal of specific constraints (i.e. boundaries/conditions)** to what something ***is*** (i.e. a form/**expression**/differentiated state), and subsequently defining **what is *not*** that form (i.e. everything outside the imposed boundaries).
+	Definition makes differentiation possible by setting clear boundaries and making distinct what is being differentiated.
+		 The act of defining a state or entity is the moment when you impose constraints to distinguish it from all other possible states.
+			 **Definition** gives form (i.e. making change identifiable), and clarity to the process of creating distinctions.
+#### Definition and Identity
+When we define something, we are saying "this" **is** equal to these specific properties, and by doing so, we establish the entity’s **identity**.
+##### Identity
+**Identity** aka a **Type** refers to the **essence** or **core property** of an entity or state that distinguishes it from all others.
+	A **type** is a more **general definition** resulting from an earlier or **lower level** differentiation process.
+		It is still the **result** of the process where something is defined, constrained, and equated with specific properties or conditions.
+			Identity in this form is still **abstract**—for example, the concept of **blackness** or **whiteness**.
+###### Type as a Lower-Level Differentiation
+**Types** emerge from a broad **differentiation** process. 
+	They categorize or classify entities based on **general properties** or **characteristics** that apply to a wide range of instances.
+		When we differentiate **types**, we are drawing a boundary around a set of general attributes that define what it means to be part of that type.
+##### An Instance of an Identity/Type
+An **instance** is a more **specific definition**, resulting from a **higher level** or more **refined differentiation** of the type.
+	When we define an **instance**, we are narrowing down the possibilities by adding more **constraints** or more **specific values and constraints** that define this instance **within the boundaries of the general type** that further differentiate the instance from other possible instances of the same type.
+		An Instance can further and subsequently be an Identity/Type for even higher level instances.
+- - -
+### Constraint is the Mechanism of Definition
+**Definition** is the **imposition of limits or boundaries (i.e. establishing of properties and characteristics)** around **what it is** and **subsequently define what it is not** (that which is outside the boundaries), thus creating the **conditions for differentiation** (i.e. **creating the constraints**).
+	**The boundary (i.e. the limits/conditions) itself is the constraint** that separates one state, form, or entity from another.
+		Without constraints, there would be no limits, and without limits, nothing can be defined or distinguished. 
+
+**Constraint** is a **condition** or **rule** that bounds, limits or defines relational interactions, and therefore, what is **possible**. 
 	A constraint **narrows** the possibilities of how something can exist or behave by setting **boundaries**. 
-		It doesn't directly say "this equals that"; rather, it **excludes** certain possibilities and **defines the rules (what is allowed)** within a given system (i.e. within which the change operates).
 
 The core of what constraints limit are the **relationship and interactions rules between differentiated states**.
 	And because **differentiated states are relational structures**, that is **they compose higher level differentiated states** (thus higher level relational structures), by their interactions.
@@ -139,165 +119,219 @@ Imagine an unformed state of potential.
 	A **constraint** is the act that **defines** what this potential becomes by **differentiating** it.
 		 Before the constraint, there is only formless possibility. 
 			 The constraint is what gives this potential form and identity, thereby establishing the conditions under which this state of being exists.
+###### Constraint and Identity
+**Constraint** is what **shapes** identity by imposing limits. 
+	Identity only emerges within a boundary—a constraint that excludes all other possibilities.
 
-This is not about numerical or spatial limits but about the **fundamental act of differentiating one state from another**. 
-	The **constraint defines the existence** of a state by establishing its identity through differentiation from other possible states.
-##### Change is Expressed Through Constraints
-**Constraints** are the primary mechanism by which **change** is expressed.
-	A constraint **differentiates** one state from another by imposing a rule or boundary that selects certain possibilities and excludes others. 
-		This differentiation is the essence of **change**.
-##### Constraints Differentiate Potential States of Being
-**Constraints** are the **abstract operations** or **acts of differentiation** that establish **change**.
-	In this sense, constraints do not simply limit possibilities; they **define what is** by differentiating one state from another. 
-		 Through constraint, we define what a state **can** be, and by doing so, we also define what it **cannot** be.
-			Constraints act to give **structure** and **form** to what is otherwise undifferentiated potential.
+- - -
+### Equalities/Inequalities Establish Constraints 
+Constraints are Imposed (i.e. implemented/assigned/defined) by Equalities/Inequalities.
 
-Constraints are the building blocks for defining sets, and they are formulated using the fundamental concepts of **logic**.
-	Constraints specify the conditions under which elements are included in a set or satisfy a definition.
-		Constraints often involve equations (statements of equality) that elements must satisfy.
-			In logic, predicates and conditions involve equality to express precise relationships.
-#### Equality
-**Equating** is a specific form of **constraint** where a **state of being** is directly **mapped** or **assigned** to a **definition**. 
-
-**Equality** is the act that brings a state of being into existence by **equating** it to a definition, thus making it identifiable.
-	This is where the act of **differentiation** happens explicitly.
-		**Constraint** limits potential states, but **equating** is the act that **specifically defines** what a state **is** by assigning it to something—an identity, a rule, or a definition. 
-			It locks in the transformation process that constraint begins.
-##### Equality Differentiates Actualized States of Being
-Equating creates **differentiation** by locking the state into a specific form, identity, or relationship. 
-	Equating is the assignment of a state to a definition, i.e. defines a state.
-		By saying “this state **is** this (definition),” it becomes something distinct from everything else that it is **not** that **definition**.
-			Equality makes the state **recognizable** and **distinct**. 
-				Once something is defined, it becomes **differentiated** from everything that falls outside that definition.
-
-**Equality** can be thought of as the act of **equating** a previously potential state of being with a **definition**. 
-	In this act, a state of being is **realized** or **brought into existence** because it is assigned a specific **identity** through this equality.
-		 Equating a state of being to a definition not only **constrains** what that state can be, but it also creates a **correspondence** between the state and its identity.
-			 Through equating, the state is made **distinct** because it is given a clear, unambiguous **identity** by being tied to something definite.
-##### Equality Represents the Fundamental Act of **Defining** or **Equating** a State of Being to some **Definition**
-This is not about comparison but about the **establishment** of existence through definition itself.
-	**Equality** can be thought of as the act of **equating** a potential state of being with a **definition**. 
-		In this act, a state of being is **realized** or **brought into existence** because it is assigned a specific **identity** through this equality.
-
-The **equation** of a state of being to a definition is a **creative act**: it brings something into existence by assigning it an identity. 
-	Before this act, the state is undefined and formless.
-		 The act of equality **defines** the state, making it **distinct** (i.e. **differntiated**) from the undefined.
-
-**In foundational mathematics, equality is considered a primitive notion**, meaning it is not defined in terms of other concepts but is accepted as a basic building block.
-	It signifies that two expressions represent the same object or have the same value.
-##### Equality/Inequality Establish a State of Being/Existence
-This **state of being** is Interdependent with its corresponding state of what it is not.
-	I.e. This **state of being** is implicitly and necessarily defined relative to a **state of not being.**
-
-Equality establishes the identity between objects. When we say $a=b$, we assert that $a$ and $b$ are the same in all relevant aspects.
-##### Interdependent State of Being/Not Being Express an Identity
-These interdependent States of Being/Not Being are what produce Identity.
-	That is a distinct entity, i.e. the differentiation between entities (i.e. states of being).
-##### Fundamental Role
+**Constraint** is enacted (i.e. "**assigned**") through **equalities and inequalities**, which assigns/imposes the relational conditions/constraints/boundaries to the corresponding differentiated state/form/expression.
+	To define is to assert that **this = these properties**. This is what creates the **constraint**.
+		- Example: Defining a chair involves saying that a "chair" equals "a seat, with legs, a backrest, designed for sitting."
+##### Equalities Imply Inequalities/Negations
+Inequalities/Negations result as a byproduct of this equating process.
+	Once you define "this equals this condition," you are also saying "not this" does not satisfy the condition, further reinforcing the **constraint**.
+		Everything that **does not meet (i.e. "equal")** the condition falls outside the boundary.
+			Continuing with the chair example, anything that doesn’t meet the conditions of a chair (e.g., a table) is "not a chair."
+###### Equalities/Inequalities and Identity
+Equating Provides the **Basis of Identity**.
+	Defining a differentiated state, effectively equates it with a constraint (i.e. set of properties or conditions). and thus establishes the differentiated state’s **identity**. 
+		This equating is a fundamental part of **definition** because it is the act that ties a differentiated state to its specific constraints.
+##### Fundamental Role of Equalities/Inequalities in Abstract Math
 Essential for defining the identity of elements, operations, and satisfying axioms.
-##### Set Membership
-The notion of an element belonging to a set **relies on equality**.
-	We determine if an element $x$ is in set $A$ by checking if $x$ satisfies certain properties that define $A$.
-#### Inequality
-Is a **fundamental structure** in mathematical constructs where an order relation is integral to the structure, such as ordered sets, ordered groups, and ordered fields.
-##### Inequalities as Differentiation
-**Inequality** at its core expresses **differentiation** — the process of separating one thing from another. In essence, an inequality tells us **"this, but not that,"** defining boundaries and regions. 
-	For instance, $x>0$ says, “we are only concerned with values greater than 0, not equal to or less than 0.”
-		 This is what allows the formation of sets, as inequalities often define **regions** or **domains** in space (or more abstract spaces like $\mathbb{R}^n$).
-
-This **differentiation** creates **[[#Structured Set (i.e. Space)|structure]]** in the mathematical universe. 
-	It tells us where one set of conditions or behaviors **ends** and another **begins**. 
-		It's what allows us to carve out meaningful spaces, like regions where certain conditions hold. 
-			So, in many ways, inequalities are the foundation for distinguishing one set from another.
-##### Inequalities Define Open and Closed Sets
+###### Inequalities Define Open and Closed Sets
 Inequalities are **fundamental** in defining **open sets** or **closed sets**. 
-Consider:
 - An **inequality** like $x>0$ defines an open interval or region, $(0, \infty)$, in $\mathbb{R}$, which is a set.
 - A **closed set** might be defined by $x \geq 0$, including the boundary, which also represents a set.
+###### Equalities/Inequalities Facilitate Set Membership
+The notion of an element belonging to a set **relies on equality**.
+	We determine if an element $x$ is in set $A$ by checking if $x$ satisfies certain properties that define $A$.
 
-Thus, inequalities naturally define a **region** within a space, often representing all the elements that satisfy the inequality. 
-	This region, in turn, is a **set** of solutions or points. 
-		While equations can specify precise points or curves, inequalities define a **range** or area, which is often more general and inclusive, forming a **collection of points** — i.e., a set.
+- - -
+### Expression is the Form of the Differentiation
+Expression is the **actualized form** or **"appearance"** that results from the process of differentiation (i.e. definition, constraint, and equalities). 
+	It is the moment when differentiation, definition, constraint, and equating come together to produce a new, **actualized, experienceable/perceivable/communicated state** (i.e. **becomes "recognizable"** or **contrasted from the "background"**) that **represents the change**.
+		Expression through contrast implies that the expressed form is inherently relational, in that it is contrasted with and thus defined by what it is not.
+			**Expression as form is always interdependent with/connected to a change.**
+###### Expression and Identity
+**Expression** is the **manifestation** of identity. 
+	The **identity** of an entity is not just abstract—it is **expressed** or **realized** in a tangible form that we can experience.
 
-From this perspective, you could argue that **inequalities are a fundamental way of constructing sets** because they define the boundaries and regions in which elements reside. 
-	This becomes even clearer when working in **higher dimensions** or more abstract spaces, where inequalities describe entire regions, planes, or volumes.
-#### Definition
-**Definition** is the act or process of **giving meaning** or **clarity** to something by specifying what it is. 
-	A definition sets (or is itself) the **boundaries** and characteristics that determine what an entity or state of being **is** (i.e. is **equated** to).
-		Through definition, a state is no longer undefined or ambiguous—it now has **boundaries** and **properties** that distinguish it from other states.
-##### Definitions as a Relational Concept
-Definitions require stating what an object is, which inherently involves equality.
-	When we define something "as" something else, we are essentially stating that the two are equal in some sense; we are establishing an identity between them based on certain properties or criteria.
-		**Equality** is a **fundamental structure** in all mathematical sets and structured sets.
-			For something to be defined as "something", its definition exists in relation to what that "something" is "not".
-				Absolute vs. Relational. 
-#### Identity is an Outcome
-Identity is the expression of a state’s **differentiation**.
-	It is the state’s specific **form** or **nature** that results from all the processes that have defined and constrained it.
+- - -
+## Differentiation is the Source of Quantity
+At its core, **differentiation** is the act of creating distinctness—of saying that **this** is different from **that**. 
+	It is the smallest level or most basic form of **change**, and in this process, an entity moves from a state of undifferentiated potential to a state of being distinguishable.
+		Differentiation creates the **contrast** between **this** and **not this**, or between **state A** and **state B**.
+			As soon as differentiation occurs, we have **multiple states** that can be compared in terms of how they differ from each other.
+				The idea that one differentiated state can be "more" or "less" than another (in any magnitude) and that difference can be measured or compared, is what gives rise to **quantification**.
 
-**Identity** is the **result** or **outcome** of a state being defined. 
-	**Definition** is the **process** of specifying or clarifying, while **identity** is the **state** that emerges from being defined.
-		It is the **specific, distinct state** that something possesses once it has been defined and differentiated from other possibilities.
-			I.e. Once an entity or state has been assigned a definition, it **possesses an identity** that differentiates it from other entities or states.
+**Differentiation** creates the need for measurement by making things distinct and thereby comparable.
+	**Definition** provides the characteristics along which this differentiation can be quantified (such as size, duration, weight, etc.).
+		**Constraint** imposes the limits that make quantification possible by defining the **range** or **scale** of possibilities.
+			**Equating** is the mechanism by which we compare differentiated states, allowing us to assign numerical values to express the **magnitude** of their differences or similarities.
+#### Quantification
+**Quantification** is the process of **assigning values**: Quantification formalizes this distinction by assigning a **numerical value** to the difference.
+	That is the assignment of a "value" to a constraint.
 
-**Identity** is the result of the entire differentiation process. 
-	Once a state has undergone change, constraint, equating, and definition, it possesses a **specific identity**. 
-		This identity is what makes the state **distinct** from other entities or states.
-###### Identity as a Relational Structure
-A Relational Structure is the Higher Level Structure composed of a relationship between Lower Level Components (i.e. entities/identities/states of being/not being).
-	They can be seen as a level in a hierarchy that facilitate or support further relational structures to be composed of and thus built "upon".
-#### A Value
+**Quantification** is the process that assigns and formalizes abstract distinctions produced by differentiation, into formal values, i.e. measurable "quantities".
+	**Quantification** allows us to formalize **how different** one state is from another. 
+		It converts the abstract notion of "difference" into something that can be expressed as values.
+#### Values
+**Values** are **assignments of distinction** that arise directly from the process of **differentiation**.
+	They represent the degree, magnitude, or "amount" of difference between one state and another. 
+		In other words, values are **the formal representation of how much one state differs from another** or how far one state is from a reference point. 
+			**Values** are the **quantitative form** of distinctions that emerge from differentiation.
+###### Values are Fundamentally Relational
+They do not exist in isolation but only in relation to **other states** or a **reference**.
+	The represent states of differentiation that are themselves relational, i.e. defined by what they are and what they are not.
+		Values exist as means to compare.
+			A value gains its meaning from its **relationship** to other values and to the constraints that define the system.
+				 A single value is not isolated; it is **defined by its role** within the system's structure, and it exists as part of a **relationship** between different variables or dimensions.
+
 A **Value** is the **specific, measurable representation** of an **actualized identity** of the **state** after it has been differentiated from other potential states.
 	These **values** are **context-dependent representations** of the underlying identities. 
 		The identities of states exist even without the values, but the values give these identities a **specific, measurable form** in this system.
 			A **value** is the specific identity that a state of being takes on after it has been constrained and differentiated.
-    
-In essence, a value is a **differentiated instance** of being, defined by the rules or constraints that govern the space.
-###### Value as a Relational Concept
-**Value** is also inherently **relational**.
-	A value gains its meaning from its **relationship** to other values and to the constraints that define the system.
-		 A single value is not isolated; it is **defined by its role** within the system's structure, and it exists as part of a **relationship** between different variables or dimensions.
-###### Value and Change
-**Value** and **change** are two sides of the same coin. 
-	Change is the process that differentiates potential, and **value** is the outcome—an expression of the differentiated state.
+### Definition is the Framework for Quantification (i.e. Value Assignment)
+To assign a **value**, we need a way to define **what is being measured**. 
 
-### Differentiation Implies the Notion of Measurement
-**Change** is fundamentally about recognizing that something is **different** from what it was before.
-	To notice that something has changed, there must be a sense that it has **moved** or **transitioned** from one state to another, even if the difference is only qualitative (e.g., from "black" to "white").
-		This very act of recognizing a transition or difference **requires** an implicit form of **comparison**—a way to measure or distinguish the new state from the old one.
+**Definition** provides the **structure** or **constraints** that can be assigned a value.
+	**Definition** is the process by which we specify/impose/assert/bind the constraints/boundaries/properties of a differentiated state. 
+		At this level, definition involves **equating boundaries (i.e. properties and characteristics)** that make one state distinct from another.
 
-Even if we don't formally measure change in terms of numbers or units, the **recognition of change** involves an **abstract notion of measurement**.
-	This could be as simple as observing that one state is different from another, or noticing that one value is "greater" or "lesser" than another.
-		For example, if you recognize that "black" has changed to "white," you're implicitly measuring a **difference** in **state** (even if not numerically). 
-			Similarly, if a position moves from one place to another, even without precise coordinates, you recognize that a **distance** (or change in position) has occurred.
-#### Measurement
-**Measurement**, in its most abstract form, is about **recognizing differences** or **transitions**.
-	This can be qualitative (a change in state, color, or form) or quantitative (a change in amount, distance, or magnitude).
-		 Thus, **change** inherently involves some level of **measurement**, because you need to recognize and compare **what was** with **what is**.
-			 Even in cases where precise measurement is not needed (like in abstract states), there is still an implicit notion of measurement involved in the process of **differentiation**.
+By defining what something is, you’re also defining the constraints (i.e. axes or aspects) in which you can compare or measure it. 
+	**Definition** creates the constraints (i.e. **dimensions** or **parameters**) along which values can be assigned. 
+		For example, defining the concept of "length" or "duration" gives us a **dimension** in which differentiation can be **quantified** by assigning values.
 
-Before formal **quantity** (with numbers, units, and scales) emerges, **measurement** already exists at an abstract level. 
-	When you observe that something has **changed**, you're making an implicit measurement, comparing one state to another.
-		 This comparison is the most basic form of **measurement**—the recognition of a difference.
-			 In this sense, **measurement** is **implied** in change because it allows us to **recognize** and **define** the differentiation that occurs through change.
+Without **definition**, values could not exist because we would have no formal structure for assigning magnitudes to the distinctions produced by differentiation.
+### Constraints are the Source of [[Axes and Dimensions#Parameters as Controllers of Axes|Parameters]], [[Axes and Dimensions#Dimension|Dimensions]] and Sets of Values
+**Constraint** limits the possibilities and creates **boundaries** and thus **ranges/scopes/scales/intervals** within which values can be assigned (i.e. sets of possible values).
+	These bound properties/characteristics become the **dimensions** along which we can measure.
+		**Definition** creates the **[[Axes and Dimensions#Parameters as Controllers of Axes|parameters]]** within which **quantification** can occur.
+			 By defining what something is, you’re also defining the [[Axes and Dimensions#Axis|axes]] or aspects in which you can compare or measure it.
 
-Once we formalize these **comparisons** or **differences** with specific numbers or units, we arrive at **quantity**. 
-	However, even before this formalization, the very ability to notice and define **change** or **difference** implies that some form of **abstract measurement** is already taking place.
-		Thus, **measurement** is indeed **implicit** in **change** because to recognize change at any level, we must have a way to compare and differentiate between states.
-			 When we quantify this change, we introduce formal **measurement**, leading to **quantity**.
-				 **Quantity** arises when these abstract measurements are formalized and assigned numerical values.
-### Measurement Leads to the Notion of Quantity
-**Quantity** arises when these abstract measurements are formalized and assigned numerical values.
+Without constraint, everything would be **formless** and **unbounded**, making measurement impossible because measurement depends on having a **defined range** or a **scale** within which to operate.
+### Equating as the Basis of Quantification
+Previously we discussed equating a constraint with a differentiated state.
+	The purpose here is to **define** what the state **is** by ensuring it satisfies the **constraint**. 
+		We are saying, "this state equals these conditions."
 
-Quantity is a value of magnitude that exists relative to and within an implicitly sequenced set.
-	Therefore, Quantity is a magnitude value describes **relational differentiation** within a sequence.
+But in terms of Quantification, the process of quantification involves equating a constraint with a value.
+	This is about **quantifying** how much or to what degree the differentiated state fits/satisfies/corresponds to the conditions of the constraint. 
+		The **value** reflects the relationship between the state and the constraint in terms of **measurement**.
+##### Equating Gives Values Meaning Through Comparison
+**Equating** is the process that allows us to assign a **specific value** to a state by comparing it to a **reference** or **standard**.
+	Values are derived by **equating** the differentiated state with a **standard** (such as a unit of measurement, a baseline value, or another entity).
+		 For instance, when we say the length of an object is 5 meters, we are equating the object’s length with the **reference length** of 1 meter multiplied by 5.
+			In the most abstract sense, a value is the result of saying "this state equals this amount" in comparison to some reference.
+				Without **equating**, we couldn’t assign precise values because there would be no way to determine how the differentiated state relates to other states or reference points.
+##### Equating Facilitates Measurement, i.e. Establishment of Relationships Between States
+**Equating** is the process of **comparison**—whether something is equal to or different from something else. 
+	This is critical because **measurement is fundamentally a comparison** between two things:
+		1. **Quantification** involves comparing a differentiated state to a **reference** (like a ruler, clock, or unit of measure). 
+		2. Equating is what allows us to establish **relationships** between states, such as whether one state is **greater than**, **equal to**, or **less than** another.
+- For example, equating the length of an object to a unit of measurement (e.g., "this line is 5 units long") is a direct expression of **quantification**.
+### Expressions are Quantified Representations (i.e. Measurable/assignable Values)
+**Relational values are the formal expressions that can be assigned to the specified constraints that define (i.e. are equated to) a differentiated state.**
 
-At its most abstract, **quantity** can be seen as a fundamental concept that inherently involves **relational differentiation**—in other words, any notion of quantity must be understood **relative** to another quantity. 
-	This **relative nature** leads to the idea of **sequenced sets**. 
-		Sequenced sets naturally lead to the idea of **location** or **position**, which in turn implies the existence of a **plane or space**.
+Expressions can be understood as **representations** of a state, form, or entity that has undergone **differentiation**.
+	Once a state or entity is **differentiated** and **defined**, its **expression** becomes a way to make this state **perceivable** or **observable** in some form.
+		When you introduce the idea of **values** into this system, the **expression** of a state becomes its **quantified representation**—a measurable or assignable output of that differentiated state.
+
+In the context of **quantification**, an **expression** can be understood as the **formal output** or **form** of a differentiated state, but **represented in terms of values**.
+	These values assign **quantitative meaning** to the properties of the expressed state.
+		Thus, expressions are not just abstract forms; they are **anchored** in reality through the **assignment of values**. 
+			These values allow the expression to be **communicated**, **understood**, and **measured**.
+
+- - -
+## The Logic of Quantity: The Foundation for Mathematics (From Differentiation to Mathematical Structure)
+Mathematics, in its most abstract sense, is the **formal system** we use to understand, describe, and model reality. 
+	At the core of this system lies **quantity**, which is derived from the process of **differentiation**—the act of creating distinctions between states or entities. 
+		These distinctions, when formalized into sequences and relationships, form the basis of numbers and, ultimately, the framework for **mathematical reasoning**.
+
+The Logic of Quantity provides the **language, and system of logic** to express the **logic of differentiation, change, and sequence** in a precise and structured way, that we call Mathematics. 
+	To lay the foundation for this, we must first explore the underlying principles of **quantity**, **causality**, and **sequence**.
+### Relational Nature of Differentiation: Foundation of Sequence (and thus the Logic of Quantity)
+At the core of any structured system is **differentiation**, the process by which one state or entity is distinguished from another.
+	The moment something is **differentiated**, we are establishing its identity by creating a **boundary** that distinguishes **what it is** from **what it is not**. 
+		This act of differentiation is inherently **relational**, because the meaning of the differentiated state depends on its relationship to the other states it has been separated from.
+
+Differentiation is not just about recognizing a state or entity—it is about creating a **boundary** that defines the **limits** or **constraints** of that state. 
+	A boundary tells us not only what is inside (what the state **is**) but also what is outside (what the state **is not**).
+		 Without boundaries, nothing could be distinguished because all would remain in a state of **undifferentiated potential**.
+
+In this way, **boundaries** are not just constraints/limits—they are the fundamental relational structure that allows **differentiation** to take place. 
+	**By defining a boundary, you are relating the differentiated state to everything that lies outside of it.**
+#### Sequence Emerges from Differentiation and Boundaries
+Once boundaries are established, **sequence** emerges as the natural extension of this differentiation. 
+	When multiple states are differentiated, they become **relational** not only in terms of their distinctions but also in terms of their **order**. 
+		This order is what we call **sequence**.
+##### Sequence is a Relational Structure
+**Sequence** refers to the structured arrangement of differentiated states, where the position of each state is determined relative to others. 
+	In a sequence, the relationship between states is no longer just about whether one is inside or outside a boundary, but **where** one state exists relative to another.
+		This can be **temporal** (a sequence in time) or **spatial** (a sequence in space).
+
+**Sequence** is a natural consequence of differentiation because it is not enough to simply define **what** a state is and what it is not.
+	We also need to understand **how** the differentiated states relate to one another in terms of their **order** or **position**.
+### Sequence: Foundation of Logic/Causality, and Quantification
+##### Sequence and Causality
+**Sequence** is the foundation for **causality** because causality depends on a clear understanding of **what happens first** and **what happens next**. 
+	This ordering (sequence) is what allows us to say that event **A** causes event **B**.
+		 If events were unordered or simultaneous without any notion of before and after, causality would lose its meaning.
+ 
+###### Causality
+The principle that one event causes another—naturally arises from the concept of **sequence**. Without sequence, there could be no notion of **before** and **after**, and thus no concept of one event **causing** another. **Causality** inherently requires that events be ordered in time or space, so that one can lead to or affect the other.
+##### Sequence and Quantification
+Thus, **quantification** is made possible by the existence of **sequence**.
+	Without sequence, we would not have a way to measure how much one state differs from another, because the idea of **difference** itself requires an understanding of **order**.
+
+Once we establish **sequence**, we can begin to explore the **logic of quantity**. 
+	The **logic of quantity** emerges from the relationships established in a sequence because sequence gives us a framework for **comparison** and **measurement**.
+		**Quantification** allows us to assign **values** to the constraints that define (i.e. are equated to) differentiated states, but these values only have meaning in the context of their **relationship** to other values in the sequence.
+
+The sequence of values enables the comparison of values.
+	And the **logic of quantity** is based on the **ordered relationships** between values. 
+		It allows us to understand how values **compare** to one another.
+			What is being compared are the differences between the magnitudes of these values.
+				These differences represent the relationships between the values and ultimately between the differentiated states.
+					A formal system (later defined as a numerical system) enables the expression of these relationships (i.e. comparisons/differences) between values, in the form of **operations**.
+						And are also used to manipulate the relationships.
 ##### The Logic of Quantity
+Is the system that formalizes the sequence between differentiated states, and by which we understand, identify, express and manipulate **quantities** in relation to each other. 
+	This logic enables us to perform operations like **addition**, **subtraction**, and **comparison**, based on the positions of states in a sequence.
+
+### Causality and Differentiation: The Logic of Change
 Quantity is just a logical system.
 	A logical system that is constrained by rules and these rules define the system.
+
+At the most fundamental level, **causality** is the structure that governs **change**. 
+	It defines how one state transitions into another, creating the **before** and **after** relationships that give rise to our understanding of **time** and **sequence**.
+		 This causal framework is the foundation upon which the **logic of quantity** is built.
+##### Causality and Sequence
+**Causality** creates the order of **differentiation**, which means it is responsible for the **sequential relationships between distinct states**. 
+	When one event causes another, it introduces a **temporal ordering**, leading to the possibility of comparing and measuring the differences between these states.
+
+**Change**, as experienced in the real world, is always framed by **causal relationships**: one thing leads to another.
+	 Without causality, there would be no clear **sequence**, and without sequence, the very notion of **quantity** and **measurement** would be meaningless.
+
+Thus, **mathematics** begins with the recognition of these **causal sequences**, and **numbers** arise as the [[#Expressions are Quantified Representations (i.e. Measurable/assignable Values)|formal way of expressing/representing]] the **order** and **magnitude** of the changes observed.
+### Change and Differentiation: The Foundation of Quantity
+As we differentiate between distinct states, we naturally generate the need for **quantification**. 
+	**Quantity** emerges from the logical comparison between these differentiated states, allowing us to express **how much** one state differs from another.
+		**Where formal expressions in the form of relational values can be assigned to specified constraints that define (i.e. are equated to) differentiated states.**
+#### Differentiation and Boundaries
+**Differentiation** establishes **boundaries** between states, entities, or events.
+	These boundaries define **what something is** by **differentiating** it from **what it is not**.
+		Once differentiation occurs, we can assign **quantities** (values) to measure the degree of difference between the differentiated states.
+#### Quantification
+**Quantification** is the process of assigning **values** to the distinctions created by differentiation. 
+	These values represent the **magnitude** of the differences and allow for formal comparisons.
+
+**Numbers** are the Formal Representation of these Values
+By assigning numbers, we quantify **change**, —all derived from causal and differentiating processes.
+
 ###### Why Numbers are so Fundamental to Understanding Reality 
 The reason **numbers** are so central to humanity’s understanding of reality is that **reality itself is structured in terms of space (i.e. sequence with a spatial component), and logic (i.e. sequence, and causality)**. 
 	Everything we observe and experience involves relationships between objects, events, and quantities. Numbers allow us to:
@@ -338,7 +372,7 @@ This is why they are inherent in humanity's endeavor to understand reality.
 
 Numbers are not just abstract; they are the foundation for describing the **relational structure** of reality, both spatially (in terms of where things are) and temporally (in terms of when things happen).
 
-In the broadest context, **numbers** represent **the structure of reality** itself because they allow us to describe:
+In the broadest context, **numbers** represent **the structure of reality** itself because they allow us to describe the constraints that are equated to/define a differentiated state:
 - **Position** in space (coordinates),
 - **Order** in time (sequence of events),
 - **Relations** between quantities (through operations like addition, subtraction, multiplication),
@@ -346,6 +380,12 @@ In the broadest context, **numbers** represent **the structure of reality** itse
 
 They are the **symbolic language** that allows us to describe and engage with the world in a structured, logical way. 
 	In the context of **space**, **order**, and **sequence**, numbers serve as the tools that encode the relationships and positions that define reality.
+
+Constraints are the building blocks for defining sets, and they are formulated using the fundamental concepts of **logic**.
+	Constraints specify the conditions under which elements are included in a set or satisfy a definition.
+		Constraints often involve equations (statements of equality) that elements must satisfy.
+			In logic, predicates and conditions involve equality to express precise relationships.
+
 ## The Universal Superset as the Most Fundamental Mathematical Object
 This is the most abstract and comprehensive set, **containing all possible** underlying, structured, and higher-level sets. 
 	Think of it as the "universe" of **all** mathematical objects and structures.

@@ -172,27 +172,7 @@ Where $x$ represents a possible, single value in the $x$-axis/set of $\mathbb{R}
 - **Elements of YYY**: Individual real numbers y∈Ry \in \mathbb{R}y∈R.
 - **Visualization**: A line perpendicular to the xxx-axis, extending infinitely in both directions.
 - - -
-## [[Abstract Mathematical Spaces#Change/Differentiation Through Constraint as the Foundational Notion|Change/Differentiation Through Constraint as the Foundational Notion]]
-Change is differentiation.
-	The initial change is that from the undifferentiated, absolute to the first duality or relational existence of two interdependent states. 
-		The states being most simply "**is**" and "**is not**", that is "**equality**" and "**inequality**".
-			Which through the notion of value expressed as quantity which is expresses as numbers, can be described as $\LARGE 1$ and $\LARGE 0$.
-### Change/Constraint Described by Equality/Inequality Derives Identity (i.e. Interdependent States of Being/Not Being)
-The assignment of a value is dependent on a the notion of **equality** and thus **inequality**.
-	Which define states of "being".
-		But this **state of being** is implicitly and necessarily defined relative to a **state of not being.**
-			These interdependent States of Being/Not Being are what produce Identity.
-				That is a distinct entity, i.e. the differentiation between entities (i.e. states of being).
-#### Equality/Inequality Establish a State of Being
-This **state of being** is Interdependent with its corresponding state of what it is not.
-	I.e. This **state of being** is implicitly and necessarily defined relative to a **state of not being.**
-
-Equality establishes the identity between objects. When we say $a=b$, we assert that $a$ and $b$ are the same in all relevant aspects.
-
-An axis is a **conceptual dimension**, where the "value" along the axis corresponds to a **state** or outcome of a system. 
-##### Interdependent State of Being/Not Being Express an Identity
-These interdependent States of Being/Not Being are what describe Identity.
-	That is a distinct entity, i.e. the differentiation between entities (i.e. states of being).
+## [[Abstract Mathematical Spaces#The Foundational Notion Change Is the Process of Differentiation, Implemented by Definition/Constraint|Change is the Source of Quantity]]
 
 - - -
 ## Identity: Values, Quantities, and Numbers
