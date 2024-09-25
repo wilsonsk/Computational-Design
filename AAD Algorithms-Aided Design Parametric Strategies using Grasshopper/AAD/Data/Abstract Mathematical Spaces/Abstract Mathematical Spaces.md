@@ -177,8 +177,10 @@ Expression is the **actualized form** or **"appearance"** that results from the 
 - - -
 ## The Relational Structure is the Outcome of Differentiation 
 This differentiation gives rise to a **relational structure** where the **newly differentiated states** are **related** in terms of their differences.
-	**Differentiation** creates the **conditions** for **relations** like **before and after**, **greater and lesser**, **equal and unequal**, or **cause and effect**. 
-		These relationships are the basis for **logic** because logic formalizes how these states interact and connect based on their differentiated properties.
+		Once states are **differentiated**, they exist in **relation** to each other. 
+		**Differentiation** creates the **conditions** for **relations** like **before and after**, **greater and lesser**, **equal and unequal**, or **cause and effect**. 
+			These relationships are the basis for **logic** because logic formalizes how these states interact and connect based on their differentiated properties.
+				These relationships create **structures** that can be ordered, compared, and understood in terms of their differences or similarities.
 ### Constraints Establish Relationships
 **Constraints** are the rules or limits that describe how a differentiated state exists or behaves. 
 	When constraints are imposed on a state, they define what **must be true** for that state to exist as it is.
@@ -210,7 +212,7 @@ It is the **relational order** that arises from differentiation and the impositi
 	When we say "this state equals these conditions," we are creating the constraint that defines the state.
 		 Simultaneously, by defining what the state **is**, we are also implicitly defining what it **is not**.
 
-This leads to logical outcomes:
+Logic defines the principles by which states relate to one another (i.e. This leads to logical outcomes):
 - **Identity**: A state is **equal** to itself and its defining constraints (A = A).
 - **Negation**: A state is **not** another state (A ≠ B).
 - **Comparison**: One state can be greater than, less than, or equal to another state based on their constraints (A > B, A < B, A = B).
@@ -223,12 +225,20 @@ This leads to logical outcomes:
 ## Logic of Causality: Derived from the Sequence of Differentiated States
 When constraints are imposed on states in a **temporal or causal** context, logic governs the sequence of **cause and effect**. 
 	For example, if A causes B, the logic of **causality** establishes that **A precedes B**.
-    
+
 This causal logic is derived from the fact that the constraints on A lead to the existence or behavior of B.
+#### Sequence and Causality
+**Sequence** is the foundation for **causality** because causality depends on a clear understanding of **what happens first** and **what happens next**. 
+	This ordering (sequence) is what allows us to say that event **A** causes event **B**.
+		 If events were unordered or simultaneous without any notion of before and after, causality would lose its meaning.
+###### Causality
+The principle that one event causes another—naturally arises from the concept of **sequence**. 
+	Without sequence, there could be no notion of **before** and **after**, and thus no concept of one event **causing** another. 
+		**Causality** inherently requires that events be ordered in time or space, so that one can lead to or affect the other.
 
 - - -
 ## The Derivation of Quantity
-### Differentiation is the Basis of Quantity
+### Logic (of the Relational Structure )is the Basis of Quantity
 At its core, **differentiation** is the act of creating distinctness—of saying that **this** is different from **that**. 
 	It is the smallest level or most basic form of **change**, and in this process, an entity moves from a state of undifferentiated potential to a state of being distinguishable.
 		Differentiation creates the **contrast** between **this** and **not this**, or between **state A** and **state B**.
@@ -239,6 +249,8 @@ At its core, **differentiation** is the act of creating distinctness—of saying
 	**Definition** provides the characteristics along which this differentiation can be quantified (such as size, duration, weight, etc.).
 		**Constraint** imposes the limits that make quantification possible by defining the **range** or **scale** of possibilities.
 			**Equating** is the mechanism by which we compare differentiated states, allowing us to assign numerical values to express the **magnitude** of their differences or similarities.
+
+Without the **logical structure** of relationships and sequence, there would be no framework within which to measure or assign values to states. In other words, **quantification** relies on the **logical relationships** established by sequence to give meaning to the values assigned to states.
 ### Definition is the Framework for Quantification (i.e. Value Assignment)
 To assign a **value**, we need a way to **define** **what is being measured**. 
 
@@ -258,6 +270,24 @@ Without **definition**, values could not exist because we would have no formal s
 			 By defining what something is, you’re also defining the [[Axes and Dimensions#Axis|axes]] or aspects in which you can compare or measure it.
 
 Without constraint, everything would be **formless** and **unbounded**, making measurement impossible because measurement depends on having a **defined range** or a **scale** within which to operate.
+### Sequence and Quantification
+**Quantification** is inherently **relational** because it assigns **values** based on the **differences** between states. 
+	These differences are derived from the **relational structures** established by differentiation.
+
+Thus, **quantification** is made possible by the existence of **sequence**.
+	Without sequence, we would not have a way to measure how much one state differs from another, because the idea of **difference** itself requires an understanding of **order**.
+
+Once we establish **sequence**, we can begin to explore the **logic of quantity**. 
+	The **logic of quantity** emerges from the relationships established in a sequence because sequence gives us a framework for **comparison** and **measurement**.
+		**Quantification** allows us to assign **values** to the constraints that define (i.e. are equated to) differentiated states, but these values only have meaning in the context of their **relationship** to other values in the sequence.
+
+The sequence of values enables the comparison of values.
+	And the **logic of quantity** is based on the **ordered relationships** between values. 
+		It allows us to understand how values **compare** to one another.
+			What is being compared are the differences between the magnitudes of these values.
+				These differences represent the relationships between the values and ultimately between the differentiated states.
+					A formal system (later defined as a numerical system) enables the expression of these relationships (i.e. comparisons/differences) between values, in the form of **operations**.
+						And are also used to manipulate the relationships.
 #### Quantification
 **Quantification** is the process of **assigning values**.
 	**Quantification** is the process that formalizes abstract distinctions/differentiated states produced by differentiation, into formal values, (i.e. measurable "quantities") through the assignment of a **encoded/numerical value** to a **constraint** (which is defined and equated to a differentiated state).
@@ -312,34 +342,6 @@ In the context of **quantification**, an **expression** can be understood as the
 		Thus, expressions are not just abstract forms; they are **anchored** in reality through the **assignment of values**. 
 			These values allow the expression to be **communicated**, **understood**, and **measured**.
 
-- - -
-
-## Logic is an Outcome of Change and Differentiation
-### Logic
-Is a universal system of reasoning that applies to all relational structures derived from **differentiation**.
-### Sequence: Foundation of Logic/Causality, and Quantification
-##### Sequence and Causality
-**Sequence** is the foundation for **causality** because causality depends on a clear understanding of **what happens first** and **what happens next**. 
-	This ordering (sequence) is what allows us to say that event **A** causes event **B**.
-		 If events were unordered or simultaneous without any notion of before and after, causality would lose its meaning.
- 
-###### Causality
-The principle that one event causes another—naturally arises from the concept of **sequence**. Without sequence, there could be no notion of **before** and **after**, and thus no concept of one event **causing** another. **Causality** inherently requires that events be ordered in time or space, so that one can lead to or affect the other.
-##### Sequence and Quantification
-Thus, **quantification** is made possible by the existence of **sequence**.
-	Without sequence, we would not have a way to measure how much one state differs from another, because the idea of **difference** itself requires an understanding of **order**.
-
-Once we establish **sequence**, we can begin to explore the **logic of quantity**. 
-	The **logic of quantity** emerges from the relationships established in a sequence because sequence gives us a framework for **comparison** and **measurement**.
-		**Quantification** allows us to assign **values** to the constraints that define (i.e. are equated to) differentiated states, but these values only have meaning in the context of their **relationship** to other values in the sequence.
-
-The sequence of values enables the comparison of values.
-	And the **logic of quantity** is based on the **ordered relationships** between values. 
-		It allows us to understand how values **compare** to one another.
-			What is being compared are the differences between the magnitudes of these values.
-				These differences represent the relationships between the values and ultimately between the differentiated states.
-					A formal system (later defined as a numerical system) enables the expression of these relationships (i.e. comparisons/differences) between values, in the form of **operations**.
-						And are also used to manipulate the relationships.
 - - -
 ## The Logic of Quantity: The Foundation for Mathematics (From Differentiation to Mathematical Structure)
 ### The Logic of Quantity *is* the Logic of Quantitative Relationships, *is* Mathematics
