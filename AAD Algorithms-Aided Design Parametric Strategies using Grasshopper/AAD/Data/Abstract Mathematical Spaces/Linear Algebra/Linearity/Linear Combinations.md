@@ -1,4 +1,64 @@
 # Linear Combinations
+Linear combinations are a fundamental concept because they express how different quantities (in this case, the variables $x,y,z$) can be combined in a way that maintains [[#The Fundamental Property (i.e. Linearity)|linearity]] (no exponents or products of variables). 
+	This ensures that the equations describe flat objects like lines and planes, which are inherently linear geometric entities.
+
+Both equations ax+by=cax + by = cax+by=c and ax+by+cz=dax + by + cz = dax+by+cz=d are forms of linear combinations. 
+	They are linear combinations of the variables xxx, yyy, and zzz, with the coefficients aaa, bbb, and ccc acting as the weights in this combination, which is why they represent straight lines and flat planes.
+		 This is conceptually tied to how vectors work, but the equations themselves are linear combinations in their own right.
+
+## Linear Combination of Two Vectors
+When you take two vectors, say **u** and **v**, and form a linear combination with scalars λ1\lambda_1λ1​ and λ2\lambda_2λ2​, the result will indeed be another vector that lies in the plane (or line) defined by those two vectors.
+
+w=λ1u+λ2v\mathbf{w} = \lambda_1 \mathbf{u} + \lambda_2 \mathbf{v}w=λ1​u+λ2​v
+
+This means that the vector **w** is the result of "scaling" **u** by λ1\lambda_1λ1​ and **v** by λ2\lambda_2λ2​, and then summing them. 
+	If **u** and **v** are not collinear, they span a plane, and **w** will be some vector in that plane. If **u** and **v** are collinear, then all linear combinations of **u** and **v** will lie along a line.
+		Colinear meaning they are both expressions of the same line, by multiples (i.e. scalars).
+### A Connection to [[Straight Lines|Lines]] and [[Planes|Planes]]
+The equations of lines and planes in the forms ax+by=cax + by = cax+by=c and ax+by+cz=dax + by + cz = dax+by+cz=d can indeed be understood as linear combinations, and have a connection to vectors.
+
+## Linear Equation of a Line
+For the equation ax+by=cax + by = cax+by=c, this is a linear combination of xxx and yyy. The equation expresses that a certain weighted sum (via the coefficients aaa and bbb) of the xxx and yyy coordinates equals a constant ccc.
+
+This form can be linked to vectors because if we think of (x,y)(x, y)(x,y) as coordinates in the plane, the coefficients aaa and bbb can be seen as components of a normal vector to the line. The equation is effectively saying that for any point (x,y)(x, y)(x,y) on the line, the dot product of the vector (x,y)(x, y)(x,y) with the normal vector (a,b)(a, b)(a,b) gives the constant ccc. This aligns with how a linear combination works because it’s a sum of terms where each term involves a scalar multiple of a variable (which you can associate with a direction in space, i.e., a vector).
+
+### Connecting the Two Ideas:
+In the vector scenario, the equation λ1u+λ2v=w\lambda_1 \mathbf{u} + \lambda_2 \mathbf{v} = \mathbf{w}λ1​u+λ2​v=w tells you that any vector w\mathbf{w}w can be written as a linear combination of two vectors u\mathbf{u}u and v\mathbf{v}v, meaning w\mathbf{w}w lies within the span (or plane) of u\mathbf{u}u and v\mathbf{v}v.
+
+In the line equation, ax+by=cax + by = cax+by=c is similarly describing all points (x,y)(x, y)(x,y) that satisfy a certain linear relationship, meaning they lie along a line (which can be thought of as the span of a vector).
+
+Both expressions are linear combinations:
+
+- In the vector case, it’s a combination of the vectors u\mathbf{u}u and v\mathbf{v}v.
+- In the line equation, it's a combination of the coordinates xxx and yyy, scaled by aaa and bbb.
+
+### Why They Look Similar:
+
+The key reason they look similar is that both are expressing **linear relationships**. Whether you're combining vectors to describe points in a plane (or line) or you're using coefficients to combine variables like xxx and yyy to describe a line, you're dealing with the same underlying mathematical structure: **linearity**.
+
+- In vector form, λ1u+λ2v\lambda_1 \mathbf{u} + \lambda_2 \mathbf{v}λ1​u+λ2​v defines a linear space (a line or plane).
+- In the standard equation form, ax+by=cax + by = cax+by=c defines a line as the set of points where the linear combination of xxx and yyy equals a constant.
+
+### Geometrically:
+
+- **In vector terms**: The set of all linear combinations of two vectors **u** and **v** defines a line or a plane, depending on whether the vectors are collinear or not.
+- **In equation terms**: The standard form ax+by=cax + by = cax+by=c defines a line in a plane by constraining xxx and yyy to satisfy a particular linear relationship.
+## Linear Equation of a Plane:
+
+Similarly, for the equation of a plane, ax+by+cz=dax + by + cz = dax+by+cz=d, this is also a linear combination of the variables xxx, yyy, and zzz, where aaa, bbb, and ccc are the scalar coefficients.
+
+Here, aaa, bbb, and ccc can be interpreted as the components of a normal vector to the plane, and the equation says that for any point (x,y,z)(x, y, z)(x,y,z) on the plane, the weighted sum (dot product) of the vector (x,y,z)(x, y, z)(x,y,z) with the normal vector (a,b,c)(a, b, c)(a,b,c) equals the constant ddd.
+
+In both cases, the "linear combination" aspect comes from the fact that you're summing the products of scalar coefficients and variables (which can be associated with directions in the vector space). The result of this sum is set equal to a constant, and this structure is what defines a linear relationship between the variables.
+
+
+
+
+
+
+
+
+
 A linear combination involves creating a new vector (or value) by multiplying a set of vectors (or numbers) by scalars and then summing the results. Formally, if you have vectors v1,v2,…,vn\mathbf{v_1}, \mathbf{v_2}, \ldots, \mathbf{v_n}v1​,v2​,…,vn​ and scalars a1,a2,…,ana_1, a_2, \ldots, a_na1​,a2​,…,an​, the linear combination is:
 ## The Fundamental Property (i.e. Linearity)
 **Linearity**:
