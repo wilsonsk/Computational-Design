@@ -134,6 +134,14 @@ Imagine an unformed state of potential.
 	A **constraint** is the act that **defines** what this potential becomes by **differentiating** it.
 		 Before the constraint, there is only formless possibility. 
 			 The constraint is what gives this potential form and identity, thereby establishing the conditions under which this state of being exists.
+#### Constraints Lead to Parameters
+When constraints are imposed on a state, they define **parameters**, which are **defining aspects** of the entity or state (i.e. that which **must be true** for that state to exist as it is).
+	That is, constraints they **restrict** a state or entity to specific **properties** or **characteristics** (i.e. parameters). 
+###### [[Axes and Dimensions#Parameters as Controllers of Axes|Parameters]]
+A **parameter** can be thought of as a **controller** that specifies a particular feature or characteristic of a state, allowing it to vary within the imposed limits.
+	For example, in the context of shape, a constraint might define a **parameter** such as "radius" for a circle.
+		**Parameters** arise because constraints **limit** what a state can be, and these limits give rise to measurable or definable aspects along which we can assess the state.
+			[[#Dimensions|Dimensions]] are latent until realized through the process of [[#Quantification|quantification]].
 ###### Constraint and Identity
 **Constraint** is what **shapes** identity by imposing limits. 
 	Identity only emerges within a boundary—a constraint that excludes all other possibilities.
@@ -176,17 +184,46 @@ Expression is the **actualized form** or **"appearance"** that results from the 
 
 - - -
 ## The Relational Structure is the Outcome of Differentiation 
-This differentiation gives rise to a **relational structure** where the **newly differentiated states** are **related** in terms of their differences.
-		Once states are **differentiated**, they exist in **relation** to each other. 
+**Differentiation** creates **distinct states** and, in doing so, establishes **relational structures**.
+	These structures define how one state **relates** to another, such as being "greater than," "less than," "equal to," or "different from" in terms of a particular property specified by a constraint.
+
+I.e. This differentiation gives rise to a **relational structure** where the **newly differentiated states** are **related** in terms of their differences.
+	Once states are **differentiated**, they exist in **relation** to each other. 
 		**Differentiation** creates the **conditions** for **relations** like **before and after**, **greater and lesser**, **equal and unequal**, or **cause and effect**. 
 			These relationships are the basis for **logic** because logic formalizes how these states interact and connect based on their differentiated properties.
 				These relationships create **structures** that can be ordered, compared, and understood in terms of their differences or similarities.
-### Constraints Establish Relationships
-**Constraints** are the rules or limits that describe how a differentiated state exists or behaves. 
-	When constraints are imposed on a state, they define what **must be true** for that state to exist as it is.
+### Dimension as the Latent Framework for the Relational Structure
+The very act of differentiation creates distinctions, and these distinctions imply possible ways along which a state can vary and thus simultaneously relate to another state(s).
+	The moment you differentiate between "this" and "that," you introduce a way to relate these states within a context or framework. 
+		Dimensions emerge from differentiation as the potential context or framework and then serve as the potential for further variation or change.
+			The **dimension** is the **potential** for variation, providing the **conceptual framework**.
+
+Before any constraints are applied, the **dimension** exists as an **abstract potential**—a possible context within which a state can vary.
+	This potential is general and not yet specific; it's an open framework that indicates a way in which states could potentially vary.
+
+A **dimension** provides the **context** or **axis (in spatial terms)** along which differentiation or variation can occur. 
+	It is the **conceptual framework** that allows the differences between states to be mapped or understood.
+### Constraints Establish Relationships within the Dimension
+**Constraints** (**as asserted by definitions**) are the rules or limits that describe how a differentiated state exists or behaves. 
+	When constraints are imposed on a state, they define **parameters**, which are **defining aspects** of the entity or state (i.e. that which **must be true** for that state to exist as it is).
 		Once constraints are imposed, they also create relationships between different states. 
 			For instance, if one state has a constraint that makes it "greater than" another, or if two states are "equal" based on a shared property, these are **logical relationships** between the states.
+### Relationships Derive a Scope of Variation
+When a **constraint** is imposed on a differentiated state, it defines the **parameters** (such as length, duration, temperature) that can vary. 
+	**Constraints** then **formalize** the latent dimensions by setting boundaries, defining how variation can occur.
+		By doing so, the constraint **transforms** the abstract potential into a **specific, aspect** of variation, essentially giving the dimension its **formalized structure**.
+
+This **formalized aspect** is what we refer to as the **scope of variation**.
+	It defines the **bounds** of possible values the parameter can take within the dimension.
+		**Relationships** between the states are **established within the dimensions** once they are defined by constraints.
+			The **scope of variation** is **bound** by the constraint, making it a **concrete representation** of how the **parameter** varies within the dimension.
+				The **scope of variation** then describes the **extent** or **bounds** of this **parameter** within the dimension, as determined by the constraints.
+
+Dimensions describe a particular aspect of how states can vary in relation to one another.
+
 ### Sequence is a Relational Structure
+In a mathematical or physical sense, a sequence **utilizes** dimensions (e.g., the "time" dimension for a sequence of events) to **express relationships** between different states in terms of their ordering.
+
 **Sequence** is the **ordered arrangement** of differentiated states based on their **relative differences** (i.e. relational structure) established by the constraints that define them. 
 	The constraints that **define** and **differentiate** states also impose an **abstract sequence** on those states.
 		As soon as something is differentiated (i.e., distinguished from another state), it enters into a **relationship** with other differentiated states. 
@@ -238,7 +275,7 @@ The principle that one event causes another—naturally arises from the concept 
 
 - - -
 ## The Derivation of Quantity
-### Logic (of the Relational Structure )is the Basis of Quantity
+### Logic (of the Relational Structure) is the Basis of Quantity
 At its core, **differentiation** is the act of creating distinctness—of saying that **this** is different from **that**. 
 	It is the smallest level or most basic form of **change**, and in this process, an entity moves from a state of undifferentiated potential to a state of being distinguishable.
 		Differentiation creates the **contrast** between **this** and **not this**, or between **state A** and **state B**.
@@ -263,13 +300,45 @@ By defining what something is, you’re also defining the constraints (i.e. axes
 		For example, defining the concept of "length" or "duration" gives us a **dimension** in which differentiation can be **quantified** by assigning values.
 
 Without **definition**, values could not exist because we would have no formal structure for assigning magnitudes to the distinctions produced by differentiation.
-### Constraints are the Source of [[Axes and Dimensions#Parameters as Controllers of Axes|Parameters]], [[Axes and Dimensions#Dimension|Dimensions]] and Sets that are Assigned Values
-**Constraint** limits the possibilities and creates **boundaries** and thus **ranges/scopes/scales/intervals** within which values can be assigned (i.e. sets of possible values).
-	These bound properties/characteristics become the **dimensions** along which we can measure.
-		**Definition** creates the **[[Axes and Dimensions#Parameters as Controllers of Axes|parameters]]** within which **quantification** can occur.
-			 By defining what something is, you’re also defining the [[Axes and Dimensions#Axis|axes]] or aspects in which you can compare or measure it.
+### Dimension Derives the Framework for Constraints
+###### Dimensions
+A dimension is an abstract axis or framework that emerges from the process of differentiation and constraint, providing a context along which a parameters of a differentiated state can be varied.
+	I.e. a **dimension** is a conceptual space that arises when a particular aspect of a differentiated state is **constrained** to vary within certain bounds.
+		 It gives form to **how** and **in what manner** we can observe, compare, or quantify different states. 
+			 Each dimension represents a potential or a scope of differentiation (i.e. in spatial terms: "direction of variation").
 
-Without constraint, everything would be **formless** and **unbounded**, making measurement impossible because measurement depends on having a **defined range** or a **scale** within which to operate.
+A **dimension** provides the **context** or **axis (in spatial terms)** along which differentiation, measurement, or variation can occur. 
+	It is the **conceptual framework** that allows the differences between states to be mapped or understood.
+
+	A **dimension** is essentially an **axis** or **direction** along which **quantification** can occur.
+		**Dimensions** represent the **scope** or **range** within which parameters can be measured.
+			 For example, if a constraint limits an object to a specific length, that length becomes a **dimension** in the form of "distance," along which values can be assigned (e.g., 1 meter, 2 meters).
+    
+Each **dimension** corresponds to a **parameter** controlled by the constraints. These dimensions allow us to measure and compare different states based on specific properties.
+### Constraints Derive Parameters
+*Remember*, that **when constraints are imposed on a state (i.e. equated to a differentiated state by definition)**, they **specify the defining aspects** of the entity or state (i.e. that which must be true for that state to exist as it is).
+	That is, constraints they **restrict** a state or entity to specific **properties** or **characteristics**.
+		And these defining aspects (that are specified by the constraints) are called the **parameters.**
+
+I.e. A **constraint defines the specific aspects (i.e. the parameters)** of differentiated state.
+	*And* constraints also **define the bounds of possible variations of that parameter (i.e. specified aspect)**.
+		**Parameters** are therefore, **the specified aspects that have a range of variation**, both of which are constrained by the definition of a given differentiated state. 
+###### [[Axes and Dimensions#Parameters as Controllers of Axes|Parameters]]
+A **parameter is a specific constraint** (property or characteristic) that can be **varied** within the bounds set by the constraints.
+	A **parameter** can be thought of as a **controller** that specifies a particular feature or characteristic of a state, allowing it to vary within the imposed limits.
+		**Parameters** arise because **constraints limit** what a state can be, and these limits give rise to measurable or definable aspects along which we can assess the state.
+### Constraints Derive the Scope of Variation (of the Parameters)
+Parameters represent the **aspect** of the entity that can be controlled or measured, and they can vary along a defined **dimension**.
+	But these "dimensions" are latent until realized through the process of [[#Quantification|quantification]].
+		A parameter is essentially a **dimension of variation** that can take on different values, subject to the constraints. 
+
+Once constraints define parameters, these parameters naturally create **dimensions**.
+	When a **constraint** is imposed on a differentiated state, it **limits** or **defines** the possible values that a specific property (parameter) of that state can take. This limitation inherently **creates a context** for understanding that parameter.
+
+
+
+
+### **Actualized values** are the **specific expressions** of the state within the scope of variation, representing a **realized subset** (analogous to the **range**).
 ### Sequence and Quantification
 **Quantification** is inherently **relational** because it assigns **values** based on the **differences** between states. 
 	These differences are derived from the **relational structures** established by differentiation.
