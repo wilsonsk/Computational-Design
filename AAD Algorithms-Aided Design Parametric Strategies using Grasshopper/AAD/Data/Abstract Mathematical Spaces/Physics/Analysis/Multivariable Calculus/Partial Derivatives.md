@@ -303,7 +303,7 @@ $$\LARGE \textcolor{green}{a}\textcolor{red}{x} +\textcolor{green}{b}\textcolor{
 Because the Normal vector is normal to the whole plane, then any points along the plane are also orthogonal to the normal vector. 
 ##### The Tangent Plane Through a Point
 *Remember to obtain the coordinates of a vector, take the difference of the terminating point and the origin.*
-	The Normal Equation states: if a point $(x,y,z)$ exists on the plane $\pi$, then the [[Dot Product|dot product]] of the normal vector with the vector containing those initial points, is equal to $0$.
+	The Normal Equation states: if a point $(x,y,z)$ exists on the plane $\pi$, then the [[Data/Abstract Mathematical Spaces/Linear Algebra/Dot Product|dot product]] of the normal vector with the vector containing those initial points, is equal to $0$.
 		Where $\LARGE \textcolor{red}{d}$ contains the remaining terms that equate the equation to the dot product between the two vectors.
 ![[Pasted image 20240810060854.png]]
 $$\LARGE (\textcolor{red}{x,y,z}) \Leftrightarrow (x-a,y-b,z-\textcolor{green}{f(a,b)}) \cdot (\textcolor{green}{f'_x(a,b), f'_y(a,b)}, -1) = 0$$

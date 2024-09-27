@@ -68,7 +68,7 @@ And the Increments $(x-a)$ and (y-b), in the $\LARGE x$ and $\LARGE y$ direction
 $$\LARGE \text{Tangent Plane } z = f(a,b) + [f'_x(a,b),f'_y(a,b)] \cdot \begin{bmatrix} x-a \\ y-b \end{bmatrix}$$
 $$\LARGE == z = f(a,b) + \nabla f(a,b) \cdot \begin{bmatrix} x-a \\ y-b\end{bmatrix}$$
 $$\text{Compared to Standard Form of a Line } y = mx +b$$
-		Where the two vectors are then arranged to produce the [[Dot Product|Dot Product]] between them. 
+		Where the two vectors are then arranged to produce the [[Data/Abstract Mathematical Spaces/Linear Algebra/Dot Product|Dot Product]] between them. 
 			And the result is the that the **Gradient** itself becomes the representation of the slope $\LARGE m$, and  the new $2 \times 1$ vector is the **increment**.  
 ## Gradient at Each Point is Perpendicular to the Tangent Vector on [[#Level Curves|Level Curve]] at this Point
 ![[Pasted image 20240816222319.png]]

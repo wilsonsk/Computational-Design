@@ -18,7 +18,7 @@ $$\LARGE \text{Where } \textcolor{yellow}{d = -ax_0 - by_0 - cz_0}$$
 $\LARGE d$ can be seen as the origin point of the normal vector $\LARGE \vec{n}$ and the vector on the plane $\LARGE \mathbf{x}-\mathbf{x_0}$. 
 #### The Reasoning of the Normal Equation
 If a point $\LARGE x_0=(x_0,y_0,z_0)$ belongs to the plane $\LARGE \pi$ then the vectors $\LARGE \vec{n}=(a,b,c)$ and $\LARGE \mathbf{x}-\mathbf{x_0} = (x-x_0, y-y_0,z-z_0)$ must be orthogonal.
-	This means the [[Dot Product|dot product]] between the two vectors must be produce $\LARGE 0$.
+	This means the [[Data/Abstract Mathematical Spaces/Linear Algebra/Dot Product|dot product]] between the two vectors must be produce $\LARGE 0$.
 		Where $\LARGE \textcolor{red}{d}$ contains the remaining terms that equate the equation to the dot product between the two vectors.
 		
 $$\LARGE (\textcolor{green}{a,b,c}) \cdot (\textcolor{red}{x}-x_0, \textcolor{red}{y} - y_0, \textcolor{red}{z}- z_0) = 0$$
@@ -140,7 +140,7 @@ $$\LARGE x + (-2)y + z = 0$$
 - - -
 ### The Tangent Plane (to a surface $z = f(x,y)$) Through a Point
 *Remember to obtain the coordinates of a vector, take the difference of the terminating point and the origin.*
-	The Normal Equation states: if a point $(x,y,z)$ exists on the plane $\pi$, then the [[Dot Product|dot product]] of the normal vector with the vector containing those initial points, is equal to $0$.
+	The Normal Equation states: if a point $(x,y,z)$ exists on the plane $\pi$, then the [[Data/Abstract Mathematical Spaces/Linear Algebra/Dot Product|dot product]] of the normal vector with the vector containing those initial points, is equal to $0$.
 		Where $\LARGE \textcolor{red}{d}$ contains the remaining terms that equate the equation to the dot product between the two vectors.
 ![[Pasted image 20240810060854.png]]
 $$\LARGE (\textcolor{red}{x,y,z}) \Leftrightarrow (x-a,y-b,z-\textcolor{green}{f(a,b)}) \cdot (\textcolor{green}{f'_x(a,b), f'_y(a,b)}, -1) = 0$$
@@ -165,5 +165,5 @@ And the Increments $(x-a)$ and (y-b), in the $\LARGE x$ and $\LARGE y$ direction
 $$\LARGE \text{Tangent Plane } z = f(a,b) + [f'_x(a,b),f'_y(a,b)] \cdot \begin{bmatrix} x-a \\ y-b \end{bmatrix}$$
 $$\LARGE == z = f(a,b) + \nabla f(a,b) \cdot \begin{bmatrix} x-a \\ y-b\end{bmatrix}$$
 $$\text{Compared to Standard Form of a Line } y = mx +b$$
-		Where the two vectors are then arranged to produce the [[Dot Product|Dot Product]] between them. 
+		Where the two vectors are then arranged to produce the [[Data/Abstract Mathematical Spaces/Linear Algebra/Dot Product|Dot Product]] between them. 
 			And the result is the that the **Gradient** itself becomes the representation of the slope $\LARGE m$, and  the new $2 \times 1$ vector is the **increment**.  

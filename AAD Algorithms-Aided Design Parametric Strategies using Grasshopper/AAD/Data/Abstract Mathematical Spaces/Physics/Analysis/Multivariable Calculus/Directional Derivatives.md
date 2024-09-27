@@ -145,7 +145,7 @@ Take the dot product of the gradient vector and the normalized direction vector:
 $$\LARGE D_{\mathbf{u}} f(x_0, y_0) = \nabla f(x_0, y_0) \cdot \mathbf{u}$$
 ### Result
 $$\LARGE D_{\mathbf{u}} f(x_0, y_0) = \frac{\partial f}{\partial x}(x_0, y_0) \cdot \frac{a}{\sqrt{a^2 + b^2}} + \frac{\partial f}{\partial y}(x_0, y_0) \cdot \frac{b}{\sqrt{a^2 + b^2}}$$
-#### The Reasoning Behind Utilizing the [[Dot Product|Dot Product]]
+#### The Reasoning Behind Utilizing the [[Data/Abstract Mathematical Spaces/Linear Algebra/Dot Product|Dot Product]]
 As a means to compute the Directional Derivative.
 
 The reasoning behind using the dot product to compute the directional derivative is rooted in the geometric interpretation of vectors and [[Projection|projections]]. 

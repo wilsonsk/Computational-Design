@@ -17,7 +17,7 @@ Vector $\mathbf{a}$ and vector $\mathbf{b}$ are positioned such that they both o
 When visualized head-to-tail, the projection starts at the tail of $\mathbf{a}$ (the origin) and extends along $\mathbf{b}$, reaching the point defined by the projection formula. 
 	This process effectively decomposes $\mathbf{a}$ into components parallel and orthogonal to $\mathbf{b}$.
 ### Connecting Projections and Dot Products
-#### [[Dot Product|Dot Product]]
+#### [[Data/Abstract Mathematical Spaces/Linear Algebra/Dot Product|Dot Product]]
 Measures how much one vector points in the direction of another vector.
 	It is the product of the magnitudes of the two vectors and the cosine of the angle between them.
 		The Dot Product *is* the [[#Scalar Projection (i.e. the Dot Product Dot Product )|Scalar Projection]].
@@ -40,7 +40,7 @@ It represents the length of the vector $b$.
 ###### Projection
 The projection operation uses the dot product to determine how much of one vector lies in the direction of another.
 	The scalar projection gives a measure of this in terms of length, and the vector projection provides a vector in the direction of $\mathbf{b}$ with that length.
-## Scalar Projection (i.e. the [[Dot Product|Dot Product]])
+## Scalar Projection (i.e. the [[Data/Abstract Mathematical Spaces/Linear Algebra/Dot Product|Dot Product]])
 The scalar projection of a vector $\mathbf{a}$ onto a vector $\mathbf{b}$ is a measure of the magnitude of $\mathbf{a}$ in the direction of $\mathbf{b}$ 
 	It is a scalar value (a single number) that tells you how much of $\mathbf{a}$ lies in the direction of $\mathbf{b}$.
 		It gives a scalar value representing the length of the component of $\mathbf{a}$ in the direction of $\mathbf{b}$. 

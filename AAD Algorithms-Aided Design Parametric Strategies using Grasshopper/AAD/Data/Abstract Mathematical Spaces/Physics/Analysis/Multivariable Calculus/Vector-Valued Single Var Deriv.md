@@ -55,7 +55,7 @@ $$ \text{Compared to Scalar-Valued Functions } \frac{\Delta y}{\Delta x} = \frac
 ![[Pasted image 20240422233019.png]]
 
 Where the "longer" the velocity vector, the higher the speed of the movement.
-	The [[Dot Product|Dot Product]] of the the position vector and the velocity vector is $\LARGE 0$.
+	The [[Data/Abstract Mathematical Spaces/Linear Algebra/Dot Product|Dot Product]] of the the position vector and the velocity vector is $\LARGE 0$.
 		Therefore, they are orthogonal.
 ![[Pasted image 20240907144456.png]]
 ## Continuity and Smoothness 

@@ -40,10 +40,10 @@ $$\LARGE Ax + By + C = 0$$
 Where $\LARGE \textcolor{red}{C = -Ax_0 - By_0}$
 
 This equation represents the linear combination of the normal vector scaled by the coordinates of the terminating point $\LARGE x=(x,y,z)$, where $\LARGE C$ is some constant that allows the equation to equal $0$. 
-	$\LARGE Ax+By+C=0$ is the [[Dot Product|dot product]] of $(A,B)$ and $(x-x_0, y-y_0)$.
+	$\LARGE Ax+By+C=0$ is the [[Data/Abstract Mathematical Spaces/Linear Algebra/Dot Product|dot product]] of $(A,B)$ and $(x-x_0, y-y_0)$.
 #### The Reasoning of the Normal Equation
 If a point $\LARGE x_0=(x_0,y_0)$ belongs to the plane $\LARGE \pi$ then the vectors $\LARGE \vec{n}=(a,b)$ and $\LARGE \mathbf{x}-\mathbf{x_0} = (x-x_0, y-y_0)$ must be orthogonal.
-	This means the [[Dot Product|dot product]] between the two vectors must be produce $\LARGE 0$.
+	This means the [[Data/Abstract Mathematical Spaces/Linear Algebra/Dot Product|dot product]] between the two vectors must be produce $\LARGE 0$.
 		Where $\LARGE \textcolor{red}{c}$ contains the remaining terms that equate the equation to the dot product between the two vectors.
 $$\LARGE (a,b) \cdot (x-x_0, y-y_0) = 0$$
 $$\LARGE  \iff$$
