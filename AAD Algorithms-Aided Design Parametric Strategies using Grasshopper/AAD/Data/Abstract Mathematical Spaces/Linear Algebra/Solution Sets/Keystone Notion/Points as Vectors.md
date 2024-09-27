@@ -44,8 +44,12 @@ $$\LARGE T_A(\vec{e_1}) = \begin{bmatrix} a_{11} \quad a_{12} \\ a_{21} \quad a_
 $$\LARGE = T_A(\vec{e_1}) = \begin{bmatrix} a_{11} \quad a_{12} \\ a_{21} \quad a_{22} \end{bmatrix} \begin{bmatrix} 1 \\ 0 \end{bmatrix} = \begin{bmatrix} (a_{11} \cdot 1) + (a_{12} \cdot 0) \\ (a_{21} \cdot 1) + (a_{22} \cdot 0) \end{bmatrix} = \begin{bmatrix} a_{11} \\ a_{21}\end{bmatrix}$$
 $$\LARGE T_A(\vec{e_2}) = \begin{bmatrix} a_{11} \quad a_{12} \\ a_{21} \quad a_{22} \end{bmatrix} \begin{bmatrix} \hat{j}_1 \\ \hat{j}_2 \end{bmatrix} = \begin{bmatrix} (a_{11} \cdot \hat{j}_1) + (a_{12} \cdot \hat{j}_2) \\ (a_{21} \cdot \hat{j}_1) + (a_{22} \cdot \hat{j}_2) \end{bmatrix}$$
 $$\LARGE = T_A(\vec{e_2}) = \begin{bmatrix} a_{11} \quad a_{12} \\ a_{21} \quad a_{22} \end{bmatrix} \begin{bmatrix} 0 \\ 1 \end{bmatrix} = \begin{bmatrix} (a_{11} \cdot 0) + (a_{12} \cdot 1) \\ (a_{21} \cdot 0) + (a_{22} \cdot 1) \end{bmatrix} = \begin{bmatrix} a_{12} \\ a_{22}\end{bmatrix}$$
+### Points as an Image of a Linear Transformation of a Basis Vector 
+$$\LARGE T_A(x \vec{e}_1) = x T_A(\vec{e}_1), \quad T_A(y\vec{e}_2) = y T_A(\vec{e}_2),\quad T_A(z \vec{e}_3) = z T_A(\vec{e}_3)$$
+$$\LARGE \quad \text{Where $x, y, z$ are a scalars}$$
+
 ### The Linear Combination of an Image of a Linear Transformation of a Basis Vector 
-$$\LARGE T(x \vec{e}_1 + y \vec{e}_2) = x T(\vec{e}_1) + y T(\vec{e}_2), \quad \text{Where $x$ and $y$ are are scalars}$$
+$$\LARGE T(x \vec{e}_1 + y \vec{e}_2) = x T(\vec{e}_1) + y T(\vec{e}_2), \quad \text{Where $x$ and $y$ are scalars}$$
 
 
 ## Points as Position Vectors
