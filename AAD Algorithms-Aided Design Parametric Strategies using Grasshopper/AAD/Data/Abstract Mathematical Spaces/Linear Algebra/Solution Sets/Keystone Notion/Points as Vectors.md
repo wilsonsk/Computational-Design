@@ -127,10 +127,14 @@ $$\LARGE \textcolor{violet}{Domain_{\space T} \subset \mathbb{R}^n},\quad  \text
 - **$T_A$​:** The Transformation Operator.
 	- Explicitly denotes the linear transformation associated with the matrix $A$. 
 	- It’s a way to connect the transformation to its matrix representation.
+
+$T_A$ is the "scalar" of the Basis Vectors.
 #### $\textcolor{red}{\text{Scaling}}$ ***of*** the Linear Transformation of the Basis Vectors
 $$\LARGE \vec{v} = (v_1,v_2,v_3) = (x, y, z)$$
 $$\large \textcolor{green}{T(}\textcolor{violet}{\vec{v}}\textcolor{green}{)} = \textcolor{green}{T_A(}\textcolor{red}{x}(\vec{e_1}) + \textcolor{red}{y}(\vec{e_2}) + \textcolor{red}{z}(\vec{e_3}) \textcolor{green}{)} = \textcolor{red}{x}\textcolor{green}{T_A(\vec{e_1})} + \textcolor{red}{y}\textcolor{green}{T_A(\vec{e_2})} + \textcolor{red}{z}\textcolor{green}{T_A(\vec{e_3})} = \textcolor{yellow}{x \hat{i} + y \hat{j} + z \hat{k}}$$
 Where $\LARGE \hat{i}, \hat{j}, \hat{k}$ have been transformed by $T_A$.
+	Thus, the $x,y,z$ are scalars that are applied to the output image of the transformed basis vectors, $T_A$. 
+		And so scale the vectors.
 ### Linear Transformations are Defined by Linear Combinations of Basis Vectors Scaled by the Coordinates $x,y,z$
 The expression $\LARGE T_A(\vec{v})$ involves a **linear combination** of the input vector's components $(v_1, v_2, \dots, v_n​$) scaled by the elements of matrix $A$.
 	Each row of $T_A(\vec{v})$ corresponds to a linear combination that represents a vector in $\LARGE \mathbb{R}^m$.
@@ -149,9 +153,41 @@ Each $\LARGE T_i(\vec{v})$ is a **scalar component function** defined by the lin
 $$\LARGE T_i(\vec{v}) = a_{i1}v_1 \cdot \vec{e_1} + a_{i2}v_2 \cdot \vec{e_2}+ \dots + a_{in}v_n \cdot \vec{e_n}$$
 In this form, $T_A$​ produces an **output vector** whose components are scalar functions of the input coordinates.
 	These scalar functions depend on both the matrix $A$ (through its entries $\LARGE a_{ij}$​) and the input vector $\LARGE \vec{v}$.
-##### Matrix, $A$ of $T_A$
-The matrix AAA **encodes the rules** of the transformation. It dictates how every input vector v⃗\vec{v}v is changed when the linear transformation TAT_ATA​ is applied. The entries of the matrix determine the nature of the transformation, such as scaling, rotating, reflecting, shearing, or mixing the components of the input vector.
-##### The Linear Transformation of a Basis Vector ***is*** a Matrix, $T_A($ 
+#### Matrix, $A$ of $T_A$
+The matrix $A$ **encodes the rules** of the transformation. 
+	It dictates how every input vector $\LARGE \vec{v}$ is changed when the linear transformation $T_A$$​ is applied.
+		 The entries of the matrix determine the nature of the transformation, such as scaling, rotating, reflecting, shearing, or mixing the components of the input vector.
+##### The Role of Matrix $A$
+###### As a Transformative Map
+The matrix $A$ is the concrete, numerical representation of the linear transformation $T_A$. 
+	It defines the "rules" of how vectors in the input space are changed when they are mapped to the output space.
+###### As a Collection of Basis Transformations
+The columns of $A$ show how the transformation affects the standard basis vectors of the input space, effectively describing how the entire space is transformed.
+###### Basis Vector Mapping
+The columns of the matrix $A$ represent how the transformation $T_A$$​ affects the standard basis vectors. 
+	In an $n$-dimensional space:
+		- The first column of $A$ describes how the basis vector $\LARGE \hat{i}_1 = (1, 0, \dots, 0)$ is transformed.
+		- The second column describes the transformation of $\LARGE\hat{i}_2 = (0, 1, \dots, 0)$.
+		- And so on for all $n$ columns.
+
+For example, if $a$ is a $3 \times 3$ matrix:
+$$\LARGE A = \begin{bmatrix} a_{11} & a_{12} & a_{13} \\ a_{21} & a_{22} & a_{23} \\ a_{31} & a_{32} & a_{33} \end{bmatrix}$$
+
+the columns $\LARGE\begin{bmatrix} a_{11} \\ a_{21} \\ a_{31} \end{bmatrix}, \begin{bmatrix} a_{12} \\ a_{22} \\ a_{32} \end{bmatrix}, \begin{bmatrix} a_{13} \\ a_{23} \\ a_{33} \end{bmatrix}​$​​​ represent the images of the standard basis vectors $\hat{i}, \hat{j}$, and $\hat{k}$ under the transformation.
+###### Linear Combination of Basis Vectors
+When $T_A$​ acts on a general vector $\vec{v} = \begin{bmatrix} v_1 \\ v_2 \\ v_3 \end{bmatrix}$, the output vector is:
+$$\LARGE T_A(\vec{v}) = A \vec{v} = v_1 \begin{bmatrix} a_{11} \\ a_{21} \\ a_{31} \end{bmatrix} + v_2 \begin{bmatrix} a_{12} \\ a_{22} \\ a_{32} \end{bmatrix} + v_3 \begin{bmatrix} a_{13} \\ a_{23} \\ a_{33} \end{bmatrix}$$
+
+This shows that the transformation scales and combines the columns of $A$ according to the components $\LARGE v_1, v_2, v_3$​ of the input vector.
+###### Matrix $A$ as a Set of Instructions
+The matrix $A$ tells you **how** to construct the output vector $T_A(\vec{v})$ from the input vector $\vec{v}$.
+	When you multiply $A$ by $\vec{v}$, you are effectively taking a weighted sum of the columns of $A$ using the components of $\vec{v}$ as weights:
+ $$\LARGE T_A(\vec{v}) = A \vec{v} = v_1 \begin{bmatrix} a_{11} \\ a_{21} \\ \dots \\ a_{m1} \end{bmatrix} + v_2 \begin{bmatrix} a_{12} \\ a_{22} \\ \dots \\ a_{m2} \end{bmatrix} + \dots + v_n \begin{bmatrix} a_{1n} \\ a_{2n} \\ \dots \\ a_{mn} \end{bmatrix}$$
+This shows how each coordinate of $\vec{v}$ contributes to the resulting output vector according to the columns of $A$.
+###### Geometric Interpretation
+If $A$ is a **diagonal matrix** like $\LARGE \begin{bmatrix} a & 0 & 0 \\ 0 & b & 0 \\ 0 & 0 & c \end{bmatrix}​$, it represents **scaling** along each of the axes by the factors $a,b$, and $c$.
+If $A$ contains off-diagonal terms, it can represent more complex
+##### The Image of a Linear Transformation of a Basis Vector ***is*** a Matrix, $T_A$
 The matrix $A$ containing $(x, y, z)$ defines a **linear transformation** because the resulting vector $T_A(\vec{v})$is a linear combination of the coordinates $x,y,z$ and the input vector's components.
 	This setup aligns with the idea of a **vector-valued function**, where the output is a vector, and the function maps input vectors to other vectors through linear combinations involving $x,y,z$.
 
