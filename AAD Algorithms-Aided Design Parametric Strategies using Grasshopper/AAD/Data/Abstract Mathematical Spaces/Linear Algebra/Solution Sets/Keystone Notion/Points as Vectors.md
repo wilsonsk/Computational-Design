@@ -87,18 +87,20 @@ $$\LARGE A = \begin{bmatrix} x & 0 & 0 \\ 0 & y & 0 \\ 0 & 0 & z \end{bmatrix}$$
 - **Purpose:** This form is useful for representing a vector in contexts where you are applying **scaling transformations** along the principal axes.
 - **Interpretation:** Each diagonal element $\LARGE x,y,z$ corresponds to the scaling factor for its respective coordinate axis.
 - **Example:** If you want to scale a vector's components by 3 along the $x$-axis, 2 along the $y$-axis, and -1 along the $z$-axis, the corresponding diagonal matrix is:$\begin{bmatrix} 3 & 0 & 0 \\ 0 & 2 & 0 \\ 0 & 0 & -1 \end{bmatrix}$.
-## Mapping Position Vectors, Linear Transformations $T_A$
-##### Scaling vs. General Transformation
-###### $\textcolor{red}{\text{Scaling}}$
+## Mapping Position Vectors to New Vectors, Linear Transformations $T_A$
+##### Pure Scaling vs. General Linear Transformation (of Basis Vectors) vs. Linear Transformations as the Scaling of Basis Vectors
+###### $\textcolor{red}{\text{Pure Scaling}}$
 A transformation is a _pure scaling_ if it changes only the length of the vectors, not their direction. 
 	For example, $\LARGE T(\vec{e}_i) = c_i \vec{e}_i$ where each $c_i$​ is a scalar.
 		 In this case, the transformation simply multiplies each basis vector by a corresponding scalar.
-###### $\textcolor{green}{\text{General Linear Transformation}}$
+###### $\textcolor{purple}{\text{General Linear Transformation (of Basis Vectors)}}$
 In most cases, a linear transformation $T$ will involve more than just scaling.
 	It could transform a basis vector $\LARGE \vec{e}_i$​ into a completely different direction.
 		 For instance, in matrix notation: $\LARGE T(\vec{e}_1) = a_{11}\vec{e}_1 + a_{12}\vec{e}_2 + a_{13}\vec{e}_3$​.
 			  Here, the output is a linear combination of all basis vectors, not just a scaled version of $\vec{e}_1$.
 				   This reflects operations like rotation, reflection, and shear.
+
+$\textcolor{green}{\text{Linear Transformations as the Scaling of Basis Vectors}}$
 ### Linear Transformation $T$, a [[Abstract Mathematical Spaces#Higher-Level Structures (Not Higher-Level Sets)|Vector-Valued Function]] 
 Linear transformation $T$ takes any vector and maps it to the new vector (or space).
 	This is a **vector-valued function** because its output is a vector in 3D space, constructed as a linear combination of the basis vectors $\LARGE \hat{i}, \hat{j}, \hat{k}$.
@@ -118,10 +120,9 @@ The linear transformation $T$ takes the input coordinates $(x, y, z)$ and constr
 The matrix $A$ **encodes the rules** of the transformation. 
 	It dictates how every input vector $\vec{v}$ is changed when the linear transformation $TA$​ is applied.
 		 The entries of the matrix determine the nature of the transformation, such as scaling, rotating, reflecting, shearing, or mixing the components of the input vector.
-#### Linear Transformation ***Applied to*** the Basis Vectors (as a Pure Scaling)
+#### $\textcolor{green}{\text{Linear Transformation ***Applied to*** the Basis Vectors}}$ (as a Pure Scaling)
 $$\LARGE T: \textcolor{violet}{\mathbb{R}^n} \to \textcolor{yellow}{\mathbb{R}^m}, \quad \textcolor{teal}{T} : \textcolor{violet}{(\vec{e_1}, \vec{e_2}, \vec{e_3})} \to \textcolor{yellow}{T_A(\vec{e_1}) + T_A(\vec{e_2}) + T_A(\vec{e_3})}$$
 $$\LARGE \textcolor{violet}{Domain_{\space T} \subset \mathbb{R}^n},\quad  \textcolor{yellow}{Codomain_{\space T} =\set{\mathbb{R}^m}}, \quad Range_{\space T} \subset \mathbb{R}^m$$
-
 - **$T$:** Refers to a linear transformation in a general sense.
 - **$T_A$​:** The Transformation Operator.
 	- Explicitly denotes the linear transformation associated with the matrix $A$. 
