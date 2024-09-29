@@ -670,6 +670,13 @@ $$ T(\mathbf{v}) = \mathbf{w} \cdot \mathbf{v} = a x + b y + c z $$$$ \text{For 
 > 	A linear transformation where each input element is mapped to a unique output element.
 > $\LARGE m:1$.
 > 	A non-linear transformation where multiple input elements are mapped to the same output element.
+### Transformations vs. Vector Fields
+Although both vector fields and linear transformations involve mapping "spatial points" to vectors:
+
+- The expression T(x,y,z)=xi^+yj^+zk^T(x, y, z) = x \hat{i} + y \hat{j} + z \hat{k}T(x,y,z)=xi^+yj^​+zk^ **preserves linearity** and is, therefore, a linear transformation.
+- A **vector field** would have more general mappings that do **not necessarily obey the rules of linearity**.
+- **Linear Transformation:** T(x,y,z)=xi^+yj^+zk^T(x, y, z) = x \hat{i} + y \hat{j} + z \hat{k}T(x,y,z)=xi^+yj^​+zk^ is linear. It preserves the structure of vector space (additivity and homogeneity) and simply scales and combines the input vector's components.
+- **Vector Field:** A vector field, on the other hand, assigns a vector to each point in space without necessarily preserving linear properties. A vector field might look like F⃗(x,y,z)=[xyyzzx]\vec{F}(x, y, z) = \begin{bmatrix} xy \\ yz \\ zx \end{bmatrix}F(x,y,z)=​xyyzzx​​, which is **not** linear because it involves products of the coordinates.
 ### Transformations as [[#Input Type Preserved (i.e. Determined) by Extensions|Extended Composite Functions]]
 A transformation is a function that maps elements from one space (domain) to another space (codomain). 
 	This mapping can involve changing the nature or dimension of the space in which the elements reside.

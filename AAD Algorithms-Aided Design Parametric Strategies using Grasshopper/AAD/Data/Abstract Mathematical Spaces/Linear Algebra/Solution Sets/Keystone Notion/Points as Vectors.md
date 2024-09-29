@@ -33,17 +33,37 @@ $$\large \mathbf{e}_3 = \vec{e}_3 = \mathbf{k} =  \hat{k} = (\hat{k}_1, \hat{k}_
 $$\LARGE \hat{k} = (\hat{k}_1= 0,\space \hat{k}_2=0,\space \hat{k}_1=1)= \begin{bmatrix} 0 \\ 0 \\1 \end{bmatrix} = (0, 0, 1)$$
 ## Component Scalar Functions Scales the Basis Vectors
 Each **Component Scalar Function** scales the **Standard Unit Vectors (i.e. the Basis Vectors)**.
-$$\LARGE \vec{v} = \mathbf{v} = (v_1, v_2, v_3) = \begin{bmatrix} v_1 \\ v_2 \\v_3 \end{bmatrix} = \begin{bmatrix} \Delta{v}_1 \\ \Delta v_2 \\ \Delta v_3 \end{bmatrix} = (v_1)\hat{i} + (v_2) \hat{j} + (v_3) \hat{k}$$
+$$\LARGE \vec{v} = \mathbf{v} = (v_1, v_2, v_3) = \begin{bmatrix} v_1 \\ v_2 \\v_3 \end{bmatrix} = \begin{bmatrix} \Delta{v}_1 \\ \Delta v_2 \\ \Delta v_3 \end{bmatrix} = ((v_1)\hat{i} + (v_2) \hat{j} + (v_3) \hat{k})$$
 $$\LARGE (v_1) \hat{i} = v_1\begin{bmatrix} \hat{i}_1 \\\hat{i}_2 \\ \hat{i}_3\end{bmatrix}, \quad (v_2) \hat{j} = v_2\begin{bmatrix} \hat{j}_1 \\\hat{j}_2 \\ \hat{j}_3\end{bmatrix}, \quad (v_3) \hat{k} = v_3\begin{bmatrix} \hat{k}_1 \\\hat{k}_2 \\ \hat{k}_3\end{bmatrix}$$
-## Cartesian Vectors
-A Cartesian vector is a vector that is expressed in terms of its components along the Cartesian coordinate axes.
+$$\LARGE \vec{v}= (v_1,v_2,v_3) = (x,y,z) = (x(\vec{e_1}) + y(\vec{e_2}) + z(\vec{e_3}))$$
+## Vector Expression
+The **scalar basis form**, **tuple form**, and **bracket form** are all different ways of expressing the **same vector**. 
+	They emphasize different aspects: the basis vectors, the coordinates, or the column structure used in linear algebra.
+		The **diagonal matrix form** is a way of encoding the components of a vector as part of a transformation (specifically scaling). 
+			While not strictly a vector in the traditional sense, it serves as a representation that dictates how to scale each axis.
+### Tuple Form (Coordinate or Point Form)
+Here, a vector is represented by an **ordered list of numbers** (its components), without explicitly mentioning the basis vectors:
+$$\LARGE \vec{v} = (x, y, z)$$
+- **Tuple:** The tuple simply lists the coordinates in an ordered form.
+- **Implied Basis:** The form implies that the vector is with respect to a standard basis (typically $\LARGE \hat{i}, \hat{j}, \hat{k}$ in Cartesian coordinates).
+- **Example:** The vector $(3,2,−1)$ implies a vector whose $x$-component is 3, $y$-component is 2, and $z$-component is -1.
+### Bracket Form (Column or Row Vector)
+Vectors can also be written in **matrix bracket notation**, commonly used in linear algebra:
+$$\LARGE \vec{v} = \begin{bmatrix} x \\ y \\ z \end{bmatrix} \quad \text{or} \quad \vec{v} = \begin{bmatrix} x & y & z \end{bmatrix}$$
+
+- **Column Vector:** $\begin{bmatrix} x \\ y \\ z \end{bmatrix}​$​​ is the standard way to represent vectors in linear transformations, especially when working with matrix multiplication.
+- **Row Vector:** $\begin{bmatrix} x & y & z \end{bmatrix}$ is used in certain contexts, especially in matrix row operations or when dealing with dot products.
+- **Example:** The vector $\begin{bmatrix} 3 \\ 2 \\ -1 \end{bmatrix}$​​ is equivalent to the tuple form $(3,2,−1)$ and the scalar basis form $\hat{i} + 2\hat{j} - \hat{k}$.
+### Cartesian Vectors
+A Cartesian vector is a vector that is expressed in terms of Linear Combinations of its components along the Cartesian coordinate axes
 	In three-dimensional space, these components are along the $x$-axis, $y$-axis, and $z$-axis, represented by the unit vectors $\LARGE \vec{i} = (1, 0, 0), \vec{j} = (0, 1, 0), \vec{k} = (0, 0, 1)$.
 		Cartesian vectors can represent various quantities, such as displacement, force, velocity, or acceleration, not just the position of a point.
 ##### Cartesian Vector Representation
 A  $\LARGE \vec{r}$ in 3D space is often written as:
 $$\LARGE \vec{r} = x \vec{i} + y \vec{j} + z \vec{k}$$
 where:
-- $x$, $y$, and $z$ are the **scalar components** of the vector, representing how much the vector extends in the direction of each of the Cartesian axes.
+- **Components:** $x$, $y$, and $z$ are the **scalar components** of the vector, representing how much the vector extends in the direction of each of the Cartesian axes.
+- **Basis Vectors:** i^,j^,k^\hat{i}, \hat{j}, \hat{k}i^,j^​,k^ are the unit vectors in the direction of the coordinate axes.
 - The vector $\vec{r}$ originates from the origin and points to the location defined by the coordinates $(x, y, z)$.
 ### Position Vectors are Cartesian Vectors
 When a Cartesian vector specifically represents the location of a point relative to the origin, it is called a **position vector**. 
@@ -58,20 +78,63 @@ A **position vector** specifically represents the location of a point in space *
 
 For a point $(x,y,z)$ in 3D space, the position vector is typically expressed as
 $$\LARGE \vec{r} = x \vec{i} + y \vec{j} + z \vec{k}$$
-## Mapping Coordinates to Position Vectors, Linear Transformations $T_A$
+### Diagonal Matrix Form (For Scaling)
+The **diagonal matrix form** is a way of encoding the components of a vector as part of a transformation (specifically scaling).
+	While not strictly a vector in the traditional sense, it serves as a representation that dictates how to scale each axis.
+
+This is a more specialized form where a vector $(x,y,z)$ can be encoded as a **diagonal matrix** for certain linear transformations, particularly when scaling along the coordinate axes:
+$$\LARGE A = \begin{bmatrix} x & 0 & 0 \\ 0 & y & 0 \\ 0 & 0 & z \end{bmatrix}$$
+- **Purpose:** This form is useful for representing a vector in contexts where you are applying **scaling transformations** along the principal axes.
+- **Interpretation:** Each diagonal element $\LARGE x,y,z$ corresponds to the scaling factor for its respective coordinate axis.
+- **Example:** If you want to scale a vector's components by 3 along the $x$-axis, 2 along the $y$-axis, and -1 along the $z$-axis, the corresponding diagonal matrix is:$\begin{bmatrix} 3 & 0 & 0 \\ 0 & 2 & 0 \\ 0 & 0 & -1 \end{bmatrix}$.
+## Mapping Position Vectors, Linear Transformations $T_A$
+##### Scaling vs. General Transformation
+###### $\textcolor{red}{\text{Scaling}}$
+A transformation is a _pure scaling_ if it changes only the length of the vectors, not their direction. 
+	For example, $\LARGE T(\vec{e}_i) = c_i \vec{e}_i$ where each $c_i$​ is a scalar.
+		 In this case, the transformation simply multiplies each basis vector by a corresponding scalar.
+###### $\textcolor{green}{\text{General Linear Transformation}}$
+In most cases, a linear transformation $T$ will involve more than just scaling.
+	It could transform a basis vector $\LARGE \vec{e}_i$​ into a completely different direction.
+		 For instance, in matrix notation: $\LARGE T(\vec{e}_1) = a_{11}\vec{e}_1 + a_{12}\vec{e}_2 + a_{13}\vec{e}_3$​.
+			  Here, the output is a linear combination of all basis vectors, not just a scaled version of $\vec{e}_1$.
+				   This reflects operations like rotation, reflection, and shear.
 ### Linear Transformation $T$, a [[Abstract Mathematical Spaces#Higher-Level Structures (Not Higher-Level Sets)|Vector-Valued Function]] 
 Linear transformation $T$ takes any vector and maps it to the new vector (or space).
 	This is a **vector-valued function** because its output is a vector in 3D space, constructed as a linear combination of the basis vectors $\LARGE \hat{i}, \hat{j}, \hat{k}$.
-		The transformation $T$ takes a tuple of coordinates $(x,y,z)$ and returns a vector in space: 
-$$\LARGE T(\vec{v}) = T(v_1,v_2,v_3) = T(x, y, z) = x \hat{i} + y \hat{j} + z \hat{k}$$
-$$\LARGE T: \mathbb{R}^n \to \mathbb{R}^m, \quad T : (\vec{e_1}, \vec{e_2}, \vec{e_3}) \to T_A(\vec{e_1}) + T_A(\vec{e_2}) + T_A(\vec{e_3})$$
-$$\LARGE Domain_{\space T} \subset \mathbb{R}^n,\quad  Codomain_{\space T} =\set{\mathbb{R}^m}, \quad Range_{\space T} \subset \mathbb{R}^m$$
+###### The $\textcolor{violet}{\text{Input}}$ to the Linear Transformation, $\LARGE \vec{v}$
+**The Input** to the transformation $T$ is a **vector** $\vec{v} = (x, y, z)$ in $\mathbb{R}^3$.
+	This vector can be thought of as having three components, which are the coordinates $x,y,z$ with respect to the standard basis vectors $\hat{i}, \hat{j}, \hat{k}$.
+		I.e. This input vector has a shorthand represented by the a corresponding "point" $(x,y,z)$ that is associated with that input Position Vector.
+###### The $\textcolor{yellow}{\text{Output}}$ (i.e. Image) of the Linear Transformation, $\LARGE T_A(\vec{v})$
+The result is a new vector formed by this linear combination of the basis vectors.
+	This new vector is either within the same space or a different space, depending on defined codomain. 
+###### The $\textcolor{green}{\text{Mapping of the Linear Transformation}}$, $\LARGE T : (\vec{v}) \to T_A(\vec{v})$
+The linear transformation $T$ takes the input coordinates $(x, y, z)$ and constructs a vector as a linear combination of the standard basis vectors.
+	This results in a new vector in the vector space.
+		**Scaling:** Each component $x,y,z$ of the input vector scales its corresponding basis vector.
+		**Direction:** The resulting vector $\hat{i} + y \hat{j} + z \hat{k}$ points in the direction defined by the combination of scaled basis vectors.
+###### The $\textcolor{teal}{\text{Mapping Operator}}$, $\LARGE T_A$
+The matrix $A$ **encodes the rules** of the transformation. 
+	It dictates how every input vector $\vec{v}$ is changed when the linear transformation $TA$​ is applied.
+		 The entries of the matrix determine the nature of the transformation, such as scaling, rotating, reflecting, shearing, or mixing the components of the input vector.
+#### Linear Transformation ***Applied to*** the Basis Vectors (as a Pure Scaling)
+$$\LARGE T: \textcolor{violet}{\mathbb{R}^n} \to \textcolor{yellow}{\mathbb{R}^m}, \quad \textcolor{teal}{T} : \textcolor{violet}{(\vec{e_1}, \vec{e_2}, \vec{e_3})} \to \textcolor{yellow}{T_A(\vec{e_1}) + T_A(\vec{e_2}) + T_A(\vec{e_3})}$$
+$$\LARGE \textcolor{violet}{Domain_{\space T} \subset \mathbb{R}^n},\quad  \textcolor{yellow}{Codomain_{\space T} =\set{\mathbb{R}^m}}, \quad Range_{\space T} \subset \mathbb{R}^m$$
+
 - **$T$:** Refers to a linear transformation in a general sense.
-- **$T_A$​:** Explicitly denotes the linear transformation associated with the matrix $A$. 
+- **$T_A$​:** The Transformation Operator.
+	- Explicitly denotes the linear transformation associated with the matrix $A$. 
 	- It’s a way to connect the transformation to its matrix representation.
-#### The Linear Transformation of the Vector $\vec{v}$ as a Whole
-The expression $\LARGE T_A(\vec{v})$ involves a **linear combination** of the input vector's components $(v_1, v_2, \dots, v_n​$)$ scaled by the elements of matrix $A$.
+#### $\textcolor{red}{\text{Scaling}}$ ***of*** the Linear Transformation of the Basis Vectors
+$$\LARGE \vec{v} = (v_1,v_2,v_3) = (x, y, z)$$
+$$\large \textcolor{green}{T(}\textcolor{violet}{\vec{v}}\textcolor{green}{)} = \textcolor{green}{T_A(}\textcolor{red}{x}(\vec{e_1}) + \textcolor{red}{y}(\vec{e_2}) + \textcolor{red}{z}(\vec{e_3}) \textcolor{green}{)} = \textcolor{red}{x}\textcolor{green}{T_A(\vec{e_1})} + \textcolor{red}{y}\textcolor{green}{T_A(\vec{e_2})} + \textcolor{red}{z}\textcolor{green}{T_A(\vec{e_3})} = \textcolor{yellow}{x \hat{i} + y \hat{j} + z \hat{k}}$$
+Where $\LARGE \hat{i}, \hat{j}, \hat{k}$ have been transformed by $T_A$.
+### Linear Transformations are Defined by Linear Combinations of Basis Vectors Scaled by the Coordinates $x,y,z$
+The expression $\LARGE T_A(\vec{v})$ involves a **linear combination** of the input vector's components $(v_1, v_2, \dots, v_n​$) scaled by the elements of matrix $A$.
 	Each row of $T_A(\vec{v})$ corresponds to a linear combination that represents a vector in $\LARGE \mathbb{R}^m$.
+
+Linear Transformations of the Basis Vectors occur **prior** to any additional higher level scalings of these output images.
 
 Each entry in the output vector can be broken down into a linear combination of the basis vectors in the output space:
 $$\LARGE T_A(\vec{v}) = \sum_{i=1}^{m} \left( \sum_{j=1}^{n} a_{ij}v_j \right) \hat{e}_i$$
@@ -82,24 +145,35 @@ Here:
 $$\LARGE T : (\vec{v}) \to T_A(\vec{v})$$
 $$\LARGE T_{A}(\vec{v}) = \begin{bmatrix} T_1(\vec{v}) \\ T_2(\vec{v}) \\ T_3(\vec{v}) \end{bmatrix}$$
 Each $\LARGE T_i(\vec{v})$ is a **scalar component function** defined by the linear combination:
-$$\LARGE T_i(\vec{v}) = a_{i1}v_1 + a_{i2}v_2 + \dots + a_{in}v_n$$
+$$\LARGE T_i(\vec{v}) = a_{i1}v_1 \cdot \vec{e_1} + a_{i2}v_2 \cdot \vec{e_2}+ \dots + a_{in}v_n \cdot \vec{e_n}$$
 In this form, $T_A$​ produces an **output vector** whose components are scalar functions of the input coordinates.
 	These scalar functions depend on both the matrix $A$ (through its entries $\LARGE a_{ij}$​) and the input vector $\LARGE \vec{v}$.
-##### The Linear Transformation of a Basis Vector ***is*** a Matrix, $A$ 
+##### Matrix, $A$ of $T_A$
+The matrix AAA **encodes the rules** of the transformation. It dictates how every input vector v⃗\vec{v}v is changed when the linear transformation TAT_ATA​ is applied. The entries of the matrix determine the nature of the transformation, such as scaling, rotating, reflecting, shearing, or mixing the components of the input vector.
+##### The Linear Transformation of a Basis Vector ***is*** a Matrix, $T_A($ 
 The matrix $A$ containing $(x, y, z)$ defines a **linear transformation** because the resulting vector $T_A(\vec{v})$is a linear combination of the coordinates $x,y,z$ and the input vector's components.
 	This setup aligns with the idea of a **vector-valued function**, where the output is a vector, and the function maps input vectors to other vectors through linear combinations involving $x,y,z$.
+
+the matrix dictates **how** the input coordinates are transformed. 
+	The form of the matrix AAA does, in a way, represent the "structure" or "form" of the output vector.
+		matrix AAA determines the linear combination of basis vectors that defines the output vector in the space.
+			matrix AAA determines the linear combination of basis vectors that defines the output vector in the space.
 
 Suppose $\LARGE A$ is an $\LARGE m \times n$ matrix:
 $$\LARGE A = \begin{bmatrix} a_{11} & a_{12} & \dots & a_{1n} \\ a_{21} & a_{22} & \dots & a_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ a_{m1} & a_{m2} & \dots & a_{mn} \end{bmatrix}$$
 
 When this matrix acts on the vector $\LARGE\vec{v} = \begin{bmatrix} v_1 \\ v_2 \\ \dots \\ v_n \end{bmatrix}$,the result is:
 $$\LARGE T_A(\vec{v}) = A \vec{v} = \begin{bmatrix} a_{11}v_1 + a_{12}v_2 + \dots + a_{1n}v_n \\ a_{21}v_1 + a_{22}v_2 + \dots + a_{2n}v_n \\ \vdots \\ a_{m1}v_1 + a_{m2}v_2 + \dots + a_{mn}v_n \end{bmatrix}$$
+###### Expressing the Transformation as a Diagonal Matrix $A$ for Scaling Basis Vectors
+Enables the "pure scaling" of the Basis Vectors and not a transformation of the proportions of the components of the Basis Vectors.
+
 Suppose A is a **diagonal matrix** of the form:
 
 $$\LARGE A = \begin{bmatrix} x & 0 & 0 \\ 0 & y & 0 \\ 0 & 0 & z \end{bmatrix}$$
 Then, for an input vector $\LARGE \vec{v} = \begin{bmatrix} v_1 \\ v_2 \\ v_3 \end{bmatrix}$
 
-$$\LARGE T_A(\vec{v}) = A \vec{v} = \begin{bmatrix} x \cdot v_1 \\ y \cdot v_2 \\ z \cdot v_3 \end{bmatrix}$$
+$$\LARGE T_A(\vec{v}) = A \vec{v} = \begin{bmatrix} x \cdot v_1 & + & 0 \cdot v_1 & + & 0 \cdot v_1\\ 0 + v_2 & + &y \cdot v_2 &  + & 0 \cdot v_2\\  0 \cdot v_3 & + & 0 \cdot v_3 & + &  z \cdot v_3 \end{bmatrix}$$
+###### Expressing the Transformation in Terms of Basis Vectors
 Now, let’s express this in terms of the basis vectors:
 $$\LARGE T_A(\vec{v}) = (x \cdot v_1) \hat{e}_1 + (y \cdot v_2) \hat{e}_2 + (z \cdot v_3) \hat{e}_3$$
 Here:
