@@ -49,7 +49,7 @@ where:
 - **Components:** $x$, $y$, and $z$ are the **scalar components** of the vector, representing how much the vector extends in the direction of each of the Cartesian axes.
 - **Basis Vectors:** i^,j^,k^\hat{i}, \hat{j}, \hat{k}i^,j^​,k^ are the unit vectors in the direction of the coordinate axes.
 - The vector $\vec{r}$ originates from the origin and points to the location defined by the coordinates $(x, y, z)$.
-### Position Vectors are Cartesian Vectors
+### Position Vectors, $\vec{r}$, are Cartesian Vectors
 When a Cartesian vector specifically represents the location of a point relative to the origin, it is called a **position vector**. 
 	In other words, a position vector is a Cartesian vector **whose purpose is to describe a point's position in space**.
 		**Not All Cartesian Vectors are Position Vectors:** Cartesian vectors can represent many other things (e.g., velocity, acceleration). 
@@ -111,7 +111,7 @@ $$\LARGE \textcolor{violet}{Domain_{\space T} \subset \mathbb{R}^n},\quad  \text
 ###### The $\textcolor{violet}{\text{Input}}$ to the Linear Transformation, $\LARGE \vec{e_i}$
 The input to the transformation $T$ is are **three Standard Unit Vectors** $\LARGE \textcolor{violet}{\vec{e_1}, \vec{e_2}, \vec{e_3}}$ in $\mathbb{R}^3$.
 ###### The $\textcolor{yellow}{\text{Output}}$ (i.e. Images) of the Linear Transformations, $\LARGE \textcolor{yellow}{T_A(\vec{e_1}), T_A(\vec{e_2}), T_A(\vec{e_3})}$
-The output is a three new vectors formed by this linear combination of the basis vectors.
+The output are three new vector Images formed by this linear combination of the basis vectors.
 ###### The $\textcolor{green}{\text{Mapping}}$ of the Linear Transformation, $\LARGE \textcolor{green}{T : (\vec{e_1}, \vec{e_2}, \vec{e_3}) \to T_A(\vec{e_1}, T_A\vec{e_2}, T_A\vec{e_3})}$
 The linear transformation $T$ takes the three input basis vectors $(\vec{e_1},\vec{e_2},\vec{e_3})$ and construct three new vectors as linear combinations of the standard basis vectors.
 	The components of the Transformation are Linear Combinations.
@@ -121,6 +121,7 @@ The matrix $A$ **encodes the rules** of the transformation.
 		 The entries of the matrix determine the nature of the transformation, such as scaling, rotating, reflecting, shearing, or mixing the components of the input vector.
 ### Each $\LARGE T_A(\vec{e_1}), T_A(\vec{e_2}), T_A(\vec{e_3})$ is Itself a Linear Transformation (of a Basis Vector)
 $$\LARGE T: \textcolor{violet}{\mathbb{R}^n} \to \textcolor{yellow}{\mathbb{R}^m}, \quad \textcolor{teal}{T} : \textcolor{violet}{(\vec{e_1}, \vec{e_2}, \vec{e_3})} \to \textcolor{yellow}{T_A(\vec{e_1}) + T_A(\vec{e_2}) + T_A(\vec{e_3})}$$
+$$\LARGE \textcolor{teal}{T}\textcolor{violet}{(\vec{e_1} + \vec{e_2} + \vec{e_3})} = \textcolor{yellow}{T_A(\vec{e_1}) + T_A(\vec{e_2}) + T_A(\vec{e_3})}$$
 $$\LARGE T_{A}(\vec{e_1}) = A\vec{e_1}, \quad T_{A}(\vec{e_2}) = A\vec{e_2}, \quad T_{A}(\vec{e_3}) = A\vec{e_3}$$
 $$\LARGE \textcolor{green}{A = \begin{bmatrix} a_{11} \quad a_{12} \\ a_{21} \quad a_{22} \end{bmatrix}}, \quad \textcolor{violet}{\vec{e_1} = \begin{bmatrix} \hat{i}_1 \\ \hat{i}_2 \end{bmatrix} = \begin{bmatrix} 1 \\ 0 \end{bmatrix}}, \quad \textcolor{violet}{\vec{e}_2 = \begin{bmatrix} \hat{j}_1 \\ \hat{j}_2 \end{bmatrix} = \begin{bmatrix} 0 \\ 1 \end{bmatrix}}$$
 $$\LARGE \textcolor{yellow}{T_A(\vec{e_1})} = \textcolor{green}{\begin{bmatrix} a_{11} \quad a_{12} \\ a_{21} \quad a_{22} \end{bmatrix}} \textcolor{violet}{\begin{bmatrix} \hat{i}_1 \\ \hat{i}_2 \end{bmatrix}} = \textcolor{yellow}{\begin{bmatrix} (a_{11} \cdot \hat{i}_1) + (a_{12} \cdot \hat{i}_2) \\ (a_{21} \cdot \hat{i}_1) + (a_{22} \cdot \hat{i}_2) \end{bmatrix}}$$
@@ -140,6 +141,15 @@ The matrix $A$ **encodes the rules** of the transformation.
 ##### As a Transformative Map
 The matrix $A$ is the concrete, numerical representation of the linear transformation $T_A$. 
 	It defines the "rules" of how vectors in the input space are changed when they are mapped to the output space.
+
+The matrix $A$ dictates **how** the input coordinates are transformed. 
+	The form of the matrix $A$ does, in a way, represent the "structure" or "form" of the output vector.
+		The matrix $A$ determines the linear combination of basis vectors that defines the output vector in the space.
+
+Suppose $\LARGE A$ is an $\LARGE m \times n$ matrix:
+$$\LARGE A = \begin{bmatrix} a_{11} & a_{12} & \dots & a_{1n} \\ a_{21} & a_{22} & \dots & a_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ a_{m1} & a_{m2} & \dots & a_{mn} \end{bmatrix}$$
+When this matrix acts on the basis vector $\LARGE\hat{i} = \begin{bmatrix} \hat{i}_1 \\ \hat{i}_2 \\ \dots \\ \hat{i_n} \end{bmatrix}$,the result is:
+$$\LARGE T_A(\hat{i}) = \begin{bmatrix} a_{11}\hat{i}_1 + a_{12}\hat{i}_2 + \dots + a_{1n}\hat{i}_n \\ a_{21}\hat{i}_1 + a_{22}\hat{i}_2 + \dots + a_{2n}\hat{i}_n \\ \vdots \\ a_{m1}\hat{i}_1 + a_{m2}\hat{i}_2 + \dots + a_{mn}\hat{i}_n \end{bmatrix}$$
 ##### As a Collection of Basis Transformations
 The columns of $A$ show how the transformation affects the standard basis vectors of the input space, effectively describing how the entire space is transformed.
 ##### Basis Vector Mapping
@@ -153,9 +163,10 @@ For example, if $a$ is a $3 \times 3$ matrix:
 $$\LARGE A = \begin{bmatrix} a_{11} & a_{12} & a_{13} \\ a_{21} & a_{22} & a_{23} \\ a_{31} & a_{32} & a_{33} \end{bmatrix}$$
 
 the columns $\LARGE\begin{bmatrix} a_{11} \\ a_{21} \\ a_{31} \end{bmatrix}, \begin{bmatrix} a_{12} \\ a_{22} \\ a_{32} \end{bmatrix}, \begin{bmatrix} a_{13} \\ a_{23} \\ a_{33} \end{bmatrix}​$​​​ represent the images of the standard basis vectors $\hat{i}, \hat{j}$, and $\hat{k}$ under the transformation.
-	**Each Basis Vector** essentially **associates** with a **specific column** of the **Matrix $A$**.
-		Thus the columns of Matrix $A$ are responsible for transforming a corresponding Basis Vector. 
-			**Each Row** is a **Linear Combination** (i.e. a Scalar Function).
+##### The Image of a Linear Transformation of a Basis Vector ***are*** a Vectors, $T_A$
+**Each Basis Vector** essentially **associates** with a **specific column** of the **Matrix $A$**.
+	Thus the columns of Matrix $A$ are responsible for transforming a corresponding Basis Vector. 
+		**Each Row** is a **Linear Combination** (i.e. a Scalar Function).
 $$\LARGE \vec{e_1} = \hat{i} = \textcolor{violet}{\begin{bmatrix} 1 \\ 0 \\0 \end{bmatrix}}$$
 $$\large \textcolor{yellow}{T_A(\hat{i})} = \textcolor{green}{\begin{bmatrix} a_{11} \quad a_{12} \quad a_{13} \\ a_{21} \quad a_{22} \quad a_{23} \\ a_{31} \quad a_{32} \quad a_{33}\end{bmatrix}} \textcolor{violet}{\begin{bmatrix} \hat{i}_1 \\ \hat{i}_2 \\ \hat{i}_3 \end{bmatrix}} = \textcolor{yellow}{\begin{bmatrix} (\hat{i}_1 \cdot a_{11}) + (\hat{i}_2 \cdot a_{12}) + (\hat{i}_3 \cdot a_{13}) \\ (\hat{i}_1 \cdot a_{21}) + (\hat{i}_2 \cdot a_{22}) + (\hat{i}_3 \cdot a_{23}) \\ (\hat{i}_1 \cdot a_{31}) + (\hat{i}_2 \cdot a_{32}) + (\hat{i}_3 \cdot a_{33})  \end{bmatrix} } =\textcolor{yellow}{\begin{bmatrix}  \hat{i}_1 \cdot a_{11} \\  \hat{i}_1 \cdot a_{21} \\  \hat{i}_1 \cdot a_{31} \end{bmatrix}}$$
 $$\LARGE \vec{e_2} = \hat{j} = \textcolor{violet}{\begin{bmatrix} 0 \\ 1 \\ 0 \end{bmatrix}}$$
@@ -165,14 +176,18 @@ $$\large \textcolor{yellow}{T_A(\hat{k})} = \textcolor{green}{\begin{bmatrix} a_
 These result in a new output image vectors.
 	These new Matrices $A$ of the Transformed Basis Vectors, can be used to subsequently transform any Vectors in this new space. 
 ## $\text{\textcolor{green}{Linear Transformation} \textcolor{violet}{Applied to a Vector, }} \textcolor{violet}{\vec{v}}$ (High Level)
+The Idea is that, if a Vector Space is itself transformed that is its Basis Vectors are linearly Transformed, then the vectors within that original non transformed space, will then be transformed according to the linear transformation of the space they exist within. 
 ###### Remember A Vector is a Linear Combination of Basis Vectors (i.e. Scaled Standard Unit Vectors)
-$$\LARGE \vec{v} = (x,y,z)$$
-$$\LARGE \vec{v} = \mathbf{v} = T_A(x,y,z) = (x)\vec{e_1} + (y) \vec{e_2} + (z) \vec{e_3}$$
-###### Remember that the Image of the Transformation is then Determined by the Transformation of the Basis Vectors, $(\vec{e_1}, \vec{e_2}, \vec{e_3})$.
-$$\large \textcolor{green}{T(}\textcolor{violet}{\vec{v}}\textcolor{green}{)} = \textcolor{green}{T_A(}\textcolor{red}{x}(\vec{e_1}) + \textcolor{red}{y}(\vec{e_2}) + \textcolor{red}{z}(\vec{e_3}) \textcolor{green}{)} = \textcolor{red}{x}\textcolor{green}{T_A(\vec{e_1})} + \textcolor{red}{y}\textcolor{green}{T_A(\vec{e_2})} + \textcolor{red}{z}\textcolor{green}{T_A(\vec{e_3})} = \textcolor{yellow}{x \hat{i} + y \hat{j} + z \hat{k}}$$
+$$\LARGE \textcolor{violet}{\vec{v} = (x,y,z)}$$
+$$\LARGE \textcolor{violet}{\vec{v} = \mathbf{v}} = \textcolor{teal}{T_A(}\textcolor{violet}{x,y,z}\textcolor{teal}{)} = \textcolor{teal}{T}\textcolor{violet}{\begin{bmatrix} x \\ y\\ z \end{bmatrix}}$$
+$$\LARGE = \textcolor{teal}{T}(\textcolor{violet}{x}(\textcolor{green}{\vec{e_1}}) + \textcolor{violet}{y}(\textcolor{green}{\vec{e_2}}) +\textcolor{violet}{z}(\textcolor{green}{\vec{e_3}}))$$
+###### Remember that the Image of the Transformation is then Determined by the Image of the Basis Vectors, $(\vec{e_1}, \vec{e_2}, \vec{e_3})$.
 Where $\LARGE \hat{i}, \hat{j}, \hat{k}$ have been transformed by $T_A$.
 	After the image is produced, the vector containing the components $x,y,z$ (as scalars) is Linearly Transformed by the output image of the transformed basis vectors, $T_A$. 
 		I.e. The Linear Transformation of a vector (some non-basis vector) is the Linear Combination of the transformed basis vectors with the components of the vector now being transformed.
+$$\LARGE \textcolor{green}{T(}\textcolor{violet}{\vec{v}}\textcolor{green}{)} = \textcolor{green}{T_A(}\textcolor{violet}{x}(\textcolor{green}{\vec{e_1}}) + \textcolor{violet}{y}(\textcolor{green}{\vec{e_2}}) + \textcolor{violet}{z}(\textcolor{green}{\vec{e_3}}) \textcolor{green}{)} = \textcolor{violet}{x}\textcolor{green}{T_A(\vec{e_1})} + \textcolor{violet}{y}\textcolor{green}{T_A(\vec{e_2})} + \textcolor{violet}{z}\textcolor{green}{T_A(\vec{e_3})}$$
+$$\LARGE = \textcolor{violet}{x} \textcolor{green}{\begin{bmatrix}  \hat{i}_1 \cdot a_{11} \\  \hat{i}_1 \cdot a_{21} \\  \hat{i}_1 \cdot a_{31} \end{bmatrix}} + \textcolor{violet}{y} \textcolor{green}{\begin{bmatrix} (\hat{j}_2 \cdot a_{12}) \\ (\hat{j}_2 \cdot a_{22}) \\ (\hat{j}_2 \cdot a_{32}) \end{bmatrix}} + \textcolor{violet}{z} \textcolor{green}{\begin{bmatrix} (\hat{k}_3 \cdot a_{13}) \\ (\hat{k}_3 \cdot a_{23}) \\ (\hat{k}_3 \cdot a_{33}) \end{bmatrix}}$$
+$$\LARGE = \textcolor{yellow}{x \hat{i} + y \hat{j} + z \hat{k}}$$
 ###### The $\textcolor{violet}{\text{Input}}$ to the Linear Transformation, $\LARGE \vec{v}$
 **The Input** to the transformation $T$ is a **vector** $\vec{v} = (x, y, z)$ in $\mathbb{R}^3$.
 	This vector can be thought of as having three components, which are the coordinates $x,y,z$ with respect to the standard basis vectors $\hat{i}, \hat{j}, \hat{k}$.
@@ -182,9 +197,11 @@ The result is a new vector formed by this linear combination of the basis vector
 	This new vector is either within the same space or a different space, depending on defined codomain. 
 ###### The $\textcolor{green}{\text{Mapping of the Linear Transformation}}$, $\LARGE T : (\vec{v}) \to T_A(\vec{v})$
 The linear transformation $T$ takes the input coordinates $(x, y, z)$ and constructs a vector as a linear combination of the standard basis vectors.
-	This results in a new vector in the vector space.
-		**Scaling:** Each component $x,y,z$ of the input vector scales its corresponding basis vector.
-		**Direction:** The resulting vector $\hat{i} + y \hat{j} + z \hat{k}$ points in the direction defined by the combination of scaled basis vectors.
+	The Linear Transformations maps the three previously Vector Images of the Basis Vectors, expressed as $\LARGE T(\vec{e_1}), T(\vec{e_2}), T(\vec{e_3})$. 
+		Where each is a linear combination of the Basis Vectors and the corresponding columns of the original Matrix $A$.
+			This results in a new vector in the vector space.
+				**Scaling:** Each component $x,y,z$ of the input vector scales its corresponding basis vector.
+				**Direction:** The resulting vector $\hat{i} + y \hat{j} + z \hat{k}$ points in the direction defined by the combination of scaled basis vectors.
 ###### The $\textcolor{teal}{\text{Mapping Operator}}$, $\LARGE T_A(\vec{e_i})$
 The **Vectors** $T_A(\vec{e_i})$ **encodes the rules** of the transformation as defined by the Basis Vectors. 
 	It dictates how every input vector $\vec{v}$ is changed when the linear transformation $TA$​ is applied.
@@ -199,43 +216,23 @@ $$\LARGE =T_A(\vec{v}) = \sum_{i=1}^{m} \left( \sum_{j=1}^{n} a_{ij} v_j \right)
 Here:
 - **$\LARGE a_{ij}v_j$:** Represents the scaling of the $j$-th input component by the matrix ($T_A$) element $a_{ij}$​.
 - **$\LARGE \hat{e}_i$​:** Represents the standard basis vector in the output space ($\LARGE \mathbb{R}^m$).
-### The Image Matrix $T_A(\vec{e_i})$ (of Transformed Basis Vectors) is a New Matrix $A$
+### The Three Vector Images $T_A(\vec{e_1}), T_A(\vec{e_2}), T_A(\vec{e_3})$ (of Transformed Basis Vectors)
 Which is what transforms the Vectors in this Space.
-##### Matrix, $A$ of $T_A$
-The matrix $A$ **encodes the rules** of the transformation. 
-	It dictates how every input vector $\LARGE \vec{v}$ is changed when the linear transformation $T_A$$​ is applied.
-		 The entries of the matrix determine the nature of the transformation, such as scaling, rotating, reflecting, shearing, or mixing the components of the input vector.
-###### Linear Combination of Basis Vectors
+###### Linear Combination of the Images of the Basis Vectors
 When $T_A$​ acts on a general vector $\vec{v} = \begin{bmatrix} v_1 \\ v_2 \\ v_3 \end{bmatrix}$, the output vector is:
-$$\LARGE T_A(\vec{v}) = A \vec{v} = v_1 \begin{bmatrix} a_{11} \\ a_{21} \\ a_{31} \end{bmatrix} + v_2 \begin{bmatrix} a_{12} \\ a_{22} \\ a_{32} \end{bmatrix} + v_3 \begin{bmatrix} a_{13} \\ a_{23} \\ a_{33} \end{bmatrix}$$
+$$\LARGE \textcolor{violet}{T_A(\vec{v})} = \textcolor{violet}{v_1} \textcolor{green}{\begin{bmatrix}  \hat{i}_1 \cdot a_{11} \\  \hat{i}_1 \cdot a_{21} \\  \hat{i}_1 \cdot a_{31} \end{bmatrix}} + \textcolor{violet}{v_2} \textcolor{green}{\begin{bmatrix} (\hat{j}_2 \cdot a_{12}) \\ (\hat{j}_2 \cdot a_{22}) \\ (\hat{j}_2 \cdot a_{32}) \end{bmatrix}} + \textcolor{violet}{v_3} \textcolor{green}{\begin{bmatrix} (\hat{k}_3 \cdot a_{13}) \\ (\hat{k}_3 \cdot a_{23}) \\ (\hat{k}_3 \cdot a_{33}) \end{bmatrix}}$$
 
 This shows that the transformation scales and combines the columns of $A$ according to the components $\LARGE v_1, v_2, v_3$​ of the input vector.
-###### Matrix $A$ as a Set of Instructions
-The matrix $A$ tells you **how** to construct the output vector $T_A(\vec{v})$ from the input vector $\vec{v}$.
-	When you multiply $A$ by $\vec{v}$, you are effectively taking a weighted sum of the columns of $A$ using the components of $\vec{v}$ as weights:
- $$\LARGE T_A(\vec{v}) = A \vec{v} = v_1 \begin{bmatrix} a_{11} \\ a_{21} \\ \dots \\ a_{m1} \end{bmatrix} + v_2 \begin{bmatrix} a_{12} \\ a_{22} \\ \dots \\ a_{m2} \end{bmatrix} + \dots + v_n \begin{bmatrix} a_{1n} \\ a_{2n} \\ \dots \\ a_{mn} \end{bmatrix}$$
-This shows how each coordinate of $\vec{v}$ contributes to the resulting output vector according to the columns of $A$.
-###### Geometric Interpretation
-If $A$ is a **diagonal matrix** like $\LARGE \begin{bmatrix} a & 0 & 0 \\ 0 & b & 0 \\ 0 & 0 & c \end{bmatrix}​$, it represents **scaling** along each of the axes by the factors $a,b$, and $c$.
-If $A$ contains off-diagonal terms, it can represent more complex
-##### The Image of a Linear Transformation of a Basis Vector ***is*** a Matrix, $T_A$
-The matrix $A$ containing $(x, y, z)$ defines a **linear transformation** because the resulting vector $T_A(\vec{v})$is a linear combination of the coordinates $x,y,z$ and the input vector's components.
-	This setup aligns with the idea of a **vector-valued function**, where the output is a vector, and the function maps input vectors to other vectors through linear combinations involving $x,y,z$.
-
-The matrix $A$ dictates **how** the input coordinates are transformed. 
-	The form of the matrix $A$ does, in a way, represent the "structure" or "form" of the output vector.
-		The matrix $A$ determines the linear combination of basis vectors that defines the output vector in the space.
-
-Suppose $\LARGE A$ is an $\LARGE m \times n$ matrix:
-$$\LARGE A = \begin{bmatrix} a_{11} & a_{12} & \dots & a_{1n} \\ a_{21} & a_{22} & \dots & a_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ a_{m1} & a_{m2} & \dots & a_{mn} \end{bmatrix}$$
-
-When this matrix acts on the vector $\LARGE\vec{v} = \begin{bmatrix} v_1 \\ v_2 \\ \dots \\ v_n \end{bmatrix}$,the result is:
-$$\LARGE T_A(\vec{v}) = A \vec{v} = \begin{bmatrix} a_{11}v_1 + a_{12}v_2 + \dots + a_{1n}v_n \\ a_{21}v_1 + a_{22}v_2 + \dots + a_{2n}v_n \\ \vdots \\ a_{m1}v_1 + a_{m2}v_2 + \dots + a_{mn}v_n \end{bmatrix}$$
+###### The Vector Image $T_A(\vec{e_i})$ as a Set of Instructions
+The Vector Image $T_A(\vec{e_i})$ tells you **how** to construct the output vector $T_A(\vec{v})$ from the input vector $T_A\vec{e_i}$.
+	When you multiply $T_A(\vec{e_i})$ by $\vec{v}$, you are effectively taking a weighted sum of the columns of $A$ using the components of $\vec{v}$ as weights:
+		This shows how each coordinate of $\vec{v}$ contributes to the resulting output vector according to the columns of $A$.
 ### Components of the Whole $T_A(\vec{v})$
 $$\LARGE T : (\vec{v}) \to T_A(\vec{v})$$
 Each $\LARGE T_i(\vec{v})$ (i.e. each "row" of $T_A(\vec{v})$) is a **scalar component function** defined by the linear combination of the input vector $\vec{v}$, scaled by the elements of the matrix $A$.:
 $$\LARGE T_i(\vec{v}) = a_{i1}v_1 \cdot \vec{e_1} + a_{i2}v_2 \cdot \vec{e_2}+ \dots + a_{in}v_n \cdot \vec{e_n}$$
-$$\LARGE T_A(\vec{v}) = A \vec{v} = \begin{bmatrix} a_{11}v_1 + a_{12}v_2 + \dots + a_{1n}v_n \\ a_{21}v_1 + a_{22}v_2 + \dots + a_{2n}v_n \\ \vdots \\ a_{m1}v_1 + a_{m2}v_2 + \dots + a_{mn}v_n \end{bmatrix}$$
+$$\LARGE \textcolor{violet}{T_A(\vec{v})} = \textcolor{violet}{v_1} \textcolor{green}{\begin{bmatrix}  \hat{i}_1 \cdot a_{11} \\  \hat{i}_1 \cdot a_{21} \\  \hat{i}_1 \cdot a_{31} \end{bmatrix}} + \textcolor{violet}{v_2} \textcolor{green}{\begin{bmatrix} (\hat{j}_2 \cdot a_{12}) \\ (\hat{j}_2 \cdot a_{22}) \\ (\hat{j}_2 \cdot a_{32}) \end{bmatrix}} + \textcolor{violet}{v_3} \textcolor{green}{\begin{bmatrix} (\hat{k}_3 \cdot a_{13}) \\ (\hat{k}_3 \cdot a_{23}) \\ (\hat{k}_3 \cdot a_{33}) \end{bmatrix}}$$
+$$\LARGE T_A(\textcolor{violet}{\vec{v}}) = \begin{bmatrix} (\textcolor{violet}{v_1}\cdot \textcolor{green}{\hat{i}_1a_{11}}) + (\textcolor{violet}{v_2}\cdot \textcolor{green}{\hat{i}_2a_{12}}) + \dots + (\textcolor{violet}{v_n} \cdot \textcolor{green}{\hat{i}_na_{1n}}) \\ (\textcolor{violet}{v_1} \cdot \textcolor{green}{\hat{i}_1 a_{21}}) + (\textcolor{violet}{v_2} \cdot \textcolor{green}{\hat{i}_2a_{22}}) + \dots + (\textcolor{violet}{v_n} \cdot \textcolor{green}{\hat{i}_na_{2n}}) \\ \vdots \\ (\textcolor{violet}{v_1} \cdot \textcolor{green}{\hat{i}_1a_{m1}}) + (\textcolor{violet}{v_2} \cdot \textcolor{green}{\hat{i}_2a_{m2}}) + \dots + (\textcolor{violet}{v_n} \cdot \textcolor{green}{\hat{i}_n a_{mn}}) \end{bmatrix}$$
 - Each **row entry** in the resulting vector $\LARGE T_A(\vec{v})$ is a **linear combination** of the coordinates $v_1, v_2, \dots, v_n$​ of the input vector $\vec{v}$, scaled by the elements of the matrix $A$.
 
 The **$\LARGE \textcolor{violet}{\text{Scalar-Valued Functions}}$** in this context are the individual linear combinations for each row in the resulting vector.
@@ -250,20 +247,6 @@ $$\LARGE \textcolor{violet}{T_i(\vec{v}) = a_{i1}v_1 + a_{i2}v_2 + \dots + a_{in
 
 In this form, $T_A$​ produces an **output vector** whose components are scalar functions of the input coordinates.
 	These scalar functions depend on both the matrix $A$ (through its entries $\LARGE a_{ij}$​) and the input vector $\LARGE \vec{v}$.
-### The Component Scalar Functions of the Linear Transformation Applied to a Vector
-
-#### The Scalar Component Functions $T_A(v_1), T_A(v_2), T_A(v_3)$
-Where before, the Component Functions themselves were considered vector functions, due to their return type.
-	When only one value is non-zero, then the function is taken as a scalar function producing only that one non-zero value.
-
-The Component Scalar Functions are expressed in the $\LARGE T_A(\vec{\hat{i}}), T_A(\vec{\hat{j}}), T_A(\vec{\hat{k}})$.
-	Specifically as the Linear Combinations that exist in the **Rows** of the transformation.
-		So despite $\LARGE T_A(\vec{\hat{i}}), T_A(\vec{\hat{j}}), T_A(\vec{\hat{k}})$ being themselves Vector-Valued Functions (just as $T_A(\vec{v})$ as a whole Transformation of the vector containing those basis vectors), each is composed of $\LARGE \textcolor{violet}{\text{Scalar-Valued Functions}}$.
-$$\LARGE T_A(\vec{i}) = \begin{bmatrix} \textcolor{violet}{T_{1_{_A}}(\vec{i}_1)} \\ \textcolor{violet}{T_{2_A}(\vec{i}_2)} \\ \textcolor{violet}{T_{3_A}(\vec{i}_3)} \end{bmatrix}$$
-$$\large \textcolor{violet}{T_{1_A}(\vec{\hat{i}_1})} = A \vec{\hat{i}} = \begin{bmatrix} x & 0 & 0 \\ 0 & y & 0 \\ 0 & 0 & z \end{bmatrix} \begin{bmatrix} \hat{i}_1 \\ \hat{i}_2 \\ \hat{i}_3 \end{bmatrix} = \begin{bmatrix} \textcolor{violet}{(x \cdot \hat{i}_1) + (0 \cdot \hat{i}_1) +(0 \cdot \hat{i}_1) }\\ \textcolor{violet}{ (0 \cdot \hat{i}_2) + (y \cdot \hat{i}_2) +(0 \cdot \hat{i}_2)} \\ \textcolor{violet}{(0 \cdot \hat{i}_3) + (0 \cdot \hat{i}_3) +(z \cdot \hat{i}_3)} \end{bmatrix}  =\begin{bmatrix} x \\ 0 \\ 0 \end{bmatrix}$$
-$$\LARGE = \textcolor{violet}{T_{1_A}(\vec{\hat{i}_1})} = x$$
-$$\LARGE \textcolor{violet}{T_{2_A}(\vec{\hat{i}_2})} =\begin{bmatrix} 0 \cdot \hat{j}_1\\ y \cdot \hat{j}_2 \\ 0 \cdot \hat{j}_3 \end{bmatrix} = \begin{bmatrix} 0 \\ y \\ 0 \end{bmatrix}, \quad \textcolor{violet}{T_{2_A}(\vec{\hat{i}_2})} = y$$
-$$\LARGE \textcolor{violet}{T_{3_A}(\vec{\hat{i}_3})} = \begin{bmatrix} 0 \cdot \hat{k}_1\\ 0 \cdot \hat{k}_2 \\ z \cdot \hat{k}_3 \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \\ z \end{bmatrix}, \quad \textcolor{violet}{T_{3_A}(\vec{\hat{i}_3})} = z$$
 #### Linearity Properties of Linear Transformations
 ##### The Output Value of a Transformation (i.e. the image) of a Sum of Values is Equal to the Sum of the Output Values
 $$\LARGE T(\vec{x} + \vec{y} + \vec{z}) = T(\vec{x}) + T(\vec{y}) + T(\vec{z})$$
@@ -271,55 +254,103 @@ $$\LARGE T(\vec{x} + \vec{y} + \vec{z}) = T(\vec{x}) + T(\vec{y}) + T(\vec{z})$$
 $$\LARGE T(\alpha\vec{x}) = \alpha T(\vec{x}), \quad \text{Where $\alpha$ is a scalar}$$
 ##### The [[Linear Combinations|Linear Combinations]] of Vectors is Equal to the Linear Combination of the Images of the Vectors
 $$\LARGE T(\alpha \vec{x} + \beta \vec{y}) = \alpha T(\vec{x}) + \beta T(\vec{y}), \quad \text{Where $\alpha$ and $\beta$ are are scalars}$$
-
-
-### 1. **Coordinates as Scaled Unit Basis Vectors:**
-
-When you express a point (x,y,z)(x, y, z)(x,y,z) in 3D space, what you are doing is representing that point as a linear combination of the standard basis vectors e⃗1=(1,0,0)\vec{e}_1 = (1, 0, 0)e1​=(1,0,0), e⃗2=(0,1,0)\vec{e}_2 = (0, 1, 0)e2​=(0,1,0), and e⃗3=(0,0,1)\vec{e}_3 = (0, 0, 1)e3​=(0,0,1):
-
-r⃗=xe⃗1+ye⃗2+ze⃗3.\vec{r} = x \vec{e}_1 + y \vec{e}_2 + z \vec{e}_3.r=xe1​+ye2​+ze3​.
-
-Here’s the interpretation:
-
-- **x⋅e⃗1x \cdot \vec{e}_1x⋅e1​:** This is a vector that points in the direction of the xxx-axis, scaled by the amount xxx.
-- **y⋅e⃗2y \cdot \vec{e}_2y⋅e2​:** This is a vector that points in the direction of the yyy-axis, scaled by the amount yyy.
-- **z⋅e⃗3z \cdot \vec{e}_3z⋅e3​:** This is a vector that points in the direction of the zzz-axis, scaled by the amount zzz.
-
-In this sense, the coordinates (x,y,z)(x, y, z)(x,y,z) are indeed the **scalars** that multiply the **unit basis vectors** to position the point in space.
-
-### 2. **The Linear Combination as a Position Vector:**
-
-The expression:
-
-r⃗=xe⃗1+ye⃗2+ze⃗3,\vec{r} = x \vec{e}_1 + y \vec{e}_2 + z \vec{e}_3,r=xe1​+ye2​+ze3​,
-
-is a **position vector** that extends from the origin to the point (x,y,z)(x, y, z)(x,y,z) in 3D space. The coordinates x,y,zx, y, zx,y,z are the **scalars** that determine how much each basis vector contributes to the vector's direction and magnitude.
-
-### 3. **Scaling as a Linear Transformation:**
-
-The act of forming the vector xe⃗1+ye⃗2+ze⃗3x \vec{e}_1 + y \vec{e}_2 + z \vec{e}_3xe1​+ye2​+ze3​ from the coordinates (x,y,z)(x, y, z)(x,y,z) **is inherently a linear process**:
-
-- A **linear transformation** can be understood as any process that involves scaling and combining basis vectors. In this case, the "transformation" takes the coordinates (x,y,z)(x, y, z)(x,y,z) and produces the position vector r⃗\vec{r}r.
-- In matrix terms, if you think of the standard basis vectors as forming the columns of the identity matrix III, the operation: I[xyz]=xe⃗1+ye⃗2+ze⃗3,I \begin{bmatrix} x \\ y \\ z \end{bmatrix} = x \vec{e}_1 + y \vec{e}_2 + z \vec{e}_3,I​xyz​​=xe1​+ye2​+ze3​, shows that building the vector from its coordinates is itself a linear transformation.
-
-### 4. **Understanding Your Question:**
-
-- **Yes,** the coordinates (x,y,z)(x, y, z)(x,y,z) **are fundamentally the scalings** of the unit basis vectors:
+## Standard Form of a 2D Line 
+The equation of a line in 2D space is a **formal constraint** that describes a **set of values**, and **geometrically** defines those set of points to lie on a line 2D space.
+$$\LARGE ax + by = c$$
+Where $a,b$, and $c$ are constants, and $(x,y)$ are coordinates in the 2D plane.
+	This equation defines a relationship between $x$ and $y$ that all points on the line satisfy. 
+		Geometrically, $(a,b)$ represents a vector perpendicular (normal) to the line, and $c$ determines the line's distance from the origin.
+### Dot Product Representation:
+expressing the standard form of a line ax+by=cax + by = cax+by=c as a dot product is indeed a formal and valid way to represent the line in linear algebra. Here's how this works and why it's a formal representation:
+- The standard form of a line in 2D is given by:
     
-    x=x⋅e⃗1,y=y⋅e⃗2,z=z⋅e⃗3.x = x \cdot \vec{e}_1, \quad y = y \cdot \vec{e}_2, \quad z = z \cdot \vec{e}_3.x=x⋅e1​,y=y⋅e2​,z=z⋅e3​.
-- The position vector r⃗\vec{r}r in space is **constructed** by scaling the basis vectors by these coordinates and then adding them up.
+    ax+by=c,ax + by = c,ax+by=c,
+    
+    where aaa and bbb are constants that define the slope and orientation of the line, and ccc is a constant that determines the line's position relative to the origin.
+    
+- This can be rewritten using the **dot product** of two vectors:
+    
+    [ab]⋅[xy]=c,\begin{bmatrix} a & b \end{bmatrix} \cdot \begin{bmatrix} x \\ y \end{bmatrix} = c,[a​b​]⋅[xy​]=c,
+    
+    where [ab]\begin{bmatrix} a & b \end{bmatrix}[a​b​] is a vector normal to the line, and [xy]\begin{bmatrix} x \\ y \end{bmatrix}[xy​] is a point on the line.
     
 
-### 5. **Scaling Process as a Linear Transformation:**
+### 2. **Why This Is a Formal Representation:**
 
-- You are correct in suggesting that this scaling process can be viewed as a linear transformation. If we have a matrix that represents a basis (in this case, the identity matrix for the standard basis vectors), the operation of multiplying the coordinates by this matrix is a linear transformation that maps the coordinates to a position vector.
+- **Dot Product:** The dot product of two vectors n⃗=[ab]\vec{n} = \begin{bmatrix} a & b \end{bmatrix}n=[a​b​] and v⃗=[xy]\vec{v} = \begin{bmatrix} x & y \end{bmatrix}v=[x​y​] is defined as:
+    
+    n⃗⋅v⃗=a⋅x+b⋅y.\vec{n} \cdot \vec{v} = a \cdot x + b \cdot y.n⋅v=a⋅x+b⋅y.
+    
+    This operation results in a scalar quantity. In this case, the dot product equals the constant ccc, which represents a specific geometric condition that the point (x,y)(x, y)(x,y) must satisfy to lie on the line.
+    
+- **Normal Vector:** The vector [ab]\begin{bmatrix} a & b \end{bmatrix}[a​b​] is **normal** (perpendicular) to the line. This means it defines the orientation of the line. The equation n⃗⋅v⃗=c\vec{n} \cdot \vec{v} = cn⋅v=c indicates that for any point (x,y)(x, y)(x,y) on the line, the projection of the point onto the normal vector remains constant, which geometrically defines a line.
+    
+- **Geometric Constraint:** The expression n⃗⋅v⃗=c\vec{n} \cdot \vec{v} = cn⋅v=c is a **linear constraint** in the plane. In linear algebra, this is formally understood as the set of points (x,y)(x, y)(x,y) that satisfy this constraint, which forms a line.
+    
 
-### **Summary:**
+### 3. **Advantages of the Dot Product Representation:**
 
-So, **yes**, a point represented by the coordinates (x,y,z)(x, y, z)(x,y,z) **is fundamentally** the combination of the unit basis vectors scaled by the values x,y,zx, y, zx,y,z. Each coordinate x,y,zx, y, zx,y,z acts as a scalar that scales the corresponding unit basis vector:
+- **Compactness:** Using the dot product provides a compact and vector-based way to express the line equation.
+- **Extension to Higher Dimensions:** This method of using a normal vector to define a linear constraint can be extended to higher dimensions. For example, in 3D, the equation ax+by+cz=dax + by + cz = dax+by+cz=d can be written as the dot product n⃗⋅v⃗=d\vec{n} \cdot \vec{v} = dn⋅v=d, where n⃗=[a,b,c]\vec{n} = [a, b, c]n=[a,b,c] is a normal vector to the plane.
+- **Relation to Linear Algebra:** This representation connects directly to linear algebra concepts such as vector projection, orthogonality, and linear constraints.
 
-x=x⋅e⃗1,y=y⋅e⃗2,z=z⋅e⃗3.x = x \cdot \vec{e}_1, \quad y = y \cdot \vec{e}_2, \quad z = z \cdot \vec{e}_3.x=x⋅e1​,y=y⋅e2​,z=z⋅e3​.
+### 4. **Formal Interpretation:**
 
-This representation is intrinsic to how linear algebra defines points and vectors in space. The scaling process is linear, hence aligning with the concept of linear transformations.
+- In the dot product form, [ab]⋅[xy]=c\begin{bmatrix} a & b \end{bmatrix} \cdot \begin{bmatrix} x \\ y \end{bmatrix} = c[a​b​]⋅[xy​]=c, we are specifying that the vector [xy]\begin{bmatrix} x & y \end{bmatrix}[x​y​] lies on a line whose normal vector is [ab]\begin{bmatrix} a & b \end{bmatrix}[a​b​]. The constant ccc controls the line's offset from the origin.
+- In linear algebra, this is a **hyperplane equation** in 2D space (a line), which formally divides the space into regions based on the sign of the dot product.
 
+### **Conclusion:**
 
+Yes, expressing the standard form of a line ax+by=cax + by = cax+by=c as a dot product [ab]⋅[xy]=c\begin{bmatrix} a & b \end{bmatrix} \cdot \begin{bmatrix} x \\ y \end{bmatrix} = c[a​b​]⋅[xy​]=c is a formal and mathematically rigorous way to represent the line in linear algebra. It leverages the concept of the dot product to succinctly describe the geometric relationship that defines all points on the line.
+
+## Relation to Linear Transformations
+The relationship between the line's dot product form and a linear transformation of a position vector comes down to how linear transformations affect vectors in space and how the conditions of the line's equation are preserved or modified under such transformations. Let’s break this down in the context of linear algebra.
+
+### 1. **Recap: Line Representation and Linear Transformations**
+
+- **Line Equation as Dot Product:** The line equation in 2D can be written using the dot product:
+    
+    [ab]⋅[xy]=c,\begin{bmatrix} a & b \end{bmatrix} \cdot \begin{bmatrix} x \\ y \end{bmatrix} = c,[a​b​]⋅[xy​]=c,
+    
+    where [ab]\begin{bmatrix} a & b \end{bmatrix}[a​b​] is the normal vector to the line and [xy]\begin{bmatrix} x \\ y \end{bmatrix}[xy​] is a position vector representing a point on the line.
+    
+- **Linear Transformation:** A linear transformation T:R2→R2T: \mathbb{R}^2 \to \mathbb{R}^2T:R2→R2 can be represented by a matrix AAA. For a position vector v⃗=[xy]\vec{v} = \begin{bmatrix} x \\ y \end{bmatrix}v=[xy​], the transformed vector v⃗′\vec{v}'v′ is given by:
+    
+    T(v⃗)=Av⃗.T(\vec{v}) = A \vec{v}.T(v)=Av.
+    
+    This transformation changes the coordinates of v⃗\vec{v}v, which geometrically corresponds to scaling, rotating, shearing, or otherwise transforming the space in which the vector resides.
+    
+
+### 2. **How Linear Transformations Affect the Line Equation**
+
+When we apply a linear transformation TTT (represented by the matrix AAA) to a vector v⃗=[xy]\vec{v} = \begin{bmatrix} x \\ y \end{bmatrix}v=[xy​], we get a new vector:
+
+v⃗′=Av⃗=[x′y′].\vec{v}' = A \vec{v} = \begin{bmatrix} x' \\ y' \end{bmatrix}.v′=Av=[x′y′​].
+
+The line equation ax+by=cax + by = cax+by=c describes a set of vectors v⃗\vec{v}v that lie on a specific line. When we apply the transformation TTT to all the vectors in this line, the shape, orientation, and position of the line can change.
+
+### 3. **Transforming the Normal Vector of the Line**
+
+- The line ax+by=cax + by = cax+by=c has a normal vector n⃗=[ab]\vec{n} = \begin{bmatrix} a \\ b \end{bmatrix}n=[ab​]. The line equation can be rewritten as a dot product: n⃗⋅v⃗=c.\vec{n} \cdot \vec{v} = c.n⋅v=c.
+- When a linear transformation TTT is applied, both the vector v⃗\vec{v}v and the normal vector n⃗\vec{n}n are affected. However, to maintain a similar line equation in the transformed space, we also need to transform the normal vector. The new line equation in the transformed space is generally of the form: n⃗′⋅v⃗′=c′,\vec{n}' \cdot \vec{v}' = c',n′⋅v′=c′, where n⃗′=A−Tn⃗\vec{n}' = A^{-T} \vec{n}n′=A−Tn (the inverse transpose of AAA applied to n⃗\vec{n}n) and v⃗′=Av⃗\vec{v}' = A \vec{v}v′=Av. This result comes from how linear transformations affect dot products and normals in linear algebra.
+
+### 4. **Relation Between Line Equation and Linear Transformation**
+
+The relationship can be summarized as follows:
+
+- **Original Line:** The line ax+by=cax + by = cax+by=c constrains vectors v⃗\vec{v}v in the 2D space.
+- **Applying a Linear Transformation:** If you apply a linear transformation TTT (represented by AAA) to every vector v⃗\vec{v}v on the line, the image of the line under this transformation is generally another line. However, the normal vector of this new line and the equation defining it will change according to the transformation.
+- **New Line Equation:** The new line equation in the transformed space involves the transformed normal vector n⃗′=A−Tn⃗\vec{n}' = A^{-T} \vec{n}n′=A−Tn. This means the linear transformation affects both the points on the line and the orientation of the line itself.
+
+### 5. **Geometric Interpretation**
+
+- **Linear Transformation as Mapping:** The linear transformation AAA maps the original line to a new line in the transformed space. The form of the line changes because the transformation modifies the coordinates of every point.
+- **Preserving Linear Structure:** Despite the changes, a linear transformation will map lines to lines (or points, if the line collapses). This means that linear transformations preserve the "linear" nature of geometric objects such as lines and planes, though they can change their orientation, position, and scale.
+
+### **Summary**
+
+- The **dot product representation** of a line n⃗⋅v⃗=c\vec{n} \cdot \vec{v} = cn⋅v=c is formal and serves as a way to describe a linear relationship between vectors.
+- A **linear transformation** T(v⃗)=Av⃗T(\vec{v}) = A \vec{v}T(v)=Av changes the coordinates of a vector, thus transforming the line defined by the dot product equation.
+- Under a linear transformation, the line's normal vector n⃗\vec{n}n transforms to a new normal vector n⃗′=A−Tn⃗\vec{n}' = A^{-T} \vec{n}n′=A−Tn. The transformed position vectors v⃗′=Av⃗\vec{v}' = A \vec{v}v′=Av define a new line in the transformed space.
+
+In conclusion, the line equation ax+by=cax + by = cax+by=c expressed as a dot product is related to linear transformations in that linear transformations change both the normal vector and the position vectors of the line, resulting in a new line in the transformed space. This shows the interplay between geometric constraints (like lines) and linear transformations in vector spaces.
