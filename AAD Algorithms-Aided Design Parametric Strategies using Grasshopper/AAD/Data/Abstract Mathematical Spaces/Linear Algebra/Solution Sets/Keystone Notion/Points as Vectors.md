@@ -38,6 +38,7 @@ That is **any vector** can be **"reached"** by some **Linear Combination** of th
 $$\LARGE \vec{v} = \mathbf{v} = (v_1,v_2,v_3) = (x,y,z)$$
 $$\LARGE T_A(v_1,v_2,v_3) = (v_1)\hat{i} + (v_2) \hat{j} + (v_3) \hat{k} = (x)\hat{i} + (y) \hat{j} + (z) \hat{k}$$
 Where $T_A(v_1,v_2,v_3)$ is a Linear Transformation (i.e. a Vector-Valued Function) **applied to** the vector $\vec{v}$ in this Vector Space.
+	Which are produced by taking the [[Data/Abstract Mathematical Spaces/Linear Algebra/Linearity/Dot Product|Dot Product]] of each component of vector $\vec{v}$ with the corresponding basis vector.
 #### Cartesian Vector Form (i.e. Scalar Basis Form)
 A Cartesian vector is a vector that is expressed in terms of Linear Combinations of its components along the Cartesian coordinate axes (i.e. Basis Vectors) defining the Vector Space.
 	In three-dimensional space, these components are along the $x$-axis, $y$-axis, and $z$-axis, represented by the unit vectors $\LARGE \vec{i} = (1, 0, 0), \space \vec{j} = (0, 1, 0), \space \vec{k} = (0, 0, 1)$.
@@ -254,19 +255,64 @@ $$\LARGE T(\vec{x} + \vec{y} + \vec{z}) = T(\vec{x}) + T(\vec{y}) + T(\vec{z})$$
 $$\LARGE T(\alpha\vec{x}) = \alpha T(\vec{x}), \quad \text{Where $\alpha$ is a scalar}$$
 ##### The [[Linear Combinations|Linear Combinations]] of Vectors is Equal to the Linear Combination of the Images of the Vectors
 $$\LARGE T(\alpha \vec{x} + \beta \vec{y}) = \alpha T(\vec{x}) + \beta T(\vec{y}), \quad \text{Where $\alpha$ and $\beta$ are are scalars}$$
-## Standard Form of a 2D Line 
+## The Derivation of the Standard Form Line Equation 
 The equation of a line in 2D space is a **formal constraint** that describes a **set of values**, and **geometrically** defines those set of points to lie on a line 2D space.
 $$\LARGE ax + by = c$$
 Where $a,b$, and $c$ are constants, and $(x,y)$ are coordinates in the 2D plane.
-	This equation defines a relationship between $x$ and $y$ that all points on the line satisfy. 
-		Geometrically, $(a,b)$ represents a vector perpendicular (normal) to the line, and $c$ determines the line's distance from the origin.
+	$c$ is a constant that determines the line's position relative to the origin.
+		This equation defines a relationship between $x$ and $y$ that all points on the line satisfy. 
+			Geometrically, $(a,b)$ represents a vector perpendicular (normal) to the line, and $c$ determines the line's distance from the origin.
+
+The line itself is all the points $(x,y)$ that satisfy the equation $ax+by=c$.
+	The line equation imposes a **linear constraint** on the coordinates $(x,y)$ of points. 
+		In vector terms, this constraint defines a **subspace** of the 2D space — specifically, a 1-dimensional line.
+### Origin in Vector Spaces
+The standard form of the line equation can be understood as derived from the **[[Data/Abstract Mathematical Spaces/Linear Algebra/Linearity/Dot Product|dot product]]** of vectors. 
+	This implies that the line equation is rooted in the geometry of vector spaces:
+	    The line equation can be seen as expressing the fact that all points on the line have a **constant projection** onto the normal vector $[a,b]$.
+		    This highlights that the line equation is inherently about the relationship between vectors and their directions, i.e., the constraints imposed on a vector's coordinates to lie on a line.
+
+The line equation imposes a **linear constraint** on the coordinates of points.
+	In vector terms, this constraint defines a **subspace** of the 2D space — specifically, a 1-dimensional line.
+
+The coefficients $a$ and $b$ act as **weights** that combine the standard basis vectors $\hat{i} = \begin{bmatrix} 1 \\ 0 \end{bmatrix}$ and $\hat{j} = \begin{bmatrix} 0 \\ 1 \end{bmatrix}$.
+	This combination defines the line's normal vector $\vec{n}$, which is central to understanding the line's orientation.
+### Geometric Implications of the Components
+###### $\LARGE a$ and $\LARGE b$
+They define the direction orthogonal (perpendicular) to the line. 
+	The ratio $\LARGE \frac{a}{b}$​ gives the slope of the line when $b \neq 0$.
+		 Geometrically, these coefficients indicate how the line changes as you move along the $x$ or $y$ directions.
+###### $\LARGE c$
+This shifts the line in the direction of the normal vector.
+	If you change $c$ while keeping $a$ and $b$ constant, you’re moving the line along the direction perpendicular to its orientation.
+### Line as a Set of Vectors
+Consider **every point** $(x,y)$ on the line as being represented by a **[[#Position Vectors, $ vec{r}$, are Cartesian Vectors|position vector]]**:
+$$\LARGE \vec{r} = x \hat{i} + y \hat{j}$$
+The line equation $ax+by=c$ tells us that for all position vectors $\vec{r}$ on the line, the dot product with the normal vector $\vec{n} = a \hat{i} + b \hat{j}$ is constant:
+$$\LARGE \vec{n} \cdot \vec{r} = c$$
+- This means that the projection of any point $\vec{r}$ onto the normal vector $\vec{n}$ is fixed, implying that all such points lie on a line orthogonal to $\vec{n}$.
+### Linking to Linear Transformations
+You can think of the line equation as the result of a **linear transformation** applied to the vector
+$$\LARGE \vec{r} = \begin{bmatrix} x \\ y \end{bmatrix}$$
+$$\LARGE T(\vec{r}) = \begin{bmatrix} a & b \end{bmatrix} \cdot \vec{r}$$
+This transformation "projects" $\vec{r}$ onto the direction of $\vec{n}$.
+	The line itself is the set of all vectors $\vec{r}$ that, under this transformation, yield the constant value $c$. 
+		This perspective shows that the line equation is tied to the concept of **projection** in vector spaces.
+### A Linear Map from Vectors to Scalars (i.e. A Scalar Function)
+The dot product with a fixed vector $[ab]$ can be interpreted as a linear map from vectors in $\mathbb{R}^2$ to scalars in $\mathbb{R}$:
+$$\LARGE T(\vec{r}) = \begin{bmatrix} a & b \end{bmatrix} \cdot \vec{r}$$
+Where $\vec{v} = [x \, y]$.
+	This operation maps the vector $\vec{v}$ to a scalar, and it is **linear** because it satisfies the properties of linearity (additivity and scalar multiplication).
+
+If you think of this dot product as a **linear map**, it can be interpreted as **extracting a certain "projection" or "component"** of the vector $[xy]$ in the direction of the fixed vector $[a \, b]$.
+	In this sense, the dot product acts like a **transformation** that compresses the information of the vector $[xy]$ into a single scalar, $c$.
 ### Dot Product Representation:
 expressing the standard form of a line ax+by=cax + by = cax+by=c as a dot product is indeed a formal and valid way to represent the line in linear algebra. Here's how this works and why it's a formal representation:
 - The standard form of a line in 2D is given by:
     
     ax+by=c,ax + by = c,ax+by=c,
     
-    where aaa and bbb are constants that define the slope and orientation of the line, and ccc is a constant that determines the line's position relative to the origin.
+    where aaa and bbb are constants that define the slope and orientation of the line, and 
     
 - This can be rewritten using the **dot product** of two vectors:
     

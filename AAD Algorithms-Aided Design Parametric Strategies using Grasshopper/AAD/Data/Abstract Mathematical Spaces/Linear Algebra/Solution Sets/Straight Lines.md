@@ -1,5 +1,7 @@
 # Straight Lines
 The functions that produce lines, are themselves solution sets, and each solution of the set is contained within the produced line.
+
+The line equation ax+by=cax + by = cax+by=c imposes a **linear constraint** on the coordinates (x,y)(x, y)(x,y) of points. In vector terms, this constraint defines a **subspace** of the 2D space — specifically, a 1-dimensional line.
 ## Straight Lines in the Plane (I.e. Straight Lines in $\mathbb{R}^2$) 
 Lines in $\mathbb{R}^2$ (i.e. lines that exist in the plane) can be represented in 4 ways.
 ### 1. Standard Form of a Line
