@@ -92,6 +92,8 @@ Just like the normal vector, the position vector is drawn **from the origin** to
 	This is a standard way to represent points in vector analysis.
 		 The vector $[x,y]$ gives the coordinates of the point in relation to the origin.
 ### The Standard Form of a Line a Dot Product
+A line $ax+by =c$ as a set of position vectors that have a perpendicular distance from origin along the normal vector that is given by c over the magnitude of the normal vector.
+
 The line equation $ax+by=c$ tells us that for every point on the line, the projection of the position vector $[x,y]$ onto the normal vector $[a,b]$ is a constant $c$.
 
 The left-hand side of the standard form equation of a line can be rewritten using the **dot product**:

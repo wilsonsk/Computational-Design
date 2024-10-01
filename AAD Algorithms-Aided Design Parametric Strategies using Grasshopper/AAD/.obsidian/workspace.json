@@ -226,7 +226,7 @@
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -293,7 +293,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Linearity/Dot Product.md",
+                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Keystone Notion/Points as Vectors.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -310,7 +310,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Linearity/Dot Product.md",
+                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Keystone Notion/Points as Vectors.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -333,7 +333,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Linearity/Dot Product.md"
+                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Keystone Notion/Points as Vectors.md"
               }
             }
           },
@@ -367,10 +367,10 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "356a486210811275",
+  "active": "5b07e9da3876c9f1",
   "lastOpenFiles": [
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Keystone Notion/Points as Vectors.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Linearity/Dot Product.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Keystone Notion/Points as Vectors.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Straight Lines.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Axes and Dimensions.md",
     "notes to add to abstract math spaces.md",
