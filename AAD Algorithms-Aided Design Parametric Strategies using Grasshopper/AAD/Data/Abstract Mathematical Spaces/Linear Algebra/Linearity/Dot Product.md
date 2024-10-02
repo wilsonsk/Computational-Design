@@ -159,3 +159,64 @@ Where:
 - The ratio $\LARGE \frac{|c|}{\sqrt{a^2 + b^2}}$​ normalizes $c$ by the length of the normal vector to get the actual perpendicular distance from the origin to the line.
 ###### Direction of the Normal Vector 
 If you draw the normal vector $[a,b]$ starting from the origin, the line $ax+by=c$ will be positioned at a perpendicular distance $d$ from the origin, along the direction of this normal vector.
+### Slope of a Line and the Normal Vector
+The slope $\LARGE -\frac{a}{b}$​ arises from the **ratio** of the components of the normal vector. 
+	This ratio determines how the line behaves in space.
+		If the normal vector $[a,b]$ changes direction (i.e., if the values of $a$ and $b$ change), the slope of the line changes accordingly.
+##### The Slope
+In Standard Form, $a,b$ identify how much $x,y$ have been scaled by.
+- $a$: Determines how much the $x$-component is scaled.
+- $b$: Determines how much the $y$-component is scaled.
+
+The coefficients $a$ and $b$ also define the **normal vector** $[a,b]$.
+	This vector points in the direction **perpendicular** to the line.
+$$\LARGE ax +by = c \quad \to \quad by=−ax+c$$
+$$\LARGE \equiv y = -\frac{a}{b}x + \frac{c}{d}$$
+$$\LARGE \text{Where, } \quad m = -\frac{a}{b}$$
+The slope $\LARGE m = -\frac{a}{b}$​ represents the **ratio** of the change in $y$ to the change in $x$ for the direction along the line.
+	This ratio is essentially describing how steep the line is.
+		It tells us that for every unit of change in the $x$-direction, the line changes $\LARGE -\frac{a}{b}$ units in the $y$-direction.
+
+This ratio is fundamental because it expresses the **directionality** of the line. 
+	The normal vector $[a,b]$ dictates the line’s orientation, while the slope $-\frac{a}{b}$​ describes how the line rises or falls as you move along the $x$-axis.
+##### The Direction Vector of a Line, (i.e. the negation of a one component of the Normal Vector), $\LARGE [b,−a]$ or $\LARGE [-b, a]$
+The vector $[b,−a]$ is perpendicular to $[a,b]$ because their dot product equals zero:
+$$\LARGE [a, b] \cdot [b, -a] = ab - ab = 0$$
+This confirms that $[b,−a]$ is indeed a direction vector along the line.
+
+The direction vector $[b,−a]$ **represents how you move along the line**.
+The line’s direction vector, is tangent to the line:
+	It points in the **direction of the line**, meaning the vector indicates the line's slope or direction of travel).
+		The Direction Vector is therefore **perpendicular** to the normal vector just is the line itself.
+			If $[a,b]$ is the normal vector, a direction vector $\LARGE \vec{d}$ for the line can be given by swapping and negating one of the components:
+				$\LARGE [b,−a]$ or $\LARGE [-b, a]$ Either of these vectors points along the line.
+
+For the direction vector $[b,−a]$:
+- The **change in $y$** corresponds to $−a$ (the second component).
+- The **change in $x$** corresponds to $b$ (the first component).
+
+The ratio of these changes gives the slope: 
+$$\LARGE m = \frac{\text{change in } y}{\text{change in } x} = \frac{-a}{b}.$$
+#### Connecting the Scaling to the Direction Vector
+In the standard form, $ax+by=c$, the coefficients $a$ and $b$ scale the $x$ and $y$ terms to define the line's orientation.
+	These coefficients determine **how steep** the line is and thus influence the direction vector.
+##### Scaling and the Direction Vector
+Since the line’s direction vector is $[b,−a]$, the coefficients $a$ and $b$ directly dictate the **ratio** of change between $x$ and $y$ as you move along the line:
+    If you increase the scalar $x$ by some amount $\LARGE \Delta x = b$, the corresponding change in $y$ would be $\LARGE \Delta y = -a$.
+##### Direction Vector as a Reflection of Scaling
+The direction vector $[b,−a]$ captures how much you move in the $x$ and $y$ directions relative to each other, based on the line’s orientation given by the normal vector $[a,b]$.
+	Thus, the coefficients $a$ and $b$ inherently encode the "steepness" of the line:
+	    The slope of the line is $\LARGE -\frac{a}{b}$​, which comes directly from the ratio of the components in the direction vector $[b,−a]$.
+##### Direction Vector as a Reflection of the Influence of the Normal Vector's Components
+$$\LARGE \vec{d} = [b, -a], \quad \vec{n} = [a, b], \quad m = - \frac{a}{b}$$
+$$\LARGE \text{Where }\quad \vec{d}= b\hat{i} + -a \hat{j} \quad \vec{n}= a\hat{i} + b \hat{j}$$
+###### Influence of $b$ Component
+As it is associated with $y$ in the normal vector, it becomes the change in $x$ in the direction vector.
+###### Influence of $−a$ Component
+As it is associated with $x$ in the normal vector, it becomes the change in $y$ in the direction vector.
+#### Fundamental Geometric Insight
+The **normal vector** $[a,b]$ provides the direction that is perpendicular to the line. 
+	The **slope** $\LARGE -\frac{a}{b}$ is a manifestation of this perpendicular relationship. It indicates how the line "falls off" relative to the x-axis as you move along it.
+		The relationship between the normal vector and the slope is geometric: the normal vector's components $a$ and $b$ give the "rise" and "run" of a vector that is **orthogonal** to the line's direction.
+			Inversely, knowing the slope $m$ gives information about the direction of the normal vector.
+				 If the slope of a line is $m$, the normal vector can be constructed as $[m,−1]$ or any scalar multiple of this vector, such as $\LARGE [a, b] = [-b, a]$

@@ -226,7 +226,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -293,7 +293,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Keystone Notion/Points as Vectors.md",
+                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Linearity/Dot Product.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -310,7 +310,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Keystone Notion/Points as Vectors.md",
+                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Linearity/Dot Product.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -333,7 +333,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Keystone Notion/Points as Vectors.md"
+                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Linearity/Dot Product.md"
               }
             }
           },
@@ -367,10 +367,13 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "5b07e9da3876c9f1",
+  "active": "356a486210811275",
   "lastOpenFiles": [
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Linearity/Dot Product.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Keystone Notion/Points as Vectors.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Linearity/Dot Product.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Systems of Equations/State Vectors.md",
+    "Drawing/Technical Drafting/Horizon Line as Linear Trans..md",
+    "Drawing/Technical Drafting",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Straight Lines.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Axes and Dimensions.md",
     "notes to add to abstract math spaces.md",
@@ -399,8 +402,6 @@
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Planes.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Parametrization.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Godel Incompleteness.md",
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Lines.md",
-    "Untitled 1.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Arc Length",
     "Pasted image 20240915063908.png",
     "Pasted image 20240915063717.png",
@@ -413,7 +414,6 @@
     "Data/Abstract Mathematical Spaces/Linear Algebra/Untitled",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets",
     "Data/ABSTRA~1/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Types of Forces",
-    "Data/ABSTRA~1/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Newton's Laws of Motion",
-    "Data/ABSTRA~1/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis"
+    "Data/ABSTRA~1/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Newton's Laws of Motion"
   ]
 }
