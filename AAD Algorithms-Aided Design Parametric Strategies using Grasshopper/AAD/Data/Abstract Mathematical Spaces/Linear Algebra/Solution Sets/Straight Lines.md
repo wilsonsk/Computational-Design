@@ -2,6 +2,19 @@
 The functions that produce lines, are themselves solution sets, and each solution of the set is contained within the produced line.
 
 The line equation ax+by=cax + by = cax+by=c imposes a **linear constraint** on the coordinates (x,y)(x, y)(x,y) of points. In vector terms, this constraint defines a **subspace** of the 2D space — specifically, a 1-dimensional line.
+#### A Line as a Set of Position Vectors
+A **[[Points as Position Vectors|position vector]]** $\vec{r} = x \hat{i} + y \hat{j}$ represents a point $(x,y)$ on the line.
+	It originates at the origin and points to the location $(x,y)$ in the coordinate system.
+
+Consider **every point** $(x,y)$ on the line as being represented by a **[[#Position Vectors, $ vec{r}$, are Cartesian Vectors|position vector]]**:
+$$\LARGE \vec{r} = x \hat{i} + y \hat{j}$$
+The line equation $ax+by=c$ tells us that for all position vectors $\vec{r}$ on the line, the dot product with the normal vector $\vec{n} = a \hat{i} + b \hat{j}$ is constant:
+$$\LARGE \vec{n} \cdot \vec{r} = c$$
+- This means that the projection of any point $\vec{r}$ onto the normal vector $\vec{n}$ is fixed, implying that all such points lie on a line orthogonal to $\vec{n}$.
+###### Origin of the Position Vector of a Point (on a line)
+Just like the normal vector, the position vector is drawn **from the origin** to the point on the line. 
+	This is a standard way to represent points in vector analysis.
+		 The vector $[x,y]$ gives the coordinates of the point in relation to the origin.
 ## Straight Lines in the Plane (I.e. Straight Lines in $\mathbb{R}^2$) 
 Lines in $\mathbb{R}^2$ (i.e. lines that exist in the plane) can be represented in 4 ways.
 ### 1. Standard Form of a Line

@@ -179,7 +179,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Keystone Notion/Points as Vectors.md",
+                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Keystone Notion/Points as Position Vectors.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e75c41438e9312ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Keystone Notion/Line as a Set of Position Vectors.md",
                 "mode": "source",
                 "source": false
               }
@@ -293,7 +305,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Linearity/Dot Product.md",
+                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Keystone Notion/Line as a Set of Position Vectors.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -310,7 +322,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Linearity/Dot Product.md",
+                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Keystone Notion/Line as a Set of Position Vectors.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -333,7 +345,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Linearity/Dot Product.md"
+                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Keystone Notion/Line as a Set of Position Vectors.md"
               }
             }
           },
@@ -367,25 +379,27 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "356a486210811275",
+  "active": "e75c41438e9312ff",
   "lastOpenFiles": [
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Keystone Notion/Points as Vectors.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Linearity/Dot Product.md",
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Systems of Equations/State Vectors.md",
-    "Drawing/Technical Drafting/Horizon Line as Linear Trans..md",
-    "Drawing/Technical Drafting",
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Straight Lines.md",
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Axes and Dimensions.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Keystone Notion/Line as a Set of Position Vectors.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Keystone Notion/Normal Vector.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Keystone Notion/Points as Position Vectors.md",
     "notes to add to abstract math spaces.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Spaces.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/A Map of Change as Rates to Limits of those Rates to Differentials to Derivatives.md",
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Division.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Mapping.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Gradients.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Partial Derivatives.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Jacobian Matrix.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Multi-Variable Composite Functions.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Axes and Dimensions.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Straight Lines.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/A Map of Change as Rates to Limits of those Rates to Differentials to Derivatives.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Systems of Equations/State Vectors.md",
+    "Drawing/Technical Drafting/Horizon Line as Linear Trans..md",
+    "Drawing/Technical Drafting",
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Division.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Curves as Parametric Functions.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Degrees of Freedom.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Arc Length/Parametrization by Arc Len.md",
@@ -400,8 +414,6 @@
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Vectors.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Keystone Notion",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Planes.md",
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Parametrization.md",
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Godel Incompleteness.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Arc Length",
     "Pasted image 20240915063908.png",
     "Pasted image 20240915063717.png",

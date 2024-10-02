@@ -62,7 +62,8 @@ Here:
 - $[a, b]$ is the **normal vector** to the line.
 - $(x,y)$ is the coordinate of any point on the line, and can be seen as a [[[Points as Vectors#Position Vectors, $ vec{r}$, are Cartesian Vectors|position vector]], $\vec{r}$.
 #### The Normal Vector $[a,b]$
-The Normal Vector is a vector that is **perpendicular** to the line. Its components aaa and bbb describe its direction in the coordinate plane.
+The Normal Vector is a vector that is **perpendicular** to the line.
+	Its components $a$ and $b$ describe its direction in the coordinate plane.
 
 Exists for every point on the line, and the constant $c$ in the line equation $ax+by=c$ is related to the line's perpendicular distance from the origin. 
 	This vector is constant for the entire line—it does not change for different points on the line.
@@ -78,7 +79,7 @@ By convention, we visualize the normal vector as **originating from the origin**
 ###### Length of the Normal Vector
 The length (magnitude) of the normal vector is $\LARGE \sqrt{a^2 + b^2}$​.
 	This length is used to normalize distances in some geometric calculations, such as finding the perpendicular distance of the line from the origin.
-#### Line as a Set of Position Vectors
+#### A Line as a Set of Position Vectors
 A **position vector** $\vec{r} = x \hat{i} + y \hat{j}$ represents a point $(x,y)$ on the line.
 	It originates at the origin and points to the location $(x,y)$ in the coordinate system.
 
@@ -91,7 +92,7 @@ $$\LARGE \vec{n} \cdot \vec{r} = c$$
 Just like the normal vector, the position vector is drawn **from the origin** to the point on the line. 
 	This is a standard way to represent points in vector analysis.
 		 The vector $[x,y]$ gives the coordinates of the point in relation to the origin.
-### The Standard Form of a Line a Dot Product
+### The Standard Form of a Line as a Dot Product
 A line $ax+by =c$ as a set of position vectors that have a perpendicular distance from origin along the normal vector that is given by c over the magnitude of the normal vector.
 
 The line equation $ax+by=c$ tells us that for every point on the line, the projection of the position vector $[x,y]$ onto the normal vector $[a,b]$ is a constant $c$.
@@ -163,7 +164,7 @@ If you draw the normal vector $[a,b]$ starting from the origin, the line $ax+by=
 The slope $\LARGE -\frac{a}{b}$​ arises from the **ratio** of the components of the normal vector. 
 	This ratio determines how the line behaves in space.
 		If the normal vector $[a,b]$ changes direction (i.e., if the values of $a$ and $b$ change), the slope of the line changes accordingly.
-##### The Slope
+#### The Slope
 In Standard Form, $a,b$ identify how much $x,y$ have been scaled by.
 - $a$: Determines how much the $x$-component is scaled.
 - $b$: Determines how much the $y$-component is scaled.
@@ -179,7 +180,7 @@ The slope $\LARGE m = -\frac{a}{b}$​ represents the **ratio** of the change in
 
 This ratio is fundamental because it expresses the **directionality** of the line. 
 	The normal vector $[a,b]$ dictates the line’s orientation, while the slope $-\frac{a}{b}$​ describes how the line rises or falls as you move along the $x$-axis.
-##### The Direction Vector of a Line, (i.e. the negation of a one component of the Normal Vector), $\LARGE [b,−a]$ or $\LARGE [-b, a]$
+#### The Direction Vector of a Line, (i.e. the negation of a one component of the Normal Vector), $\LARGE [b,−a]$ or $\LARGE [-b, a]$
 The vector $[b,−a]$ is perpendicular to $[a,b]$ because their dot product equals zero:
 $$\LARGE [a, b] \cdot [b, -a] = ab - ab = 0$$
 This confirms that $[b,−a]$ is indeed a direction vector along the line.
@@ -197,7 +198,7 @@ For the direction vector $[b,−a]$:
 
 The ratio of these changes gives the slope: 
 $$\LARGE m = \frac{\text{change in } y}{\text{change in } x} = \frac{-a}{b}.$$
-#### Connecting the Scaling to the Direction Vector
+##### Connecting the Scaling to the Direction Vector
 In the standard form, $ax+by=c$, the coefficients $a$ and $b$ scale the $x$ and $y$ terms to define the line's orientation.
 	These coefficients determine **how steep** the line is and thus influence the direction vector.
 ##### Scaling and the Direction Vector
@@ -208,12 +209,22 @@ The direction vector $[b,−a]$ captures how much you move in the $x$ and $y$ di
 	Thus, the coefficients $a$ and $b$ inherently encode the "steepness" of the line:
 	    The slope of the line is $\LARGE -\frac{a}{b}$​, which comes directly from the ratio of the components in the direction vector $[b,−a]$.
 ##### Direction Vector as a Reflection of the Influence of the Normal Vector's Components
-$$\LARGE \vec{d} = [b, -a], \quad \vec{n} = [a, b], \quad m = - \frac{a}{b}$$
+$$\LARGE ax +by = c$$
+$$\LARGE \vec{d} = [b, -a], \quad \vec{n} = [a, b], \quad m = \frac{-a}{b} =  \frac{\Delta y}{\Delta x}$$
 $$\LARGE \text{Where }\quad \vec{d}= b\hat{i} + -a \hat{j} \quad \vec{n}= a\hat{i} + b \hat{j}$$
 ###### Influence of $b$ Component
 As it is associated with $y$ in the normal vector, it becomes the change in $x$ in the direction vector.
 ###### Influence of $−a$ Component
 As it is associated with $x$ in the normal vector, it becomes the change in $y$ in the direction vector.
+##### The Direction Vector and the Slope
+A direction vector $[b,−a]$ describes the direction in which the line runs.
+	The components of this vector show how far you move horizontally ($x$-axis) and vertically ($y$-axis) as you traverse the line. 
+		The ratio of these movements ($\LARGE \frac{\Delta y}{\Delta x} = -\frac{a}{b}$​) is precisely the line's slope.
+##### Why the Direction Vector Encodes the Slope
+The line's slope tells you how steep the line is, which means how much it rises or falls as you move horizontally.
+	The direction vector $[b,−a]$ provides this directional information:
+	    If you were to move along the direction vector from one point on the line to another, you would be following the line's slope.
+		    The direction vector's components directly reflect the line's change in $y$ relative to a change in $x$, thus encoding the slope.
 #### Fundamental Geometric Insight
 The **normal vector** $[a,b]$ provides the direction that is perpendicular to the line. 
 	The **slope** $\LARGE -\frac{a}{b}$ is a manifestation of this perpendicular relationship. It indicates how the line "falls off" relative to the x-axis as you move along it.

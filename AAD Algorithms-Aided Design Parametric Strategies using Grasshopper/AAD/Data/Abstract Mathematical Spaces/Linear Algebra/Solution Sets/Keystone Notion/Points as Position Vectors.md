@@ -1,4 +1,4 @@
-# Points as Vectors
+# Points as Position Vectors
 A concept called Cartesian Vectors.
 ## Vectors
 $$\LARGE \vec{v} = \mathbf{v} = (v_1, v_2, v_3) = \begin{bmatrix} v_1 \\ v_2 \\v_3 \end{bmatrix} = \begin{bmatrix} \Delta{v}_1 \\ \Delta v_2 \\ \Delta v_3 \end{bmatrix} = (v_1)\hat{i} + (v_2) \hat{j} + (v_3) \hat{k}$$
@@ -255,102 +255,8 @@ $$\LARGE T(\vec{x} + \vec{y} + \vec{z}) = T(\vec{x}) + T(\vec{y}) + T(\vec{z})$$
 $$\LARGE T(\alpha\vec{x}) = \alpha T(\vec{x}), \quad \text{Where $\alpha$ is a scalar}$$
 ##### The [[Linear Combinations|Linear Combinations]] of Vectors is Equal to the Linear Combination of the Images of the Vectors
 $$\LARGE T(\alpha \vec{x} + \beta \vec{y}) = \alpha T(\vec{x}) + \beta T(\vec{y}), \quad \text{Where $\alpha$ and $\beta$ are are scalars}$$
-## The Derivation of the Standard Form Line Equation 
-A line $ax+by =c$ as a set of position vectors that have a perpendicular distance from origin along the normal vector that is given by c over the magnitude of the normal vector.
 
 
-The equation of a line in 2D space is a **formal constraint** that describes a **set of values**, and **geometrically** defines those set of points to lie on a line 2D space.
-$$\LARGE ax + by = c$$
-Where $a,b$, and $c$ are constants, and $(x,y)$ are coordinates in the 2D plane.
-	$c$ is a constant that determines the line's position relative to the origin.
-		This equation defines a relationship between $x$ and $y$ that all points on the line satisfy. 
-			Geometrically, $(a,b)$ represents a vector perpendicular (normal) to the line, and $c$ determines the line's distance from the origin.
-
-The line itself is all the points $(x,y)$ that satisfy the equation $ax+by=c$.
-	The line equation imposes a **linear constraint** on the coordinates $(x,y)$ of points. 
-		In vector terms, this constraint defines a **subspace** of the 2D space — specifically, a 1-dimensional line.
-### Origin in Vector Spaces
-The standard form of the line equation can be understood as derived from the **[[Data/Abstract Mathematical Spaces/Linear Algebra/Linearity/Dot Product|dot product]]** of vectors. 
-	This implies that the line equation is rooted in the geometry of vector spaces:
-	    The line equation can be seen as expressing the fact that all points on the line have a **constant projection** onto the normal vector $[a,b]$.
-		    This highlights that the line equation is inherently about the relationship between vectors and their directions, i.e., the constraints imposed on a vector's coordinates to lie on a line.
-
-The line equation imposes a **linear constraint** on the coordinates of points.
-	In vector terms, this constraint defines a **subspace** of the 2D space — specifically, a 1-dimensional line.
-
-The coefficients $a$ and $b$ act as **weights** that combine the standard basis vectors $\hat{i} = \begin{bmatrix} 1 \\ 0 \end{bmatrix}$ and $\hat{j} = \begin{bmatrix} 0 \\ 1 \end{bmatrix}$.
-	This combination defines the line's normal vector $\vec{n}$, which is central to understanding the line's orientation.
-### Geometric Implications of the Components
-###### $\LARGE a$ and $\LARGE b$
-They define the direction orthogonal (perpendicular) to the line. 
-	The ratio $\LARGE \frac{a}{b}$​ gives the slope of the line when $b \neq 0$.
-		 Geometrically, these coefficients indicate how the line changes as you move along the $x$ or $y$ directions.
-###### $\LARGE c$
-This shifts the line in the direction of the normal vector.
-	If you change $c$ while keeping $a$ and $b$ constant, you’re moving the line along the direction perpendicular to its orientation.
-### Line as a Set of Vectors
-Consider **every point** $(x,y)$ on the line as being represented by a **[[#Position Vectors, $ vec{r}$, are Cartesian Vectors|position vector]]**:
-$$\LARGE \vec{r} = x \hat{i} + y \hat{j}$$
-The line equation $ax+by=c$ tells us that for all position vectors $\vec{r}$ on the line, the dot product with the normal vector $\vec{n} = a \hat{i} + b \hat{j}$ is constant:
-$$\LARGE \vec{n} \cdot \vec{r} = c$$
-- This means that the projection of any point $\vec{r}$ onto the normal vector $\vec{n}$ is fixed, implying that all such points lie on a line orthogonal to $\vec{n}$.
-### Linking to Linear Transformations
-You can think of the line equation as the result of a **linear transformation** applied to the vector
-$$\LARGE \vec{r} = \begin{bmatrix} x \\ y \end{bmatrix}$$
-$$\LARGE T(\vec{r}) = \begin{bmatrix} a & b \end{bmatrix} \cdot \vec{r}$$
-This transformation "projects" $\vec{r}$ onto the direction of $\vec{n}$.
-	The line itself is the set of all vectors $\vec{r}$ that, under this transformation, yield the constant value $c$. 
-		This perspective shows that the line equation is tied to the concept of **projection** in vector spaces.
-### A Linear Map from Vectors to Scalars (i.e. A Scalar Function)
-The dot product with a fixed vector $[ab]$ can be interpreted as a linear map from vectors in $\mathbb{R}^2$ to scalars in $\mathbb{R}$:
-$$\LARGE T(\vec{r}) = \begin{bmatrix} a & b \end{bmatrix} \cdot \vec{r}$$
-Where $\vec{v} = [x \, y]$.
-	This operation maps the vector $\vec{v}$ to a scalar, and it is **linear** because it satisfies the properties of linearity (additivity and scalar multiplication).
-
-If you think of this dot product as a **linear map**, it can be interpreted as **extracting a certain "projection" or "component"** of the vector $[xy]$ in the direction of the fixed vector $[a \, b]$.
-	In this sense, the dot product acts like a **transformation** that compresses the information of the vector $[xy]$ into a single scalar, $c$.
-### Dot Product Representation:
-expressing the standard form of a line ax+by=cax + by = cax+by=c as a dot product is indeed a formal and valid way to represent the line in linear algebra. Here's how this works and why it's a formal representation:
-- The standard form of a line in 2D is given by:
-    
-    ax+by=c,ax + by = c,ax+by=c,
-    
-    where aaa and bbb are constants that define the slope and orientation of the line, and 
-    
-- This can be rewritten using the **dot product** of two vectors:
-    
-    [ab]⋅[xy]=c,\begin{bmatrix} a & b \end{bmatrix} \cdot \begin{bmatrix} x \\ y \end{bmatrix} = c,[a​b​]⋅[xy​]=c,
-    
-    where [ab]\begin{bmatrix} a & b \end{bmatrix}[a​b​] is a vector normal to the line, and [xy]\begin{bmatrix} x \\ y \end{bmatrix}[xy​] is a point on the line.
-    
-
-### 2. **Why This Is a Formal Representation:**
-
-- **Dot Product:** The dot product of two vectors n⃗=[ab]\vec{n} = \begin{bmatrix} a & b \end{bmatrix}n=[a​b​] and v⃗=[xy]\vec{v} = \begin{bmatrix} x & y \end{bmatrix}v=[x​y​] is defined as:
-    
-    n⃗⋅v⃗=a⋅x+b⋅y.\vec{n} \cdot \vec{v} = a \cdot x + b \cdot y.n⋅v=a⋅x+b⋅y.
-    
-    This operation results in a scalar quantity. In this case, the dot product equals the constant ccc, which represents a specific geometric condition that the point (x,y)(x, y)(x,y) must satisfy to lie on the line.
-    
-- **Normal Vector:** The vector [ab]\begin{bmatrix} a & b \end{bmatrix}[a​b​] is **normal** (perpendicular) to the line. This means it defines the orientation of the line. The equation n⃗⋅v⃗=c\vec{n} \cdot \vec{v} = cn⋅v=c indicates that for any point (x,y)(x, y)(x,y) on the line, the projection of the point onto the normal vector remains constant, which geometrically defines a line.
-    
-- **Geometric Constraint:** The expression n⃗⋅v⃗=c\vec{n} \cdot \vec{v} = cn⋅v=c is a **linear constraint** in the plane. In linear algebra, this is formally understood as the set of points (x,y)(x, y)(x,y) that satisfy this constraint, which forms a line.
-    
-
-### 3. **Advantages of the Dot Product Representation:**
-
-- **Compactness:** Using the dot product provides a compact and vector-based way to express the line equation.
-- **Extension to Higher Dimensions:** This method of using a normal vector to define a linear constraint can be extended to higher dimensions. For example, in 3D, the equation ax+by+cz=dax + by + cz = dax+by+cz=d can be written as the dot product n⃗⋅v⃗=d\vec{n} \cdot \vec{v} = dn⋅v=d, where n⃗=[a,b,c]\vec{n} = [a, b, c]n=[a,b,c] is a normal vector to the plane.
-- **Relation to Linear Algebra:** This representation connects directly to linear algebra concepts such as vector projection, orthogonality, and linear constraints.
-
-### 4. **Formal Interpretation:**
-
-- In the dot product form, [ab]⋅[xy]=c\begin{bmatrix} a & b \end{bmatrix} \cdot \begin{bmatrix} x \\ y \end{bmatrix} = c[a​b​]⋅[xy​]=c, we are specifying that the vector [xy]\begin{bmatrix} x & y \end{bmatrix}[x​y​] lies on a line whose normal vector is [ab]\begin{bmatrix} a & b \end{bmatrix}[a​b​]. The constant ccc controls the line's offset from the origin.
-- In linear algebra, this is a **hyperplane equation** in 2D space (a line), which formally divides the space into regions based on the sign of the dot product.
-
-### **Conclusion:**
-
-Yes, expressing the standard form of a line ax+by=cax + by = cax+by=c as a dot product [ab]⋅[xy]=c\begin{bmatrix} a & b \end{bmatrix} \cdot \begin{bmatrix} x \\ y \end{bmatrix} = c[a​b​]⋅[xy​]=c is a formal and mathematically rigorous way to represent the line in linear algebra. It leverages the concept of the dot product to succinctly describe the geometric relationship that defines all points on the line.
 
 ## Relation to Linear Transformations
 The relationship between the line's dot product form and a linear transformation of a position vector comes down to how linear transformations affect vectors in space and how the conditions of the line's equation are preserved or modified under such transformations. Let’s break this down in the context of linear algebra.
