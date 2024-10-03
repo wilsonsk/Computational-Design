@@ -5,9 +5,9 @@ up:
 # [[Straight Lines|Line]] as a Set of Position Vectors
 Remember that [[Points as Position Vectors|Points are Position Vectors]].
 ## Representations of a Line
-### The Derivation of the Standard Form Line Equation 
+### The Derivation of the Normal Line Equation 
 The equation of a line in 2D space is a **formal constraint** that describes a **set of values**, and **geometrically** defines those set of points to lie on a line 2D space.
-$$\LARGE ax + by = c$$
+$$\LARGE ax + by + c= 0$$
 The coefficients $a$ and $b$ act as **weights** that combine the standard basis vectors $\hat{i} = \begin{bmatrix} 1 \\ 0 \end{bmatrix}$ and $\hat{j} = \begin{bmatrix} 0 \\ 1 \end{bmatrix}$.
 
 
@@ -68,7 +68,7 @@ Just like the normal vector, the position vector is drawn **from the origin** to
 		 The vector $[x,y]$ gives the coordinates of the point in relation to the origin.
 ### Defining a Line as a Set of Points
 A line in 2D can be described using an equation, often in its **standard form**:
-$$\LARGE ax+by=c$$
+$$\LARGE ax+by + c=0$$
 This equation represents the set of all points $(x,y)$ that lie on the line. 
 	For every pair $(x,y)$ that satisfies this equation, there is a **position vector** pointing to that location in the coordinate system.
 
@@ -79,8 +79,8 @@ The **line** itself can then be thought of as the collection (or set) of **all s
 	In other words, the **line is the set of all vectors $\vec{r}$ whose components $(x,y)$ make the equation true**.
 
 - - -
-### The Standard Form of a Line as a Dot Product
-A line $ax+by =c$ as a set of position vectors that have a perpendicular distance from origin along the normal vector that is given by c over the magnitude of the [[Normal Vector|normal vector]].
+### The Normal Equation of a Line as a Dot Product
+A line $ax+by + c=0$ as a set of position vectors that have a perpendicular distance from origin along the normal vector that is given by c over the magnitude of the [[Normal Vector|normal vector]].
 
 Where $a,b$, and $c$ are constants, and $(x,y)$ are coordinates in the 2D plane.
 	$c$ is a constant that determines the line's position relative to the origin.
@@ -90,10 +90,12 @@ Where $a,b$, and $c$ are constants, and $(x,y)$ are coordinates in the 2D plane.
 The line equation $ax+by=c$ tells us that for every point on the line, the projection of the position vector $[x,y]$ onto the [[Normal Vector]] $[a,b]$ is a constant $c$.
 
 **The left-hand side of the standard form equation of a line can be rewritten** using the **dot product**:
-### $$\LARGE ax + by = [a, b] \cdot [x, y] = c$$
+### $$\LARGE ax + by = [a, b] \cdot [x, y] = 0$$
+$$\text{This means that the point $[x,y]$ lies on the line that is perpendicular to the normal vector.}$$
+
 $$\LARGE \vec{n} = [a, b] \quad \text{and} \quad \vec{r} = [x, y]= x\hat{i} + y\hat{j}$$
 $$\LARGE \mathbf{n} \cdot \mathbf{r} = n_1 r_1 + n_2 r_2 = ax + by$$
-$$\LARGE \text{Because $ax+ by =c$}, \quad \vec{n} \cdot \vec{r} = [a, b] \cdot [x, y] = c$$
+$$\LARGE \text{Because $ax+ by =0$}, \quad \vec{n} \cdot \vec{r} = [a, b] \cdot [x, y] = 0$$
 The coefficients $a$ and $b$ act as **weights** that combine components of the position vector.
 	Which themselves are the linear combinations of $x,y$ with standard basis vectors $\LARGE \hat{i}, \hat{j}$.
 $$\LARGE \vec{r} = [x, y]= x\hat{i} + y\hat{j}$$
@@ -116,8 +118,8 @@ $$\LARGE \vec{n} \cdot \vec{r} = c$$
 - - -
 #### The Dot Product as a Scalar Function
 This is a scalar value:
-$$\LARGE \text{Because $ax+ by =c \quad$ and $ \quad \vec{n} \cdot \vec{r} = [a, b] \cdot [x, y] = ax + by$}$$
-$$\LARGE \text{Then, $\quad \vec{n} \cdot \vec{r} = [a, b] \cdot [x, y] = c$}$$
+$$\LARGE \text{Because $ax+ by + c= 0 \quad$ and $ \quad \vec{n} \cdot \vec{r} = [a, b] \cdot [x, y] = ax + by$}$$
+$$\LARGE \text{Then, $\quad \vec{n} \cdot \vec{r} = [a, b] \cdot [x, y] = 0$}$$
 $$\LARGE \text{Where $c$ is a scalar value}$$
 The scalar is produced because the **dot product** is designed to extract the magnitude of one vector's projection onto another vector.
 	The line equation then specifies that this projection has a constant value, $c$, for every point on the line.
@@ -136,8 +138,17 @@ This is a measurement of how much of the position vector $\vec{r} = \begin{bmatr
 When we perform the dot product $a \cdot x + b \cdot y$, what we're doing is measuring **how much** of the vector $[x,y]$ lies in the direction of the vector $[a, b]$.
 	The **dot product** operation combines the coordinates of $[x,y]$ with the coordinates of $[a,b]$ to produce a single number, $c$ reflecting this "amount" of projection.
 		This implies that for every point $(x,y)$ on the line, this projection is **constant** (equal to $c$).
-#### What $c$ Represents Geometrically
-$\LARGE c$ is a **scalar distance along the normal vector** that determines the **perpendicular distance**of the line.
+#### $c$ is a Translational Term
+##### What $c$ Represents Geometrically
+The constant $c$ can be thought of as controlling the line’s "offset" from the origin.
+
+The constant $c$ represents the **signed distance** of the line from the origin.
+	That is, it affects the **position** of the line relative to the origin.
+		When $c=0$ the line passes through the origin.
+			When $c \neq 0$, the line is positioned at some perpendicular distance from the origin.
+				I.e. If $c \neq 0$, the line is **shifted** in space.
+
+$\LARGE c$ is a **scalar** that helps determines the **perpendicular distance (along the normal vector) of the line to the origin**.
 	I.e. How far the line is positioned from the origin as measured along this Normal Vector. 
 		Since the normal vector $[a,b]$ originates from the origin, $c$ can be seen as controlling the line's **offset** along the direction of this normal vector.
 
@@ -159,12 +170,17 @@ Imagine you have the normal vector $[a,b]$ originating from the origin, as an ar
 The constant $c$ **specifies how far the line is from the origin** along the direction of the normal vector.
 	It does **not** represent a physical point but rather a scalar that determines the line’s position relative to the origin.
 
-The value of $c$ is related to the **perpendicular distance** of the line from the origin.
+The value of $c$ is related to the **signed perpendicular distance** of the line from the origin.
 	Specifically, the **distance** $d$ from the origin to the line $ax+by=c$ is: 
 $$\LARGE d = \frac{|c|}{\sqrt{a^2 + b^2}}$$
 Where: 
 - The term $\sqrt{a^2 + b^2}$​ is the length (or magnitude) of the normal vector $[a,b]$.
 - The ratio $\LARGE \frac{|c|}{\sqrt{a^2 + b^2}}$​ normalizes $c$ by the length of the normal vector to get the actual perpendicular distance from the origin to the line.
+
+This distance is measured **along the normal vector** $(a,b)$, which is orthogonal to the line.
+	The sign of $c$ indicates on which side of the origin the line lies relative to the normal vector's direction.
+		When $c=0$, the line passes through the origin.
+			When $c \neq 0$, the line is **shifted** in space to be at a fixed perpendicular distance from the origin, proportional to the value of $c$.
 - - - 
 
 ## The Relationship Between the Slope of a Line, [[Normal Vector|Normal Vector]] and Direction Vector
@@ -186,10 +202,21 @@ The line’s direction vector, is tangent to the line:
 		The Direction Vector is therefore **perpendicular** to the normal vector just is the line itself.
 			If $[a,b]$ is the normal vector, a direction vector $\LARGE \vec{d}$ for the line can be given by swapping and negating one of the components:
 				$\LARGE [b,−a]$ or $\LARGE [-b, a]$ Either of these vectors points along the line.
+#### A Fixed Ratio
+This condition enforces a specific **linear relationship** between $x$ and $y$, which describes the line’s slope and orientation.
 
 For the direction vector $[b,−a]$:
 - The **change in $y$** corresponds to $−a$ (the second component).
 - The **change in $x$** corresponds to $b$ (the first component).
+
+The equation $\LARGE [a, b] \cdot [x, y] = 0$, does **not** imply that $\LARGE x=b$ and $\LARGE y=−a$. 
+	The equation $\LARGE [a, b] \cdot [x, y] = 0$ is a **linear relationship** between $x$ and $y$.
+		This equation means that the coordinates $x$ and $u$ must satisfy the **linear equation** $ax+by=0$ to lie on the line.
+			This condition does **not** restrict $x$ and $y$ to specific values like $x=b$ and $y=−a$.
+				 Instead, it means that the ratio $\LARGE \frac{x}{y}$​ is fixed based on $a$ and $b$. 
+					Specifically, if $b \neq 0$, you can express this relationship as:
+					$$\LARGE y=\frac{-a}{b}x$$
+The point $(x,y)$ can take various values as long as this **proportionality** is satisfied.
 
 The ratio of these changes gives the slope: 
 $$\LARGE m = \frac{\text{change in } y}{\text{change in } x} = \frac{-a}{b}.$$
@@ -255,41 +282,53 @@ That is, the Linear Map takes a vector as an input and returns a scalar value th
 	This scalar position value is critical to determining the distance of the initial line from the origin. 
 - - - 
 ## Interpreting the Line Equation as a [[Points as Position Vectors#$ text{ textcolor{green}{Linear Transformation} textcolor{violet}{Applied to the Basis Vectors}}$ (Low Level)|Linear Transformation]]
+**Linear transformations** and **projections** are deeply intertwined with the nature of lines, and the dot product encapsulates this relationship by projecting vectors onto a specific direction (the normal vector), defining the linear relationship that gives rise to the line equation 
+
+This projection perspective shows why lines in 2D space have such a strong connection to linear transformations. 
+	When you apply a linear transformation to a vector space (like a rotation or scaling), the set of points that form a line (as defined by a constant projection) transforms in a way that preserves linearity, resulting in another line in the transformed space.
+
 The core idea is that the line equation can be seen as a **linear transformation** of the vector $\vec{r} = \begin{bmatrix} x \\ y \end{bmatrix}$ into a scalar value.
-$$ax + by = c$$
+$$\LARGE ax + by = c$$
+###### Line as a Linear Constraint
+The line equation represents a constraint on vectors $\vec{r} = \begin{bmatrix} x \\ y \end{bmatrix}$ in 2D space. 
+	This constraint can be viewed as a **projection** onto the normal vector, indicating that all points on the line share a specific linear relationship.
 ###### Linear Transformation
 The operation takes the vector $\vec{r} = \begin{bmatrix} x \\ y \end{bmatrix}$ and maps it to a **scalar** in $\mathbb{R}$. 
 	The dot product is a specific type of linear transformation that projects one vector (in this case, $\vec{r}$) onto another fixed vector (here, the normal vector $[a, b]$).
+
+The line equation can be seen as a result of a **linear transformation** (dot product) applied to the position vector $\vec{r}$. 
+	This transformation projects the vector onto the normal vector $[a, b]$ and yields a scalar $c$.
+
+The line itself is the set of all vectors in 2D that, under this projection, produce the same scalar value $c$. 
+	Thus, the line equation is fundamentally tied to the concept of projection and linear maps in vector spaces.
 ###### Resulting Line
 The line equation $ax + by = c$ defines the set of all vectors $\vec{r}$ in $\mathbb{R}^2$ that, when transformed by this operation, yield the constant scalar $c$.
 	This is why we can think of the line as a collection of vectors that satisfy this specific projection relationship.
 ### The Line as a Projection
 The dot product $\begin{bmatrix} a & b \end{bmatrix} \cdot \begin{bmatrix} x \\ y \end{bmatrix} = ax + by$ can be interpreted as projecting the vector $\vec{r} = \begin{bmatrix} x \\ y \end{bmatrix}$ onto the **fixed direction** of the vector $[a, b]$.
-**Geometric Projection:** In geometric terms, this operation "compresses" the 2D vector $\vec{r}$ onto the line defined by the normal vector $[a, b]$. The resulting scalar $c$ is the length of this projection, scaled by the magnitude of the normal vector $[a, b]$.
 
-### 3. **Linear Map from Vectors to Scalars:**
-- The dot product $T(\vec{r}) = \begin{bmatrix} a & b \end{bmatrix} \cdot \vec{r}$ is a **linear map** from the 2D vector space $\mathbb{R}^2$ to the scalar field $\mathbb{R}$. This mapping is linear because it respects the properties of linearity (additivity and scalar multiplication):
-  - **Additivity:** $T(\vec{r}_1 + \vec{r}_2) = T(\vec{r}_1) + T(\vec{r}_2)$.
-  - **Scalar Multiplication:** $T(c\vec{r}) = cT(\vec{r})$.
+###### Geometric Projection
+In geometric terms, this operation "compresses" the 2D vector $\vec{r}$ onto the line defined by the normal vector $[a, b]$.
+	The resulting scalar $c$ is the length of this projection, scaled by the magnitude of the normal vector $[a, b]$.
+#### Linear Map from Vectors to Scalars
+By interpreting the dot product as a linear map, we see that the line equation $ax + by = c$  is not just a constraint on coordinates but describes the set of vectors whose linear transformation (projection onto $[a, b]$) results in the constant scalar $c$.
+	This is the essence of what the line represents: it is the collection of vectors that satisfy this particular linear mapping.
 
-### 4. **Extracting the Projection:**
-- When you perform the dot product $T(\vec{r}) = \begin{bmatrix} a & b \end{bmatrix} \cdot \vec{r}$, you are essentially extracting the **component** of the vector $\vec{r}$ that lies in the direction of $[a, b]$. This is the **projection** of $\vec{r}$ onto the normal vector.
-- The result, a scalar $c$, "compresses" the information of the vector $[x, y]$ into a single number that reflects how much of $\vec{r}$ aligns with the normal vector $[a, b]$.
+The dot product $T(\vec{r}) = \begin{bmatrix} a & b \end{bmatrix} \cdot \vec{r}$ is a **linear map** from the 2D vector space $\mathbb{R}^2$ to the scalar field $\mathbb{R}$. 
+	This mapping is linear because it respects the properties of linearity (additivity and scalar multiplication):
+		  **Additivity:** $T(\vec{r}_1 + \vec{r}_2) = T(\vec{r}_1) + T(\vec{r}_2)$.
+		  **Scalar Multiplication:** $T(c\vec{r}) = cT(\vec{r})$.
+#### Extracting the Projection
+When you perform the dot product $T(\vec{r}) = \begin{bmatrix} a & b \end{bmatrix} \cdot \vec{r}$, you are essentially extracting the **component** of the vector $\vec{r}$ that lies in the direction of $[a, b]$. 
+	This is the **projection** of $\vec{r}$ onto the normal vector.
+		The result, a scalar $c$, "compresses" the information of the vector $[x, y]$ into a single number that reflects how much of $\vec{r}$ aligns with the normal vector $[a, b]$.
+#### Connecting to Linear Transformations and Lines
+**Linear Transformation:** Viewing the line equation $ax + by = c$ as a **linear map** helps us understand the line as a set of all vectors whose projection onto a fixed direction (given by $[a, b]$) results in a constant value $c$.
 
-### 5. **Connecting to Linear Transformations and Lines:**
-- **Linear Transformation:** Viewing the line equation $ax + by = c$ as a **linear map** helps us understand the line as a set of all vectors whose projection onto a fixed direction (given by $[a, b]$) results in a constant value $c$.
-- **Transformation of Space:** If we were to apply a different **linear transformation** (e.g., a matrix $A$) to the entire space, the set of vectors satisfying $ax + by = c$ would transform correspondingly. This is why lines map to other lines under linear transformations: the relationship $ax + by = c$ changes but maintains its linearity in the transformed space.
+**Transformation of Space:** If we were to apply a different **linear transformation** (e.g., a matrix $A$) to the entire space, the set of vectors satisfying $ax + by = c$ would transform correspondingly.
+	This is why lines map to other lines under linear transformations: the relationship $ax + by = c$ changes but maintains its linearity in the transformed space.
+#### How the Concepts Link Together
 
-### 6. **How the Concepts Link Together:**
-- **Line as a Linear Constraint:** The line equation represents a constraint on vectors $\vec{r} = \begin{bmatrix} x \\ y \end{bmatrix}$ in 2D space. This constraint can be viewed as a **projection** onto the normal vector, indicating that all points on the line share a specific linear relationship.
-- **Linear Map as a Dot Product:** By interpreting the dot product as a linear map, we see that the line equation $ax + by = c$ describes the set of vectors whose linear transformation (projection onto $[a, b]$) results in the constant scalar $c$. This is the essence of what the line represents: it is the collection of vectors that satisfy this particular linear mapping.
 
-### **Summary:**
-- The line equation $$ax + by = c$$ can be seen as a result of a **linear transformation** (dot product) applied to the position vector $\vec{r}$. This transformation projects the vector onto the normal vector $[a, b]$ and yields a scalar $c$.
-- The line itself is the set of all vectors in 2D that, under this projection, produce the same scalar value $c$. Thus, the line equation is fundamentally tied to the concept of projection and linear maps in vector spaces.
-- By interpreting the dot product as a linear map, we see that the line equation is not just a constraint on coordinates but a specific **linear relationship** in the space of vectors.
 
-### **Further Insight:**
-- This projection perspective shows why lines in 2D space have such a strong connection to linear transformations. When you apply a linear transformation to a vector space (like a rotation or scaling), the set of points that form a line (as defined by a constant projection) transforms in a way that preserves linearity, resulting in another line in the transformed space.
 
-In short, **linear transformations** and **projections** are deeply intertwined with the nature of lines, and the dot product encapsulates this relationship by projecting vectors onto a specific direction (the normal vector), defining the linear relationship that gives rise to the line equation $$ax + by = c$$.

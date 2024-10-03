@@ -198,18 +198,6 @@
             }
           },
           {
-            "id": "356a486210811275",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Linearity/Dot Product.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "4c2a9a71f0220f0f",
             "type": "leaf",
             "pinned": true,
@@ -383,6 +371,7 @@
   "lastOpenFiles": [
     "Data/Abstract Mathematical Spaces/Linear Algebra/Linearity/Dot Product.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Keystone Notion/Line as a Set of Position Vectors.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Straight Lines.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Keystone Notion/Normal Vector.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Keystone Notion/Points as Position Vectors.md",
     "notes to add to abstract math spaces.md",
@@ -394,7 +383,6 @@
     "Data/Abstract Mathematical Spaces/Linear Algebra/Jacobian Matrix.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Multi-Variable Composite Functions.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Axes and Dimensions.md",
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Straight Lines.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/A Map of Change as Rates to Limits of those Rates to Differentials to Derivatives.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Systems of Equations/State Vectors.md",
     "Drawing/Technical Drafting/Horizon Line as Linear Trans..md",

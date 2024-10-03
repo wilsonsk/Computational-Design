@@ -79,7 +79,7 @@ By convention, we visualize the normal vector as **originating from the origin**
 ###### Length of the Normal Vector
 The length (magnitude) of the normal vector is $\LARGE \sqrt{a^2 + b^2}$​.
 	This length is used to normalize distances in some geometric calculations, such as finding the perpendicular distance of the line from the origin.
-#### A Line as a Set of Position Vectors
+#### [[Line as a Set of Position Vectors|A Line as a Set of Position Vectors]]
 A **position vector** $\vec{r} = x \hat{i} + y \hat{j}$ represents a point $(x,y)$ on the line.
 	It originates at the origin and points to the location $(x,y)$ in the coordinate system.
 
