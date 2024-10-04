@@ -306,7 +306,6 @@ The line equation $ax + by = c$ defines the set of all vectors $\vec{r}$ in $\ma
 	This is why we can think of the line as a collection of vectors that satisfy this specific projection relationship.
 ### The Line as a Projection
 The dot product $\begin{bmatrix} a & b \end{bmatrix} \cdot \begin{bmatrix} x \\ y \end{bmatrix} = ax + by$ can be interpreted as projecting the vector $\vec{r} = \begin{bmatrix} x \\ y \end{bmatrix}$ onto the **fixed direction** of the vector $[a, b]$.
-
 ###### Geometric Projection
 In geometric terms, this operation "compresses" the 2D vector $\vec{r}$ onto the line defined by the normal vector $[a, b]$.
 	The resulting scalar $c$ is the length of this projection, scaled by the magnitude of the normal vector $[a, b]$.

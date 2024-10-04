@@ -134,17 +134,136 @@ Imagine an unformed state of potential.
 	A **constraint** is the act that **defines** what this potential becomes by **differentiating** it.
 		 Before the constraint, there is only formless possibility. 
 			 The constraint is what gives this potential form and identity, thereby establishing the conditions under which this state of being exists.
+##### Constraint and Identity
+**Constraint** is what **shapes** identity by imposing limits. 
+	Identity only emerges within a boundary—a constraint that excludes all other possibilities.
 #### Constraints Lead to Parameters
 When constraints are imposed on a state, they define **parameters**, which are **defining aspects** of the entity or state (i.e. that which **must be true** for that state to exist as it is).
 	That is, constraints they **restrict** a state or entity to specific **properties** or **characteristics** (i.e. parameters). 
-###### [[Axes and Dimensions#Parameters as Controllers of Axes|Parameters]]
+1. **Parameter**: Think of it as a potential for variation. It's like a knob you can turn to change things.
+2. **Constraint**: This sets the rules for how far you can turn the knob. It limits the parameter.
+3. **Differentiated State**: This is the outcome you get from turning the knob within the allowed range. It's the specific state or condition that results. 
+4. **Logic of Quantity**: This refers to how changes in parameters and constraints influence the differentiated state. It's about understanding how much and in what ways things can change. 
+5. **Solution Sets**: These are the possible outcomes or states that can result from varying the parameters within their constraints. They represent the range of possible differentiated states.
+
+In a system of linear equations, each equation acts as a constraint on the parameters. 
+	The more independent equations you have, the more you restrict the values the parameters can take.
+		 This is what we mean by reducing the "degrees of freedom."
+			  The solution set is the set of all possible parameter values that satisfy all the constraints (equations). It represents the possible "differentiated states" of the system.
+				  In the context of a system of linear equations, the solution set represents all the differentiated states that satisfy the constraints (equations). 
+					  Each solution in the set is a possible state of the system where all the equations are true. 
+						  So, a constraint can indeed lead to multiple differentiated states, depending on the number and nature of the equations.
+##### [[Axes and Dimensions#Parameters as Controllers of Axes|Parameters]]
+**Parameters** are abstract entities that represent **potential for variance or change** within a system or context.
+	They are **placeholders** for aspects that can vary, but without assigning any quantitative value to that variance.
+		Parameters **specify the ways in which differentiation can occur**. 
+			They are the aspects or features that, when varied, lead to different states or instances of a system.
+				They **embody the potential changes** that can be applied to an entity, allowing for the exploration of various possibilities.
+
 A **parameter** can be thought of as a **controller** that specifies a particular feature or characteristic of a state, allowing it to vary within the imposed limits.
 	For example, in the context of shape, a constraint might define a **parameter** such as "radius" for a circle.
 		**Parameters** arise because constraints **limit** what a state can be, and these limits give rise to measurable or definable aspects along which we can assess the state.
 			[[#Dimensions|Dimensions]] are latent until realized through the process of [[#Quantification|quantification]].
-###### Constraint and Identity
-**Constraint** is what **shapes** identity by imposing limits. 
-	Identity only emerges within a boundary—a constraint that excludes all other possibilities.
+
+###### Degrees of Freedom
+The number of parameters corresponds to the number of degrees of freedom or dimensions in parameter space. 
+	Each unique set of parameter values specifies a point in this space, representing a specific instance of the mathematical object or system.
+###### Parameters and Identities
+Parameters are constants within a specific context but can vary in a broader scope.
+	They define a family of objects or functions rather than a single instance. Parameters set conditions or constraints under which variables operate.
+		**Parameters** define the general identity or characteristics of a class of mathematical objects or instances—such as functions, equations, or geometric figures. 
+			They act as constants within a specific instance but can vary to produce different instances within the same class.
+##### Methods to Apply Constraints to Parameters
+A constraint is like a rule or condition that limits the values a parameter can take. 
+	When you apply a constraint, you're essentially reducing the range or dimensions over which the parameter can vary.
+###### Variables
+Variables are symbols representing quantities that can change or vary within the context of mathematical expressions, equations, or functions.
+	**Role:** Variables are the **dynamic elements** that interact according to the rules defined by equations and are influenced by parameters.
+###### Parameter Configuration Relative to Variables
+Parameters are integrated into equations alongside variables but are treated as constants within the context of a specific problem. They shape the relationship between variables by setting constraints or defining specific properties.
+	**Implementation:** Parameters are **implemented** in equations through their roles as coefficients, exponents, or constants that modify how variables interact.
+
+These **parameters are implemented through their configuration relative to the variables in the equations or functions.** 
+	They set the framework or constraints within which the variables operate. 
+		By altering the parameters, you change the specific relationship between the variables, effectively selecting different instances within the class defined by those parameters.
+			In this way, **parameters configure the relationship between variables**, determining how changes in one variable affect another within the constraints of the defined class. 
+				They allow us to explore a whole family of behaviors or configurations by adjusting their values while keeping the underlying structure of the equations consistent.
+###### Limiting its Range
+By specifying minimum and/or maximum values that the parameter can take. 
+	Set minimum and/or maximum limits for the parameter.
+		For example, restricting an angle to be between 0 and 180 degrees.
+###### Setting Specific Values
+By requiring the parameter to be one of a defined set of values.
+	Define a parameter to take on specific values only. 
+		For instance, a parameter might be constrained to be either 1, 2, or 3, but nothing else.
+###### Relating it to Other Parameters
+By creating equations or inequalities that link multiple parameters together.
+	Link parameters together through equations or inequalities. 
+		For example, if one parameter increases, another might be constrained to decrease proportionally.
+###### Conditional "[[#Logic Emerges from Defined Relationships|Logic]]"
+Use if-then rules to constrain a parameter based on certain conditions or states within the system.
+##### Fundamental (Low-Level) Parameters
+These are parameters that define the very structure or dimensionality of the space or system. 
+	They are intrinsic to the definition of the space and can be thought of as representing dimensions themselves.
+		**Parameters Represented as Dimensions**: In certain mathematical contexts, parameters are used to define the dimensions of a space or manifold. They are not merely constants but serve as coordinates that span the space.
+			Example: In certain mathematical contexts, parameters are used to define the dimensions of a space or manifold. 
+				They are not merely constants but serve as coordinates that span the space.
+##### Higher-Level Parameters
+These parameters operate within the established dimensions, further constraining relationships between variables or defining specific properties of objects within the space.
+	**Parameters as Constants within the Space**: Once the dimensions are established, other parameters can act as constants that define specific properties or constraints within that space.
+		**Constraining Relationships**: These parameters affect how variables relate to each other within the established dimensions, shaping the behavior or properties of objects.
+#### Degrees of Freedom as Dimensions
+Each parameter represents a degree of freedom that defines a particular instance within a family of objects. 
+	In this sense, parameters span a space where each point corresponds to a specific set of parameter values, leading to a specific instance of the mathematical object in question.
+
+- **Parameter Space:** When considering all possible values that parameters can take, we create a **parameter space**. Each parameter represents an independent **dimension** in this space.
+    
+- **Dimensionality:** The number of parameters determines the dimensionality of the parameter space. For example, if a function depends on two parameters aaa and bbb, the parameter space is two-dimensional, with each point (a,b)(a, b)(a,b) representing a specific instance of the function.
+###### Dimension
+**Dimensions** are the **independent aspects or contexts** within which variance or differentiation can occur.
+	They represent the **avenues or directions** along which change is possible, again without invoking any notion of quantity.
+		Dimensions provide the **framework or space** that allows for differentiation. They define the **scope of potential variance**.
+			Each dimension is an **independent context** where parameters can vary.
+
+This is the scale or range over which the parameter can vary.
+	It defines the "space" in which the parameter operates.
+		A dimension typically refers to the number of independent directions or degrees of freedom within a space.
+
+If a parameter has infinite degrees of freedom (e.g., can take any real number), it corresponds to a continuous dimension.
+
+Constraints or restrictions (such as limits on its range) reduce its degrees of freedom, thereby limiting the "space" it defines.
+###### Domain and Codomain
+The domain and codomain can be thought of as the potential differentiated spaces where the constraints act. 
+###### Domain 
+**Relation to Dimensions:** The dimension of the domain corresponds to the number of independent variables or parameters required to specify an input.
+
+Think of this as all the raw ingredients available to you, without any restrictions. 
+	It's every possible value your parameter can take before any rules are applied.
+		**Constraints** are the rules or limits that filter out some of your raw ingredients. They decide which values from the domain can be used.
+###### Codomain 
+**Relation to Parameters:** Parameters can influence the codomain by defining the range of possible outputs based on their effect on the function.
+
+This is like the potential menu you can serve. 
+	It's all the possible outcomes your function could theoretically produce, regardless of any constraints.
+		The codomain is a fundamental part of a function's definition.
+			It's typically defined at the same time as the function itself, specifying the set of values that could potentially come out of the function.
+				 It exists regardless of any constraints applied to the function.
+###### Range
+**Relation to Parameters and Dimensions:** The range is determined by applying the function to the domain, with parameters shaping the extent and nature of the outputs.
+
+The range, on the other hand, represents the realized states of differentiation after applying the constraints.
+	The range is derived from the domain and the constraints. Once you apply constraints to the domain, you filter out some values.
+		The range is the set of actual outputs you get from the function after applying these constraints to the domain.
+			 It's essentially the subset of the codomain that the function actually hits.
+
+This range indeed equates to the solution set of an equation, particularly when you're dealing with implicit functions. 
+	It's the set of outputs that satisfy the constraints imposed on the domain.
+
+The **range** of values a parameter can take depends on its **degrees of freedom**:
+###### Solution Sets
+**Relation to Parameters and Dimensions:** Parameters set the constraints that define the solution set. The dimensionality of the solution set depends on the number of independent variables minus the number of independent constraints imposed by the parameters.
+
+The set of all possible values of variables that satisfy a given equation or system of equations (constraints).
 
 - - -
 ### Equalities/Inequalities Establish Constraints 
@@ -1003,7 +1122,7 @@ This mapping is crucial in many fields of science and mathematics for simplifyin
     - Scalar Function: $I(x, y, z)$ might map each point to the intensity of the field at that point.
 ### [[#The Role of Composite Spaces in Inheritance and Extension|Building on the Foundation: Generating Vector Spaces *on Top of* the Real Number Field]]
 #### "Defining a Space over a Field"
-When we **define a Vector Space over the real number field** $\mathbb{R}$, we inherit and incorporate this field's underlying set and structure.
+When we **define a Vector Space $V$ over the real number field** $\mathbb{R}$, we inherit and incorporate this field's underlying set and structure.
 	Then the Vector Spaces adds additional elements to the Underlying Set, as well can extend the inherited structure, and/or add its own additional structure (i.e. operations and axioms) to form the vector space.
 
 The Real Number Field doesn't just supply underlying set (Real Numbers) in a vector field, it also maintains its initial structure which the vector space inherits.

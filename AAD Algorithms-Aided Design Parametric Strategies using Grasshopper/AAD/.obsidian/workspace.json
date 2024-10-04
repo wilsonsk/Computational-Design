@@ -176,13 +176,15 @@
           {
             "id": "5b07e9da3876c9f1",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Keystone Notion/Points as Position Vectors.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
             }
           },
           {
@@ -226,7 +228,7 @@
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -293,7 +295,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Keystone Notion/Line as a Set of Position Vectors.md",
+                "file": "notes to add to abstract math spaces.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -310,7 +312,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Keystone Notion/Line as a Set of Position Vectors.md",
+                "file": "notes to add to abstract math spaces.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -333,7 +335,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Keystone Notion/Line as a Set of Position Vectors.md"
+                "file": "notes to add to abstract math spaces.md"
               }
             }
           },
@@ -367,15 +369,11 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "e75c41438e9312ff",
+  "active": "5d9a89128f584bda",
   "lastOpenFiles": [
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Linearity/Dot Product.md",
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Keystone Notion/Line as a Set of Position Vectors.md",
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Straight Lines.md",
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Keystone Notion/Normal Vector.md",
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Keystone Notion/Points as Position Vectors.md",
-    "notes to add to abstract math spaces.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Spaces.md",
+    "notes to add to abstract math spaces.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Linearity/Vectors as Abstract Math Obj.md",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Mapping.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Derivatives.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Gradients.md",
@@ -383,15 +381,21 @@
     "Data/Abstract Mathematical Spaces/Linear Algebra/Jacobian Matrix.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Multi-Variable Composite Functions.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Axes and Dimensions.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/A Map of Change as Rates to Limits of those Rates to Differentials to Derivatives.md",
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Systems of Equations/State Vectors.md",
-    "Drawing/Technical Drafting/Horizon Line as Linear Trans..md",
-    "Drawing/Technical Drafting",
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Division.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Curves as Parametric Functions.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Degrees of Freedom.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Arc Length/Parametrization by Arc Len.md",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Types of Forces/Potentials.md",
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Division.md",
+    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Vectors.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Keystone Notion/Points as Position Vectors.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Keystone Notion/Line as a Set of Position Vectors.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Linearity/Dot Product.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Straight Lines.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Keystone Notion/Normal Vector.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/A Map of Change as Rates to Limits of those Rates to Differentials to Derivatives.md",
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Systems of Equations/State Vectors.md",
+    "Drawing/Technical Drafting/Horizon Line as Linear Trans..md",
+    "Drawing/Technical Drafting",
     "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Static Equilibrium.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Linearity/Linear Combinations.md",
     "Pasted image 20240927064406.png",
@@ -399,9 +403,7 @@
     "Pasted image 20240927062156.png",
     "Pasted image 20240927062124.png",
     "Pasted image 20240927062121.png",
-    "Data/Abstract Mathematical Spaces/Abstract Mathematical Objects/Vectors.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Keystone Notion",
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Planes.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Arc Length",
     "Pasted image 20240915063908.png",
     "Pasted image 20240915063717.png",
