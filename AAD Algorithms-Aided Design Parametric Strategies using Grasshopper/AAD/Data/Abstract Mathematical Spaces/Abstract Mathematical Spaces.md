@@ -30,13 +30,13 @@ In abstract mathematics, concepts are defined rigorously through axioms and defi
 The hierarchy from the most fundamental mathematical concepts (universal superset) to fields, spaces, categories, etc., is structured by increasing levels of complexity and structure.
 	Each subsequent level derives its elements and properties from the more fundamental levels, creating a layered approach to mathematical concepts.
 ### A Brief Overview: From the First Change to Patterns of Change
-##### The First Differentiation, $\LARGE [0 \space 1]$
+#### The First Differentiation, $\LARGE [0 \space 1]$
 The first Initial Change (the first relational existence).
 	When we speak of the **first differentiation** as the **distinction** between "this (1)" and "that (0)," we are essentially describing the **emergence of contrast** or the creation of a **boundary**.
 		 This act of differentiation introduces the concept of **difference** and thereby establishes the **relationship** between **two states**.
 			  This differentiation creates a **binary distinction**, marking the **interdependent existence** of "0" and "1." 
 				 Both rely on each other to define what they are; "0" is understood as **not-1**, and "1" as **not-0**.
-##### The First Differentiation as the First Dimension
+#### The First Differentiation as the First Dimension
 **Dimensions** serve as the basic properties or aspects that define a **differentiated state**.
 	They represent the potential for variance (or change) within that state.
 		Dimensions represent the **potential for change** itself, rather than the specific ways that change is constrained (which is the role of parameters).
@@ -49,19 +49,19 @@ In this framework, the act of differentiation—splitting into "this" and "that"
 			 Here, the **dimension** represents the fundamental ability to **distinguish** or **change** between states - it is an intrinsic "difference".
 				Therefore, this dimension is a **differentiated state** on its own because it encapsulates the primary **potential for change**—the existence of a "difference" between two relational states.
 					In abstract terms, this first dimension embodies the **concept of distinction**, which is a foundational property that enables all further differentiation and definition.
-##### The Relational and Interdependent Nature of the First Differentiation 
+#### The Relational and Interdependent Nature of the First Differentiation 
 The identity of this first dimension is inherently **relational** and **interdependent**.
 	"0" and "1" do not have meaning in isolation; they **define** each other through their difference.
 		The **interdependence** implies that this dimension encapsulates the fundamental quality of **existence through differentiation**.
 			By differentiating "this" from "that," it defines the basic framework of identity.
-##### The First Dimension as the First Differentiated State
+#### The First Dimension as the First Differentiated State
  This relational aspect is crucial because it shows that the **dimension** itself is not just an isolated entity but a **differentiated state** defined by its **contrast**.
 	It is the initial "differentiated state" that gives rise to the possibility of all subsequent structures, definitions, and transformations.
 		By defining a dimension, you are establishing a **baseline framework**—a unique **field of variance**. 
 			For example, the dimension "time" provides a foundation for expressing temporal changes, making "time" an identity unto itself.
 				The **difference** of this single property from others (such as "length" vs. "time") comes from its **distinct role** in expressing change. 
 					Each dimension's identity is characterized by the type of variance or potential it encapsulates.
-##### The First Differentiation is its Own Identity, and Identity as Potential 
+#### The First Differentiation is its Own Identity, and Identity as Potential 
 This initial differentiation creates an **identity**. 
 	Before a dimension is used in the definition of a more complex state, its identity is defined **by its inherent property**.
 		 It is not yet bound to specific constraints or configurations; it simply **"exists"** as a potentiality, an abstract foundation upon which more complex forms can be built.
@@ -73,25 +73,40 @@ The dimension formed by the distinction between "0" and "1" becomes a **unique e
 			 In other words, it embodies the **essence of duality**—the simultaneous presence of "this" and "that," "0" and "1."
 				This identity is abstract and fundamental because it serves as the **groundwork** for all further differentiation. 
 					It is the "first step" that allows for more complex structures, properties, and identities to emerge.
-##### The First Differentiation Constrained as an Instance Within the First Dimension
+#### The First Differentiation Constrained as an Instance Within the First Dimension (i.e. Reducing the Degrees of Freedom)
 **An instance can be produced without needing an additional dimension.** 
-	The key is to recognize that even within a **single dimension**, you can introduce parameters to create specific instances. Here's how:
+	The key is to recognize that even within a **single dimension**, you can introduce parameters to create specific instances. 
 	    Suppose the initial dimension is defined simply as a binary toggle between "0" and "1."
 		     We can introduce a **parameter** that dictates the **state** of this dimension.
 			      For example, a parameter $p$ could specify the condition under which the dimension is in state "0" versus state "1."
 				       In this case, $P$ acts as a **constraint** that defines a specific instance of the dimension’s behavior.
 					    Even though the dimension itself offers only a single **axis of variation** (between "0" and "1"), the parameter $p$ enables us to **select** or **control** how that axis expresses itself.
 						     This process can generate an **instance** of the dimension by fixing the parameter to a specific value or condition.
-###### The Parametrization of an Instance of the First Dimension
+##### The Parametrization of an Instance of the First Dimension
 I.e. The Implementation of the Definition via Constraint (i.e. the constraining of a dimension to a specific state).
 	**Parametrization** is the process of introducing **parameters** that **govern** or **control** the variance within a dimension.
 		 These parameters help define specific **instances** or **states** of that dimension.
+###### Equality (and thus Inequality) as the Fundamental Constraint
+The **types of constraints** (or operations) you can impose on a space—starting from **basic equality** to more complex operations like **addition**, **multiplication**, and beyond—are fundamentally influenced by both the **number of parameters** present and the **structure** of the **space** (whether it is a single dimension or involves multiple dimensions). 
+###### Dimensions and Parameters
+Each dimension introduces a new **degree of freedom**, and you need one parameter to control or describe each of those degrees.
+	The number of **intrinsic dimensions** (the fundamental degrees of freedom of the space) dictates how many **parameters** are required to describe any point within that space. 
+		In an $n$-dimensional space, you need $n$ parameters because each dimension allows for an independent way in which the points can vary
+###### An Instance of the First Dimension is Implemented through the Simplest (i.e. Most Abstract) Constraint
+ In a **single-dimensional space**, constraints primarily involve **individual parameters** and their relationships within a single property.
+	 Equality is a **low-level constraint** because it **assigns/fixes** a parameter within its space, reducing the dimension's variability to a single point. 
+		It serves as the foundation upon which more complex constraints can build.
 
-An Instance of the First Dimension is implemented through the simplest (i.e. most abstract) constraint.
-$$\LARGE p = x$$
+At the most basic level, **equality** represents the **simplest form** of constraint. 
+	It defines specific instances of a dimension or space by setting parameters to particular values.
+	    For example, in a 1-dimensional space, the constraint $x=3$ uses equality to specify a particular point on that line.
+$$\LARGE \text{A single Differentiated State in 1D: } \quad p = x$$
 		It cannot be $p + y = n$ because it is a single dimension whereby only one aspect is variable (i.e. only one dimension has variance).
-			$y$ has no ability to vary and thus cannot ***be*** a variable 
-###### Quantification (of the First Dimension) as the Outcome of Parametrization of the First Dimension 
+			$y$ has no ability to vary and thus cannot ***be*** a variable.
+
+Inequalities in this First Dimension defines a set of Differentiated States.
+$$\LARGE \text{A set of Differentiated States in 1D: }\quad p \leq x$$
+##### Quantification (of the First Dimension) as the Outcome of Parametrization of the First Dimension 
 When the **first dimension** is **constrained** to produce **instances** of itself, this is akin to the **assignment of value**. 
 	This process involves selecting or defining specific states within the dimension's inherent potential.
 		In this sense, **quantification** is the **outcome** of constraining the dimension to a specific state (i.e. Parametrization).
@@ -100,13 +115,7 @@ When the **first dimension** is **constrained** to produce **instances** of itse
 					 For example, consider a dimension representing **length**. Before constraining it, the dimension embodies a **potential** for any length. 
 						 When we constrain it by selecting a specific instance (e.g., "1 meter"), we are **assigning a value** to that dimension.
 							This assignment effectively **quantifies** one of the potential states of the dimension.
-##### A Second Differentiation as a Second (Independent) Dimension
-This Second Differentiated State is not in combination with the First Differentiated State (yet...).
-	The same process occurs for this Second Dimension as in the First.
-		Where this Second Dimension produces a Second Identity or Type.
-			Then the Dimension is Constrained via Parametrization, which produces the Instances  of this Second Dimension.
-				Each Instance is a Quantification (i.e. Value Assignment) of this Second Dimension.
-##### The Evolution of the First Dimension: Increasing the Number of Differentiated States (within the First Dimension)
+#### The Evolution of the First Dimension: Increasing the Number of Differentiated States (within the First Dimension)
 I.e. The increase in Differentiated States (i.e. variance) within this First Dimension.
 	Increase in "values"/Instances within bounds of the First Dimension.
 $$\LARGE [0 \space 1] \to [0 \space 1 \space 01 \space 11 \space 001 \space 011 \space 111 \dots]$$
@@ -128,7 +137,13 @@ The **bounds** of a dimension might **increase** to include more **differentiate
 	- The **constraints** that define the possible states of a dimension might evolve. 
 	- For instance, a dimension initially constrained to binary states (0 and 1) might be redefined to include intermediate states (e.g., probabilities between 0 and 1).
 		- This **refinement** expands the dimension's potential to include a continuous spectrum of differentiated states.
-##### An Evolution of Differentiation: The Increase in Complexity of Constraints, Differentiated States, and thus Dimensions
+#### A Second Differentiation as a Second (Independent) Dimension
+This Second Differentiated State is not in combination with the First Differentiated State (yet...).
+	The same process occurs for this Second Dimension as in the First.
+		Where this Second Dimension produces a Second Identity or Type.
+			Then the Dimension is Constrained via Parametrization, which produces the Instances  of this Second Dimension.
+				Each Instance is a Quantification (i.e. Value Assignment) of this Second Dimension.
+#### An Evolution of Differentiation: The Increase in Complexity of Constraints, Differentiated States, and thus Dimensions
 I.e. The combination of Dimensions.
 	This space now has the capacity to define **instances** (e.g., coordinates) that involve both dimensions.
 		That is, define new, more complex Identities defined by multiple Dimensions.
@@ -139,20 +154,40 @@ When you **combine** the first and second dimensions, you are creating a **new e
 			The definition of this 2D space emerges **from the interplay** of the two dimensions.
 				 It provides a structure where instances are now **pairs of values** representing both "length" (x) and "width" (y). 
 					 In this way, 2D space becomes a **new identity** that can express more complex forms of differentiation than either dimension alone.
-###### The Definition of a Type/Identity Equated to Multiple Dimensions (i.e. Properties)
+##### The Composite (Higher-Level) Identity: The Definition of a Type/Identity Equated to Multiple Dimensions (i.e. Properties)
 An **instance** of 2D space is a **specific point** defined by the **combination** of values from both dimensions. 
 	These instances are the **higher-level states** that result from combining the two dimensions. 
 		They possess **more than one property** because each point in 2D space inherently includes both an "x" and a "y" value.
 			Therefore, the **instances of 2D space** reflect the **interdependent relationship** between the two dimensions.
 				 A point in 2D space is **differentiated** not just by its x-value or y-value alone, but by the **specific combination** of both.
-###### The First Differentiation Constrained as an Instance Within the First Dimension- The Implementation of the Definition via Constraints (Parametrization)
+##### The Composite (Higher-Level) Instance: The Constrained Instance Within Two (combined) Dimensions: 
+The Implementation of the Definition via Constraints (Parametrization)
 Implemented through the Increasingly Complex Constraints.
 $$\LARGE p + x= y$$
 	It ***can be*** $p + x = y$ because it is a multiple dimension whereby.
 		$y$ has the ability to vary and thus can ***be*** a variable.
-
-test
-
+#### The Evolution of the Constraints
+##### Dimensionality Determines the Complexity of the Potential Constraints
+The **dimensionality** of the space dictates the **complexity** of the potential constraints. 
+	In a **one-dimensional space**, constraints are straightforward since they affect variance along a single line.
+		In **higher-dimensional spaces**, constraints can describe interactions across multiple dimensions.
+			As the **number of dimensions** increases, the nature of the constraints becomes more intricate, allowing for the definition of more complex differentiated states. 
+##### How Constraints Evolve with More Parameters
+The **dimensionality** of a space determines the **minimum number of parameters** required to fully describe a point or an instance within that space.
+	Essentially, each dimension introduces a new **degree of freedom**, and you need one parameter to control or describe each of those degrees.
+		 In **higher-dimensional spaces**, more parameters are needed because there are more ways in which the points or states can vary. 
+ 
+With a **single parameter**, the constraint types are basic, typically involving equalities or inequalities.
+	With **two parameters** within the same dimension, operations like **addition** or **subtraction** become possible (e.g., defining linear relationships).
+		As you introduce more **parameters** and **dimensions** into the space, constraints evolve to include more complex forms of interaction, such as:
+			In **multi-dimensional spaces**, constraints become more sophisticated as they can involve interactions between **dimensions** (e.g., $x,y,z$ in 3D space). 
+				The **number of parameters** (coordinates) in the space allows for complex constraints like equations of planes ($ax+by+cz=d$), curves ($y=x^2$), and surfaces.
+##### Higher-Level Constraints
+When dealing with **multiple parameters** within a single dimension or across **multiple dimensions**, you can impose more complex constraints using operations like **addition**, **subtraction**, **multiplication**, and **division**. 
+	These operations allow you to express relationships between different parameters.
+    
+These **higher-level constraints** depend on having **multiple parameters** available to interact within the space.
+	In other words, the types of operations you can use to constrain a space grow as the number of parameters increases.
 - - -
 ## The Foundational Notion: Change Is the Process of Differentiation, Implemented by Definition/Constraint
 ### Change
