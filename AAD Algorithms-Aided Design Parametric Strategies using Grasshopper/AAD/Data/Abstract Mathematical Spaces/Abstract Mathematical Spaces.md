@@ -151,6 +151,8 @@ $$\LARGE p + x= y$$
 	It ***can be*** $p + x = y$ because it is a multiple dimension whereby.
 		$y$ has the ability to vary and thus can ***be*** a variable.
 
+test
+
 - - -
 ## The Foundational Notion: Change Is the Process of Differentiation, Implemented by Definition/Constraint
 ### Change
