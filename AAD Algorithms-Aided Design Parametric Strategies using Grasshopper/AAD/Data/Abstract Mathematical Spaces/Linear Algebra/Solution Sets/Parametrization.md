@@ -1,6 +1,30 @@
 # Parametrization
 [[Curves as Parametric Functions|Description of a curve]] with a [[Parameters vs. Variables|parameter]].
 *[[Curves Theory|Curves can describe many things.]]*
+In essence, parametrization abstracts the **essence of control** over variability, encoding how a system's characteristics are structured, bounded, and explored via independent parameters.
+
+**Parametrization** can be viewed as the process of introducing a **set of independent variables** (parameters) that **govern** or **describe** the possible states, positions, or configurations of a system within a defined space. 
+	These parameters **structure** how the variability of the system's characteristics (dimensions/properties) is expressed, effectively transforming a complex, potentially unconstrained set of possibilities into a manageable form.
+
+Parametrization is a key part of the constraint aspect, as it provides a structured way to define and explore the possible variations within a differentiated state. 
+	By introducing parameters, you effectively "shape" or "limit" the state, determining how its characteristics are expressed and related. 
+		This process confines the infinite possibilities into a manageable and structured form, defining the boundaries of that state.
+### Key Aspects of Parametrization
+1. **Mapping Potential Variance:**
+    - Parametrization provides a way to **map the possible variations** (or states) of an object or system by **assigning independent variables (parameters)**. 
+	    - These parameters act as "handles" that systematically adjust and control the features of the system.
+    - For example, when defining a curve in space, parametrization assigns a parameter ttt (like time) that "traces out" every point on the curve.
+	    - This parameter ttt encapsulates the variance in the curve's shape and position.
+1. **Constraining the Degrees of Freedom:**
+    - In an abstract sense, parameters are introduced to **structure** the space by reducing its **degrees of freedom**. Before parametrization, a system might have infinite ways to express its dimensions. Through parametrization, a specific **configuration** of the system is outlined, which "bounds" the potential states of the variables involved.
+    - This structuring turns a potentially complex system into a more **ordered set** governed by the parameters.
+2. **Representation as Component Functions:**
+    - In the specific case you're familiar with (defining scalar component functions as vector components), **parametrization** breaks down a complex entity (like a curve, surface, or vector field) into **simpler, scalar components** that vary according to one or more parameters.
+    - For example, the parametric representation of a vector in 3D space might be: r(t)=(x(t),y(t),z(t)),\mathbf{r}(t) = (x(t), y(t), z(t)),r(t)=(x(t),y(t),z(t)), where ttt is the parameter, and x(t)x(t)x(t), y(t)y(t)y(t), and z(t)z(t)z(t) are scalar functions describing how each coordinate changes with respect to ttt.
+4. **Abstract Conceptualization:**
+    - **Parametrization**, at its most abstract, is the **act of defining a system's potential states** in terms of a **smaller, independent set of variables**. These parameters serve as the **coordinates** or **variables of control** that systematically explore the system's full range of possibilities.
+    - By choosing parameters, you are essentially **embedding** or **structuring** the object within a new framework that captures its essential features through a simpler set of independent variables. This is why, in mathematics, parametric equations are used to describe curves, surfaces, and other geometries in terms of one or more parameters.
+
 
 ![[Pasted image 20240906071943.png]]
 $$\LARGE \vec{r}(t) : [0,1] \to \mathbb{R}^3, \quad \vec{r}(t) = [x(t)\textcolor{red}{,}\space y(t)\textcolor{red}{,}\space z(t)], \quad x,y,z : [0,1] \to \mathbb{R} $$

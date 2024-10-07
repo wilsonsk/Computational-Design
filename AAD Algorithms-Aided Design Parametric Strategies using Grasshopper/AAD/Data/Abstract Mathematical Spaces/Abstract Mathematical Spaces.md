@@ -29,6 +29,57 @@ In abstract mathematics, concepts are defined rigorously through axioms and defi
 ## A Hierarchy, Structure
 The hierarchy from the most fundamental mathematical concepts (universal superset) to fields, spaces, categories, etc., is structured by increasing levels of complexity and structure.
 	Each subsequent level derives its elements and properties from the more fundamental levels, creating a layered approach to mathematical concepts.
+##### 1. The First Differentiation as the First Dimension
+###### A. The First Dimension (i.e. Property) as a Type/Identity
+###### B. An Instance of a Differentiated State within the First Dimension is a Single "Value".
+- The Implementation of the Definition via Constraints (Parametrization)
+	- Implemented through the Simplest, i.e. Most Abstract Constraint.
+		- $\LARGE p = x$ 
+			- It cannot be $p + y = n$ because it is a single dimension whereby only one aspect is variable (i.e. only one dimension has variance).
+				- $y$ has no ability to vary and thus cannot ***be*** a variable 
+###### Variance Within this First Dimension: Increase in Differentiated States within this First Dimension.
+- Increase in "values" within bounds of the First Dimension.
+	- $\LARGE [0 \space 1] \to [0 \space 1 \space 01 \space 11 \space 001 \space 011 \space 111 \dots]$
+###### 2. An Evolution of Differentiation: The Increase in Complexity of Constraints, Differentiated States, and thus Dimensions
+New More Complex Identities Defined by Multiple Dimensions.
+###### A. The Definition of a Type/Identity Equated to Multiple Dimensions (i.e. Properties)
+###### B. The Definition of an Instance of a Multi Dimensional Identity
+- The Implementation of the Definition via Constraints (Parametrization)
+	- Implemented through the Increasingly Complex Constraints.
+		- $\LARGE p + x= y$ 
+			- It ***can be*** $p + x = y$ because it is a multiple dimension whereby.
+				- $y$ has the ability to vary and thus can ***be*** a variable.
+
+### From the First (seemingly "random" sampling) Change to Patterns of Change
+##### The First Differentiation, $\LARGE [0 \space 1]$
+The first Initial Change (the first relational existence).
+	When we speak of the **first differentiation** as the **distinction** between "this (1)" and "that (0)," we are essentially describing the **emergence of contrast** or the creation of a **boundary**.
+		 This act of differentiation introduces the concept of **difference** and thereby establishes the **relationship** between **two states**.
+			  This differentiation creates a **binary distinction**, marking the **interdependent existence** of "0" and "1." 
+				 Both rely on each other to define what they are; "0" is understood as **not-1**, and "1" as **not-0**.
+##### The First Differentiation as the First Dimension
+ In this framework, the act of differentiation—splitting into "this" and "that"—introduces the **first dimension**. 
+	 This dimension is an aspect that has the potential for variability, the **space of potential variance** defined by the contrast between "0" and "1." 
+		 Here, the **dimension** represents the fundamental ability to **distinguish** or **change** between states.
+			Therefore, this dimension is a **differentiated state** on its own because it encapsulates the primary **potential for change**—the existence of a "difference" between two relational states.
+				In abstract terms, this first dimension embodies the **concept of distinction**, which is a foundational property that enables all further differentiation and definition.
+##### The First Differentiation an Identity
+This initial differentiation creates an **identity**. 
+	The dimension formed by the distinction between "0" and "1" becomes a **unique entity** that defines a kind of **existence**: the existence of **difference** or **contrast**.
+		The **identity** here is not tied to specific characteristics (like "length" or "time") but rather to the **very nature of differentiation** itself. 
+			It is an identity that arises from the **act of distinguishing** one state from another.
+				 In other words, it embodies the **essence of duality**—the simultaneous presence of "this" and "that," "0" and "1."
+					This identity is abstract and fundamental because it serves as the **groundwork** for all further differentiation. 
+						It is the "first step" that allows for more complex structures, properties, and identities to emerge.
+##### The Relational and Interdependent Nature of the First Differentiation 
+The identity of this first dimension is inherently **relational** and **interdependent**.
+	"0" and "1" do not have meaning in isolation; they **define** each other through their difference.
+		The **interdependence** implies that this dimension encapsulates the fundamental quality of **existence through differentiation**.
+			By differentiating "this" from "that," it defines the basic framework of identity.
+##### The First Dimension as the First Differentiated State
+ This relational aspect is crucial because it shows that the **dimension** itself is not just an isolated entity but a **differentiated state** defined by its **contrast**.
+	It is the initial "differentiated state" that gives rise to the possibility of all subsequent structures, definitions, and transformations.
+	  
 ## The Foundational Notion: Change Is the Process of Differentiation, Implemented by Definition/Constraint
 ### Change
 **Change** is the fundamental process that initiates the potential of differentiation and transition/transformation.
@@ -86,11 +137,9 @@ The initial change is that from the undifferentiated, absolute to the first dual
 			 **Definition** gives form (i.e. making change identifiable), and clarity to the process of creating distinctions.
 #### Definition and Identity
 When we define something, we are saying "this" **is** equal to these specific properties, and by doing so, we establish the entity’s **identity**.
-Type as a Result of Differentiation**:
-    
 
+**Instances as a Result of Constraints**:
 - **Connection to Differentiation and Quantity**:
-    
     - **Differentiation** allows us to move from the abstract to the concrete. Through differentiation, we define a **type** by general properties (such as "circle" or "real number").
     - The **instance** is where we apply **quantification** to express a **particular realization** of that type. In other words, an **instance** is the result of applying specific **values** to the generalized properties of a type.
 ##### Identity
@@ -98,11 +147,11 @@ Type as a Result of Differentiation**:
 	A **type** is a more **general definition** resulting from an earlier or **lower level** differentiation process.
 		It is still the **result** of the process where something is defined, constrained, and equated with specific properties or conditions.
 			Identity in this form is still **abstract**—for example, the concept of **blackness** or **whiteness**.
-##### Type as a Lower-Level Differentiation
+##### Type Derived From Definition (as a Lower-Level Differentiation)
 **Lower-level differentiation** produces **types**, which define **broad categories** of entities by establishing **constraints** (general boundaries  or **characteristics**) that apply to a wide range of instances.
 	When we differentiate **types**, we are drawing a boundary around a set of general attributes that define what it means to be part of that type.
 		 A **type** can be seen as a more **general identity**, representing a **group identity** shared by all instances that fall within the constraints of that type.
-##### An Instance of an Identity/Type
+##### An Instance of a Type Derived From Constraints (as a Higher-Level Differentiation)
 An **instance** is a **concrete or specific expression** of a type—it is a **particular realization** or **manifestation** of the general properties that define the type.
 
 An **instance** is a more **specific definition**, resulting from a **higher level** or more **refined differentiation** of the type.
@@ -114,6 +163,18 @@ An **instance** is a more **specific definition**, resulting from a **higher lev
 An Instance can further and subsequently be an Identity/Type for even higher level instances.
     
 This process shows that **identity**, whether it belongs to a type or an instance, is built through **differentiation**, with types representing more generalized identities and instances representing more specific, refined identities.
+- - -
+### Defined Identities Derive Dimensions
+**Definitions** establish the identity of an entity by specifying its **properties and characteristics**.
+	  In defining something (i.e. asserting specific properties), you inherently identify the **independent aspects** along which it can vary or differ from other entities.
+		These independent aspects are the **dimensions**—they represent the **contexts or avenues** where potential variance exists.
+			I.e. **Dimensions** arise from these specifications, representing aspects where variance can occur.
+##### Dimensions
+**Dimensions** are thus the **specific aspects** through which an entity is defined and can be differentiated.
+	The **dimensions** correspond directly to the **properties and characteristics** asserted by the definition.
+		Each property or characteristic defines a **dimension** of potential variance.
+			**Dimensions** represent the aspects of potential variance corresponding to these properties.
+	
 - - -
 ### Constraint is the Mechanism of Definition
 **Definition** is the **imposition of limits or boundaries (i.e. establishing of properties and characteristics)** around **what it is** and **subsequently define what it is not** (that which is outside the boundaries), thus creating the **conditions for differentiation** (i.e. **creating the constraints**).
@@ -137,7 +198,13 @@ Imagine an unformed state of potential.
 ##### Constraint and Identity
 **Constraint** is what **shapes** identity by imposing limits. 
 	Identity only emerges within a boundary—a constraint that excludes all other possibilities.
+
+
+
 #### Constraints Lead to Parameters
+In defining something, you inherently identify the **independent aspects** along which it can vary or differ from other entities.
+	These independent aspects are the **dimensions**—they represent the **contexts or avenues** where potential variance exists.
+
 When constraints are imposed on a state, they define **parameters**, which are **defining aspects** of the entity or state (i.e. that which **must be true** for that state to exist as it is).
 	That is, constraints they **restrict** a state or entity to specific **properties** or **characteristics** (i.e. parameters). 
 1. **Parameter**: Think of it as a potential for variation. It's like a knob you can turn to change things.
