@@ -30,13 +30,60 @@ In abstract mathematics, concepts are defined rigorously through axioms and defi
 The hierarchy from the most fundamental mathematical concepts (universal superset) to fields, spaces, categories, etc., is structured by increasing levels of complexity and structure.
 	Each subsequent level derives its elements and properties from the more fundamental levels, creating a layered approach to mathematical concepts.
 ### A Brief Overview: From the First Change to Patterns of Change
-#### The First Differentiation, $\LARGE [0 \space 1]$
+#### The First Differentiation (i.e. Discernment; to Distinguish), $\LARGE [0 \space 1]$
 The first Initial Change (the first relational existence).
 	When we speak of the **first differentiation** as the **distinction** between "this (1)" and "that (0)," we are essentially describing the **emergence of contrast** or the creation of a **boundary**.
 		 This act of differentiation introduces the concept of **difference** and thereby establishes the **relationship** between **two states**.
 			  This differentiation creates a **binary distinction**, marking the **interdependent existence** of "0" and "1." 
 				 Both rely on each other to define what they are; "0" is understood as **not-1**, and "1" as **not-0**.
-#### The First Differentiation as the First Dimension
+#### The First Differentiation is its Own Identity, and Identity as Potential (i.e. a Dimension)
+##### Recognition of this First Differentiation (Low-Level Instantiation of a Discernment)
+The recognition of a **state of differentiation**, even at an abstract level, would require some **formal mechanism** to **discern** or **distinguish** that state from what it is **not**. 
+	This is true whether we are defining a dimension, an object, or a state of existence.
+		This act of **differentiation**—**distinguishing** "this" from "not that"—is fundamental to how a dimension or state is defined, even before parametrization.
+			This **recognition** or **discernment** requires a formal way of saying: **"This state is defined as A, and not B."**
+###### The Principle of Identity and the Principle of Non-Contradication
+A thing is **itself** and **not something else**.
+
+To **recognize differentiated states**: we formally **assert** that something is **equal to itself** (this is **A**) and by implication, **not equal to something else** (this is **not B**). 
+	By saying **"this is A"**, we are, at a formal level, **equating** the state to a **specific identity**.
+		This assertion involves **equality** because we are identifying the state as **itself**.
+		    Implicit in this act of **equality** is the differentiation from **what it is not**.
+			     By equating the state to **A**, we are implicitly asserting that it is **not B**, **not C**, and so on.
+
+##### The Definition of the First Differentiation is an Identity
+To recognize/discern something, you need to assert that it is **equal to itself** and, at the same time, **not equal** to other things.
+	**This assertion is called a Definition**.
+###### Definition as the "Instantiation" of a Discernment
+When defining a **discernment** or any abstract differentiated state, the process is not just about **recognizing** its potential for variance but also about **formally stating** what it **is** and what it **is not** (i.e. defining).
+	The process of **equality**—asserting **A = A**—is a formal way to instantiate that **discernment**. 
+		This act of equating something to itself allows it to be recognized as a distinct state, separate from everything else.
+##### Equality as a Fundamental Mechanism of Differentiation
+At the most fundamental level, the **definition** of a differentiation (or any abstract differentiated state) involves the assertion of **identity**, which is formally implemented through **equality**.
+	**Equality** allows us to say that the dimension is **itself**—that it represents a specific type of potential variance. 
+		This recognition is the first step in defining what the dimension is.
+			By asserting that **this dimension is itself**, we are also implicitly saying that **it is not** other dimensions. 
+				This process involves **negation** or **exclusion** as part of the **recognition** of the differentiated state.
+
+**Equality** at this low level can be understood as a **formal mechanism** that asserts the **identity** of a state or dimension.
+	When we say something is **equal to itself**, we are affirming its **existence** as a **distinct state**.
+		 This process of affirmation naturally leads to the recognition of what it is **not**, through a process of **exclusion** or **negation**.
+			Therefore, even in an abstract, pre-parametrized sense, **equality** functions as a means of **formal recognition**. 
+				It allows for the definition of something as **this** (through **identity**) and, by extension, the discernment of what it is **not**.
+#### The Identity of the First Differentiation as the First Dimension
+This initial differentiation creates an **identity**. 
+	Before a differentiation is used in the definition of a more complex state, its identity is defined **by its inherent property**.
+		 It is not yet bound to specific constraints or configurations; it simply **"exists"** as a potentiality, an abstract foundation upon which more complex forms can be built.
+			An Identity is **shaped by the kind of potential it uniquely represents**.
+				We call this abstract potential of variance, a Dimension.
+
+The dimension formed by the distinction between "0" and "1" becomes a **unique entity** that defines a kind of **existence**: the existence of **difference** or **contrast**.
+	The **identity** here is not tied to specific characteristics (like "length" or "time") but rather to the **very nature of differentiation** itself. 
+		It is an identity that arises from the **act of distinguishing** one state from another.
+			 In other words, it embodies the **essence of duality**—the simultaneous presence of "this" and "that," "0" and "1."
+				This identity is abstract and fundamental because it serves as the **groundwork** for all further differentiation. 
+					It is the "first step" that allows for more complex structures, properties, and identities to emerge.
+
 **Dimensions** serve as the basic properties or aspects that define a **differentiated state**.
 	They represent the potential for variance (or change) within that state.
 		Dimensions represent the **potential for change** itself, rather than the specific ways that change is constrained (which is the role of parameters).
@@ -55,24 +102,17 @@ The identity of this first dimension is inherently **relational** and **interdep
 		The **interdependence** implies that this dimension encapsulates the fundamental quality of **existence through differentiation**.
 			By differentiating "this" from "that," it defines the basic framework of identity.
 #### The First Dimension as the First Differentiated State
+A **dimension** is initially defined as a **space of potential variability** or **differentiation**. It represents a fundamental way in which a system or entity can **vary** or **change**.
+	At its most basic level, this **definition** is abstract—it establishes the **potential** for differentiation but does not yet fix the dimension into specific states.
+		 The dimension exists as a **framework** for possible variance, a "field" where future constraints will create specific instances.
+
  This relational aspect is crucial because it shows that the **dimension** itself is not just an isolated entity but a **differentiated state** defined by its **contrast**.
 	It is the initial "differentiated state" that gives rise to the possibility of all subsequent structures, definitions, and transformations.
 		By defining a dimension, you are establishing a **baseline framework**—a unique **field of variance**. 
 			For example, the dimension "time" provides a foundation for expressing temporal changes, making "time" an identity unto itself.
 				The **difference** of this single property from others (such as "length" vs. "time") comes from its **distinct role** in expressing change. 
 					Each dimension's identity is characterized by the type of variance or potential it encapsulates.
-#### The First Differentiation is its Own Identity, and Identity as Potential 
-This initial differentiation creates an **identity**. 
-	Before a dimension is used in the definition of a more complex state, its identity is defined **by its inherent property**.
-		 It is not yet bound to specific constraints or configurations; it simply **"exists"** as a potentiality, an abstract foundation upon which more complex forms can be built.
-			An Identity is **shaped by the kind of potential it uniquely represents**.
 
-The dimension formed by the distinction between "0" and "1" becomes a **unique entity** that defines a kind of **existence**: the existence of **difference** or **contrast**.
-	The **identity** here is not tied to specific characteristics (like "length" or "time") but rather to the **very nature of differentiation** itself. 
-		It is an identity that arises from the **act of distinguishing** one state from another.
-			 In other words, it embodies the **essence of duality**—the simultaneous presence of "this" and "that," "0" and "1."
-				This identity is abstract and fundamental because it serves as the **groundwork** for all further differentiation. 
-					It is the "first step" that allows for more complex structures, properties, and identities to emerge.
 #### The First Differentiation Constrained as an Instance Within the First Dimension (i.e. Reducing the Degrees of Freedom)
 **An instance can be produced without needing an additional dimension.** 
 	The key is to recognize that even within a **single dimension**, you can introduce parameters to create specific instances. 
@@ -82,11 +122,21 @@ The dimension formed by the distinction between "0" and "1" becomes a **unique e
 				       In this case, $P$ acts as a **constraint** that defines a specific instance of the dimension’s behavior.
 					    Even though the dimension itself offers only a single **axis of variation** (between "0" and "1"), the parameter $p$ enables us to **select** or **control** how that axis expresses itself.
 						     This process can generate an **instance** of the dimension by fixing the parameter to a specific value or condition.
-##### The Parametrization of an Instance of the First Dimension
+##### The Parametrization of an Instance of the First Dimension (i.e. the Collapsing the Potential Variability into a Specific State)
 I.e. The Implementation of the Definition via Constraint (i.e. the constraining of a dimension to a specific state).
 	**Parametrization** is the process of introducing **parameters** that **govern** or **control** the variance within a dimension.
 		 These parameters help define specific **instances** or **states** of that dimension.
 ###### Equality (and thus Inequality) as the Fundamental Constraint
+**Equality** is fundamental because it provides the most direct way to **instantiate** a state within a dimension.
+	By imposing equality, you **collapse** the potential variability into a **specific state**, thereby creating a **differentiated instance** of the dimension.
+
+The process of **instantiating** or **parametrizing** a dimension involves applying **constraints** that define specific instances within that dimension.
+	**Equality** is one of the most basic and **fundamental constraints** in this process.
+		**Equality** (and **inequality**) serves as a mechanism for **fixing** or **restricting** the potential states of a dimension.
+			 When you introduce equality (e.g., x=0x=0), you are **selecting a specific point** within the dimension, thereby **defining** a particular instance or state.
+					Without constraints like equality, the dimension remains an abstract, **undifferentiated potential**.
+						 It is through the introduction of equality (or inequality) that the dimension is **differentiated** into specific states or points.
+
 The **types of constraints** (or operations) you can impose on a space—starting from **basic equality** to more complex operations like **addition**, **multiplication**, and beyond—are fundamentally influenced by both the **number of parameters** present and the **structure** of the **space** (whether it is a single dimension or involves multiple dimensions). 
 ###### Dimensions and Parameters
 Each dimension introduces a new **degree of freedom**, and you need one parameter to control or describe each of those degrees.
@@ -135,7 +185,7 @@ The **bounds** of a dimension might **increase** to include more **differentiate
 		- Over time, we introduced more **granular parameters** like degrees on a Celsius or Fahrenheit scale, effectively **expanding** the range of states that could be differentiated.
 - **Refinement of Constraints:** 
 	- The **constraints** that define the possible states of a dimension might evolve. 
-	- For instance, a dimension initially constrained to binary states (0 and 1) might be redefined to include intermediate states (e.g., probabilities between 0 and 1).
+	- **For instance, a dimension initially constrained to binary states (0 and 1) might be redefined to include intermediate states (e.g., probabilities between 0 and 1).**
 		- This **refinement** expands the dimension's potential to include a continuous spectrum of differentiated states.
 #### A Second Differentiation as a Second (Independent) Dimension
 This Second Differentiated State is not in combination with the First Differentiated State (yet...).
@@ -150,22 +200,10 @@ I.e. The combination of Dimensions.
 
 When you **combine** the first and second dimensions, you are creating a **new entity**: a **2-dimensional space**. 
 	This combination results in a **higher-level differentiated state** that encompasses the variability of both dimensions.
-		**2D space** is not just the sum of its parts; it represents the **framework** where any point within this space is defined by **coordinates** (x,y)(x, y)(x,y) that correspond to specific states along both dimensions.
+		**2D space** is not just the sum of its parts; it represents the **framework** where any point within this space is defined by **coordinates** $(x,y)$ that correspond to specific states along both dimensions.
 			The definition of this 2D space emerges **from the interplay** of the two dimensions.
 				 It provides a structure where instances are now **pairs of values** representing both "length" (x) and "width" (y). 
 					 In this way, 2D space becomes a **new identity** that can express more complex forms of differentiation than either dimension alone.
-##### The Composite (Higher-Level) Identity: The Definition of a Type/Identity Equated to Multiple Dimensions (i.e. Properties)
-An **instance** of 2D space is a **specific point** defined by the **combination** of values from both dimensions. 
-	These instances are the **higher-level states** that result from combining the two dimensions. 
-		They possess **more than one property** because each point in 2D space inherently includes both an "x" and a "y" value.
-			Therefore, the **instances of 2D space** reflect the **interdependent relationship** between the two dimensions.
-				 A point in 2D space is **differentiated** not just by its x-value or y-value alone, but by the **specific combination** of both.
-##### The Composite (Higher-Level) Instance: The Constrained Instance Within Two (combined) Dimensions: 
-The Implementation of the Definition via Constraints (Parametrization)
-Implemented through the Increasingly Complex Constraints.
-$$\LARGE p + x= y$$
-	It ***can be*** $p + x = y$ because it is a multiple dimension whereby.
-		$y$ has the ability to vary and thus can ***be*** a variable.
 #### The Evolution of the Constraints
 ##### Dimensionality Determines the Complexity of the Potential Constraints
 The **dimensionality** of the space dictates the **complexity** of the potential constraints. 
@@ -188,8 +226,19 @@ When dealing with **multiple parameters** within a single dimension or across **
     
 These **higher-level constraints** depend on having **multiple parameters** available to interact within the space.
 	In other words, the types of operations you can use to constrain a space grow as the number of parameters increases.
+##### The Composite (Higher-Level) Identity: The Definition of a Type/Identity Equated to Multiple Dimensions (i.e. Properties)
+An **instance** of 2D space is a **specific point** defined by the **combination** of values from both dimensions. 
+	These instances are the **higher-level states** that result from combining the two dimensions. 
+		They possess **more than one property** because each point in 2D space inherently includes both an "x" and a "y" value.
+			Therefore, the **instances of 2D space** reflect the **interdependent relationship** between the two dimensions.
+				 A point in 2D space is **differentiated** not just by its x-value or y-value alone, but by the **specific combination** of both.
+##### The Composite (Higher-Level) Instance: The Constrained Instance Within Two (combined) Dimensions: 
+The Implementation of the Definition via Constraints (Parametrization)
+Implemented through the Increasingly Complex Constraints.
+$$\LARGE p + x= y$$
+	It ***can be*** $p + x = y$ because it is a multiple dimension whereby.
+		$y$ has the ability to vary and thus can ***be*** a variable.
 
-test
 - - -
 ## The Foundational Notion: Change Is the Process of Differentiation, Implemented by Definition/Constraint
 ### Change
@@ -207,13 +256,13 @@ At its core, **change** is the process by which **potential** becomes **actualiz
 		**Definition** follows differentiation— that is, the **formal or specific clarification** of what something **is** after it has been differentiated via **equating** a form/expression to a differentiated state.
 			**Equality** is the **mechanism** by which we **assign** a state to a specific form.
 				In other words, equality creates a formal **definition** by **equating** a state to its specific identity.
-					**Definition** **assigns meaning** and **identity** to what has been differentiated.
+					**Definition** **assigns meaning** (i.e. abstraction) and **identity** to what has been differentiated.
 						**Definition** describes and formalizes **what** the differentiated state **is**.
 							**Expression** is how the **defined, differentiated state** becomes **experienced** (i.e. **visible** or **manifest**).
 								 **Expression** is how that state **appears** or is **communicated**.
 									  Expression is the **form** that the differentiated state takes when we **experience** it or **perceive** it.
 
-This movement from formlessness to form, from one state to another, and is expressed through the relationships between **definition**, **identity**, **constraints**, and **equality**.
+This movement from formlessness to form, from one state to another, and is expressed through the relationships between **definition**, through **equality** creating an **identity** which itself is composed of dimension(s), these dimensions are lower-level identities defined prior; **expression** through **constraints**, implemented by **parametrization** (the configuring of parameters) which leads to **quantification** creating **instances** of the identity.
 
 - - -
 ### Differentiation is the Mechanism of Change
@@ -246,10 +295,10 @@ The initial change is that from the undifferentiated, absolute to the first dual
 	Definition makes differentiation possible by setting clear boundaries and making distinct what is being differentiated.
 		 The act of defining a state or entity is the moment when you impose constraints to distinguish it from all other possible states.
 			 **Definition** gives form (i.e. making change identifiable), and clarity to the process of creating distinctions.
-#### Definition and Identity
+#### Dimensions
+#### Definition, Dimension and Identity 
 When we define something, we are saying "this" **is** equal to these specific properties, and by doing so, we establish the entity’s **identity**.
-
-**Instances as a Result of Constraints**:
+##### Instances as a Result of Constraints
 - **Connection to Differentiation and Quantity**:
     - **Differentiation** allows us to move from the abstract to the concrete. Through differentiation, we define a **type** by general properties (such as "circle" or "real number").
     - The **instance** is where we apply **quantification** to express a **particular realization** of that type. In other words, an **instance** is the result of applying specific **values** to the generalized properties of a type.
@@ -258,7 +307,7 @@ When we define something, we are saying "this" **is** equal to these specific pr
 	A **type** is a more **general definition** resulting from an earlier or **lower level** differentiation process.
 		It is still the **result** of the process where something is defined, constrained, and equated with specific properties or conditions.
 			Identity in this form is still **abstract**—for example, the concept of **blackness** or **whiteness**.
-##### Type Derived From Definition (as a Lower-Level Differentiation)
+##### Identity (i.e. Type) Derived From Definition (as a Lower-Level Differentiation)
 **Lower-level differentiation** produces **types**, which define **broad categories** of entities by establishing **constraints** (general boundaries  or **characteristics**) that apply to a wide range of instances.
 	When we differentiate **types**, we are drawing a boundary around a set of general attributes that define what it means to be part of that type.
 		 A **type** can be seen as a more **general identity**, representing a **group identity** shared by all instances that fall within the constraints of that type.
@@ -1769,7 +1818,7 @@ A category is defined by a **set of objects** and **morphisms** (arrows) between
 - **Primary Focus**: In category theory, the primary focus is on the relationships (morphisms) between objects. This perspective is particularly useful for comparing how different structures behave and interact, rather than just comparing the structures (objects) themselves.
 - **Composition of Morphisms**: Morphisms can be composed, meaning if there is a morphism from object A to object B, and another from B to C, then there must also be a morphism from A to C. This composition must be associative, and for each object, there must be an identity morphism that acts as a neutral element in morphism composition.
 ##### Functors and Natural Transformations:
-- **[[Mapping|Mapping]]**s:
+- **[[Mapping|Mappings]]**:
 	- These tools in category theory allow for the mapping of objects and morphisms in one category to objects and morphisms in another, preserving their structural relationships. 
 	- Functors are mappings between categories that preserve the structure defined by objects and morphisms.
 	- A functor maps objects to objects and morphisms to morphisms, respecting the compositional structure (i.e., it preserves identities and compositions). 
