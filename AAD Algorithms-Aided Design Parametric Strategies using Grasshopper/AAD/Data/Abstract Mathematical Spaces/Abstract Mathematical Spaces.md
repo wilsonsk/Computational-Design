@@ -188,6 +188,8 @@ When dealing with **multiple parameters** within a single dimension or across **
     
 These **higher-level constraints** depend on having **multiple parameters** available to interact within the space.
 	In other words, the types of operations you can use to constrain a space grow as the number of parameters increases.
+
+test
 - - -
 ## The Foundational Notion: Change Is the Process of Differentiation, Implemented by Definition/Constraint
 ### Change

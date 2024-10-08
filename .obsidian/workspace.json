@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/notes to add to abstract math spaces.md",
+                "file": "AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/Data/Abstract Mathematical Spaces/Abstract Mathematical Spaces.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/notes to add to abstract math spaces.md",
+                "file": "AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/Data/Abstract Mathematical Spaces/Abstract Mathematical Spaces.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/notes to add to abstract math spaces.md"
+                "file": "AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/Data/Abstract Mathematical Spaces/Abstract Mathematical Spaces.md"
               }
             }
           }
@@ -187,7 +187,7 @@
           }
         ],
         "direction": "vertical",
-        "x": 112,
+        "x": 145,
         "y": 25,
         "width": 980,
         "height": 750,
@@ -196,10 +196,10 @@
       }
     ]
   },
-  "active": "86ca693bbafef97f",
+  "active": "dafa966039dee06d",
   "lastOpenFiles": [
-    "AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/Data/Abstract Mathematical Spaces/Abstract Mathematical Spaces.md",
     "AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/notes to add to abstract math spaces.md",
+    "AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/Data/Abstract Mathematical Spaces/Abstract Mathematical Spaces.md",
     "more notes on dimensions and parameters.md",
     "AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Parametrization.md",
     "AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Axes and Dimensions.md",
