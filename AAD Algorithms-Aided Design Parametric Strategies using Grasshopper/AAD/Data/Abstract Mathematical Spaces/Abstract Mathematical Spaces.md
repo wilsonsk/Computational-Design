@@ -36,13 +36,14 @@ The first Initial Change (the first relational existence).
 		 This act of differentiation introduces the concept of **difference** and thereby establishes the **relationship** between **two states**.
 			  This differentiation creates a **binary distinction**, marking the **interdependent existence** of "0" and "1." 
 				 Both rely on each other to define what they are; "0" is understood as **not-1**, and "1" as **not-0**.
+
 #### The First Differentiation is its Own Identity, and Identity as Potential (i.e. a Dimension)
 ##### Recognition of this First Differentiation (Low-Level Instantiation of a Discernment)
 The recognition of a **state of differentiation**, even at an abstract level, would require some **formal mechanism** to **discern** or **distinguish** that state from what it is **not**. 
 	This is true whether we are defining a dimension, an object, or a state of existence.
 		This act of **differentiation**—**distinguishing** "this" from "not that"—is fundamental to how a dimension or state is defined, even before parametrization.
 			This **recognition** or **discernment** requires a formal way of saying: **"This state is defined as A, and not B."**
-###### The Principle of Identity and the Principle of Non-Contradication
+##### The Principle of Identity and the Principle of Non-Contradication
 A thing is **itself** and **not something else**.
 
 To **recognize differentiated states**: we formally **assert** that something is **equal to itself** (this is **A**) and by implication, **not equal to something else** (this is **not B**). 
@@ -50,26 +51,36 @@ To **recognize differentiated states**: we formally **assert** that something 
 		This assertion involves **equality** because we are identifying the state as **itself**.
 		    Implicit in this act of **equality** is the differentiation from **what it is not**.
 			     By equating the state to **A**, we are implicitly asserting that it is **not B**, **not C**, and so on.
-
-##### The Definition of the First Differentiation is an Identity
-To recognize/discern something, you need to assert that it is **equal to itself** and, at the same time, **not equal** to other things.
-	**This assertion is called a Definition**.
-###### Definition as the "Instantiation" of a Discernment
+##### The (Low-Level) Definition of the First Differentiation is an Assertion of Identity
+At the most fundamental level, the **definition** of a dimension (or any abstract differentiated state) involves the assertion of **identity**, which is formally implemented through **equality**.
+	To recognize/discern something, you need to assert that it is **equal to itself** and, at the same time, **not equal** to other things.
+		**This assertion is called a Definition**.
+###### Low-Level Definition as the Low-Level "Instantiation" of a Discernment
 When defining a **discernment** or any abstract differentiated state, the process is not just about **recognizing** its potential for variance but also about **formally stating** what it **is** and what it **is not** (i.e. defining).
 	The process of **equality**—asserting **A = A**—is a formal way to instantiate that **discernment**. 
 		This act of equating something to itself allows it to be recognized as a distinct state, separate from everything else.
-##### Equality as a Fundamental Mechanism of Differentiation
+##### Equality as a Fundamental Mechanism of Definition 
 At the most fundamental level, the **definition** of a differentiation (or any abstract differentiated state) involves the assertion of **identity**, which is formally implemented through **equality**.
 	**Equality** allows us to say that the dimension is **itself**—that it represents a specific type of potential variance. 
 		This recognition is the first step in defining what the dimension is.
 			By asserting that **this dimension is itself**, we are also implicitly saying that **it is not** other dimensions. 
 				This process involves **negation** or **exclusion** as part of the **recognition** of the differentiated state.
-
-**Equality** at this low level can be understood as a **formal mechanism** that asserts the **identity** of a state or dimension.
+###### Equality
+Equality at this low level can be understood as a **formal mechanism** that asserts the **identity** of a state or dimension.
 	When we say something is **equal to itself**, we are affirming its **existence** as a **distinct state**.
 		 This process of affirmation naturally leads to the recognition of what it is **not**, through a process of **exclusion** or **negation**.
 			Therefore, even in an abstract, pre-parametrized sense, **equality** functions as a means of **formal recognition**. 
 				It allows for the definition of something as **this** (through **identity**) and, by extension, the discernment of what it is **not**.
+ 
+ To discern **"this" from "not that"** at the lowest level, we rely on the formal process of **equality** (or identity).
+	  We say that **A = A** (this dimension is itself), and this formal assertion allows us to recognize that **A ≠ B** (it is not the other potential states).
+		  In this way, **equality** serves as the formal **implementation of discernment**: by equating something to itself, we establish its identity and differentiate it from everything else.
+##### The Implicit Role of Inequality (What It Is Not)
+**Inequality** is implied in this process as well of Definition as Instantiation.
+	By defining **A** as **equal to A**, we are also saying that **A is not B**, **A is not C**, and so on. 
+		The process of **differentiation** naturally implies the recognition of **inequality**—the recognition that what is **"A"** is **not** the other potential states or dimensions.
+			This **formal mechanism** of differentiation, which begins with asserting **identity** through **equality**, includes the implicit negation of other possible states or dimensions.
+				 This is how the differentiated state is **recognized** as distinct from what it is not.
 #### The Identity of the First Differentiation as the First Dimension
 This initial differentiation creates an **identity**. 
 	Before a differentiation is used in the definition of a more complex state, its identity is defined **by its inherent property**.
@@ -103,7 +114,7 @@ The identity of this first dimension is inherently **relational** and **interdep
 			By differentiating "this" from "that," it defines the basic framework of identity.
 #### The First Dimension as the First Differentiated State
 A **dimension** is initially defined as a **space of potential variability** or **differentiation**. It represents a fundamental way in which a system or entity can **vary** or **change**.
-	At its most basic level, this **definition** is abstract—it establishes the **potential** for differentiation but does not yet fix the dimension into specific states.
+	At its most basic level, this **definition** is abstract—it establishes the **potential** for differentiation but does not yet fix the instances within the dimension into specific states.
 		 The dimension exists as a **framework** for possible variance, a "field" where future constraints will create specific instances.
 
  This relational aspect is crucial because it shows that the **dimension** itself is not just an isolated entity but a **differentiated state** defined by its **contrast**.
@@ -112,7 +123,11 @@ A **dimension** is initially defined as a **space of potential variability**�
 			For example, the dimension "time" provides a foundation for expressing temporal changes, making "time" an identity unto itself.
 				The **difference** of this single property from others (such as "length" vs. "time") comes from its **distinct role** in expressing change. 
 					Each dimension's identity is characterized by the type of variance or potential it encapsulates.
+### Recursion: The Differentiation of a Differentiation
+At the **fundamental level**, a dimension (or a differentiated state) is defined through **differentiation**—meaning that it is recognized as a **distinct potential** for variation or change. 
+	This is the **first-level differentiation**, where the dimension is **defined** as being distinct from other dimensions (e.g., space vs. time, x-axis vs. y-axis).
 
+### Constraining a Low Level Definition: Implemented Through Parametrization
 #### The First Differentiation Constrained as an Instance Within the First Dimension (i.e. Reducing the Degrees of Freedom)
 **An instance can be produced without needing an additional dimension.** 
 	The key is to recognize that even within a **single dimension**, you can introduce parameters to create specific instances. 
@@ -122,6 +137,24 @@ A **dimension** is initially defined as a **space of potential variability**�
 				       In this case, $P$ acts as a **constraint** that defines a specific instance of the dimension’s behavior.
 					    Even though the dimension itself offers only a single **axis of variation** (between "0" and "1"), the parameter $p$ enables us to **select** or **control** how that axis expresses itself.
 						     This process can generate an **instance** of the dimension by fixing the parameter to a specific value or condition.
+#### The First Differentiation as Low-Level Parametrization
+When we **differentiate** a single dimension from others, we are already engaging in a form of **low-level parametrization** or **quantification**. 
+	This is because, even at an abstract level, we are **assigning a role** or **identity** to that dimension, distinguishing it from what it is not.
+		In a sense, we are setting a **BOUNDARY** (i.e. a **constraint** or **parameter**) that says, "This dimension is not like the others."
+			 This introduces a kind of **quantification** in the sense that we are **assigning** a property (or potential for variation) to this dimension **in relation to** the other dimensions.
+##### Low-Level Implicit Quantification
+At the lowest level, the **value** or **meaning** of a dimension does not necessarily exist **within** the dimension itself but rather **between** dimensions.
+	This means that the **identity** of a dimension arises in the context of how it **differs** from other dimensions.
+		This quantification occurs in the sense that the dimension is **discerned** or **recognized** as a **distinct entity** among other possible dimensions. 
+			The **value** of a dimension doesn’t only come from within the dimension itself, but more importantly, from the **relationships** or **distinctions** between dimensions.
+				In this sense, **value** (or **quantification**) arises from the **distinctions** or **relations** between dimensions, **not yet** from properties **internal** to the dimensions.
+
+Even if the dimension is abstract and not yet assigned a specific **numerical value**, its **identity** as distinct from other dimensions creates an implicit **quantification**. 
+	This happens because, through **differentiation**, we are already setting a **parameter** that this dimension is **distinct** from others.
+		 In other words, we are defining a **role** for it within a larger system of potential variations.
+
+This reflects the idea that **value** in a system of dimensions is **relational**—a dimension gains its identity by being **not the other dimensions**. 
+	This inter-dimensional distinction is where **quantification** begins, even before specific values are assigned within a single dimension.
 ##### The Parametrization of an Instance of the First Dimension (i.e. the Collapsing the Potential Variability into a Specific State)
 I.e. The Implementation of the Definition via Constraint (i.e. the constraining of a dimension to a specific state).
 	**Parametrization** is the process of introducing **parameters** that **govern** or **control** the variance within a dimension.

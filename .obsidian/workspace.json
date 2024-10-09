@@ -187,10 +187,10 @@
           }
         ],
         "direction": "vertical",
-        "x": 145,
+        "x": 0,
         "y": 25,
-        "width": 980,
-        "height": 750,
+        "width": 547,
+        "height": 789,
         "maximize": false,
         "zoom": 0
       }
