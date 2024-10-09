@@ -79,6 +79,48 @@ The **line** itself can then be thought of as the collection (or set) of **all s
 	In other words, the **line is the set of all vectors $\vec{r}$ whose components $(x,y)$ make the equation true**.
 
 - - -
+### The Relationship Between the Forms of a Position Vector and Normal Form of a Line
+The **position vector** and the **equation of a line in normal form** share a similar structure, and this similarity is deeply rooted in their relationship with the **origin**. Let's break this down to clarify the connection.
+- When you have a **position vector** \( \vec{r} = x \hat{i} + y \hat{j} \), it inherently describes a point's position starting from the origin. In essence, it expresses a **linear combination** of the unit vectors \( \hat{i} \) and \( \hat{j} \) scaled by \( x \) and \( y \), respectively.
+- Similarly, the **line equation** \( Ax + By = 0 \) can be viewed as a linear relationship between the coordinates \( x \) and \( y \). In this case, the coefficients \( A \) and \( B \) indicate the direction of the normal vector to the line.
+- The forms appear similar because, in both cases:
+  - The **position vector** \( x \hat{i} + y \hat{j} \) implies a direction and magnitude relative to the origin.
+  - The line equation \( Ax + By = 0 \) describes all the points \( (x, y) \) that lie along a line passing through the origin. This line can be characterized by vectors that, when scaled, also represent directions relative to the origin.
+
+**Connection When \( C = 0 \):**
+- When the constant \( C = 0 \) in the line equation \( Ax + By + C = 0 \), the line **must pass through the origin**. 
+- The similarity in form between the position vector \( x \hat{i} + y \hat{j} \) and the line equation \( Ax + By = 0 \) arises because they both involve linear combinations of the coordinate directions \( \hat{i} \) and \( \hat{j} \) relative to the origin.
+- When C=0C = 0C=0 in the equation Ax+By=0Ax + By = 0Ax+By=0, the line does indeed pass through the origin. This is because when x=0x = 0x=0 and y=0y = 0y=0, the equation is satisfied, confirming that the origin (0,0)(0, 0)(0,0) lies on the line. So the line intersects the origin when C=0C = 0C=0.
+And then let's say the equation is AX plus BY equals some scalar, a real number. Then that means that you would, to even out the equation, you're always trying to get a zero on the right-hand side, so that...”
+By moving everything to one side and setting the equation to zero, Ax+By−D=0Ax + By - D = 0Ax+By−D=0, where DDD is some real number, you simplify the process of finding the intercepts and analyzing the line's properties. This form also makes it easier to apply certain linear algebra techniques, like matrix operations, to analyze or solve systems of equations.
+
+
+When D≠0D \neq 0D=0 in the equation Ax+By=DAx + By = DAx+By=D, you can rewrite it as Ax+By−D=0Ax + By - D = 0Ax+By−D=0 to balance the equation. Here, DDD becomes part of the constant term CCC in the standard form Ax+By+C=0Ax + By + C = 0Ax+By+C=0. The value of DDD affects the position of the line relative to the origin. If D=0D = 0D=0, the line passes through the
+
+“In the way that someone would derive the graph of an equation of a line in this form by looking at it would just be to mentally know that you would be trying to isolate x or y on either side of the equation so that you could find the y or x intercept.”
+
+00:17
+
+###### ChatGPT said:
+
+ChatGPT
+
+Yes, that's a good approach! To graph a line from an equation in the form Ax+By+C=0Ax + By + C = 0Ax+By+C=0, you can rearrange it to find the yyy-intercept and xxx-intercept. For example, you can solve for yyy to get it into the slope-intercept form:
+##### Slope
+The slope of the line given by Ax+By=0Ax + By = 0Ax+By=0 is the negative ratio of the coefficients: −AB-\frac{A}{B}−BA​. This ratio represents the change in yyy for a given change in xxx, which is the definition of slope. These coefficients, AAA and BBB, indeed scale the basis vectors in the vector form of the equation, determining the direction and steepness of the line. So, the slope is directly related to how these scalars affect the line's orientation.
+
+
+“What is b in slope-intercept form relative to the normal equation? Is b really the c value from the normal equation?”
+Yes, that's right! In the slope-intercept form of a linear equation, y=mx+by = mx + by=mx+b, the bbb represents the y-intercept, which is the point where the line crosses the y-axis.
+
+In the standard form of a linear equation, Ax+By+C=0Ax + By + C = 0Ax+By+C=0, you can rearrange it to slope-intercept form:
+
+By=−Ax−C.By = -Ax - C.By=−Ax−C.
+
+y=−ABx−CB.y = -\frac{A}{B}x - \frac{C}{B}.y=−BA​x−BC​.
+
+In this form, −CB-\frac{C}{B}−BC​ is equivalent to bbb in the slope-intercept equation. So yes, bbb in the slope-intercept form corresponds to (-\fr
+- - -
 ### The Normal Equation of a Line as a Dot Product
 A line $ax+by + c=0$ as a set of position vectors that have a perpendicular distance from origin along the normal vector that is given by c over the magnitude of the [[Normal Vector|normal vector]].
 

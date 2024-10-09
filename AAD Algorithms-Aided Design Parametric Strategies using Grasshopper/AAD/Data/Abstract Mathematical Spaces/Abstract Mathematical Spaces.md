@@ -38,7 +38,7 @@ The first Initial Change (the first relational existence).
 				 Both rely on each other to define what they are; "0" is understood as **not-1**, and "1" as **not-0**.
 
 #### The First Differentiation is its Own Identity, and Identity as Potential (i.e. a Dimension)
-##### Recognition of this First Differentiation (Low-Level Instantiation of a Discernment)
+##### Recognition of this First Differentiation (First-Level Instantiation of a Discernment)
 The recognition of a **state of differentiation**, even at an abstract level, would require some **formal mechanism** to **discern** or **distinguish** that state from what it is **not**. 
 	This is true whether we are defining a dimension, an object, or a state of existence.
 		This act of **differentiation**—**distinguishing** "this" from "not that"—is fundamental to how a dimension or state is defined, even before parametrization.
@@ -51,11 +51,16 @@ To **recognize differentiated states**: we formally **assert** that something 
 		This assertion involves **equality** because we are identifying the state as **itself**.
 		    Implicit in this act of **equality** is the differentiation from **what it is not**.
 			     By equating the state to **A**, we are implicitly asserting that it is **not B**, **not C**, and so on.
-##### The (Low-Level) Definition of the First Differentiation is an Assertion of Identity
+###### The Relational and Interdependent Nature of the First Differentiation 
+The identity of this first dimension is inherently **relational** and **interdependent**.
+	"0" and "1" do not have meaning in isolation; they **define** each other through their difference.
+		The **interdependence** implies that this dimension encapsulates the fundamental quality of **existence through differentiation**.
+			By differentiating "this" from "that," it defines the basic framework of identity.
+##### The (First-Level) Definition of the First Differentiation is an Assertion of Identity
 At the most fundamental level, the **definition** of a dimension (or any abstract differentiated state) involves the assertion of **identity**, which is formally implemented through **equality**.
 	To recognize/discern something, you need to assert that it is **equal to itself** and, at the same time, **not equal** to other things.
 		**This assertion is called a Definition**.
-###### Low-Level Definition as the Low-Level "Instantiation" of a Discernment
+###### Low-Level Definition as the First-Level "Instantiation" of a Discernment
 When defining a **discernment** or any abstract differentiated state, the process is not just about **recognizing** its potential for variance but also about **formally stating** what it **is** and what it **is not** (i.e. defining).
 	The process of **equality**—asserting **A = A**—is a formal way to instantiate that **discernment**. 
 		This act of equating something to itself allows it to be recognized as a distinct state, separate from everything else.
@@ -83,39 +88,29 @@ Equality at this low level can be understood as a **formal mechanism** that as
 				 This is how the differentiated state is **recognized** as distinct from what it is not.
 #### The Identity of the First Differentiation as the First Dimension
 This initial differentiation creates an **identity**. 
-	Before a differentiation is used in the definition of a more complex state, its identity is defined **by its inherent property**.
-		 It is not yet bound to specific constraints or configurations; it simply **"exists"** as a potentiality, an abstract foundation upon which more complex forms can be built.
-			An Identity is **shaped by the kind of potential it uniquely represents**.
-				We call this abstract potential of variance, a Dimension.
-
-The dimension formed by the distinction between "0" and "1" becomes a **unique entity** that defines a kind of **existence**: the existence of **difference** or **contrast**.
-	The **identity** here is not tied to specific characteristics (like "length" or "time") but rather to the **very nature of differentiation** itself. 
-		It is an identity that arises from the **act of distinguishing** one state from another.
-			 In other words, it embodies the **essence of duality**—the simultaneous presence of "this" and "that," "0" and "1."
-				This identity is abstract and fundamental because it serves as the **groundwork** for all further differentiation. 
-					It is the "first step" that allows for more complex structures, properties, and identities to emerge.
-
-**Dimensions** serve as the basic properties or aspects that define a **differentiated state**.
-	They represent the potential for variance (or change) within that state.
-		Dimensions represent the **potential for change** itself, rather than the specific ways that change is constrained (which is the role of parameters).
-			This differentiation creates a basic framework where **one form of variance** (binary change) exists.
-				In this state, "0" and "1" represent a single **axis of variation**—a dimension that can toggle between two states.
+It is an identity that arises from the **act of distinguishing** one state from another.
+	 In other words, it embodies the **essence of duality**—the simultaneous presence of "this" and "that," "0" and "1."
+		This identity is abstract and fundamental because it serves as the **groundwork** for all further differentiation. 
+			It is the "first step" that allows for more complex structures, properties, and identities to emerge.
+			
+An Identity is **shaped by the kind of potential it uniquely represents**.
+	We call this abstract potential of variance, a Dimension.
+		 Here, the **dimension** represents the fundamental ability to **distinguish** or **change** between states - it is an intrinsic "difference".
+			Therefore, this dimension is a **differentiated state** on its own because it encapsulates the primary **potential for change**—the existence of a "difference" between two relational states.
+				In abstract terms, this first dimension embodies the **concept of distinction**, which is a foundational property that enables all further differentiation and definition.
+					Before a differentiation is used in the definition of a more complex state, its identity is defined **by its inherent property**.
+						 It is not yet bound to specific constraints or configurations; it simply **"exists"** as a potentiality, an abstract foundation upon which more complex forms can be built.
 
 In this framework, the act of differentiation—splitting into "this" and "that"—introduces the **first dimension**. 
 	 This is an isolation of a specific potential for change.
-		 This dimension is an aspect that has the potential for variability, the **space of potential variance** defined by the contrast between "0" and "1." 
-			 Here, the **dimension** represents the fundamental ability to **distinguish** or **change** between states - it is an intrinsic "difference".
-				Therefore, this dimension is a **differentiated state** on its own because it encapsulates the primary **potential for change**—the existence of a "difference" between two relational states.
-					In abstract terms, this first dimension embodies the **concept of distinction**, which is a foundational property that enables all further differentiation and definition.
-#### The Relational and Interdependent Nature of the First Differentiation 
-The identity of this first dimension is inherently **relational** and **interdependent**.
-	"0" and "1" do not have meaning in isolation; they **define** each other through their difference.
-		The **interdependence** implies that this dimension encapsulates the fundamental quality of **existence through differentiation**.
-			By differentiating "this" from "that," it defines the basic framework of identity.
-#### The First Dimension as the First Differentiated State
-A **dimension** is initially defined as a **space of potential variability** or **differentiation**. It represents a fundamental way in which a system or entity can **vary** or **change**.
-	At its most basic level, this **definition** is abstract—it establishes the **potential** for differentiation but does not yet fix the instances within the dimension into specific states.
-		 The dimension exists as a **framework** for possible variance, a "field" where future constraints will create specific instances.
+		 The dimension formed by the distinction between "0" and "1" becomes a **unique entity** that defines a kind of **existence**: the existence of **difference** or **contrast**.
+			 This dimension is an aspect that has the potential for variability, the **space of potential variance** defined by the contrast between "0" and "1." 
+				The **identity** here is not tied to specific characteristics (like "length" or "time") but rather to the **very nature of differentiation** itself. 
+###### Dimension
+A **dimension** is initially defined as a **space of potential variability** or **differentiation**. 
+	It represents a fundamental way in which a system or entity can **vary** or **change**.
+		At its most basic level, this **definition** is abstract—it establishes the **potential** for differentiation but does not yet fix the instances within the dimension into specific states.
+			 The dimension exists as a **framework** for possible variance, a "field" where future constraints will create specific instances.
 
  This relational aspect is crucial because it shows that the **dimension** itself is not just an isolated entity but a **differentiated state** defined by its **contrast**.
 	It is the initial "differentiated state" that gives rise to the possibility of all subsequent structures, definitions, and transformations.
@@ -126,9 +121,35 @@ A **dimension** is initially defined as a **space of potential variability**�
 ### Recursion: The Differentiation of a Differentiation
 At the **fundamental level**, a dimension (or a differentiated state) is defined through **differentiation**—meaning that it is recognized as a **distinct potential** for variation or change. 
 	This is the **first-level differentiation**, where the dimension is **defined** as being distinct from other dimensions (e.g., space vs. time, x-axis vs. y-axis).
+		The **initial definition** of a dimension sets up the **general nature** of the dimension, describing its **potential**for variance.
 
-### Constraining a Low Level Definition: Implemented Through Parametrization
-#### The First Differentiation Constrained as an Instance Within the First Dimension (i.e. Reducing the Degrees of Freedom)
+The process of **defining** and **differentiating** is recursive, meaning that **each layer** of definition can be **refined** by further constraints and specifications. 
+	You can continue adding more layers of differentiation and parametrization to make the system more and more specific.
+		This layered process is what leads to more **specific instances** or **well-defined states** within the broader framework.
+			Each layer of definition (or differentiation) brings the system closer to a **concrete state** from its original abstract potential.
+
+**Layers of Definition and Differentiation:**
+- **First-level differentiation (initial definition):** 
+	- At this **base (i.e. first) level**, you have a **general definition** or **differentiation**: the establishment of a dimension or a space as a potential for variation.
+	- This is where a dimension or state is **distinguished** from others, forming the **foundation** of a framework. 
+	- For example, in a geometric context, the x-axis and y-axis are distinct dimensions that are differentiated from one another.
+- **Second-level differentiation (parametrization):** 
+	- At a **higher level**, you add **specific constraints** or **definitions** through parametrization, which further refines how the initial framework behaves.
+	- This is where we **refine** the framework by introducing **specific constraints** or values. 
+	- For example, introducing an equation like x+y=5x+y=5 within the 2D space adds a further **definition** to the system, limiting the possibilities of how xx and yy can vary.
+### Constraints as a Higher-Level Definition
+In this sense, **constraints (implemented by parametrization)** is a **higher-level definition** because it **constrains** the potential variability of the dimension by assigning specific **rules** or **values** that shape how the dimension operates.
+###### Constraints Bound a Dimension 
+**Constraints** add a **second layer of definition**, introducing boundaries that specify **how** the dimension behaves or what values it can take on.
+	In this sense, constraints **defines the range** or **conditions** under which the already-differentiated state operates.
+		 It’s a **more specific definition** within the larger, more general framework.
+###### Implementation of Constraints
+Constraints introduces **parameters** that impose **specific conditions** or **values** on the already-defined system.
+	These constraints reduce the general **degrees of freedom** within the system, leading to more specific outcomes within the low-level dimension.
+
+Parametrization doesn’t alter the **fundamental nature** of the dimension but rather **refines** it by assigning values, functions, or relationships that govern its behavior. 
+	This refinement is crucial for defining **specific instances** or **states** within the space defined by the dimension.
+#### Constraining a First-Level Differentiation: An Instance Within the First Dimension (i.e. Reducing the Degrees of Freedom)
 **An instance can be produced without needing an additional dimension.** 
 	The key is to recognize that even within a **single dimension**, you can introduce parameters to create specific instances. 
 	    Suppose the initial dimension is defined simply as a binary toggle between "0" and "1."
@@ -237,6 +258,12 @@ When you **combine** the first and second dimensions, you are creating a **new e
 			The definition of this 2D space emerges **from the interplay** of the two dimensions.
 				 It provides a structure where instances are now **pairs of values** representing both "length" (x) and "width" (y). 
 					 In this way, 2D space becomes a **new identity** that can express more complex forms of differentiation than either dimension alone.
+
+**Dimensions** serve as the basic properties or aspects that define a **high-level differentiated state**.
+	They represent the potential for variance (or change) within that state.
+		Dimensions represent the **potential for change** itself, rather than the specific ways that change is constrained (which is the role of parameters).
+			This differentiation creates a basic framework where **one form of variance** (binary change) exists.
+				In this state, "0" and "1" represent a single **axis of variation**—a dimension that can toggle between two states.
 #### The Evolution of the Constraints
 ##### Dimensionality Determines the Complexity of the Potential Constraints
 The **dimensionality** of the space dictates the **complexity** of the potential constraints. 
