@@ -162,6 +162,30 @@ At a **higher level**, you **introduce and configure** **specific constraints*
 		This framework sets up the **conditions** and **structure** of the system, without necessarily assigning specific values to the parameters immediately.
 			The system’s behavior is structured but **not yet fixed** in terms of specific values.
 				 In mathematical terms, **parametrization** involves expressing one or more **variables** in terms of one or more **parameters**. 
+###### Parameters
+In the context of parametrization, parameters are generally **constants** or **controlling quantities** that govern how variables behave or change. 
+	They are typically **independent** from the system’s main variables, that is, **independent** quantities, that define the system's structure, rules for how variables behave.
+		Parameters govern the possible configurations of the system without yet assigning specific values.
+###### Variables
+**Variables** are the **specific manifestations** of the dimension's potential. 
+	They are the **quantitative representations**of how much a system varies along that dimension.
+		 In this sense, variables take on values that are **measures** of the **state** within a particular dimension.
+			  In other words, variables provide the **actual values** that describe a system's state **within** a dimension, while the dimension itself represents the **potential** for those values to exist. 
+				  So, a variable is the **instantiation** of the dimension’s potential at a given moment or in a given context.
+					   *For example:* In the context of spatial dimensions like xx, yy, and zz, the dimension xx represents the **potential** for a point to exist at any location along the x-axis. 
+						   The **variable** xx then takes on specific **numerical values** that describe a particular point or state along that axis. If x=5x=5, this means the point exists 5 units along the x-axis—this is the **quantitative realization** of the dimension’s potential.
+	
+
+**Variables**, are **dependent** quantities whose values are determined by the relationships defined by the parameters.
+	Variables describe the system’s state within the dimensional space.
+		 A variable is an **instantiation** or **realization** of the abstract **potential** provided by the dimension. 
+			 The variable’s value at any given moment or under specific constraints (e.g., through parametrization) represents a **specific state**within that dimensional framework.
+
+**Parametrization** defines how the variables are allowed to vary within a dimension. The **variables** are **expressions**of how the parameters constrain the dimension's potential.
+	They tell us how much the system has varied or where the system currently exists within that potential space (e.g., at a particular point on a curve, surface, or more complex structure).
+		In the recursive process of **differentiation**, where each layer of definition adds more specificity to the potential of a dimension, **variables** act as the **tools** or **markers** for realizing that specificity. 
+			They carry the **specific values** or **states** that the system takes on as we progressively add more constraints or parametrization to refine the dimensional space.
+				As we apply more constraints through parametrization (second-level differentiation), the variables become more **specific** instantiations of the dimension’s potential, ultimately leading to **quantified outcomes** in the form of a solution set.
 ##### 3. Third-Level Differentiation (Definition of an Instance to a Defined Constraint within the Defined Dimension: Quantification Implemented by Value Assignment)
 **Value assignment** to the parameters happens when you want to **instantiate** a specific instance of the system within the already-defined framework. 
 	This assignment gives specific, concrete outcomes based on the relational structure.
