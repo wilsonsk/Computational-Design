@@ -146,16 +146,60 @@ The process of **defining** and **differentiating** is recursive, meaning th
 		This layered process is what leads to more **specific instances** or **well-defined states** within the broader framework.
 			Each layer of definition (or differentiation) brings the system closer to a **concrete state** from its original abstract potential.
 #### Layers of Definition and Differentiation
-###### First-Level Differentiation (Initial Definition)
+##### 1. First-Level Differentiation (Initial Definition of Dimension)
 At this **base (i.e. first) level**, you have a **general definition** or **differentiation**: the establishment of a dimension or a space as a potential for variation.
 	This is where a dimension or state is **distinguished** from others, forming the **foundation** of a framework. 
 		For example, in a geometric context, the x-axis and y-axis are distinct dimensions that are differentiated from one another.
-###### Second-Level Differentiation (Constraint via Parametrization)
-At a **higher level**, you add **specific constraints** or **definitions** through parametrization, which further refines how the initial framework behaves.
+##### 2. Second-Level Differentiation (Definition of a Relational Structure to a Defined Dimension: Applying Constraints Implemented by Parametrization)
+At a **higher level**, you **introduce and configure** **specific constraints** or **definitions** through parametrization, which further refines how the initial framework behaves.
 	This is where we **refine** the framework by introducing **specific constraints** or values. 
-		For example, introducing an equation like $x+y=5$ within the 2D space adds a further **definition** to the system, limiting the possibilities of how $x$ and $y$ can vary.
+		Constraints limit the possible states by **defining conditions** that the variables must satisfy.
+			For example, introducing an equation like $x+y=5$ within the 2D space adds a further **definition** to the system, limiting the possibilities of how $x$ and $y$ can vary.
+				These Differentiations are the requirements the subsequent instances must satisfy.
+
+**Parametrization** is the act of creating a **relational framework** or **rule** that defines how **variables** depend on **parameters**. 
+	 It is about configuring the **relational structure** that governs how the variables behave within the system, with the **parameters** serving as the elements that shape or control this behavior.
+		This framework sets up the **conditions** and **structure** of the system, without necessarily assigning specific values to the parameters immediately.
+			The system’s behavior is structured but **not yet fixed** in terms of specific values.
+				 In mathematical terms, **parametrization** involves expressing one or more **variables** in terms of one or more **parameters**. 
+##### 3. Third-Level Differentiation (Definition of an Instance to a Defined Constraint within the Defined Dimension: Quantification Implemented by Value Assignment)
+**Value assignment** to the parameters happens when you want to **instantiate** a specific instance of the system within the already-defined framework. 
+	This assignment gives specific, concrete outcomes based on the relational structure.
+
+**Instantiation** occurs as the **outcome** of the process of **constraint via parametrization**. 
+	In other words, it happens when a specific, quantifiable state or instance is **realized** after constraints have been applied and parameters have been set.
+		The act of **applying constraints** and **parametrization** defines the **conditions** under which the system will instantiate particular states that satisfy those conditions.
+			 However, the **actual instantiation** occurs when specific values (i.e., **quantified outcomes**) are assigned to the variables, thus producing a **concrete instance** of the system.
+				 During **parametrization** and **constraint**, we are still operating in the realm of **potentiality**—we are setting up the conditions under which **specific states** can arise, but we have not yet realized those states.
+					The system becomes **instantiated** once the **specific values** (solutions or outcomes) that satisfy those constraints are **realized**.
+						 At this point, the system has moved from an abstract potential to a **concrete state**—this is the **moment of instantiation**.
+
+**Value assignment** to parameters is a distinct step that may happen **after** the parametrization process.
+	Once the **structure** is defined through parametrization, you can assign specific values to the parameters, which then produces specific **outcomes** or **instances** of the system.
+
+**Parametrization** and **constraint** are **processes** that lead up to instantiation, but the **instantiation itself** happens when those constraints result in specific, **quantified outcomes**.
+	A system can be defined or constrained abstractly through parametrization, but it does not become **instantiated** until the **values** are assigned to the parameters, creating a specific instance of the system.
+###### The Set of Instances: Solution Sets 
+The **outcome** of the process of quantification is the **specific values** or **instances**—the **realized solutions** or **differentiated states** that satisfy the constraints. 
+	This is the set of **actualized values** or configurations that result from the imposed constraints and parametrization.
+
+The collection of all possible states (instances) derived from configurations that satisfy the constraints imposed by the parameters within the dimensions.
+	Solutions represent the specific states of the system where the parameters take on certain values.
+
+Each solution within a **solution set** is a **specific realization** of the system's potential, constrained by the imposed conditions. 
+	In this sense, solutions are the **differentiated instances** themselves, but now they are **realized** within the **constraints** defined by the system.
+		The **solution set** doesn’t represent abstract possibilities anymore—it represents the **concrete** outcomes or states that the system can take on given the constraints.
+
+In systems with multiple **constraints**, the solution set represents the **intersection** of all the constraints. 
+	These intersections correspond to the **differentiated instances** where all the constraints are satisfied simultaneously.
+
+The **solution set** is essentially the **outcome** of **parametrization** and **constraint**.
+	The process of constraining a system with equations or inequalities narrows down the possible differentiated states to a specific set of **solutions**that fit within the defined conditions.
+		Each **solution** is a **specific instance** or **differentiated state** that has been realized through the **application of constraints**. 
+			These instances represent the system’s possible configurations under the given conditions.
 ### Constraining a First-Level Definition: Producing a Higher-Level Definition (i.e. an Instance)
 In this sense, **constraints (implemented by parametrization)** is a **higher-level definition** because it **constrains** the potential variability of the dimension by assigning specific **rules** or **values** that shape how the dimension operates.
+	I.e. Constraints limit the possible states by **defining conditions** that the variables must satisfy.
 ##### An Instance Within the First Dimension (i.e. Reducing the Degrees of Freedom)
 **An instance can be produced without needing an additional dimension.** 
 	The key is to recognize that even within a **single dimension**, you can introduce parameters to create specific instances. 
