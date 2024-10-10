@@ -118,52 +118,12 @@ A **dimension** is initially defined as a **space of potential variability**�
 			For example, the dimension "time" provides a foundation for expressing temporal changes, making "time" an identity unto itself.
 				The **difference** of this single property from others (such as "length" vs. "time") comes from its **distinct role** in expressing change. 
 					Each dimension's identity is characterized by the type of variance or potential it encapsulates.
-### Recursion: The Differentiation of a Differentiation
-At the **fundamental level**, a dimension (or a differentiated state) is defined through **differentiation**—meaning that it is recognized as a **distinct potential** for variation or change. 
-	This is the **first-level differentiation**, where the dimension is **defined** as being distinct from other dimensions (e.g., space vs. time, x-axis vs. y-axis).
-		The **initial definition** of a dimension sets up the **general nature** of the dimension, describing its **potential**for variance.
-
-The process of **defining** and **differentiating** is recursive, meaning that **each layer** of definition can be **refined** by further constraints and specifications. 
-	You can continue adding more layers of differentiation and parametrization to make the system more and more specific.
-		This layered process is what leads to more **specific instances** or **well-defined states** within the broader framework.
-			Each layer of definition (or differentiation) brings the system closer to a **concrete state** from its original abstract potential.
-
-**Layers of Definition and Differentiation:**
-- **First-level differentiation (initial definition):** 
-	- At this **base (i.e. first) level**, you have a **general definition** or **differentiation**: the establishment of a dimension or a space as a potential for variation.
-	- This is where a dimension or state is **distinguished** from others, forming the **foundation** of a framework. 
-	- For example, in a geometric context, the x-axis and y-axis are distinct dimensions that are differentiated from one another.
-- **Second-level differentiation (parametrization):** 
-	- At a **higher level**, you add **specific constraints** or **definitions** through parametrization, which further refines how the initial framework behaves.
-	- This is where we **refine** the framework by introducing **specific constraints** or values. 
-	- For example, introducing an equation like x+y=5x+y=5 within the 2D space adds a further **definition** to the system, limiting the possibilities of how xx and yy can vary.
-### Constraints as a Higher-Level Definition
-In this sense, **constraints (implemented by parametrization)** is a **higher-level definition** because it **constrains** the potential variability of the dimension by assigning specific **rules** or **values** that shape how the dimension operates.
-###### Constraints Bound a Dimension 
-**Constraints** add a **second layer of definition**, introducing boundaries that specify **how** the dimension behaves or what values it can take on.
-	In this sense, constraints **defines the range** or **conditions** under which the already-differentiated state operates.
-		 It’s a **more specific definition** within the larger, more general framework.
-###### Implementation of Constraints
-Constraints introduces **parameters** that impose **specific conditions** or **values** on the already-defined system.
-	These constraints reduce the general **degrees of freedom** within the system, leading to more specific outcomes within the low-level dimension.
-
-Parametrization doesn’t alter the **fundamental nature** of the dimension but rather **refines** it by assigning values, functions, or relationships that govern its behavior. 
-	This refinement is crucial for defining **specific instances** or **states** within the space defined by the dimension.
-#### Constraining a First-Level Differentiation: An Instance Within the First Dimension (i.e. Reducing the Degrees of Freedom)
-**An instance can be produced without needing an additional dimension.** 
-	The key is to recognize that even within a **single dimension**, you can introduce parameters to create specific instances. 
-	    Suppose the initial dimension is defined simply as a binary toggle between "0" and "1."
-		     We can introduce a **parameter** that dictates the **state** of this dimension.
-			      For example, a parameter $p$ could specify the condition under which the dimension is in state "0" versus state "1."
-				       In this case, $P$ acts as a **constraint** that defines a specific instance of the dimension’s behavior.
-					    Even though the dimension itself offers only a single **axis of variation** (between "0" and "1"), the parameter $p$ enables us to **select** or **control** how that axis expresses itself.
-						     This process can generate an **instance** of the dimension by fixing the parameter to a specific value or condition.
-#### The First Differentiation as Low-Level Parametrization
-When we **differentiate** a single dimension from others, we are already engaging in a form of **low-level parametrization** or **quantification**. 
+#### The First Differentiation as an Implicit First-Level Constraint (First-Level Instantiation)
+When we **differentiate** a single dimension from others, we are already engaging in a form of **low-level parametrization** or **quantification** (i.e. First-Level Instantiation). 
 	This is because, even at an abstract level, we are **assigning a role** or **identity** to that dimension, distinguishing it from what it is not.
 		In a sense, we are setting a **BOUNDARY** (i.e. a **constraint** or **parameter**) that says, "This dimension is not like the others."
 			 This introduces a kind of **quantification** in the sense that we are **assigning** a property (or potential for variation) to this dimension **in relation to** the other dimensions.
-##### Low-Level Implicit Quantification
+##### First-Level Implicit Quantification
 At the lowest level, the **value** or **meaning** of a dimension does not necessarily exist **within** the dimension itself but rather **between** dimensions.
 	This means that the **identity** of a dimension arises in the context of how it **differs** from other dimensions.
 		This quantification occurs in the sense that the dimension is **discerned** or **recognized** as a **distinct entity** among other possible dimensions. 
@@ -176,11 +136,43 @@ Even if the dimension is abstract and not yet assigned a specific **numerical v
 
 This reflects the idea that **value** in a system of dimensions is **relational**—a dimension gains its identity by being **not the other dimensions**. 
 	This inter-dimensional distinction is where **quantification** begins, even before specific values are assigned within a single dimension.
-##### The Parametrization of an Instance of the First Dimension (i.e. the Collapsing the Potential Variability into a Specific State)
-I.e. The Implementation of the Definition via Constraint (i.e. the constraining of a dimension to a specific state).
-	**Parametrization** is the process of introducing **parameters** that **govern** or **control** the variance within a dimension.
-		 These parameters help define specific **instances** or **states** of that dimension.
-###### Equality (and thus Inequality) as the Fundamental Constraint
+### Recursion: The Differentiation of a Differentiation, the Definition of a Definition
+At the **fundamental level**, a dimension (or a differentiated state) is defined through **differentiation**—meaning that it is recognized as a **distinct potential** for variation or change. 
+	This is the **first-level differentiation**, where the dimension is **defined** as being distinct from other dimensions (e.g., space vs. time, x-axis vs. y-axis).
+		The **initial definition** of a dimension sets up the **general nature** of the dimension, describing its **potential**for variance.
+
+The process of **defining** and **differentiating** is recursive, meaning that **each layer** of definition can be **refined** by further constraints and specifications. 
+	You can continue adding more layers of differentiation and parametrization to make the system more and more specific.
+		This layered process is what leads to more **specific instances** or **well-defined states** within the broader framework.
+			Each layer of definition (or differentiation) brings the system closer to a **concrete state** from its original abstract potential.
+#### Layers of Definition and Differentiation
+###### First-Level Differentiation (Initial Definition)
+At this **base (i.e. first) level**, you have a **general definition** or **differentiation**: the establishment of a dimension or a space as a potential for variation.
+	This is where a dimension or state is **distinguished** from others, forming the **foundation** of a framework. 
+		For example, in a geometric context, the x-axis and y-axis are distinct dimensions that are differentiated from one another.
+###### Second-Level Differentiation (Constraint via Parametrization)
+At a **higher level**, you add **specific constraints** or **definitions** through parametrization, which further refines how the initial framework behaves.
+	This is where we **refine** the framework by introducing **specific constraints** or values. 
+		For example, introducing an equation like $x+y=5$ within the 2D space adds a further **definition** to the system, limiting the possibilities of how $x$ and $y$ can vary.
+### Constraining a First-Level Definition: Producing a Higher-Level Definition (i.e. an Instance)
+In this sense, **constraints (implemented by parametrization)** is a **higher-level definition** because it **constrains** the potential variability of the dimension by assigning specific **rules** or **values** that shape how the dimension operates.
+##### An Instance Within the First Dimension (i.e. Reducing the Degrees of Freedom)
+**An instance can be produced without needing an additional dimension.** 
+	The key is to recognize that even within a **single dimension**, you can introduce parameters to create specific instances. 
+	    Suppose the initial dimension is defined simply as a binary toggle between "0" and "1."
+		     We can introduce a **parameter** that dictates the **state** of this dimension.
+			      For example, a parameter $p$ could specify the condition under which the dimension is in state "0" versus state "1."
+				       In this case, $P$ acts as a **constraint** that defines a specific instance of the dimension’s behavior.
+					    Even though the dimension itself offers only a single **axis of variation** (between "0" and "1"), the parameter $p$ enables us to **select** or **control** how that axis expresses itself.
+						     This process can generate an **instance** of the dimension by fixing the parameter to a specific value or condition.
+#### **Constraints** 
+**Constraints** are **conditions** (e.g., equations or inequalities) applied to the variables, often involving parameters. 
+	These constraints form relationships that must be satisfied, which in turn define the possible values (or subsets) that the variables can take.
+##### Constraints Bound a Dimension 
+**Constraints** add a **second layer of definition**, introducing boundaries that specify **how** the dimension behaves or what values it can take on.
+	In this sense, constraints **defines the range** or **conditions** under which the already-differentiated state operates.
+		 It’s a **more specific definition** within the larger, more general framework.
+##### Equality (and thus Inequality) as the Fundamental Constraint
 **Equality** is fundamental because it provides the most direct way to **instantiate** a state within a dimension.
 	By imposing equality, you **collapse** the potential variability into a **specific state**, thereby creating a **differentiated instance** of the dimension.
 
@@ -192,6 +184,23 @@ The process of **instantiating** or **parametrizing** a dimension involves a
 						 It is through the introduction of equality (or inequality) that the dimension is **differentiated** into specific states or points.
 
 The **types of constraints** (or operations) you can impose on a space—starting from **basic equality** to more complex operations like **addition**, **multiplication**, and beyond—are fundamentally influenced by both the **number of parameters** present and the **structure** of the **space** (whether it is a single dimension or involves multiple dimensions). 
+##### Implementation of Constraints (i.e. Parameters)
+Constraints introduces **parameters** that impose **specific conditions** or **values** on the already-defined system.
+	These constraints reduce the general **degrees of freedom** within the system, leading to more specific outcomes within the low-level dimension.
+
+**Parameters** define how **constraints** are applied to variables.
+	They essentially "shape" the space in which solutions exist. 
+		Without parameters, variables might have a more "free" range of values, representing a higher degree of freedom.
+
+Parametrization doesn’t alter the **fundamental nature** of the dimension but rather **refines** it by assigning values, functions, or relationships that govern its behavior. 
+	This refinement is crucial for defining **specific instances** or **states** within the space defined by the dimension.
+
+
+##### The Parametrization of an Instance of the First Dimension (i.e. the Collapsing the Potential Variability into a Specific State)
+I.e. The Implementation of the Definition via Constraint (i.e. the constraining of a dimension to a specific state).
+	**Parametrization** is the process of introducing **parameters** that **govern** or **control** the variance within a dimension.
+		 These parameters help define specific **instances** or **states** of that dimension.
+
 ###### Dimensions and Parameters
 Each dimension introduces a new **degree of freedom**, and you need one parameter to control or describe each of those degrees.
 	The number of **intrinsic dimensions** (the fundamental degrees of freedom of the space) dictates how many **parameters** are required to describe any point within that space. 
@@ -219,6 +228,9 @@ When the **first dimension** is **constrained** to produce **instances** of itse
 					 For example, consider a dimension representing **length**. Before constraining it, the dimension embodies a **potential** for any length. 
 						 When we constrain it by selecting a specific instance (e.g., "1 meter"), we are **assigning a value** to that dimension.
 							This assignment effectively **quantifies** one of the potential states of the dimension.
+###### The Specific States (i.e. Instances) of the First Dimension
+The **solution sets** of equations, domains, and ranges are all determined by the interplay of parameters (which configure relationships) and the nature of the variables (representing quantities). 
+	In essence, parameters limit or configure the subsets of values that the variables can assume.
 #### The Evolution of the First Dimension: Increasing the Number of Differentiated States (within the First Dimension)
 I.e. The increase in Differentiated States (i.e. variance) within this First Dimension.
 	Increase in "values"/Instances within bounds of the First Dimension.
