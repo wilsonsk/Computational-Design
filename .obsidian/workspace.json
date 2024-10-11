@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "dafa966039dee06d",
+            "id": "31f48c09f5b858c2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Parametrization.md",
+                "file": "AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/Data/Abstract Mathematical Spaces/Components of Differentiation/Constraints.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes still trying to figure out parameters and variables relative to dimensions.md",
+                "file": "AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/Data/Abstract Mathematical Spaces/Components of Differentiation/Constraints.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes still trying to figure out parameters and variables relative to dimensions.md",
+                "file": "AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/Data/Abstract Mathematical Spaces/Components of Differentiation/Constraints.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes still trying to figure out parameters and variables relative to dimensions.md"
+                "file": "AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/Data/Abstract Mathematical Spaces/Components of Differentiation/Constraints.md"
               }
             }
           }
@@ -221,10 +222,15 @@
       }
     ]
   },
-  "active": "fbc5eefd82baf9f0",
+  "active": "b7e93a923d62ec1f",
   "lastOpenFiles": [
-    "AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/Data/Abstract Mathematical Spaces/Abstract Mathematical Spaces.md",
     "notes still trying to figure out parameters and variables relative to dimensions.md",
+    "AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/Data/Abstract Mathematical Spaces/Components of Differentiation/Constraints.md",
+    "AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/Data/Abstract Mathematical Spaces/Abstract Mathematical Spaces.md",
+    "AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/Data/Abstract Mathematical Spaces/Components of Differentiation/Parametrization.md",
+    "AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/Data/Abstract Mathematical Spaces/Components of Differentiation/Parameters.md",
+    "AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/Data/Abstract Mathematical Spaces/Components of Differentiation",
+    "AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/Data/Abstract Mathematical Spaces/Untitled.canvas",
     "AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/notes to add to abstract math spaces.md",
     "AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Keystone Notion/Line as a Set of Position Vectors.md",
     "AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Keystone Notion/Points as Position Vectors.md",
@@ -232,8 +238,7 @@
     "AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/images/Pasted image 20240914085927.png",
     "rough notes on intermediate states (probabilistic differentiation).md",
     "more notes on dimensions and parameters.md",
-    "AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Parametrization.md",
-    "AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Axes and Dimensions.md",
+    "AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/Data/Abstract Mathematical Spaces/Components of Differentiation/Axes and Dimensions.md",
     "AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/Data/Abstract Mathematical Spaces/Linear Algebra/Linearity/Vectors as Abstract Math Obj.md"
   ]
 }

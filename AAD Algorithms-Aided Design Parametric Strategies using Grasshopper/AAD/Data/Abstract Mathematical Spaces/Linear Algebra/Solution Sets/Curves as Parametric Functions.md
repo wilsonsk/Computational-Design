@@ -105,4 +105,4 @@ In some cases, we can extend the domain to be all of $\mathbb{R}^1$ (e.g., $t \i
 ##### Natural Boundaries
 Some curves or motions inherently have a beginning and an end.
 	For example, if you’re describing a finite-length curve, it makes sense to define the domain of $t$ as an interval, rather than the entire real line.
-## How to [[Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Parametrization|Parametrize]] a Curve
+## How to [[AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/Data/Abstract Mathematical Spaces/Components of Differentiation/Parametrization|Parametrize]] a Curve

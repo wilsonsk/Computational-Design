@@ -156,8 +156,39 @@ At a **higher level**, you **introduce and configure** **specific constraints*
 		Constraints limit the possible states by **defining conditions** that the variables must satisfy.
 			For example, introducing an equation like $x+y=5$ within the 2D space adds a further **definition** to the system, limiting the possibilities of how $x$ and $y$ can vary.
 				These Differentiations are the requirements the subsequent instances must satisfy.
+###### Constraints
+Constraints implemented via parametrization is where the **relationships between parameters and variables** are set up, typically in the form of **equations** or **operators** that govern how variables can vary within the system. 
+	At this stage, the constraints are **deterministic**—they describe how variables behave under fixed, well-defined relationships.
+###### Fundamental Constraint
+###### Lower-Level Constraints
+These are the **fundamental**, most basic types of constraints, directly linking variables and parameters through simple relationships like equality, arithmetic operations, and boundaries. 
+	These constraints are typically **deterministic** and apply to **individual variables** or **simple relationships** between them.
 
-**Parametrization** is the act of creating a **relational framework** or **rule** that defines how **variables** depend on **parameters**. 
+
+###### Higher-Level Constraints
+Higher-level constraints build on low-level constraints but introduce **complexity** in the form of **conditionality**, **branching**, and more **abstract** rules.
+	They enable the system to **adapt**, **branch**, or exhibit **multi-faceted behavior** under certain conditions.
+ - **Conditionality and Flexibility**: These constraints often rely on **conditionality** (e.g., logical constraints) or **iterative** behavior (e.g., algorithmic constraints), meaning the system can **adapt** or **branch** depending on the state of the variables or parameters.
+- **Complex Relationships**: Higher-level constraints introduce more **abstract** or **context-sensitive** rules that allow for **multi-dimensional** and **non-linear behaviors**.
+- **Refinement**: These constraints refine the behavior of the system beyond simple linear or equality relationships, allowing for more **specific instances** to be produced depending on how variables and parameters interact.
+###### Non-linear Constraints
+$$x2+y2=1$$
+These constraints govern variables through **more complex relationships** that are non-linear, such as quadratics, exponentials, or logarithmic functions.
+
+**Effect on Instantiation**: Non-linear constraints can produce **curved paths** or **surfaces** in a multi-dimensional space, often creating **accelerating** or **decelerating** relationships between variables.
+###### Algorithmic Constraints: Conditional Operators (“If-Then”)
+These constraints introduce **conditionality** into the system, such as **“if-then”** statements. 
+	This allows the system to behave **differently** based on the values of variables or parameters.
+		Logical constraints add **flexibility** by enabling **context-sensitive behavior**. 
+			This allows the system to dynamically **adjust** to different conditions or input states.
+
+These **algorithmic constraints** are still part of the **constraint process**, but they differ from purely mathematical operators because they introduce **branching** or **conditional behavior** into the system.
+	At the point of **third-level differentiation** (instantiation), the conditions are evaluated, and the system **selects** a specific path based on the algorithmic constraints, leading to a specific **quantified outcome**.
+
+**Effect on Instantiation**: Logical constraints cause the system to **branch** or **choose different paths** depending on whether the conditions are met. They are important in complex systems where the outcome is not always determined by a single rule.
+
+###### Parametrization 
+Parametrization is the act of creating a **relational framework** or **rule** that defines how **variables** depend on **parameters**. 
 	 It is about configuring the **relational structure** that governs how the variables behave within the system, with the **parameters** serving as the elements that shape or control this behavior.
 		This framework sets up the **conditions** and **structure** of the system, without necessarily assigning specific values to the parameters immediately.
 			The system’s behavior is structured but **not yet fixed** in terms of specific values.
@@ -173,8 +204,8 @@ In the context of parametrization, parameters are generally **constants** or 
 			  In other words, variables provide the **actual values** that describe a system's state **within** a dimension, while the dimension itself represents the **potential** for those values to exist. 
 				  So, a variable is the **instantiation** of the dimension’s potential at a given moment or in a given context.
 					   *For example:* In the context of spatial dimensions like xx, yy, and zz, the dimension xx represents the **potential** for a point to exist at any location along the x-axis. 
-						   The **variable** xx then takes on specific **numerical values** that describe a particular point or state along that axis. If x=5x=5, this means the point exists 5 units along the x-axis—this is the **quantitative realization** of the dimension’s potential.
-	
+						   The **variable** $x$ then takes on specific **numerical values** that describe a particular point or state along that axis.
+							    If$x=5$$, this means the point exists 5 units along the x-axis—this is the **quantitative realization** of the dimension’s potential.
 
 **Variables**, are **dependent** quantities whose values are determined by the relationships defined by the parameters.
 	Variables describe the system’s state within the dimensional space.
