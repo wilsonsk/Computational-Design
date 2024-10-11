@@ -21,7 +21,6 @@ Inequalities define **regions** of possible solutions rather than specific poi
 The instance is typically a **region** or **space** within the dimensional system where the variables are allowed to exist.
 ###### Inequality Effect on Instantiation
 Inequality constraints define **boundaries** for the system, ensuring that variables can only take on values **within certain limits**.
-
 ## Low-Level Constraints
 These are **one layer above the fundamental**, the most basic types of constraints, directly linking variables and parameters through simple relationships like equality, arithmetic operations, and boundaries. 
 	These constraints are typically **deterministic** and apply to **individual variables** or **simple relationships** between them.
@@ -34,6 +33,12 @@ There’s little to no **conditionality** involved.
 	A variable either satisfies the constraint or it doesn’t.
 ###### Simple Relationships
 The relationships between variables and parameters are typically simple and **deterministic**, forming the **foundation** for more complex behavior.
+### How Lower-Level Constraints Affect Instantiation
+These constraints typically define **broad regions** or **paths** where the system’s variables can exist. 
+	For example, a simple inequality constraint defines a **region** in space, and equality constraints define a **specific point or line**.
+###### Direct Instantiation
+Low-level constraints generally result in a more **deterministic** outcome.
+	For instance, a linear constraint like $\LARGE y=2x$ directly produces a line in the solution space.
 ### Boundary Constraints
 Boundary constraints set **hard limits** on the **range** of a variable.
 	These limits are typically used to **confine** the system within a specific domain.
@@ -59,34 +64,75 @@ Linear constraints produce **straight-line relationships** or **linear region
 ## Higher-Level Constraints
 Higher-level constraints build on low-level constraints but introduce **complexity** in the form of **conditionality**, **branching**, and more **abstract** rules.
 	They enable the system to **adapt**, **branch**, or exhibit **multi-faceted behavior** under certain conditions.
-##### Conditionality and Flexibility
+### Characteristics of Higher-Level Constraints
+###### Conditionality and Flexibility
 These constraints often rely on **conditionality** (e.g., logical constraints) or **iterative** behavior (e.g., algorithmic constraints), meaning the system can **adapt** or **branch** depending on the state of the variables or parameters.
+	Higher-level constraints are applied to introduce more **flexibility** in the system’s behavior. 
+		They allow the system to **adapt** to changing conditions, introducing **conditional branching**, **iterative processes**, or **non-linear effects** that refine the outcomes.
 ###### Complex Relationships
 Higher-level constraints introduce more **abstract** or **context-sensitive** rules that allow for **multi-dimensional** and **non-linear behaviors**.
+	For more complex systems, higher-level constraints are needed to handle **multi-dimensional interactions**, **symmetries**, or **conditional logic** that can’t be addressed by simple, low-level constraints.
 ###### Refinement
 These constraints refine the behavior of the system beyond simple linear or equality relationships, allowing for more **specific instances** to be produced depending on how variables and parameters interact.
-### **How Each Level of Composition Affects Instantiation**:
+###### Specificity
+By applying higher-level constraints, the system can produce more **specific instances** and **fine-tuned behaviors**, ensuring that the system behaves appropriately under a wide range of conditions.
+### How Higher-Level Constraints Affect Instantiation
+These introduce **conditionality** and **refinement**. 
+	For instance, a system with logical constraints can behave **differently** depending on the values of the variables, and non-linear constraints can create **curved surfaces** or **non-linear paths**.
+###### More Complex Instantiation
+Higher-level constraints lead to **branching** or **multi-step** instantiation processes, where different conditions might produce entirely different solutions or behaviors. 
+	A system with logical constraints might instantiate one instance under certain conditions and a completely different one if the conditions change.
 
-- **Low-Level Constraints**:
-    
-    - These constraints typically define **broad regions** or **paths** where the system’s variables can exist. For example, a simple inequality constraint defines a **region** in space, and equality constraints define a **specific point or line**.
-    - **Direct instantiation**: Low-level constraints generally result in a more **deterministic** outcome. For instance, a linear constraint like y=2xy=2x directly produces a line in the solution space.
-- **Higher-Level Constraints**:
-    
-    - These introduce **conditionality** and **refinement**. For instance, a system with logical constraints can behave **differently** depending on the values of the variables, and non-linear constraints can create **curved surfaces**or **non-linear paths**.
-    - **More complex instantiation**: Higher-level constraints lead to **branching** or **multi-step** instantiation processes, where different conditions might produce entirely different solutions or behaviors. A system with logical constraints might instantiate one instance under certain conditions and a completely different one if the conditions change.
-
-### **Why Higher-Level Constraints Are Applied**:
-
-- **Refinement and Flexibility**: Higher-level constraints are applied to introduce more **flexibility** in the system’s behavior. They allow the system to **adapt** to changing conditions, introducing **conditional branching**, **iterative processes**, or **non-linear effects** that refine the outcomes.
-- **Complex Behavior**: For more complex systems, higher-level constraints are needed to handle **multi-dimensional interactions**, **symmetries**, or **conditional logic** that can’t be addressed by simple, low-level constraints.
-- **Specificity**: By applying higher-level constraints, the system can produce more **specific instances** and **fine-tuned behaviors**, ensuring that the system behaves appropriately under a wide range of conditions.
-
-
-
+### Non-linear Constraints
+$$x2+y2=1$$
+A **non-linear constraint** involves relationships where the rate of change between variables is not constant. 
+	These constraints can involve **quadratic, exponential, or other non-linear operations**.
+###### Form of Non-Linear Constraint
+Quadratic: $\LARGE ax2+by+c=0$
+    - **Variables**: xx, yy
+    - **Parameters**: aa, bb, cc (constants determining curvature, scaling, etc.).
+###### Effect on the System
+In non-linear constraints, the variables experience **accelerated** or **decelerated** changes based on their relationship with the parameters. Quadratic constraints, for example, produce curves like **parabolas**, and exponential constraints result in **exponential growth or decay**.
+###### Instantiation
+The **instance** being parametrized could be a **curve** or surface, depending on how the parameters control the behavior of the variables.
+###### Effect on Instantiation
+Non-linear constraints can produce **curved paths** or **surfaces** in a multi-dimensional space, often creating **accelerating** or **decelerating** relationships between variables.
+### Logical Constraints
+A **logical constraint** introduces **conditional behavior**. 
+	Rather than continuously modifying variables based on an arithmetic relationship, a logical constraint imposes **conditions** such that variables only follow specific rules if certain **criteria** are met.
+		These constraints introduce **conditionality** into the system, such as **“if-then”** statements. 
+			This allows the system to behave **differently** based on the values of variables or parameters.
+###### Reason for Application
+Logical constraints add **flexibility** by enabling **context-sensitive behavior**. 
+	This allows the system to dynamically **adjust** to different conditions or input states.
+###### Form of Logical Constraints
+$\LARGE \text{if} \space P(x), \quad \text{then} \space y=f(x),\quad \text{else} \space y=g(x)$
+- **Variables**: xx, yy
+- **Parameters**: Conditions (like inequalities) control when certain behaviors apply.
+###### Effect on the System
+The behavior of the variables is **conditional** upon whether the parameters meet specific logical criteria.
+	Logical constraints allow the system to behave **differently** based on **different states** or conditions.
+###### Instantiation
+The instance produced can **branch** into multiple forms depending on whether the condition is true or false.
+###### Effect on Instantiation
+Logical constraints cause the system to **branch** or **choose different paths** depending on whether the conditions are met. 
+	They are important in complex systems where the outcome is not always determined by a single rule.
+### Algorithmic Constraints (Procedural Rules)
+Algorithmic constraints introduce **procedural rules** that determine how the system should behave under a sequence of steps or iterations.
+	These constraints often govern complex systems where multiple steps or decisions are required to reach an outcome.
+###### Form of Algorithmic Constraints
+A system may iterate over a set of values, applying a rule like:
+$$\LARGE \text{For} \space i=1 \space \text{to} \space 10, \quad x=x+i$$
+Here, the system is governed by a sequence of steps, and the final instance is a result of multiple iterations.
+###### Effect on Instantiation
+Algorithmic constraints lead to **multi-step behavior**, where the output at each step can affect the next.
+	They’re essential in systems like **cellular automata**, iterative solvers, or systems that require optimization.
+- **Example**: 
+- **Why Applied**: Algorithmic constraints are applied when the system needs to exhibit **step-by-step** behavior, either through iteration, optimization, or conditional logic. They’re useful in complex or **procedurally generated systems**.
 
 - - - 
 - Needs formatting 
+## More on Algorithmic (Conditional) Constraints
 In the **layers of differentiation** we’ve discussed, algorithmic or computational constraints, such as **“if-then”** statements, typically enter at the point where more **complex, conditional constraints** are introduced. These types of constraints are still part of the broader category of **operators**, but they add a layer of **conditionality** or **decision-making** to the system, governing how the variables and parameters behave based on certain conditions.
 
 Let’s explore this step-by-step in the context of the **layers of differentiation** and where **algorithmic constraints** fit in:

@@ -1,12 +1,16 @@
 # Parametrization
 [[Curves as Parametric Functions|Description of a curve]] with a [[Parameters vs. Variables|parameter]].
 *[[Curves Theory|Curves can describe many things.]]*
-In essence, parametrization abstracts the **essence of control** over variability, encoding how a system's characteristics are structured, bounded, and explored via independent parameters.
 
 **Parametrization** can be viewed as the process of introducing a **set of independent variables** (parameters) that **govern** or **describe** the possible states, positions, or configurations of a system within a defined space. 
 	These parameters **structure** how the variability of the system's characteristics (dimensions/properties) is expressed, effectively transforming a complex, potentially unconstrained set of possibilities into a manageable form.
+		In essence, parametrization abstracts the **essence of control** over variability, encoding how a system's characteristics are structured, bounded, and explored via independent parameters.
 
-Parametrization is a key part of the constraint aspect, as it provides a structured way to define and explore the possible variations within a differentiated state. 
+The **arrangement** of **parameters** and **variables** within a system defines the relationships between them and determines how the system behaves, ultimately affecting the **instances** produced. 
+	These arrangements govern the **constraints**, **behavior**, and **potential outcomes** of a system, influencing the structure of the solution space. 
+		Broadly, the way parameters and variables are arranged affects the **nature of the solutions**, including how values for variables are determined, how they change in response to parameters, and how they are constrained by the system’s structure.
+
+**Parametrization** is a key part of the [[Constraints|constraint]] aspect, as it provides a structured way to define and explore the possible variations within a differentiated state. 
 	By introducing parameters, you effectively "shape" or "limit" the state, determining how its characteristics are expressed and related. 
 		This process confines the infinite possibilities into a manageable and structured form, defining the boundaries of that state.
 ### Key Aspects of Parametrization
@@ -24,7 +28,24 @@ Parametrization is a key part of the constraint aspect, as it provides a structu
 4. **Abstract Conceptualization:**
     - **Parametrization**, at its most abstract, is the **act of defining a system's potential states** in terms of a **smaller, independent set of variables**. These parameters serve as the **coordinates** or **variables of control** that systematically explore the system's full range of possibilities.
     - By choosing parameters, you are essentially **embedding** or **structuring** the object within a new framework that captures its essential features through a simpler set of independent variables. This is why, in mathematics, parametric equations are used to describe curves, surfaces, and other geometries in terms of one or more parameters.
+### Effects of the Configuration of Parameters Relative to Variables
+#### Direct vs. Indirect Influence of Parameters on Variables
+##### Direct Relationships
+In cases where parameters directly **multiply**, **add**, or otherwise operate on variables, the **produced instances** are often straightforward and predictable. 
+	For example, in a linear system like:
 
+    y=ax+by=ax+b
+    
+    The parameter aa **scales** the variable xx, determining the **rate of change** of yy as xx changes, while bb **shifts** the entire relationship vertically. These kinds of relationships tend to produce **proportional** or **linear** outcomes. The instance produced here is a **straight line**, whose slope is determined by aa and intercept by bb.
+    
+##### Indirect Relationships
+If a parameter indirectly influences a variable (for example, by operating through other parameters or through more complex functions), the produced instance can exhibit more complex behavior. 
+	For instance, in a non-linear system such as:
+    
+    y=a(x2)+by=a(x2)+b
+    
+The parameter aa indirectly influences how quickly yy grows relative to xx, producing a **parabolic curve** where the shape of the parabola is determined by aa. Here, xx is squared first, and only then does aa scale the result, introducing non-linearity into the system. The instance is a **curve**, and changing the value of aa produces different curves.
+    
 
 ![[Pasted image 20240906071943.png]]
 $$\LARGE \vec{r}(t) : [0,1] \to \mathbb{R}^3, \quad \vec{r}(t) = [x(t)\textcolor{red}{,}\space y(t)\textcolor{red}{,}\space z(t)], \quad x,y,z : [0,1] \to \mathbb{R} $$
