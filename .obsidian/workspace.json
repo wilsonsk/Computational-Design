@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/Data/Abstract Mathematical Spaces/Components of Differentiation/Parametrization.md",
+                "file": "AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/notes to add to abstract math spaces.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/Data/Abstract Mathematical Spaces/Components of Differentiation/Parametrization.md",
+                "file": "AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/notes to add to abstract math spaces.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/Data/Abstract Mathematical Spaces/Components of Differentiation/Parametrization.md"
+                "file": "AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/notes to add to abstract math spaces.md"
               }
             }
           }
@@ -195,21 +195,8 @@
                     "source": false
                   }
                 }
-              },
-              {
-                "id": "fbc5eefd82baf9f0",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "notes still trying to figure out parameters and variables relative to dimensions.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical",
@@ -222,7 +209,7 @@
       }
     ]
   },
-  "active": "b7e93a923d62ec1f",
+  "active": "86ca693bbafef97f",
   "lastOpenFiles": [
     "notes still trying to figure out parameters and variables relative to dimensions.md",
     "AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/Data/Abstract Mathematical Spaces/Components of Differentiation/Parametrization.md",
