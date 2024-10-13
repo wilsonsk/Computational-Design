@@ -3,7 +3,7 @@
 *[[Curves Theory|Curves can describe many things.]]*
 
 **Parametrization** can be viewed as the process of introducing a **set of independent variables** (parameters) that **govern** or **describe** the possible states, positions, or configurations of a system within a defined space. 
-	These parameters **structure** how the variability of the system's characteristics (dimensions/properties) is expressed, effectively transforming a complex, potentially unconstrained set of possibilities into a manageable form.
+	These parameters **structure** and **constrain** how the variability of the system's characteristics (dimensions/properties as potential states) is expressed, effectively transforming a complex, potentially unconstrained set of possibilities into a manageable form.
 		In essence, parametrization abstracts the **essence of control** over variability, encoding how a system's characteristics are structured, bounded, and explored via independent parameters.
 
 The **arrangement** of **parameters** and **variables** within a system defines the relationships between them and determines how the system behaves, ultimately affecting the **instances** produced. 
