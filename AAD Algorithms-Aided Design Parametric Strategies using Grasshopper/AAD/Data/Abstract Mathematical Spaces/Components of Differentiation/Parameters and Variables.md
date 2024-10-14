@@ -2,25 +2,34 @@
 In the most **abstract sense**, within the context of **differentiation** and **[[Abstract Mathematical Spaces#Differentiation is the Mechanism of Change|differentiated states]]**, **parameters** and **variables** serve as fundamental components that describe **how** and **what** aspects of a system can **vary**. 
 	Their definitions and roles help frame the **process of differentiation**, which is the method of distinguishing distinct possibilities or potential outcomes within a system.
 ## Variables
-**Variables** represent the **aspects of the system that are free to vary** or change. 
-	In the context of differentiation, variables capture **how much** a differentiated state can change within the potential defined by the system.
-
 Variables are **abstracted expressions** of the **potential for variation**. 
 	They allow the system to **differentiate** along different axes or dimensions. 
 		The act of differentiation assigns variables to specific dimensions, representing the measurable ways in which the system can **vary** or **change** within the space of potential.
 
 **Variables** are the **quantitative markers** of a differentiated state.
 	They express the system's **configuration** in terms of measurable values, which describe the **state’s position** relative to its potential variance.
+### Variables as Differentiated Potentials (i.e. [[Abstract Mathematical Spaces#A Second Differentiation as a Second (Independent) Dimension|Second-Level Differentiation]])
+**Variables** represent the **aspects of the system that are free to vary** or change. 
+	In the context of differentiation, variables capture **how much** a differentiated state can change within the potential defined by the system.
 ### Variables as Degrees of Freedom
 Abstractly, variables are the **degrees of freedom** that express the **potential for variance** along a particular dimension.
 	Each variable represents an **axis** or **property** that can assume different values, defining the ways in which the system can change or be measured.
-	    - **Example**: In a 2D system, xx and yy are variables representing two degrees of freedom (e.g., space). Each variable quantifies how far the system has moved or varied along these axes.
-### Variables as Quantifications
+	    **Example**: In a 2D system, $x$ and $y$ are variables representing two degrees of freedom (e.g., space). 
+		    Each variable quantifies how far the system has moved or varied along these axes.
+### Variables with Infinite Degrees of Freedom
+In an **abstract sense**, a **variable** can have **infinite degrees of freedom** when it is **unconstrained** and free to take on **any value** within its dimension.
+	In this case, the variable represents **pure potential** for change, with no restrictions or boundaries imposed on it. 
+		I.e. A variable with infinite degrees of freedom **represents the system’s maximum potential for variation**.
+
+The variable is not yet bound by any **parameters** or **constraints**.
+	The system is in an initial, **undifferentiated state**, meaning that the variable can span the entire **domain** of possible values.
+		The system has not yet been **defined** or **refined** by additional structures.
+### Variables as [[Abstract Mathematical Spaces#Quantification (of the First Dimension) as the Outcome of Parametrization of the First Dimension|Quantifications]] (i.e. [[Abstract Mathematical Spaces#3. Third-Level Differentiation (Definition of an Instance to a Defined Constraint within the Defined Dimension Quantification Implemented by Value Assignment)|Third-Level Differentiation]])
 Variables are **quantifications** of a system’s **state**.
 	They don’t inherently represent the essence of a differentiated state but rather provide **measurements** or **values** that describe the current configuration of that state.
-	    - **Example**: If a system has the potential to change spatially, then the variable xx would be a **quantitative representation** of position along the x-axis. The values of xx quantify how much the system has changed within that dimension.
+	    **Example**: If a system has the potential to change spatially, then the variable $x$ would be a **quantitative representation** of position along the $x$-axis. 
+		    The values of $x$ quantify how much the system has changed within that dimension.
 
-### Variables as Differentiated Potentials
 Variables represent the **outcomes** of differentiation—the quantitative ways in which the system’s potential for variance can be measured. 
 	They describe the **specific instances** that emerge from differentiation, representing measurable change within the system.
 ## Parameters
@@ -35,16 +44,55 @@ Parameters are used to **differentiate** by imposing **specific conditions**�
 
 **[[AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/Data/Abstract Mathematical Spaces/Components of Differentiation/Parametrization|Parametrization]]** is the process by which a system's potential is **structured** or **differentiated**.
 	It sets up the relational conditions that allow for specific **instances** of the system to emerge, turning the abstract potential of differentiation into a **well-defined state**.
-### Parameters as Constraints
-Abstractly, parameters impose **boundaries** or **rules** that govern how the system can differentiate.
-	They define the **limits** or **ranges** within which variables can change, serving to **structure** the behavior of the system.
-	    - **Example**: In a linear system like y=ax+by=ax+b, the parameters aa and bb control the **slope** and **intercept** of the line, effectively shaping how the variable yy changes with respect to xx. Here, parameters govern the **relationship** between the variables.
-### Parameters as Definers of Relational Structure
+## The Relationship Between Variables and Parameters
+### How Parameters Reduce the Degrees of Freedom
+Parameters serve as **constraints** that reduce the **degrees of freedom** by limiting the possible values a variable can take or by introducing **relationships** between variables that further restrict their behavior.
+	Parameters impose **boundaries** or **conditions** that variables must satisfy, effectively reducing the system's potential for unrestricted change.
+#### Mechanism of Reducing Degrees of Freedom via Parameters
+The process of **differentiation** and **parametrization** structures the system, progressively refining it from **infinite potential** to specific, **quantified instances** by applying constraints that limit the ways in which the variables can vary, reducing the degrees of freedom at each step.
+##### By [[AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/Data/Abstract Mathematical Spaces/Components of Differentiation/Parametrization#Effects of the Configuration of Parameters Relative to Variables|Configuration]] (i.e. Parameters as Definers of Relational Structure/Fixed Relationships)
 Parameters define the **relational structure** that variables must adhere to. 
 	They describe how **variables interact** with each other or with the system’s underlying framework.
 		 The values of parameters serve as **conditions** that shape the system’s behavior, introducing **constraints** that limit the ways in which variables can vary.
-## The Relationship Between Variables and Parameters
-### As Differentiated States
+
+Parameters define the **relationship** between variables, such as specifying proportionalities, rates of change, or other structural conditions.
+	These relationships reduce the possible values a variable can assume, thus limiting its freedom to vary.
+	    **Example**: In the linear equation $y=ax+by$, the parameters $a$ and $b$ fix the **rate of change** (slope) and **position** (intercept) of the variable $y$. 
+		    This relationship constrains $y$ to behave in a specific way relative to $x$, reducing the system’s degrees of freedom.
+##### By Defining Boundaries (i.e. Parameters as Constraints)
+Abstractly, parameters impose **boundaries** or **rules** that govern how the system can differentiate.
+	They define the **limits** or **ranges** within which variables can change, serving to **structure** the behavior of the system.
+		 **Example**: In a linear system like $y=ax+by$, the parameters $a$ and $b$ control the **slope** and **intercept** of the line, effectively shaping how the variable $y$ changes with respect to $x$. 
+			 Here, parameters govern the **relationship** between the variables.
+ 
+Parameters can impose **boundary conditions** or limit the range of possible values a variable can take.
+	This confines the variable to a specific **region** or **interval**, eliminating the possibility of infinite variation.
+	    **Example**: In the inequality 0≤x≤10≤x≤1, the variable $x$ is constrained to the interval [0,1][0,1] by the parameters defining the lower and upper bounds.
+		     This reduces $x$'s degrees of freedom from infinite (without constraints) to a finite range within which it can vary.
+##### Parametrization and the Reduction of Freedom
+**Parametrization** refers to the process of introducing **parameters** that define the relationships between variables. 
+	By parametrizing a system, we effectively **structure** the system’s degrees of freedom, reducing them from infinite or unrestricted possibilities to **specific pathways** or **ranges** within which variables can vary.
+###### Examples of Parametrization Reducing Degrees of Freedom
+- **Line in 2D**: In a parametric equation for a line, such as:
+$$x=tx=t, y=2t+1y=2t+1$$
+	The parameter $t$ controls the system, and both $x$ and $y$ are dependent on it. 
+		This reduces the degrees of freedom from two (one for $x$ and one for $y$) to **one**, as the parameter $t$ dictates the values of both variables.
+
+- **Ellipse in 2D**: In parametric form, an ellipse can be described as:
+$$x=a⋅cos⁡(t),y=b⋅sin⁡(t)x=a⋅cos(t),y=b⋅sin(t)$$
+	The parameter $t$ reduces the degrees of freedom by **governing** the values of $x$ and $y$ simultaneously. 
+		Here, the variables $x$ and $y$ are no longer free to vary independently but are constrained to follow the elliptical path, where $a$ and $b$ define the axes of the ellipse, and $t$ controls the position along the curve.
+##### Effect of Parametrization on Freedom
+Parametrization **reduces freedom** by:
+- **Constraining variables to follow specific paths** (as in the case of parametric curves like lines, circles, or ellipses).
+- **Establishing dependencies** between variables, meaning that the value of one variable directly influences or determines the value of another.
+- **Restricting** the range of values a variable can take by imposing relationships that must be satisfied (e.g., equations, inequalities, or conditions).
+##### By Adding Dependencies
+When parameters introduce **dependencies** between variables, they reduce the overall **independent degrees of freedom**.
+	A system with several variables might initially have a large degree of freedom, but as more parameters are introduced that link variables together (e.g., through constraints or relationships), the number of **independent variables** decreases, reducing the system’s total degrees of freedom.
+	    **Example**: In a 3D space, if you constrain the system such that $\LARGE x+y+z=1$, the variables $x$, $y$, and $z$ are no longer fully independent. 
+		    One variable (say $z$) can always be determined in terms of $x$ and $y$, reducing the system’s degrees of freedom from 3 to 2.
+### Produce Differentiated States
 **Differentiated states** are the **instances** of a system that arise when variables are assigned specific values within the constraints imposed by parameters. 
 	The differentiated state of a system is defined by the **interaction** between variables and parameters.
 
