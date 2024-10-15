@@ -89,6 +89,13 @@ When parameters introduce **dependencies** between variables, they reduce the 
 #### Parametrization and the Reduction of Freedom
 **[[AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/Data/Abstract Mathematical Spaces/Components of Differentiation/Parametrization|Parametrization]]** refers to the process of introducing **parameters** that define the relationships between variables. 
 	By parametrizing a system, we effectively **structure** the system’s degrees of freedom, reducing them from infinite or unrestricted possibilities to **specific pathways** or **ranges** within which variables can vary.
+
+**Parametrization** defines how the variables are allowed to vary within a dimension.
+The **variables** are **expressions** of how the parameters constrain the dimension's potential.
+	They tell us how much the system has varied or where the system currently exists within that potential space (e.g., at a particular point on a curve, surface, or more complex structure).
+		In the recursive process of **differentiation**, where each layer of definition adds more specificity to the potential of a dimension, **variables** act as the **tools** or **markers** for realizing that specificity. 
+			They carry the **specific values** or **states** that the system takes on as we progressively add more constraints or parametrization to refine the dimensional space.
+				As we apply more constraints through parametrization (second-level differentiation), the variables become more **specific** instantiations of the dimension’s potential, ultimately leading to **quantified outcomes** in the form of a solution set.
 ###### Examples of Parametrization Reducing Degrees of Freedom
 - **Line in 2D**: In a parametric equation for a line, such as:
 $$x=tx=t, y=2t+1y=2t+1$$

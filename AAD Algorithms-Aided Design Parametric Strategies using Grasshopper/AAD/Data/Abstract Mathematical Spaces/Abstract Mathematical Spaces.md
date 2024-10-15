@@ -29,21 +29,48 @@ In abstract mathematics, concepts are defined rigorously through axioms and defi
 ## A Hierarchy, Structure
 The hierarchy from the most fundamental mathematical concepts (universal superset) to fields, spaces, categories, etc., is structured by increasing levels of complexity and structure.
 	Each subsequent level derives its elements and properties from the more fundamental levels, creating a layered approach to mathematical concepts.
-### A Brief Overview: From the First Change to Patterns of Change
-#### The First Differentiation (i.e. Discernment; to Distinguish), $\LARGE [0 \space 1]$
+- - -
+## Differentiation: The Mechanics of Change
+### The Process of Differentiation
+###### 1. Discernment: By Distinction
+###### 2. Identity: By Definition 
+###### 3. Instantiation: By Quantification
+
+
+## Recursion: The Differentiation of a Differentiation, the Definition of a Definition
+At the **fundamental level**, a dimension (or a differentiated state) is defined through **differentiation**—meaning that it is recognized as a **distinct potential** for variation or change. 
+	This is the **first-level differentiation**, where the dimension is **defined** as being distinct from other dimensions (e.g., space vs. time, x-axis vs. y-axis).
+		The **initial definition** of a dimension sets up the **general nature** of the dimension, describing its **potential**for variance.
+
+The process of **defining** and **differentiating** is recursive, meaning that **each layer** of definition can be **refined** by further constraints and specifications. 
+	You can continue adding more layers of differentiation and parametrization to make the system more and more specific.
+		This layered process is what leads to more **specific instances** or **well-defined states** within the broader framework.
+			Each layer of definition (or differentiation) brings the system closer to a **concrete state** from its original abstract potential.
+## A Map From the First Change to Patterns of Change: Layers of Definition and Differentiation
+### 1. First-Level Differentiation (Initial Definition of a Dimension): An Initial Discernment (Distinguish), $\LARGE [0 \space 1]$
 The first Initial Change (the first relational existence).
 	When we speak of the **first differentiation** as the **distinction** between "this (1)" and "that (0)," we are essentially describing the **emergence of contrast** or the creation of a **boundary**.
 		 This act of differentiation introduces the concept of **difference** and thereby establishes the **relationship** between **two states**.
 			  This differentiation creates a **binary distinction**, marking the **interdependent existence** of "0" and "1." 
 				 Both rely on each other to define what they are; "0" is understood as **not-1**, and "1" as **not-0**.
 
-#### The First Differentiation is its Own Identity, and Identity as Potential (i.e. a Dimension)
-##### Recognition of this First Differentiation (First-Level Instantiation of a Discernment)
+At this **base (i.e. first) level**, you have an **abstract definition** or **differentiation**: the establishment of a dimension or an aspect as a potential for variation.
+	This is where a dimension or state is **distinguished** from others, forming the **foundation** of a framework. 
+###### The Relational and Interdependent Nature of the First Differentiation 
+The identity of this first dimension is inherently **relational** and **interdependent**.
+	"0" and "1" do not have meaning in isolation; they **define** each other through their difference.
+		The **interdependence** implies that this dimension encapsulates the fundamental quality of **existence through differentiation**.
+			By differentiating "this" from "that," it defines the basic framework of identity.
+#### Definition: The Mechanism of Discernment (of the First-Level Differentiation)
 The recognition of a **state of differentiation**, even at an abstract level, would require some **formal mechanism** to **discern** or **distinguish** that state from what it is **not**. 
 	This is true whether we are defining a dimension, an object, or a state of existence.
 		This act of **differentiation**—**distinguishing** "this" from "not that"—is fundamental to how a dimension or state is defined, even before parametrization.
 			This **recognition** or **discernment** requires a formal way of saying: **"This state is defined as A, and not B."**
-##### The Principle of Identity and the Principle of Non-Contradication
+#### The Absolute Degrees of Freedom
+Before differentiation and thus existence of a state, no bounds yet existed around "this" or "that".
+	The Degree to which that non-differentiated state could vary was beyond infinite, it was absolute.
+		Once the act of Discernment takes place, it reduces the Degrees of Freedom.
+##### The Logic of Definition: The Principle of Identity and the Principle of Non-Contradication
 A thing is **itself** and **not something else**.
 
 To **recognize differentiated states**: we formally **assert** that something is **equal to itself** (this is **A**) and by implication, **not equal to something else** (this is **not B**). 
@@ -51,27 +78,43 @@ To **recognize differentiated states**: we formally **assert** that something 
 		This assertion involves **equality** because we are identifying the state as **itself**.
 		    Implicit in this act of **equality** is the differentiation from **what it is not**.
 			     By equating the state to **A**, we are implicitly asserting that it is **not B**, **not C**, and so on.
-###### The Relational and Interdependent Nature of the First Differentiation 
-The identity of this first dimension is inherently **relational** and **interdependent**.
-	"0" and "1" do not have meaning in isolation; they **define** each other through their difference.
-		The **interdependence** implies that this dimension encapsulates the fundamental quality of **existence through differentiation**.
-			By differentiating "this" from "that," it defines the basic framework of identity.
-##### The (First-Level) Definition of the First Differentiation is an Assertion of Identity
-At the most fundamental level, the **definition** of a dimension (or any abstract differentiated state) involves the assertion of **identity**, which is formally implemented through **equality**.
+##### Identity: The Assertion of Boundaries of a Definition
+At the most fundamental level, the **definition** of any abstract differentiated state involves the assertion of **identity**, which is formally implemented through **equality**.
 	To recognize/discern something, you need to assert that it is **equal to itself** and, at the same time, **not equal** to other things.
 		**This assertion is called a Definition**.
-###### Low-Level Definition as the First-Level "Instantiation" of a Discernment
-When defining a **discernment** or any abstract differentiated state, the process is not just about **recognizing** its potential for variance but also about **formally stating** what it **is** and what it **is not** (i.e. defining).
-	The process of **equality**—asserting **A = A**—is a formal way to instantiate that **discernment**. 
-		This act of equating something to itself allows it to be recognized as a distinct state, separate from everything else.
-##### Equality as a Fundamental Mechanism of Definition 
-At the most fundamental level, the **definition** of a differentiation (or any abstract differentiated state) involves the assertion of **identity**, which is formally implemented through **equality**.
+			An Identity arises from this **act of distinguishing** one state from another.
+
+An **Identity** can also be called a **Type**.
+	It refers to the **essence** or **core property** of an entity or state that distinguishes it from all others.
+		A **type** is a more **general definition** resulting from a **lower level** differentiation.
+			It is the **result** of the process or "act" where something is defined, that is asserted to be equated to some specific property or properties (i.e. conditions).
+				When we Define an **Identity/Type**, we are drawing a boundary around a set of general attributes that define what it means to be part of that type.
+					Identity in this form is still **abstract**—for example, the concept of **blackness** or **whiteness**.
+						That is, an Identity is not defined by a specific "**Value**".
+							The Identity is an unrealized abstraction with potential for variation.   
+##### Constraint: The Fundamental Mechanism of Definition
+**Definition** is what **shapes** identity.
+	**Definition** is the **imposition of conditions, limits or boundaries (i.e. establishing of properties and characteristics)** around **what it is** and **subsequently define what it is not** (that which is outside the boundaries), thus creating the **conditions for differentiation** (i.e. **creating the constraints**).
+		Identity only emerges within a boundary—a constraint that excludes all other possibilities.
+			**The Definition binds an Identity to specific "properties" and excludes it from being those not within those constrained bounds.**
+
+At the most fundamental level, the **definition** of a differentiation (or any abstract differentiated state) involves the assertion of **identity**, which is formally implemented through **constraint**.
+	**Definition** is the **imposition of conditions, limits or boundaries (i.e. establishing of properties and characteristics)** around **what it is** and **subsequently define what it is not** (that which is outside the boundaries), thus creating the **conditions for differentiation** (i.e. **creating the constraints**).
+##### Equality: [[Constraints#Equality|The Fundamental Constraint ]]
+Constraints are Imposed (i.e. implemented/assigned/defined) by Equalities/Inequalities.
+
+**Constraint** is enacted (i.e. "**assigned**") through **equalities and inequalities**, which assigns/imposes the relational conditions/constraints/boundaries to the corresponding differentiated state/form/expression.
+	To define is to assert that **this = these properties**.
+		 This is what creates the **constraint**.
+			- Example: Defining a chair involves saying that a "chair" equals "a seat, with legs, a backrest, designed for sitting."
+
+At the most fundamental level, the **definition** of a differentiation (or any abstract differentiated state) involves the assertion of **identity** via constraint, which itself is formally implemented through **equality**.
 	**Equality** allows us to say that the dimension is **itself**—that it represents a specific type of potential variance. 
 		This recognition is the first step in defining what the dimension is.
-			By asserting that **this dimension is itself**, we are also implicitly saying that **it is not** other dimensions. 
+			By asserting that **this differentiation is itself**, we are also implicitly saying that **it is not** other dimensions. 
 				This process involves **negation** or **exclusion** as part of the **recognition** of the differentiated state.
 ###### Equality
-Equality at this low level can be understood as a **formal mechanism** that asserts the **identity** of a state or dimension.
+Equality at this low level can be understood as a **formal mechanism** that constrains or binds an **identity** to its definition.
 	When we say something is **equal to itself**, we are affirming its **existence** as a **distinct state**.
 		 This process of affirmation naturally leads to the recognition of what it is **not**, through a process of **exclusion** or **negation**.
 			Therefore, even in an abstract, pre-parametrized sense, **equality** functions as a means of **formal recognition**. 
@@ -86,19 +129,40 @@ Equality at this low level can be understood as a **formal mechanism** that as
 		The process of **differentiation** naturally implies the recognition of **inequality**—the recognition that what is **"A"** is **not** the other potential states or dimensions.
 			This **formal mechanism** of differentiation, which begins with asserting **identity** through **equality**, includes the implicit negation of other possible states or dimensions.
 				 This is how the differentiated state is **recognized** as distinct from what it is not.
-#### The Identity of the First Differentiation as the First Dimension
+##### The First-Level Reduction of the Degrees of Freedom
+This First-Level Definition constrains some dimension from the what it is not.
+	These bounds reduce the Degrees of Freedom.
+		Without constraints, there would be no limits, and without limits, nothing can be defined or distinguished. 
+			With no discernment there is only [[#The Absolute Degrees of Freedom|Absolute Degrees of Freedom]].
+				The First-Level Differentiation constrains the Absolute into Infinite via the imposition of boundaries. 
+
+Remember, **Definition** is what **shapes** identity by imposing constraints, boundaries, limitations on what an Identity is equated to be. 
+	Identity only emerges within a boundary—a constraint that excludes all other possibilities.
+		**The Definition binds an Identity to specific "properties" and excludes it from being those not within those constrained bounds.**
+#### The First-Level Definition (of the First Differentiation)
+When defining a **discernment** or any abstract differentiated state, the process is not just about **recognizing** its potential for variance but also about **formally stating** what it **is** and what it **is not** (i.e. defining).
+	The process of **equality**—asserting **A = A**—is a formal way to instantiate that **discernment**. 
+		This act of equating something to itself allows it to be recognized as a distinct state, separate from everything else.
+##### The First-Level Identity
 This initial differentiation creates an **identity**. 
-It is an identity that arises from the **act of distinguishing** one state from another.
-	 In other words, it embodies the **essence of duality**—the simultaneous presence of "this" and "that," "0" and "1."
-		This identity is abstract and fundamental because it serves as the **groundwork** for all further differentiation. 
-			It is the "first step" that allows for more complex structures, properties, and identities to emerge.
-			
+	The core property of this initial/fundamental differentiated state is embodiment of the **essence of duality**—the simultaneous presence of "this" and "that," "0" and "1."
+		**I.e. The core property is "this" and not "that".**
+			That is, its core property can be simply represented by a "$1$".
+				Where the single property is the definition of the identity itself.
+
+I.e. **At this First-Level, the Identity is $\LARGE \equiv$ Inherent Property of Itself.**
+	This identity is abstract and fundamental because it serves as the **groundwork** for all further differentiation. 
+		It is the "first step" that allows for more complex structures, properties, and identities to emerge.
+
+Remember that despite being defined as a simple binary property, this identity itself, is still potential.
+	That potential being the potential for variance within itself.
+#####  The First Dimension: The First-Level Identity
 An Identity is **shaped by the kind of potential it uniquely represents**.
-	We call this abstract potential of variance, a Dimension.
+	We call this abstract potential of variance, a [[Axes and Dimensions|Dimension]].
 		 Here, the **dimension** represents the fundamental ability to **distinguish** or **change** between states - it is an intrinsic "difference".
 			Therefore, this dimension is a **differentiated state** on its own because it encapsulates the primary **potential for change**—the existence of a "difference" between two relational states.
 				In abstract terms, this first dimension embodies the **concept of distinction**, which is a foundational property that enables all further differentiation and definition.
-					Before a differentiation is used in the definition of a more complex state, its identity is defined **by its inherent property**.
+					Before a differentiation is used in the definition of a more complex state, its identity is defined **by its own inherent property**.
 						 It is not yet bound to specific constraints or configurations; it simply **"exists"** as a potentiality, an abstract foundation upon which more complex forms can be built.
 
 In this framework, the act of differentiation—splitting into "this" and "that"—introduces the **first dimension**. 
@@ -118,67 +182,47 @@ A **dimension** is initially defined as a **space of potential variability**�
 			For example, the dimension "time" provides a foundation for expressing temporal changes, making "time" an identity unto itself.
 				The **difference** of this single property from others (such as "length" vs. "time") comes from its **distinct role** in expressing change. 
 					Each dimension's identity is characterized by the type of variance or potential it encapsulates.
-#### The First Differentiation as an Implicit First-Level Constraint (First-Level Instantiation)
-When we **differentiate** a single dimension from others, we are already engaging in a form of **low-level parametrization** or **quantification** (i.e. First-Level Instantiation). 
-	This is because, even at an abstract level, we are **assigning a role** or **identity** to that dimension, distinguishing it from what it is not.
-		In a sense, we are setting a **BOUNDARY** (i.e. a **constraint** or **parameter**) that says, "This dimension is not like the others."
-			 This introduces a kind of **quantification** in the sense that we are **assigning** a property (or potential for variation) to this dimension **in relation to** the other dimensions.
-##### First-Level Implicit Quantification
-At the lowest level, the **value** or **meaning** of a dimension does not necessarily exist **within** the dimension itself but rather **between** dimensions.
-	This means that the **identity** of a dimension arises in the context of how it **differs** from other dimensions.
-		This quantification occurs in the sense that the dimension is **discerned** or **recognized** as a **distinct entity** among other possible dimensions. 
-			The **value** of a dimension doesn’t only come from within the dimension itself, but more importantly, from the **relationships** or **distinctions** between dimensions.
-				In this sense, **value** (or **quantification**) arises from the **distinctions** or **relations** between dimensions, **not yet** from properties **internal** to the dimensions.
+##### The First-Level Dimension as Infinite Degrees of Freedom
+From Absolute Degrees of Freedom to Infinite Degrees of Freedom.
+	Because a Dimension represents potential variance, then until a Dimension is Quantified, the potential/unrealized is represented by Infinite Degrees of Freedom of variance.
+##### The First-Level Identity is Simultaneously a First-Level Instance of Itself
+This is because despite not being formally instantiated through the means of Quantification (more on that later), this First-Level Identity exists in a Relational Structure.
+	**That is, it exists within an even more abstract "dimension" of these "dimensions", within which this First-Level Identity is an actual variation relative to the variation that represents what it is not.** 
+		The Quantification of this First-Level Dimension is the Inherent Property itself that exists relative to what is not that Inherent Property.
 
-Even if the dimension is abstract and not yet assigned a specific **numerical value**, its **identity** as distinct from other dimensions creates an implicit **quantification**. 
-	This happens because, through **differentiation**, we are already setting a **parameter** that this dimension is **distinct** from others.
-		 In other words, we are defining a **role** for it within a larger system of potential variations.
-
-This reflects the idea that **value** in a system of dimensions is **relational**—a dimension gains its identity by being **not the other dimensions**. 
-	This inter-dimensional distinction is where **quantification** begins, even before specific values are assigned within a single dimension.
-### Recursion: The Differentiation of a Differentiation, the Definition of a Definition
-At the **fundamental level**, a dimension (or a differentiated state) is defined through **differentiation**—meaning that it is recognized as a **distinct potential** for variation or change. 
-	This is the **first-level differentiation**, where the dimension is **defined** as being distinct from other dimensions (e.g., space vs. time, x-axis vs. y-axis).
-		The **initial definition** of a dimension sets up the **general nature** of the dimension, describing its **potential**for variance.
-
-The process of **defining** and **differentiating** is recursive, meaning that **each layer** of definition can be **refined** by further constraints and specifications. 
-	You can continue adding more layers of differentiation and parametrization to make the system more and more specific.
-		This layered process is what leads to more **specific instances** or **well-defined states** within the broader framework.
-			Each layer of definition (or differentiation) brings the system closer to a **concrete state** from its original abstract potential.
-#### Layers of Definition and Differentiation
-##### 1. First-Level Differentiation (Initial Definition of Dimension)
-At this **base (i.e. first) level**, you have a **general definition** or **differentiation**: the establishment of a dimension or a space as a potential for variation.
-	This is where a dimension or state is **distinguished** from others, forming the **foundation** of a framework. 
-		For example, in a geometric context, the x-axis and y-axis are distinct dimensions that are differentiated from one another.
-##### 2. Second-Level Differentiation (Definition of a Relational Structure to a Defined Dimension: Applying [[Constraints|Constraints]] Implemented by Parametrization)
+Remember the Recursive Nature of Differentiation.
+### 2. Second-Level Differentiation: A Second-Level Definition (i.e. ) Second-Level Conditions)
+##### Definition of [[Constraints|Constraints]] Within a First-Level Dimension: Implemented by [[AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/Data/Abstract Mathematical Spaces/Components of Differentiation/Parametrization|Parametrization]]
 At a **higher level**, you **introduce and configure** **specific constraints** or **definitions** through parametrization, which further refines how the initial framework behaves.
 	This is where we **refine** the framework by introducing **specific constraints** or values. 
 		Constraints limit the possible states by **defining conditions** that the variables must satisfy.
-			For example, introducing an equation like $x+y=5$ within the 2D space adds a further **definition** to the system, limiting the possibilities of how $x$ and $y$ can vary.
-				These Differentiations are the requirements the subsequent instances must satisfy.
+			These Differentiations are the requirements the subsequent instances must satisfy.
 ###### [[Constraints|Constraints]]
-Constraints implemented via parametrization is where the **relationships between parameters and variables** are set up, typically in the form of **equations** or **operators** that govern how variables can vary within the system. 
+**Constraint** is a **condition** or **rule** that bounds, limits or defines relational interactions, and therefore, what is **possible**. 
+	A constraint **narrows** the possibilities of how something can exist or behave by setting **boundaries**. 
+		By specifying the conditions under which **limiting** the set of possibilities, constraints drive the movement from potential to actualized states.
+			 In doing so, they bring about **change** by determining which states of being are allowed to emerge.
+
+Remember **Constraint** is what **shapes** identity by imposing limits. 
+	Identity only emerges within a boundary—a constraint that excludes all other possibilities.
+
+
+Constraints implemented via parametrization is where the **relationships between [[Parameters and Variables#Parameters|parameters]] and [[Parameters and Variables#Variables|variables]]** are set up, typically in the form of **equations** or **operators** that govern how variables can vary within the system. 
 	At this stage, the constraints are **deterministic**—they describe how variables behave under fixed, well-defined relationships.
-###### [[Constraints#Fundamental Constraint|Fundamental Constraint]]
-Equality/Inequality.
-###### [[Constraints#Low-Level Constraints|Low-Level Constraints]]
-These are the **fundamental**, most basic types of constraints, directly linking variables and parameters through simple relationships like equality, arithmetic operations, and boundaries. 
-	These constraints are typically **deterministic** and apply to **individual variables** or **simple relationships** between them.
-###### [[Constraints#Higher-Level Constraints|Higher-Level Constraints]]
-Higher-level constraints build on low-level constraints but introduce **complexity** in the form of **conditionality**, **branching**, and more **abstract** rules.
-	They enable the system to **adapt**, **branch**, or exhibit **multi-faceted behavior** under certain conditions.
-		***Example**:* Algorithmic Constraints: Conditional Operators (“If-Then”).
-###### [[AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/Data/Abstract Mathematical Spaces/Components of Differentiation/Parametrization|Parametrization]] 
-Parametrization is the act of creating a **relational framework** or **rule** that defines how **variables** depend on **parameters**. 
-	 It is about configuring the **relational structure** that governs how the variables behave within the system, with the **parameters** serving as the elements that shape or control this behavior.
+- [[Constraints#Fundamental Constraint|Fundamental Constraint]]
+- [[Constraints#Low-Level Constraints|Low-Level Constraints]]
+- [[Constraints#Higher-Level Constraints|Higher-Level Constraints]]
+##### Constraints as a Relational Structure: [[AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/Data/Abstract Mathematical Spaces/Components of Differentiation/Parametrization|Parametrization]] 
+Parametrization is the act of creating a **relational configuration, arrangement or framework** (i.e. **rules**) that defines how **[[Parameters and Variables#Variables|variables]]** depend on **[[Parameters and Variables#Parameters|parameters]]**. 
+	 It is about configuring the **[[Parameters and Variables#The Relationship Between Variables and Parameters|relational structure]]** that governs how the variables behave within the system, with the **parameters** serving as the elements that shape or control this behavior.
 		This framework sets up the **conditions** and **structure** of the system, without necessarily assigning specific values to the parameters immediately.
 			The system’s behavior is structured but **not yet fixed** in terms of specific values.
 				 In mathematical terms, **parametrization** involves expressing one or more **variables** in terms of one or more **parameters**. 
-###### [[Parameters and Variables#Parameters|Parameters]]
+###### Parameters
 In the context of parametrization, parameters are generally **constants** or **controlling quantities** that govern how variables behave or change. 
 	They are typically **independent** from the system’s main variables, that is, **independent** quantities, that define the system's structure, rules for how variables behave.
 		Parameters govern the possible configurations of the system without yet assigning specific values.
-###### [[Parameters and Variables#Variables|Variables]]
+###### Variables
 **Variables** are the **specific manifestations** of the dimension's potential. 
 	They are the **quantitative representations**of how much a system varies along that dimension.
 		 In this sense, variables take on values that are **measures** of the **state** within a particular dimension.
@@ -193,13 +237,8 @@ In the context of parametrization, parameters are generally **constants** or 
 		 A variable is an **instantiation** or **realization** of the abstract **potential** provided by the dimension. 
 			 The variable’s value at any given moment or under specific constraints (e.g., through parametrization) represents a **specific state**within that dimensional framework.
 
-**Parametrization** defines how the variables are allowed to vary within a dimension.
-	The **variables** are **expressions**of how the parameters constrain the dimension's potential.
-		They tell us how much the system has varied or where the system currently exists within that potential space (e.g., at a particular point on a curve, surface, or more complex structure).
-			In the recursive process of **differentiation**, where each layer of definition adds more specificity to the potential of a dimension, **variables** act as the **tools** or **markers** for realizing that specificity. 
-				They carry the **specific values** or **states** that the system takes on as we progressively add more constraints or parametrization to refine the dimensional space.
-					As we apply more constraints through parametrization (second-level differentiation), the variables become more **specific** instantiations of the dimension’s potential, ultimately leading to **quantified outcomes** in the form of a solution set.
-##### 3. Third-Level Differentiation (Definition of an Instance to a Defined Constraint within the Defined Dimension: Quantification Implemented by Value Assignment)
+
+### 3. Third-Level Differentiation (Definition of an Instance to a Defined Constraint within the Defined Dimension: Quantification Implemented by Value Assignment)
 **Value assignment** to the parameters happens when you want to **instantiate** a specific instance of the system within the already-defined framework. 
 	This assignment gives specific, concrete outcomes based on the relational structure.
 
@@ -234,7 +273,7 @@ The **solution set** is essentially the **outcome** of **parametrization**�
 	The process of constraining a system with equations or inequalities narrows down the possible differentiated states to a specific set of **solutions**that fit within the defined conditions.
 		Each **solution** is a **specific instance** or **differentiated state** that has been realized through the **application of constraints**. 
 			These instances represent the system’s possible configurations under the given conditions.
-##### 4. Fourth-Level Differentiation (Definition of a Higher-Level Instance)
+### 4. Fourth-Level Differentiation (Definition of a Higher-Level Instance)
 When multiple dimensions are combined into a new identity, they represent the **internal structure** of this new state. 
 	This identity may have more complex behaviors, as it is now constrained by the relationships between its constituent dimensions.
 		The **new identity** can be thought of as the **product** of differentiation, where dimensions are no longer independent but rather **interdependent** and **related** through constraints and parameters that govern the overall system’s behavior.
@@ -243,6 +282,27 @@ At this level, we are no longer working with individual dimensions in isolation.
 	Instead, we define a **higher-level identity** that **encompasses** multiple dimensions.
 		These dimensions are now treated as **properties** or **attributes** of this new identity, where each dimension contributes to the **overall structure** or **behavior** of the system.
 			The **identity** itself is the new differentiated state that emerges from the **interplay** between these dimensions.
+## A Brief Overview: From the First Change to Patterns of Change
+
+#### The First Differentiation as an Implicit First-Level Constraint (First-Level Instantiation)
+When we **differentiate** a single dimension from others, we are already engaging in a form of **low-level parametrization** or **quantification** (i.e. First-Level Instantiation). 
+	This is because, even at an abstract level, we are **assigning a role** or **identity** to that dimension, distinguishing it from what it is not.
+		In a sense, we are setting a **BOUNDARY** (i.e. a **constraint** or **parameter**) that says, "This dimension is not like the others."
+			 This introduces a kind of **quantification** in the sense that we are **assigning** a property (or potential for variation) to this dimension **in relation to** the other dimensions.
+##### First-Level Implicit Quantification
+At the lowest level, the **value** or **meaning** of a dimension does not necessarily exist **within** the dimension itself but rather **between** dimensions.
+	This means that the **identity** of a dimension arises in the context of how it **differs** from other dimensions.
+		This quantification occurs in the sense that the dimension is **discerned** or **recognized** as a **distinct entity** among other possible dimensions. 
+			The **value** of a dimension doesn’t only come from within the dimension itself, but more importantly, from the **relationships** or **distinctions** between dimensions.
+				In this sense, **value** (or **quantification**) arises from the **distinctions** or **relations** between dimensions, **not yet** from properties **internal** to the dimensions.
+
+Even if the dimension is abstract and not yet assigned a specific **numerical value**, its **identity** as distinct from other dimensions creates an implicit **quantification**. 
+	This happens because, through **differentiation**, we are already setting a **parameter** that this dimension is **distinct** from others.
+		 In other words, we are defining a **role** for it within a larger system of potential variations.
+
+This reflects the idea that **value** in a system of dimensions is **relational**—a dimension gains its identity by being **not the other dimensions**. 
+	This inter-dimensional distinction is where **quantification** begins, even before specific values are assigned within a single dimension.
+
 ### Constraining a First-Level Definition: Producing a Higher-Level Definition (i.e. an Instance)
 In this sense, **constraints (implemented by parametrization)** is a **higher-level definition** because it **constrains** the potential variability of the dimension by assigning specific **rules** or **values** that shape how the dimension operates.
 	I.e. Constraints limit the possible states by **defining conditions** that the variables must satisfy.
@@ -284,13 +344,10 @@ Constraints introduces **parameters** that impose **specific conditions** or
 
 Parametrization doesn’t alter the **fundamental nature** of the dimension but rather **refines** it by assigning values, functions, or relationships that govern its behavior. 
 	This refinement is crucial for defining **specific instances** or **states** within the space defined by the dimension.
-
-
 ##### The Parametrization of an Instance of the First Dimension (i.e. the Collapsing the Potential Variability into a Specific State)
 I.e. The Implementation of the Definition via Constraint (i.e. the constraining of a dimension to a specific state).
 	**Parametrization** is the process of introducing **parameters** that **govern** or **control** the variance within a dimension.
 		 These parameters help define specific **instances** or **states** of that dimension.
-
 ###### Dimensions and Parameters
 Each dimension introduces a new **degree of freedom**, and you need one parameter to control or describe each of those degrees.
 	The number of **intrinsic dimensions** (the fundamental degrees of freedom of the space) dictates how many **parameters** are required to describe any point within that space. 
