@@ -100,6 +100,11 @@ An **Identity** can also be called a **Type**.
 
 At the most fundamental level, the **definition** of a differentiation (or any abstract differentiated state) involves the assertion of **identity**, which is formally implemented through **constraint**.
 	**Definition** is the **imposition of conditions, limits or boundaries (i.e. establishing of properties and characteristics)** around **what it is** and **subsequently define what it is not** (that which is outside the boundaries), thus creating the **conditions for differentiation** (i.e. **creating the constraints**).
+###### [[Constraints|Constraints]]
+**Constraint** is a **condition** or **rule** that bounds, limits or defines what is (**possible**). 
+	A constraint **narrows** the possibilities of how something can exist or behave by setting **boundaries**. 
+		By specifying the conditions under which **limiting** the set of possibilities, constraints drive the movement from potential to actualized states.
+			 In doing so, they bring about **change** by determining which states of being are allowed to emerge.
 ##### Equality: [[Constraints#Equality|The Fundamental Constraint ]]
 Constraints are Imposed (i.e. implemented/assigned/defined) by Equalities/Inequalities.
 
@@ -185,35 +190,51 @@ A **dimension** is initially defined as a **space of potential variability**�
 ##### The First-Level Dimension as Infinite Degrees of Freedom
 From Absolute Degrees of Freedom to Infinite Degrees of Freedom.
 	Because a Dimension represents potential variance, then until a Dimension is Quantified, the potential/unrealized is represented by Infinite Degrees of Freedom of variance.
-##### The First-Level Identity is Simultaneously a First-Level Instance of Itself
-This is because despite not being formally instantiated through the means of Quantification (more on that later), this First-Level Identity exists in a Relational Structure.
-	**That is, it exists within an even more abstract "dimension" of these "dimensions", within which this First-Level Identity is an actual variation relative to the variation that represents what it is not.** 
-		The Quantification of this First-Level Dimension is the Inherent Property itself that exists relative to what is not that Inherent Property.
+#### Implicit First-Level Instantiation
+**The First-Level Identity is simultaneously an implicit First-Level Instance of itself.**
 
-Remember the Recursive Nature of Differentiation.
-### 2. Second-Level Differentiation: A Second-Level Definition (i.e. ) Second-Level Conditions)
-##### Definition of [[Constraints|Constraints]] Within a First-Level Dimension: Implemented by [[AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/Data/Abstract Mathematical Spaces/Components of Differentiation/Parametrization|Parametrization]]
+When we **differentiate** a single dimension from others, we are already engaging in a form of **First-Level [[#Parametrization The Mechanism of Constraint|Parametrization]]** or **quantification** (i.e. First-Level Instantiation). 
+	This is because, even at an abstract level, we are **assigning a role** or **identity** to that dimension, distinguishing it from what it is not.
+		In a sense, we are setting a **BOUNDARY** (i.e. a **constraint** or **parameter**) that says, "This dimension is not like the others."
+			 This introduces a kind of **quantification** in the sense that we are **assigning** a property (or potential for variation) to this dimension **in relation to** the other dimensions.
+###### Remember the Recursive Nature of Differentiation
+This is because despite not being formally instantiated through the means of **Quantification** (more on that later), this **First-Level Identity** exists in a Relational Structure.
+	**That is, the First-Level Identity as a First-Level Dimension, exists within an even more abstract "dimension" of these "dimensions", within which this First-Level Identity is an actual variation relative to the variation that represents what it is not.** 
+		The Quantification of this First-Level Dimension is the Inherent Property itself that exists relative to what is not that Inherent Property.
+##### Implicit First-Level Quantification
+At the lowest level, the **value** or **meaning** of a dimension does not necessarily exist **within** the dimension itself but rather **between** dimensions.
+	This means that the **identity** of a dimension arises in the context of how it **differs** from other dimensions.
+		This quantification occurs in the sense that the dimension is **discerned** or **recognized** as a **distinct entity** among other possible dimensions. 
+			The **value** of a dimension doesn’t only come from within the dimension itself, but more importantly, from the **relationships** or **distinctions** between dimensions.
+				In this sense, **value** (or **quantification**) arises from the **distinctions** or **relations** between dimensions, **not yet** from properties **internal** to the dimensions.
+
+Even if the dimension is abstract and not yet assigned a specific **numerical value**, its **identity** as distinct from other dimensions creates an implicit **quantification**. 
+	This happens because, through **differentiation**, we are already setting a **parameter** that this dimension is **distinct** from others.
+		 In other words, we are defining a **role** for it within a larger system of potential variations.
+
+This reflects the idea that **value** in a system of dimensions is **relational**—a dimension gains its identity by being **not the other dimensions**. 
+	This inter-dimensional distinction is where **quantification** begins, even before specific values are assigned within a single dimension.
+### 2. Second-Level Differentiation (i.e. Second-Level Constraints): A Second-Level Definition (i.e. ) Second-Level Conditions) of a First-Level Definition
+By constraining a First-Level Dimension, the **constraints (implemented by parametrization)** themselves represent a **higher-level definition** because they **bound** the potential variability of the dimension by assigning specific **rules** or **values** that shape how the dimension operates.
+	I.e. Constraints limit the possible states by **defining conditions** that the variables must satisfy.
+##### Second-Level Constraints Bound a First-Level Dimension 
+**Constraints** add a **second layer of definition**, introducing boundaries that specify **how** the dimension behaves or what values it can take on.
+	In this sense, constraints **defines the range** or **conditions** under which the already-differentiated state operates.
+		 It’s a **more specific definition** within the larger, more general framework.
+#### Parametrization: The Mechanism of Constraint
 At a **higher level**, you **introduce and configure** **specific constraints** or **definitions** through parametrization, which further refines how the initial framework behaves.
 	This is where we **refine** the framework by introducing **specific constraints** or values. 
 		Constraints limit the possible states by **defining conditions** that the variables must satisfy.
 			These Differentiations are the requirements the subsequent instances must satisfy.
-###### [[Constraints|Constraints]]
-**Constraint** is a **condition** or **rule** that bounds, limits or defines relational interactions, and therefore, what is **possible**. 
-	A constraint **narrows** the possibilities of how something can exist or behave by setting **boundaries**. 
-		By specifying the conditions under which **limiting** the set of possibilities, constraints drive the movement from potential to actualized states.
-			 In doing so, they bring about **change** by determining which states of being are allowed to emerge.
 
-Remember **Constraint** is what **shapes** identity by imposing limits. 
-	Identity only emerges within a boundary—a constraint that excludes all other possibilities.
+Constraints are implemented via parametrization.
+	Where the **relationships between [[Parameters and Variables#Parameters|parameters]] and [[Parameters and Variables#Variables|variables]]** are set up, typically in the form of **equations** or **operators** that govern how variables can vary within the system. 
+		At this stage, the constraints are **deterministic**—they describe how variables behave under fixed, well-defined relationships.
+			- [[Constraints#Fundamental Constraint|Fundamental Constraint]]
+			- [[Constraints#Low-Level Constraints|Low-Level Constraints]]
+			- [[Constraints#Higher-Level Constraints|Higher-Level Constraints]]
 
-
-Constraints implemented via parametrization is where the **relationships between [[Parameters and Variables#Parameters|parameters]] and [[Parameters and Variables#Variables|variables]]** are set up, typically in the form of **equations** or **operators** that govern how variables can vary within the system. 
-	At this stage, the constraints are **deterministic**—they describe how variables behave under fixed, well-defined relationships.
-- [[Constraints#Fundamental Constraint|Fundamental Constraint]]
-- [[Constraints#Low-Level Constraints|Low-Level Constraints]]
-- [[Constraints#Higher-Level Constraints|Higher-Level Constraints]]
-##### Constraints as a Relational Structure: [[AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/Data/Abstract Mathematical Spaces/Components of Differentiation/Parametrization|Parametrization]] 
-Parametrization is the act of creating a **relational configuration, arrangement or framework** (i.e. **rules**) that defines how **[[Parameters and Variables#Variables|variables]]** depend on **[[Parameters and Variables#Parameters|parameters]]**. 
+**Parametrization** is the act of creating a **relational configuration, arrangement or framework** (i.e. **rules**) that defines how **[[Parameters and Variables#Variables|variables]]** depend on **[[Parameters and Variables#Parameters|parameters]]**. 
 	 It is about configuring the **[[Parameters and Variables#The Relationship Between Variables and Parameters|relational structure]]** that governs how the variables behave within the system, with the **parameters** serving as the elements that shape or control this behavior.
 		This framework sets up the **conditions** and **structure** of the system, without necessarily assigning specific values to the parameters immediately.
 			The system’s behavior is structured but **not yet fixed** in terms of specific values.
@@ -236,6 +257,9 @@ In the context of parametrization, parameters are generally **constants** or 
 	Variables describe the system’s state within the dimensional space.
 		 A variable is an **instantiation** or **realization** of the abstract **potential** provided by the dimension. 
 			 The variable’s value at any given moment or under specific constraints (e.g., through parametrization) represents a **specific state**within that dimensional framework.
+
+#### Second-Level Definition of a First-Level Definition
+##### Constraints as a Relational Structure: [[AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/Data/Abstract Mathematical Spaces/Components of Differentiation/Parametrization|Parametrization]] 
 
 
 ### 3. Third-Level Differentiation (Definition of an Instance to a Defined Constraint within the Defined Dimension: Quantification Implemented by Value Assignment)
@@ -284,24 +308,7 @@ At this level, we are no longer working with individual dimensions in isolation.
 			The **identity** itself is the new differentiated state that emerges from the **interplay** between these dimensions.
 ## A Brief Overview: From the First Change to Patterns of Change
 
-#### The First Differentiation as an Implicit First-Level Constraint (First-Level Instantiation)
-When we **differentiate** a single dimension from others, we are already engaging in a form of **low-level parametrization** or **quantification** (i.e. First-Level Instantiation). 
-	This is because, even at an abstract level, we are **assigning a role** or **identity** to that dimension, distinguishing it from what it is not.
-		In a sense, we are setting a **BOUNDARY** (i.e. a **constraint** or **parameter**) that says, "This dimension is not like the others."
-			 This introduces a kind of **quantification** in the sense that we are **assigning** a property (or potential for variation) to this dimension **in relation to** the other dimensions.
-##### First-Level Implicit Quantification
-At the lowest level, the **value** or **meaning** of a dimension does not necessarily exist **within** the dimension itself but rather **between** dimensions.
-	This means that the **identity** of a dimension arises in the context of how it **differs** from other dimensions.
-		This quantification occurs in the sense that the dimension is **discerned** or **recognized** as a **distinct entity** among other possible dimensions. 
-			The **value** of a dimension doesn’t only come from within the dimension itself, but more importantly, from the **relationships** or **distinctions** between dimensions.
-				In this sense, **value** (or **quantification**) arises from the **distinctions** or **relations** between dimensions, **not yet** from properties **internal** to the dimensions.
 
-Even if the dimension is abstract and not yet assigned a specific **numerical value**, its **identity** as distinct from other dimensions creates an implicit **quantification**. 
-	This happens because, through **differentiation**, we are already setting a **parameter** that this dimension is **distinct** from others.
-		 In other words, we are defining a **role** for it within a larger system of potential variations.
-
-This reflects the idea that **value** in a system of dimensions is **relational**—a dimension gains its identity by being **not the other dimensions**. 
-	This inter-dimensional distinction is where **quantification** begins, even before specific values are assigned within a single dimension.
 
 ### Constraining a First-Level Definition: Producing a Higher-Level Definition (i.e. an Instance)
 In this sense, **constraints (implemented by parametrization)** is a **higher-level definition** because it **constrains** the potential variability of the dimension by assigning specific **rules** or **values** that shape how the dimension operates.
@@ -610,7 +617,6 @@ A **parameter** can be thought of as a **controller** that specifies a particula
 	For example, in the context of shape, a constraint might define a **parameter** such as "radius" for a circle.
 		**Parameters** arise because constraints **limit** what a state can be, and these limits give rise to measurable or definable aspects along which we can assess the state.
 			[[#Dimensions|Dimensions]] are latent until realized through the process of [[#Quantification|quantification]].
-
 ###### Degrees of Freedom
 The number of parameters corresponds to the number of degrees of freedom or dimensions in parameter space. 
 	Each unique set of parameter values specifies a point in this space, representing a specific instance of the mathematical object or system.
