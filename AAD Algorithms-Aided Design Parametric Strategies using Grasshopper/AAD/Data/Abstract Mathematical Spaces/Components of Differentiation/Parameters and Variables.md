@@ -57,6 +57,16 @@ Parameters are used to **differentiate** by imposing **specific conditions**�
 **[[AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/Data/Abstract Mathematical Spaces/Components of Differentiation/Parametrization|Parametrization]]** is the process by which a system's potential is **structured** or **differentiated**.
 	It sets up the relational conditions that allow for specific **instances** of the system to emerge, turning the abstract potential of differentiation into a **well-defined state**.
 ## The Relationship Between Variables and Parameters
+##### Fundamental (Low-Level) Variables/Parameters
+These are parameters that define the very structure or dimensionality of the space or system. 
+	They are intrinsic to the definition of the space and can be thought of as representing dimensions themselves.
+		**Parameters Represented as Dimensions**: In certain mathematical contexts, parameters are used to define the dimensions of a space or manifold. They are not merely constants but serve as coordinates that span the space.
+			Example: In certain mathematical contexts, parameters are used to define the dimensions of a space or manifold. 
+				They are not merely constants but serve as coordinates that span the space.
+##### Higher-Level Variables/Parameters
+These parameters operate within the established dimensions, further constraining relationships between variables or defining specific properties of objects within the space.
+	**Parameters as Constants within the Space**: Once the dimensions are established, other parameters can act as constants that define specific properties or constraints within that space.
+		**Constraining Relationships**: These parameters affect how variables relate to each other within the established dimensions, shaping the behavior or properties of objects.
 ### How Parameters Reduce the Degrees of Freedom
 Parameters serve as **constraints** that reduce the **degrees of freedom** by limiting the possible values a variable can take or by introducing **relationships** between variables that further restrict their behavior.
 	Parameters impose **boundaries** or **conditions** that variables must satisfy, effectively reducing the system's potential for unrestricted change.
