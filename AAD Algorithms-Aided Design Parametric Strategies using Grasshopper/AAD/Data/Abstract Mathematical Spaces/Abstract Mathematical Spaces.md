@@ -210,9 +210,9 @@ This initial differentiation creates an **identity**.
 			That is, its core property can be simply represented by a "$1$".
 				Where the single property is the definition of the identity itself.
 
-I.e. **At this First-Level, the Identity is $\LARGE \equiv$ Inherent Property of Itself.**
-	This identity is abstract and fundamental because it serves as the **groundwork** for all further differentiation. 
-		It is the "first step" that allows for more complex structures, properties, and identities to emerge.
+###### **At this First-Level, the Identity is $\LARGE \equiv$ Inherent Property of Itself.
+This identity is abstract and fundamental because it serves as the **groundwork** for all further differentiation. 
+	It is the "first step" that allows for more complex structures, properties, and identities to emerge.
 
 Remember that despite being defined as a simple binary property, this identity itself, is still potential.
 	That potential being the potential for variance within itself.
