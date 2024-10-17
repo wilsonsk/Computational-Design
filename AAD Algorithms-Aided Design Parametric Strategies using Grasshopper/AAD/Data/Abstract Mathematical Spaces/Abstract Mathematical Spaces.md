@@ -269,7 +269,8 @@ Even if the dimension is abstract and not yet assigned a specific **numerical v
 
 This reflects the idea that **value** in a system of dimensions is **relational**—a dimension gains its identity by being **not the other dimensions**. 
 	This inter-dimensional distinction is where **quantification** begins, even before specific values are assigned within a single dimension.
-### 2. Second-Level Differentiation (i.e. Second-Level Definition/Constraints): A Second-Level Definition (i.e. ) Second-Level Conditions) of a First-Level Definition
+### 2. Second-Level Differentiation (i.e. Second-Level Definition/Constraints): A Second-Level Definition (i.e. Second-Level Conditions) of a First-Level Definition (i.e. Identity/Dimension)
+The Definition of a Constrained First-Level Identity or Dimension (where the Identity is the Dimension in this First-Level of Abstraction) implemented by Parametrization.
 #### Parametrization: The Mechanism of Constraint
 At a **higher level**, you **introduce and configure** **specific constraints** or **definitions** through parametrization, which further refines how the initial framework behaves.
 	This is where we **refine** the framework by introducing **specific constraints** or values. 
@@ -293,6 +294,9 @@ In the context of parametrization, parameters are generally **constants** or 
 	They are typically **independent** from the system’s main variables, that is, **independent** quantities, that define the system's structure, rules for how variables behave.
 		Parameters govern the possible configurations of the system without yet assigning specific values.
 ###### Variables
+The **dimensions** correspond to the **variables** of the system.
+	Each **variable** represents a dimension in the space where the system operates.
+
 **Variables** are the **specific manifestations** of the dimension's potential. 
 	They are the **quantitative representations**of how much a system varies along that dimension.
 		 In this sense, variables take on values that are **measures** of the **state** within a particular dimension.
@@ -308,7 +312,7 @@ In the context of parametrization, parameters are generally **constants** or 
 			 The variable’s value at any given moment or under specific constraints (e.g., through parametrization) represents a **specific state**within that dimensional framework.
 #### Relational Structure: The Second-Level Differentiation
 ##### Dimension as the Latent Framework for the Relational Structure
-The very act of differentiation creates distinctions, and these distinctions imply possible ways along which a state can vary and thus simultaneously relate to another state(s).
+The very act of differentiation creates distinctions, and these distinctions imply possible states of variance within that dimension and thus simultaneously relate to another state(s).
 	The moment you differentiate between "this" and "that," you introduce a way to relate these states within a context or framework. 
 		Dimensions emerge from differentiation as the potential context or framework and then serve as the potential for further variation or change.
 			The **dimension** is the **potential** for variation, providing the **conceptual framework**.
@@ -335,17 +339,24 @@ By constraining a First-Level Dimension, the **constraints (implemented by param
 When a **Second-Level Constraint** is imposed on a differentiated state, it defines the **parameters**, or boundaries. 
 	**Constraints** then **formalize** the latent dimensions by setting boundaries, defining how variation can occur.
 		By doing so, the constraint **transforms** the abstract potential into a **specific, aspect** of variation, essentially giving the dimension its **formalized structure**.
-### 3. Third-Level Differentiation (Definition of an Instance to a Defined Constraint within the Defined Dimension: Quantification Implemented by Value Assignment)
+### 3. Third-Level Differentiation (i.e. Third-Level Definition/Constraints): A Third-Level Definition (i.e. Third-Level Conditions) of a Second-Level Definition
+#### Instantiation
+The Definition of an Instance of a Second-Level Constraint within the First-Level Defined Dimension.
+	I.e. Instantiation via **Quantification (of the Dimension(s)) Implemented by Value Assignment (to the Parameters).**
+
+**Instantiation** occurs as the **outcome** of the assigning values to the Parameters of the Constraints. 
+	Which then quantifies the variables into values, and thus instantiates a state (i.e. instance) the dimension(s).
+		In other words, it happens when a specific, quantifiable state or instance is **realized** after constraints have been applied and parameters have been set.
+			The act of **applying constraints** and **parametrization** defines the **conditions** under which the system will instantiate particular states that satisfy those conditions.
+				 However, the **actual instantiation** occurs when specific values (i.e., **quantified outcomes**) are assigned to the variables, thus producing a **concrete instance** of the system.
+					 During **parametrization** and **constraint**, we are still operating in the realm of **potentiality**—we are setting up the conditions under which **specific states** can arise, but we have not yet realized those states.
+						The system becomes **instantiated** once the **specific values** (solutions or outcomes) that satisfy those constraints are **realized**.
+							 At this point, the system has moved from an abstract potential to a **concrete state**—this is the **moment of instantiation**.
+
 **Value assignment** to the parameters happens when you want to **instantiate** a specific instance of the system within the already-defined framework. 
 	This assignment gives specific, concrete outcomes based on the relational structure.
 
-**Instantiation** occurs as the **outcome** of the process of **constraint via parametrization**. 
-	In other words, it happens when a specific, quantifiable state or instance is **realized** after constraints have been applied and parameters have been set.
-		The act of **applying constraints** and **parametrization** defines the **conditions** under which the system will instantiate particular states that satisfy those conditions.
-			 However, the **actual instantiation** occurs when specific values (i.e., **quantified outcomes**) are assigned to the variables, thus producing a **concrete instance** of the system.
-				 During **parametrization** and **constraint**, we are still operating in the realm of **potentiality**—we are setting up the conditions under which **specific states** can arise, but we have not yet realized those states.
-					The system becomes **instantiated** once the **specific values** (solutions or outcomes) that satisfy those constraints are **realized**.
-						 At this point, the system has moved from an abstract potential to a **concrete state**—this is the **moment of instantiation**.
+
 
 **Value assignment** to parameters is a distinct step that may happen **after** the parametrization process.
 	Once the **structure** is defined through parametrization, you can assign specific values to the parameters, which then produces specific **outcomes** or **instances** of the system.
