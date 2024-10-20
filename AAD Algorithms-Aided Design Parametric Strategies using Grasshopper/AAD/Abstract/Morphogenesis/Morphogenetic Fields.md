@@ -1,0 +1,1 @@
+A model of the probability of [[Abstract Mathematical Spaces#The First Dimension The First-Level Identity|potential states]] in the [[Abstract Mathematical Spaces#Differentiation The Mechanics of Change|process of differentiation]].
