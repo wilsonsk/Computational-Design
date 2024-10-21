@@ -119,6 +119,10 @@ $$\Large \text{Degrees of Freedom}=n−m$$ Where $n$ is the number of varia
 
  **Independent variables** correspond to the ***free* parameters** that can be varied to specify the state of the identity.
 	  These are the **inputs** that determine how the identity manifests along its dimensions.
+###### Dimensions and Independent Variables 
+The **dimensionality** of a space determines the **minimum number of independent variables** required to fully describe a point or an instance within that space.
+	Essentially, each dimension introduces a new **degree of freedom**, and you need one parameter to control or describe each of those degrees.
+		 In **higher-dimensional spaces**, more parameters are needed because there are more ways in which the points or states can vary. 
 ##### Parameters vs. Independent Variables
 While **independent variables** are **free to vary**, **parameters remain fixed** for a given instance of the equation.
 	They set the **conditions** under which the variables interact, shaping the nature of the constraint.

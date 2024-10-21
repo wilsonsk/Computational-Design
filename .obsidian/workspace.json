@@ -208,7 +208,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           }
         ],
         "direction": "vertical",
@@ -223,9 +223,9 @@
   },
   "active": "91caa5df6794c107",
   "lastOpenFiles": [
-    "Oct 17 Notes on Variables and Dim.md",
-    "AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/Data/Abstract Mathematical Spaces/Abstract Mathematical Spaces.md",
     "AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/Data/Abstract Mathematical Spaces/Components of Differentiation/Parameters and Variables.md",
+    "AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/Data/Abstract Mathematical Spaces/Abstract Mathematical Spaces.md",
+    "Oct 17 Notes on Variables and Dim.md",
     "AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/Data/Abstract Mathematical Spaces/Components of Differentiation/Parametrization.md",
     "AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/Data/Abstract Mathematical Spaces/Components of Differentiation/Constraints.md",
     "AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/Abstract/Morphogenesis/Abstract Concept.md",

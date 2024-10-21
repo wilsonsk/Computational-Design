@@ -409,7 +409,7 @@ Here a position vector is higher-level differentiated state (i.e. an oriented po
 	The **variables** $\LARGE x,y$ are potential differentiated states of their corresponding dimensions.
 		The potential values (states) of the variables are constrained by the **parameters** $\LARGE a,b$.
 #### Second-Level Constraints Bound a First-Level Dimension 
-By constraining a First-Level Dimension, the **constraints (implemented by parametrization)** themselves represent a **higher-level definition** because they **bound** the potential variability of the dimension by assigning specific **rules** or **values** that shape how the dimension operates.
+By constraining a First-Level Dimension, the **constraints (implemented by parametrization)** themselves represent a **higher-level definition** because they **bound**  or **define the scope of** the potential variability of the dimension by assigning specific **rules** or **values** that shape how the dimension operates.
 	I.e. Constraints limit the possible states by **defining conditions** that the variables must satisfy.
 
 **Constraints** add a **second layer of definition**, introducing boundaries that specify **how** the dimension behaves or what values it can take on.
@@ -513,15 +513,18 @@ At this level, we are no longer working with individual dimensions in isolation.
 	Instead, we define a **higher-level identity** that **encompasses** multiple dimensions.
 		These dimensions are now treated as **properties** or **attributes** of this new identity, where each dimension contributes to the **overall structure** or **behavior** of the system.
 			The **identity** itself is the new differentiated state that emerges from the **interplay** between these dimensions.
-
-- - -
-## An Application of the Model: Language Theory
-### Differentiation as an Alphabet (i.e. set)
-- - -
-
-
-
-
+##### The Composite (Higher-Level) Identity: The Definition of a Type/Identity Equated to Multiple Dimensions (i.e. Properties)
+An **instance** of 2D space is a **specific point** defined by the **combination** of values from both dimensions. 
+	These instances are the **higher-level states** that result from combining the two dimensions. 
+		They possess **more than one property** because each point in 2D space inherently includes both an "x" and a "y" value.
+			Therefore, the **instances of 2D space** reflect the **interdependent relationship** between the two dimensions.
+				 A point in 2D space is **differentiated** not just by its x-value or y-value alone, but by the **specific combination** of both.
+##### The Composite (Higher-Level) Instance: The Constrained Instance Within Multiple (combined) Dimensions
+The Implementation of the Definition via Constraints (Parametrization)
+Implemented through the Increasingly Complex Constraints.
+$$\LARGE p + x= y$$
+	It ***can be*** $p + x = y$ because it is a multiple dimension whereby.
+		$y$ has the ability to vary and thus can ***be*** a variable.
 #### The Evolution of the Constraints
 ##### Dimensionality Determines the Complexity of the Potential Constraints
 The **dimensionality** of the space dictates the **complexity** of the potential constraints. 
@@ -533,30 +536,15 @@ The **dimensionality** of a space determines the **minimum number of parameters*
 	Essentially, each dimension introduces a new **degree of freedom**, and you need one parameter to control or describe each of those degrees.
 		 In **higher-dimensional spaces**, more parameters are needed because there are more ways in which the points or states can vary. 
  
-With a **single parameter**, the constraint types are basic, typically involving equalities or inequalities.
-	With **two parameters** within the same dimension, operations like **addition** or **subtraction** become possible (e.g., defining linear relationships).
-		As you introduce more **parameters** and **dimensions** into the space, constraints evolve to include more complex forms of interaction, such as:
+With a **single dimension**, the constraint types are basic, typically involving equalities or inequalities.
+	With **two dimensions** within the same dimension, operations like **addition** or **subtraction** become possible (e.g., defining linear relationships).
+		As you introduce more **dimensions (i.e. independent variables)** into the space, constraints evolve to include more complex forms of interaction, such as:
 			In **multi-dimensional spaces**, constraints become more sophisticated as they can involve interactions between **dimensions** (e.g., $x,y,z$ in 3D space). 
 				The **number of parameters** (coordinates) in the space allows for complex constraints like equations of planes ($ax+by+cz=d$), curves ($y=x^2$), and surfaces.
-##### Higher-Level Constraints
-When dealing with **multiple parameters** within a single dimension or across **multiple dimensions**, you can impose more complex constraints using operations like **addition**, **subtraction**, **multiplication**, and **division**. 
-	These operations allow you to express relationships between different parameters.
-    
-These **higher-level constraints** depend on having **multiple parameters** available to interact within the space.
-	In other words, the types of operations you can use to constrain a space grow as the number of parameters increases.
-##### The Composite (Higher-Level) Identity: The Definition of a Type/Identity Equated to Multiple Dimensions (i.e. Properties)
-An **instance** of 2D space is a **specific point** defined by the **combination** of values from both dimensions. 
-	These instances are the **higher-level states** that result from combining the two dimensions. 
-		They possess **more than one property** because each point in 2D space inherently includes both an "x" and a "y" value.
-			Therefore, the **instances of 2D space** reflect the **interdependent relationship** between the two dimensions.
-				 A point in 2D space is **differentiated** not just by its x-value or y-value alone, but by the **specific combination** of both.
-##### The Composite (Higher-Level) Instance: The Constrained Instance Within Two (combined) Dimensions: 
-The Implementation of the Definition via Constraints (Parametrization)
-Implemented through the Increasingly Complex Constraints.
-$$\LARGE p + x= y$$
-	It ***can be*** $p + x = y$ because it is a multiple dimension whereby.
-		$y$ has the ability to vary and thus can ***be*** a variable.
 
+- - -
+## An Application of the Model: Language Theory
+### Differentiation as an Alphabet (i.e. set)
 - - -
 ### Sequence is a Relational Structure
 In a mathematical or physical sense, a sequence **utilizes** dimensions (e.g., the "time" dimension for a sequence of events) to **express relationships** between different states in terms of their ordering.
