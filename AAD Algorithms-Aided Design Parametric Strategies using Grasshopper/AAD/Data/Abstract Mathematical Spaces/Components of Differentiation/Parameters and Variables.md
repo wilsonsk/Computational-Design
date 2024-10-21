@@ -1,7 +1,6 @@
 # Parameters and Variables
 In the most **abstract sense**, within the context of **differentiation** and **[[Abstract Mathematical Spaces#Differentiation is the Mechanism of Change|differentiated states]]**, **parameters** and **variables** serve as fundamental components that describe **how** and **what** aspects of a system can **vary**. 
 	Their definitions and roles help frame the **process of differentiation**, which is the method of distinguishing distinct possibilities or potential outcomes within a system.
-
 ## Parameters (not Independent Variables)
 Parameters represent the **constraints** or **defining conditions** that shape how variables behave. 
 	They are the **controllers** or **regulators** of a system’s behavior, setting the **conditions** that the variables must follow.
@@ -33,8 +32,10 @@ Parameters often appear in equations as **coefficients** or **constants** th
 
 These parameters control **how the variables relate to each other**, setting the specific form of the constraint that the variables must satisfy.
 
-**[[AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/Data/Abstract Mathematical Spaces/Components of Differentiation/Parametrization|Parametrization]]** is the process by which a system's potential is **structured** or **differentiated**.
+**[[AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/Data/Abstract Mathematical Spaces/Components of Differentiation/Parametrization|Parametrization]]** is the process by which Parameters are injected and arranged, therefore, a system's potential is **structured** or **differentiated**.
 	It sets up the relational conditions that allow for specific **instances** of the system to emerge, turning the abstract potential of differentiation into a **well-defined state**.
+
+- - -
 ## Variables
 Variables are **abstracted expressions** of the **potential for variation**. 
 	They allow the system to **differentiate** along different axes or dimensions. 
@@ -82,6 +83,8 @@ Variables are **quantifications** of a system’s **state**.
 	They are the **output** of third-level differentiation, where constraints are applied, and specific instances (or solutions) are realized.
 		Variables represent the **outcomes** of differentiation—the quantitative ways in which the system’s potential for variance can be measured. 
 			They describe the **specific instances** that emerge from differentiation, representing measurable change within the system.
+
+- - -
 ## The Relationship Between Variables and Parameters
 ##### Fundamental (Low-Level) Variables/Parameters
 These are parameters that define the very structure or dimensionality of the space or system. 
@@ -94,12 +97,16 @@ These parameters operate within the established dimensions, further constraining
 	**Parameters as Constants within the Space**: Once the dimensions are established, other parameters can act as constants that define specific properties or constraints within that space.
 		**Constraining Relationships**: These parameters affect how variables relate to each other within the established dimensions, shaping the behavior or properties of objects.
 ### Degrees of Freedom
+Each [[Abstract Mathematical Spaces#Dimensions|dimension]] introduces a new **degree of freedom**, and you need one parameter to control or describe each of those degrees.
+	The number of **intrinsic dimensions** (the fundamental degrees of freedom of the space) dictates how many **parameters** are required to describe any point within that space. 
+		In an $n$-dimensional space, you need $n$ parameters because each dimension allows for an **independent way** in which the points can vary.
+	
 The **degrees of freedom** in a system correspond to the number of **independent variables** that can be freely assigned values.
 	**Constraints** (equations) reduce the number of degrees of freedom because they establish relationships between the variables, limiting the number of variables that can vary independently.
 		 **Parameters** help define the specific characteristics of the constraint (e.g., the slope and intercept in a linear equation).
 		    **Variables** represent the quantities that can change, and they must satisfy the constraints, which define their allowable relationships.
 ##### The Number of Degrees of Freedom 
-$$\LARGE \text{Degrees of Freedom}=n−m$$ Where $n$ is the number of variables, and $m$ is the number of independent constraints.
+$$\Large \text{Degrees of Freedom}=n−m$$ Where $n$ is the number of variables, and $m$ is the number of independent constraints.
 #### Independent Variables, $\LARGE n-m$
 **Independent variables** are variables that can be **freely assigned and varied values** without being directly determined by other variables in the system.
 	They represent the **degrees of freedom** within the system, meaning they can be varied independently to explore different possible states or configurations.
@@ -115,8 +122,8 @@ $$\LARGE \text{Degrees of Freedom}=n−m$$ Where $n$ is the number of varia
 ##### Parameters vs. Independent Variables
 While **independent variables** are **free to vary**, **parameters remain fixed** for a given instance of the equation.
 	They set the **conditions** under which the variables interact, shaping the nature of the constraint.
-
-**Parameters** provide the **framework** or **rules** that govern the relationship, while **independent variables** are the inputs that vary within that framework.
+		Parameters are introduced during Parametrization, whereas Independent Variables arise as outcomes of the Constraint' [[Abstract Mathematical Spaces#Operators The Fundamental Mechanism of Constraint (specifically of the Equation)|structure]] and [[Abstract Mathematical Spaces#Parametrization A Higher-Level Mechanism of Constraint (specifically of the Equation)|characterization]].
+			**Parameters** provide the **framework** or **rules** that govern the relationship, while **independent variables** are the inputs that vary within that framework.
 #### Dependent Variables, $\LARGE n$
 **Dependent variables** are variables whose values are determined by the **independent variables** through the **constraints (relationships)** in the system.
 	They are not free to vary independently; rather, their values are **constrained** by the relationships with the independent variables.
@@ -127,7 +134,7 @@ While **independent variables** are **free to vary**, **parameters remain fi
 	When the system imposes **$\LARGE m$ constraints**, these constraints reduce the number of independent variables, and the remaining variables become **dependent on the independent variables** to satisfy the constraints.
 		They **quantify the dimensions** by taking on specific values that satisfy the relationships imposed by the system.
 ### How Parameters Reduce the Degrees of Freedom
-A **[[Abstract Mathematical Spaces#Constraint The Mechanism of Definition|constraint]]** is an equation that imposes a relationship between variables.
+A **[[Abstract Mathematical Spaces#Constraint The Mechanism of Definition|constraint]]** is an [[Abstract Mathematical Spaces#Equations The Fundamental Mechanism of Equality|equation]] that imposes a relationship between variables.
 	It defines a condition that the variables must satisfy. 
 		The number of **degrees of freedom** (i.e., the number of variables that can vary independently) in a system depends on the number of **variables** and **constraints** (equations).
 
@@ -135,12 +142,18 @@ When you add **constraints** (equations) to a system, you reduce the number of
 	Each **constraint** (equation) typically relates some variables to each other, thereby **reducing** the number of variables that can be freely chosen.
 #### Why One Equation Constrains Only One Degree of Freedom
 The reason lies in the nature of **equations as relationships**:
-- **An equation defines a condition** that the variables must satisfy, but it typically involves more than one variable when there are multiple variables in the system.
-- When you have more than one variable, the equation does not specify unique values for all variables but instead describes a **relationship** among them, leaving some variables free to vary independently.
-
+	**An equation defines a condition** that the variables must satisfy, but it typically involves more than one variable when there are multiple dimensions (properties) in the system.
+		When you have more than one variable, the equation does not specify unique values for all variables but instead describes a **relationship** among them, leaving some variables free to vary independently.
+$$\LARGE \text{A single Differentiated State in 1D: } \quad p = x$$
+			It cannot be $p + y = n$ because it is a single dimension whereby only one aspect is variable (i.e. only one dimension has variance).
+				$y$ has no ability to vary and thus cannot ***be*** a variable.
+				
+Inequalities in this First Dimension defines a set of Differentiated States.
+$$\LARGE \text{A set of Differentiated States in 1D: }\quad p \leq x$$
 In general, **one equation constrains one degree of freedom**, meaning it reduces the number of independent variables by one.
-- If you start with nn variables and have one equation (constraint), the number of **degrees of freedom** is reduced to n−1n−1.
-- The equation provides a relationship that connects the variables, but it leaves some freedom to choose certain variables independently. The remaining variables are then determined by the equation.
+	If you start with $n$ variables and have one equation (constraint), the number of **degrees of freedom** is reduced to $n−1$.
+		The equation provides a relationship that connects the variables, but it leaves some freedom to choose certain variables independently.
+			 The remaining variables are then determined by the equation.
 ##### Case 1: One Equation, One Variable (1 Equation, 1 Variable)
 When there is **one variable** and **one equation** (constraint), the equation **fully determines the value of that variable**.
     **Reasoning**: The single equation provides a direct relationship that the variable must satisfy, leaving no freedom for the variable to vary independently. 

@@ -65,24 +65,16 @@ The initial change is that from the undifferentiated, absolute to the first dual
 	The states being most simply "**is**" and "**is not**", that is "**equality**" and "**inequality**".
 		Which through the notion of value expressed as quantity which is expresses as numbers, can be described as $\LARGE 1$ and $\LARGE 0$.
 ### The Process of Differentiation
-First-Level Differentiation *via* Definition *via* Constraint via Equality/Inequality via Equation *Produces* Identity *->* Dimension (a higher level identity)
+[[#1. First-Level Differentiation (Initial Definition of a Dimension) An Initial Discernment (Distinguish), $ LARGE [0 space 1]$|First-Level Differentiation]] ***via*** [[#Definition The Mechanism of Discernment (of the First-Level Differentiation)|Definition]] ***via*** [[#Constraint The Mechanism of Definition|Constraint]] **via** [[#Equality (and thus Inequality) as the Fundamental Constraint|Equality]]/[[#The Implicit Role of Inequality (What It Is Not)|Inequality]] **via** [[#Equations The Fundamental Mechanism of Equality|Equation]] ***Produces*** [[#Identity The Assertion of Boundaries of a Definition|Identity]] *->* [[#The First Dimension A Higher-Level First-Level Identity|Dimension]] ([[#The First Dimension A Higher-Level First-Level Identity|a higher level identity]])
 
-Second-Level Differentiation (of a Dimension) *via* Constraint *via* Equation via Operators (structure) && Parametrization (characterization) *Produces* (Specific) Instance of Variance within the Dimension (i.e Solution Set).
-#### First Level: Distinguishing a [[#The First Dimension The First-Level Identity|A Dimension]]
-###### 1. [[#1. First-Level Differentiation (Initial Definition of a Dimension) An Initial Discernment (Distinguish), $ LARGE [0 space 1]$|Discernment: By Distinction]]
-**Differentiation** happens first—it is the creation of **distinctness**, contrast, definition, expression of change.
-###### 2. [[#Definition The Mechanism of Discernment (of the First-Level Differentiation)|Definition: Mechanism of Differentiation]]
-**Definition** follows differentiation— that is, the **formal or specific clarification** of what something **is** after it has been differentiated via **equating** a form/expression to a differentiated state.
-##### Second Level
-###### 3. [[#Constraint The Mechanism of Definition|Constraints: The Mechanism of Definition]]
-###### 3A. [[#Equality Constraints Equality The Fundamental Constraint|Equality: The Fundamental Constraint]]
-###### 4. [[#Parametrization The Mechanism of Constraint|Parametrization: The Mechanism of Constraint]]
-##### Third Level
-###### 5. Instantiation: The Outcome of Quantification (i.e. Value Assignment)
-##### Repeat Process for a Second Dimension
-##### Repeat the Process for a Composite Composed of Dimensions
+[[#2. Second-Level Differentiation (i.e. Second-Level Definition/Constraints) A Second-Level Definition (i.e. Second-Level Conditions) of a First-Level Definition (i.e. Identity/Dimension)|Second-Level Differentiation]] (of a Dimension) ***via*** [[#Second-Level Constraints Bound a First-Level Dimension|Second-Level Constraint]] ***via*** [[#Equation Represents the Constraint|Equation]] via [[#Operators The Fundamental Mechanism of Constraint (specifically of the Equation)|Operators]] (structure) && [[#Parametrization A Higher-Level Mechanism of Constraint (specifically of the Equation)|Parametrization]] (characterization) 
 
+[[#3. Third-Level Differentiation (i.e. Third-Level Definition/Constraints) A Third-Level Definition (i.e. Third-Level Conditions) of a Second-Level Definition|Third-Level Differentiation]] ***via*** [[#Instantiation (i.e. Instance) of the Identity Parameter Value Assignment|Instantiation]] (value assignment of parameters) ***Produces*** (Specific) [[#An Instance Within the First Dimension (i.e. Reducing the Degrees of Freedom)|Instance of Variance within the Dimension]] ***produces*** [[#The Instance A Solution Set (i.e. A Quantification of the Variables/Instance)|Solution Set]]
 ##### The Logic of Quantity: The Outcome of Differentiation
+##### Repeat Process for a Second, Third, Fourth, ..., Dimension
+##### Repeat the Process for a Composite Composed of Dimensions
+Identity composed of Identities.
+	Instances composed of Instances.
 
 - - -
 ## Recursion: The Differentiation of a Differentiation, the Definition of a Definition
@@ -167,6 +159,9 @@ Constraints are Imposed (i.e. implemented/assigned/defined) by Equalities/Inequa
 		 This is what creates the **constraint**.
 			- Example: Defining a chair involves saying that a "chair" equals "a seat, with legs, a backrest, designed for sitting."
 
+**Equality** is fundamental because it provides the most direct way to **differentiate** a state.
+	By imposing equality, you **collapse** the potential variability into a **specific state**, thereby creating a **differentiated instance** of the dimension.
+
 At the most fundamental level, the **definition** of a differentiation (or any abstract differentiated state) involves the assertion of **identity** via constraint, which itself is formally implemented through **equality**.
 	**Equality** allows us to say that the dimension is **itself**—that it represents a specific type of potential variance. 
 		This recognition is the first step in defining what the dimension is.
@@ -178,6 +173,7 @@ Equality at this low level can be understood as a **formal mechanism** that co
 		 This process of affirmation naturally leads to the recognition of what it is **not**, through a process of **exclusion** or **negation**.
 			Therefore, even in an abstract, pre-parametrized sense, **equality** functions as a means of **formal recognition**. 
 				It allows for the definition of something as **this** (through **identity**) and, by extension, the discernment of what it is **not**.
+					**Equality** (and **inequality**) serves as a mechanism for **fixing** or **restricting** the potential states of differentiation.
  
  To discern **"this" from "not that"** at the lowest level, we rely on the formal process of **equality** (or identity).
 	  We say that **A = A** (this dimension is itself), and this formal assertion allows us to recognize that **A ≠ B** (it is not the other potential states).
@@ -186,6 +182,9 @@ Equality at this low level can be understood as a **formal mechanism** that co
   Equating Provides the **Basis of Identity**.
 	Defining a differentiated state, effectively equates it with a constraint (i.e. set of properties or conditions). and thus establishes the differentiated state’s **identity**. 
 		This equating is a fundamental part of **definition** because it is the act that ties a differentiated state to its specific constraints.
+
+Equality as the **Fundamental Constraint** **assigns/fixes** a parameter within its space, reducing the dimension's variability to a single point. 
+	It serves as the foundation upon which more complex constraints can build.
 ##### The Implicit Role of Inequality (What It Is Not)
 **Inequality** is implied in this process as well of Definition as Instantiation.
 	By defining **A** as **equal to A**, we are also saying that **A is not B**, **A is not C**, and so on. 
@@ -203,7 +202,7 @@ An **equation** is a **mathematical statement that asserts the equality of tw
 			- It provides a **framework for relating variables, parameters, and constants** through **[[#Operators The Fundamental Relational Structure of Constraint|operators]]**.
 
  The equation establishes a **relational structure** in which **equality is enforced** through operations (defined by operators) and relationships between terms.
-###### Equation as the Expression of the Constraint
+###### Equation Represents the Constraint
 **Therefore, the equation is the representation of a constraint.**
 	Where **constraint** $\LARGE \equiv$ **equation**.
 
@@ -243,13 +242,23 @@ This identity is abstract and fundamental because it serves as the **groundwork*
 Remember that despite being defined as a simple binary property, this identity itself, is still potential.
 	That potential being the potential for variance within itself.
 ##### The First Dimension: A Higher-Level First-Level Identity
-An Identity is **shaped by the kind of potential it uniquely represents**.
-	We call this abstract potential of variance, a [[Axes and Dimensions|Dimension]].
-		 Here, the **dimension** represents the fundamental ability to **distinguish** or **change** between states - it is an intrinsic "difference".
-			Therefore, this dimension is a **differentiated state** on its own because it encapsulates the primary **potential for change**—the existence of a "difference" between two relational states.
-				In abstract terms, this first dimension embodies the **concept of distinction**, which is a foundational property that enables all further differentiation and definition.
-					Before a differentiation is used in the definition of a more complex state, its identity is defined **by its own inherent property**.
-						 It is not yet bound to specific constraints or configurations; it simply **"exists"** as a potentiality, an abstract foundation upon which more complex forms can be built.
+An **identity** can be thought of as a **distinct, defined entity** that has certain **characteristics or properties**. 
+	It represents a **specific aspect of variation** or **potential for definition** within a larger context.
+		An Identity is **shaped by the kind of potential it uniquely represents**.
+			We call this abstract potential of variance, a [[Axes and Dimensions|Dimension]].
+				**Dimensions** represent the **potential degrees of freedom** or **properties** that an identity can have. 
+					When an identity is used to define or describe a higher-level identity, it effectively becomes one of the **dimensions or properties** that contribute to the definition of that higher-level identity.
+ 
+ Here, the **dimension** represents the fundamental ability to **distinguish** or **change** between states - it is an intrinsic "difference".
+	 A **dimension** represents an **aspect of potential variance or change** within a system. 
+		It provides a **framework or context** in which something can vary or be defined.
+			In this sense, a dimension is a **high-level identity** because it encompasses a broad **category of potential variation**. 
+				It defines a **space or scope** in which more specific, lower-level identities can be actualized.
+
+Therefore, this dimension is a **differentiated state** on its own because it encapsulates the primary **potential for change**—the existence of a "difference" between two relational states.
+	In abstract terms, this first dimension embodies the **concept of distinction**, which is a foundational property that enables all further differentiation and definition.
+		Before a differentiation is used in the definition of a more complex state, its identity is defined **by its own inherent property**.
+			 It is not yet bound to specific constraints or configurations; it simply **"exists"** as a potentiality, an abstract foundation upon which more complex forms can be built.
 
 In this framework, the act of differentiation—splitting into "this" and "that"—introduces the **first dimension**. 
 	 This is an isolation of a specific potential for change.
@@ -296,7 +305,10 @@ Even if the dimension is abstract and not yet assigned a specific **numerical v
 This reflects the idea that **value** in a system of dimensions is **relational**—a dimension gains its identity by being **not the other dimensions**. 
 	This inter-dimensional distinction is where **quantification** begins, even before specific values are assigned within a single dimension.
 ### 2. Second-Level Differentiation (i.e. Second-Level Definition/Constraints): A Second-Level Definition (i.e. Second-Level Conditions) of a First-Level Definition (i.e. Identity/Dimension)
-The Definition of a Constrained First-Level Identity or Dimension (where the Identity is the Dimension in this First-Level of Abstraction) implemented by Parametrization.
+The Definition of (i.e. applied to) a Constrained First-Level Identity or Dimension (where the Identity is the Dimension in this First-Level of Abstraction) implemented by Parametrization.
+	I.e. Defining a Relational Structure between the Properties (i.e. Dimensions) of the an Identity. 
+		In this sense, **constraints (structured by operators and implemented by parametrization)** is a **Second-Level Constraint** because it **constrains** the potential variability of the dimension by assigning specific **rules** or **values** that shape how the dimension operates.
+			I.e. Constraints limit the possible states by **defining conditions** that the variables must satisfy.
 
 The **constraints are implemented through their configuration relative to the variables in the equations or functions**, this process is called Parametrization. 
 	Where the **relationships between [[Parameters and Variables#Parameters|parameters]] and [[Parameters and Variables#Variables|variables]]** are set up, typically in the form of **equations** or **operators** that govern how variables can vary within the system. 
@@ -304,6 +316,10 @@ The **constraints are implemented through their configuration relative to the va
 			- [[Constraints#Fundamental Constraint|Fundamental Constraint]]
 			- [[Constraints#Low-Level Constraints|Low-Level Constraints]]
 			- [[Constraints#Higher-Level Constraints|Higher-Level Constraints]]
+##### Constraints Bound a Dimension 
+**Constraints** add a **second layer of definition**, introducing boundaries that specify **how** the dimension behaves or what values it can take on.
+	In this sense, constraints **defines the range** or **conditions** under which the already-differentiated state operates.
+		 It’s a **more specific definition** within the larger, more general framework.
 #### Relational Structure: The Second-Level Differentiation
 ##### Dimension as the Latent Framework for the Relational Structure
 The very act of differentiation creates distinctions, and these distinctions imply possible states of variance within that dimension and thus simultaneously relate to another state(s).
@@ -329,12 +345,12 @@ Operators can be understood as **mechanisms that define the nature of interacti
 	 They **shape how constraints are expressed**, dictating the kind of relationship that must hold true for the variables and parameters (e.g., linear, quadratic, exponential).
 		Their primary role is to **specify how different components combine or relate** to each other.
 			By specifying operations, operators **shape how the constraint affects the variables** and parameters.
-				**Operators enable the expression of various types of relationships**:
+				**Operators enable the expression of various types of relationships**.
 
 **Operators are mechanisms of constraint,** but not constraints themselves. 
 	They shape how the relationship or constraint is applied, rather than being the constraint.
 		They **determine the form** of the relationship in the constraint. 
-#### [[AAD Algorithms-Aided Design Parametric Strategies using Grasshopper/AAD/Data/Abstract Mathematical Spaces/Components of Differentiation/Parametrization|Parametrization]]: A Higher-Level Mechanism of Constraint (specifically of the Equation)
+#### Parametrization: A Higher-Level Mechanism of Constraint (specifically of the Equation)
 Parametrization defines the Characterization of the Relational Structure of the Constraint/Equation.
 
 **Parameterization** works within the framework **established by the operators**:
@@ -343,9 +359,9 @@ Parametrization defines the Characterization of the Relational Structure of the 
 		    Parameters **scale, shift, or otherwise adjust** the variables, but they rely on the operators to define how these adjustments affect the relationship.
 
 **Parameterization is dependent on operators**, as it uses the operations defined by the operators to implement specific constraints:
-	    In y=mx+by=mx+b, the parameter mm scales the variable xx, but this scaling is only meaningful because the **operator ××** (multiplication) defines how mm interacts with xx.
-		    Similarly, bb shifts the result, but the **operator ++** (addition) specifies how this shift occurs.
-				**Operators do not depend on specific parameters**, but they provide the **framework** in which parameters operate.
+	In $y=mx+b$, the parameter mm scales the variable $x$, but this scaling is only meaningful because the **operator $x$** (multiplication) defines how mm interacts with $x$.
+		Similarly, $b$ shifts the result, but the **operator $+$** (addition) specifies how this shift occurs.
+			**Operators do not depend on specific parameters**, but they provide the **framework** in which parameters operate.
 
 In a way, **operators are structural components** of constraints, defining the **nature of the interaction**, while **parameters adjust the properties** of that interaction.
 
@@ -359,10 +375,6 @@ At a **higher level**, you **introduce and configure** **specific constraints*
 		This framework sets up the **conditions** and **structure** of the system, without necessarily assigning specific values to the parameters immediately.
 			The system’s behavior is structured but **not yet fixed** in terms of specific values.
 				 In mathematical terms, **parametrization** involves expressing one or more **variables** in terms of one or more **parameters**. 
-###### Parameters
-In the context of parametrization, parameters are generally **constants** or **controlling quantities** that govern how variables behave or change. 
-	They are typically **independent** from the system’s main variables, that is, **independent** quantities, that define the system's structure, rules for how variables behave.
-		Parameters govern the possible configurations of the system without yet assigning specific values.
 ###### Variables
 The **dimensions** correspond to the **variables** of the system.
 	Each **variable** represents a dimension in the space where the system operates.
@@ -381,6 +393,10 @@ The **dimensions** correspond to the **variables** of the system.
 			   *For example:* In the context of spatial dimensions like $x$, $y$, and $z$, the dimension $x$ represents the **potential** for a point to exist at any location along the x-axis. 
 				   The **variable** $x$ then takes on specific **numerical values** that describe a particular point or state along that axis.
 						If $x=5$, this means the point exists 5 units along the x-axis—this is the **quantitative realization** of the dimension’s potential.
+###### Parameters
+In the context of parametrization, parameters are generally **constants** or **controlling quantities** that govern how variables behave or change. 
+	They are typically **independent** from the system’s main variables, that is, **independent** quantities, that define the system's structure, rules for how variables behave.
+		Parameters govern the possible configurations of the system without yet assigning specific values.
 
 **The parameters** provide the **rules or constraints** that **bind the variables**, ensuring that they take on values consistent with the defined system.
 	**Variables**, are **dependent** quantities whose values are determined by the relationships defined by the parameters.
@@ -405,6 +421,17 @@ When a **Second-Level Constraint** is imposed on a differentiated state, it defi
 		By doing so, the constraint **transforms** the abstract potential into a **specific, aspect** of variation, essentially giving the dimension its **formalized structure**.
 ### 3. Third-Level Differentiation (i.e. Third-Level Definition/Constraints): A Third-Level Definition (i.e. Third-Level Conditions) of a Second-Level Definition
 Defining an Instance.
+
+**Parametrization** and **constraint** are **processes** that lead up to instantiation, but the **instantiation itself** happens when those constraints result in specific, **quantified outcomes**.
+	A system can be defined or constrained abstractly through parametrization, but it does not become **instantiated** until the **values** are assigned to the parameters, creating a specific instance of the system.
+		The process of **instantiation** is the process of finding or determining the **solution set**, where the abstract identity (defined by constraints and parameters) is made **concrete** by **actual values**.
+		    In this way, the **solution set embodies the instance** because it captures the specific configuration of the system that satisfies all conditions.
+
+Once the **structure** is defined through parametrization, you can assign specific values to the parameters, which then produces specific **outcomes** or **instances** of the system.
+	The **solution set** is essentially the **outcome** of **parametrization** and **constraint**.
+		The process of constraining a system with equations or inequalities narrows down the possible differentiated states to a specific set of **solutions**that fit within the defined conditions.
+			Each **solution** is a **specific instance** or **differentiated state** that has been realized through the **application of constraints**. 
+				These instances represent the system’s possible configurations under the given conditions.
 #### Instantiation (i.e. Instance) of the Identity: Parameter Value Assignment
 The Definition of an Instance of a Second-Level Constraint of the First-Level Identity ([[#**At this First-Level, the First-Level Identity is $ LARGE equiv$ Inherent Property of Itself**|in this First-Level case]], it is within the First-Level Defined Dimension).
 	I.e. Instantiation via **Quantification (of the Dimension(s)) Implemented by Value Assignment (to the Parameters).**
@@ -413,16 +440,10 @@ The Definition of an Instance of a Second-Level Constraint of the First-Level Id
 				The **parameters** dictate the nature of the relationships (constraints) thus the ways the properties of an identity can vary.
 					The **variables** represent the properties (i.e. dimensions) where this identity can manifest its variance.
 					    The **solution set** provides the **instantiated values**, making the identity an actualized state within the framework.
-
+##### **Instantiation through Value Assignment** **collapses** the **Potential Variability** (i.e. Dimension) into a **Specific State**.
 I.e. **Instantiation** is the process of making the abstract definition **real or concrete** by assigning **specific values to the parameters and variables** within the defined framework.
 	When you assign specific values to the parameters, you are **actualizing the potential** and thereby **quantifying the identity**.
 		In the case of a system of equations, it involves finding the **solution set**, which actualizes the identity in a concrete form by satisfying all the constraints that define it.
-
-Once the **structure** is defined through parametrization, you can assign specific values to the parameters, which then produces specific **outcomes** or **instances** of the system.
-	The **solution set** is essentially the **outcome** of **parametrization** and **constraint**.
-		The process of constraining a system with equations or inequalities narrows down the possible differentiated states to a specific set of **solutions**that fit within the defined conditions.
-			Each **solution** is a **specific instance** or **differentiated state** that has been realized through the **application of constraints**. 
-				These instances represent the system’s possible configurations under the given conditions.
 
 **Instantiation** occurs as the **outcome** of the assigning values to the Parameters of the Constraints. 
 	Which then quantifies the variables into values, and thus instantiates a state (i.e. instance) the dimension(s).
@@ -432,12 +453,8 @@ Once the **structure** is defined through parametrization, you can assign spec
 					 During **parametrization** and **constraint**, we are still operating in the realm of **potentiality**—we are setting up the conditions under which **specific states** can arise, but we have not yet realized those states.
 						The system becomes **instantiated** once the **specific values** (solutions or outcomes) that satisfy those constraints are **realized**.
 							 At this point, the system has moved from an abstract potential to a **concrete state**—this is the **moment of instantiation**.
-
-**Parametrization** and **constraint** are **processes** that lead up to instantiation, but the **instantiation itself** happens when those constraints result in specific, **quantified outcomes**.
-	A system can be defined or constrained abstractly through parametrization, but it does not become **instantiated** until the **values** are assigned to the parameters, creating a specific instance of the system.
-		The process of **instantiation** is the process of finding or determining the **solution set**, where the abstract identity (defined by constraints and parameters) is made **concrete** by **actual values**.
-		    In this way, the **solution set embodies the instance** because it captures the specific configuration of the system that satisfies all conditions.
-#### The Instance: A Solution Set (i.e. A Quantification of the Variables/Instance)
+#### The Instance: A Solution Set (i.e. A Set of Quantifications/Instances of the First-Level Dimension)
+$$\LARGE [0 \space 1] \to [0 \space 1 \space 01 \space 11 \space 001 \space 011 \space 111 \dots]$$
 The assigned values to the parameters, in combination with the constraints, lead to the **quantification of the instance**, meaning that all variables in the system are now specified.
  
 The **solution set** represents the specific, concrete **instance** of the identity—meaning, the actual values of the variables that satisfy all the constraints defined by the system.
@@ -475,7 +492,19 @@ Each solution within a **solution set** is a **specific realization** of the
 
 In systems with multiple **constraints**, the solution set represents the **intersection** of all the constraints. 
 	These intersections correspond to the **differentiated instances** where all the constraints are satisfied simultaneously.
-### 4. Fourth-Level Differentiation (Definition of a Higher-Level Instance)
+#### Repeating: A "Second" First-Level Differentiation as a Second (Independent) Dimension
+This Second Differentiated State is not in combination with the First Differentiated State (yet...).
+	The same process occurs for this Second Dimension as in the First.
+		Where this Second Dimension produces a Second Identity or Type.
+			Then the Dimension is Constrained via Parametrization, which produces the Instances  of this Second Dimension.
+				Each Instance is a Quantification (i.e. Value Assignment) of this Second Dimension.
+### 4. Recursion: Fourth-Level Differentiation (Definition of a Higher-Level Differentiation/Definition/Constraint/Instance)
+**Lower-Level Identities** and thus **Lower-Level Dimensions** can serve as the basic properties or aspects that define a **high-level differentiated state** (i.e. more complex systems).
+	They represent the potential for variance (or change) within that state.
+		Dimensions represent the **potential for change** itself, rather than the specific ways that change is constrained (which is the role of parameters).
+			This differentiation creates a basic framework where **one form of variance** (binary change) exists.
+				In this state, "0" and "1" represent a single **axis of variation**—a dimension that can toggle between two states.
+
 When multiple dimensions are combined into a new identity, they represent the **internal structure** of this new state. 
 	This identity may have more complex behaviors, as it is now constrained by the relationships between its constituent dimensions.
 		The **new identity** can be thought of as the **product** of differentiation, where dimensions are no longer independent but rather **interdependent** and **related** through constraints and parameters that govern the overall system’s behavior.
@@ -490,130 +519,9 @@ At this level, we are no longer working with individual dimensions in isolation.
 ### Differentiation as an Alphabet (i.e. set)
 - - -
 
-## A Brief Overview: From the First Change to Patterns of Change
 
 
 
-### Constraining a First-Level Definition: Producing a Higher-Level Definition (i.e. an Instance)
-In this sense, **constraints (implemented by parametrization)** is a **higher-level definition** because it **constrains** the potential variability of the dimension by assigning specific **rules** or **values** that shape how the dimension operates.
-	I.e. Constraints limit the possible states by **defining conditions** that the variables must satisfy.
-##### An Instance Within the First Dimension (i.e. Reducing the Degrees of Freedom)
-**An instance can be produced without needing an additional dimension.** 
-	The key is to recognize that even within a **single dimension**, you can introduce parameters to create specific instances. 
-	    Suppose the initial dimension is defined simply as a binary toggle between "0" and "1."
-		     We can introduce a **parameter** that dictates the **state** of this dimension.
-			      For example, a parameter $p$ could specify the condition under which the dimension is in state "0" versus state "1."
-				       In this case, $P$ acts as a **constraint** that defines a specific instance of the dimension’s behavior.
-					    Even though the dimension itself offers only a single **axis of variation** (between "0" and "1"), the parameter $p$ enables us to **select** or **control** how that axis expresses itself.
-						     This process can generate an **instance** of the dimension by fixing the parameter to a specific value or condition.
-#### Constraints
-**Constraints** are **conditions** (e.g., equations or inequalities) applied to the variables, often involving parameters. 
-	These constraints form relationships that must be satisfied, which in turn define the possible values (or subsets) that the variables can take.
-##### Constraints Bound a Dimension 
-**Constraints** add a **second layer of definition**, introducing boundaries that specify **how** the dimension behaves or what values it can take on.
-	In this sense, constraints **defines the range** or **conditions** under which the already-differentiated state operates.
-		 It’s a **more specific definition** within the larger, more general framework.
-##### Equality (and thus Inequality) as the Fundamental Constraint
-**Equality** is fundamental because it provides the most direct way to **instantiate** a state within a dimension.
-	By imposing equality, you **collapse** the potential variability into a **specific state**, thereby creating a **differentiated instance** of the dimension.
-
-The process of **instantiating** or **parametrizing** a dimension involves applying **constraints** that define specific instances within that dimension.
-	**Equality** is one of the most basic and **fundamental constraints** in this process.
-		**Equality** (and **inequality**) serves as a mechanism for **fixing** or **restricting** the potential states of a dimension.
-			 When you introduce equality (e.g., x=0x=0), you are **selecting a specific point** within the dimension, thereby **defining** a particular instance or state.
-					Without constraints like equality, the dimension remains an abstract, **undifferentiated potential**.
-						 It is through the introduction of equality (or inequality) that the dimension is **differentiated** into specific states or points.
-
-The **types of constraints** (or operations) you can impose on a space—starting from **basic equality** to more complex operations like **addition**, **multiplication**, and beyond—are fundamentally influenced by both the **number of parameters** present and the **structure** of the **space** (whether it is a single dimension or involves multiple dimensions). 
-##### Implementation of Constraints (i.e. Parameters)
-Constraints introduces **parameters** that impose **specific conditions** or **values** on the already-defined system.
-	These constraints reduce the general **degrees of freedom** within the system, leading to more specific outcomes within the low-level dimension.
-
-**Parameters** define how **constraints** are applied to variables.
-	They essentially "shape" the space in which solutions exist. 
-		Without parameters, variables might have a more "free" range of values, representing a higher degree of freedom.
-
-Parametrization doesn’t alter the **fundamental nature** of the dimension but rather **refines** it by assigning values, functions, or relationships that govern its behavior. 
-	This refinement is crucial for defining **specific instances** or **states** within the space defined by the dimension.
-##### The Parametrization of an Instance of the First Dimension (i.e. the Collapsing the Potential Variability into a Specific State)
-I.e. The Implementation of the Definition via Constraint (i.e. the constraining of a dimension to a specific state).
-	**Parametrization** is the process of introducing **parameters** that **govern** or **control** the variance within a dimension.
-		 These parameters help define specific **instances** or **states** of that dimension.
-###### Dimensions and Parameters
-Each dimension introduces a new **degree of freedom**, and you need one parameter to control or describe each of those degrees.
-	The number of **intrinsic dimensions** (the fundamental degrees of freedom of the space) dictates how many **parameters** are required to describe any point within that space. 
-		In an $n$-dimensional space, you need $n$ parameters because each dimension allows for an independent way in which the points can vary
-###### An Instance of the First Dimension is Implemented through the Simplest (i.e. Most Abstract) Constraint
- In a **single-dimensional space**, constraints primarily involve **individual parameters** and their relationships within a single property.
-	 Equality is a **low-level constraint** because it **assigns/fixes** a parameter within its space, reducing the dimension's variability to a single point. 
-		It serves as the foundation upon which more complex constraints can build.
-
-At the most basic level, **equality** represents the **simplest form** of constraint. 
-	It defines specific instances of a dimension or space by setting parameters to particular values.
-	    For example, in a 1-dimensional space, the constraint $x=3$ uses equality to specify a particular point on that line.
-$$\LARGE \text{A single Differentiated State in 1D: } \quad p = x$$
-		It cannot be $p + y = n$ because it is a single dimension whereby only one aspect is variable (i.e. only one dimension has variance).
-			$y$ has no ability to vary and thus cannot ***be*** a variable.
-
-Inequalities in this First Dimension defines a set of Differentiated States.
-$$\LARGE \text{A set of Differentiated States in 1D: }\quad p \leq x$$
-##### Quantification (of the First Dimension) as the Outcome of Parametrization of the First Dimension 
-When the **first dimension** is **constrained** to produce **instances** of itself, this is akin to the **assignment of value**. 
-	This process involves selecting or defining specific states within the dimension's inherent potential.
-		In this sense, **quantification** is the **outcome** of constraining the dimension to a specific state (i.e. Parametrization).
-			 It is through the **constraint** that the dimension acquires a **definite value**, allowing us to measure or count its specific instance.
-				 When we introduce a **parameter** to describe the dimension (e.g., a numerical parameter $p$ representing "length" in meters), we are **quantifying** the potential states of the dimension by assigning specific **numerical values** to its instances.
-					 For example, consider a dimension representing **length**. Before constraining it, the dimension embodies a **potential** for any length. 
-						 When we constrain it by selecting a specific instance (e.g., "1 meter"), we are **assigning a value** to that dimension.
-							This assignment effectively **quantifies** one of the potential states of the dimension.
-###### The Specific States (i.e. Instances) of the First Dimension
-The **solution sets** of equations, domains, and ranges are all determined by the interplay of parameters (which configure relationships) and the nature of the variables (representing quantities). 
-	In essence, parameters limit or configure the subsets of values that the variables can assume.
-#### The Evolution of the First Dimension: Increasing the Number of Differentiated States (within the First Dimension)
-I.e. The increase in Differentiated States (i.e. variance) within this First Dimension.
-	Increase in "values"/Instances within bounds of the First Dimension.
-$$\LARGE [0 \space 1] \to [0 \space 1 \space 01 \space 11 \space 001 \space 011 \space 111 \dots]$$
-Initially, the **dimension** represents an abstract **potential** for variability. 
-	By constraining this potential (assigning specific values), we introduce **quantification**, allowing us to specify particular instances.
-		**Parametrization** then provides a **structured way** to explore this variability further. 
-			As new parameters are introduced or existing ones are refined, the **bounds** of the dimension can **increase** to accommodate **newly recognized states** or **granularities** within its range.
-
-The **bounds** of a dimension might **increase** to include more **differentiated states** due to several possible reasons:
-- **Recognition of New Variability:** 
-	- As the understanding of the dimension evolves, it might become clear that the dimension can accommodate more types of variability than initially thought. 
-	- For instance, early human measurements were based on simple units like feet or hands. 
-		- Later, the discovery of more precise tools (rulers, measuring tapes) allowed for finer **subdivision** and **expansion** of the measurement system, effectively increasing the bounds of quantification.
-- **Introduction of New Parameters:** 
-	- New **parameters** might be introduced to further define or explore the dimension.
-	- For example, the parameterization of temperature initially allowed for "hot" and "cold" states.
-		- Over time, we introduced more **granular parameters** like degrees on a Celsius or Fahrenheit scale, effectively **expanding** the range of states that could be differentiated.
-- **Refinement of Constraints:** 
-	- The **constraints** that define the possible states of a dimension might evolve. 
-	- **For instance, a dimension initially constrained to binary states (0 and 1) might be redefined to include intermediate states (e.g., probabilities between 0 and 1).**
-		- This **refinement** expands the dimension's potential to include a continuous spectrum of differentiated states.
-#### A Second Differentiation as a Second (Independent) Dimension
-This Second Differentiated State is not in combination with the First Differentiated State (yet...).
-	The same process occurs for this Second Dimension as in the First.
-		Where this Second Dimension produces a Second Identity or Type.
-			Then the Dimension is Constrained via Parametrization, which produces the Instances  of this Second Dimension.
-				Each Instance is a Quantification (i.e. Value Assignment) of this Second Dimension.
-#### An Evolution of Differentiation: The Increase in Complexity of Constraints, Differentiated States, and thus Dimensions
-I.e. The combination of Dimensions.
-	This space now has the capacity to define **instances** (e.g., coordinates) that involve both dimensions.
-		That is, define new, more complex Identities defined by multiple Dimensions.
-
-When you **combine** the first and second dimensions, you are creating a **new entity**: a **2-dimensional space**. 
-	This combination results in a **higher-level differentiated state** that encompasses the variability of both dimensions.
-		**2D space** is not just the sum of its parts; it represents the **framework** where any point within this space is defined by **coordinates** $(x,y)$ that correspond to specific states along both dimensions.
-			The definition of this 2D space emerges **from the interplay** of the two dimensions.
-				 It provides a structure where instances are now **pairs of values** representing both "length" (x) and "width" (y). 
-					 In this way, 2D space becomes a **new identity** that can express more complex forms of differentiation than either dimension alone.
-
-**Dimensions** serve as the basic properties or aspects that define a **high-level differentiated state**.
-	They represent the potential for variance (or change) within that state.
-		Dimensions represent the **potential for change** itself, rather than the specific ways that change is constrained (which is the role of parameters).
-			This differentiation creates a basic framework where **one form of variance** (binary change) exists.
-				In this state, "0" and "1" represent a single **axis of variation**—a dimension that can toggle between two states.
 #### The Evolution of the Constraints
 ##### Dimensionality Determines the Complexity of the Potential Constraints
 The **dimensionality** of the space dictates the **complexity** of the potential constraints. 
