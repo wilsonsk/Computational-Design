@@ -1,5 +1,9 @@
 Constraints are the rules or relationships that **limit** the behavior of variables in a system, and they come in various forms depending on the nature of the system and the relationships involved. 
 	Different types of constraints influence the **values** that variables can take and the way **parameters** influence these variables. 
+## Mechanics of Constraint
+### Operations: The Fundamental Structure of Constraint
+### Parametrization: The Fundamental Characterization of Constraint
+
 ## Fundamental Constraint
 ### Equality
 They set a **fixed relationship** between variables or between variables and constants. 
