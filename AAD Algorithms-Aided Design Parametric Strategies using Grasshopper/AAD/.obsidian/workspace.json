@@ -16,7 +16,9 @@
                 "file": "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Types of Forces/Potentials.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Potentials"
             }
           },
           {
@@ -28,19 +30,19 @@
                 "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Arc Length/Parametrization by Arc Len.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Parametrization by Arc Len"
             }
           },
           {
             "id": "fde1abff7b4f84e3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Degrees of Freedom.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
@@ -52,19 +54,19 @@
                 "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Curves as Parametric Functions.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Curves as Parametric Functions"
             }
           },
           {
             "id": "22051a7fc51d827d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Axes and Dimensions.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
@@ -76,7 +78,9 @@
                 "file": "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Multi-Variable Composite Functions.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Multi-Variable Composite Functions"
             }
           },
           {
@@ -88,7 +92,9 @@
                 "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Jacobian Matrix.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Jacobian Matrix"
             }
           },
           {
@@ -102,7 +108,9 @@
                 "mode": "source",
                 "source": false
               },
-              "pinned": true
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Partial Derivatives"
             }
           },
           {
@@ -116,7 +124,23 @@
                 "mode": "source",
                 "source": false
               },
-              "pinned": true
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Gradients"
+            }
+          },
+          {
+            "id": "1c7c8cd955229dea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Drawing/My Book on Drawing/Drawing the Mechanics of Form and Force - Form-Finding in Drapery and Anatomy/1 The Fundamental Nature of Force and Planes in Form.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1 The Fundamental Nature of Force and Planes in Form"
             }
           },
           {
@@ -130,7 +154,9 @@
                 "mode": "source",
                 "source": false
               },
-              "pinned": true
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Derivatives"
             }
           },
           {
@@ -144,7 +170,9 @@
                 "mode": "source",
                 "source": false
               },
-              "pinned": true
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Mapping"
             }
           },
           {
@@ -158,7 +186,9 @@
                 "mode": "source",
                 "source": false
               },
-              "pinned": true
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Abstract Mathematical Spaces"
             }
           },
           {
@@ -170,7 +200,9 @@
                 "file": "notes to add to abstract math spaces.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "notes to add to abstract math spaces"
             }
           },
           {
@@ -184,7 +216,9 @@
                 "mode": "source",
                 "source": false
               },
-              "pinned": true
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Points as Position Vectors"
             }
           },
           {
@@ -196,7 +230,9 @@
                 "file": "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Keystone Notion/Line as a Set of Position Vectors.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Line as a Set of Position Vectors"
             }
           },
           {
@@ -210,7 +246,9 @@
                 "mode": "source",
                 "source": false
               },
-              "pinned": true
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "A Map of Change as Rates to Limits of those Rates to Differentials to Derivatives"
             }
           },
           {
@@ -224,11 +262,13 @@
                 "mode": "source",
                 "source": false
               },
-              "pinned": true
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Division"
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -248,7 +288,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -263,7 +305,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -271,15 +315,16 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a3457d95b32e7cc2",
@@ -295,7 +340,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes to add to abstract math spaces.md",
+                "file": "Drawing/My Book on Drawing/Drawing the Mechanics of Form and Force - Form-Finding in Drapery and Anatomy/1 The Fundamental Nature of Force and Planes in Form.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -303,7 +348,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 1 The Fundamental Nature of Force and Planes in Form"
             }
           },
           {
@@ -312,10 +359,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes to add to abstract math spaces.md",
+                "file": "Drawing/My Book on Drawing/Drawing the Mechanics of Form and Force - Form-Finding in Drapery and Anatomy/1 The Fundamental Nature of Force and Planes in Form.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 1 The Fundamental Nature of Force and Planes in Form"
             }
           },
           {
@@ -326,7 +375,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -335,8 +386,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes to add to abstract math spaces.md"
-              }
+                "file": "Drawing/My Book on Drawing/Drawing the Mechanics of Form and Force - Form-Finding in Drapery and Anatomy/1 The Fundamental Nature of Force and Planes in Form.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 1 The Fundamental Nature of Force and Planes in Form"
             }
           },
           {
@@ -348,7 +401,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           }
         ]
@@ -369,8 +424,13 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "5d9a89128f584bda",
+  "active": "1c7c8cd955229dea",
   "lastOpenFiles": [
+    "Drawing/My Book on Drawing/Drawing the Mechanics of Form and Force - Form-Finding in Drapery and Anatomy/Table of Contents.md",
+    "Drawing/My Book on Drawing/Drawing the Mechanics of Form and Force - Form-Finding in Drapery and Anatomy/1 The Fundamental Nature of Force and Planes in Form.md",
+    "Drawing/My Book on Drawing/Drawing the Mechanics of Form and Force - Form-Finding in Drapery and Anatomy/0 Preface.md",
+    "Drawing/My Book on Drawing/Drawing the Mechanics of Form and Force - Form-Finding in Drapery and Anatomy",
+    "Drawing/My Book on Drawing",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Spaces.md",
     "notes to add to abstract math spaces.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Linearity/Vectors as Abstract Math Obj.md",
@@ -394,10 +454,7 @@
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Keystone Notion/Normal Vector.md",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/A Map of Change as Rates to Limits of those Rates to Differentials to Derivatives.md",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets/Systems of Equations/State Vectors.md",
-    "Drawing/Technical Drafting/Horizon Line as Linear Trans..md",
     "Drawing/Technical Drafting",
-    "Data/Abstract Mathematical Spaces/Physics/Classical Mechanics/Newtonian Physics/Statics Analysis/Static Equilibrium.md",
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Linearity/Linear Combinations.md",
     "Pasted image 20240927064406.png",
     "Pasted image 20240927064312.png",
     "Pasted image 20240927062156.png",
@@ -414,8 +471,6 @@
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Untitled",
     "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Real Value Functions",
     "Data/Abstract Mathematical Spaces/Linear Algebra/Untitled",
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets",
-    "Data/ABSTRA~1/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Types of Forces",
-    "Data/ABSTRA~1/Physics/Classical Mechanics/Newtonian Physics/Dynamics Analysis/Newton's Laws of Motion"
+    "Data/Abstract Mathematical Spaces/Linear Algebra/Solution Sets"
   ]
 }
