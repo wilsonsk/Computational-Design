@@ -14,7 +14,7 @@ This book explores **how drawing can be fundamentally informed by understanding 
 
 ---
 
-## **Form-Finding as a Fundamental Process**
+## **The Fundamental Process: Form-Finding as a Stability Resolution/Equilibrium**
 
 Form-finding describes how materials respond to force and settle into their most stable shapes. This process is universal and applies across disciplines:
 

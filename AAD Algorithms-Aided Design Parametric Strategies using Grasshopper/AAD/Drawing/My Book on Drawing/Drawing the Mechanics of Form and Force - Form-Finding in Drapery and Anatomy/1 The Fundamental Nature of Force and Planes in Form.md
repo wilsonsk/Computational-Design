@@ -12,7 +12,35 @@ Drawing is not simply a matter of copying what is seen—it is the act of **inte
 
 All physical structures exist as a response to force. Whether **organic, engineered, or fabric-based**, a material’s shape is the result of its interaction with external and internal forces.
 
-- **Force**: The fundamental interaction that causes a material or object to change its state, deform, stabilize, or redistribute stress. Force flow follows predictable **load paths**, which guide how stress is distributed across a material.
+### Force:
+At its core, **force is any interaction that causes a change in motion, structure, or energy state**. Pressure is one specific way that force **manifests**—it is the **distribution of force over an area**. However, **not all forces are pressure**, and force can exist in different fundamental forms, each interacting with matter in distinct ways.
+
+Physics describes **four fundamental forces** that govern all interactions in the universe. These are:
+
+1. **Gravity** – The force that attracts masses toward one another.
+    
+    - **Acts universally** across space, affecting the formation of large-scale structures (planets, stars) and local objects (how drapery falls, how muscles hold posture).
+    - **Weak at small scales but dominant in large-scale form-finding**.
+2. **Electromagnetic Force** – The force between charged particles.
+    
+    - **Responsible for molecular cohesion and material structure**.
+    - Governs **surface tension, adhesion, and the internal resistance of materials**.
+    - **Much stronger than gravity at small scales** and plays a critical role in how materials form and behave.
+3. **Strong Nuclear Force** – The force that holds atomic nuclei together.
+    
+    - Operates at **the smallest scales, stabilizing matter itself**.
+    - Does not directly influence **macroscopic form** but is essential in the **existence of all matter**.
+4. **Weak Nuclear Force** – The force responsible for radioactive decay.
+    
+    - Primarily involved in **particle interactions at subatomic levels**.
+    - Plays no direct role in **macroscopic force redistribution or form generation**.
+
+##### Where Does Pressure Fit in?
+**Pressure is an emergent property of force interactions within a material.**
+- It is **not a separate force** but rather a **way in which a force distributes across a given surface or volume**.
+- **All fundamental forces can manifest as pressure**, depending on how they interact with matter.
+The fundamental interaction that causes a material or object to change its state, deform, stabilize, or redistribute stress. Force flow follows predictable **load paths**, which guide how stress is distributed across a material.
+
     
 - **Equilibrium and Stability**: Every form seeks **equilibrium**, a state where force is balanced to ensure stability. Instability leads to redistribution, where force must be redirected through the material.
     
