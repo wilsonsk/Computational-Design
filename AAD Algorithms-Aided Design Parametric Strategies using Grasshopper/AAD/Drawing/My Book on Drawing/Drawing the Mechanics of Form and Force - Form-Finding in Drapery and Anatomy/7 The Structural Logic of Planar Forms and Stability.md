@@ -1,4 +1,4 @@
-# **Chapter 4: The Structural Logic of Planar Forms and Stability**
+# **Chapter 7: The Structural Logic of Planar Forms and Stability**
 
 ## **Introduction**
 

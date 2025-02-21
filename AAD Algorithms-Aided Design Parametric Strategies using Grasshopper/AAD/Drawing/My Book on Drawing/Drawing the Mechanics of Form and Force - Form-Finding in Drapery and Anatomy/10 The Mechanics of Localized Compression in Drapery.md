@@ -1,4 +1,4 @@
-# Chapter 9: **The Mechanics of Localized Compression in Drapery**
+# **Chapter 10: The Mechanics of Localized Compression in Drapery**
 
 #### **1. Defining Localized Compression**
 

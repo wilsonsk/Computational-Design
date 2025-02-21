@@ -465,7 +465,7 @@ Anchor points and eyes of convergence are essential **structural nodes** that di
 - **Undergo failure or restructuring** when redistribution fails to balance force flow.
     
 
-Ultimately, **the equilibrium state of any form** is a **direct result of how anchor points restrict force and how eyes of convergence redistribute it into secondary structures**. This understanding applies across disciplines—**from drapery and anatomy to engineering and architecture—revealing universal patterns in force behavior that define form stability and transformation.
+Ultimately, **the equilibrium state of any form** is a **direct result of how anchor points restrict force and how eyes of convergence redistribute it into secondary structures**. This understanding applies across disciplines—**from drapery and anatomy to engineering and architecture—revealing universal patterns in force behavior that define form stability and transformation**.
 ### **Anchor Points and Eyes of Convergence Work Together, but They Are Not the Same**
 
 - **An anchor point is a fixed constraint that holds force in place.**

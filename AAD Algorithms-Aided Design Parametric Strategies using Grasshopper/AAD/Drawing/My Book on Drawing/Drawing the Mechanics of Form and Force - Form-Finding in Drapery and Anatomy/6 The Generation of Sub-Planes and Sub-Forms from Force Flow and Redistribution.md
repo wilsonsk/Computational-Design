@@ -1,4 +1,4 @@
-# Chapter 5: **The Generation of Sub-Planes and Sub-Forms from Force Flow and Redistribution**
+# **Chapter 6: The Generation of Sub-Planes and Sub-Forms from Force Flow and Redistribution**
 
 Understanding how **sub-planes and sub-forms emerge from the interaction of external and internal force flow** is essential to grasping the **structural evolution of form under force dynamics**. These emergent forms are not arbitrary; they appear as a **necessary response to the redistribution of force, tension, and compression**. By thoroughly analyzing **where and how force accumulates, redistributes, and stabilizes**, we can predict and construct form with structural integrity and natural fluidity.
 

@@ -1,4 +1,4 @@
-# **Chapter 6: The Structural Logic of Tubular Forms and Stability**
+# **Chapter 8: The Structural Logic of Tubular Forms and Stability**
 
 ## **Introduction**
 
