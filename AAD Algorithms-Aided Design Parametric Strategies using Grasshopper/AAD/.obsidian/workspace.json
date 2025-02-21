@@ -130,17 +130,17 @@
             }
           },
           {
-            "id": "1c7c8cd955229dea",
+            "id": "098fda0af1fbeb55",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Drawing/My Book on Drawing/Drawing the Mechanics of Form and Force - Form-Finding in Drapery and Anatomy/Table of Contents.md",
+                "file": "Drawing/My Book on Drawing/Drawing the Mechanics of Form and Force - Form-Finding in Drapery and Anatomy/4 Force Redistribution the Behavior of Materials Under Force.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Table of Contents"
+              "title": "4 Force Redistribution the Behavior of Materials Under Force"
             }
           },
           {
@@ -340,7 +340,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Drawing/My Book on Drawing/Drawing the Mechanics of Form and Force - Form-Finding in Drapery and Anatomy/Table of Contents.md",
+                "file": "Drawing/My Book on Drawing/Drawing the Mechanics of Form and Force - Form-Finding in Drapery and Anatomy/4 Force Redistribution the Behavior of Materials Under Force.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -350,7 +350,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Table of Contents"
+              "title": "Backlinks for 4 Force Redistribution the Behavior of Materials Under Force"
             }
           },
           {
@@ -359,12 +359,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Drawing/My Book on Drawing/Drawing the Mechanics of Form and Force - Form-Finding in Drapery and Anatomy/Table of Contents.md",
+                "file": "Drawing/My Book on Drawing/Drawing the Mechanics of Form and Force - Form-Finding in Drapery and Anatomy/4 Force Redistribution the Behavior of Materials Under Force.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Table of Contents"
+              "title": "Outgoing links from 4 Force Redistribution the Behavior of Materials Under Force"
             }
           },
           {
@@ -386,10 +386,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Drawing/My Book on Drawing/Drawing the Mechanics of Form and Force - Form-Finding in Drapery and Anatomy/Table of Contents.md"
+                "file": "Drawing/My Book on Drawing/Drawing the Mechanics of Form and Force - Form-Finding in Drapery and Anatomy/4 Force Redistribution the Behavior of Materials Under Force.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Table of Contents"
+              "title": "Outline of 4 Force Redistribution the Behavior of Materials Under Force"
             }
           },
           {
@@ -424,12 +424,15 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "1c7c8cd955229dea",
+  "active": "098fda0af1fbeb55",
   "lastOpenFiles": [
+    "Drawing/My Book on Drawing/Drawing the Mechanics of Form and Force - Form-Finding in Drapery and Anatomy/3 Force Flow the Behavior of External Force.md",
+    "Drawing/My Book on Drawing/Drawing the Mechanics of Form and Force - Form-Finding in Drapery and Anatomy/4 Force Redistribution the Behavior of Materials Under Force.md",
+    "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Gradients.md",
+    "Drawing/My Book on Drawing/Drawing the Mechanics of Form and Force - Form-Finding in Drapery and Anatomy/2 Force Flow and Redistribution in Form Generation.md",
+    "Drawing/My Book on Drawing/Drawing the Mechanics of Form and Force - Form-Finding in Drapery and Anatomy/Table of Contents.md",
     "Drawing/My Book on Drawing/Drawing the Mechanics of Form and Force - Form-Finding in Drapery and Anatomy/15 Radial Tension.md",
     "Drawing/My Book on Drawing/Drawing the Mechanics of Form and Force - Form-Finding in Drapery and Anatomy/12 Tension The Stretching Force That Defines Flow and Directionality.md",
-    "Drawing/My Book on Drawing/Drawing the Mechanics of Form and Force - Form-Finding in Drapery and Anatomy/2 Force Flow and Redistribution in Form Generation.md",
-    "Drawing/My Book on Drawing/Drawing the Mechanics of Form and Force - Form-Finding in Drapery and Anatomy/3 The Behavior of Materials Under Force.md",
     "Drawing/My Book on Drawing/Drawing the Mechanics of Form and Force - Form-Finding in Drapery and Anatomy/14 Variable Tension.md",
     "Drawing/My Book on Drawing/Drawing the Mechanics of Form and Force - Form-Finding in Drapery and Anatomy/13 Linear Tension.md",
     "Drawing/My Book on Drawing/Drawing the Mechanics of Form and Force - Form-Finding in Drapery and Anatomy/7 The Mechanics of Drapery - Forces, Stability, and Form Generation.md",
@@ -437,8 +440,6 @@
     "Drawing/My Book on Drawing/Drawing the Mechanics of Form and Force - Form-Finding in Drapery and Anatomy/8 Anchor Points as Convergence Zones.md",
     "Drawing/My Book on Drawing/Drawing the Mechanics of Form and Force - Form-Finding in Drapery and Anatomy/11 The Mechanics of Triangular Resolution in Drapery.md",
     "Drawing/My Book on Drawing/Drawing the Mechanics of Form and Force - Form-Finding in Drapery and Anatomy/10 The Mechanics of Distributed Compression in Drapery.md",
-    "Drawing/My Book on Drawing/Drawing the Mechanics of Form and Force - Form-Finding in Drapery and Anatomy/Table of Contents.md",
-    "Data/Abstract Mathematical Spaces/Physics/Analysis/Multivariable Calculus/Gradients.md",
     "Drawing/My Book on Drawing/Drawing the Mechanics of Form and Force - Form-Finding in Drapery and Anatomy/6 The Structural Logic of Tubular Forms and Stability.md",
     "Drawing/My Book on Drawing/Drawing the Mechanics of Form and Force - Form-Finding in Drapery and Anatomy/5 The Generation of Sub-Planes and Sub-Forms from Force Flow and Redistribution.md",
     "Drawing/My Book on Drawing/Drawing the Mechanics of Form and Force - Form-Finding in Drapery and Anatomy/4 The Structural Logic of Planar Forms and Stability.md",
@@ -453,7 +454,6 @@
     "Drawing/My Book on Drawing",
     "Data/Abstract Mathematical Spaces/Abstract Mathematical Spaces.md",
     "notes to add to abstract math spaces.md",
-    "Data/Abstract Mathematical Spaces/Linear Algebra/Linearity/Vectors as Abstract Math Obj.md",
     "Drawing/Technical Drafting",
     "Pasted image 20240927064406.png",
     "Pasted image 20240927064312.png",
