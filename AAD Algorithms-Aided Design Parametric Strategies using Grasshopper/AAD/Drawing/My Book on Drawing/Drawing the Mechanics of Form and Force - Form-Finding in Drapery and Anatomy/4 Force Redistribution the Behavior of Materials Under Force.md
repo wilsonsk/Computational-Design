@@ -399,7 +399,7 @@ Force redistribution follows a structured hierarchy across three main levels:
         
     - **Drapery:** Secondary folds that redirect the primary pull of gravity, adjusting tension throughout the fabric.
         
-### **3. Tertiary Stress-Dissipation Structures** (Fine-Tuning Adjustments and Equilibrium)**
+### **3. Tertiary Stress-Dissipation Structures (Fine-Tuning Adjustments and Equilibrium)**
 
 - **Definition:** These smaller elements **absorb residual force** that the primary and secondary structures could not fully resolve.
     
@@ -412,6 +412,7 @@ Force redistribution follows a structured hierarchy across three main levels:
     - **Anatomy:** Fascia and skin layers, which adjust to external forces and maintain surface-level structural integrity.
         
     - **Drapery:** Micro-folds and creases that emerge to dissipate remaining stress, balancing the overall form.
+#### Components of Tertiary 
 ### **Recognizing Force Hierarchy in Different Disciplines**
 
 #### **A. Engineering and Architecture**
@@ -428,7 +429,7 @@ Force redistribution follows a structured hierarchy across three main levels:
 - **Tertiary:** Micro-adjustments such as creases and wrinkles emerge to balance the load and tension.
 ---
 
-## **The Relationship Between the Eye of Convergance and Secondary/Tertiary Structures in Force Redistribution**
+## **The Relationship Between the Eye of Convergence and Secondary/Tertiary Structures in Force Redistribution**
 The relationship between **secondary and tertiary structures that redistribute and transfer force** and the **eye of convergence**, **sub-planes**, and **sub-forms** is fundamental to understanding how force resolves within a structure—whether in anatomy, drapery, or engineered forms. Let's break this down with extreme clarity and depth:
 
 When force interacts with a material, whether rigid (like bone) or flexible (like fabric), the primary force pathways define the **main structural response**. However, when **force is met with resistance**, it must be **redirected** and **redistributed**, leading to the generation of **secondary and tertiary structures** that absorb and transfer this energy.
